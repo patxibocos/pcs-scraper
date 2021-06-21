@@ -1,17 +1,13 @@
+import java.net.URL
 import java.time.LocalDate
 import java.util.*
 
-class GetTeamsAndRiders(private val docFetcher: DocFetcher, private val pcsParser: PCSParser) {
+class GetTeamsAndRiders(private val pcsParser: PCSParser) {
 
     operator fun invoke(season: Int): TeamsAndRiders {
-        val teamsDoc = docFetcher.getDoc("teams.php?year=$season&filter=Filter&s=worldtour")
-        val pcsTeams = pcsParser.parseTeamsDoc(teamsDoc).map { teamUrl ->
-            docFetcher.getDoc(teamUrl) { relaxed = true }
-        }.map(pcsParser::parseTeamDoc)
-        val pcsRiders = pcsTeams.flatMap(PCSParser.PCSTeam::riders).map { (riderUrl, riderFullName) ->
-            val riderDoc = docFetcher.getDoc(riderUrl) { relaxed = true }
-            pcsParser.parseRiderDoc(riderDoc, riderFullName)
-        }
+        val pcsTeams = pcsParser.getTeamsUrls(season).map(pcsParser::getTeam)
+        val pcsRiders = pcsTeams.flatMap(PCSTeam::riders)
+            .map { (riderUrl, riderFullName) -> pcsParser.getRider(riderUrl, riderFullName) }
         val teams = pcsTeams.map(pcsParser::pcsTeamToTeam)
         val riders = pcsRiders.map(pcsParser::pcsRiderToRider)
         return TeamsAndRiders(
@@ -33,7 +29,7 @@ data class Team(
     val abbreviation: String,
     val country: String,
     val bike: String,
-    val jerseyUrl: String,
+    val jersey: URL,
     val website: String?,
     val year: Int,
     val riders: List<String>,
@@ -55,7 +51,7 @@ data class Rider(
     val birthPlace: String?,
     val weight: Int?,
     val height: Int?,
-    val photoUrl: String,
+    val photo: URL,
 ) {
     init {
         require(country.uppercase() in Locale.getISOCountries()) {
