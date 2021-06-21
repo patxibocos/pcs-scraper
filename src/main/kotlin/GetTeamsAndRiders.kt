@@ -1,3 +1,5 @@
+import kotlinx.serialization.Contextual
+import kotlinx.serialization.Serializable
 import java.net.URL
 import java.time.LocalDate
 import java.util.*
@@ -18,18 +20,20 @@ class GetTeamsAndRiders(private val pcsParser: PCSParser) {
 
 }
 
+@Serializable
 data class TeamsAndRiders(
     val teams: List<Team>,
     val riders: List<Rider>
 )
 
+@Serializable
 data class Team(
     val id: String,
     val name: String,
     val abbreviation: String,
     val country: String,
     val bike: String,
-    val jersey: URL,
+    @Contextual val jersey: URL,
     val website: String?,
     val year: Int,
     val riders: List<String>,
@@ -41,17 +45,18 @@ data class Team(
     }
 }
 
+@Serializable
 data class Rider(
     val id: String,
     val firstName: String,
     val lastName: String,
     val country: String,
     val website: String?,
-    val birthDate: LocalDate,
+    @Contextual val birthDate: LocalDate,
     val birthPlace: String?,
     val weight: Int?,
     val height: Int?,
-    val photo: URL,
+    @Contextual val photo: URL,
 ) {
     init {
         require(country.uppercase() in Locale.getISOCountries()) {
