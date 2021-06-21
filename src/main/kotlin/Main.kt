@@ -1,19 +1,20 @@
 import java.nio.file.Paths
 
+const val pcsUrl = "https://www.procyclingstats.com/"
+
 fun main() {
     val cache = Cache(Paths.get("."))
-    val docFetcher = DocFetcher(cache)
-    val scrapper = Scrapper()
+    val docFetcher = DocFetcher(pcsUrl, cache)
+    val pcsParser = PCSParser(pcsUrl)
 
     val season = 2021
-    val teamsDoc = docFetcher.getDoc("teams.php?year=$season&filter=Filter&s=worldtour")
-    val teams = scrapper.parseTeamsDoc(teamsDoc).map { teamUrl ->
-        docFetcher.getDoc(teamUrl) { relaxed = true }
-    }.map(scrapper::parseTeamDoc)
-    val riders = teams.flatMap(Scrapper.Team::riders).map { teamRider ->
-        val riderDoc = docFetcher.getDoc(teamRider.id) { relaxed = true }
-        scrapper.parseRiderDoc(riderDoc, teamRider.fullName)
-    }
+    val (teams, riders) = GetTeamsAndRiders(
+        docFetcher = docFetcher,
+        pcsParser = pcsParser
+    )(season = season)
+
+    teams.forEach(::println)
+    riders.forEach(::println)
     println("${teams.size} teams scrapped")
     println("${riders.size} riders scrapped")
 }
