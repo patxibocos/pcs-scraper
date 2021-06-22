@@ -13,6 +13,7 @@ class GetTeamsAndRiders(private val pcsParser: PCSParser) {
         val teams = pcsTeams.map(pcsParser::pcsTeamToTeam)
         val riders = pcsRiders.map(pcsParser::pcsRiderToRider)
         return TeamsAndRiders(
+            season = season,
             teams = teams,
             riders = riders,
         )
@@ -22,6 +23,7 @@ class GetTeamsAndRiders(private val pcsParser: PCSParser) {
 
 @Serializable
 data class TeamsAndRiders(
+    val season: Int,
     val teams: List<Team>,
     val riders: List<Rider>
 )

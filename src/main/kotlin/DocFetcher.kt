@@ -3,8 +3,8 @@ import it.skrape.selects.Doc
 import java.net.URL
 
 class DocFetcher(
-    private val cache: Cache? = null,
-    private val forceRemoteFetching: Boolean = false,
+    private val cache: Cache?,
+    private val skipCache: Boolean,
 ) {
 
     fun getDoc(
@@ -12,7 +12,7 @@ class DocFetcher(
         init: (Doc.() -> Unit)? = null,
     ): Doc {
         val cacheKey = docURL.file.dropWhile { it == '/' }
-        val cacheContent = if (!forceRemoteFetching && cache != null) cache.get(cacheKey) else null
+        val cacheContent = if (!skipCache && cache != null) cache.get(cacheKey) else null
         if (cacheContent != null) {
             return htmlDocument(cacheContent) {
                 init?.invoke(this)
