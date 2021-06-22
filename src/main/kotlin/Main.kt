@@ -8,7 +8,7 @@ import java.nio.file.Paths
 const val pcsUrl = "https://www.procyclingstats.com"
 
 fun main(args: Array<String>) {
-    val (season, cachePath, output, _, skipCache) = getAppArgs(args)
+    val (season, cachePath, output, format, skipCache) = getAppArgs(args)
 
     val cache = cachePath?.let { Cache(Paths.get(it)) }
     val docFetcher = DocFetcher(cache, skipCache)
@@ -18,7 +18,7 @@ fun main(args: Array<String>) {
     val teamsAndRiders = GetTeamsAndRiders(pcsParser = pcsParser)(season = season)
 
     val serialized = serializer.serialize(teamsAndRiders)
-    with(File(Paths.get(output).toUri())) {
+    with(File(Paths.get("$output.$format").toUri())) {
         parentFile.mkdirs()
         writeText(serialized)
     }
