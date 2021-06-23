@@ -15,12 +15,14 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         val teamsDoc = docFetcher.getDoc(teamsURL)
         return teamsDoc.ul {
             withClass = "list" and "fs14" and "columns2" and "mob_columns1"
-            findFirst { this }
-        }.li {
-            findAll {
-                map {
-                    it.div {
-                        a { findFirst { attribute("href") } }
+            findAll { this }
+        }.flatMap { teamDocElement ->
+            teamDocElement.li {
+                findAll {
+                    map {
+                        it.div {
+                            a { findFirst { attribute("href") } }
+                        }
                     }
                 }
             }
@@ -33,6 +35,13 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         val infoList = teamDoc.ul {
             withClass = "infolist"
             this
+        }
+        val status = infoList.li {
+            findFirst {
+                div {
+                    findSecond { ownText }
+                }
+            }
         }
         val abbreviation = infoList.li {
             findSecond {
@@ -84,6 +93,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         return PCSTeam(
             url = teamUrl,
             name = teamName,
+            status = status,
             abbreviation = abbreviation,
             country = teamCountry,
             bike = bike,
@@ -157,6 +167,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         Team(
             id = pcsTeam.url.split("/").last(),
             name = pcsTeam.name,
+            status = TeamStatus.valueOf(pcsTeam.status),
             abbreviation = pcsTeam.abbreviation,
             country = pcsTeam.country.uppercase(),
             bike = pcsTeam.bike,
@@ -206,6 +217,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
 data class PCSTeam(
     val url: String,
     val name: String,
+    val status: String,
     val abbreviation: String,
     val country: String,
     val bike: String,

@@ -28,10 +28,15 @@ data class TeamsAndRiders(
     val riders: List<Rider>
 )
 
+enum class TeamStatus {
+    WT, PRT
+}
+
 @Serializable
 data class Team(
     val id: String,
     val name: String,
+    val status: TeamStatus,
     val abbreviation: String,
     val country: String,
     val bike: String,
