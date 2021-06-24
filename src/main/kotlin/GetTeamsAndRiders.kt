@@ -8,10 +8,13 @@ class GetTeamsAndRiders(private val pcsParser: PCSParser) {
 
     operator fun invoke(season: Int): TeamsAndRiders {
         val pcsTeams = pcsParser.getTeamsUrls(season).map(pcsParser::getTeam)
-        val pcsRiders = pcsTeams.flatMap(PCSTeam::riders)
+        val pcsRiders = pcsTeams
+            .flatMap(PCSTeam::riders)
             .map { (riderUrl, riderFullName) -> pcsParser.getRider(riderUrl, riderFullName) }
+            .distinctBy { it.url }
         val teams = pcsTeams.map(pcsParser::pcsTeamToTeam)
         val riders = pcsRiders.map(pcsParser::pcsRiderToRider)
+
         return TeamsAndRiders(
             season = season,
             teams = teams,
