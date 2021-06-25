@@ -13,24 +13,31 @@ fun main(args: Array<String>) {
     val cache = cachePath?.let { Cache(Paths.get(it)) }
     val docFetcher = DocFetcher(cache, skipCache)
     val pcsParser = PCSParser(docFetcher, pcsUrl)
-    val serializer = Serializer()
 
     val teamsAndRiders = GetTeamsAndRiders(pcsParser = pcsParser)(season = season)
 
-    val serialized = serializer.serialize(teamsAndRiders)
-    with(File(Paths.get("$output.$format").toUri())) {
-        parentFile.mkdirs()
-        writeText(serialized)
+    val destination = File(Paths.get(output).toUri()).also {
+        it.parentFile.mkdirs()
+        it.delete()
     }
+    val exporter: Exporter = when (format) {
+        Format.JSON -> JsonExporter()
+        Format.SQLITE -> SQLiteExporter()
+    }
+    exporter.export(teamsAndRiders, destination)
 }
 
 private data class AppArgs(
     val season: Int,
     val cachePath: String?,
     val output: String,
-    val format: String,
+    val format: Format,
     val skipCache: Boolean,
 )
+
+private enum class Format {
+    JSON, SQLITE
+}
 
 private fun getAppArgs(args: Array<String>): AppArgs {
     val parser = ArgParser("pcs-scrapper")
@@ -38,17 +45,17 @@ private fun getAppArgs(args: Array<String>): AppArgs {
     val cachePath by parser.option(ArgType.String, shortName = "c", description = "Cache path")
     val output by parser.option(ArgType.String, shortName = "o", description = "Output file path").required()
     val format by parser.option(
-        ArgType.Choice(listOf("json"), { it }),
+        ArgType.Choice(listOf("json", "sqlite"), { it }),
         shortName = "f",
         description = "Output file format"
-    ).default("json")
+    ).required()
     val skipCache by parser.option(ArgType.Boolean, shortName = "sc", description = "Skip cache").default(false)
     parser.parse(args)
     return AppArgs(
         season = season,
         cachePath = cachePath,
         output = output,
-        format = format,
+        format = Format.valueOf(format.uppercase()),
         skipCache = skipCache,
     )
 }
