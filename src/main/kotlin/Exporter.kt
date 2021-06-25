@@ -15,8 +15,19 @@ import java.net.URL
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
+enum class Format {
+    JSON, SQLITE
+}
+
 interface Exporter {
     fun export(teamsAndRiders: TeamsAndRiders, destination: File)
+
+    companion object {
+        fun from(format: Format): Exporter = when (format) {
+            Format.JSON -> JsonExporter()
+            Format.SQLITE -> SQLiteExporter()
+        }
+    }
 }
 
 class JsonExporter : Exporter {

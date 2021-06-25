@@ -20,10 +20,7 @@ fun main(args: Array<String>) {
         it.parentFile.mkdirs()
         it.delete()
     }
-    val exporter: Exporter = when (format) {
-        Format.JSON -> JsonExporter()
-        Format.SQLITE -> SQLiteExporter()
-    }
+    val exporter: Exporter = Exporter.from(format)
     exporter.export(teamsAndRiders, destination)
 }
 
@@ -34,10 +31,6 @@ private data class AppArgs(
     val format: Format,
     val skipCache: Boolean,
 )
-
-private enum class Format {
-    JSON, SQLITE
-}
 
 private fun getAppArgs(args: Array<String>): AppArgs {
     val parser = ArgParser("pcs-scrapper")
