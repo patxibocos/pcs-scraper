@@ -2,7 +2,6 @@ import kotlinx.cli.ArgParser
 import kotlinx.cli.ArgType
 import kotlinx.cli.default
 import kotlinx.cli.required
-import java.io.File
 import java.nio.file.Paths
 
 const val pcsUrl = "https://www.procyclingstats.com"
@@ -16,12 +15,8 @@ fun main(args: Array<String>) {
 
     val teamsAndRiders = GetTeamsAndRiders(pcsParser = pcsParser)(season = season)
 
-    val destination = File(Paths.get(output).toUri()).also {
-        it.parentFile.mkdirs()
-        it.delete()
-    }
-    val exporter: Exporter = Exporter.from(format)
-    exporter.export(teamsAndRiders, destination)
+    val exporter: Exporter = Exporter.from(output, format)
+    exporter.export(teamsAndRiders)
 }
 
 private data class AppArgs(
@@ -38,7 +33,7 @@ private fun getAppArgs(args: Array<String>): AppArgs {
     val cachePath by parser.option(ArgType.String, shortName = "c", description = "Cache path")
     val output by parser.option(ArgType.String, shortName = "o", description = "Output file path").required()
     val format by parser.option(
-        ArgType.Choice(listOf("json", "sqlite"), { it }),
+        ArgType.Choice(Format.values().map { it.name.lowercase() }, { it }),
         shortName = "f",
         description = "Output file format"
     ).required()

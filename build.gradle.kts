@@ -24,7 +24,7 @@ dependencies {
     implementation("it.skrape:skrapeit:1.1.3")
     implementation("org.jetbrains.kotlinx:kotlinx-cli-jvm:0.3.2")
     implementation("org.jetbrains.kotlinx:kotlinx-serialization-json:1.2.1")
-    implementation("org.xerial:sqlite-jdbc:3.34.0")
+    implementation("org.xerial:sqlite-jdbc:3.36.0")
     implementation("org.jetbrains.exposed:exposed-core:0.32.1")
     implementation("org.jetbrains.exposed:exposed-jdbc:0.32.1")
 }

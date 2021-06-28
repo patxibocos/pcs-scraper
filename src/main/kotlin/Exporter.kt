@@ -12,6 +12,7 @@ import org.jetbrains.exposed.sql.*
 import org.jetbrains.exposed.sql.transactions.transaction
 import java.io.File
 import java.net.URL
+import java.nio.file.Paths
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
@@ -20,17 +21,25 @@ enum class Format {
 }
 
 interface Exporter {
-    fun export(teamsAndRiders: TeamsAndRiders, destination: File)
+    val destination: File
+
+    fun export(teamsAndRiders: TeamsAndRiders)
 
     companion object {
-        fun from(format: Format): Exporter = when (format) {
-            Format.JSON -> JsonExporter()
-            Format.SQLITE -> SQLiteExporter()
+        fun from(output: String, format: Format): Exporter {
+            val destination = File(Paths.get(output).toUri()).also {
+                it.parentFile.mkdirs()
+                it.delete()
+            }
+            return when (format) {
+                Format.JSON -> JsonExporter(destination)
+                Format.SQLITE -> SQLiteExporter(destination)
+            }
         }
     }
 }
 
-class JsonExporter : Exporter {
+private class JsonExporter(override val destination: File) : Exporter {
 
     private val json: Json = Json {
         serializersModule = SerializersModule {
@@ -60,14 +69,14 @@ class JsonExporter : Exporter {
             URL(decoder.decodeString())
     }
 
-    override fun export(teamsAndRiders: TeamsAndRiders, destination: File) {
+    override fun export(teamsAndRiders: TeamsAndRiders) {
         val serialized = json.encodeToString(teamsAndRiders)
-        destination.writeText(serialized)
+        this.destination.writeText(serialized)
     }
 
 }
 
-class SQLiteExporter : Exporter {
+private class SQLiteExporter(override val destination: File) : Exporter {
 
     object DbTeam : Table(name = "team") {
         val id = text("id")
@@ -101,10 +110,8 @@ class SQLiteExporter : Exporter {
             get() = PrimaryKey(id, name = "id")
     }
 
-    override fun export(teamsAndRiders: TeamsAndRiders, destination: File) {
-//        val connection = DriverManager.getConnection("jdbc:sqlite:${destination.absolutePath}")
-//        Database.connect(getNewConnection = { connection })
-        Database.connect("jdbc:sqlite:${destination.absolutePath}", "org.sqlite.JDBC")
+    override fun export(teamsAndRiders: TeamsAndRiders) {
+        Database.connect("jdbc:sqlite:${this.destination.absolutePath}", "org.sqlite.JDBC")
         transaction {
             addLogger(StdOutSqlLogger)
 
