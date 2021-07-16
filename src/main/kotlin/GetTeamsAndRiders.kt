@@ -1,7 +1,6 @@
 import kotlinx.serialization.Contextual
 import kotlinx.serialization.Serializable
 import java.net.URL
-import java.text.Collator
 import java.time.LocalDate
 import java.util.*
 
@@ -9,20 +8,16 @@ class GetTeamsAndRiders(private val pcsParser: PCSParser) {
 
     operator fun invoke(season: Int): TeamsAndRiders {
         val pcsTeams = pcsParser.getTeamsUrls(season).map(pcsParser::getTeam)
-        val pcsRiders = pcsTeams
-            .flatMap(PCSTeam::riders)
-            .map { (riderUrl, riderFullName) -> pcsParser.getRider(riderUrl, riderFullName) }
-            .distinctBy { it.url }
-        val usCollator = Collator.getInstance(Locale.US)
-        val teams = pcsTeams.map(pcsParser::pcsTeamToTeam).sortedBy { it.name }
-        val ridersComparator = compareBy(usCollator) { r: Rider -> r.lastName.lowercase() }
-            .thenBy(usCollator) { r: Rider -> r.firstName.lowercase() }
-        val riders = pcsRiders.map(pcsParser::pcsRiderToRider).sortedWith(ridersComparator)
+        val teams = pcsTeams.map { pcsTeam ->
+            val teamRiders =
+                pcsTeam.riders.map { (riderUrl, riderFullName) -> pcsParser.getRider(riderUrl, riderFullName) }
+                    .map(pcsParser::pcsRiderToRider)
+            pcsParser.pcsTeamToTeam(pcsTeam, teamRiders)
+        }.sortedBy { it.name }
 
         return TeamsAndRiders(
             season = season,
             teams = teams,
-            riders = riders,
         )
     }
 
@@ -32,7 +27,6 @@ class GetTeamsAndRiders(private val pcsParser: PCSParser) {
 data class TeamsAndRiders(
     val season: Int,
     val teams: List<Team>,
-    val riders: List<Rider>
 )
 
 enum class TeamStatus {
@@ -50,7 +44,7 @@ data class Team(
     @Contextual val jersey: URL,
     val website: String?,
     val year: Int,
-    val riders: List<String>,
+    val riders: List<Rider>,
 ) {
     init {
         require(country.uppercase() in Locale.getISOCountries()) {

@@ -5,7 +5,6 @@ import java.net.URI
 import java.net.URL
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
-import java.util.*
 import kotlin.math.max
 
 class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) {
@@ -36,6 +35,23 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
             withClass = "infolist"
             this
         }
+//        val grandToursGroup = teamDoc.ul {
+//            withClass = "ftr-list"
+//            li {
+//                findFirst { this }
+//            }
+//        }
+//        val grandTours = grandToursGroup.ul {
+//            li {
+//                findAll {
+//                    map {
+//                        it.a {
+//                            findFirst { attribute("href") }
+//                        }
+//                    }
+//                }
+//            }
+//        }
         val status = infoList.li {
             findFirst {
                 div {
@@ -163,7 +179,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         )
     }
 
-    fun pcsTeamToTeam(pcsTeam: PCSTeam): Team =
+    fun pcsTeamToTeam(pcsTeam: PCSTeam, riders: List<Rider>): Team =
         Team(
             id = pcsTeam.url.split("/").last(),
             name = pcsTeam.name,
@@ -174,7 +190,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
             jersey = buildURL(pcsTeam.jersey),
             website = pcsTeam.website,
             year = pcsTeam.year,
-            riders = pcsTeam.riders.map(Pair<String, String>::first).map { it.split("/").last() }
+            riders = riders
         )
 
     fun pcsRiderToRider(pcsRider: PCSRider): Rider {

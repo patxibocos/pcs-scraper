@@ -88,7 +88,6 @@ private class SQLiteExporter(override val destination: File) : Exporter {
         val jersey = text("jersey")
         val website = text("website").nullable()
         val year = integer("year")
-        val riders = text("riders")
 
         override val primaryKey: PrimaryKey
             get() = PrimaryKey(id, name = "id")
@@ -105,6 +104,7 @@ private class SQLiteExporter(override val destination: File) : Exporter {
         val weight = integer("weight").nullable()
         val height = integer("height").nullable()
         val photo = text("photo")
+        val team = text("team_id") references DbTeam.id
 
         override val primaryKey: PrimaryKey
             get() = PrimaryKey(id, name = "id")
@@ -127,21 +127,21 @@ private class SQLiteExporter(override val destination: File) : Exporter {
                     it[jersey] = team.jersey.toString()
                     it[website] = team.website
                     it[year] = team.year
-                    it[riders] = Json.encodeToString(team.riders)
                 }
-            }
-            teamsAndRiders.riders.map { rider ->
-                DbRider.insert {
-                    it[id] = rider.id
-                    it[firstName] = rider.firstName
-                    it[lastName] = rider.lastName
-                    it[country] = rider.country
-                    it[website] = rider.website
-                    it[birthDate] = rider.birthDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
-                    it[birthPlace] = rider.birthPlace
-                    it[weight] = rider.weight
-                    it[height] = rider.height
-                    it[photo] = rider.photo.toString()
+                team.riders.map { rider ->
+                    DbRider.insert {
+                        it[id] = rider.id
+                        it[firstName] = rider.firstName
+                        it[lastName] = rider.lastName
+                        it[country] = rider.country
+                        it[website] = rider.website
+                        it[birthDate] = rider.birthDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
+                        it[birthPlace] = rider.birthPlace
+                        it[weight] = rider.weight
+                        it[height] = rider.height
+                        it[photo] = rider.photo.toString()
+                        it[DbRider.team] = team.id
+                    }
                 }
             }
         }
