@@ -179,7 +179,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         )
     }
 
-    fun pcsTeamToTeam(pcsTeam: PCSTeam, riders: List<Rider>): Team =
+    fun pcsTeamToTeam(pcsTeam: PCSTeam): Team =
         Team(
             id = pcsTeam.url.split("/").last(),
             name = pcsTeam.name,
@@ -190,7 +190,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
             jersey = buildURL(pcsTeam.jersey),
             website = pcsTeam.website,
             year = pcsTeam.year,
-            riders = riders
+            riders = pcsTeam.riders.map(Pair<String, String>::first).map { it.split("/").last() }
         )
 
     fun pcsRiderToRider(pcsRider: PCSRider): Rider {

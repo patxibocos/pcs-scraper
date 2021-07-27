@@ -9,6 +9,7 @@ import kotlinx.serialization.json.Json
 import kotlinx.serialization.modules.SerializersModule
 import kotlinx.serialization.modules.contextual
 import org.jetbrains.exposed.sql.*
+import org.jetbrains.exposed.sql.statements.InsertStatement
 import org.jetbrains.exposed.sql.transactions.transaction
 import java.io.File
 import java.net.URL
@@ -23,17 +24,17 @@ enum class Format {
 interface Exporter {
     val destination: File
 
-    fun export(teamsAndRiders: TeamsAndRiders)
+    fun exportTeams(teams: List<Team>)
+    fun exportRiders(riders: List<Rider>)
 
     companion object {
-        fun from(output: String, format: Format): Exporter {
-            val destination = File(Paths.get(output).toUri()).also {
-                it.parentFile.mkdirs()
-                it.delete()
+        fun from(destinationPath: String, format: Format): Exporter {
+            val destination = File(Paths.get(destinationPath).toUri()).also {
+                it.mkdirs()
             }
             return when (format) {
                 Format.JSON -> JsonExporter(destination)
-                Format.SQLITE -> SQLiteExporter(destination)
+                Format.SQLITE -> SQLiteExporter(destination.resolve("db.sqlite"))
             }
         }
     }
@@ -69,16 +70,40 @@ private class JsonExporter(override val destination: File) : Exporter {
             URL(decoder.decodeString())
     }
 
-    override fun export(teamsAndRiders: TeamsAndRiders) {
-        val serialized = json.encodeToString(teamsAndRiders)
-        this.destination.writeText(serialized)
+    override fun exportRiders(riders: List<Rider>) {
+        exportToJson(riders, "riders.json")
     }
 
+    override fun exportTeams(teams: List<Team>) {
+        exportToJson(teams, "teams.json")
+    }
+
+    private inline fun <reified T> exportToJson(data: T, fileName: String) {
+        val serialized = json.encodeToString(data)
+        this.destination.resolve(fileName).writeText(serialized)
+    }
 }
 
 private class SQLiteExporter(override val destination: File) : Exporter {
 
-    object DbTeam : Table(name = "team") {
+    private fun <T> connectToDbAndInsert(table: DbTable<T>, data: List<T>) {
+        Database.connect("jdbc:sqlite:${this.destination.absolutePath}", "org.sqlite.JDBC")
+        transaction {
+            addLogger(StdOutSqlLogger)
+            SchemaUtils.create(table)
+            data.map { t: T ->
+                table.insert {
+                    table.fillInsertStatement(it, t)
+                }
+            }
+        }
+    }
+
+    abstract class DbTable<T>(name: String) : Table(name = name) {
+        abstract fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: T)
+    }
+
+    object DbTeam : DbTable<Team>(name = "team") {
         val id = text("id")
         val name = text("name")
         val status = text("status")
@@ -88,12 +113,26 @@ private class SQLiteExporter(override val destination: File) : Exporter {
         val jersey = text("jersey")
         val website = text("website").nullable()
         val year = integer("year")
+        val riders = text("riders")
 
         override val primaryKey: PrimaryKey
             get() = PrimaryKey(id, name = "id")
+
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Team) {
+            insertStatement[id] = t.id
+            insertStatement[name] = t.name
+            insertStatement[status] = t.status.name
+            insertStatement[abbreviation] = t.abbreviation
+            insertStatement[country] = t.country
+            insertStatement[bike] = t.bike
+            insertStatement[jersey] = t.jersey.toString()
+            insertStatement[website] = t.website
+            insertStatement[year] = t.year
+            insertStatement[riders] = Json.encodeToString(t.riders)
+        }
     }
 
-    object DbRider : Table(name = "rider") {
+    object DbRider : DbTable<Rider>(name = "rider") {
         val id = text("id")
         val firstName = text("first_name")
         val lastName = text("last_name")
@@ -104,47 +143,29 @@ private class SQLiteExporter(override val destination: File) : Exporter {
         val weight = integer("weight").nullable()
         val height = integer("height").nullable()
         val photo = text("photo")
-        val team = text("team_id") references DbTeam.id
 
         override val primaryKey: PrimaryKey
             get() = PrimaryKey(id, name = "id")
-    }
 
-    override fun export(teamsAndRiders: TeamsAndRiders) {
-        Database.connect("jdbc:sqlite:${this.destination.absolutePath}", "org.sqlite.JDBC")
-        transaction {
-            addLogger(StdOutSqlLogger)
-
-            SchemaUtils.create(DbTeam, DbRider)
-            teamsAndRiders.teams.map { team ->
-                DbTeam.insert {
-                    it[id] = team.id
-                    it[name] = team.name
-                    it[status] = team.status.name
-                    it[abbreviation] = team.abbreviation
-                    it[country] = team.country
-                    it[bike] = team.bike
-                    it[jersey] = team.jersey.toString()
-                    it[website] = team.website
-                    it[year] = team.year
-                }
-                team.riders.map { rider ->
-                    DbRider.insert {
-                        it[id] = rider.id
-                        it[firstName] = rider.firstName
-                        it[lastName] = rider.lastName
-                        it[country] = rider.country
-                        it[website] = rider.website
-                        it[birthDate] = rider.birthDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
-                        it[birthPlace] = rider.birthPlace
-                        it[weight] = rider.weight
-                        it[height] = rider.height
-                        it[photo] = rider.photo.toString()
-                        it[DbRider.team] = team.id
-                    }
-                }
-            }
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Rider) {
+            insertStatement[id] = t.id
+            insertStatement[firstName] = t.firstName
+            insertStatement[lastName] = t.lastName
+            insertStatement[country] = t.country
+            insertStatement[website] = t.website
+            insertStatement[birthDate] = t.birthDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
+            insertStatement[birthPlace] = t.birthPlace
+            insertStatement[weight] = t.weight
+            insertStatement[height] = t.height
+            insertStatement[photo] = t.photo.toString()
         }
     }
 
+    override fun exportTeams(teams: List<Team>) {
+        connectToDbAndInsert(DbTeam, teams)
+    }
+
+    override fun exportRiders(riders: List<Rider>) {
+        connectToDbAndInsert(DbRider, riders)
+    }
 }
