@@ -26,6 +26,7 @@ interface Exporter {
 
     fun exportTeams(teams: List<Team>)
     fun exportRiders(riders: List<Rider>)
+    fun exportWorldTourCalendar(worldTourCalendar: List<Race>)
 
     companion object {
         fun from(destinationPath: String, format: Format): Exporter {
@@ -74,6 +75,10 @@ private class JsonExporter(override val destination: File) : Exporter {
         exportToJson(riders, "riders.json")
     }
 
+    override fun exportWorldTourCalendar(worldTourCalendar: List<Race>) {
+        exportToJson(worldTourCalendar, "calendar.json")
+    }
+
     override fun exportTeams(teams: List<Team>) {
         exportToJson(teams, "teams.json")
     }
@@ -91,7 +96,7 @@ private class SQLiteExporter(override val destination: File) : Exporter {
         transaction {
             addLogger(StdOutSqlLogger)
             SchemaUtils.create(table)
-            data.map { t: T ->
+            data.forEach { t: T ->
                 table.insert {
                     table.fillInsertStatement(it, t)
                 }
@@ -161,11 +166,34 @@ private class SQLiteExporter(override val destination: File) : Exporter {
         }
     }
 
+    object DbRace : DbTable<Race>(name = "race") {
+        val id = text("id")
+        val name = text("name")
+        val startDate = text("start_date")
+        val endDate = text("end_date")
+        val website = text("website").nullable()
+
+        override val primaryKey: PrimaryKey
+            get() = PrimaryKey(id, name = "id")
+
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race) {
+            insertStatement[id] = t.id
+            insertStatement[name] = t.name
+            insertStatement[startDate] = t.startDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
+            insertStatement[endDate] = t.endDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
+            insertStatement[website] = t.website
+        }
+    }
+
     override fun exportTeams(teams: List<Team>) {
         connectToDbAndInsert(DbTeam, teams)
     }
 
     override fun exportRiders(riders: List<Rider>) {
         connectToDbAndInsert(DbRider, riders)
+    }
+
+    override fun exportWorldTourCalendar(worldTourCalendar: List<Race>) {
+        connectToDbAndInsert(DbRace, worldTourCalendar)
     }
 }

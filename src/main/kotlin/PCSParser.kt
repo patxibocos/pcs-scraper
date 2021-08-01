@@ -28,6 +28,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         }
     }
 
+    @Suppress("DuplicatedCode")
     fun getTeam(teamUrl: String): PCSTeam {
         val teamURL = buildURL(teamUrl)
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
@@ -35,23 +36,6 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
             withClass = "infolist"
             this
         }
-//        val grandToursGroup = teamDoc.ul {
-//            withClass = "ftr-list"
-//            li {
-//                findFirst { this }
-//            }
-//        }
-//        val grandTours = grandToursGroup.ul {
-//            li {
-//                findAll {
-//                    map {
-//                        it.a {
-//                            findFirst { attribute("href") }
-//                        }
-//                    }
-//                }
-//            }
-//        }
         val status = infoList.li {
             findFirst {
                 div {
@@ -179,6 +163,73 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         )
     }
 
+    fun getWorldTourCalendarRacesUrls(): List<String> {
+        val calendarUrl = buildURL("calendar/wt-calendar-chart")
+        val calendarDoc = docFetcher.getDoc(calendarUrl)
+        return calendarDoc.ul {
+            withClass = "gantt"
+            li {
+                findAll {
+                    map {
+                        val raceLink = it.a { findFirst { this } }
+                        val raceUrl = raceLink.attribute("href")
+                        raceUrl
+                    }
+                }
+
+            }
+        }
+    }
+
+    @Suppress("DuplicatedCode")
+    fun getRace(raceUrl: String): PCSRace {
+        val raceURL = buildURL(raceUrl)
+        val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
+        val infoList = raceDoc.ul {
+            withClass = "infolist"
+            this
+        }
+        val startDate = infoList.li {
+            findFirst {
+                div {
+                    findSecond { ownText }
+                }
+            }
+        }
+        val endDate = infoList.li {
+            findSecond {
+                div {
+                    findSecond { ownText }
+                }
+            }
+        }
+        val name = raceDoc.div {
+            withClass = "main"
+            h1 { findFirst { text } }
+        }
+        val websites = raceDoc.ul {
+            withClass = "list" and "circle" and "bluelink" and "fs14"
+            li {
+                findAll {
+                    map {
+                        it.a {
+                            findFirst { attribute("href") }
+                        }
+                    }
+                }
+            }
+        }
+        val website =
+            websites.firstOrNull { !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") }
+        return PCSRace(
+            url = raceUrl,
+            name = name,
+            startDate = startDate,
+            endDate = endDate,
+            website = website,
+        )
+    }
+
     fun pcsTeamToTeam(pcsTeam: PCSTeam): Team =
         Team(
             id = pcsTeam.url.split("/").last(),
@@ -210,6 +261,15 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
             photo = buildURL(pcsRider.photo),
         )
     }
+
+    fun pcsRaceToRace(pcsRace: PCSRace): Race =
+        Race(
+            id = pcsRace.url,
+            name = pcsRace.name,
+            startDate = LocalDate.parse(pcsRace.startDate, DateTimeFormatter.ISO_LOCAL_DATE),
+            endDate = LocalDate.parse(pcsRace.endDate, DateTimeFormatter.ISO_LOCAL_DATE),
+            website = pcsRace.website,
+        )
 
     private fun Doc.getElementWebsite(): String? =
         this.ul {
@@ -264,3 +324,11 @@ data class PCSRider(
     }
 
 }
+
+data class PCSRace(
+    val url: String,
+    val name: String,
+    val startDate: String,
+    val endDate: String,
+    val website: String?
+)

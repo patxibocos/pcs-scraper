@@ -15,11 +15,12 @@ fun main(args: Array<String>) {
 
     val teams = GetTeams(pcsParser = pcsParser)(season = season)
     val riders = GetRiders(pcsParser = pcsParser)(season = season)
-    val upcomingRaces = GetUpcomingRaces(pcsParser = pcsParser)()
+    val worldTourCalendar = GetWorldTourCalendar(pcsParser = pcsParser)()
 
     val exporter: Exporter = Exporter.from(destination, format)
     exporter.exportTeams(teams)
     exporter.exportRiders(riders)
+    exporter.exportWorldTourCalendar(worldTourCalendar)
 }
 
 private data class AppArgs(
