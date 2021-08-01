@@ -163,7 +163,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         )
     }
 
-    fun getWorldTourCalendarRacesUrls(): List<String> {
+    fun getRacesUrls(): List<String> {
         val calendarUrl = buildURL("calendar/wt-calendar-chart")
         val calendarDoc = docFetcher.getDoc(calendarUrl)
         return calendarDoc.ul {
@@ -264,7 +264,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
 
     fun pcsRaceToRace(pcsRace: PCSRace): Race =
         Race(
-            id = pcsRace.url,
+            id = pcsRace.url.split("/").dropLast(1).takeLast(2).joinToString("/"),
             name = pcsRace.name,
             startDate = LocalDate.parse(pcsRace.startDate, DateTimeFormatter.ISO_LOCAL_DATE),
             endDate = LocalDate.parse(pcsRace.endDate, DateTimeFormatter.ISO_LOCAL_DATE),

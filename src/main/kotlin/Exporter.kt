@@ -26,7 +26,7 @@ interface Exporter {
 
     fun exportTeams(teams: List<Team>)
     fun exportRiders(riders: List<Rider>)
-    fun exportWorldTourCalendar(worldTourCalendar: List<Race>)
+    fun exportRaces(races: List<Race>)
 
     companion object {
         fun from(destinationPath: String, format: Format): Exporter {
@@ -75,8 +75,8 @@ private class JsonExporter(override val destination: File) : Exporter {
         exportToJson(riders, "riders.json")
     }
 
-    override fun exportWorldTourCalendar(worldTourCalendar: List<Race>) {
-        exportToJson(worldTourCalendar, "calendar.json")
+    override fun exportRaces(races: List<Race>) {
+        exportToJson(races, "races.json")
     }
 
     override fun exportTeams(teams: List<Team>) {
@@ -193,7 +193,7 @@ private class SQLiteExporter(override val destination: File) : Exporter {
         connectToDbAndInsert(DbRider, riders)
     }
 
-    override fun exportWorldTourCalendar(worldTourCalendar: List<Race>) {
-        connectToDbAndInsert(DbRace, worldTourCalendar)
+    override fun exportRaces(races: List<Race>) {
+        connectToDbAndInsert(DbRace, races)
     }
 }

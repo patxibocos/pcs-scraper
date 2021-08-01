@@ -2,10 +2,10 @@ import kotlinx.serialization.Contextual
 import kotlinx.serialization.Serializable
 import java.time.LocalDate
 
-class GetWorldTourCalendar(private val pcsParser: PCSParser) {
+class GetWorldTourRaces(private val pcsParser: PCSParser) {
 
     operator fun invoke(): List<Race> {
-        val pcsRaces = pcsParser.getWorldTourCalendarRacesUrls().map(pcsParser::getRace).sortedBy { it.startDate }
+        val pcsRaces = pcsParser.getRacesUrls().map(pcsParser::getRace).sortedBy { it.startDate }
         return pcsRaces.map(pcsParser::pcsRaceToRace)
     }
 
