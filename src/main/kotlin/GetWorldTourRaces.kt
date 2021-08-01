@@ -18,4 +18,11 @@ data class Race(
     @Contextual val startDate: LocalDate,
     @Contextual val endDate: LocalDate,
     val website: String?,
+    val stages: List<Stage>,
+)
+
+@Serializable
+data class Stage(
+    val id: String,
+    @Contextual val startDate: LocalDate,
 )

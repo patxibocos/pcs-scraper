@@ -185,6 +185,29 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
     fun getRace(raceUrl: String): PCSRace {
         val raceURL = buildURL(raceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
+        val h3 = raceDoc.h3 {
+            findAll {
+                this
+            }
+        }
+        val stagesH3 = h3.find { it.text == "Stages" }
+        val stagesUrls = stagesH3?.siblings?.first()?.li {
+            findAll {
+                map {
+                    findThird {
+                        div {
+                            it.a {
+                                findFirst { attribute("href") }
+                            }
+                        }
+                    }
+                }
+            }
+        }?.filter {
+            // Remove rest days which contain a href pointing to the race url
+            it.trimEnd('/') != raceUrl.split("/").dropLast(1).joinToString("/")
+        } ?: emptyList()
+        val stages = stagesUrls.map(::getStage)
         val infoList = raceDoc.ul {
             withClass = "infolist"
             this
@@ -227,6 +250,28 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
             startDate = startDate,
             endDate = endDate,
             website = website,
+            stages = stages,
+        )
+    }
+
+    @Suppress("DuplicatedCode")
+    fun getStage(stageUrl: String): PCSStage {
+        val stageURL = buildURL(stageUrl)
+        val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
+        val infoList = stageDoc.ul {
+            withClass = "infolist"
+            this
+        }
+        val startDateTime = infoList.li {
+            findFirst {
+                div {
+                    findSecond { ownText }
+                }
+            }
+        }
+        return PCSStage(
+            url = stageUrl,
+            startDate = startDateTime,
         )
     }
 
@@ -269,7 +314,17 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
             startDate = LocalDate.parse(pcsRace.startDate, DateTimeFormatter.ISO_LOCAL_DATE),
             endDate = LocalDate.parse(pcsRace.endDate, DateTimeFormatter.ISO_LOCAL_DATE),
             website = pcsRace.website,
+            stages = pcsRace.stages.map(::pcsStageToStage)
         )
+
+    private fun pcsStageToStage(pcsStage: PCSStage): Stage {
+        // Some dates include time, so for now we just ignore the time part
+        val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
+        return Stage(
+            id = pcsStage.url.split("/").last(),
+            startDate = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd MMMM yyyy"))
+        )
+    }
 
     private fun Doc.getElementWebsite(): String? =
         this.ul {
@@ -330,5 +385,11 @@ data class PCSRace(
     val name: String,
     val startDate: String,
     val endDate: String,
-    val website: String?
+    val website: String?,
+    val stages: List<PCSStage>
+)
+
+data class PCSStage(
+    val url: String,
+    val startDate: String
 )
