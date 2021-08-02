@@ -4,6 +4,7 @@ plugins {
     kotlin("jvm") version "1.5.20"
     kotlin("plugin.serialization") version "1.5.20"
     application
+    id("com.diffplug.spotless") version "5.14.2"
 }
 
 group = "io.github.patxibocos"
@@ -44,4 +45,17 @@ tasks.withType<Jar> {
         archiveFileName.set("${application.applicationName}.jar")
     }
     from(configurations.compileClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
+}
+
+spotless {
+    kotlin {
+        target("**/*.kt")
+        targetExclude("$buildDir/**/*.kt", "bin/**/*.kt")
+        ktlint("0.42.0")
+    }
+
+    kotlinGradle {
+        target("*.gradle.kts")
+        ktlint("0.42.0")
+    }
 }

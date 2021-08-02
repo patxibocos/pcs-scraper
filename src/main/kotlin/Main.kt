@@ -11,11 +11,14 @@ fun main(args: Array<String>) {
 
     val cache = cachePath?.let { Cache(Paths.get(it)) }
     val docFetcher = DocFetcher(cache, skipCache)
-    val pcsParser = PCSParser(docFetcher, pcsUrl)
+    val pcsScraper = PCSScraper(docFetcher, pcsUrl)
+    val teamsScraper: TeamsScraper = pcsScraper
+    val ridersScraper: RidersScraper = pcsScraper
+    val racesScraper: RacesScraper = pcsScraper
 
-    val teams = GetTeams(pcsParser = pcsParser)(season = season)
-    val riders = GetRiders(pcsParser = pcsParser)(season = season)
-    val races = GetWorldTourRaces(pcsParser = pcsParser)()
+    val teams = teamsScraper.scrapeTeams(season = season)
+    val riders = ridersScraper.scrapeRiders(season = season)
+    val races = racesScraper.scrapeRaces()
 
     val exporter: Exporter = Exporter.from(destination, format)
     exporter.exportTeams(teams)

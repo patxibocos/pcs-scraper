@@ -19,5 +19,4 @@ class Cache(private val path: Path) {
         file.parentFile.mkdirs()
         file.writeText(content)
     }
-
 }

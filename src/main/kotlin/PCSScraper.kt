@@ -1,15 +1,45 @@
 import it.skrape.selects.Doc
 import it.skrape.selects.and
-import it.skrape.selects.html5.*
+import it.skrape.selects.html5.a
+import it.skrape.selects.html5.div
+import it.skrape.selects.html5.h1
+import it.skrape.selects.html5.h3
+import it.skrape.selects.html5.img
+import it.skrape.selects.html5.li
+import it.skrape.selects.html5.span
+import it.skrape.selects.html5.ul
 import java.net.URI
 import java.net.URL
+import java.text.Collator
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
+import java.util.Locale
 import kotlin.math.max
 
-class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) {
+class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String) :
+    TeamsScraper,
+    RidersScraper,
+    RacesScraper {
 
-    fun getTeamsUrls(season: Int): List<String> {
+    override fun scrapeTeams(season: Int): List<Team> =
+        getTeamsUrls(season).map(::getTeam).map(::pcsTeamToTeam).sortedBy { it.name }
+
+    override fun scrapeRiders(season: Int): List<Rider> {
+        val pcsTeams = getTeamsUrls(season).map(::getTeam)
+        val pcsRiders = pcsTeams
+            .flatMap(PCSTeam::riders)
+            .map { (riderUrl, riderFullName) -> getRider(riderUrl, riderFullName) }
+            .distinctBy { it.url }
+        val usCollator = Collator.getInstance(Locale.US)
+        val ridersComparator = compareBy(usCollator) { r: Rider -> r.lastName.lowercase() }
+            .thenBy(usCollator) { r: Rider -> r.firstName.lowercase() }
+        return pcsRiders.map(::pcsRiderToRider).sortedWith(ridersComparator)
+    }
+
+    override fun scrapeRaces(): List<Race> =
+        getRacesUrls().map(::getRace).map(::pcsRaceToRace).sortedBy { it.startDate }
+
+    private fun getTeamsUrls(season: Int): List<String> {
         val teamsURL = buildURL("teams.php?year=$season&filter=Filter&s=worldtour")
         val teamsDoc = docFetcher.getDoc(teamsURL)
         return teamsDoc.ul {
@@ -29,7 +59,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
     }
 
     @Suppress("DuplicatedCode")
-    fun getTeam(teamUrl: String): PCSTeam {
+    private fun getTeam(teamUrl: String): PCSTeam {
         val teamURL = buildURL(teamUrl)
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
         val infoList = teamDoc.ul {
@@ -118,12 +148,11 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
                             riderUrl to riderName
                         }
                     }
-
                 }
             }
         }
 
-    fun getRider(riderUrl: String, riderFullName: String): PCSRider {
+    private fun getRider(riderUrl: String, riderFullName: String): PCSRider {
         val riderURL = buildURL(riderUrl)
         val riderDoc = docFetcher.getDoc(riderURL) { relaxed = true }
         val infoContent = riderDoc.div {
@@ -163,7 +192,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         )
     }
 
-    fun getRacesUrls(): List<String> {
+    private fun getRacesUrls(): List<String> {
         val calendarUrl = buildURL("calendar/wt-calendar-chart")
         val calendarDoc = docFetcher.getDoc(calendarUrl)
         return calendarDoc.ul {
@@ -176,13 +205,12 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
                         raceUrl
                     }
                 }
-
             }
         }
     }
 
     @Suppress("DuplicatedCode")
-    fun getRace(raceUrl: String): PCSRace {
+    private fun getRace(raceUrl: String): PCSRace {
         val raceURL = buildURL(raceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
         val h3 = raceDoc.h3 {
@@ -255,7 +283,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
     }
 
     @Suppress("DuplicatedCode")
-    fun getStage(stageUrl: String): PCSStage {
+    private fun getStage(stageUrl: String): PCSStage {
         val stageURL = buildURL(stageUrl)
         val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
         val infoList = stageDoc.ul {
@@ -275,21 +303,21 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         )
     }
 
-    fun pcsTeamToTeam(pcsTeam: PCSTeam): Team =
+    private fun pcsTeamToTeam(pcsTeam: PCSTeam): Team =
         Team(
             id = pcsTeam.url.split("/").last(),
             name = pcsTeam.name,
-            status = TeamStatus.valueOf(pcsTeam.status),
+            status = Team.Status.valueOf(pcsTeam.status),
             abbreviation = pcsTeam.abbreviation,
             country = pcsTeam.country.uppercase(),
             bike = pcsTeam.bike,
             jersey = buildURL(pcsTeam.jersey),
             website = pcsTeam.website,
             year = pcsTeam.year,
-            riders = pcsTeam.riders.map(Pair<String, String>::first).map { it.split("/").last() }
+            riders = pcsTeam.riders.map(Pair<String, String>::first).map { it.split("/").last() },
         )
 
-    fun pcsRiderToRider(pcsRider: PCSRider): Rider {
+    private fun pcsRiderToRider(pcsRider: PCSRider): Rider {
         val (firstName, lastName) = pcsRider.getFirstAndLastName(pcsRider.fullName)
         val dateFormatter = DateTimeFormatter.ofPattern("d MMMM yyyy")
         val birthDate = LocalDate.parse(pcsRider.birthDate, dateFormatter)
@@ -307,7 +335,7 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
         )
     }
 
-    fun pcsRaceToRace(pcsRace: PCSRace): Race =
+    private fun pcsRaceToRace(pcsRace: PCSRace): Race =
         Race(
             id = pcsRace.url.split("/").dropLast(1).takeLast(2).joinToString("/"),
             name = pcsRace.name,
@@ -317,10 +345,10 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
             stages = pcsRace.stages.map(::pcsStageToStage)
         )
 
-    private fun pcsStageToStage(pcsStage: PCSStage): Stage {
+    private fun pcsStageToStage(pcsStage: PCSStage): Race.Stage {
         // Some dates include time, so for now we just ignore the time part
         val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
-        return Stage(
+        return Race.Stage(
             id = pcsStage.url.split("/").last(),
             startDate = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd MMMM yyyy"))
         )
@@ -342,10 +370,9 @@ class PCSParser(private val docFetcher: DocFetcher, private val pcsUrl: String) 
 
     private fun buildURL(path: String): URL =
         URI(pcsUrl).resolve("/").resolve(path).toURL()
-
 }
 
-data class PCSTeam(
+private data class PCSTeam(
     val url: String,
     val name: String,
     val status: String,
@@ -358,7 +385,7 @@ data class PCSTeam(
     val riders: List<Pair<String, String>>,
 )
 
-data class PCSRider(
+private data class PCSRider(
     val url: String,
     val fullName: String,
     val country: String,
@@ -377,10 +404,9 @@ data class PCSRider(
             .joinToString(" ") { word -> word.lowercase().replaceFirstChar { it.uppercase() }.trim() }
         return firstName to lastName
     }
-
 }
 
-data class PCSRace(
+private data class PCSRace(
     val url: String,
     val name: String,
     val startDate: String,
@@ -389,7 +415,7 @@ data class PCSRace(
     val stages: List<PCSStage>
 )
 
-data class PCSStage(
+private data class PCSStage(
     val url: String,
     val startDate: String
 )
