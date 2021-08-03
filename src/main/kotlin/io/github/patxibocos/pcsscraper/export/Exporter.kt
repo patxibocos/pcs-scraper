@@ -15,7 +15,7 @@ interface Exporter {
 
     fun exportTeams(teams: List<Team>)
     fun exportRiders(riders: List<Rider>)
-    fun exportRaces(races: List<Race>)
+    fun exportRacesWithStages(races: List<Race>)
 
     companion object {
         fun from(destinationPath: String, format: Format): Exporter {

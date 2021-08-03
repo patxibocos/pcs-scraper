@@ -33,7 +33,7 @@ fun main(args: Array<String>) {
     val exporter: Exporter = Exporter.from(destination, format)
     exporter.exportTeams(teams)
     exporter.exportRiders(riders)
-    exporter.exportRaces(races)
+    exporter.exportRacesWithStages(races)
 }
 
 private data class AppArgs(

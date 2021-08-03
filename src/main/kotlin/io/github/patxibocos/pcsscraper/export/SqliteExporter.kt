@@ -30,21 +30,21 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         }
     }
 
-    abstract class DbTable<T>(name: String) : Table(name = name) {
+    private abstract class DbTable<T>(name: String) : Table(name = name) {
         abstract fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: T)
     }
 
-    object DbTeam : DbTable<Team>(name = "team") {
-        val id = text("id")
-        val name = text("name")
-        val status = text("status")
-        val abbreviation = text("abbreviation")
-        val country = text("country")
-        val bike = text("bike")
-        val jersey = text("jersey")
-        val website = text("website").nullable()
-        val year = integer("year")
-        val riders = text("riders")
+    private object DbTeam : DbTable<Team>(name = "team") {
+        private val id = text("id")
+        private val name = text("name")
+        private val status = text("status")
+        private val abbreviation = text("abbreviation")
+        private val country = text("country")
+        private val bike = text("bike")
+        private val jersey = text("jersey")
+        private val website = text("website").nullable()
+        private val year = integer("year")
+        private val riders = text("riders")
 
         override val primaryKey: PrimaryKey
             get() = PrimaryKey(id, name = "id")
@@ -63,17 +63,17 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         }
     }
 
-    object DbRider : DbTable<Rider>(name = "rider") {
-        val id = text("id")
-        val firstName = text("first_name")
-        val lastName = text("last_name")
-        val country = text("country")
-        val website = text("website").nullable()
-        val birthDate = text("birth_date")
-        val birthPlace = text("birth_place").nullable()
-        val weight = integer("weight").nullable()
-        val height = integer("height").nullable()
-        val photo = text("photo")
+    private object DbRider : DbTable<Rider>(name = "rider") {
+        private val id = text("id")
+        private val firstName = text("first_name")
+        private val lastName = text("last_name")
+        private val country = text("country")
+        private val website = text("website").nullable()
+        private val birthDate = text("birth_date")
+        private val birthPlace = text("birth_place").nullable()
+        private val weight = integer("weight").nullable()
+        private val height = integer("height").nullable()
+        private val photo = text("photo")
 
         override val primaryKey: PrimaryKey
             get() = PrimaryKey(id, name = "id")
@@ -92,12 +92,12 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         }
     }
 
-    object DbRace : DbTable<Race>(name = "race") {
+    private object DbRace : DbTable<Race>(name = "race") {
         val id = text("id")
-        val name = text("name")
-        val startDate = text("start_date")
-        val endDate = text("end_date")
-        val website = text("website").nullable()
+        private val name = text("name")
+        private val startDate = text("start_date")
+        private val endDate = text("end_date")
+        private val website = text("website").nullable()
 
         override val primaryKey: PrimaryKey
             get() = PrimaryKey(id, name = "id")
@@ -111,6 +111,27 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         }
     }
 
+    private object DbStage : DbTable<Race.Stage>(name = "stage") {
+        private val id = text("id")
+        private val startDate = text("start_date")
+        private val distance = float("distance")
+        private val departure = text("departure")
+        private val arrival = text("arrival")
+        private val race = text("race_id") references DbRace.id
+
+        override val primaryKey: PrimaryKey
+            get() = PrimaryKey(id, name = "id")
+
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.Stage) {
+            insertStatement[id] = t.id
+            insertStatement[startDate] = t.startDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
+            insertStatement[distance] = t.distance
+            insertStatement[departure] = t.departure
+            insertStatement[arrival] = t.arrival
+            insertStatement[race] = t.raceId
+        }
+    }
+
     override fun exportTeams(teams: List<Team>) {
         connectToDbAndInsert(DbTeam, teams)
     }
@@ -119,7 +140,8 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         connectToDbAndInsert(DbRider, riders)
     }
 
-    override fun exportRaces(races: List<Race>) {
+    override fun exportRacesWithStages(races: List<Race>) {
         connectToDbAndInsert(DbRace, races)
+        connectToDbAndInsert(DbStage, races.flatMap(Race::stages))
     }
 }

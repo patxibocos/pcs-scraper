@@ -51,7 +51,7 @@ internal class JsonExporter(override val destination: File) : Exporter {
         exportToJson(riders, "riders.json")
     }
 
-    override fun exportRaces(races: List<Race>) {
+    override fun exportRacesWithStages(races: List<Race>) {
         exportToJson(races, "races.json")
     }
 

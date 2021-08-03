@@ -17,5 +17,9 @@ data class Race(
     data class Stage(
         val id: String,
         @Contextual val startDate: LocalDate,
+        val distance: Float,
+        val departure: String,
+        val arrival: String,
+        @kotlinx.serialization.Transient val raceId: String = "",
     )
 }

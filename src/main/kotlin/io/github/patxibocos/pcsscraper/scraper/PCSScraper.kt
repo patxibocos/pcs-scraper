@@ -303,9 +303,33 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                 }
             }
         }
+        val distance = infoList.li {
+            findByIndex(3) {
+                div {
+                    findSecond { ownText }
+                }
+            }
+        }
+        val departure = infoList.li {
+            findByIndex(8) {
+                div {
+                    findSecond { a { findFirst { this } }.text }
+                }
+            }
+        }
+        val arrival = infoList.li {
+            findByIndex(9) {
+                div {
+                    findSecond { a { findFirst { this } }.text }
+                }
+            }
+        }
         return PCSStage(
             url = stageUrl,
             startDate = startDateTime,
+            distance = distance,
+            departure = departure,
+            arrival = arrival,
         )
     }
 
@@ -341,22 +365,28 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         )
     }
 
-    private fun pcsRaceToRace(pcsRace: PCSRace): Race =
-        Race(
-            id = pcsRace.url.split("/").dropLast(1).takeLast(2).joinToString("/"),
+    private fun pcsRaceToRace(pcsRace: PCSRace): Race {
+        val raceId = pcsRace.url.split("/").dropLast(1).takeLast(2).joinToString("/")
+        return Race(
+            id = raceId,
             name = pcsRace.name,
             startDate = LocalDate.parse(pcsRace.startDate, DateTimeFormatter.ISO_LOCAL_DATE),
             endDate = LocalDate.parse(pcsRace.endDate, DateTimeFormatter.ISO_LOCAL_DATE),
             website = pcsRace.website,
-            stages = pcsRace.stages.map(::pcsStageToStage)
+            stages = pcsRace.stages.map { pcsStageToStage(raceId, it) }
         )
+    }
 
-    private fun pcsStageToStage(pcsStage: PCSStage): Race.Stage {
+    private fun pcsStageToStage(raceId: String, pcsStage: PCSStage): Race.Stage {
         // Some dates include time, so for now we just ignore the time part
         val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
         return Race.Stage(
-            id = pcsStage.url.split("/").last(),
-            startDate = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd MMMM yyyy"))
+            id = pcsStage.url.split("/").takeLast(3).joinToString("/"),
+            startDate = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd MMMM yyyy")),
+            distance = pcsStage.distance.split(" ").first().toFloat(),
+            departure = pcsStage.departure,
+            arrival = pcsStage.arrival,
+            raceId = raceId,
         )
     }
 
@@ -422,5 +452,8 @@ private data class PCSRace(
 
 private data class PCSStage(
     val url: String,
-    val startDate: String
+    val startDate: String,
+    val distance: String,
+    val departure: String,
+    val arrival: String,
 )
