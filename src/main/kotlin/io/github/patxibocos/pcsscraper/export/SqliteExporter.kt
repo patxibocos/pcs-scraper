@@ -1,13 +1,10 @@
-import kotlinx.serialization.KSerializer
-import kotlinx.serialization.descriptors.PrimitiveKind
-import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
-import kotlinx.serialization.descriptors.SerialDescriptor
+package io.github.patxibocos.pcsscraper.export
+
+import io.github.patxibocos.pcsscraper.entity.Race
+import io.github.patxibocos.pcsscraper.entity.Rider
+import io.github.patxibocos.pcsscraper.entity.Team
 import kotlinx.serialization.encodeToString
-import kotlinx.serialization.encoding.Decoder
-import kotlinx.serialization.encoding.Encoder
 import kotlinx.serialization.json.Json
-import kotlinx.serialization.modules.SerializersModule
-import kotlinx.serialization.modules.contextual
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils
 import org.jetbrains.exposed.sql.StdOutSqlLogger
@@ -17,85 +14,9 @@ import org.jetbrains.exposed.sql.insert
 import org.jetbrains.exposed.sql.statements.InsertStatement
 import org.jetbrains.exposed.sql.transactions.transaction
 import java.io.File
-import java.net.URL
-import java.nio.file.Paths
-import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
-enum class Format {
-    JSON, SQLITE
-}
-
-interface Exporter {
-    val destination: File
-
-    fun exportTeams(teams: List<Team>)
-    fun exportRiders(riders: List<Rider>)
-    fun exportRaces(races: List<Race>)
-
-    companion object {
-        fun from(destinationPath: String, format: Format): Exporter {
-            val destination = File(Paths.get(destinationPath).toUri()).also {
-                it.mkdirs()
-            }
-            return when (format) {
-                Format.JSON -> JsonExporter(destination)
-                Format.SQLITE -> SQLiteExporter(destination.resolve("db.sqlite"))
-            }
-        }
-    }
-}
-
-private class JsonExporter(override val destination: File) : Exporter {
-
-    private val json: Json = Json {
-        serializersModule = SerializersModule {
-            contextual(LocalDateSerializer)
-            contextual(URLSerializer)
-        }
-    }
-
-    private object LocalDateSerializer : KSerializer<LocalDate> {
-        override val descriptor: SerialDescriptor =
-            PrimitiveSerialDescriptor("java.time.LocalDate", PrimitiveKind.STRING)
-
-        override fun serialize(encoder: Encoder, value: LocalDate) =
-            encoder.encodeString(value.format(DateTimeFormatter.ISO_LOCAL_DATE))
-
-        override fun deserialize(decoder: Decoder): LocalDate =
-            LocalDate.parse(decoder.decodeString(), DateTimeFormatter.ISO_LOCAL_DATE)
-    }
-
-    private object URLSerializer : KSerializer<URL> {
-        override val descriptor: SerialDescriptor = PrimitiveSerialDescriptor("java.net.URL", PrimitiveKind.STRING)
-
-        override fun serialize(encoder: Encoder, value: URL) =
-            encoder.encodeString(value.toString())
-
-        override fun deserialize(decoder: Decoder): URL =
-            URL(decoder.decodeString())
-    }
-
-    override fun exportRiders(riders: List<Rider>) {
-        exportToJson(riders, "riders.json")
-    }
-
-    override fun exportRaces(races: List<Race>) {
-        exportToJson(races, "races.json")
-    }
-
-    override fun exportTeams(teams: List<Team>) {
-        exportToJson(teams, "teams.json")
-    }
-
-    private inline fun <reified T> exportToJson(data: T, fileName: String) {
-        val serialized = json.encodeToString(data)
-        this.destination.resolve(fileName).writeText(serialized)
-    }
-}
-
-private class SQLiteExporter(override val destination: File) : Exporter {
-
+internal class SQLiteExporter(override val destination: File) : Exporter {
     private fun <T> connectToDbAndInsert(table: DbTable<T>, data: List<T>) {
         Database.connect("jdbc:sqlite:${this.destination.absolutePath}", "org.sqlite.JDBC")
         transaction {

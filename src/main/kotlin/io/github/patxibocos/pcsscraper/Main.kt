@@ -1,3 +1,13 @@
+package io.github.patxibocos.pcsscraper
+
+import io.github.patxibocos.pcsscraper.document.Cache
+import io.github.patxibocos.pcsscraper.document.DocFetcher
+import io.github.patxibocos.pcsscraper.export.Exporter
+import io.github.patxibocos.pcsscraper.export.Format
+import io.github.patxibocos.pcsscraper.scraper.PCSScraper
+import io.github.patxibocos.pcsscraper.scraper.RacesScraper
+import io.github.patxibocos.pcsscraper.scraper.RidersScraper
+import io.github.patxibocos.pcsscraper.scraper.TeamsScraper
 import kotlinx.cli.ArgParser
 import kotlinx.cli.ArgType
 import kotlinx.cli.default
@@ -35,7 +45,7 @@ private data class AppArgs(
 )
 
 private fun getAppArgs(args: Array<String>): AppArgs {
-    val parser = ArgParser("pcs-scrapper")
+    val parser = ArgParser("pcs-scraper")
     val season by parser.option(ArgType.Int, shortName = "s", description = "Season").required()
     val cachePath by parser.option(ArgType.String, shortName = "c", description = "Cache path")
     val destination by parser.option(ArgType.String, shortName = "d", description = "Destination path").required()

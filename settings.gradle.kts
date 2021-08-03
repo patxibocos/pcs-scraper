@@ -1,1 +1,3 @@
-rootProject.name = "pcs-scrapper"
+rootProject.name = "pcs-scraper"
+
+enableFeaturePreview("VERSION_CATALOGS")

@@ -1,3 +1,9 @@
+package io.github.patxibocos.pcsscraper.scraper
+
+import io.github.patxibocos.pcsscraper.document.DocFetcher
+import io.github.patxibocos.pcsscraper.entity.Race
+import io.github.patxibocos.pcsscraper.entity.Rider
+import io.github.patxibocos.pcsscraper.entity.Team
 import it.skrape.selects.Doc
 import it.skrape.selects.and
 import it.skrape.selects.html5.a
@@ -20,7 +26,6 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     TeamsScraper,
     RidersScraper,
     RacesScraper {
-
     override fun scrapeTeams(season: Int): List<Team> =
         getTeamsUrls(season).map(::getTeam).map(::pcsTeamToTeam).sortedBy { it.name }
 
@@ -270,8 +275,9 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                 }
             }
         }
-        val website =
-            websites.firstOrNull { !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") }
+        val website = websites.firstOrNull {
+            !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") && it.trim().isNotEmpty()
+        }
         return PCSRace(
             url = raceUrl,
             name = name,
@@ -396,7 +402,6 @@ private data class PCSRider(
     val height: String? = null,
     val photo: String,
 ) {
-
     fun getFirstAndLastName(fullName: String): Pair<String, String> {
         val index = max(fullName.indexOfFirst { it.isLowerCase() } - 2, fullName.indexOfFirst { it.isWhitespace() })
         val firstName = fullName.substring(index + 1, fullName.length)
