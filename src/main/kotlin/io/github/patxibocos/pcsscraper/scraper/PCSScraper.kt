@@ -325,7 +325,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         }.children.map {
             val team = it.b { a { findFirst { attribute("href") } } }
             val ridersElement = it.div { findSecond { ul { findFirst { this } } } }
-            val riders = if (ridersElement.children.isNotEmpty()) {
+            val riders = ridersElement.children {
                 ridersElement.li {
                     findAll {
                         map {
@@ -333,7 +333,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                         }
                     }
                 }
-            } else emptyList()
+            }
             PCSTeamParticipation(
                 team = team,
                 riders = riders,
