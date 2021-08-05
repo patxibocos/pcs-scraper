@@ -35,7 +35,7 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
     }
 
     private object DbTeam : DbTable<Team>(name = "team") {
-        private val id = text("id")
+        val id = text("id")
         private val name = text("name")
         private val status = text("status")
         private val abbreviation = text("abbreviation")
@@ -115,8 +115,8 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         private val id = text("id")
         private val startDate = text("start_date")
         private val distance = float("distance")
-        private val departure = text("departure")
-        private val arrival = text("arrival")
+        private val departure = text("departure").nullable()
+        private val arrival = text("arrival").nullable()
         private val race = text("race_id") references DbRace.id
 
         override val primaryKey: PrimaryKey
@@ -132,6 +132,18 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         }
     }
 
+    private object DbTeamParticipation : SQLiteExporter.DbTable<Race.TeamParticipation>(name = "team_participation") {
+        private val raceId = text("race_id") references DbRace.id
+        private val teamId = text("team_id") references DbTeam.id
+        private val riders = text("riders")
+
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.TeamParticipation) {
+            insertStatement[raceId] = t.raceId
+            insertStatement[teamId] = t.teamId
+            insertStatement[riders] = Json.encodeToString(t.riders)
+        }
+    }
+
     override fun exportTeams(teams: List<Team>) {
         connectToDbAndInsert(DbTeam, teams)
     }
@@ -143,5 +155,6 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
     override fun exportRacesWithStages(races: List<Race>) {
         connectToDbAndInsert(DbRace, races)
         connectToDbAndInsert(DbStage, races.flatMap(Race::stages))
+        connectToDbAndInsert(DbTeamParticipation, races.flatMap(Race::startList))
     }
 }

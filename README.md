@@ -5,7 +5,7 @@
 This is a [ProCyclingStats](https://www.procyclingstats.com/) (PCS) data scraper. It fetches and parses HTML pages to
 end up building different model entities that will be serialized and exported.
 
-ℹ️pcs-scraper currently supports scraping teams, riders and races.
+ℹ️&nbsp;pcs-scraper currently supports scraping teams, riders and races.
 
 ## Setup ⚙️
 

@@ -12,14 +12,22 @@ data class Race(
     @Contextual val endDate: LocalDate,
     val website: String?,
     val stages: List<Stage>,
+    val startList: List<TeamParticipation>,
 ) {
     @Serializable
     data class Stage(
         val id: String,
         @Contextual val startDate: LocalDate,
         val distance: Float,
-        val departure: String,
-        val arrival: String,
+        val departure: String?,
+        val arrival: String?,
+        @kotlinx.serialization.Transient val raceId: String = "",
+    )
+
+    @Serializable
+    data class TeamParticipation(
+        val teamId: String,
+        val riders: List<String>,
         @kotlinx.serialization.Transient val raceId: String = "",
     )
 }

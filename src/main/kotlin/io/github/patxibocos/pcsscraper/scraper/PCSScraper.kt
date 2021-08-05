@@ -7,6 +7,7 @@ import io.github.patxibocos.pcsscraper.entity.Team
 import it.skrape.selects.Doc
 import it.skrape.selects.and
 import it.skrape.selects.html5.a
+import it.skrape.selects.html5.b
 import it.skrape.selects.html5.div
 import it.skrape.selects.html5.h1
 import it.skrape.selects.html5.h3
@@ -42,7 +43,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     override fun scrapeRaces(): List<Race> =
-        getRacesUrls().map(::getRace).map(::pcsRaceToRace).sortedBy { it.startDate }
+        getRacesUrls().mapNotNull(::getRace).map(::pcsRaceToRace).sortedBy { it.startDate }
 
     private fun getTeamsUrls(season: Int): List<String> {
         val teamsURL = buildURL("teams.php?year=$season&filter=Filter&s=worldtour")
@@ -215,9 +216,24 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     @Suppress("DuplicatedCode")
-    private fun getRace(raceUrl: String): PCSRace {
+    private fun getRace(raceUrl: String): PCSRace? {
         val raceURL = buildURL(raceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
+        val infoList = raceDoc.ul {
+            withClass = "infolist"
+            this
+        }
+        val uciTour = infoList.li {
+            findByIndex(3) {
+                div {
+                    findSecond { ownText }
+                }
+            }
+        }
+        // Discard any race that is not part of the UCI Worldtour
+        if (uciTour != "UCI Worldtour") {
+            return null
+        }
         val h3 = raceDoc.h3 {
             findAll {
                 this
@@ -241,10 +257,6 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             it.trimEnd('/') != raceUrl.split("/").dropLast(1).joinToString("/")
         } ?: emptyList()
         val stages = stagesUrls.map(::getStage)
-        val infoList = raceDoc.ul {
-            withClass = "infolist"
-            this
-        }
         val startDate = infoList.li {
             findFirst {
                 div {
@@ -278,6 +290,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val website = websites.firstOrNull {
             !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") && it.trim().isNotEmpty()
         }
+        val raceParticipantsUrl = raceUrl.split("/").dropLast(1).joinToString("/") + "/startlist"
+        val startList = getRaceStartList(raceParticipantsUrl)
         return PCSRace(
             url = raceUrl,
             name = name,
@@ -285,7 +299,34 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             endDate = endDate,
             website = website,
             stages = stages,
+            startList = startList,
         )
+    }
+
+    private fun getRaceStartList(raceStartListUrl: String): List<PCSTeamParticipation> {
+        val raceParticipantsUrl = buildURL(raceStartListUrl)
+        val raceStartListDoc = docFetcher.getDoc(raceParticipantsUrl) { relaxed = true }
+        val startList = raceStartListDoc.ul {
+            withClass = "startlist_v3"
+            findFirst { this }
+        }.children.map {
+            val team = it.b { a { findFirst { attribute("href") } } }
+            val ridersElement = it.div { findSecond { ul { findFirst { this } } } }
+            val riders = if (ridersElement.children.isNotEmpty()) {
+                ridersElement.li {
+                    findAll {
+                        map {
+                            it.a { findFirst { attribute("href") } }
+                        }
+                    }
+                }
+            } else emptyList()
+            PCSTeamParticipation(
+                team = team,
+                riders = riders,
+            )
+        }
+        return startList
     }
 
     @Suppress("DuplicatedCode")
@@ -316,14 +357,14 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                     findSecond { a { findFirst { this } }.text }
                 }
             }
-        }
+        }.ifEmpty { null }
         val arrival = infoList.li {
             findByIndex(9) {
                 div {
                     findSecond { a { findFirst { this } }.text }
                 }
             }
-        }
+        }.ifEmpty { null }
         return PCSStage(
             url = stageUrl,
             startDate = startDateTime,
@@ -373,7 +414,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             startDate = LocalDate.parse(pcsRace.startDate, DateTimeFormatter.ISO_LOCAL_DATE),
             endDate = LocalDate.parse(pcsRace.endDate, DateTimeFormatter.ISO_LOCAL_DATE),
             website = pcsRace.website,
-            stages = pcsRace.stages.map { pcsStageToStage(raceId, it) }
+            stages = pcsRace.stages.map { pcsStageToStage(raceId, it) },
+            startList = pcsRace.startList.map { pcsTeamParticipationToTeamParticipation(raceId, it) }
         )
     }
 
@@ -389,6 +431,16 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             raceId = raceId,
         )
     }
+
+    private fun pcsTeamParticipationToTeamParticipation(
+        raceId: String,
+        pcsTeamParticipation: PCSTeamParticipation
+    ): Race.TeamParticipation =
+        Race.TeamParticipation(
+            teamId = pcsTeamParticipation.team.split("/").last(),
+            riders = pcsTeamParticipation.riders.map { it.split("/").last() },
+            raceId = raceId,
+        )
 
     private fun Doc.getElementWebsite(): String? =
         this.ul {
@@ -447,13 +499,19 @@ private data class PCSRace(
     val startDate: String,
     val endDate: String,
     val website: String?,
-    val stages: List<PCSStage>
+    val stages: List<PCSStage>,
+    val startList: List<PCSTeamParticipation>
+)
+
+private data class PCSTeamParticipation(
+    val team: String,
+    val riders: List<String>
 )
 
 private data class PCSStage(
     val url: String,
     val startDate: String,
     val distance: String,
-    val departure: String,
-    val arrival: String,
+    val departure: String?,
+    val arrival: String?,
 )
