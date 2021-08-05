@@ -290,7 +290,20 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val website = websites.firstOrNull {
             !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") && it.trim().isNotEmpty()
         }
-        val raceParticipantsUrl = raceUrl.split("/").dropLast(1).joinToString("/") + "/startlist"
+        val raceParticipantsUrl = raceDoc.div {
+            withClass = "page-topnav"
+            ul {
+                findThird {
+                    li {
+                        a {
+                            findFirst {
+                                attribute("href")
+                            }
+                        }
+                    }
+                }
+            }
+        }
         val startList = getRaceStartList(raceParticipantsUrl)
         return PCSRace(
             url = raceUrl,
