@@ -293,8 +293,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val raceParticipantsUrl = raceDoc.div {
             withClass = "page-topnav"
             ul {
-                findThird {
-                    li {
+                li {
+                    findThird {
                         a {
                             findFirst {
                                 attribute("href")
@@ -322,22 +322,23 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val startList = raceStartListDoc.ul {
             withClass = "startlist_v3"
             findFirst { this }
-        }.children.map {
-            val team = it.b { a { findFirst { attribute("href") } } }
-            val ridersElement = it.div { findSecond { ul { findFirst { this } } } }
-            val riders = ridersElement.children {
-                ridersElement.li {
-                    findAll {
+        }.children {
+            map {
+                it.findAll {
+                    val team = it.b { a { findFirst { attribute("href") } } }
+                    val riders = it.ul {
+                        findFirst { this }
+                    }.children {
                         map {
                             it.a { findFirst { attribute("href") } }
                         }
                     }
+                    PCSTeamParticipation(
+                        team = team,
+                        riders = riders,
+                    )
                 }
             }
-            PCSTeamParticipation(
-                team = team,
-                riders = riders,
-            )
         }
         return startList
     }
@@ -450,7 +451,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         pcsTeamParticipation: PCSTeamParticipation
     ): Race.TeamParticipation =
         Race.TeamParticipation(
-            teamId = pcsTeamParticipation.team.split("/").last(),
+            team = pcsTeamParticipation.team.split("/").last(),
             riders = pcsTeamParticipation.riders.map { it.split("/").last() },
             raceId = raceId,
         )

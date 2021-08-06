@@ -61,6 +61,8 @@ internal class JsonExporter(override val destination: File) : Exporter {
 
     private inline fun <reified T> exportToJson(data: T, fileName: String) {
         val serialized = json.encodeToString(data)
-        this.destination.resolve(fileName).writeText(serialized)
+        val destinationFile = this.destination.resolve(fileName)
+        destinationFile.delete()
+        destinationFile.writeText(serialized)
     }
 }

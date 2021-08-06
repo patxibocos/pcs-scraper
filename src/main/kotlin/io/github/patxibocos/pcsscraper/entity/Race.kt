@@ -26,7 +26,7 @@ data class Race(
 
     @Serializable
     data class TeamParticipation(
-        val teamId: String,
+        val team: String,
         val riders: List<String>,
         @kotlinx.serialization.Transient val raceId: String = "",
     )

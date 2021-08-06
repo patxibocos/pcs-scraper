@@ -18,7 +18,9 @@ import java.time.format.DateTimeFormatter
 
 internal class SQLiteExporter(override val destination: File) : Exporter {
     private fun <T> connectToDbAndInsert(table: DbTable<T>, data: List<T>) {
-        Database.connect("jdbc:sqlite:${this.destination.absolutePath}", "org.sqlite.JDBC")
+        val destinationFile = destination.resolve("db.sqlite")
+        destinationFile.delete()
+        Database.connect("jdbc:sqlite:${destinationFile.absolutePath}", "org.sqlite.JDBC")
         transaction {
             addLogger(StdOutSqlLogger)
             SchemaUtils.create(table)
@@ -139,7 +141,7 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
 
         override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.TeamParticipation) {
             insertStatement[raceId] = t.raceId
-            insertStatement[teamId] = t.teamId
+            insertStatement[teamId] = t.team
             insertStatement[riders] = Json.encodeToString(t.riders)
         }
     }

@@ -22,7 +22,7 @@ interface Exporter {
             val destination = File(Paths.get(destinationPath).toUri()).also { it.mkdirs() }
             return when (format) {
                 Format.JSON -> JsonExporter(destination)
-                Format.SQLITE -> SQLiteExporter(destination.resolve("db.sqlite"))
+                Format.SQLITE -> SQLiteExporter(destination)
             }
         }
     }
