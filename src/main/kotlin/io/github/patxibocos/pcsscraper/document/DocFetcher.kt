@@ -2,6 +2,7 @@ package io.github.patxibocos.pcsscraper.document
 
 import io.ktor.client.HttpClient
 import io.ktor.client.call.receive
+import io.ktor.client.engine.cio.CIO
 import io.ktor.client.features.BrowserUserAgent
 import io.ktor.client.request.get
 import io.ktor.client.statement.HttpResponse
@@ -13,8 +14,9 @@ class DocFetcher(
     private val cache: Cache?,
     private val skipCache: Boolean,
 ) {
-    private val client = HttpClient {
+    private val client = HttpClient(CIO) {
         BrowserUserAgent()
+        developmentMode = true
     }
 
     suspend fun getDoc(

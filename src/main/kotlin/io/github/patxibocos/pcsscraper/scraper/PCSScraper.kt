@@ -15,6 +15,9 @@ import it.skrape.selects.html5.img
 import it.skrape.selects.html5.li
 import it.skrape.selects.html5.span
 import it.skrape.selects.html5.ul
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
+import kotlinx.coroutines.coroutineScope
 import java.net.URI
 import java.net.URL
 import java.text.Collator
@@ -27,23 +30,31 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     TeamsScraper,
     RidersScraper,
     RacesScraper {
-    override suspend fun scrapeTeams(season: Int): List<Team> =
-        getTeamsUrls(season).map { teamUrl -> getTeam(teamUrl) }.map(::pcsTeamToTeam).sortedBy { it.name }
+    override suspend fun scrapeTeams(season: Int): List<Team> = coroutineScope {
+        getTeamsUrls(season).map { teamUrl ->
+            async { getTeam(teamUrl) }
+        }.awaitAll().map(::pcsTeamToTeam).sortedBy { it.name }
+    }
 
-    override suspend fun scrapeRiders(season: Int): List<Rider> {
-        val pcsTeams = getTeamsUrls(season).map { teamUrl -> getTeam(teamUrl) }
+    override suspend fun scrapeRiders(season: Int): List<Rider> = coroutineScope {
+        val pcsTeams = getTeamsUrls(season).map { teamUrl ->
+            async { getTeam(teamUrl) }
+        }.awaitAll()
         val pcsRiders = pcsTeams
             .flatMap(PCSTeam::riders)
-            .map { (riderUrl, riderFullName) -> getRider(riderUrl, riderFullName) }
-            .distinctBy { it.url }
+            .map { (riderUrl, riderFullName) -> async { getRider(riderUrl, riderFullName) } }
+            .awaitAll().distinctBy { it.url }
         val usCollator = Collator.getInstance(Locale.US)
         val ridersComparator = compareBy(usCollator) { r: Rider -> r.lastName.lowercase() }
             .thenBy(usCollator) { r: Rider -> r.firstName.lowercase() }
-        return pcsRiders.map(::pcsRiderToRider).sortedWith(ridersComparator)
+        pcsRiders.map(::pcsRiderToRider).sortedWith(ridersComparator)
     }
 
-    override suspend fun scrapeRaces(): List<Race> =
-        getRacesUrls().mapNotNull { raceUrl -> getRace(raceUrl) }.map(::pcsRaceToRace).sortedBy { it.startDate }
+    override suspend fun scrapeRaces(): List<Race> = coroutineScope {
+        getRacesUrls().map { raceUrl ->
+            async { getRace(raceUrl) }
+        }.awaitAll().filterNotNull().map(::pcsRaceToRace).sortedBy { it.startDate }
+    }
 
     private suspend fun getTeamsUrls(season: Int): List<String> {
         val teamsURL = buildURL("teams.php?year=$season&filter=Filter&s=worldtour")
@@ -216,7 +227,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     @Suppress("DuplicatedCode")
-    private suspend fun getRace(raceUrl: String): PCSRace? {
+    private suspend fun getRace(raceUrl: String): PCSRace? = coroutineScope {
         val raceURL = buildURL(raceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
         val infoList = raceDoc.ul {
@@ -232,7 +243,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         }
         // Discard any race that is not part of the UCI Worldtour
         if (uciTour != "UCI Worldtour") {
-            return null
+            return@coroutineScope null
         }
         val h3 = raceDoc.h3 {
             findAll {
@@ -256,7 +267,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             // Remove rest days which contain a href pointing to the race url
             it.trimEnd('/') != raceUrl.split("/").dropLast(1).joinToString("/")
         } ?: emptyList()
-        val stages = stagesUrls.map { stageUrl -> getStage(stageUrl) }
+        val stages = stagesUrls.map { stageUrl -> async { getStage(stageUrl) } }.awaitAll()
         val startDate = infoList.li {
             findFirst {
                 div {
@@ -305,7 +316,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             }
         }
         val startList = getRaceStartList(raceParticipantsUrl)
-        return PCSRace(
+        PCSRace(
             url = raceUrl,
             name = name,
             startDate = startDate,
