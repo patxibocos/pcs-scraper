@@ -27,11 +27,11 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     TeamsScraper,
     RidersScraper,
     RacesScraper {
-    override fun scrapeTeams(season: Int): List<Team> =
-        getTeamsUrls(season).map(::getTeam).map(::pcsTeamToTeam).sortedBy { it.name }
+    override suspend fun scrapeTeams(season: Int): List<Team> =
+        getTeamsUrls(season).map { teamUrl -> getTeam(teamUrl) }.map(::pcsTeamToTeam).sortedBy { it.name }
 
-    override fun scrapeRiders(season: Int): List<Rider> {
-        val pcsTeams = getTeamsUrls(season).map(::getTeam)
+    override suspend fun scrapeRiders(season: Int): List<Rider> {
+        val pcsTeams = getTeamsUrls(season).map { teamUrl -> getTeam(teamUrl) }
         val pcsRiders = pcsTeams
             .flatMap(PCSTeam::riders)
             .map { (riderUrl, riderFullName) -> getRider(riderUrl, riderFullName) }
@@ -42,10 +42,10 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         return pcsRiders.map(::pcsRiderToRider).sortedWith(ridersComparator)
     }
 
-    override fun scrapeRaces(): List<Race> =
-        getRacesUrls().mapNotNull(::getRace).map(::pcsRaceToRace).sortedBy { it.startDate }
+    override suspend fun scrapeRaces(): List<Race> =
+        getRacesUrls().mapNotNull { raceUrl -> getRace(raceUrl) }.map(::pcsRaceToRace).sortedBy { it.startDate }
 
-    private fun getTeamsUrls(season: Int): List<String> {
+    private suspend fun getTeamsUrls(season: Int): List<String> {
         val teamsURL = buildURL("teams.php?year=$season&filter=Filter&s=worldtour")
         val teamsDoc = docFetcher.getDoc(teamsURL)
         return teamsDoc.ul {
@@ -65,7 +65,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     @Suppress("DuplicatedCode")
-    private fun getTeam(teamUrl: String): PCSTeam {
+    private suspend fun getTeam(teamUrl: String): PCSTeam {
         val teamURL = buildURL(teamUrl)
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
         val infoList = teamDoc.ul {
@@ -158,7 +158,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             }
         }
 
-    private fun getRider(riderUrl: String, riderFullName: String): PCSRider {
+    private suspend fun getRider(riderUrl: String, riderFullName: String): PCSRider {
         val riderURL = buildURL(riderUrl)
         val riderDoc = docFetcher.getDoc(riderURL) { relaxed = true }
         val infoContent = riderDoc.div {
@@ -198,7 +198,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         )
     }
 
-    private fun getRacesUrls(): List<String> {
+    private suspend fun getRacesUrls(): List<String> {
         val calendarUrl = buildURL("calendar/wt-calendar-chart")
         val calendarDoc = docFetcher.getDoc(calendarUrl)
         return calendarDoc.ul {
@@ -216,7 +216,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     @Suppress("DuplicatedCode")
-    private fun getRace(raceUrl: String): PCSRace? {
+    private suspend fun getRace(raceUrl: String): PCSRace? {
         val raceURL = buildURL(raceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
         val infoList = raceDoc.ul {
@@ -256,7 +256,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             // Remove rest days which contain a href pointing to the race url
             it.trimEnd('/') != raceUrl.split("/").dropLast(1).joinToString("/")
         } ?: emptyList()
-        val stages = stagesUrls.map(::getStage)
+        val stages = stagesUrls.map { stageUrl -> getStage(stageUrl) }
         val startDate = infoList.li {
             findFirst {
                 div {
@@ -316,7 +316,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         )
     }
 
-    private fun getRaceStartList(raceStartListUrl: String): List<PCSTeamParticipation> {
+    private suspend fun getRaceStartList(raceStartListUrl: String): List<PCSTeamParticipation> {
         val raceParticipantsUrl = buildURL(raceStartListUrl)
         val raceStartListDoc = docFetcher.getDoc(raceParticipantsUrl) { relaxed = true }
         val startList = raceStartListDoc.ul {
@@ -344,7 +344,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     @Suppress("DuplicatedCode")
-    private fun getStage(stageUrl: String): PCSStage {
+    private suspend fun getStage(stageUrl: String): PCSStage {
         val stageURL = buildURL(stageUrl)
         val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
         val infoList = stageDoc.ul {

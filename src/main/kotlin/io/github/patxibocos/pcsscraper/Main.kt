@@ -12,6 +12,7 @@ import kotlinx.cli.ArgParser
 import kotlinx.cli.ArgType
 import kotlinx.cli.default
 import kotlinx.cli.required
+import kotlinx.coroutines.runBlocking
 import java.nio.file.Paths
 
 const val pcsUrl = "https://www.procyclingstats.com"
@@ -26,14 +27,16 @@ fun main(args: Array<String>) {
     val ridersScraper: RidersScraper = pcsScraper
     val racesScraper: RacesScraper = pcsScraper
 
-    val teams = teamsScraper.scrapeTeams(season = season)
-    val riders = ridersScraper.scrapeRiders(season = season)
-    val races = racesScraper.scrapeRaces()
+    runBlocking {
+        val teams = teamsScraper.scrapeTeams(season = season)
+        val riders = ridersScraper.scrapeRiders(season = season)
+        val races = racesScraper.scrapeRaces()
 
-    val exporter: Exporter = Exporter.from(destination, format)
-    exporter.exportTeams(teams)
-    exporter.exportRiders(riders)
-    exporter.exportRacesWithStages(races)
+        val exporter: Exporter = Exporter.from(destination, format)
+        exporter.exportTeams(teams)
+        exporter.exportRiders(riders)
+        exporter.exportRacesWithStages(races)
+    }
 }
 
 private data class AppArgs(

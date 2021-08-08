@@ -22,12 +22,14 @@ repositories {
 dependencies {
     testImplementation(kotlin("test"))
 
-    implementation(libs.skrapeit)
-    implementation(libs.kotlin.cli)
-    implementation(libs.kotlin.serialization.json)
-    implementation(libs.sqlite.jdbc)
     implementation(libs.exposed.core)
     implementation(libs.exposed.jdbc)
+    implementation(libs.kotlin.cli)
+    implementation(libs.kotlin.serialization.json)
+    implementation(libs.ktor.client.core)
+    implementation(libs.ktor.client.cio)
+    implementation(libs.skrapeit)
+    implementation(libs.sqlite.jdbc)
 }
 
 tasks.test {
