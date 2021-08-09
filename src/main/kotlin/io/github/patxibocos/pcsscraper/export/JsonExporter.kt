@@ -3,6 +3,9 @@ package io.github.patxibocos.pcsscraper.export
 import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
+import kotlinx.coroutines.Dispatchers
+import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.withContext
 import kotlinx.serialization.KSerializer
 import kotlinx.serialization.descriptors.PrimitiveKind
 import kotlinx.serialization.descriptors.PrimitiveSerialDescriptor
@@ -47,22 +50,26 @@ internal class JsonExporter(override val destination: File) : Exporter {
             URL(decoder.decodeString())
     }
 
-    override fun exportRiders(riders: List<Rider>) {
+    override suspend fun exportRiders(riders: List<Rider>) {
         exportToJson(riders, "riders.json")
     }
 
-    override fun exportRacesWithStages(races: List<Race>) {
+    override suspend fun exportRacesWithStages(races: List<Race>) {
         exportToJson(races, "races.json")
     }
 
-    override fun exportTeams(teams: List<Team>) {
+    override suspend fun exportTeams(teams: List<Team>) {
         exportToJson(teams, "teams.json")
     }
 
-    private inline fun <reified T> exportToJson(data: T, fileName: String) {
-        val serialized = json.encodeToString(data)
-        val destinationFile = this.destination.resolve(fileName)
-        destinationFile.delete()
-        destinationFile.writeText(serialized)
+    private suspend inline fun <reified T> exportToJson(data: T, fileName: String) = coroutineScope {
+        val serialized = withContext(Dispatchers.Default) {
+            json.encodeToString(data)
+        }
+        val destinationFile = this@JsonExporter.destination.resolve(fileName)
+        withContext(Dispatchers.IO) {
+            destinationFile.delete()
+            destinationFile.writeText(serialized)
+        }
     }
 }

@@ -1,8 +1,8 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.5.20"
-    kotlin("plugin.serialization") version "1.5.20"
+    kotlin("jvm") version "1.5.21"
+    kotlin("plugin.serialization") version "1.5.21"
     application
     id("com.diffplug.spotless") version "5.14.2"
 }
@@ -53,11 +53,11 @@ spotless {
     kotlin {
         target("**/*.kt")
         targetExclude("$buildDir/**/*.kt", "bin/**/*.kt")
-        ktlint("0.42.0")
+        ktlint("0.42.1")
     }
 
     kotlinGradle {
         target("*.gradle.kts")
-        ktlint("0.42.0")
+        ktlint("0.42.1")
     }
 }

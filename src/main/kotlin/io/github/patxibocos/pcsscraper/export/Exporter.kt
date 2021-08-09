@@ -13,9 +13,9 @@ enum class Format {
 interface Exporter {
     val destination: File
 
-    fun exportTeams(teams: List<Team>)
-    fun exportRiders(riders: List<Rider>)
-    fun exportRacesWithStages(races: List<Race>)
+    suspend fun exportTeams(teams: List<Team>)
+    suspend fun exportRiders(riders: List<Rider>)
+    suspend fun exportRacesWithStages(races: List<Race>)
 
     companion object {
         fun from(destinationPath: String, format: Format): Exporter {

@@ -146,15 +146,15 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         }
     }
 
-    override fun exportTeams(teams: List<Team>) {
+    override suspend fun exportTeams(teams: List<Team>) {
         connectToDbAndInsert(DbTeam, teams)
     }
 
-    override fun exportRiders(riders: List<Rider>) {
+    override suspend fun exportRiders(riders: List<Rider>) {
         connectToDbAndInsert(DbRider, riders)
     }
 
-    override fun exportRacesWithStages(races: List<Race>) {
+    override suspend fun exportRacesWithStages(races: List<Race>) {
         connectToDbAndInsert(DbRace, races)
         connectToDbAndInsert(DbStage, races.flatMap(Race::stages))
         connectToDbAndInsert(DbTeamParticipation, races.flatMap(Race::startList))
