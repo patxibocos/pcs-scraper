@@ -4,16 +4,18 @@ import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
+import it.skrape.selects.CssSelector
 import it.skrape.selects.Doc
 import it.skrape.selects.and
 import it.skrape.selects.html5.a
 import it.skrape.selects.html5.b
 import it.skrape.selects.html5.div
 import it.skrape.selects.html5.h1
-import it.skrape.selects.html5.h3
 import it.skrape.selects.html5.img
 import it.skrape.selects.html5.li
 import it.skrape.selects.html5.span
+import it.skrape.selects.html5.tbody
+import it.skrape.selects.html5.tr
 import it.skrape.selects.html5.ul
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -245,29 +247,21 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         if (uciTour != "UCI Worldtour") {
             return@coroutineScope null
         }
-        val h3 = raceDoc.h3 {
-            findAll {
-                this
-            }
-        }
-        val stagesH3 = h3.find { it.text == "Stages" }
-        val stagesUrls = stagesH3?.siblings?.first()?.li {
-            findAll {
-                map {
-                    findThird {
-                        div {
-                            it.a {
-                                findFirst { attribute("href") }
+        val stagesUrl = raceDoc.div {
+            withClass = "page-topnav"
+            ul {
+                li {
+                    findByIndex(4) {
+                        a {
+                            findFirst {
+                                attribute("href")
                             }
                         }
                     }
                 }
             }
-        }?.filter {
-            // Remove rest days which contain a href pointing to the race url
-            it.trimEnd('/') != raceUrl.split("/").dropLast(1).joinToString("/")
-        } ?: emptyList()
-        val stages = stagesUrls.map { stageUrl -> async { getStage(stageUrl) } }.awaitAll()
+        }
+        val stages = getStages(stagesUrl)
         val startDate = infoList.li {
             findFirst {
                 div {
@@ -332,68 +326,69 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val raceStartListDoc = docFetcher.getDoc(raceParticipantsUrl) { relaxed = true }
         val startList = raceStartListDoc.ul {
             withClass = "startlist_v3"
-            findFirst { this }
-        }.children {
-            map {
-                it.findAll {
-                    val team = it.b { a { findFirst { attribute("href") } } }
-                    val riders = it.ul {
-                        findFirst { this }
-                    }.children {
+            findAll("li.team")
+        }.map {
+            val team = it.b { a { findFirst { attribute("href") } } }
+            val riders = it.ul {
+                findAll("li")
+            }.map {
+                it.a { findFirst { attribute("href") } }
+            }
+            PCSTeamParticipation(
+                team = team,
+                riders = riders,
+            )
+        }
+        return startList
+    }
+
+    private suspend fun getStages(stagesUrl: String): List<PCSStage> = coroutineScope {
+        val stagesURI = buildURL(stagesUrl)
+        val stagesDoc = docFetcher.getDoc(stagesURI) { relaxed = true }
+        val stagesUrls = stagesDoc.findFirst("table.basic") {
+            tbody {
+                tr {
+                    findAll {
                         map {
-                            it.a { findFirst { attribute("href") } }
+                            it.findThird("td").a {
+                                findFirst { attribute("href") }
+                            }
                         }
                     }
-                    PCSTeamParticipation(
-                        team = team,
-                        riders = riders,
-                    )
                 }
             }
         }
-        return startList
+        stagesUrls.map { stageUrl -> async { getStage(stageUrl) } }.awaitAll()
     }
 
     @Suppress("DuplicatedCode")
     private suspend fun getStage(stageUrl: String): PCSStage {
         val stageURL = buildURL(stageUrl)
         val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
-        val infoList = stageDoc.ul {
-            withClass = "infolist"
-            this
-        }
-        val startDateTime = infoList.li {
-            findFirst {
-                div {
-                    findSecond { ownText }
+
+        fun <T> findInInfoListByIndex(index: Int, init: CssSelector.() -> T): T {
+            return stageDoc.ul {
+                withClass = "infolist"
+                li {
+                    findByIndex(index) {
+                        div {
+                            this.init()
+                        }
+                    }
                 }
             }
         }
-        val distance = infoList.li {
-            findByIndex(3) {
-                div {
-                    findSecond { ownText }
-                }
-            }
-        }
-        val departure = infoList.li {
-            findByIndex(8) {
-                div {
-                    findSecond { a { findFirst { this } }.text }
-                }
-            }
-        }.ifEmpty { null }
-        val arrival = infoList.li {
-            findByIndex(9) {
-                div {
-                    findSecond { a { findFirst { this } }.text }
-                }
-            }
-        }.ifEmpty { null }
+
+        val startDateTime = findInInfoListByIndex(0) { findSecond { ownText } }
+        val distance = findInInfoListByIndex(3) { findSecond { ownText } }
+        val type = findInInfoListByIndex(5) { findSecond { findFirst("span") } }.classNames.last()
+        val departure = findInInfoListByIndex(8) { findSecond { a { findFirst { this } }.text } }.ifEmpty { null }
+        val arrival = findInInfoListByIndex(9) { findSecond { a { findFirst { this } }.text } }.ifEmpty { null }
         return PCSStage(
             url = stageUrl,
             startDate = startDateTime,
             distance = distance,
+            type = type,
             departure = departure,
             arrival = arrival,
         )
@@ -447,10 +442,13 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     private fun pcsStageToStage(raceId: String, pcsStage: PCSStage): Race.Stage {
         // Some dates include time, so for now we just ignore the time part
         val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
+        // p1, p2, p3, p4 and p5 are the only valid values
+        val pcsTypeIndex = pcsStage.type.substring(1).toIntOrNull().takeIf { it in (1..5) }
         return Race.Stage(
             id = pcsStage.url.split("/").takeLast(3).joinToString("/"),
             startDate = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd MMMM yyyy")),
             distance = pcsStage.distance.split(" ").first().toFloat(),
+            type = pcsTypeIndex?.let { Race.Stage.Type.values()[pcsTypeIndex - 1] },
             departure = pcsStage.departure,
             arrival = pcsStage.arrival,
             raceId = raceId,
@@ -537,6 +535,7 @@ private data class PCSStage(
     val url: String,
     val startDate: String,
     val distance: String,
+    val type: String,
     val departure: String?,
     val arrival: String?,
 )

@@ -17,9 +17,10 @@ import java.io.File
 import java.time.format.DateTimeFormatter
 
 internal class SQLiteExporter(override val destination: File) : Exporter {
+
+    private val destinationFile = destination.resolve("db.sqlite").also { it.delete() }
+
     private fun <T> connectToDbAndInsert(table: DbTable<T>, data: List<T>) {
-        val destinationFile = destination.resolve("db.sqlite")
-        destinationFile.delete()
         Database.connect("jdbc:sqlite:${destinationFile.absolutePath}", "org.sqlite.JDBC")
         transaction {
             addLogger(StdOutSqlLogger)

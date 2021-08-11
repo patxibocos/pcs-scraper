@@ -19,10 +19,19 @@ data class Race(
         val id: String,
         @Contextual val startDate: LocalDate,
         val distance: Float,
+        val type: Type?,
         val departure: String?,
         val arrival: String?,
         @kotlinx.serialization.Transient val raceId: String = "",
-    )
+    ) {
+        enum class Type {
+            FLAT,
+            HILL_FLAT_FINISH,
+            HILLS_UPHILL_FINISH,
+            MOUNTAINS_FLAT_FINISH,
+            MOUNTAINS_UPHILL_FINISH,
+        }
+    }
 
     @Serializable
     data class TeamParticipation(
