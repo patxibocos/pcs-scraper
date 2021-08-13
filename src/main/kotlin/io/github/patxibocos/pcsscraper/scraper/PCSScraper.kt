@@ -185,7 +185,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             }
         }
         val website = riderDoc.getElementWebsite()
-        val birthDate = infoContent.ownText.split(' ').dropLast(1).joinToString(" ")
+        val birthDate = infoContent.ownText.split(' ').take(3).joinToString(" ")
         val birthPlaceWeightAndHeight = infoContent.children.last().findFirst { text }.split(' ')
         val birthPlaceWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("birth") }
         val birthPlace = if (birthPlaceWordIndex != -1) birthPlaceWeightAndHeight[birthPlaceWordIndex + 1] else null
@@ -443,12 +443,12 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         // Some dates include time, so for now we just ignore the time part
         val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
         // p1, p2, p3, p4 and p5 are the only valid values
-        val pcsTypeIndex = pcsStage.type.substring(1).toIntOrNull().takeIf { it in (1..5) }
+        val pcsTypeIndex = (1..5).map { "p$it" }.indexOf(pcsStage.type).takeIf { it != -1 }
         return Race.Stage(
             id = pcsStage.url.split("/").takeLast(3).joinToString("/"),
             startDate = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd MMMM yyyy")),
             distance = pcsStage.distance.split(" ").first().toFloat(),
-            type = pcsTypeIndex?.let { Race.Stage.Type.values()[pcsTypeIndex - 1] },
+            type = pcsTypeIndex?.let { Race.Stage.Type.values()[pcsTypeIndex] },
             departure = pcsStage.departure,
             arrival = pcsStage.arrival,
             raceId = raceId,

@@ -118,6 +118,7 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         private val id = text("id")
         private val startDate = text("start_date")
         private val distance = float("distance")
+        private val type = text("type").nullable()
         private val departure = text("departure").nullable()
         private val arrival = text("arrival").nullable()
         private val race = text("race_id") references DbRace.id
@@ -129,6 +130,7 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
             insertStatement[id] = t.id
             insertStatement[startDate] = t.startDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
             insertStatement[distance] = t.distance
+            insertStatement[type] = t.type?.name
             insertStatement[departure] = t.departure
             insertStatement[arrival] = t.arrival
             insertStatement[race] = t.raceId

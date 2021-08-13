@@ -26,7 +26,7 @@ data class Race(
     ) {
         enum class Type {
             FLAT,
-            HILL_FLAT_FINISH,
+            HILLS_FLAT_FINISH,
             HILLS_UPHILL_FINISH,
             MOUNTAINS_FLAT_FINISH,
             MOUNTAINS_UPHILL_FINISH,
