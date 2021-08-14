@@ -8,6 +8,7 @@ import java.time.LocalDate
 data class Race(
     val id: String,
     val name: String,
+    val country: String,
     @Contextual val startDate: LocalDate,
     @Contextual val endDate: LocalDate,
     val website: String?,

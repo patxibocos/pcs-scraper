@@ -280,6 +280,12 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             withClass = "main"
             h1 { findFirst { text } }
         }
+        val country = raceDoc.span {
+            withClass = "flag"
+            findFirst {
+                this.classNames.find { it.length == 2 }.orEmpty()
+            }
+        }
         val websites = raceDoc.ul {
             withClass = "list" and "circle" and "bluelink" and "fs14"
             li {
@@ -313,6 +319,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         PCSRace(
             url = raceUrl,
             name = name,
+            country = country,
             startDate = startDate,
             endDate = endDate,
             website = website,
@@ -431,6 +438,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         return Race(
             id = raceId,
             name = pcsRace.name,
+            country = pcsRace.country.uppercase(),
             startDate = LocalDate.parse(pcsRace.startDate, DateTimeFormatter.ISO_LOCAL_DATE),
             endDate = LocalDate.parse(pcsRace.endDate, DateTimeFormatter.ISO_LOCAL_DATE),
             website = pcsRace.website,
@@ -519,6 +527,7 @@ private data class PCSRider(
 private data class PCSRace(
     val url: String,
     val name: String,
+    val country: String,
     val startDate: String,
     val endDate: String,
     val website: String?,

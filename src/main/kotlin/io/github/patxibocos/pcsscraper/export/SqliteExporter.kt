@@ -98,6 +98,7 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
     private object DbRace : DbTable<Race>(name = "race") {
         val id = text("id")
         private val name = text("name")
+        private val country = text("country")
         private val startDate = text("start_date")
         private val endDate = text("end_date")
         private val website = text("website").nullable()
@@ -108,6 +109,7 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race) {
             insertStatement[id] = t.id
             insertStatement[name] = t.name
+            insertStatement[country] = t.country
             insertStatement[startDate] = t.startDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
             insertStatement[endDate] = t.endDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
             insertStatement[website] = t.website
