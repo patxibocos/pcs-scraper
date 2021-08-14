@@ -17,8 +17,6 @@ import it.skrape.selects.html5.span
 import it.skrape.selects.html5.tbody
 import it.skrape.selects.html5.tr
 import it.skrape.selects.html5.ul
-import kotlinx.coroutines.async
-import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
 import java.net.URI
 import java.net.URL
@@ -34,18 +32,18 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     RacesScraper {
     override suspend fun scrapeTeams(season: Int): List<Team> = coroutineScope {
         getTeamsUrls(season).map { teamUrl ->
-            async { getTeam(teamUrl) }
-        }.awaitAll().map(::pcsTeamToTeam).sortedBy { it.name }
+            getTeam(teamUrl)
+        }.map(::pcsTeamToTeam).sortedBy { it.name }
     }
 
     override suspend fun scrapeRiders(season: Int): List<Rider> = coroutineScope {
         val pcsTeams = getTeamsUrls(season).map { teamUrl ->
-            async { getTeam(teamUrl) }
-        }.awaitAll()
+            getTeam(teamUrl)
+        }
         val pcsRiders = pcsTeams
             .flatMap(PCSTeam::riders)
-            .map { (riderUrl, riderFullName) -> async { getRider(riderUrl, riderFullName) } }
-            .awaitAll().distinctBy { it.url }
+            .map { (riderUrl, riderFullName) -> getRider(riderUrl, riderFullName) }
+            .distinctBy { it.url }
         val usCollator = Collator.getInstance(Locale.US)
         val ridersComparator = compareBy(usCollator) { r: Rider -> r.lastName.lowercase() }
             .thenBy(usCollator) { r: Rider -> r.firstName.lowercase() }
@@ -53,9 +51,9 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     override suspend fun scrapeRaces(): List<Race> = coroutineScope {
-        getRacesUrls().map { raceUrl ->
-            async { getRace(raceUrl) }
-        }.awaitAll().filterNotNull().map(::pcsRaceToRace).sortedBy { it.startDate }
+        getRacesUrls().mapNotNull { raceUrl ->
+            getRace(raceUrl)
+        }.map(::pcsRaceToRace).sortedBy { it.startDate }
     }
 
     private suspend fun getTeamsUrls(season: Int): List<String> {
@@ -365,7 +363,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                 }
             }
         }
-        stagesUrls.map { stageUrl -> async { getStage(stageUrl) } }.awaitAll()
+        stagesUrls.map { stageUrl -> getStage(stageUrl) }
     }
 
     @Suppress("DuplicatedCode")
