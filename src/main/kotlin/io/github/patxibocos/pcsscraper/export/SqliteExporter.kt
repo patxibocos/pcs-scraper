@@ -67,7 +67,7 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
     }
 
     private object DbRider : DbTable<Rider>(name = "rider") {
-        private val id = text("id")
+        val id = text("id")
         private val firstName = text("first_name")
         private val lastName = text("last_name")
         private val country = text("country")
@@ -139,15 +139,18 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         }
     }
 
-    private object DbTeamParticipation : SQLiteExporter.DbTable<Race.TeamParticipation>(name = "team_participation") {
+    private object DbRiderParticipation :
+        SQLiteExporter.DbTable<Race.RiderParticipation>(name = "rider_participation") {
         private val raceId = text("race_id") references DbRace.id
         private val teamId = text("team_id") references DbTeam.id
-        private val riders = text("riders")
+        private val riderId = text("rider_id") references DbRider.id
+        private val number = integer("number").nullable()
 
-        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.TeamParticipation) {
-            insertStatement[raceId] = t.raceId
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.RiderParticipation) {
+            insertStatement[raceId] = t.race
             insertStatement[teamId] = t.team
-            insertStatement[riders] = Json.encodeToString(t.riders)
+            insertStatement[riderId] = t.rider
+            insertStatement[number] = t.number
         }
     }
 
@@ -162,6 +165,6 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
     override suspend fun exportRacesWithStages(races: List<Race>) {
         connectToDbAndInsert(DbRace, races)
         connectToDbAndInsert(DbStage, races.flatMap(Race::stages))
-        connectToDbAndInsert(DbTeamParticipation, races.flatMap(Race::startList))
+        connectToDbAndInsert(DbRiderParticipation, races.flatMap { it.startList }.flatMap { it.riders })
     }
 }

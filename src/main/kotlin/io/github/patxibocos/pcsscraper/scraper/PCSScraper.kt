@@ -337,7 +337,10 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             val riders = it.ul {
                 findAll("li")
             }.map {
-                it.a { findFirst { attribute("href") } }
+                PCSRiderParticipation(
+                    rider = it.a { findFirst { attribute("href") } },
+                    number = it.ownText
+                )
             }
             PCSTeamParticipation(
                 team = team,
@@ -464,12 +467,20 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     private fun pcsTeamParticipationToTeamParticipation(
         raceId: String,
         pcsTeamParticipation: PCSTeamParticipation
-    ): Race.TeamParticipation =
-        Race.TeamParticipation(
-            team = pcsTeamParticipation.team.split("/").last(),
-            riders = pcsTeamParticipation.riders.map { it.split("/").last() },
-            raceId = raceId,
+    ): Race.TeamParticipation {
+        val teamId = pcsTeamParticipation.team.split("/").last()
+        return Race.TeamParticipation(
+            team = teamId,
+            riders = pcsTeamParticipation.riders.map {
+                Race.RiderParticipation(
+                    rider = it.rider.split("/").last(),
+                    number = it.number.toIntOrNull(),
+                    race = raceId,
+                    team = teamId,
+                )
+            },
         )
+    }
 
     private fun Doc.getElementWebsite(): String? =
         this.ul {
@@ -535,7 +546,12 @@ private data class PCSRace(
 
 private data class PCSTeamParticipation(
     val team: String,
-    val riders: List<String>
+    val riders: List<PCSRiderParticipation>,
+)
+
+private data class PCSRiderParticipation(
+    val rider: String,
+    val number: String,
 )
 
 private data class PCSStage(
