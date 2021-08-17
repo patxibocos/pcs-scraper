@@ -32,13 +32,13 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     RacesScraper {
     override suspend fun scrapeTeams(season: Int): List<Team> = coroutineScope {
         getTeamsUrls(season).map { teamUrl ->
-            getTeam(teamUrl)
+            getTeam(teamUrl, season)
         }.map(::pcsTeamToTeam).sortedBy { it.name }
     }
 
     override suspend fun scrapeRiders(season: Int): List<Rider> = coroutineScope {
         val pcsTeams = getTeamsUrls(season).map { teamUrl ->
-            getTeam(teamUrl)
+            getTeam(teamUrl, season)
         }
         val pcsRiders = pcsTeams
             .flatMap(PCSTeam::riders)
@@ -76,7 +76,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     @Suppress("DuplicatedCode")
-    private suspend fun getTeam(teamUrl: String): PCSTeam {
+    private suspend fun getTeam(teamUrl: String, season: Int): PCSTeam {
         val teamURL = buildURL(teamUrl)
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
         val infoList = teamDoc.ul {
@@ -107,15 +107,17 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             }
         }
         val website = teamDoc.getElementWebsite()
-        val jersey = infoList.li {
-            findLast {
-                img {
-                    findFirst {
-                        attribute("src")
-                    }
-                }
+
+        fun getJerseyImageFromUci(): String {
+            val uciCategory = when (status) {
+                "WT" -> "WTT"
+                "PRT" -> "PRT"
+                else -> ""
             }
+            return "https://ucibws.uci.ch/api/WebResources/ModulesData/Teams/2021/ROA/Jerseys/$uciCategory/ROA-${uciCategory}_${abbreviation}_$season.jpg"
         }
+
+        val jersey = getJerseyImageFromUci()
         val pageTitleMain = teamDoc.div {
             withClass = "page-title"
             div {
