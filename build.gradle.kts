@@ -24,6 +24,7 @@ dependencies {
 
     implementation(libs.exposed.core)
     implementation(libs.exposed.jdbc)
+    implementation(libs.firebase.admin)
     implementation(libs.kotlin.cli)
     implementation(libs.kotlin.serialization.json)
     implementation(libs.ktor.client.core)
@@ -47,6 +48,8 @@ tasks.withType<Jar> {
         archiveFileName.set("${application.applicationName}.jar")
     }
     from(configurations.compileClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
+    exclude("META-INF/*.SF")
+    exclude("META-INF/*.DSA")
 }
 
 spotless {

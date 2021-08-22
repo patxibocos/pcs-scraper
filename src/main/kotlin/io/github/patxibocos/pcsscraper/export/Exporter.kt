@@ -7,20 +7,18 @@ import java.io.File
 import java.nio.file.Paths
 
 enum class Format {
-    JSON, SQLITE
+    FIREBASE, JSON, SQLITE
 }
 
 interface Exporter {
-    val destination: File
 
-    suspend fun exportTeams(teams: List<Team>)
-    suspend fun exportRiders(riders: List<Rider>)
-    suspend fun exportRacesWithStages(races: List<Race>)
+    suspend fun export(teams: List<Team>, riders: List<Rider>, races: List<Race>)
 
     companion object {
         fun from(destinationPath: String, format: Format): Exporter {
             val destination = File(Paths.get(destinationPath).toUri()).also { it.mkdirs() }
             return when (format) {
+                Format.FIREBASE -> FirebaseExporter()
                 Format.JSON -> JsonExporter(destination)
                 Format.SQLITE -> SQLiteExporter(destination)
             }

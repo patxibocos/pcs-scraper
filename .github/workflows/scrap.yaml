@@ -3,6 +3,7 @@ name: scrap
 on:
   schedule:
     - cron: '0 2 * * *'
+  workflow_dispatch:
 
 jobs:
   scrap:
@@ -10,6 +11,12 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v2
+      - name: Set GOOGLE_APPLICATION_CREDENTIALS environment variable
+        run: |
+          gpg --version
+          echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}" > firebase.service-account.json.asc
+          gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.FIREBASE_SERVICE_ACCOUNT_PASSPHRASE }}" --output firebase.service-account.json firebase.service-account.json.asc
+          echo "GOOGLE_APPLICATION_CREDENTIALS=$(echo $(pwd)/firebase.service-account.json)" >> $GITHUB_ENV
       - name: Set up JDK 16
         uses: actions/setup-java@v2
         with:
@@ -18,7 +25,7 @@ jobs:
       - name: Build
         run: ./gradlew build
       - name: Run scraper
-        run: java -jar build/libs/pcs-scraper.jar -s 2021 -d out -f json -f sqlite
+        run: java -jar build/libs/pcs-scraper.jar -s 2021 -d out -f json -f sqlite -f firebase
       - name: Set current date as env variable
         run: echo "TODAY=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
       - name: Release

@@ -35,9 +35,7 @@ fun main(args: Array<String>) {
 
         formats.forEach { format ->
             val exporter: Exporter = Exporter.from(destination, format)
-            exporter.exportTeams(teams)
-            exporter.exportRiders(riders)
-            exporter.exportRacesWithStages(races)
+            exporter.export(teams, riders, races)
         }
     }
 }
@@ -54,7 +52,7 @@ private fun getAppArgs(args: Array<String>): AppArgs {
     val parser = ArgParser("pcs-scraper")
     val season by parser.option(ArgType.Int, shortName = "s", description = "Season").required()
     val cachePath by parser.option(ArgType.String, shortName = "c", description = "Cache path")
-    val destination by parser.option(ArgType.String, shortName = "d", description = "Destination path").required()
+    val destination by parser.option(ArgType.String, shortName = "d", description = "Destination path").default("out")
     val formats by parser.option(
         ArgType.Choice(Format.values().map { it.name.lowercase() }, { it }),
         shortName = "f",

@@ -16,7 +16,7 @@ import org.jetbrains.exposed.sql.transactions.transaction
 import java.io.File
 import java.time.format.DateTimeFormatter
 
-internal class SQLiteExporter(override val destination: File) : Exporter {
+internal class SQLiteExporter(destination: File) : Exporter {
 
     private val destinationFile = destination.resolve("db.sqlite").also { it.delete() }
 
@@ -154,15 +154,9 @@ internal class SQLiteExporter(override val destination: File) : Exporter {
         }
     }
 
-    override suspend fun exportTeams(teams: List<Team>) {
-        connectToDbAndInsert(DbTeam, teams)
-    }
-
-    override suspend fun exportRiders(riders: List<Rider>) {
+    override suspend fun export(teams: List<Team>, riders: List<Rider>, races: List<Race>) {
         connectToDbAndInsert(DbRider, riders)
-    }
-
-    override suspend fun exportRacesWithStages(races: List<Race>) {
+        connectToDbAndInsert(DbTeam, teams)
         connectToDbAndInsert(DbRace, races)
         connectToDbAndInsert(DbStage, races.flatMap(Race::stages))
         connectToDbAndInsert(DbRiderParticipation, races.flatMap { it.startList }.flatMap { it.riders })
