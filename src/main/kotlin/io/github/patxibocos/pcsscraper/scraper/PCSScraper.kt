@@ -437,7 +437,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     private fun pcsRaceToRace(pcsRace: PCSRace): Race {
-        val raceId = pcsRace.url.split("/").dropLast(1).takeLast(2).joinToString("/")
+        val raceId = pcsRace.url.split("/").dropLast(1).takeLast(2).joinToString("/").replace("/", "-")
         return Race(
             id = raceId,
             name = pcsRace.name,
@@ -455,8 +455,9 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
         // p1, p2, p3, p4 and p5 are the only valid values
         val pcsTypeIndex = (1..5).map { "p$it" }.indexOf(pcsStage.type).takeIf { it != -1 }
+        val stageId = pcsStage.url.split("/").takeLast(3).joinToString("/").replace("/", "-")
         return Race.Stage(
-            id = pcsStage.url.split("/").takeLast(3).joinToString("/"),
+            id = stageId,
             startDate = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd MMMM yyyy")),
             distance = pcsStage.distance.split(" ").first().toFloat(),
             type = pcsTypeIndex?.let { Race.Stage.Type.values()[pcsTypeIndex] },
