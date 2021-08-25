@@ -11,10 +11,12 @@ import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
 import io.github.patxibocos.pcsscraper.export.json.json
+import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.encodeToString
 
 internal class FirebaseExporter : Exporter {
 
+    @OptIn(ExperimentalSerializationApi::class)
     override suspend fun export(teams: List<Team>, riders: List<Rider>, races: List<Race>) {
         val options = FirebaseOptions.builder()
             .setCredentials(GoogleCredentials.getApplicationDefault())
