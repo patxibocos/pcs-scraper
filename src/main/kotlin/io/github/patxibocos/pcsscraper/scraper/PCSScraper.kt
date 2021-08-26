@@ -338,10 +338,10 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             val team = it.b { a { findFirst { attribute("href") } } }
             val riders = it.ul {
                 findAll("li")
-            }.map {
+            }.map { riderDocElement ->
                 PCSRiderParticipation(
-                    rider = it.a { findFirst { attribute("href") } },
-                    number = it.ownText
+                    rider = riderDocElement.a { findFirst { attribute("href") } },
+                    number = riderDocElement.ownText
                 )
             }
             PCSTeamParticipation(
