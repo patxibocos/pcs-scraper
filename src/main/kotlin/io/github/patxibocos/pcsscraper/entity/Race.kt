@@ -23,6 +23,7 @@ data class Race(
         val type: Type?,
         val departure: String?,
         val arrival: String?,
+        val result: List<RiderResult>,
         @kotlinx.serialization.Transient val raceId: String = "",
     ) {
         enum class Type {
@@ -33,6 +34,14 @@ data class Race(
             MOUNTAINS_UPHILL_FINISH,
         }
     }
+
+    @Serializable
+    data class RiderResult(
+        val position: Int,
+        val rider: String,
+        val time: Long,
+        @kotlinx.serialization.Transient val stage: String = "",
+    )
 
     @Serializable
     data class TeamParticipation(

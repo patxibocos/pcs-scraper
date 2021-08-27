@@ -8,9 +8,7 @@ import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import org.jetbrains.exposed.sql.Database
 import org.jetbrains.exposed.sql.SchemaUtils
-import org.jetbrains.exposed.sql.StdOutSqlLogger
 import org.jetbrains.exposed.sql.Table
-import org.jetbrains.exposed.sql.addLogger
 import org.jetbrains.exposed.sql.insert
 import org.jetbrains.exposed.sql.statements.InsertStatement
 import org.jetbrains.exposed.sql.transactions.transaction
@@ -24,7 +22,6 @@ internal class SQLiteExporter(destination: File) : Exporter {
     private fun <T> connectToDbAndInsert(table: DbTable<T>, data: List<T>) {
         Database.connect("jdbc:sqlite:${destinationFile.absolutePath}", "org.sqlite.JDBC")
         transaction {
-            addLogger(StdOutSqlLogger)
             SchemaUtils.create(table)
             data.forEach { t: T ->
                 table.insert {
@@ -119,7 +116,7 @@ internal class SQLiteExporter(destination: File) : Exporter {
     }
 
     private object DbStage : DbTable<Race.Stage>(name = "stage") {
-        private val id = text("id")
+        val id = text("id")
         private val startDate = text("start_date")
         private val distance = float("distance")
         private val type = text("type").nullable()
@@ -156,11 +153,27 @@ internal class SQLiteExporter(destination: File) : Exporter {
         }
     }
 
+    private object DbRiderResult :
+        SQLiteExporter.DbTable<Race.RiderResult>(name = "rider_result") {
+        private val stageId = text("stage_id") references DbStage.id
+        private val riderId = text("rider_id") references DbRider.id
+        private val position = integer("position")
+        private val time = long("time")
+
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.RiderResult) {
+            insertStatement[stageId] = t.stage
+            insertStatement[riderId] = t.rider
+            insertStatement[position] = t.position
+            insertStatement[time] = t.time
+        }
+    }
+
     override suspend fun export(teams: List<Team>, riders: List<Rider>, races: List<Race>) {
         connectToDbAndInsert(DbRider, riders)
         connectToDbAndInsert(DbTeam, teams)
         connectToDbAndInsert(DbRace, races)
         connectToDbAndInsert(DbStage, races.flatMap(Race::stages))
+        connectToDbAndInsert(DbRiderResult, races.flatMap(Race::stages).flatMap(Race.Stage::result))
         connectToDbAndInsert(DbRiderParticipation, races.flatMap { it.startList }.flatMap { it.riders })
     }
 }

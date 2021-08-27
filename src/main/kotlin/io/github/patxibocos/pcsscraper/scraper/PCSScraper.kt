@@ -14,7 +14,10 @@ import it.skrape.selects.html5.h1
 import it.skrape.selects.html5.img
 import it.skrape.selects.html5.li
 import it.skrape.selects.html5.span
+import it.skrape.selects.html5.table
 import it.skrape.selects.html5.tbody
+import it.skrape.selects.html5.td
+import it.skrape.selects.html5.thead
 import it.skrape.selects.html5.tr
 import it.skrape.selects.html5.ul
 import kotlinx.coroutines.coroutineScope
@@ -25,6 +28,8 @@ import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.util.Locale
 import kotlin.math.max
+import kotlin.time.Duration
+import kotlin.time.ExperimentalTime
 
 class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String) :
     TeamsScraper,
@@ -394,6 +399,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val type = findInInfoListByIndex(5) { findSecond { findFirst("span") } }.classNames.last()
         val departure = findInInfoListByIndex(8) { findSecond { a { findFirst { this } }.text } }.ifEmpty { null }
         val arrival = findInInfoListByIndex(9) { findSecond { a { findFirst { this } }.text } }.ifEmpty { null }
+        val result = getStageResult(stageDoc)
         return PCSStage(
             url = stageUrl,
             startDate = startDateTime,
@@ -401,7 +407,37 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             type = type,
             departure = departure,
             arrival = arrival,
+            result = result,
         )
+    }
+
+    private fun getStageResult(stageDoc: Doc): List<PCSRiderResult> {
+        val resultsTable = stageDoc.table {
+            withClass = "results"
+            findFirst { this }
+        }
+        val resultColumns = resultsTable.thead { tr { findAll("th") } }
+        val positionColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rnk" }
+        val riderColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rider" }
+        val timeColumnIndex = resultColumns.indexOfFirst { it.ownText == "Time" }
+        return resultsTable.tbody {
+            tr {
+                findAll {
+                    map {
+                        val position = it.td { findByIndex(positionColumnIndex) }.ownText
+                        val rider = it.td { findByIndex(riderColumnIndex) }.a { findFirst { attribute("href") } }
+                        val time = it.td { findByIndex(timeColumnIndex) }.ownText.ifEmpty {
+                            it.td { findByIndex(timeColumnIndex) }.span { findFirst { ownText } }
+                        }
+                        PCSRiderResult(
+                            position = position,
+                            rider = rider,
+                            time = time,
+                        )
+                    }
+                }
+            }
+        }
     }
 
     private fun pcsTeamToTeam(pcsTeam: PCSTeam): Team =
@@ -450,12 +486,36 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         )
     }
 
+    @OptIn(ExperimentalTime::class)
     private fun pcsStageToStage(raceId: String, pcsStage: PCSStage): Race.Stage {
         // Some dates include time, so for now we just ignore the time part
         val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
         // p1, p2, p3, p4 and p5 are the only valid values
         val pcsTypeIndex = (1..5).map { "p$it" }.indexOf(pcsStage.type).takeIf { it != -1 }
         val stageId = pcsStage.url.split("/").takeLast(3).joinToString("/").replace("/", "-")
+        var currentTime = 0L
+        val result = pcsStage.result.take(10).mapNotNull {
+            val rider = it.rider.split("/").last()
+            if (it.position.toIntOrNull() == null) { // Riders that didn't finish have a position which is not a number
+                return@mapNotNull null
+            }
+            if (it.time != ",,") { // Time being ,, means that it has the same time as the previous rider
+                val parts = it.time.split(":").map(String::toInt)
+                val timeInSeconds = when (parts.size) {
+                    3 -> {
+                        val (hours, minutes, seconds) = parts
+                        (Duration.hours(hours) + Duration.minutes(minutes) + Duration.seconds(seconds)).inWholeSeconds
+                    }
+                    2 -> {
+                        val (minutes, seconds) = parts
+                        (Duration.minutes(minutes) + Duration.seconds(seconds)).inWholeSeconds
+                    }
+                    else -> throw RuntimeException("Unexpected time value: ${it.time}")
+                }
+                currentTime += timeInSeconds
+            }
+            Race.RiderResult(it.position.toInt(), rider, currentTime, stageId)
+        }
         return Race.Stage(
             id = stageId,
             startDate = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd MMMM yyyy")),
@@ -464,6 +524,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             departure = pcsStage.departure,
             arrival = pcsStage.arrival,
             raceId = raceId,
+            result = result,
         )
     }
 
@@ -564,4 +625,11 @@ private data class PCSStage(
     val type: String,
     val departure: String?,
     val arrival: String?,
+    val result: List<PCSRiderResult>
+)
+
+private class PCSRiderResult(
+    val position: String,
+    val rider: String,
+    val time: String,
 )
