@@ -1,0 +1,35 @@
+name: release
+
+on:
+  schedule:
+    - cron: '0 * * * *'
+  workflow_dispatch:
+
+jobs:
+  scrap:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2
+      - name: Set up JDK 16
+        uses: actions/setup-java@v2
+        with:
+          distribution: 'zulu'
+          java-version: '16'
+      - name: Build
+        run: ./gradlew build
+      - name: Run scraper
+        run: java -jar build/libs/pcs-scraper.jar -s 2021 -d out -f json -f sqlite
+      - name: Set current date as env variable
+        run: echo "TODAY=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
+      - name: Release
+        uses: softprops/action-gh-release@v1
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          name: Release ${{ env.TODAY }}
+          tag_name: v${{ env.TODAY }}
+          files: |
+            out/db.sqlite
+            out/teams.json
+            out/riders.json
+            out/races.json

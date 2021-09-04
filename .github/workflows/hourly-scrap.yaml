@@ -25,17 +25,4 @@ jobs:
       - name: Build
         run: ./gradlew build
       - name: Run scraper
-        run: java -jar build/libs/pcs-scraper.jar -s 2021 -d out -f json -f sqlite -f firebase
-      - name: Set current date as env variable
-        run: echo "TODAY=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
-      - name: Release
-        uses: softprops/action-gh-release@v1
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }}
-          name: Release ${{ env.TODAY }}
-          tag_name: v${{ env.TODAY }}
-          files: |
-            out/db.sqlite
-            out/teams.json
-            out/riders.json
-            out/races.json
+        run: java -jar build/libs/pcs-scraper.jar -s 2021 -d out -f firebase
