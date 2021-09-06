@@ -1,0 +1,8 @@
+syntax = "proto3";
+package io.github.patxibocos.pcsscraper.protobuf.race;
+
+import "src/main/proto/race.proto";
+
+message Races {
+  repeated Race races = 1;
+}

@@ -1,0 +1,8 @@
+syntax = "proto3";
+package io.github.patxibocos.pcsscraper.protobuf.rider;
+
+import "src/main/proto/rider.proto";
+
+message Riders {
+  repeated Rider riders = 1;
+}

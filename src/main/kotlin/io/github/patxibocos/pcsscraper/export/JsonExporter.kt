@@ -5,7 +5,6 @@ import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
 import io.github.patxibocos.pcsscraper.export.json.json
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.withContext
 import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.encodeToString
@@ -20,7 +19,7 @@ internal class JsonExporter(private val destination: File) : Exporter {
     }
 
     @OptIn(ExperimentalSerializationApi::class)
-    private suspend inline fun <reified T> exportToJson(data: T, fileName: String) = coroutineScope {
+    private suspend inline fun <reified T> exportToJson(data: T, fileName: String) {
         val serialized = withContext(Dispatchers.Default) {
             json.encodeToString(data)
         }

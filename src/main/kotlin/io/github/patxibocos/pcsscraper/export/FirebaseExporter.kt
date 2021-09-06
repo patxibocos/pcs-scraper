@@ -10,9 +10,9 @@ import com.google.firebase.remoteconfig.Template
 import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
-import io.github.patxibocos.pcsscraper.export.json.json
+import io.github.patxibocos.pcsscraper.export.protobuf.buildProtobufMessages
 import kotlinx.serialization.ExperimentalSerializationApi
-import kotlinx.serialization.encodeToString
+import java.util.Base64
 
 internal class FirebaseExporter : Exporter {
 
@@ -23,14 +23,19 @@ internal class FirebaseExporter : Exporter {
             .build()
         FirebaseApp.initializeApp(options)
 
-        val teamsJson = json.encodeToString(teams)
-        val ridersJson = json.encodeToString(riders)
-        val racesJson = json.encodeToString(races)
+        val (teamsProtobufMessage, ridersProtobufMessage, racesProtobufMessage) = buildProtobufMessages(
+            teams,
+            riders,
+            races
+        )
+        val teamsBase64 = Base64.getEncoder().encodeToString(teamsProtobufMessage.toByteArray())
+        val ridersBase64 = Base64.getEncoder().encodeToString(ridersProtobufMessage.toByteArray())
+        val racesBase64 = Base64.getEncoder().encodeToString(racesProtobufMessage.toByteArray())
 
         val template: Template = FirebaseRemoteConfig.getInstance().templateAsync.get()
-        template.parameters["teams"] = Parameter().setDefaultValue(ParameterValue.of(teamsJson))
-        template.parameters["riders"] = Parameter().setDefaultValue(ParameterValue.of(ridersJson))
-        template.parameters["races"] = Parameter().setDefaultValue(ParameterValue.of(racesJson))
+        template.parameters["teams"] = Parameter().setDefaultValue(ParameterValue.of(teamsBase64))
+        template.parameters["riders"] = Parameter().setDefaultValue(ParameterValue.of(ridersBase64))
+        template.parameters["races"] = Parameter().setDefaultValue(ParameterValue.of(racesBase64))
         FirebaseRemoteConfig.getInstance().publishTemplate(template)
     }
 }

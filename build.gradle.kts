@@ -31,6 +31,7 @@ dependencies {
     implementation(libs.ktor.client.cio)
     implementation(libs.skrapeit)
     implementation(libs.sqlite.jdbc)
+    implementation("com.google.protobuf:protobuf-kotlin:3.18.0-rc-2")
 }
 
 tasks.test {
@@ -56,7 +57,7 @@ tasks.withType<Jar> {
 spotless {
     kotlin {
         target("**/*.kt")
-        targetExclude("$buildDir/**/*.kt", "bin/**/*.kt")
+        targetExclude("$buildDir/**/*.kt", "bin/**/*.kt", "**/protobuf/**/*.kt")
         ktlint("0.42.1")
     }
 

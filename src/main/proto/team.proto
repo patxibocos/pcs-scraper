@@ -1,0 +1,21 @@
+syntax = "proto3";
+package io.github.patxibocos.pcsscraper.protobuf.team;
+
+message Team {
+  string id = 1;
+  string name = 2;
+  Status status = 3;
+  string abbreviation = 4;
+  string country = 5;
+  string bike = 6;
+  string jersey = 7;
+  uint32 year = 8;
+  repeated string rider_ids = 9;
+  string website = 10;
+
+  enum Status {
+    STATUS_UNSPECIFIED = 0;
+    STATUS_WORLD_TEAM = 1;
+    STATUS_PRO_TEAM = 2;
+  }
+}
