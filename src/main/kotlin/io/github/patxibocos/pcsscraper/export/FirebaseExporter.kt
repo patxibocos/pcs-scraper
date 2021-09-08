@@ -47,7 +47,7 @@ internal class FirebaseExporter : Exporter {
         ByteArrayOutputStream(message.toByteArray().size).use { originalStream ->
             GZIPOutputStream(originalStream).use {
                 it.write(message.toByteArray())
-                originalStream.toByteArray()
+                originalStream
             }
-        }.let(Base64.getEncoder()::encodeToString)
+        }.toByteArray().let(Base64.getEncoder()::encodeToString)
 }
