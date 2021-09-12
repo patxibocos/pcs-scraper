@@ -22,7 +22,12 @@ class DocFetcher(
         docURL: URL,
         init: (Doc.() -> Unit)? = null,
     ): Doc = coroutineScope {
-        val cacheKey = docURL.file.dropWhile { it == '/' }
+        val path = docURL.file.dropWhile { it == '/' }
+        val splits = path.split("/")
+        val normalizeParentPath = if (splits.size > 1) splits.dropLast(1).joinToString(separator = "/", postfix = "/") {
+            "_$it"
+        } + "/" else ""
+        val cacheKey = "$normalizeParentPath${splits.last()}"
         val cacheContent = if (!skipCache && cache != null) cache.get(cacheKey) else null
         if (cacheContent != null) {
             return@coroutineScope htmlDocument(cacheContent) {

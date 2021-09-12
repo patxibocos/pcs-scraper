@@ -14,7 +14,6 @@ import it.skrape.selects.html5.h1
 import it.skrape.selects.html5.img
 import it.skrape.selects.html5.li
 import it.skrape.selects.html5.span
-import it.skrape.selects.html5.table
 import it.skrape.selects.html5.tbody
 import it.skrape.selects.html5.td
 import it.skrape.selects.html5.thead
@@ -306,21 +305,15 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val website = websites.firstOrNull {
             !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") && it.trim().isNotEmpty()
         }
-        val raceParticipantsUrl = raceDoc.div {
-            withClass = "page-topnav"
-            ul {
-                li {
-                    findThird {
-                        a {
-                            findFirst {
-                                attribute("href")
-                            }
-                        }
-                    }
-                }
-            }
-        }
+        val header = raceDoc.findAll(".page-topnav > ul > li")
+        val participantsIndex = header.indexOfFirst { it.text == "Startlist" }
+        val resultsIndex = header.indexOfFirst { it.text == "Results" }
+        val raceParticipantsUrl = header[participantsIndex].a { findFirst { attribute("href") } }
+        val raceResultUrl = header[resultsIndex].a { findFirst { attribute("href") } }
+
         val startList = getRaceStartList(raceParticipantsUrl)
+        val raceResultDoc = docFetcher.getDoc(buildURL(raceResultUrl)) { relaxed = true }
+        val result = getResult(raceResultDoc)
         PCSRace(
             url = raceUrl,
             name = name,
@@ -330,6 +323,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             website = website,
             stages = stages,
             startList = startList,
+            result = result,
         )
     }
 
@@ -399,7 +393,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val type = findInInfoListByIndex(5) { findSecond { findFirst("span") } }.classNames.last()
         val departure = findInInfoListByIndex(8) { findSecond { a { findFirst { this } }.text } }.ifEmpty { null }
         val arrival = findInInfoListByIndex(9) { findSecond { a { findFirst { this } }.text } }.ifEmpty { null }
-        val result = getStageResult(stageDoc)
+        val result = getResult(stageDoc)
         return PCSStage(
             url = stageUrl,
             startDate = startDateTime,
@@ -411,11 +405,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         )
     }
 
-    private fun getStageResult(stageDoc: Doc): List<PCSRiderResult> {
-        val resultsTable = stageDoc.table {
-            withClass = "results"
-            findFirst { this }
-        }
+    private fun getResult(doc: Doc): List<PCSRiderResult> {
+        val resultsTable = doc.findFirst("div:not(.hide) > table.results")
         val resultColumns = resultsTable.thead { tr { findAll("th") } }
         val positionColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rnk" }
         val riderColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rider" }
@@ -482,19 +473,15 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             endDate = LocalDate.parse(pcsRace.endDate, DateTimeFormatter.ISO_LOCAL_DATE),
             website = pcsRace.website,
             stages = pcsRace.stages.map { pcsStageToStage(raceId, it) },
-            startList = pcsRace.startList.map { pcsTeamParticipationToTeamParticipation(raceId, it) }
+            startList = pcsRace.startList.map { pcsTeamParticipationToTeamParticipation(raceId, it) },
+            result = pcsRiderResultToRiderResult(pcsRace.result)
         )
     }
 
     @OptIn(ExperimentalTime::class)
-    private fun pcsStageToStage(raceId: String, pcsStage: PCSStage): Race.Stage {
-        // Some dates include time, so for now we just ignore the time part
-        val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
-        // p1, p2, p3, p4 and p5 are the only valid values
-        val pcsTypeIndex = (1..5).map { "p$it" }.indexOf(pcsStage.type).takeIf { it != -1 }
-        val stageId = pcsStage.url.split("/").takeLast(3).joinToString("/").replace("/", "-")
+    private fun pcsRiderResultToRiderResult(pcsRiderResults: List<PCSRiderResult>): List<Race.RiderResult> {
         var currentTime = 0L
-        val result = pcsStage.result.take(10).mapNotNull {
+        return pcsRiderResults.take(10).mapNotNull {
             val rider = it.rider.split("/").last()
             if (it.position.toIntOrNull() == null) { // Riders that didn't finish have a position which is not a number
                 return@mapNotNull null
@@ -514,8 +501,18 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                 }
                 currentTime += timeInSeconds
             }
-            Race.RiderResult(it.position.toInt(), rider, currentTime, stageId)
+            Race.RiderResult(it.position.toInt(), rider, currentTime, "TODO")
         }
+    }
+
+
+    private fun pcsStageToStage(raceId: String, pcsStage: PCSStage): Race.Stage {
+        // Some dates include time, so for now we just ignore the time part
+        val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
+        // p1, p2, p3, p4 and p5 are the only valid values
+        val pcsTypeIndex = (1..5).map { "p$it" }.indexOf(pcsStage.type).takeIf { it != -1 }
+        val stageId = pcsStage.url.split("/").takeLast(3).joinToString("/").replace("/", "-")
+        val result = pcsRiderResultToRiderResult(pcsStage.result)
         return Race.Stage(
             id = stageId,
             startDate = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd MMMM yyyy")),
@@ -605,7 +602,8 @@ private data class PCSRace(
     val endDate: String,
     val website: String?,
     val stages: List<PCSStage>,
-    val startList: List<PCSTeamParticipation>
+    val startList: List<PCSTeamParticipation>,
+    val result: List<PCSRiderResult>,
 )
 
 private data class PCSTeamParticipation(

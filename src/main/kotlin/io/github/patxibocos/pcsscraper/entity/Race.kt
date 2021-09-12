@@ -14,6 +14,7 @@ data class Race(
     val website: String?,
     val stages: List<Stage>,
     val startList: List<TeamParticipation>,
+    val result: List<RiderResult>,
 ) {
     @Serializable
     data class Stage(
