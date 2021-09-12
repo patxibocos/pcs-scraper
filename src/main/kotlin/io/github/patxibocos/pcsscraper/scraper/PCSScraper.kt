@@ -472,8 +472,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             startDate = LocalDate.parse(pcsRace.startDate, DateTimeFormatter.ISO_LOCAL_DATE),
             endDate = LocalDate.parse(pcsRace.endDate, DateTimeFormatter.ISO_LOCAL_DATE),
             website = pcsRace.website,
-            stages = pcsRace.stages.map { pcsStageToStage(raceId, it) },
-            startList = pcsRace.startList.map { pcsTeamParticipationToTeamParticipation(raceId, it) },
+            stages = pcsRace.stages.map { pcsStageToStage(it) },
+            startList = pcsRace.startList.map { pcsTeamParticipationToTeamParticipation(it) },
             result = pcsRiderResultToRiderResult(pcsRace.result)
         )
     }
@@ -501,12 +501,11 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                 }
                 currentTime += timeInSeconds
             }
-            Race.RiderResult(it.position.toInt(), rider, currentTime, "TODO")
+            Race.RiderResult(it.position.toInt(), rider, currentTime)
         }
     }
 
-
-    private fun pcsStageToStage(raceId: String, pcsStage: PCSStage): Race.Stage {
+    private fun pcsStageToStage(pcsStage: PCSStage): Race.Stage {
         // Some dates include time, so for now we just ignore the time part
         val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
         // p1, p2, p3, p4 and p5 are the only valid values
@@ -520,13 +519,11 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             type = pcsTypeIndex?.let { Race.Stage.Type.values()[pcsTypeIndex] },
             departure = pcsStage.departure,
             arrival = pcsStage.arrival,
-            raceId = raceId,
             result = result,
         )
     }
 
     private fun pcsTeamParticipationToTeamParticipation(
-        raceId: String,
         pcsTeamParticipation: PCSTeamParticipation
     ): Race.TeamParticipation {
         val teamId = pcsTeamParticipation.team.split("/").last()
@@ -536,8 +533,6 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                 Race.RiderParticipation(
                     rider = it.rider.split("/").last(),
                     number = it.number.toIntOrNull(),
-                    race = raceId,
-                    team = teamId,
                 )
             },
         )

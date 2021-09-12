@@ -19,12 +19,17 @@ internal class SQLiteExporter(destination: File) : Exporter {
 
     private val destinationFile = destination.resolve("db.sqlite").also { it.delete() }
 
-    private fun <T> connectToDbAndInsert(table: DbTable<T>, data: List<T>) {
+    private fun <T> connectToDbAndInsert(
+        table: DbTable<T>,
+        data: List<T>,
+        enricher: (InsertStatement<Number>) -> Unit = {}
+    ) {
         Database.connect("jdbc:sqlite:${destinationFile.absolutePath}", "org.sqlite.JDBC")
         transaction {
             SchemaUtils.create(table)
             data.forEach { t: T ->
                 table.insert {
+                    enricher(it)
                     table.fillInsertStatement(it, t)
                 }
             }
@@ -115,6 +120,20 @@ internal class SQLiteExporter(destination: File) : Exporter {
         }
     }
 
+    private object DbRaceRiderResult :
+        SQLiteExporter.DbTable<Race.RiderResult>(name = "race_rider_result") {
+        val raceId = text("race_id") references DbRace.id
+        private val riderId = text("rider_id") references DbRider.id
+        private val position = integer("position")
+        private val time = long("time")
+
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.RiderResult) {
+            insertStatement[riderId] = t.rider
+            insertStatement[position] = t.position
+            insertStatement[time] = t.time
+        }
+    }
+
     private object DbStage : DbTable<Race.Stage>(name = "stage") {
         val id = text("id")
         private val startDate = text("start_date")
@@ -122,7 +141,7 @@ internal class SQLiteExporter(destination: File) : Exporter {
         private val type = text("type").nullable()
         private val departure = text("departure").nullable()
         private val arrival = text("arrival").nullable()
-        private val race = text("race_id") references DbRace.id
+        val raceId = text("race_id") references DbRace.id
 
         override val primaryKey: PrimaryKey
             get() = PrimaryKey(id, name = "id")
@@ -134,34 +153,30 @@ internal class SQLiteExporter(destination: File) : Exporter {
             insertStatement[type] = t.type?.name
             insertStatement[departure] = t.departure
             insertStatement[arrival] = t.arrival
-            insertStatement[race] = t.raceId
         }
     }
 
     private object DbRiderParticipation :
         SQLiteExporter.DbTable<Race.RiderParticipation>(name = "rider_participation") {
-        private val raceId = text("race_id") references DbRace.id
-        private val teamId = text("team_id") references DbTeam.id
+        val raceId = text("race_id") references DbRace.id
+        val teamId = text("team_id") references DbTeam.id
         private val riderId = text("rider_id") references DbRider.id
         private val number = integer("number").nullable()
 
         override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.RiderParticipation) {
-            insertStatement[raceId] = t.race
-            insertStatement[teamId] = t.team
             insertStatement[riderId] = t.rider
             insertStatement[number] = t.number
         }
     }
 
-    private object DbRiderResult :
-        SQLiteExporter.DbTable<Race.RiderResult>(name = "rider_result") {
-        private val stageId = text("stage_id") references DbStage.id
+    private object DbStageRiderResult :
+        SQLiteExporter.DbTable<Race.RiderResult>(name = "stage_rider_result") {
+        val stageId = text("stage_id") references DbStage.id
         private val riderId = text("rider_id") references DbRider.id
         private val position = integer("position")
         private val time = long("time")
 
         override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.RiderResult) {
-            insertStatement[stageId] = t.stage
             insertStatement[riderId] = t.rider
             insertStatement[position] = t.position
             insertStatement[time] = t.time
@@ -172,8 +187,24 @@ internal class SQLiteExporter(destination: File) : Exporter {
         connectToDbAndInsert(DbRider, riders)
         connectToDbAndInsert(DbTeam, teams)
         connectToDbAndInsert(DbRace, races)
-        connectToDbAndInsert(DbStage, races.flatMap(Race::stages))
-        connectToDbAndInsert(DbRiderResult, races.flatMap(Race::stages).flatMap(Race.Stage::result))
-        connectToDbAndInsert(DbRiderParticipation, races.flatMap { it.startList }.flatMap { it.riders })
+        races.forEach { race ->
+            connectToDbAndInsert(DbRaceRiderResult, race.result) {
+                it[DbRaceRiderResult.raceId] = race.id
+            }
+            connectToDbAndInsert(DbStage, race.stages) {
+                it[DbStage.raceId] = race.id
+            }
+            race.startList.forEach { team ->
+                connectToDbAndInsert(DbRiderParticipation, team.riders) {
+                    it[DbRiderParticipation.raceId] = race.id
+                    it[DbRiderParticipation.teamId] = team.team
+                }
+            }
+            race.stages.forEach { stage ->
+                connectToDbAndInsert(DbStageRiderResult, race.result) {
+                    it[DbStageRiderResult.stageId] = stage.id
+                }
+            }
+        }
     }
 }
