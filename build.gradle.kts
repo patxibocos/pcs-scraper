@@ -20,8 +20,6 @@ repositories {
 }
 
 dependencies {
-    testImplementation(kotlin("test"))
-
     implementation(libs.exposed.core)
     implementation(libs.exposed.jdbc)
     implementation(libs.firebase.admin)
@@ -29,9 +27,13 @@ dependencies {
     implementation(libs.kotlin.serialization.json)
     implementation(libs.ktor.client.core)
     implementation(libs.ktor.client.cio)
+    implementation(libs.protobuf.kotlin)
     implementation(libs.skrapeit)
     implementation(libs.sqlite.jdbc)
-    implementation("com.google.protobuf:protobuf-kotlin:3.18.0-rc-2")
+
+    testImplementation(libs.test.kotest.assertions)
+    testImplementation(libs.test.kotest.runner.junit5)
+    testImplementation(libs.test.mockk)
 }
 
 tasks.test {

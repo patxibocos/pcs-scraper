@@ -26,7 +26,7 @@ class DocFetcher(
         val splits = path.split("/")
         val normalizeParentPath = if (splits.size > 1) splits.dropLast(1).joinToString(separator = "/", postfix = "/") {
             "_$it"
-        } + "/" else ""
+        } else ""
         val cacheKey = "$normalizeParentPath${splits.last()}"
         val cacheContent = if (!skipCache && cache != null) cache.get(cacheKey) else null
         if (cacheContent != null) {
