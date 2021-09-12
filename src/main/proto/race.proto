@@ -12,6 +12,7 @@ message Race {
   repeated Stage stages = 6;
   repeated TeamParticipation teams = 7;
   string website = 8;
+  repeated RiderResult result = 9;
 }
 
 message Stage {

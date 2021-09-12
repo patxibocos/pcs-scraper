@@ -34,7 +34,7 @@ Options:
     --season, -s -> Season (always required) { Int }
     --cachePath, -c -> Cache path { String }
     --destination, -d -> Destination path (always required) { String }
-    --format, -f -> Output file format (always required) { Value should be one of [json, sqlite] }
+    --format, -f -> Output file format (always required) { Value should be one of [firebase, json, protobuf, sqlite] }
     --skipCache, -sc [false] -> Skip cache 
     --help, -h -> Usage info
 ```
@@ -44,5 +44,5 @@ We can see there are a few arguments that can be passed in:
 - **season**: Season year to scrap.
 - **cachePath**: Directory to be used as cache for HTML documents (to avoid fetching PCS every type).
 - **destination**: Destination path of the output content.
-- **format**: Format of the output file (either json or sqlite).
+- **format**: Format of the output file (firebase, json, protobuf or sqlite).
 - **skipCache**: Ignore cache to force the remote fetching.

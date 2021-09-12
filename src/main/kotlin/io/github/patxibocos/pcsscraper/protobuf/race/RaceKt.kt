@@ -263,7 +263,70 @@ object RaceKt {
     fun clearWebsite() {
       _builder.clearWebsite()
     }
-  }
+
+    /**
+     * An uninstantiable, behaviorless type to represent the field in
+     * generics.
+     */
+    @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
+    class ResultProxy private constructor() : com.google.protobuf.kotlin.DslProxy()
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+     val result: com.google.protobuf.kotlin.DslList<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult, ResultProxy>
+      @kotlin.jvm.JvmSynthetic
+      get() = com.google.protobuf.kotlin.DslList(
+        _builder.getResultList()
+      )
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     * @param value The result to add.
+     */
+    @kotlin.jvm.JvmSynthetic
+    @kotlin.jvm.JvmName("addResult")
+    fun com.google.protobuf.kotlin.DslList<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult, ResultProxy>.add(value: io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult) {
+      _builder.addResult(value)
+    }/**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     * @param value The result to add.
+     */
+    @kotlin.jvm.JvmSynthetic
+    @kotlin.jvm.JvmName("plusAssignResult")
+    inline operator fun com.google.protobuf.kotlin.DslList<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult, ResultProxy>.plusAssign(value: io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult) {
+      add(value)
+    }/**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     * @param values The result to add.
+     */
+    @kotlin.jvm.JvmSynthetic
+    @kotlin.jvm.JvmName("addAllResult")
+    fun com.google.protobuf.kotlin.DslList<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult, ResultProxy>.addAll(values: kotlin.collections.Iterable<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult>) {
+      _builder.addAllResult(values)
+    }/**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     * @param values The result to add.
+     */
+    @kotlin.jvm.JvmSynthetic
+    @kotlin.jvm.JvmName("plusAssignAllResult")
+    inline operator fun com.google.protobuf.kotlin.DslList<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult, ResultProxy>.plusAssign(values: kotlin.collections.Iterable<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult>) {
+      addAll(values)
+    }/**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     * @param index The index to set the value at.
+     * @param value The result to set.
+     */
+    @kotlin.jvm.JvmSynthetic
+    @kotlin.jvm.JvmName("setResult")
+    operator fun com.google.protobuf.kotlin.DslList<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult, ResultProxy>.set(index: kotlin.Int, value: io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult) {
+      _builder.setResult(index, value)
+    }/**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+    @kotlin.jvm.JvmSynthetic
+    @kotlin.jvm.JvmName("clearResult")
+    fun com.google.protobuf.kotlin.DslList<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult, ResultProxy>.clear() {
+      _builder.clearResult()
+    }}
 }
 @kotlin.jvm.JvmSynthetic
 inline fun io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Race.copy(block: io.github.patxibocos.pcsscraper.protobuf.race.RaceKt.Dsl.() -> Unit): io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Race =

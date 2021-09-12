@@ -143,6 +143,30 @@ public final class RaceOuterClass {
      */
     com.google.protobuf.ByteString
         getWebsiteBytes();
+
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+    java.util.List<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult> 
+        getResultList();
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+    io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult getResult(int index);
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+    int getResultCount();
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+    java.util.List<? extends io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResultOrBuilder> 
+        getResultOrBuilderList();
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+    io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResultOrBuilder getResultOrBuilder(
+        int index);
   }
   /**
    * Protobuf type {@code io.github.patxibocos.pcsscraper.protobuf.race.Race}
@@ -163,6 +187,7 @@ public final class RaceOuterClass {
       stages_ = java.util.Collections.emptyList();
       teams_ = java.util.Collections.emptyList();
       website_ = "";
+      result_ = java.util.Collections.emptyList();
     }
 
     @java.lang.Override
@@ -264,6 +289,15 @@ public final class RaceOuterClass {
               website_ = s;
               break;
             }
+            case 74: {
+              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+                result_ = new java.util.ArrayList<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult>();
+                mutable_bitField0_ |= 0x00000004;
+              }
+              result_.add(
+                  input.readMessage(io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.parser(), extensionRegistry));
+              break;
+            }
             default: {
               if (!parseUnknownField(
                   input, unknownFields, extensionRegistry, tag)) {
@@ -284,6 +318,9 @@ public final class RaceOuterClass {
         }
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           teams_ = java.util.Collections.unmodifiableList(teams_);
+        }
+        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+          result_ = java.util.Collections.unmodifiableList(result_);
         }
         this.unknownFields = unknownFields.build();
         makeExtensionsImmutable();
@@ -586,6 +623,46 @@ public final class RaceOuterClass {
       }
     }
 
+    public static final int RESULT_FIELD_NUMBER = 9;
+    private java.util.List<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult> result_;
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+    @java.lang.Override
+    public java.util.List<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult> getResultList() {
+      return result_;
+    }
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+    @java.lang.Override
+    public java.util.List<? extends io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResultOrBuilder> 
+        getResultOrBuilderList() {
+      return result_;
+    }
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+    @java.lang.Override
+    public int getResultCount() {
+      return result_.size();
+    }
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+    @java.lang.Override
+    public io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult getResult(int index) {
+      return result_.get(index);
+    }
+    /**
+     * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+     */
+    @java.lang.Override
+    public io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResultOrBuilder getResultOrBuilder(
+        int index) {
+      return result_.get(index);
+    }
+
     private byte memoizedIsInitialized = -1;
     @java.lang.Override
     public final boolean isInitialized() {
@@ -624,6 +701,9 @@ public final class RaceOuterClass {
       if (!getWebsiteBytes().isEmpty()) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 8, website_);
       }
+      for (int i = 0; i < result_.size(); i++) {
+        output.writeMessage(9, result_.get(i));
+      }
       unknownFields.writeTo(output);
     }
 
@@ -660,6 +740,10 @@ public final class RaceOuterClass {
       }
       if (!getWebsiteBytes().isEmpty()) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(8, website_);
+      }
+      for (int i = 0; i < result_.size(); i++) {
+        size += com.google.protobuf.CodedOutputStream
+          .computeMessageSize(9, result_.get(i));
       }
       size += unknownFields.getSerializedSize();
       memoizedSize = size;
@@ -698,6 +782,8 @@ public final class RaceOuterClass {
           .equals(other.getTeamsList())) return false;
       if (!getWebsite()
           .equals(other.getWebsite())) return false;
+      if (!getResultList()
+          .equals(other.getResultList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -733,6 +819,10 @@ public final class RaceOuterClass {
       }
       hash = (37 * hash) + WEBSITE_FIELD_NUMBER;
       hash = (53 * hash) + getWebsite().hashCode();
+      if (getResultCount() > 0) {
+        hash = (37 * hash) + RESULT_FIELD_NUMBER;
+        hash = (53 * hash) + getResultList().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -863,6 +953,7 @@ public final class RaceOuterClass {
                 .alwaysUseFieldBuilders) {
           getStagesFieldBuilder();
           getTeamsFieldBuilder();
+          getResultFieldBuilder();
         }
       }
       @java.lang.Override
@@ -900,6 +991,12 @@ public final class RaceOuterClass {
         }
         website_ = "";
 
+        if (resultBuilder_ == null) {
+          result_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+        } else {
+          resultBuilder_.clear();
+        }
         return this;
       }
 
@@ -959,6 +1056,15 @@ public final class RaceOuterClass {
           result.teams_ = teamsBuilder_.build();
         }
         result.website_ = website_;
+        if (resultBuilder_ == null) {
+          if (((bitField0_ & 0x00000004) != 0)) {
+            result_ = java.util.Collections.unmodifiableList(result_);
+            bitField0_ = (bitField0_ & ~0x00000004);
+          }
+          result.result_ = result_;
+        } else {
+          result.result_ = resultBuilder_.build();
+        }
         onBuilt();
         return result;
       }
@@ -1080,6 +1186,32 @@ public final class RaceOuterClass {
         if (!other.getWebsite().isEmpty()) {
           website_ = other.website_;
           onChanged();
+        }
+        if (resultBuilder_ == null) {
+          if (!other.result_.isEmpty()) {
+            if (result_.isEmpty()) {
+              result_ = other.result_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+            } else {
+              ensureResultIsMutable();
+              result_.addAll(other.result_);
+            }
+            onChanged();
+          }
+        } else {
+          if (!other.result_.isEmpty()) {
+            if (resultBuilder_.isEmpty()) {
+              resultBuilder_.dispose();
+              resultBuilder_ = null;
+              result_ = other.result_;
+              bitField0_ = (bitField0_ & ~0x00000004);
+              resultBuilder_ = 
+                com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
+                   getResultFieldBuilder() : null;
+            } else {
+              resultBuilder_.addAllMessages(other.result_);
+            }
+          }
         }
         this.mergeUnknownFields(other.unknownFields);
         onChanged();
@@ -2131,6 +2263,246 @@ public final class RaceOuterClass {
         website_ = value;
         onChanged();
         return this;
+      }
+
+      private java.util.List<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult> result_ =
+        java.util.Collections.emptyList();
+      private void ensureResultIsMutable() {
+        if (!((bitField0_ & 0x00000004) != 0)) {
+          result_ = new java.util.ArrayList<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult>(result_);
+          bitField0_ |= 0x00000004;
+         }
+      }
+
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResultOrBuilder> resultBuilder_;
+
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public java.util.List<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult> getResultList() {
+        if (resultBuilder_ == null) {
+          return java.util.Collections.unmodifiableList(result_);
+        } else {
+          return resultBuilder_.getMessageList();
+        }
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public int getResultCount() {
+        if (resultBuilder_ == null) {
+          return result_.size();
+        } else {
+          return resultBuilder_.getCount();
+        }
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult getResult(int index) {
+        if (resultBuilder_ == null) {
+          return result_.get(index);
+        } else {
+          return resultBuilder_.getMessage(index);
+        }
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public Builder setResult(
+          int index, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult value) {
+        if (resultBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureResultIsMutable();
+          result_.set(index, value);
+          onChanged();
+        } else {
+          resultBuilder_.setMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public Builder setResult(
+          int index, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder builderForValue) {
+        if (resultBuilder_ == null) {
+          ensureResultIsMutable();
+          result_.set(index, builderForValue.build());
+          onChanged();
+        } else {
+          resultBuilder_.setMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public Builder addResult(io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult value) {
+        if (resultBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureResultIsMutable();
+          result_.add(value);
+          onChanged();
+        } else {
+          resultBuilder_.addMessage(value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public Builder addResult(
+          int index, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult value) {
+        if (resultBuilder_ == null) {
+          if (value == null) {
+            throw new NullPointerException();
+          }
+          ensureResultIsMutable();
+          result_.add(index, value);
+          onChanged();
+        } else {
+          resultBuilder_.addMessage(index, value);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public Builder addResult(
+          io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder builderForValue) {
+        if (resultBuilder_ == null) {
+          ensureResultIsMutable();
+          result_.add(builderForValue.build());
+          onChanged();
+        } else {
+          resultBuilder_.addMessage(builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public Builder addResult(
+          int index, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder builderForValue) {
+        if (resultBuilder_ == null) {
+          ensureResultIsMutable();
+          result_.add(index, builderForValue.build());
+          onChanged();
+        } else {
+          resultBuilder_.addMessage(index, builderForValue.build());
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public Builder addAllResult(
+          java.lang.Iterable<? extends io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult> values) {
+        if (resultBuilder_ == null) {
+          ensureResultIsMutable();
+          com.google.protobuf.AbstractMessageLite.Builder.addAll(
+              values, result_);
+          onChanged();
+        } else {
+          resultBuilder_.addAllMessages(values);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public Builder clearResult() {
+        if (resultBuilder_ == null) {
+          result_ = java.util.Collections.emptyList();
+          bitField0_ = (bitField0_ & ~0x00000004);
+          onChanged();
+        } else {
+          resultBuilder_.clear();
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public Builder removeResult(int index) {
+        if (resultBuilder_ == null) {
+          ensureResultIsMutable();
+          result_.remove(index);
+          onChanged();
+        } else {
+          resultBuilder_.remove(index);
+        }
+        return this;
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder getResultBuilder(
+          int index) {
+        return getResultFieldBuilder().getBuilder(index);
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResultOrBuilder getResultOrBuilder(
+          int index) {
+        if (resultBuilder_ == null) {
+          return result_.get(index);  } else {
+          return resultBuilder_.getMessageOrBuilder(index);
+        }
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public java.util.List<? extends io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResultOrBuilder> 
+           getResultOrBuilderList() {
+        if (resultBuilder_ != null) {
+          return resultBuilder_.getMessageOrBuilderList();
+        } else {
+          return java.util.Collections.unmodifiableList(result_);
+        }
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder addResultBuilder() {
+        return getResultFieldBuilder().addBuilder(
+            io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder addResultBuilder(
+          int index) {
+        return getResultFieldBuilder().addBuilder(
+            index, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.getDefaultInstance());
+      }
+      /**
+       * <code>repeated .io.github.patxibocos.pcsscraper.protobuf.race.RiderResult result = 9;</code>
+       */
+      public java.util.List<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder> 
+           getResultBuilderList() {
+        return getResultFieldBuilder().getBuilderList();
+      }
+      private com.google.protobuf.RepeatedFieldBuilderV3<
+          io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResultOrBuilder> 
+          getResultFieldBuilder() {
+        if (resultBuilder_ == null) {
+          resultBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
+              io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResultOrBuilder>(
+                  result_,
+                  ((bitField0_ & 0x00000004) != 0),
+                  getParentForChildren(),
+                  isClean());
+          result_ = null;
+        }
+        return resultBuilder_;
       }
       @java.lang.Override
       public final Builder setUnknownFields(
@@ -6280,7 +6652,7 @@ public final class RaceOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031src/main/proto/race.proto\022-io.github.p" +
       "atxibocos.pcsscraper.protobuf.race\032\037goog" +
-      "le/protobuf/timestamp.proto\"\267\002\n\004Race\022\n\n\002" +
+      "le/protobuf/timestamp.proto\"\203\003\n\004Race\022\n\n\002" +
       "id\030\001 \001(\t\022\014\n\004name\030\002 \001(\t\022\017\n\007country\030\003 \001(\t\022" +
       ".\n\nstart_date\030\004 \001(\0132\032.google.protobuf.Ti" +
       "mestamp\022,\n\010end_date\030\005 \001(\0132\032.google.proto" +
@@ -6288,24 +6660,26 @@ public final class RaceOuterClass {
       "b.patxibocos.pcsscraper.protobuf.race.St" +
       "age\022O\n\005teams\030\007 \003(\0132@.io.github.patxiboco" +
       "s.pcsscraper.protobuf.race.TeamParticipa" +
-      "tion\022\017\n\007website\030\010 \001(\t\"\270\003\n\005Stage\022\n\n\002id\030\001 " +
-      "\001(\t\022.\n\nstart_date\030\002 \001(\0132\032.google.protobu" +
-      "f.Timestamp\022\020\n\010distance\030\003 \001(\002\022J\n\006result\030" +
-      "\004 \003(\0132:.io.github.patxibocos.pcsscraper." +
-      "protobuf.race.RiderResult\022G\n\004type\030\005 \001(\0162" +
-      "9.io.github.patxibocos.pcsscraper.protob" +
-      "uf.race.Stage.Type\022\021\n\tdeparture\030\006 \001(\t\022\017\n" +
-      "\007arrival\030\007 \001(\t\"\247\001\n\004Type\022\024\n\020TYPE_UNSPECIF" +
-      "IED\020\000\022\r\n\tTYPE_FLAT\020\001\022\032\n\026TYPE_HILLS_FLAT_" +
-      "FINISH\020\002\022\034\n\030TYPE_HILLS_UPHILL_FINISH\020\003\022\036" +
-      "\n\032TYPE_MOUNTAINS_FLAT_FINISH\020\004\022 \n\034TYPE_M" +
-      "OUNTAINS_UPHILL_FINISH\020\005\"w\n\021TeamParticip" +
-      "ation\022\017\n\007team_id\030\001 \001(\t\022Q\n\006riders\030\002 \003(\0132A" +
-      ".io.github.patxibocos.pcsscraper.protobu" +
-      "f.race.RiderParticipation\"?\n\013RiderResult" +
-      "\022\020\n\010position\030\001 \001(\r\022\020\n\010rider_id\030\002 \001(\t\022\014\n\004" +
-      "time\030\003 \001(\003\"6\n\022RiderParticipation\022\020\n\010ride" +
-      "r_id\030\001 \001(\t\022\016\n\006number\030\002 \001(\rb\006proto3"
+      "tion\022\017\n\007website\030\010 \001(\t\022J\n\006result\030\t \003(\0132:." +
+      "io.github.patxibocos.pcsscraper.protobuf" +
+      ".race.RiderResult\"\270\003\n\005Stage\022\n\n\002id\030\001 \001(\t\022" +
+      ".\n\nstart_date\030\002 \001(\0132\032.google.protobuf.Ti" +
+      "mestamp\022\020\n\010distance\030\003 \001(\002\022J\n\006result\030\004 \003(" +
+      "\0132:.io.github.patxibocos.pcsscraper.prot" +
+      "obuf.race.RiderResult\022G\n\004type\030\005 \001(\01629.io" +
+      ".github.patxibocos.pcsscraper.protobuf.r" +
+      "ace.Stage.Type\022\021\n\tdeparture\030\006 \001(\t\022\017\n\007arr" +
+      "ival\030\007 \001(\t\"\247\001\n\004Type\022\024\n\020TYPE_UNSPECIFIED\020" +
+      "\000\022\r\n\tTYPE_FLAT\020\001\022\032\n\026TYPE_HILLS_FLAT_FINI" +
+      "SH\020\002\022\034\n\030TYPE_HILLS_UPHILL_FINISH\020\003\022\036\n\032TY" +
+      "PE_MOUNTAINS_FLAT_FINISH\020\004\022 \n\034TYPE_MOUNT" +
+      "AINS_UPHILL_FINISH\020\005\"w\n\021TeamParticipatio" +
+      "n\022\017\n\007team_id\030\001 \001(\t\022Q\n\006riders\030\002 \003(\0132A.io." +
+      "github.patxibocos.pcsscraper.protobuf.ra" +
+      "ce.RiderParticipation\"?\n\013RiderResult\022\020\n\010" +
+      "position\030\001 \001(\r\022\020\n\010rider_id\030\002 \001(\t\022\014\n\004time" +
+      "\030\003 \001(\003\"6\n\022RiderParticipation\022\020\n\010rider_id" +
+      "\030\001 \001(\t\022\016\n\006number\030\002 \001(\rb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -6317,7 +6691,7 @@ public final class RaceOuterClass {
     internal_static_io_github_patxibocos_pcsscraper_protobuf_race_Race_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_io_github_patxibocos_pcsscraper_protobuf_race_Race_descriptor,
-        new java.lang.String[] { "Id", "Name", "Country", "StartDate", "EndDate", "Stages", "Teams", "Website", });
+        new java.lang.String[] { "Id", "Name", "Country", "StartDate", "EndDate", "Stages", "Teams", "Website", "Result", });
     internal_static_io_github_patxibocos_pcsscraper_protobuf_race_Stage_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_io_github_patxibocos_pcsscraper_protobuf_race_Stage_fieldAccessorTable = new

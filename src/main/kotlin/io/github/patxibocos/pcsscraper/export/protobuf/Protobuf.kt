@@ -6,9 +6,19 @@ import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
 import io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass
 import io.github.patxibocos.pcsscraper.protobuf.race.RacesOuterClass
+import io.github.patxibocos.pcsscraper.protobuf.race.race
+import io.github.patxibocos.pcsscraper.protobuf.race.races
+import io.github.patxibocos.pcsscraper.protobuf.race.riderParticipation
+import io.github.patxibocos.pcsscraper.protobuf.race.riderResult
+import io.github.patxibocos.pcsscraper.protobuf.race.stage
+import io.github.patxibocos.pcsscraper.protobuf.race.teamParticipation
 import io.github.patxibocos.pcsscraper.protobuf.rider.RidersOuterClass
+import io.github.patxibocos.pcsscraper.protobuf.rider.rider
+import io.github.patxibocos.pcsscraper.protobuf.rider.riders
 import io.github.patxibocos.pcsscraper.protobuf.team.TeamOuterClass
 import io.github.patxibocos.pcsscraper.protobuf.team.TeamsOuterClass
+import io.github.patxibocos.pcsscraper.protobuf.team.team
+import io.github.patxibocos.pcsscraper.protobuf.team.teams
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -32,11 +42,11 @@ internal suspend fun buildProtobufMessages(
         )
     }
 
-private fun buildTeamsProtobufMessage(teams: List<Team>): TeamsOuterClass.Teams =
-    io.github.patxibocos.pcsscraper.protobuf.team.teams {
-        this.teams.addAll(
-            teams.map { team ->
-                io.github.patxibocos.pcsscraper.protobuf.team.team {
+private fun buildTeamsProtobufMessage(_teams: List<Team>): TeamsOuterClass.Teams =
+    teams {
+        teams.addAll(
+            _teams.map { team ->
+                team {
                     id = team.id
                     name = team.name
                     status = when (team.status) {
@@ -49,17 +59,17 @@ private fun buildTeamsProtobufMessage(teams: List<Team>): TeamsOuterClass.Teams 
                     jersey = team.jersey.toString()
                     website = team.website.orEmpty()
                     year = team.year
-                    this.riderIds.addAll(team.riders)
+                    riderIds.addAll(team.riders)
                 }
             }
         )
     }
 
-private fun buildRidersProtobufMessage(riders: List<Rider>): RidersOuterClass.Riders =
-    io.github.patxibocos.pcsscraper.protobuf.rider.riders {
-        this.riders.addAll(
-            riders.map { rider ->
-                io.github.patxibocos.pcsscraper.protobuf.rider.rider {
+private fun buildRidersProtobufMessage(_riders: List<Rider>): RidersOuterClass.Riders =
+    riders {
+        riders.addAll(
+            _riders.map { rider ->
+                rider {
                     id = rider.id
                     firstName = rider.firstName
                     lastName = rider.lastName
@@ -78,11 +88,11 @@ private fun buildRidersProtobufMessage(riders: List<Rider>): RidersOuterClass.Ri
         )
     }
 
-private fun buildRacesProtobufMessage(races: List<Race>): RacesOuterClass.Races =
-    io.github.patxibocos.pcsscraper.protobuf.race.races {
-        this.races.addAll(
-            races.map { race ->
-                io.github.patxibocos.pcsscraper.protobuf.race.race {
+private fun buildRacesProtobufMessage(_races: List<Race>): RacesOuterClass.Races =
+    races {
+        races.addAll(
+            _races.map { race ->
+                race {
                     id = race.id
                     name = race.name
                     country = race.country
@@ -96,7 +106,7 @@ private fun buildRacesProtobufMessage(races: List<Race>): RacesOuterClass.Races 
                     website = race.website.orEmpty()
                     stages.addAll(
                         race.stages.map { stage ->
-                            io.github.patxibocos.pcsscraper.protobuf.race.stage {
+                            stage {
                                 id = stage.id
                                 startDate = Timestamp.newBuilder()
                                     .setSeconds(stage.startDate.atStartOfDay().toEpochSecond(ZoneOffset.UTC))
@@ -114,7 +124,7 @@ private fun buildRacesProtobufMessage(races: List<Race>): RacesOuterClass.Races 
                                 arrival = stage.arrival.orEmpty()
                                 result.addAll(
                                     stage.result.map { riderResult ->
-                                        io.github.patxibocos.pcsscraper.protobuf.race.riderResult {
+                                        riderResult {
                                             position = riderResult.position
                                             riderId = riderResult.rider
                                             time = riderResult.time
@@ -124,18 +134,27 @@ private fun buildRacesProtobufMessage(races: List<Race>): RacesOuterClass.Races 
                             }
                         }
                     )
-                    this.teams.addAll(
+                    teams.addAll(
                         race.startList.map { teamParticipation ->
-                            io.github.patxibocos.pcsscraper.protobuf.race.teamParticipation {
+                            teamParticipation {
                                 teamId = teamParticipation.team
-                                this.riders.addAll(
+                                riders.addAll(
                                     teamParticipation.riders.map { riderParticipation ->
-                                        io.github.patxibocos.pcsscraper.protobuf.race.riderParticipation {
+                                        riderParticipation {
                                             riderId = riderParticipation.rider
                                             number = riderParticipation.number ?: 0
                                         }
                                     }
                                 )
+                            }
+                        }
+                    )
+                    result.addAll(
+                        race.result.map { riderResult ->
+                            riderResult {
+                                position = riderResult.position
+                                riderId = riderResult.rider
+                                time = riderResult.time
                             }
                         }
                     )
