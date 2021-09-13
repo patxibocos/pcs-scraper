@@ -67,17 +67,17 @@ public final class RiderOuterClass {
         getCountryBytes();
 
     /**
-     * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+     * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
      * @return Whether the birthDate field is set.
      */
     boolean hasBirthDate();
     /**
-     * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+     * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
      * @return The birthDate.
      */
     com.google.protobuf.Timestamp getBirthDate();
     /**
-     * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+     * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
      */
     com.google.protobuf.TimestampOrBuilder getBirthDateOrBuilder();
 
@@ -94,37 +94,57 @@ public final class RiderOuterClass {
         getPhotoBytes();
 
     /**
-     * <code>string website = 7;</code>
+     * <code>optional string website = 7;</code>
+     * @return Whether the website field is set.
+     */
+    boolean hasWebsite();
+    /**
+     * <code>optional string website = 7;</code>
      * @return The website.
      */
     java.lang.String getWebsite();
     /**
-     * <code>string website = 7;</code>
+     * <code>optional string website = 7;</code>
      * @return The bytes for website.
      */
     com.google.protobuf.ByteString
         getWebsiteBytes();
 
     /**
-     * <code>string birth_place = 8;</code>
+     * <code>optional string birth_place = 8;</code>
+     * @return Whether the birthPlace field is set.
+     */
+    boolean hasBirthPlace();
+    /**
+     * <code>optional string birth_place = 8;</code>
      * @return The birthPlace.
      */
     java.lang.String getBirthPlace();
     /**
-     * <code>string birth_place = 8;</code>
+     * <code>optional string birth_place = 8;</code>
      * @return The bytes for birthPlace.
      */
     com.google.protobuf.ByteString
         getBirthPlaceBytes();
 
     /**
-     * <code>uint32 weight = 9;</code>
+     * <code>optional uint32 weight = 9;</code>
+     * @return Whether the weight field is set.
+     */
+    boolean hasWeight();
+    /**
+     * <code>optional uint32 weight = 9;</code>
      * @return The weight.
      */
     int getWeight();
 
     /**
-     * <code>uint32 height = 10;</code>
+     * <code>optional uint32 height = 10;</code>
+     * @return Whether the height field is set.
+     */
+    boolean hasHeight();
+    /**
+     * <code>optional uint32 height = 10;</code>
      * @return The height.
      */
     int getHeight();
@@ -171,6 +191,7 @@ public final class RiderOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -207,7 +228,7 @@ public final class RiderOuterClass {
             }
             case 42: {
               com.google.protobuf.Timestamp.Builder subBuilder = null;
-              if (birthDate_ != null) {
+              if (((bitField0_ & 0x00000001) != 0)) {
                 subBuilder = birthDate_.toBuilder();
               }
               birthDate_ = input.readMessage(com.google.protobuf.Timestamp.parser(), extensionRegistry);
@@ -215,7 +236,7 @@ public final class RiderOuterClass {
                 subBuilder.mergeFrom(birthDate_);
                 birthDate_ = subBuilder.buildPartial();
               }
-
+              bitField0_ |= 0x00000001;
               break;
             }
             case 50: {
@@ -226,23 +247,23 @@ public final class RiderOuterClass {
             }
             case 58: {
               java.lang.String s = input.readStringRequireUtf8();
-
+              bitField0_ |= 0x00000002;
               website_ = s;
               break;
             }
             case 66: {
               java.lang.String s = input.readStringRequireUtf8();
-
+              bitField0_ |= 0x00000004;
               birthPlace_ = s;
               break;
             }
             case 72: {
-
+              bitField0_ |= 0x00000008;
               weight_ = input.readUInt32();
               break;
             }
             case 80: {
-
+              bitField0_ |= 0x00000010;
               height_ = input.readUInt32();
               break;
             }
@@ -278,6 +299,7 @@ public final class RiderOuterClass {
               io.github.patxibocos.pcsscraper.protobuf.rider.RiderOuterClass.Rider.class, io.github.patxibocos.pcsscraper.protobuf.rider.RiderOuterClass.Rider.Builder.class);
     }
 
+    private int bitField0_;
     public static final int ID_FIELD_NUMBER = 1;
     private volatile java.lang.Object id_;
     /**
@@ -433,15 +455,15 @@ public final class RiderOuterClass {
     public static final int BIRTH_DATE_FIELD_NUMBER = 5;
     private com.google.protobuf.Timestamp birthDate_;
     /**
-     * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+     * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
      * @return Whether the birthDate field is set.
      */
     @java.lang.Override
     public boolean hasBirthDate() {
-      return birthDate_ != null;
+      return ((bitField0_ & 0x00000001) != 0);
     }
     /**
-     * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+     * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
      * @return The birthDate.
      */
     @java.lang.Override
@@ -449,11 +471,11 @@ public final class RiderOuterClass {
       return birthDate_ == null ? com.google.protobuf.Timestamp.getDefaultInstance() : birthDate_;
     }
     /**
-     * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+     * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
      */
     @java.lang.Override
     public com.google.protobuf.TimestampOrBuilder getBirthDateOrBuilder() {
-      return getBirthDate();
+      return birthDate_ == null ? com.google.protobuf.Timestamp.getDefaultInstance() : birthDate_;
     }
 
     public static final int PHOTO_FIELD_NUMBER = 6;
@@ -497,7 +519,15 @@ public final class RiderOuterClass {
     public static final int WEBSITE_FIELD_NUMBER = 7;
     private volatile java.lang.Object website_;
     /**
-     * <code>string website = 7;</code>
+     * <code>optional string website = 7;</code>
+     * @return Whether the website field is set.
+     */
+    @java.lang.Override
+    public boolean hasWebsite() {
+      return ((bitField0_ & 0x00000002) != 0);
+    }
+    /**
+     * <code>optional string website = 7;</code>
      * @return The website.
      */
     @java.lang.Override
@@ -514,7 +544,7 @@ public final class RiderOuterClass {
       }
     }
     /**
-     * <code>string website = 7;</code>
+     * <code>optional string website = 7;</code>
      * @return The bytes for website.
      */
     @java.lang.Override
@@ -535,7 +565,15 @@ public final class RiderOuterClass {
     public static final int BIRTH_PLACE_FIELD_NUMBER = 8;
     private volatile java.lang.Object birthPlace_;
     /**
-     * <code>string birth_place = 8;</code>
+     * <code>optional string birth_place = 8;</code>
+     * @return Whether the birthPlace field is set.
+     */
+    @java.lang.Override
+    public boolean hasBirthPlace() {
+      return ((bitField0_ & 0x00000004) != 0);
+    }
+    /**
+     * <code>optional string birth_place = 8;</code>
      * @return The birthPlace.
      */
     @java.lang.Override
@@ -552,7 +590,7 @@ public final class RiderOuterClass {
       }
     }
     /**
-     * <code>string birth_place = 8;</code>
+     * <code>optional string birth_place = 8;</code>
      * @return The bytes for birthPlace.
      */
     @java.lang.Override
@@ -573,7 +611,15 @@ public final class RiderOuterClass {
     public static final int WEIGHT_FIELD_NUMBER = 9;
     private int weight_;
     /**
-     * <code>uint32 weight = 9;</code>
+     * <code>optional uint32 weight = 9;</code>
+     * @return Whether the weight field is set.
+     */
+    @java.lang.Override
+    public boolean hasWeight() {
+      return ((bitField0_ & 0x00000008) != 0);
+    }
+    /**
+     * <code>optional uint32 weight = 9;</code>
      * @return The weight.
      */
     @java.lang.Override
@@ -584,7 +630,15 @@ public final class RiderOuterClass {
     public static final int HEIGHT_FIELD_NUMBER = 10;
     private int height_;
     /**
-     * <code>uint32 height = 10;</code>
+     * <code>optional uint32 height = 10;</code>
+     * @return Whether the height field is set.
+     */
+    @java.lang.Override
+    public boolean hasHeight() {
+      return ((bitField0_ & 0x00000010) != 0);
+    }
+    /**
+     * <code>optional uint32 height = 10;</code>
      * @return The height.
      */
     @java.lang.Override
@@ -618,22 +672,22 @@ public final class RiderOuterClass {
       if (!getCountryBytes().isEmpty()) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 4, country_);
       }
-      if (birthDate_ != null) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         output.writeMessage(5, getBirthDate());
       }
       if (!getPhotoBytes().isEmpty()) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 6, photo_);
       }
-      if (!getWebsiteBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000002) != 0)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 7, website_);
       }
-      if (!getBirthPlaceBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000004) != 0)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 8, birthPlace_);
       }
-      if (weight_ != 0) {
+      if (((bitField0_ & 0x00000008) != 0)) {
         output.writeUInt32(9, weight_);
       }
-      if (height_ != 0) {
+      if (((bitField0_ & 0x00000010) != 0)) {
         output.writeUInt32(10, height_);
       }
       unknownFields.writeTo(output);
@@ -657,24 +711,24 @@ public final class RiderOuterClass {
       if (!getCountryBytes().isEmpty()) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(4, country_);
       }
-      if (birthDate_ != null) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(5, getBirthDate());
       }
       if (!getPhotoBytes().isEmpty()) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, photo_);
       }
-      if (!getWebsiteBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000002) != 0)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, website_);
       }
-      if (!getBirthPlaceBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000004) != 0)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(8, birthPlace_);
       }
-      if (weight_ != 0) {
+      if (((bitField0_ & 0x00000008) != 0)) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(9, weight_);
       }
-      if (height_ != 0) {
+      if (((bitField0_ & 0x00000010) != 0)) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(10, height_);
       }
@@ -708,14 +762,26 @@ public final class RiderOuterClass {
       }
       if (!getPhoto()
           .equals(other.getPhoto())) return false;
-      if (!getWebsite()
-          .equals(other.getWebsite())) return false;
-      if (!getBirthPlace()
-          .equals(other.getBirthPlace())) return false;
-      if (getWeight()
-          != other.getWeight()) return false;
-      if (getHeight()
-          != other.getHeight()) return false;
+      if (hasWebsite() != other.hasWebsite()) return false;
+      if (hasWebsite()) {
+        if (!getWebsite()
+            .equals(other.getWebsite())) return false;
+      }
+      if (hasBirthPlace() != other.hasBirthPlace()) return false;
+      if (hasBirthPlace()) {
+        if (!getBirthPlace()
+            .equals(other.getBirthPlace())) return false;
+      }
+      if (hasWeight() != other.hasWeight()) return false;
+      if (hasWeight()) {
+        if (getWeight()
+            != other.getWeight()) return false;
+      }
+      if (hasHeight() != other.hasHeight()) return false;
+      if (hasHeight()) {
+        if (getHeight()
+            != other.getHeight()) return false;
+      }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -741,14 +807,22 @@ public final class RiderOuterClass {
       }
       hash = (37 * hash) + PHOTO_FIELD_NUMBER;
       hash = (53 * hash) + getPhoto().hashCode();
-      hash = (37 * hash) + WEBSITE_FIELD_NUMBER;
-      hash = (53 * hash) + getWebsite().hashCode();
-      hash = (37 * hash) + BIRTH_PLACE_FIELD_NUMBER;
-      hash = (53 * hash) + getBirthPlace().hashCode();
-      hash = (37 * hash) + WEIGHT_FIELD_NUMBER;
-      hash = (53 * hash) + getWeight();
-      hash = (37 * hash) + HEIGHT_FIELD_NUMBER;
-      hash = (53 * hash) + getHeight();
+      if (hasWebsite()) {
+        hash = (37 * hash) + WEBSITE_FIELD_NUMBER;
+        hash = (53 * hash) + getWebsite().hashCode();
+      }
+      if (hasBirthPlace()) {
+        hash = (37 * hash) + BIRTH_PLACE_FIELD_NUMBER;
+        hash = (53 * hash) + getBirthPlace().hashCode();
+      }
+      if (hasWeight()) {
+        hash = (37 * hash) + WEIGHT_FIELD_NUMBER;
+        hash = (53 * hash) + getWeight();
+      }
+      if (hasHeight()) {
+        hash = (37 * hash) + HEIGHT_FIELD_NUMBER;
+        hash = (53 * hash) + getHeight();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -877,6 +951,7 @@ public final class RiderOuterClass {
       private void maybeForceBuilderInitialization() {
         if (com.google.protobuf.GeneratedMessageV3
                 .alwaysUseFieldBuilders) {
+          getBirthDateFieldBuilder();
         }
       }
       @java.lang.Override
@@ -893,19 +968,19 @@ public final class RiderOuterClass {
         if (birthDateBuilder_ == null) {
           birthDate_ = null;
         } else {
-          birthDate_ = null;
-          birthDateBuilder_ = null;
+          birthDateBuilder_.clear();
         }
+        bitField0_ = (bitField0_ & ~0x00000001);
         photo_ = "";
 
         website_ = "";
-
+        bitField0_ = (bitField0_ & ~0x00000002);
         birthPlace_ = "";
-
+        bitField0_ = (bitField0_ & ~0x00000004);
         weight_ = 0;
-
+        bitField0_ = (bitField0_ & ~0x00000008);
         height_ = 0;
-
+        bitField0_ = (bitField0_ & ~0x00000010);
         return this;
       }
 
@@ -932,20 +1007,38 @@ public final class RiderOuterClass {
       @java.lang.Override
       public io.github.patxibocos.pcsscraper.protobuf.rider.RiderOuterClass.Rider buildPartial() {
         io.github.patxibocos.pcsscraper.protobuf.rider.RiderOuterClass.Rider result = new io.github.patxibocos.pcsscraper.protobuf.rider.RiderOuterClass.Rider(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
         result.id_ = id_;
         result.firstName_ = firstName_;
         result.lastName_ = lastName_;
         result.country_ = country_;
-        if (birthDateBuilder_ == null) {
-          result.birthDate_ = birthDate_;
-        } else {
-          result.birthDate_ = birthDateBuilder_.build();
+        if (((from_bitField0_ & 0x00000001) != 0)) {
+          if (birthDateBuilder_ == null) {
+            result.birthDate_ = birthDate_;
+          } else {
+            result.birthDate_ = birthDateBuilder_.build();
+          }
+          to_bitField0_ |= 0x00000001;
         }
         result.photo_ = photo_;
+        if (((from_bitField0_ & 0x00000002) != 0)) {
+          to_bitField0_ |= 0x00000002;
+        }
         result.website_ = website_;
+        if (((from_bitField0_ & 0x00000004) != 0)) {
+          to_bitField0_ |= 0x00000004;
+        }
         result.birthPlace_ = birthPlace_;
-        result.weight_ = weight_;
-        result.height_ = height_;
+        if (((from_bitField0_ & 0x00000008) != 0)) {
+          result.weight_ = weight_;
+          to_bitField0_ |= 0x00000008;
+        }
+        if (((from_bitField0_ & 0x00000010) != 0)) {
+          result.height_ = height_;
+          to_bitField0_ |= 0x00000010;
+        }
+        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -1017,18 +1110,20 @@ public final class RiderOuterClass {
           photo_ = other.photo_;
           onChanged();
         }
-        if (!other.getWebsite().isEmpty()) {
+        if (other.hasWebsite()) {
+          bitField0_ |= 0x00000002;
           website_ = other.website_;
           onChanged();
         }
-        if (!other.getBirthPlace().isEmpty()) {
+        if (other.hasBirthPlace()) {
+          bitField0_ |= 0x00000004;
           birthPlace_ = other.birthPlace_;
           onChanged();
         }
-        if (other.getWeight() != 0) {
+        if (other.hasWeight()) {
           setWeight(other.getWeight());
         }
-        if (other.getHeight() != 0) {
+        if (other.hasHeight()) {
           setHeight(other.getHeight());
         }
         this.mergeUnknownFields(other.unknownFields);
@@ -1059,6 +1154,7 @@ public final class RiderOuterClass {
         }
         return this;
       }
+      private int bitField0_;
 
       private java.lang.Object id_ = "";
       /**
@@ -1368,14 +1464,14 @@ public final class RiderOuterClass {
       private com.google.protobuf.SingleFieldBuilderV3<
           com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> birthDateBuilder_;
       /**
-       * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+       * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
        * @return Whether the birthDate field is set.
        */
       public boolean hasBirthDate() {
-        return birthDateBuilder_ != null || birthDate_ != null;
+        return ((bitField0_ & 0x00000001) != 0);
       }
       /**
-       * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+       * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
        * @return The birthDate.
        */
       public com.google.protobuf.Timestamp getBirthDate() {
@@ -1386,7 +1482,7 @@ public final class RiderOuterClass {
         }
       }
       /**
-       * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+       * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
        */
       public Builder setBirthDate(com.google.protobuf.Timestamp value) {
         if (birthDateBuilder_ == null) {
@@ -1398,11 +1494,11 @@ public final class RiderOuterClass {
         } else {
           birthDateBuilder_.setMessage(value);
         }
-
+        bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+       * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
        */
       public Builder setBirthDate(
           com.google.protobuf.Timestamp.Builder builderForValue) {
@@ -1412,15 +1508,17 @@ public final class RiderOuterClass {
         } else {
           birthDateBuilder_.setMessage(builderForValue.build());
         }
-
+        bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+       * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
        */
       public Builder mergeBirthDate(com.google.protobuf.Timestamp value) {
         if (birthDateBuilder_ == null) {
-          if (birthDate_ != null) {
+          if (((bitField0_ & 0x00000001) != 0) &&
+              birthDate_ != null &&
+              birthDate_ != com.google.protobuf.Timestamp.getDefaultInstance()) {
             birthDate_ =
               com.google.protobuf.Timestamp.newBuilder(birthDate_).mergeFrom(value).buildPartial();
           } else {
@@ -1430,33 +1528,32 @@ public final class RiderOuterClass {
         } else {
           birthDateBuilder_.mergeFrom(value);
         }
-
+        bitField0_ |= 0x00000001;
         return this;
       }
       /**
-       * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+       * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
        */
       public Builder clearBirthDate() {
         if (birthDateBuilder_ == null) {
           birthDate_ = null;
           onChanged();
         } else {
-          birthDate_ = null;
-          birthDateBuilder_ = null;
+          birthDateBuilder_.clear();
         }
-
+        bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
       /**
-       * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+       * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
        */
       public com.google.protobuf.Timestamp.Builder getBirthDateBuilder() {
-        
+        bitField0_ |= 0x00000001;
         onChanged();
         return getBirthDateFieldBuilder().getBuilder();
       }
       /**
-       * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+       * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
        */
       public com.google.protobuf.TimestampOrBuilder getBirthDateOrBuilder() {
         if (birthDateBuilder_ != null) {
@@ -1467,7 +1564,7 @@ public final class RiderOuterClass {
         }
       }
       /**
-       * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+       * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
        */
       private com.google.protobuf.SingleFieldBuilderV3<
           com.google.protobuf.Timestamp, com.google.protobuf.Timestamp.Builder, com.google.protobuf.TimestampOrBuilder> 
@@ -1561,7 +1658,14 @@ public final class RiderOuterClass {
 
       private java.lang.Object website_ = "";
       /**
-       * <code>string website = 7;</code>
+       * <code>optional string website = 7;</code>
+       * @return Whether the website field is set.
+       */
+      public boolean hasWebsite() {
+        return ((bitField0_ & 0x00000002) != 0);
+      }
+      /**
+       * <code>optional string website = 7;</code>
        * @return The website.
        */
       public java.lang.String getWebsite() {
@@ -1577,7 +1681,7 @@ public final class RiderOuterClass {
         }
       }
       /**
-       * <code>string website = 7;</code>
+       * <code>optional string website = 7;</code>
        * @return The bytes for website.
        */
       public com.google.protobuf.ByteString
@@ -1594,7 +1698,7 @@ public final class RiderOuterClass {
         }
       }
       /**
-       * <code>string website = 7;</code>
+       * <code>optional string website = 7;</code>
        * @param value The website to set.
        * @return This builder for chaining.
        */
@@ -1603,23 +1707,23 @@ public final class RiderOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  bitField0_ |= 0x00000002;
         website_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string website = 7;</code>
+       * <code>optional string website = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearWebsite() {
-        
+        bitField0_ = (bitField0_ & ~0x00000002);
         website_ = getDefaultInstance().getWebsite();
         onChanged();
         return this;
       }
       /**
-       * <code>string website = 7;</code>
+       * <code>optional string website = 7;</code>
        * @param value The bytes for website to set.
        * @return This builder for chaining.
        */
@@ -1629,7 +1733,7 @@ public final class RiderOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+        bitField0_ |= 0x00000002;
         website_ = value;
         onChanged();
         return this;
@@ -1637,7 +1741,14 @@ public final class RiderOuterClass {
 
       private java.lang.Object birthPlace_ = "";
       /**
-       * <code>string birth_place = 8;</code>
+       * <code>optional string birth_place = 8;</code>
+       * @return Whether the birthPlace field is set.
+       */
+      public boolean hasBirthPlace() {
+        return ((bitField0_ & 0x00000004) != 0);
+      }
+      /**
+       * <code>optional string birth_place = 8;</code>
        * @return The birthPlace.
        */
       public java.lang.String getBirthPlace() {
@@ -1653,7 +1764,7 @@ public final class RiderOuterClass {
         }
       }
       /**
-       * <code>string birth_place = 8;</code>
+       * <code>optional string birth_place = 8;</code>
        * @return The bytes for birthPlace.
        */
       public com.google.protobuf.ByteString
@@ -1670,7 +1781,7 @@ public final class RiderOuterClass {
         }
       }
       /**
-       * <code>string birth_place = 8;</code>
+       * <code>optional string birth_place = 8;</code>
        * @param value The birthPlace to set.
        * @return This builder for chaining.
        */
@@ -1679,23 +1790,23 @@ public final class RiderOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  bitField0_ |= 0x00000004;
         birthPlace_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string birth_place = 8;</code>
+       * <code>optional string birth_place = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearBirthPlace() {
-        
+        bitField0_ = (bitField0_ & ~0x00000004);
         birthPlace_ = getDefaultInstance().getBirthPlace();
         onChanged();
         return this;
       }
       /**
-       * <code>string birth_place = 8;</code>
+       * <code>optional string birth_place = 8;</code>
        * @param value The bytes for birthPlace to set.
        * @return This builder for chaining.
        */
@@ -1705,7 +1816,7 @@ public final class RiderOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+        bitField0_ |= 0x00000004;
         birthPlace_ = value;
         onChanged();
         return this;
@@ -1713,7 +1824,15 @@ public final class RiderOuterClass {
 
       private int weight_ ;
       /**
-       * <code>uint32 weight = 9;</code>
+       * <code>optional uint32 weight = 9;</code>
+       * @return Whether the weight field is set.
+       */
+      @java.lang.Override
+      public boolean hasWeight() {
+        return ((bitField0_ & 0x00000008) != 0);
+      }
+      /**
+       * <code>optional uint32 weight = 9;</code>
        * @return The weight.
        */
       @java.lang.Override
@@ -1721,22 +1840,22 @@ public final class RiderOuterClass {
         return weight_;
       }
       /**
-       * <code>uint32 weight = 9;</code>
+       * <code>optional uint32 weight = 9;</code>
        * @param value The weight to set.
        * @return This builder for chaining.
        */
       public Builder setWeight(int value) {
-        
+        bitField0_ |= 0x00000008;
         weight_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 weight = 9;</code>
+       * <code>optional uint32 weight = 9;</code>
        * @return This builder for chaining.
        */
       public Builder clearWeight() {
-        
+        bitField0_ = (bitField0_ & ~0x00000008);
         weight_ = 0;
         onChanged();
         return this;
@@ -1744,7 +1863,15 @@ public final class RiderOuterClass {
 
       private int height_ ;
       /**
-       * <code>uint32 height = 10;</code>
+       * <code>optional uint32 height = 10;</code>
+       * @return Whether the height field is set.
+       */
+      @java.lang.Override
+      public boolean hasHeight() {
+        return ((bitField0_ & 0x00000010) != 0);
+      }
+      /**
+       * <code>optional uint32 height = 10;</code>
        * @return The height.
        */
       @java.lang.Override
@@ -1752,22 +1879,22 @@ public final class RiderOuterClass {
         return height_;
       }
       /**
-       * <code>uint32 height = 10;</code>
+       * <code>optional uint32 height = 10;</code>
        * @param value The height to set.
        * @return This builder for chaining.
        */
       public Builder setHeight(int value) {
-        
+        bitField0_ |= 0x00000010;
         height_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 height = 10;</code>
+       * <code>optional uint32 height = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearHeight() {
-        
+        bitField0_ = (bitField0_ & ~0x00000010);
         height_ = 0;
         onChanged();
         return this;
@@ -1841,13 +1968,15 @@ public final class RiderOuterClass {
     java.lang.String[] descriptorData = {
       "\n\032src/main/proto/rider.proto\022.io.github." +
       "patxibocos.pcsscraper.protobuf.rider\032\037go" +
-      "ogle/protobuf/timestamp.proto\"\320\001\n\005Rider\022" +
+      "ogle/protobuf/timestamp.proto\"\252\002\n\005Rider\022" +
       "\n\n\002id\030\001 \001(\t\022\022\n\nfirst_name\030\002 \001(\t\022\021\n\tlast_" +
-      "name\030\003 \001(\t\022\017\n\007country\030\004 \001(\t\022.\n\nbirth_dat" +
-      "e\030\005 \001(\0132\032.google.protobuf.Timestamp\022\r\n\005p" +
-      "hoto\030\006 \001(\t\022\017\n\007website\030\007 \001(\t\022\023\n\013birth_pla" +
-      "ce\030\010 \001(\t\022\016\n\006weight\030\t \001(\r\022\016\n\006height\030\n \001(\r" +
-      "b\006proto3"
+      "name\030\003 \001(\t\022\017\n\007country\030\004 \001(\t\0223\n\nbirth_dat" +
+      "e\030\005 \001(\0132\032.google.protobuf.TimestampH\000\210\001\001" +
+      "\022\r\n\005photo\030\006 \001(\t\022\024\n\007website\030\007 \001(\tH\001\210\001\001\022\030\n" +
+      "\013birth_place\030\010 \001(\tH\002\210\001\001\022\023\n\006weight\030\t \001(\rH" +
+      "\003\210\001\001\022\023\n\006height\030\n \001(\rH\004\210\001\001B\r\n\013_birth_date" +
+      "B\n\n\010_websiteB\016\n\014_birth_placeB\t\n\007_weightB" +
+      "\t\n\007_heightb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -1859,7 +1988,7 @@ public final class RiderOuterClass {
     internal_static_io_github_patxibocos_pcsscraper_protobuf_rider_Rider_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_io_github_patxibocos_pcsscraper_protobuf_rider_Rider_descriptor,
-        new java.lang.String[] { "Id", "FirstName", "LastName", "Country", "BirthDate", "Photo", "Website", "BirthPlace", "Weight", "Height", });
+        new java.lang.String[] { "Id", "FirstName", "LastName", "Country", "BirthDate", "Photo", "Website", "BirthPlace", "Weight", "Height", "BirthDate", "Website", "BirthPlace", "Weight", "Height", });
     com.google.protobuf.TimestampProto.getDescriptor();
   }
 

@@ -248,7 +248,7 @@ object RaceKt {
       _builder.clearTeams()
     }
     /**
-     * <code>string website = 8;</code>
+     * <code>optional string website = 8;</code>
      */
     var website: kotlin.String
       @JvmName("getWebsite")
@@ -258,10 +258,17 @@ object RaceKt {
         _builder.setWebsite(value)
       }
     /**
-     * <code>string website = 8;</code>
+     * <code>optional string website = 8;</code>
      */
     fun clearWebsite() {
       _builder.clearWebsite()
+    }
+    /**
+     * <code>optional string website = 8;</code>
+     * @return Whether the website field is set.
+     */
+    fun hasWebsite(): kotlin.Boolean {
+      return _builder.hasWebsite()
     }
 
     /**

@@ -25,6 +25,7 @@ import java.net.URL
 import java.text.Collator
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
+import java.time.format.DateTimeParseException
 import java.util.Locale
 import kotlin.math.max
 import kotlin.time.Duration
@@ -448,7 +449,11 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     private fun pcsRiderToRider(pcsRider: PCSRider): Rider {
         val (firstName, lastName) = pcsRider.getFirstAndLastName(pcsRider.fullName)
         val dateFormatter = DateTimeFormatter.ofPattern("d MMMM yyyy")
-        val birthDate = LocalDate.parse(pcsRider.birthDate, dateFormatter)
+        val birthDate = try {
+            LocalDate.parse(pcsRider.birthDate, dateFormatter)
+        } catch (_: DateTimeParseException) {
+            null
+        }
         return Rider(
             id = pcsRider.url.split("/").last(),
             firstName = firstName,

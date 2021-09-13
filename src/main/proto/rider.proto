@@ -8,10 +8,10 @@ message Rider {
   string first_name = 2;
   string last_name = 3;
   string country = 4;
-  google.protobuf.Timestamp birth_date = 5;
+  optional google.protobuf.Timestamp birth_date = 5;
   string photo = 6;
-  string website = 7;
-  string birth_place = 8;
-  uint32 weight = 9;
-  uint32 height = 10;
+  optional string website = 7;
+  optional string birth_place = 8;
+  optional uint32 weight = 9;
+  optional uint32 height = 10;
 }

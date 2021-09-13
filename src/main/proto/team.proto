@@ -11,7 +11,7 @@ message Team {
   string jersey = 7;
   uint32 year = 8;
   repeated string rider_ids = 9;
-  string website = 10;
+  optional string website = 10;
 
   enum Status {
     STATUS_UNSPECIFIED = 0;

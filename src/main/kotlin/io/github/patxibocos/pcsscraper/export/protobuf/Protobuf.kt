@@ -57,7 +57,7 @@ private fun buildTeamsProtobufMessage(_teams: List<Team>): TeamsOuterClass.Teams
                     country = team.country
                     bike = team.bike
                     jersey = team.jersey.toString()
-                    website = team.website.orEmpty()
+                    team.website?.let { website = it }
                     year = team.year
                     riderIds.addAll(team.riders)
                 }
@@ -74,14 +74,15 @@ private fun buildRidersProtobufMessage(_riders: List<Rider>): RidersOuterClass.R
                     firstName = rider.firstName
                     lastName = rider.lastName
                     country = rider.country
-                    website = rider.website.orEmpty()
-                    birthDate =
-                        Timestamp.newBuilder()
-                            .setSeconds(rider.birthDate.atStartOfDay().toEpochSecond(ZoneOffset.UTC))
+                    rider.website?.let { website = it }
+                    rider.birthDate?.let {
+                        birthDate = Timestamp.newBuilder()
+                            .setSeconds(it.atStartOfDay().toEpochSecond(ZoneOffset.UTC))
                             .build()
-                    birthPlace = rider.birthPlace.orEmpty()
-                    weight = rider.weight ?: 0
-                    height = rider.weight ?: 0
+                    }
+                    rider.birthPlace?.let { birthPlace = it }
+                    rider.weight?.let { weight = it }
+                    rider.height?.let { height = it }
                     photo = rider.photo.toString()
                 }
             }
@@ -103,7 +104,7 @@ private fun buildRacesProtobufMessage(_races: List<Race>): RacesOuterClass.Races
                     endDate =
                         Timestamp.newBuilder().setSeconds(race.endDate.atStartOfDay().toEpochSecond(ZoneOffset.UTC))
                             .build()
-                    website = race.website.orEmpty()
+                    race.website?.let { website = it }
                     stages.addAll(
                         race.stages.map { stage ->
                             stage {
@@ -120,8 +121,8 @@ private fun buildRacesProtobufMessage(_races: List<Race>): RacesOuterClass.Races
                                     Race.Stage.Type.MOUNTAINS_UPHILL_FINISH -> RaceOuterClass.Stage.Type.TYPE_MOUNTAINS_UPHILL_FINISH
                                     null -> RaceOuterClass.Stage.Type.TYPE_UNSPECIFIED
                                 }
-                                departure = stage.departure.orEmpty()
-                                arrival = stage.arrival.orEmpty()
+                                stage.departure?.let { departure = it }
+                                stage.arrival?.let { arrival = it }
                                 result.addAll(
                                     stage.result.map { riderResult ->
                                         riderResult {
@@ -142,7 +143,7 @@ private fun buildRacesProtobufMessage(_races: List<Race>): RacesOuterClass.Races
                                     teamParticipation.riders.map { riderParticipation ->
                                         riderParticipation {
                                             riderId = riderParticipation.rider
-                                            number = riderParticipation.number ?: 0
+                                            riderParticipation.number?.let { number = it }
                                         }
                                     }
                                 )

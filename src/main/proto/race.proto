@@ -11,7 +11,7 @@ message Race {
   google.protobuf.Timestamp end_date = 5;
   repeated Stage stages = 6;
   repeated TeamParticipation teams = 7;
-  string website = 8;
+  optional string website = 8;
   repeated RiderResult result = 9;
 }
 
@@ -21,8 +21,8 @@ message Stage {
   float distance = 3;
   repeated RiderResult result = 4;
   Type type = 5;
-  string departure = 6;
-  string arrival = 7;
+  optional string departure = 6;
+  optional string arrival = 7;
 
   enum Type {
     TYPE_UNSPECIFIED = 0;
@@ -47,5 +47,5 @@ message RiderResult {
 
 message RiderParticipation {
   string rider_id = 1;
-  uint32 number = 2;
+  optional uint32 number = 2;
 }

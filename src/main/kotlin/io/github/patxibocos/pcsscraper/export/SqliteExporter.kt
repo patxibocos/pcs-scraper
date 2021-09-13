@@ -76,7 +76,7 @@ internal class SQLiteExporter(destination: File) : Exporter {
         private val lastName = text("last_name")
         private val country = text("country")
         private val website = text("website").nullable()
-        private val birthDate = text("birth_date")
+        private val birthDate = text("birth_date").nullable()
         private val birthPlace = text("birth_place").nullable()
         private val weight = integer("weight").nullable()
         private val height = integer("height").nullable()
@@ -91,7 +91,7 @@ internal class SQLiteExporter(destination: File) : Exporter {
             insertStatement[lastName] = t.lastName
             insertStatement[country] = t.country
             insertStatement[website] = t.website
-            insertStatement[birthDate] = t.birthDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
+            insertStatement[birthDate] = t.birthDate?.format(DateTimeFormatter.ISO_LOCAL_DATE)
             insertStatement[birthPlace] = t.birthPlace
             insertStatement[weight] = t.weight
             insertStatement[height] = t.height

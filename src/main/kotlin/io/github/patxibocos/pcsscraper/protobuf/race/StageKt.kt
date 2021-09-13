@@ -161,7 +161,7 @@ object StageKt {
     }
 
     /**
-     * <code>string departure = 6;</code>
+     * <code>optional string departure = 6;</code>
      */
     var departure: kotlin.String
       @JvmName("getDeparture")
@@ -171,14 +171,21 @@ object StageKt {
         _builder.setDeparture(value)
       }
     /**
-     * <code>string departure = 6;</code>
+     * <code>optional string departure = 6;</code>
      */
     fun clearDeparture() {
       _builder.clearDeparture()
     }
+    /**
+     * <code>optional string departure = 6;</code>
+     * @return Whether the departure field is set.
+     */
+    fun hasDeparture(): kotlin.Boolean {
+      return _builder.hasDeparture()
+    }
 
     /**
-     * <code>string arrival = 7;</code>
+     * <code>optional string arrival = 7;</code>
      */
     var arrival: kotlin.String
       @JvmName("getArrival")
@@ -188,10 +195,17 @@ object StageKt {
         _builder.setArrival(value)
       }
     /**
-     * <code>string arrival = 7;</code>
+     * <code>optional string arrival = 7;</code>
      */
     fun clearArrival() {
       _builder.clearArrival()
+    }
+    /**
+     * <code>optional string arrival = 7;</code>
+     * @return Whether the arrival field is set.
+     */
+    fun hasArrival(): kotlin.Boolean {
+      return _builder.hasArrival()
     }
   }
 }

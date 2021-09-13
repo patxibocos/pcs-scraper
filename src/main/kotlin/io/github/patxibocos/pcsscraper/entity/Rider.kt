@@ -13,7 +13,7 @@ data class Rider(
     val lastName: String,
     val country: String,
     val website: String?,
-    @Contextual val birthDate: LocalDate,
+    @Contextual val birthDate: LocalDate?,
     val birthPlace: String?,
     val weight: Int?,
     val height: Int?,

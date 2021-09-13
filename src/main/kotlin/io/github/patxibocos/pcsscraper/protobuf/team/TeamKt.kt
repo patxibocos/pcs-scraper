@@ -227,7 +227,7 @@ object TeamKt {
       _builder.clearRiderIds()
     }
     /**
-     * <code>string website = 10;</code>
+     * <code>optional string website = 10;</code>
      */
     var website: kotlin.String
       @JvmName("getWebsite")
@@ -237,10 +237,17 @@ object TeamKt {
         _builder.setWebsite(value)
       }
     /**
-     * <code>string website = 10;</code>
+     * <code>optional string website = 10;</code>
      */
     fun clearWebsite() {
       _builder.clearWebsite()
+    }
+    /**
+     * <code>optional string website = 10;</code>
+     * @return Whether the website field is set.
+     */
+    fun hasWebsite(): kotlin.Boolean {
+      return _builder.hasWebsite()
     }
   }
 }

@@ -133,12 +133,17 @@ public final class RaceOuterClass {
         int index);
 
     /**
-     * <code>string website = 8;</code>
+     * <code>optional string website = 8;</code>
+     * @return Whether the website field is set.
+     */
+    boolean hasWebsite();
+    /**
+     * <code>optional string website = 8;</code>
      * @return The website.
      */
     java.lang.String getWebsite();
     /**
-     * <code>string website = 8;</code>
+     * <code>optional string website = 8;</code>
      * @return The bytes for website.
      */
     com.google.protobuf.ByteString
@@ -285,14 +290,14 @@ public final class RaceOuterClass {
             }
             case 66: {
               java.lang.String s = input.readStringRequireUtf8();
-
+              bitField0_ |= 0x00000001;
               website_ = s;
               break;
             }
             case 74: {
-              if (!((mutable_bitField0_ & 0x00000004) != 0)) {
+              if (!((mutable_bitField0_ & 0x00000008) != 0)) {
                 result_ = new java.util.ArrayList<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult>();
-                mutable_bitField0_ |= 0x00000004;
+                mutable_bitField0_ |= 0x00000008;
               }
               result_.add(
                   input.readMessage(io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.parser(), extensionRegistry));
@@ -319,7 +324,7 @@ public final class RaceOuterClass {
         if (((mutable_bitField0_ & 0x00000002) != 0)) {
           teams_ = java.util.Collections.unmodifiableList(teams_);
         }
-        if (((mutable_bitField0_ & 0x00000004) != 0)) {
+        if (((mutable_bitField0_ & 0x00000008) != 0)) {
           result_ = java.util.Collections.unmodifiableList(result_);
         }
         this.unknownFields = unknownFields.build();
@@ -339,6 +344,7 @@ public final class RaceOuterClass {
               io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Race.class, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Race.Builder.class);
     }
 
+    private int bitField0_;
     public static final int ID_FIELD_NUMBER = 1;
     private volatile java.lang.Object id_;
     /**
@@ -588,7 +594,15 @@ public final class RaceOuterClass {
     public static final int WEBSITE_FIELD_NUMBER = 8;
     private volatile java.lang.Object website_;
     /**
-     * <code>string website = 8;</code>
+     * <code>optional string website = 8;</code>
+     * @return Whether the website field is set.
+     */
+    @java.lang.Override
+    public boolean hasWebsite() {
+      return ((bitField0_ & 0x00000001) != 0);
+    }
+    /**
+     * <code>optional string website = 8;</code>
      * @return The website.
      */
     @java.lang.Override
@@ -605,7 +619,7 @@ public final class RaceOuterClass {
       }
     }
     /**
-     * <code>string website = 8;</code>
+     * <code>optional string website = 8;</code>
      * @return The bytes for website.
      */
     @java.lang.Override
@@ -698,7 +712,7 @@ public final class RaceOuterClass {
       for (int i = 0; i < teams_.size(); i++) {
         output.writeMessage(7, teams_.get(i));
       }
-      if (!getWebsiteBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 8, website_);
       }
       for (int i = 0; i < result_.size(); i++) {
@@ -738,7 +752,7 @@ public final class RaceOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeMessageSize(7, teams_.get(i));
       }
-      if (!getWebsiteBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(8, website_);
       }
       for (int i = 0; i < result_.size(); i++) {
@@ -780,8 +794,11 @@ public final class RaceOuterClass {
           .equals(other.getStagesList())) return false;
       if (!getTeamsList()
           .equals(other.getTeamsList())) return false;
-      if (!getWebsite()
-          .equals(other.getWebsite())) return false;
+      if (hasWebsite() != other.hasWebsite()) return false;
+      if (hasWebsite()) {
+        if (!getWebsite()
+            .equals(other.getWebsite())) return false;
+      }
       if (!getResultList()
           .equals(other.getResultList())) return false;
       if (!unknownFields.equals(other.unknownFields)) return false;
@@ -817,8 +834,10 @@ public final class RaceOuterClass {
         hash = (37 * hash) + TEAMS_FIELD_NUMBER;
         hash = (53 * hash) + getTeamsList().hashCode();
       }
-      hash = (37 * hash) + WEBSITE_FIELD_NUMBER;
-      hash = (53 * hash) + getWebsite().hashCode();
+      if (hasWebsite()) {
+        hash = (37 * hash) + WEBSITE_FIELD_NUMBER;
+        hash = (53 * hash) + getWebsite().hashCode();
+      }
       if (getResultCount() > 0) {
         hash = (37 * hash) + RESULT_FIELD_NUMBER;
         hash = (53 * hash) + getResultList().hashCode();
@@ -990,10 +1009,10 @@ public final class RaceOuterClass {
           teamsBuilder_.clear();
         }
         website_ = "";
-
+        bitField0_ = (bitField0_ & ~0x00000004);
         if (resultBuilder_ == null) {
           result_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000008);
         } else {
           resultBuilder_.clear();
         }
@@ -1024,6 +1043,7 @@ public final class RaceOuterClass {
       public io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Race buildPartial() {
         io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Race result = new io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Race(this);
         int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
         result.id_ = id_;
         result.name_ = name_;
         result.country_ = country_;
@@ -1055,16 +1075,20 @@ public final class RaceOuterClass {
         } else {
           result.teams_ = teamsBuilder_.build();
         }
+        if (((from_bitField0_ & 0x00000004) != 0)) {
+          to_bitField0_ |= 0x00000001;
+        }
         result.website_ = website_;
         if (resultBuilder_ == null) {
-          if (((bitField0_ & 0x00000004) != 0)) {
+          if (((bitField0_ & 0x00000008) != 0)) {
             result_ = java.util.Collections.unmodifiableList(result_);
-            bitField0_ = (bitField0_ & ~0x00000004);
+            bitField0_ = (bitField0_ & ~0x00000008);
           }
           result.result_ = result_;
         } else {
           result.result_ = resultBuilder_.build();
         }
+        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -1183,7 +1207,8 @@ public final class RaceOuterClass {
             }
           }
         }
-        if (!other.getWebsite().isEmpty()) {
+        if (other.hasWebsite()) {
+          bitField0_ |= 0x00000004;
           website_ = other.website_;
           onChanged();
         }
@@ -1191,7 +1216,7 @@ public final class RaceOuterClass {
           if (!other.result_.isEmpty()) {
             if (result_.isEmpty()) {
               result_ = other.result_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000008);
             } else {
               ensureResultIsMutable();
               result_.addAll(other.result_);
@@ -1204,7 +1229,7 @@ public final class RaceOuterClass {
               resultBuilder_.dispose();
               resultBuilder_ = null;
               result_ = other.result_;
-              bitField0_ = (bitField0_ & ~0x00000004);
+              bitField0_ = (bitField0_ & ~0x00000008);
               resultBuilder_ = 
                 com.google.protobuf.GeneratedMessageV3.alwaysUseFieldBuilders ?
                    getResultFieldBuilder() : null;
@@ -2191,7 +2216,14 @@ public final class RaceOuterClass {
 
       private java.lang.Object website_ = "";
       /**
-       * <code>string website = 8;</code>
+       * <code>optional string website = 8;</code>
+       * @return Whether the website field is set.
+       */
+      public boolean hasWebsite() {
+        return ((bitField0_ & 0x00000004) != 0);
+      }
+      /**
+       * <code>optional string website = 8;</code>
        * @return The website.
        */
       public java.lang.String getWebsite() {
@@ -2207,7 +2239,7 @@ public final class RaceOuterClass {
         }
       }
       /**
-       * <code>string website = 8;</code>
+       * <code>optional string website = 8;</code>
        * @return The bytes for website.
        */
       public com.google.protobuf.ByteString
@@ -2224,7 +2256,7 @@ public final class RaceOuterClass {
         }
       }
       /**
-       * <code>string website = 8;</code>
+       * <code>optional string website = 8;</code>
        * @param value The website to set.
        * @return This builder for chaining.
        */
@@ -2233,23 +2265,23 @@ public final class RaceOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  bitField0_ |= 0x00000004;
         website_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string website = 8;</code>
+       * <code>optional string website = 8;</code>
        * @return This builder for chaining.
        */
       public Builder clearWebsite() {
-        
+        bitField0_ = (bitField0_ & ~0x00000004);
         website_ = getDefaultInstance().getWebsite();
         onChanged();
         return this;
       }
       /**
-       * <code>string website = 8;</code>
+       * <code>optional string website = 8;</code>
        * @param value The bytes for website to set.
        * @return This builder for chaining.
        */
@@ -2259,7 +2291,7 @@ public final class RaceOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+        bitField0_ |= 0x00000004;
         website_ = value;
         onChanged();
         return this;
@@ -2268,9 +2300,9 @@ public final class RaceOuterClass {
       private java.util.List<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult> result_ =
         java.util.Collections.emptyList();
       private void ensureResultIsMutable() {
-        if (!((bitField0_ & 0x00000004) != 0)) {
+        if (!((bitField0_ & 0x00000008) != 0)) {
           result_ = new java.util.ArrayList<io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult>(result_);
-          bitField0_ |= 0x00000004;
+          bitField0_ |= 0x00000008;
          }
       }
 
@@ -2420,7 +2452,7 @@ public final class RaceOuterClass {
       public Builder clearResult() {
         if (resultBuilder_ == null) {
           result_ = java.util.Collections.emptyList();
-          bitField0_ = (bitField0_ & ~0x00000004);
+          bitField0_ = (bitField0_ & ~0x00000008);
           onChanged();
         } else {
           resultBuilder_.clear();
@@ -2497,7 +2529,7 @@ public final class RaceOuterClass {
           resultBuilder_ = new com.google.protobuf.RepeatedFieldBuilderV3<
               io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResultOrBuilder>(
                   result_,
-                  ((bitField0_ & 0x00000004) != 0),
+                  ((bitField0_ & 0x00000008) != 0),
                   getParentForChildren(),
                   isClean());
           result_ = null;
@@ -2630,24 +2662,34 @@ public final class RaceOuterClass {
     io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Stage.Type getType();
 
     /**
-     * <code>string departure = 6;</code>
+     * <code>optional string departure = 6;</code>
+     * @return Whether the departure field is set.
+     */
+    boolean hasDeparture();
+    /**
+     * <code>optional string departure = 6;</code>
      * @return The departure.
      */
     java.lang.String getDeparture();
     /**
-     * <code>string departure = 6;</code>
+     * <code>optional string departure = 6;</code>
      * @return The bytes for departure.
      */
     com.google.protobuf.ByteString
         getDepartureBytes();
 
     /**
-     * <code>string arrival = 7;</code>
+     * <code>optional string arrival = 7;</code>
+     * @return Whether the arrival field is set.
+     */
+    boolean hasArrival();
+    /**
+     * <code>optional string arrival = 7;</code>
      * @return The arrival.
      */
     java.lang.String getArrival();
     /**
-     * <code>string arrival = 7;</code>
+     * <code>optional string arrival = 7;</code>
      * @return The bytes for arrival.
      */
     com.google.protobuf.ByteString
@@ -2745,13 +2787,13 @@ public final class RaceOuterClass {
             }
             case 50: {
               java.lang.String s = input.readStringRequireUtf8();
-
+              bitField0_ |= 0x00000001;
               departure_ = s;
               break;
             }
             case 58: {
               java.lang.String s = input.readStringRequireUtf8();
-
+              bitField0_ |= 0x00000002;
               arrival_ = s;
               break;
             }
@@ -2934,6 +2976,7 @@ public final class RaceOuterClass {
       // @@protoc_insertion_point(enum_scope:io.github.patxibocos.pcsscraper.protobuf.race.Stage.Type)
     }
 
+    private int bitField0_;
     public static final int ID_FIELD_NUMBER = 1;
     private volatile java.lang.Object id_;
     /**
@@ -3071,7 +3114,15 @@ public final class RaceOuterClass {
     public static final int DEPARTURE_FIELD_NUMBER = 6;
     private volatile java.lang.Object departure_;
     /**
-     * <code>string departure = 6;</code>
+     * <code>optional string departure = 6;</code>
+     * @return Whether the departure field is set.
+     */
+    @java.lang.Override
+    public boolean hasDeparture() {
+      return ((bitField0_ & 0x00000001) != 0);
+    }
+    /**
+     * <code>optional string departure = 6;</code>
      * @return The departure.
      */
     @java.lang.Override
@@ -3088,7 +3139,7 @@ public final class RaceOuterClass {
       }
     }
     /**
-     * <code>string departure = 6;</code>
+     * <code>optional string departure = 6;</code>
      * @return The bytes for departure.
      */
     @java.lang.Override
@@ -3109,7 +3160,15 @@ public final class RaceOuterClass {
     public static final int ARRIVAL_FIELD_NUMBER = 7;
     private volatile java.lang.Object arrival_;
     /**
-     * <code>string arrival = 7;</code>
+     * <code>optional string arrival = 7;</code>
+     * @return Whether the arrival field is set.
+     */
+    @java.lang.Override
+    public boolean hasArrival() {
+      return ((bitField0_ & 0x00000002) != 0);
+    }
+    /**
+     * <code>optional string arrival = 7;</code>
      * @return The arrival.
      */
     @java.lang.Override
@@ -3126,7 +3185,7 @@ public final class RaceOuterClass {
       }
     }
     /**
-     * <code>string arrival = 7;</code>
+     * <code>optional string arrival = 7;</code>
      * @return The bytes for arrival.
      */
     @java.lang.Override
@@ -3173,10 +3232,10 @@ public final class RaceOuterClass {
       if (type_ != io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Stage.Type.TYPE_UNSPECIFIED.getNumber()) {
         output.writeEnum(5, type_);
       }
-      if (!getDepartureBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 6, departure_);
       }
-      if (!getArrivalBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000002) != 0)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 7, arrival_);
       }
       unknownFields.writeTo(output);
@@ -3207,10 +3266,10 @@ public final class RaceOuterClass {
         size += com.google.protobuf.CodedOutputStream
           .computeEnumSize(5, type_);
       }
-      if (!getDepartureBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(6, departure_);
       }
-      if (!getArrivalBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000002) != 0)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(7, arrival_);
       }
       size += unknownFields.getSerializedSize();
@@ -3241,10 +3300,16 @@ public final class RaceOuterClass {
       if (!getResultList()
           .equals(other.getResultList())) return false;
       if (type_ != other.type_) return false;
-      if (!getDeparture()
-          .equals(other.getDeparture())) return false;
-      if (!getArrival()
-          .equals(other.getArrival())) return false;
+      if (hasDeparture() != other.hasDeparture()) return false;
+      if (hasDeparture()) {
+        if (!getDeparture()
+            .equals(other.getDeparture())) return false;
+      }
+      if (hasArrival() != other.hasArrival()) return false;
+      if (hasArrival()) {
+        if (!getArrival()
+            .equals(other.getArrival())) return false;
+      }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -3271,10 +3336,14 @@ public final class RaceOuterClass {
       }
       hash = (37 * hash) + TYPE_FIELD_NUMBER;
       hash = (53 * hash) + type_;
-      hash = (37 * hash) + DEPARTURE_FIELD_NUMBER;
-      hash = (53 * hash) + getDeparture().hashCode();
-      hash = (37 * hash) + ARRIVAL_FIELD_NUMBER;
-      hash = (53 * hash) + getArrival().hashCode();
+      if (hasDeparture()) {
+        hash = (37 * hash) + DEPARTURE_FIELD_NUMBER;
+        hash = (53 * hash) + getDeparture().hashCode();
+      }
+      if (hasArrival()) {
+        hash = (37 * hash) + ARRIVAL_FIELD_NUMBER;
+        hash = (53 * hash) + getArrival().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -3428,9 +3497,9 @@ public final class RaceOuterClass {
         type_ = 0;
 
         departure_ = "";
-
+        bitField0_ = (bitField0_ & ~0x00000002);
         arrival_ = "";
-
+        bitField0_ = (bitField0_ & ~0x00000004);
         return this;
       }
 
@@ -3458,6 +3527,7 @@ public final class RaceOuterClass {
       public io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Stage buildPartial() {
         io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Stage result = new io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.Stage(this);
         int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
         result.id_ = id_;
         if (startDateBuilder_ == null) {
           result.startDate_ = startDate_;
@@ -3475,8 +3545,15 @@ public final class RaceOuterClass {
           result.result_ = resultBuilder_.build();
         }
         result.type_ = type_;
+        if (((from_bitField0_ & 0x00000002) != 0)) {
+          to_bitField0_ |= 0x00000001;
+        }
         result.departure_ = departure_;
+        if (((from_bitField0_ & 0x00000004) != 0)) {
+          to_bitField0_ |= 0x00000002;
+        }
         result.arrival_ = arrival_;
+        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -3564,11 +3641,13 @@ public final class RaceOuterClass {
         if (other.type_ != 0) {
           setTypeValue(other.getTypeValue());
         }
-        if (!other.getDeparture().isEmpty()) {
+        if (other.hasDeparture()) {
+          bitField0_ |= 0x00000002;
           departure_ = other.departure_;
           onChanged();
         }
-        if (!other.getArrival().isEmpty()) {
+        if (other.hasArrival()) {
+          bitField0_ |= 0x00000004;
           arrival_ = other.arrival_;
           onChanged();
         }
@@ -4124,7 +4203,14 @@ public final class RaceOuterClass {
 
       private java.lang.Object departure_ = "";
       /**
-       * <code>string departure = 6;</code>
+       * <code>optional string departure = 6;</code>
+       * @return Whether the departure field is set.
+       */
+      public boolean hasDeparture() {
+        return ((bitField0_ & 0x00000002) != 0);
+      }
+      /**
+       * <code>optional string departure = 6;</code>
        * @return The departure.
        */
       public java.lang.String getDeparture() {
@@ -4140,7 +4226,7 @@ public final class RaceOuterClass {
         }
       }
       /**
-       * <code>string departure = 6;</code>
+       * <code>optional string departure = 6;</code>
        * @return The bytes for departure.
        */
       public com.google.protobuf.ByteString
@@ -4157,7 +4243,7 @@ public final class RaceOuterClass {
         }
       }
       /**
-       * <code>string departure = 6;</code>
+       * <code>optional string departure = 6;</code>
        * @param value The departure to set.
        * @return This builder for chaining.
        */
@@ -4166,23 +4252,23 @@ public final class RaceOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  bitField0_ |= 0x00000002;
         departure_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string departure = 6;</code>
+       * <code>optional string departure = 6;</code>
        * @return This builder for chaining.
        */
       public Builder clearDeparture() {
-        
+        bitField0_ = (bitField0_ & ~0x00000002);
         departure_ = getDefaultInstance().getDeparture();
         onChanged();
         return this;
       }
       /**
-       * <code>string departure = 6;</code>
+       * <code>optional string departure = 6;</code>
        * @param value The bytes for departure to set.
        * @return This builder for chaining.
        */
@@ -4192,7 +4278,7 @@ public final class RaceOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+        bitField0_ |= 0x00000002;
         departure_ = value;
         onChanged();
         return this;
@@ -4200,7 +4286,14 @@ public final class RaceOuterClass {
 
       private java.lang.Object arrival_ = "";
       /**
-       * <code>string arrival = 7;</code>
+       * <code>optional string arrival = 7;</code>
+       * @return Whether the arrival field is set.
+       */
+      public boolean hasArrival() {
+        return ((bitField0_ & 0x00000004) != 0);
+      }
+      /**
+       * <code>optional string arrival = 7;</code>
        * @return The arrival.
        */
       public java.lang.String getArrival() {
@@ -4216,7 +4309,7 @@ public final class RaceOuterClass {
         }
       }
       /**
-       * <code>string arrival = 7;</code>
+       * <code>optional string arrival = 7;</code>
        * @return The bytes for arrival.
        */
       public com.google.protobuf.ByteString
@@ -4233,7 +4326,7 @@ public final class RaceOuterClass {
         }
       }
       /**
-       * <code>string arrival = 7;</code>
+       * <code>optional string arrival = 7;</code>
        * @param value The arrival to set.
        * @return This builder for chaining.
        */
@@ -4242,23 +4335,23 @@ public final class RaceOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  bitField0_ |= 0x00000004;
         arrival_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string arrival = 7;</code>
+       * <code>optional string arrival = 7;</code>
        * @return This builder for chaining.
        */
       public Builder clearArrival() {
-        
+        bitField0_ = (bitField0_ & ~0x00000004);
         arrival_ = getDefaultInstance().getArrival();
         onChanged();
         return this;
       }
       /**
-       * <code>string arrival = 7;</code>
+       * <code>optional string arrival = 7;</code>
        * @param value The bytes for arrival to set.
        * @return This builder for chaining.
        */
@@ -4268,7 +4361,7 @@ public final class RaceOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+        bitField0_ |= 0x00000004;
         arrival_ = value;
         onChanged();
         return this;
@@ -5995,7 +6088,12 @@ public final class RaceOuterClass {
         getRiderIdBytes();
 
     /**
-     * <code>uint32 number = 2;</code>
+     * <code>optional uint32 number = 2;</code>
+     * @return Whether the number field is set.
+     */
+    boolean hasNumber();
+    /**
+     * <code>optional uint32 number = 2;</code>
      * @return The number.
      */
     int getNumber();
@@ -6036,6 +6134,7 @@ public final class RaceOuterClass {
       if (extensionRegistry == null) {
         throw new java.lang.NullPointerException();
       }
+      int mutable_bitField0_ = 0;
       com.google.protobuf.UnknownFieldSet.Builder unknownFields =
           com.google.protobuf.UnknownFieldSet.newBuilder();
       try {
@@ -6053,7 +6152,7 @@ public final class RaceOuterClass {
               break;
             }
             case 16: {
-
+              bitField0_ |= 0x00000001;
               number_ = input.readUInt32();
               break;
             }
@@ -6089,6 +6188,7 @@ public final class RaceOuterClass {
               io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderParticipation.class, io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderParticipation.Builder.class);
     }
 
+    private int bitField0_;
     public static final int RIDER_ID_FIELD_NUMBER = 1;
     private volatile java.lang.Object riderId_;
     /**
@@ -6130,7 +6230,15 @@ public final class RaceOuterClass {
     public static final int NUMBER_FIELD_NUMBER = 2;
     private int number_;
     /**
-     * <code>uint32 number = 2;</code>
+     * <code>optional uint32 number = 2;</code>
+     * @return Whether the number field is set.
+     */
+    @java.lang.Override
+    public boolean hasNumber() {
+      return ((bitField0_ & 0x00000001) != 0);
+    }
+    /**
+     * <code>optional uint32 number = 2;</code>
      * @return The number.
      */
     @java.lang.Override
@@ -6155,7 +6263,7 @@ public final class RaceOuterClass {
       if (!getRiderIdBytes().isEmpty()) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 1, riderId_);
       }
-      if (number_ != 0) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         output.writeUInt32(2, number_);
       }
       unknownFields.writeTo(output);
@@ -6170,7 +6278,7 @@ public final class RaceOuterClass {
       if (!getRiderIdBytes().isEmpty()) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(1, riderId_);
       }
-      if (number_ != 0) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         size += com.google.protobuf.CodedOutputStream
           .computeUInt32Size(2, number_);
       }
@@ -6191,8 +6299,11 @@ public final class RaceOuterClass {
 
       if (!getRiderId()
           .equals(other.getRiderId())) return false;
-      if (getNumber()
-          != other.getNumber()) return false;
+      if (hasNumber() != other.hasNumber()) return false;
+      if (hasNumber()) {
+        if (getNumber()
+            != other.getNumber()) return false;
+      }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -6206,8 +6317,10 @@ public final class RaceOuterClass {
       hash = (19 * hash) + getDescriptor().hashCode();
       hash = (37 * hash) + RIDER_ID_FIELD_NUMBER;
       hash = (53 * hash) + getRiderId().hashCode();
-      hash = (37 * hash) + NUMBER_FIELD_NUMBER;
-      hash = (53 * hash) + getNumber();
+      if (hasNumber()) {
+        hash = (37 * hash) + NUMBER_FIELD_NUMBER;
+        hash = (53 * hash) + getNumber();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -6344,7 +6457,7 @@ public final class RaceOuterClass {
         riderId_ = "";
 
         number_ = 0;
-
+        bitField0_ = (bitField0_ & ~0x00000001);
         return this;
       }
 
@@ -6371,8 +6484,14 @@ public final class RaceOuterClass {
       @java.lang.Override
       public io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderParticipation buildPartial() {
         io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderParticipation result = new io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderParticipation(this);
+        int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
         result.riderId_ = riderId_;
-        result.number_ = number_;
+        if (((from_bitField0_ & 0x00000001) != 0)) {
+          result.number_ = number_;
+          to_bitField0_ |= 0x00000001;
+        }
+        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -6425,7 +6544,7 @@ public final class RaceOuterClass {
           riderId_ = other.riderId_;
           onChanged();
         }
-        if (other.getNumber() != 0) {
+        if (other.hasNumber()) {
           setNumber(other.getNumber());
         }
         this.mergeUnknownFields(other.unknownFields);
@@ -6456,6 +6575,7 @@ public final class RaceOuterClass {
         }
         return this;
       }
+      private int bitField0_;
 
       private java.lang.Object riderId_ = "";
       /**
@@ -6535,7 +6655,15 @@ public final class RaceOuterClass {
 
       private int number_ ;
       /**
-       * <code>uint32 number = 2;</code>
+       * <code>optional uint32 number = 2;</code>
+       * @return Whether the number field is set.
+       */
+      @java.lang.Override
+      public boolean hasNumber() {
+        return ((bitField0_ & 0x00000001) != 0);
+      }
+      /**
+       * <code>optional uint32 number = 2;</code>
        * @return The number.
        */
       @java.lang.Override
@@ -6543,22 +6671,22 @@ public final class RaceOuterClass {
         return number_;
       }
       /**
-       * <code>uint32 number = 2;</code>
+       * <code>optional uint32 number = 2;</code>
        * @param value The number to set.
        * @return This builder for chaining.
        */
       public Builder setNumber(int value) {
-        
+        bitField0_ |= 0x00000001;
         number_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>uint32 number = 2;</code>
+       * <code>optional uint32 number = 2;</code>
        * @return This builder for chaining.
        */
       public Builder clearNumber() {
-        
+        bitField0_ = (bitField0_ & ~0x00000001);
         number_ = 0;
         onChanged();
         return this;
@@ -6652,7 +6780,7 @@ public final class RaceOuterClass {
     java.lang.String[] descriptorData = {
       "\n\031src/main/proto/race.proto\022-io.github.p" +
       "atxibocos.pcsscraper.protobuf.race\032\037goog" +
-      "le/protobuf/timestamp.proto\"\203\003\n\004Race\022\n\n\002" +
+      "le/protobuf/timestamp.proto\"\224\003\n\004Race\022\n\n\002" +
       "id\030\001 \001(\t\022\014\n\004name\030\002 \001(\t\022\017\n\007country\030\003 \001(\t\022" +
       ".\n\nstart_date\030\004 \001(\0132\032.google.protobuf.Ti" +
       "mestamp\022,\n\010end_date\030\005 \001(\0132\032.google.proto" +
@@ -6660,26 +6788,28 @@ public final class RaceOuterClass {
       "b.patxibocos.pcsscraper.protobuf.race.St" +
       "age\022O\n\005teams\030\007 \003(\0132@.io.github.patxiboco" +
       "s.pcsscraper.protobuf.race.TeamParticipa" +
-      "tion\022\017\n\007website\030\010 \001(\t\022J\n\006result\030\t \003(\0132:." +
-      "io.github.patxibocos.pcsscraper.protobuf" +
-      ".race.RiderResult\"\270\003\n\005Stage\022\n\n\002id\030\001 \001(\t\022" +
-      ".\n\nstart_date\030\002 \001(\0132\032.google.protobuf.Ti" +
-      "mestamp\022\020\n\010distance\030\003 \001(\002\022J\n\006result\030\004 \003(" +
-      "\0132:.io.github.patxibocos.pcsscraper.prot" +
-      "obuf.race.RiderResult\022G\n\004type\030\005 \001(\01629.io" +
-      ".github.patxibocos.pcsscraper.protobuf.r" +
-      "ace.Stage.Type\022\021\n\tdeparture\030\006 \001(\t\022\017\n\007arr" +
-      "ival\030\007 \001(\t\"\247\001\n\004Type\022\024\n\020TYPE_UNSPECIFIED\020" +
-      "\000\022\r\n\tTYPE_FLAT\020\001\022\032\n\026TYPE_HILLS_FLAT_FINI" +
-      "SH\020\002\022\034\n\030TYPE_HILLS_UPHILL_FINISH\020\003\022\036\n\032TY" +
-      "PE_MOUNTAINS_FLAT_FINISH\020\004\022 \n\034TYPE_MOUNT" +
-      "AINS_UPHILL_FINISH\020\005\"w\n\021TeamParticipatio" +
-      "n\022\017\n\007team_id\030\001 \001(\t\022Q\n\006riders\030\002 \003(\0132A.io." +
-      "github.patxibocos.pcsscraper.protobuf.ra" +
-      "ce.RiderParticipation\"?\n\013RiderResult\022\020\n\010" +
-      "position\030\001 \001(\r\022\020\n\010rider_id\030\002 \001(\t\022\014\n\004time" +
-      "\030\003 \001(\003\"6\n\022RiderParticipation\022\020\n\010rider_id" +
-      "\030\001 \001(\t\022\016\n\006number\030\002 \001(\rb\006proto3"
+      "tion\022\024\n\007website\030\010 \001(\tH\000\210\001\001\022J\n\006result\030\t \003" +
+      "(\0132:.io.github.patxibocos.pcsscraper.pro" +
+      "tobuf.race.RiderResultB\n\n\010_website\"\334\003\n\005S" +
+      "tage\022\n\n\002id\030\001 \001(\t\022.\n\nstart_date\030\002 \001(\0132\032.g" +
+      "oogle.protobuf.Timestamp\022\020\n\010distance\030\003 \001" +
+      "(\002\022J\n\006result\030\004 \003(\0132:.io.github.patxiboco" +
+      "s.pcsscraper.protobuf.race.RiderResult\022G" +
+      "\n\004type\030\005 \001(\01629.io.github.patxibocos.pcss" +
+      "craper.protobuf.race.Stage.Type\022\026\n\tdepar" +
+      "ture\030\006 \001(\tH\000\210\001\001\022\024\n\007arrival\030\007 \001(\tH\001\210\001\001\"\247\001" +
+      "\n\004Type\022\024\n\020TYPE_UNSPECIFIED\020\000\022\r\n\tTYPE_FLA" +
+      "T\020\001\022\032\n\026TYPE_HILLS_FLAT_FINISH\020\002\022\034\n\030TYPE_" +
+      "HILLS_UPHILL_FINISH\020\003\022\036\n\032TYPE_MOUNTAINS_" +
+      "FLAT_FINISH\020\004\022 \n\034TYPE_MOUNTAINS_UPHILL_F" +
+      "INISH\020\005B\014\n\n_departureB\n\n\010_arrival\"w\n\021Tea" +
+      "mParticipation\022\017\n\007team_id\030\001 \001(\t\022Q\n\006rider" +
+      "s\030\002 \003(\0132A.io.github.patxibocos.pcsscrape" +
+      "r.protobuf.race.RiderParticipation\"?\n\013Ri" +
+      "derResult\022\020\n\010position\030\001 \001(\r\022\020\n\010rider_id\030" +
+      "\002 \001(\t\022\014\n\004time\030\003 \001(\003\"F\n\022RiderParticipatio" +
+      "n\022\020\n\010rider_id\030\001 \001(\t\022\023\n\006number\030\002 \001(\rH\000\210\001\001" +
+      "B\t\n\007_numberb\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -6691,13 +6821,13 @@ public final class RaceOuterClass {
     internal_static_io_github_patxibocos_pcsscraper_protobuf_race_Race_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_io_github_patxibocos_pcsscraper_protobuf_race_Race_descriptor,
-        new java.lang.String[] { "Id", "Name", "Country", "StartDate", "EndDate", "Stages", "Teams", "Website", "Result", });
+        new java.lang.String[] { "Id", "Name", "Country", "StartDate", "EndDate", "Stages", "Teams", "Website", "Result", "Website", });
     internal_static_io_github_patxibocos_pcsscraper_protobuf_race_Stage_descriptor =
       getDescriptor().getMessageTypes().get(1);
     internal_static_io_github_patxibocos_pcsscraper_protobuf_race_Stage_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_io_github_patxibocos_pcsscraper_protobuf_race_Stage_descriptor,
-        new java.lang.String[] { "Id", "StartDate", "Distance", "Result", "Type", "Departure", "Arrival", });
+        new java.lang.String[] { "Id", "StartDate", "Distance", "Result", "Type", "Departure", "Arrival", "Departure", "Arrival", });
     internal_static_io_github_patxibocos_pcsscraper_protobuf_race_TeamParticipation_descriptor =
       getDescriptor().getMessageTypes().get(2);
     internal_static_io_github_patxibocos_pcsscraper_protobuf_race_TeamParticipation_fieldAccessorTable = new
@@ -6715,7 +6845,7 @@ public final class RaceOuterClass {
     internal_static_io_github_patxibocos_pcsscraper_protobuf_race_RiderParticipation_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_io_github_patxibocos_pcsscraper_protobuf_race_RiderParticipation_descriptor,
-        new java.lang.String[] { "RiderId", "Number", });
+        new java.lang.String[] { "RiderId", "Number", "Number", });
     com.google.protobuf.TimestampProto.getDescriptor();
   }
 

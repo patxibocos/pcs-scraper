@@ -91,7 +91,7 @@ object RiderKt {
     }
 
     /**
-     * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+     * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
      */
     var birthDate: com.google.protobuf.Timestamp
       @JvmName("getBirthDate")
@@ -101,13 +101,13 @@ object RiderKt {
         _builder.setBirthDate(value)
       }
     /**
-     * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+     * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
      */
     fun clearBirthDate() {
       _builder.clearBirthDate()
     }
     /**
-     * <code>.google.protobuf.Timestamp birth_date = 5;</code>
+     * <code>optional .google.protobuf.Timestamp birth_date = 5;</code>
      * @return Whether the birthDate field is set.
      */
     fun hasBirthDate(): kotlin.Boolean {
@@ -132,7 +132,7 @@ object RiderKt {
     }
 
     /**
-     * <code>string website = 7;</code>
+     * <code>optional string website = 7;</code>
      */
     var website: kotlin.String
       @JvmName("getWebsite")
@@ -142,14 +142,21 @@ object RiderKt {
         _builder.setWebsite(value)
       }
     /**
-     * <code>string website = 7;</code>
+     * <code>optional string website = 7;</code>
      */
     fun clearWebsite() {
       _builder.clearWebsite()
     }
+    /**
+     * <code>optional string website = 7;</code>
+     * @return Whether the website field is set.
+     */
+    fun hasWebsite(): kotlin.Boolean {
+      return _builder.hasWebsite()
+    }
 
     /**
-     * <code>string birth_place = 8;</code>
+     * <code>optional string birth_place = 8;</code>
      */
     var birthPlace: kotlin.String
       @JvmName("getBirthPlace")
@@ -159,14 +166,21 @@ object RiderKt {
         _builder.setBirthPlace(value)
       }
     /**
-     * <code>string birth_place = 8;</code>
+     * <code>optional string birth_place = 8;</code>
      */
     fun clearBirthPlace() {
       _builder.clearBirthPlace()
     }
+    /**
+     * <code>optional string birth_place = 8;</code>
+     * @return Whether the birthPlace field is set.
+     */
+    fun hasBirthPlace(): kotlin.Boolean {
+      return _builder.hasBirthPlace()
+    }
 
     /**
-     * <code>uint32 weight = 9;</code>
+     * <code>optional uint32 weight = 9;</code>
      */
     var weight: kotlin.Int
       @JvmName("getWeight")
@@ -176,14 +190,21 @@ object RiderKt {
         _builder.setWeight(value)
       }
     /**
-     * <code>uint32 weight = 9;</code>
+     * <code>optional uint32 weight = 9;</code>
      */
     fun clearWeight() {
       _builder.clearWeight()
     }
+    /**
+     * <code>optional uint32 weight = 9;</code>
+     * @return Whether the weight field is set.
+     */
+    fun hasWeight(): kotlin.Boolean {
+      return _builder.hasWeight()
+    }
 
     /**
-     * <code>uint32 height = 10;</code>
+     * <code>optional uint32 height = 10;</code>
      */
     var height: kotlin.Int
       @JvmName("getHeight")
@@ -193,10 +214,17 @@ object RiderKt {
         _builder.setHeight(value)
       }
     /**
-     * <code>uint32 height = 10;</code>
+     * <code>optional uint32 height = 10;</code>
      */
     fun clearHeight() {
       _builder.clearHeight()
+    }
+    /**
+     * <code>optional uint32 height = 10;</code>
+     * @return Whether the height field is set.
+     */
+    fun hasHeight(): kotlin.Boolean {
+      return _builder.hasHeight()
     }
   }
 }

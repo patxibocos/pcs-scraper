@@ -40,7 +40,7 @@ object RiderParticipationKt {
     }
 
     /**
-     * <code>uint32 number = 2;</code>
+     * <code>optional uint32 number = 2;</code>
      */
     var number: kotlin.Int
       @JvmName("getNumber")
@@ -50,10 +50,17 @@ object RiderParticipationKt {
         _builder.setNumber(value)
       }
     /**
-     * <code>uint32 number = 2;</code>
+     * <code>optional uint32 number = 2;</code>
      */
     fun clearNumber() {
       _builder.clearNumber()
+    }
+    /**
+     * <code>optional uint32 number = 2;</code>
+     * @return Whether the number field is set.
+     */
+    fun hasNumber(): kotlin.Boolean {
+      return _builder.hasNumber()
     }
   }
 }

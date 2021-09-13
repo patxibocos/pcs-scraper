@@ -133,12 +133,17 @@ public final class TeamOuterClass {
         getRiderIdsBytes(int index);
 
     /**
-     * <code>string website = 10;</code>
+     * <code>optional string website = 10;</code>
+     * @return Whether the website field is set.
+     */
+    boolean hasWebsite();
+    /**
+     * <code>optional string website = 10;</code>
      * @return The website.
      */
     java.lang.String getWebsite();
     /**
-     * <code>string website = 10;</code>
+     * <code>optional string website = 10;</code>
      * @return The bytes for website.
      */
     com.google.protobuf.ByteString
@@ -257,7 +262,7 @@ public final class TeamOuterClass {
             }
             case 82: {
               java.lang.String s = input.readStringRequireUtf8();
-
+              bitField0_ |= 0x00000001;
               website_ = s;
               break;
             }
@@ -413,6 +418,7 @@ public final class TeamOuterClass {
       // @@protoc_insertion_point(enum_scope:io.github.patxibocos.pcsscraper.protobuf.team.Team.Status)
     }
 
+    private int bitField0_;
     public static final int ID_FIELD_NUMBER = 1;
     private volatile java.lang.Object id_;
     /**
@@ -709,7 +715,15 @@ public final class TeamOuterClass {
     public static final int WEBSITE_FIELD_NUMBER = 10;
     private volatile java.lang.Object website_;
     /**
-     * <code>string website = 10;</code>
+     * <code>optional string website = 10;</code>
+     * @return Whether the website field is set.
+     */
+    @java.lang.Override
+    public boolean hasWebsite() {
+      return ((bitField0_ & 0x00000001) != 0);
+    }
+    /**
+     * <code>optional string website = 10;</code>
      * @return The website.
      */
     @java.lang.Override
@@ -726,7 +740,7 @@ public final class TeamOuterClass {
       }
     }
     /**
-     * <code>string website = 10;</code>
+     * <code>optional string website = 10;</code>
      * @return The bytes for website.
      */
     @java.lang.Override
@@ -785,7 +799,7 @@ public final class TeamOuterClass {
       for (int i = 0; i < riderIds_.size(); i++) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 9, riderIds_.getRaw(i));
       }
-      if (!getWebsiteBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         com.google.protobuf.GeneratedMessageV3.writeString(output, 10, website_);
       }
       unknownFields.writeTo(output);
@@ -831,7 +845,7 @@ public final class TeamOuterClass {
         size += dataSize;
         size += 1 * getRiderIdsList().size();
       }
-      if (!getWebsiteBytes().isEmpty()) {
+      if (((bitField0_ & 0x00000001) != 0)) {
         size += com.google.protobuf.GeneratedMessageV3.computeStringSize(10, website_);
       }
       size += unknownFields.getSerializedSize();
@@ -866,8 +880,11 @@ public final class TeamOuterClass {
           != other.getYear()) return false;
       if (!getRiderIdsList()
           .equals(other.getRiderIdsList())) return false;
-      if (!getWebsite()
-          .equals(other.getWebsite())) return false;
+      if (hasWebsite() != other.hasWebsite()) return false;
+      if (hasWebsite()) {
+        if (!getWebsite()
+            .equals(other.getWebsite())) return false;
+      }
       if (!unknownFields.equals(other.unknownFields)) return false;
       return true;
     }
@@ -899,8 +916,10 @@ public final class TeamOuterClass {
         hash = (37 * hash) + RIDER_IDS_FIELD_NUMBER;
         hash = (53 * hash) + getRiderIdsList().hashCode();
       }
-      hash = (37 * hash) + WEBSITE_FIELD_NUMBER;
-      hash = (53 * hash) + getWebsite().hashCode();
+      if (hasWebsite()) {
+        hash = (37 * hash) + WEBSITE_FIELD_NUMBER;
+        hash = (53 * hash) + getWebsite().hashCode();
+      }
       hash = (29 * hash) + unknownFields.hashCode();
       memoizedHashCode = hash;
       return hash;
@@ -1053,7 +1072,7 @@ public final class TeamOuterClass {
         riderIds_ = com.google.protobuf.LazyStringArrayList.EMPTY;
         bitField0_ = (bitField0_ & ~0x00000001);
         website_ = "";
-
+        bitField0_ = (bitField0_ & ~0x00000002);
         return this;
       }
 
@@ -1081,6 +1100,7 @@ public final class TeamOuterClass {
       public io.github.patxibocos.pcsscraper.protobuf.team.TeamOuterClass.Team buildPartial() {
         io.github.patxibocos.pcsscraper.protobuf.team.TeamOuterClass.Team result = new io.github.patxibocos.pcsscraper.protobuf.team.TeamOuterClass.Team(this);
         int from_bitField0_ = bitField0_;
+        int to_bitField0_ = 0;
         result.id_ = id_;
         result.name_ = name_;
         result.status_ = status_;
@@ -1094,7 +1114,11 @@ public final class TeamOuterClass {
           bitField0_ = (bitField0_ & ~0x00000001);
         }
         result.riderIds_ = riderIds_;
+        if (((from_bitField0_ & 0x00000002) != 0)) {
+          to_bitField0_ |= 0x00000001;
+        }
         result.website_ = website_;
+        result.bitField0_ = to_bitField0_;
         onBuilt();
         return result;
       }
@@ -1183,7 +1207,8 @@ public final class TeamOuterClass {
           }
           onChanged();
         }
-        if (!other.getWebsite().isEmpty()) {
+        if (other.hasWebsite()) {
+          bitField0_ |= 0x00000002;
           website_ = other.website_;
           onChanged();
         }
@@ -1870,7 +1895,14 @@ public final class TeamOuterClass {
 
       private java.lang.Object website_ = "";
       /**
-       * <code>string website = 10;</code>
+       * <code>optional string website = 10;</code>
+       * @return Whether the website field is set.
+       */
+      public boolean hasWebsite() {
+        return ((bitField0_ & 0x00000002) != 0);
+      }
+      /**
+       * <code>optional string website = 10;</code>
        * @return The website.
        */
       public java.lang.String getWebsite() {
@@ -1886,7 +1918,7 @@ public final class TeamOuterClass {
         }
       }
       /**
-       * <code>string website = 10;</code>
+       * <code>optional string website = 10;</code>
        * @return The bytes for website.
        */
       public com.google.protobuf.ByteString
@@ -1903,7 +1935,7 @@ public final class TeamOuterClass {
         }
       }
       /**
-       * <code>string website = 10;</code>
+       * <code>optional string website = 10;</code>
        * @param value The website to set.
        * @return This builder for chaining.
        */
@@ -1912,23 +1944,23 @@ public final class TeamOuterClass {
         if (value == null) {
     throw new NullPointerException();
   }
-  
+  bitField0_ |= 0x00000002;
         website_ = value;
         onChanged();
         return this;
       }
       /**
-       * <code>string website = 10;</code>
+       * <code>optional string website = 10;</code>
        * @return This builder for chaining.
        */
       public Builder clearWebsite() {
-        
+        bitField0_ = (bitField0_ & ~0x00000002);
         website_ = getDefaultInstance().getWebsite();
         onChanged();
         return this;
       }
       /**
-       * <code>string website = 10;</code>
+       * <code>optional string website = 10;</code>
        * @param value The bytes for website to set.
        * @return This builder for chaining.
        */
@@ -1938,7 +1970,7 @@ public final class TeamOuterClass {
     throw new NullPointerException();
   }
   checkByteStringIsUtf8(value);
-        
+        bitField0_ |= 0x00000002;
         website_ = value;
         onChanged();
         return this;
@@ -2011,15 +2043,16 @@ public final class TeamOuterClass {
   static {
     java.lang.String[] descriptorData = {
       "\n\031src/main/proto/team.proto\022-io.github.p" +
-      "atxibocos.pcsscraper.protobuf.team\"\261\002\n\004T" +
+      "atxibocos.pcsscraper.protobuf.team\"\302\002\n\004T" +
       "eam\022\n\n\002id\030\001 \001(\t\022\014\n\004name\030\002 \001(\t\022J\n\006status\030" +
       "\003 \001(\0162:.io.github.patxibocos.pcsscraper." +
       "protobuf.team.Team.Status\022\024\n\014abbreviatio" +
       "n\030\004 \001(\t\022\017\n\007country\030\005 \001(\t\022\014\n\004bike\030\006 \001(\t\022\016" +
       "\n\006jersey\030\007 \001(\t\022\014\n\004year\030\010 \001(\r\022\021\n\trider_id" +
-      "s\030\t \003(\t\022\017\n\007website\030\n \001(\t\"L\n\006Status\022\026\n\022ST" +
-      "ATUS_UNSPECIFIED\020\000\022\025\n\021STATUS_WORLD_TEAM\020" +
-      "\001\022\023\n\017STATUS_PRO_TEAM\020\002b\006proto3"
+      "s\030\t \003(\t\022\024\n\007website\030\n \001(\tH\000\210\001\001\"L\n\006Status\022" +
+      "\026\n\022STATUS_UNSPECIFIED\020\000\022\025\n\021STATUS_WORLD_" +
+      "TEAM\020\001\022\023\n\017STATUS_PRO_TEAM\020\002B\n\n\010_websiteb" +
+      "\006proto3"
     };
     descriptor = com.google.protobuf.Descriptors.FileDescriptor
       .internalBuildGeneratedFileFrom(descriptorData,
@@ -2030,7 +2063,7 @@ public final class TeamOuterClass {
     internal_static_io_github_patxibocos_pcsscraper_protobuf_team_Team_fieldAccessorTable = new
       com.google.protobuf.GeneratedMessageV3.FieldAccessorTable(
         internal_static_io_github_patxibocos_pcsscraper_protobuf_team_Team_descriptor,
-        new java.lang.String[] { "Id", "Name", "Status", "Abbreviation", "Country", "Bike", "Jersey", "Year", "RiderIds", "Website", });
+        new java.lang.String[] { "Id", "Name", "Status", "Abbreviation", "Country", "Bike", "Jersey", "Year", "RiderIds", "Website", "Website", });
   }
 
   // @@protoc_insertion_point(outer_class_scope)
