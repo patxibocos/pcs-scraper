@@ -1,10 +1,10 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.5.30"
-    kotlin("plugin.serialization") version "1.5.30"
+    kotlin("jvm") version "1.5.31"
+    kotlin("plugin.serialization") version "1.5.31"
     application
-    id("com.diffplug.spotless") version "5.14.2"
+    id("com.diffplug.spotless") version "5.15.1"
 }
 
 group = "io.github.patxibocos"

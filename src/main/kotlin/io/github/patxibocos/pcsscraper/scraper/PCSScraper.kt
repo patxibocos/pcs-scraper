@@ -252,21 +252,13 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         if (uciTour != "UCI Worldtour") {
             return@coroutineScope null
         }
-        val stagesUrl = raceDoc.div {
-            withClass = "page-topnav"
-            ul {
-                li {
-                    findByIndex(4) {
-                        a {
-                            findFirst {
-                                attribute("href")
-                            }
-                        }
-                    }
-                }
-            }
-        }
-        val stages = getStages(stagesUrl)
+        val header = raceDoc.findAll(".page-topnav > ul > li")
+        val participantsIndex = header.indexOfFirst { it.text == "Startlist" }
+        val resultsIndex = header.indexOfFirst { it.text == "Results" }
+        val stagesIndex = header.indexOfFirst { it.text.startsWith("Stages") }
+        val raceParticipantsUrl = header[participantsIndex].a { findFirst { attribute("href") } }
+        val raceResultUrl = header[resultsIndex].a { findFirst { attribute("href") } }
+        val stagesUrl = header[stagesIndex].a { findFirst { attribute("href") } }
         val startDate = infoList.li {
             findFirst {
                 div {
@@ -281,6 +273,12 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                 }
             }
         }
+        val stages = if (startDate == endDate) {
+            listOf(getStage(raceResultUrl))
+        } else {
+            getStages(stagesUrl)
+        }
+
         val name = raceDoc.div {
             withClass = "main"
             h1 { findFirst { text } }
@@ -306,11 +304,6 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val website = websites.firstOrNull {
             !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") && it.trim().isNotEmpty()
         }
-        val header = raceDoc.findAll(".page-topnav > ul > li")
-        val participantsIndex = header.indexOfFirst { it.text == "Startlist" }
-        val resultsIndex = header.indexOfFirst { it.text == "Results" }
-        val raceParticipantsUrl = header[participantsIndex].a { findFirst { attribute("href") } }
-        val raceResultUrl = header[resultsIndex].a { findFirst { attribute("href") } }
 
         val startList = getRaceStartList(raceParticipantsUrl)
         val raceResultDoc = docFetcher.getDoc(buildURL(raceResultUrl)) { relaxed = true }
@@ -515,7 +508,11 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
         // p1, p2, p3, p4 and p5 are the only valid values
         val pcsTypeIndex = (1..5).map { "p$it" }.indexOf(pcsStage.type).takeIf { it != -1 }
-        val stageId = pcsStage.url.split("/").takeLast(3).joinToString("/").replace("/", "-")
+        val stageId = pcsStage.url.split("/")
+            .takeLast(3)
+            .joinToString("/")
+            .replace("/", "-")
+            .replace("result", "stage-1") // For single day races where stage info is on the result page
         val result = pcsRiderResultToRiderResult(pcsStage.result)
         return Race.Stage(
             id = stageId,
