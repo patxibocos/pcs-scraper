@@ -6,12 +6,10 @@ import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
 import it.skrape.selects.CssSelector
 import it.skrape.selects.Doc
-import it.skrape.selects.and
 import it.skrape.selects.html5.a
 import it.skrape.selects.html5.b
 import it.skrape.selects.html5.div
 import it.skrape.selects.html5.h1
-import it.skrape.selects.html5.img
 import it.skrape.selects.html5.li
 import it.skrape.selects.html5.span
 import it.skrape.selects.html5.tbody
@@ -67,7 +65,6 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         return teamsDoc.findAll(".list.fs14.columns2.mob_columns1 a").map { it.attribute("href") }
     }
 
-    @Suppress("DuplicatedCode")
     private suspend fun getTeam(teamUrl: String, season: Int): PCSTeam {
         val teamURL = buildURL(teamUrl)
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
@@ -89,12 +86,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val jersey = getJerseyImageFromUci()
         val pageTitleMain = teamDoc.findFirst(".page-title > .main")
         val teamName = pageTitleMain.h1 { findFirst { text } }.substringBefore('(').trim()
-        val teamCountry = pageTitleMain.span(".flag") {
-            withClass = "flag"
-            findFirst {
-                this.classNames.find { it.length == 2 }.orEmpty()
-            }
-        }.uppercase()
+        val teamCountry = pageTitleMain.findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
         val year = pageTitleMain.findLast("span").ownText.toInt()
         return PCSTeam(
             url = teamUrl,
@@ -111,36 +103,13 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     private fun getTeamRiders(teamDoc: Doc): List<Pair<String, String>> =
-        teamDoc.div {
-            withClass = "ttabs" and "tabb"
-            ul {
-                li {
-                    findAll {
-                        map {
-                            val riderInfo = it.div { findSecond { this } }
-                            val riderLink = riderInfo.a { findFirst { this } }
-                            val riderName = riderLink.text
-                            val riderUrl = riderLink.attribute("href")
-                            riderUrl to riderName
-                        }
-                    }
-                }
-            }
-        }
+        teamDoc.findAll(".ttabs.tabb a").map { it.attribute("href") to it.text }
 
     private suspend fun getRider(riderUrl: String, riderFullName: String): PCSRider {
         val riderURL = buildURL(riderUrl)
         val riderDoc = docFetcher.getDoc(riderURL) { relaxed = true }
-        val infoContent = riderDoc.div {
-            withClass = "rdr-info-cont"
-            findFirst { this }
-        }
-        val country = infoContent.span {
-            withClass = "flag"
-            findFirst {
-                this.classNames.find { it.length == 2 }.orEmpty()
-            }
-        }
+        val infoContent = riderDoc.findFirst(".rdr-info-cont")
+        val country = infoContent.findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
         val website = riderDoc.getElementWebsite()
         val birthDate = infoContent.ownText.split(' ').take(3).joinToString(" ")
         val birthPlaceWeightAndHeight = infoContent.children.last().findFirst { text }.split(' ')
@@ -150,11 +119,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val weight = if (weightWordIndex != -1) birthPlaceWeightAndHeight[weightWordIndex + 1] else null
         val heightWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("height") }
         val height = if (heightWordIndex != -1) birthPlaceWeightAndHeight[heightWordIndex + 1] else null
-        val imageUrl = riderDoc.img {
-            findFirst {
-                attribute("src")
-            }
-        }
+        val imageUrl = riderDoc.findFirst("img").attribute("src")
         return PCSRider(
             url = riderUrl,
             fullName = riderFullName,
@@ -171,35 +136,14 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     private suspend fun getRacesUrls(): List<String> {
         val calendarUrl = buildURL("calendar/wt-calendar-chart")
         val calendarDoc = docFetcher.getDoc(calendarUrl)
-        return calendarDoc.ul {
-            withClass = "gantt"
-            li {
-                findAll {
-                    map {
-                        val raceLink = it.a { findFirst { this } }
-                        val raceUrl = raceLink.attribute("href")
-                        raceUrl
-                    }
-                }
-            }
-        }
+        return calendarDoc.findAll("ul.gantt a").map { it.attribute("href") }
     }
 
-    @Suppress("DuplicatedCode")
     private suspend fun getRace(raceUrl: String): PCSRace? = coroutineScope {
         val raceURL = buildURL(raceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
-        val infoList = raceDoc.ul {
-            withClass = "infolist"
-            this
-        }
-        val uciTour = infoList.li {
-            findByIndex(3) {
-                div {
-                    findSecond { ownText }
-                }
-            }
-        }
+        val infoList = raceDoc.ul { withClass = "infolist"; this }
+        val uciTour = infoList.findByIndex(3, "li").findSecond("div").ownText
         // Discard any race that is not part of the UCI Worldtour
         if (uciTour != "UCI Worldtour") {
             return@coroutineScope null
@@ -211,48 +155,17 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val raceParticipantsUrl = header[participantsIndex].a { findFirst { attribute("href") } }
         val raceResultUrl = header[resultsIndex].a { findFirst { attribute("href") } }
         val stagesUrl = header[stagesIndex].a { findFirst { attribute("href") } }
-        val startDate = infoList.li {
-            findFirst {
-                div {
-                    findSecond { ownText }
-                }
-            }
-        }
-        val endDate = infoList.li {
-            findSecond {
-                div {
-                    findSecond { ownText }
-                }
-            }
-        }
+        val startDate = infoList.findFirst("li").findSecond("div").ownText
+        val endDate = infoList.findSecond("li").findSecond("div").ownText
         val stages = if (startDate == endDate) {
             listOf(getStage(raceResultUrl))
         } else {
             getStages(stagesUrl)
         }
 
-        val name = raceDoc.div {
-            withClass = "main"
-            h1 { findFirst { text } }
-        }
-        val country = raceDoc.span {
-            withClass = "flag"
-            findFirst {
-                this.classNames.find { it.length == 2 }.orEmpty()
-            }
-        }
-        val websites = raceDoc.ul {
-            withClass = "list" and "circle" and "bluelink" and "fs14"
-            li {
-                findAll {
-                    map {
-                        it.a {
-                            findFirst { attribute("href") }
-                        }
-                    }
-                }
-            }
-        }
+        val name = raceDoc.findFirst(".main > h1").text
+        val country = raceDoc.findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
+        val websites = raceDoc.findAll("ul.list.circle.bluelink.fs14 a").map { it.attribute("href") }
         val website = websites.firstOrNull {
             !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") && it.trim().isNotEmpty()
         }
@@ -316,7 +229,6 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         stagesUrls.map { stageUrl -> getStage(stageUrl) }
     }
 
-    @Suppress("DuplicatedCode")
     private suspend fun getStage(stageUrl: String): PCSStage {
         val stageURL = buildURL(stageUrl)
         val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
@@ -493,18 +405,9 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     private fun Doc.getElementWebsite(): String? =
-        this.ul {
-            withClass = "sites"
-            this
-        }.li {
-            val websiteElements = findAll("span.website")
-            if (websiteElements.isEmpty()) {
-                return@li null
-            }
-            websiteElements.first().parent.a {
-                findFirst { attribute("href") }
-            }
-        }
+        findFirst(".sites .website").takeIf {
+            it.parents.isNotEmpty()
+        }?.parent?.findFirst("a")?.attribute("href")
 
     private fun buildURL(path: String): URL =
         URI(pcsUrl).resolve("/").resolve(path).toURL()
