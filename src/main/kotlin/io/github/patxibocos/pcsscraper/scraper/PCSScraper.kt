@@ -64,53 +64,17 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     private suspend fun getTeamsUrls(season: Int): List<String> {
         val teamsURL = buildURL("teams.php?year=$season&filter=Filter&s=worldtour")
         val teamsDoc = docFetcher.getDoc(teamsURL)
-        return teamsDoc.ul {
-            withClass = "list" and "fs14" and "columns2" and "mob_columns1"
-            findAll { this }
-        }.flatMap { teamDocElement ->
-            teamDocElement.li {
-                findAll {
-                    map {
-                        it.div {
-                            a { findFirst { attribute("href") } }
-                        }
-                    }
-                }
-            }
-        }
+        return teamsDoc.findAll(".list.fs14.columns2.mob_columns1 a").map { it.attribute("href") }
     }
 
     @Suppress("DuplicatedCode")
     private suspend fun getTeam(teamUrl: String, season: Int): PCSTeam {
         val teamURL = buildURL(teamUrl)
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
-        val infoList = teamDoc.ul {
-            withClass = "infolist"
-            this
-        }
-        val status = infoList.li {
-            findFirst {
-                div {
-                    findSecond { ownText }
-                }
-            }
-        }
-        val abbreviation = infoList.li {
-            findSecond {
-                div {
-                    findSecond { ownText }
-                }
-            }
-        }
-        val bike = infoList.li {
-            findThird {
-                div {
-                    a {
-                        findFirst { ownText }
-                    }
-                }
-            }
-        }
+        val infoList = teamDoc.ul { withClass = "infolist"; this }
+        val status = infoList.findFirst("li").findSecond("div").ownText
+        val abbreviation = infoList.findSecond("li").findSecond("div").ownText
+        val bike = infoList.findThird("li").findFirst("a").ownText
         val website = teamDoc.getElementWebsite()
 
         fun getJerseyImageFromUci(): String {
@@ -123,27 +87,15 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         }
 
         val jersey = getJerseyImageFromUci()
-        val pageTitleMain = teamDoc.div {
-            withClass = "page-title"
-            div {
-                withClass = "main"
-                findFirst { this }
-            }
-        }
-        val teamName = pageTitleMain.h1 {
-            findFirst { text }
-        }.substringBefore('(').trim()
-        val teamCountry = pageTitleMain.span {
+        val pageTitleMain = teamDoc.findFirst(".page-title > .main")
+        val teamName = pageTitleMain.h1 { findFirst { text } }.substringBefore('(').trim()
+        val teamCountry = pageTitleMain.span(".flag") {
             withClass = "flag"
             findFirst {
                 this.classNames.find { it.length == 2 }.orEmpty()
             }
         }.uppercase()
-        val year = pageTitleMain.findLast("span") {
-            findFirst {
-                ownText
-            }
-        }.toInt()
+        val year = pageTitleMain.findLast("span").ownText.toInt()
         return PCSTeam(
             url = teamUrl,
             name = teamName,
