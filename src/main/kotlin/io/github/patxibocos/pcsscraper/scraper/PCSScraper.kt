@@ -4,15 +4,10 @@ import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
-import it.skrape.selects.CssSelector
 import it.skrape.selects.Doc
 import it.skrape.selects.html5.a
-import it.skrape.selects.html5.b
-import it.skrape.selects.html5.div
 import it.skrape.selects.html5.h1
-import it.skrape.selects.html5.li
 import it.skrape.selects.html5.span
-import it.skrape.selects.html5.tbody
 import it.skrape.selects.html5.td
 import it.skrape.selects.html5.thead
 import it.skrape.selects.html5.tr
@@ -72,7 +67,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val status = infoList.findFirst("li").findSecond("div").ownText
         val abbreviation = infoList.findSecond("li").findSecond("div").ownText
         val bike = infoList.findThird("li").findFirst("a").ownText
-        val website = teamDoc.getElementWebsite()
+        val website = teamDoc.getWebsite()
 
         fun getJerseyImageFromUci(): String {
             val uciCategory = when (status) {
@@ -86,14 +81,14 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val jersey = getJerseyImageFromUci()
         val pageTitleMain = teamDoc.findFirst(".page-title > .main")
         val teamName = pageTitleMain.h1 { findFirst { text } }.substringBefore('(').trim()
-        val teamCountry = pageTitleMain.findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
+        val country = teamDoc.getCountry()
         val year = pageTitleMain.findLast("span").ownText.toInt()
         return PCSTeam(
             url = teamUrl,
             name = teamName,
             status = status,
             abbreviation = abbreviation,
-            country = teamCountry,
+            country = country,
             bike = bike,
             website = website,
             jersey = jersey,
@@ -109,8 +104,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val riderURL = buildURL(riderUrl)
         val riderDoc = docFetcher.getDoc(riderURL) { relaxed = true }
         val infoContent = riderDoc.findFirst(".rdr-info-cont")
-        val country = infoContent.findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
-        val website = riderDoc.getElementWebsite()
+        val country = riderDoc.findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
+        val website = riderDoc.getWebsite()
         val birthDate = infoContent.ownText.split(' ').take(3).joinToString(" ")
         val birthPlaceWeightAndHeight = infoContent.children.last().findFirst { text }.split(' ')
         val birthPlaceWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("birth") }
@@ -164,7 +159,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         }
 
         val name = raceDoc.findFirst(".main > h1").text
-        val country = raceDoc.findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
+        val country = raceDoc.getCountry()
         val websites = raceDoc.findAll("ul.list.circle.bluelink.fs14 a").map { it.attribute("href") }
         val website = websites.firstOrNull {
             !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") && it.trim().isNotEmpty()
@@ -189,14 +184,9 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     private suspend fun getRaceStartList(raceStartListUrl: String): List<PCSTeamParticipation> {
         val raceParticipantsUrl = buildURL(raceStartListUrl)
         val raceStartListDoc = docFetcher.getDoc(raceParticipantsUrl) { relaxed = true }
-        val startList = raceStartListDoc.ul {
-            withClass = "startlist_v3"
-            findAll("li.team")
-        }.map {
-            val team = it.b { a { findFirst { attribute("href") } } }
-            val riders = it.ul {
-                findAll("li")
-            }.map { riderDocElement ->
+        val startList = raceStartListDoc.findAll("ul.startlist_v3 > li.team").map {
+            val team = it.findFirst("a").attribute("href")
+            val riders = it.findAll("ul > li").map { riderDocElement ->
                 PCSRiderParticipation(
                     rider = riderDocElement.a { findFirst { attribute("href") } },
                     number = riderDocElement.ownText
@@ -213,18 +203,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     private suspend fun getStages(stagesUrl: String): List<PCSStage> = coroutineScope {
         val stagesURI = buildURL(stagesUrl)
         val stagesDoc = docFetcher.getDoc(stagesURI) { relaxed = true }
-        val stagesUrls = stagesDoc.findFirst("table.basic") {
-            tbody {
-                tr {
-                    findAll {
-                        map {
-                            it.findThird("td").a {
-                                findFirst { attribute("href") }
-                            }
-                        }
-                    }
-                }
-            }
+        val stagesUrls = stagesDoc.findFirst("table.basic > tbody").findAll("tr").map {
+            it.findThird("td").findFirst("a").attribute("href")
         }
         stagesUrls.map { stageUrl -> getStage(stageUrl) }
     }
@@ -233,24 +213,12 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val stageURL = buildURL(stageUrl)
         val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
 
-        fun <T> findInInfoListByIndex(index: Int, init: CssSelector.() -> T): T {
-            return stageDoc.ul {
-                withClass = "infolist"
-                li {
-                    findByIndex(index) {
-                        div {
-                            this.init()
-                        }
-                    }
-                }
-            }
-        }
-
-        val startDateTime = findInInfoListByIndex(0) { findSecond { ownText } }
-        val distance = findInInfoListByIndex(3) { findSecond { ownText } }
-        val type = findInInfoListByIndex(5) { findSecond { findFirst("span") } }.classNames.last()
-        val departure = findInInfoListByIndex(8) { findSecond { a { findFirst { this } }.text } }.ifEmpty { null }
-        val arrival = findInInfoListByIndex(9) { findSecond { a { findFirst { this } }.text } }.ifEmpty { null }
+        val infoList = stageDoc.findFirst("ul.infolist")
+        val startDateTime = infoList.findFirst("li > div:nth-child(2)").ownText
+        val distance = infoList.findByIndex(3, "li > div:nth-child(2)").ownText
+        val type = infoList.findByIndex(5, "li").findFirst("span").classNames.last()
+        val departure = infoList.findByIndex(8, "li").findFirst("a").text.ifEmpty { null }
+        val arrival = infoList.findByIndex(9, "li").findFirst("a").text.ifEmpty { null }
         val result = getResult(stageDoc)
         return PCSStage(
             url = stageUrl,
@@ -269,23 +237,17 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val positionColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rnk" }
         val riderColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rider" }
         val timeColumnIndex = resultColumns.indexOfFirst { it.ownText == "Time" }
-        return resultsTable.tbody {
-            tr {
-                findAll {
-                    map {
-                        val position = it.td { findByIndex(positionColumnIndex) }.ownText
-                        val rider = it.td { findByIndex(riderColumnIndex) }.a { findFirst { attribute("href") } }
-                        val time = it.td { findByIndex(timeColumnIndex) }.ownText.ifEmpty {
-                            it.td { findByIndex(timeColumnIndex) }.span { findFirst { ownText } }
-                        }
-                        PCSRiderResult(
-                            position = position,
-                            rider = rider,
-                            time = time,
-                        )
-                    }
-                }
+        return resultsTable.findAll("tbody > tr").map {
+            val position = it.td { findByIndex(positionColumnIndex) }.ownText
+            val rider = it.td { findByIndex(riderColumnIndex) }.a { findFirst { attribute("href") } }
+            val time = it.td { findByIndex(timeColumnIndex) }.ownText.ifEmpty {
+                it.td { findByIndex(timeColumnIndex) }.span { findFirst { ownText } }
             }
+            PCSRiderResult(
+                position = position,
+                rider = rider,
+                time = time,
+            )
         }
     }
 
@@ -404,10 +366,13 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         )
     }
 
-    private fun Doc.getElementWebsite(): String? =
+    private fun Doc.getWebsite(): String? =
         findFirst(".sites .website").takeIf {
             it.parents.isNotEmpty()
         }?.parent?.findFirst("a")?.attribute("href")
+
+    private fun Doc.getCountry(): String =
+        findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
 
     private fun buildURL(path: String): URL =
         URI(pcsUrl).resolve("/").resolve(path).toURL()
