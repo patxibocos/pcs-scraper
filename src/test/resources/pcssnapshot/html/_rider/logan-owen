@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -138,10 +143,10 @@ $(document).ready(function() {
 <li><span class="icon twitter left"></span><a  target="_blank"  class="" href="http://www.twitter.com/logansowen">twitter</a></li>
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"  class="" href="https://www.procyclinggame.com/rider/logan-owen">ProCyclingGame</a></li>
 </ul></div>
-<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >618</div></li>
-<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >941</div></li>
+<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >640</div></li>
+<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >972</div></li>
 </ul></div>
-<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;390</span></div><div>  this week</div></li>
+<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;239</span></div><div>  this week</div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-of-utah/2015/stage-3">The Larry H.Miller Tour of Utah</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('15)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/volta-ao-alentejo/2017/stage-4">Volta ao Alentejo</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17)</span></div></li>
@@ -164,10 +169,12 @@ $(document).ready(function() {
 <li class=" main " ><div class="season   " >2015</div><div class="name   " ><a    href="team/axeon-cycling-team-2015">Axeon Cycling Team</a></div><div> (CT)</div><div class="fs10   " ></div></li>
 <li class=" main " ><div class="season   " >2014</div><div class="name   " ><a    href="team/bissell-development-team-2014">Bissell  Development Team</a></div><div> (CT)</div><div class="fs10   " ></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></div>
-<div class="mt30"><h3>Upcoming participations</h3><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   " >15.09</div><div class="ellipsis   " ><span class="flag be"></span> <a    href="race/gp-de-wallonie/2021/startlist">Grand Prix de Wallonie</a></div><div class="fs11   " ><a    href="rider.php?race=1203&id=170191&p=statistics&s=statistics-in-race">more</a></div></li>
-</ul></div>
+<div class="mt30"><h3>Upcoming participations</h3><ul class="list flex pad2 dashed"  style=" "></ul></div>
+<div class=""><div class="">No races on program.</div></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2021" class="cur"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=""><a class="seasonResults" data-season="2013" href="">2013</a></li><li data-season="2012" class=""><a class="seasonResults" data-season="2012" href="">2012</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" "><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li><li data-season="2012" class=" "><a class="seasonResults" data-season="2012" href="">2012</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600" style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>21.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/gp-de-denain/2021/result"><b>Grand Prix de Denain - Porte du Hainaut</b></a>  (1.Pro)</td><td class="cu600">200.3</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=170191&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
+<tr data-main="1"><td>18.09</td><td>74</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/gp-impanis-van-petegem/2021/result"><b>Primus Classic</b></a>  (1.Pro)</td><td class="cu600">197.7</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=170191&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
 <tr data-main="1"><td>05.09</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/benelux-tour/2021/gc"><b>Benelux Tour</b></a>  (2.UWT)</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=170191&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
 <tr data-main="0"><td></td><td>13</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt st4 w14"  ></span></td><td class="name"><a href="race/benelux-tour/2021/gc">General classification</a></td><td class="cu600"></td><td class="cu600">50</td><td class="cu600">40</td><td class="cu600"><a class="more" href="rider.php?id=170191&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
 <tr data-main="0"><td>05.09</td><td>23</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/benelux-tour/2021/stage-7">Stage 7 - Namur › Geraardsbergen</a></td><td class="cu600">177.9</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=170191&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
@@ -214,13 +221,13 @@ $(document).ready(function() {
 <tr data-main="1"><td>24.05</td><td>42</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/mercan-tour-classic-alpes-maritimes/2021/result"><b>Mercan'Tour Classic Alpes-Maritimes</b></a>  (1.1)</td><td class="cu600">149.9</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=170191&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
 <tr data-main="1"><td>16.05</td><td>54</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tro-bro-leon/2021/result"><b>Tro-Bro Léon</b></a>  (1.Pro)</td><td class="cu600">207</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=170191&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
 <tr data-main="1"><td>14.04</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/brabantse-pijl/2021/result"><b>De Brabantse Pijl - La Flèche Brabançonne</b></a>  (1.Pro)</td><td class="cu600">201.7</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=170191&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>5554</b> km in <b>35</b> days. PCS points: <b>55</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   " >2</div><div class="title   " ><a    href="rider/logan-owen/statistics/wins">Wins</a></div><div class="info fs11   " >GC (0)</div><div class="info fs11   " >Oneday races (0)</div><div class="info fs11   " >ITT (0)</div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
+</tbody></table><div class="rdrResultsSum" ><div>5851</b> km in <b>37</b> days. PCS points: <b>55</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   " >2</div><div class="title   " ><a    href="rider/logan-owen/statistics/wins">Wins</a></div><div class="info fs11   " >GC (0)</div><div class="info fs11   " >Oneday races (0)</div><div class="info fs11   " >ITT (0)</div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
 <li class="" ><div class="nr   " >2</div><div class="title   " ><a    href="rider/logan-owen/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   " >tour (0) giro (0) vuelta(2)</div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
 <li class="" ><div class="nr   " >0</div><div class="title   " ><a    href="rider/logan-owen/statistics/top-classic-results">Classics</a></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 66.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">55</span></div></td><td class="ac  " >583</td></tr>
+<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 66.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">55</span></div></td><td class="ac  " >630</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 24.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">20</span></div></td><td class="ac  " >887</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 61.3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">51</span></div></td><td class="ac  " >891</td></tr>
 <tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 21.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">18</span></div></td><td class="ac  " >1467</td></tr>
@@ -321,7 +328,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0749 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1309kb) peak (1554kb)</span></li></ul></li>
+<li><span>0.0995 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1317kb) peak (1566kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

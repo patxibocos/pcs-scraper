@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -278,9 +283,9 @@
 <tr data-team="1328" data-nation="fr"><td>149</td><td class="gc hide" >23</td><td class="gc hide" >+52:19</td><td class="bibs hide" >51</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="julian-alaphilippe" data-id="137427" style="margin: 0; " /><span></span></td><td><div><span class="flag fr"></span> <a href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a><span class="showIfMobile riderteam">Deceuninck - Quick Step</span></div></td><td class="age hide" >29</td><td class="cu600" ><a href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">6:33</div></td></tr>
 <tr data-team="1360" data-nation="dk"><td>150</td><td class="gc hide" >97</td><td class="gc hide" >+1:52:26</td><td class="bibs hide" >141</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="soren-kragh-andersen" data-id="168755" style="margin: 0; " /><span></span></td><td><div><span class="flag dk"></span> <a href="rider/soren-kragh-andersen">KRAGH ANDERSEN Søren</a><span class="showIfMobile riderteam">Team DSM</span></div></td><td class="age hide" >26</td><td class="cu600" ><a href="team/team-dsm-2021">Team DSM</a></td><td></td><td></td><td class="time ar" ><span>16:28</span><div class="hide">16:28</div></td></tr>
 <tr data-team="1328" data-nation="be"><td>151</td><td class="gc hide" >151</td><td class="gc hide" >+2:46:24</td><td class="bibs hide" >56</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="tim-declercq" data-id="140066" style="margin: 0; " /><span></span></td><td><div><span class="flag be"></span> <a href="rider/tim-declercq">DECLERCQ Tim</a><span class="showIfMobile riderteam">Deceuninck - Quick Step</span></div></td><td class="age hide" >32</td><td class="cu600" ><a href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></td><td></td><td></td><td class="time ar" ><span>21:38</span><div class="hide">21:38</div></td></tr>
-<tr data-team="1207" data-nation="au"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >174</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="lucas-hamilton" data-id="176318" style="margin: 0; " /><span></span></td><td><div><span class="flag au"></span> <a href="rider/lucas-hamilton">HAMILTON Lucas</a><span class="showIfMobile riderteam">Team BikeExchange</span></div></td><td class="age hide" >25</td><td class="cu600" ><a href="team/teambikeexchange-2021">Team BikeExchange</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="2088" data-nation="de"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >155</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="roger-kluge" data-id="140403" style="margin: 0; " /><span></span></td><td><div><span class="flag de"></span> <a href="rider/roger-kluge">KLUGE Roger</a><span class="showIfMobile riderteam">Lotto Soudal</span></div></td><td class="age hide" >35</td><td class="cu600" ><a href="team/lotto-soudal-2021">Lotto Soudal</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1207" data-nation="gb"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >178</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="simon-yates" data-id="134456" style="margin: 0; " /><span></span></td><td><div><span class="flag gb"></span> <a href="rider/simon-yates">YATES Simon</a><span class="showIfMobile riderteam">Team BikeExchange</span></div></td><td class="age hide" >28</td><td class="cu600" ><a href="team/teambikeexchange-2021">Team BikeExchange</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="1207" data-nation="au"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >174</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="lucas-hamilton" data-id="176318" style="margin: 0; " /><span></span></td><td><div><span class="flag au"></span> <a href="rider/lucas-hamilton">HAMILTON Lucas</a><span class="showIfMobile riderteam">Team BikeExchange</span></div></td><td class="age hide" >25</td><td class="cu600" ><a href="team/teambikeexchange-2021">Team BikeExchange</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1293" data-nation="at"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >197</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="michael-gogl" data-id="138321" style="margin: 0; " /><span></span></td><td><div><span class="flag at"></span> <a href="rider/michael-gogl">GOGL Michael</a><span class="showIfMobile riderteam">Team Qhubeka NextHash</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/team-qhubeka-nexthash-2021">Team Qhubeka NextHash</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div><div style="text-align: right; font-size: 11px; ">Timelimit 8%, or 5:28:51 (+24:22)</div></div><div class="result-cont hide" data-id="266808">
@@ -716,7 +721,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0846 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2475kb) peak (2655kb)</span></li></ul></li>
+<li><span>0.0675 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2472kb) peak (2651kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

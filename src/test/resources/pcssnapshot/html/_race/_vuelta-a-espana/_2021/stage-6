@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -730,7 +735,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0823 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2500kb) peak (2659kb)</span></li></ul></li>
+<li><span>0.0969 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2497kb) peak (2655kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

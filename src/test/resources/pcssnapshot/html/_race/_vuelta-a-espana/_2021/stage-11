@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -296,8 +301,8 @@
 <tr data-team="1258" data-nation="lu"><td>167</td><td class="gc hide" >155</td><td class="gc hide" >+1:58:33</td><td class="bibs hide" >214</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="alex-kirsch" data-id="139856" style="margin: 0; " /><span></span></td><td><div><span class="flag lu"></span> <a href="rider/alex-kirsch">KIRSCH Alex</a><span class="showIfMobile riderteam">Trek - Segafredo</span></div></td><td class="age hide" >29</td><td class="cu600" ><a href="team/trek-segafredo-2021">Trek - Segafredo</a></td><td></td><td></td><td class="time ar" ><span>14:07</span><div class="hide">14:07</div></td></tr>
 <tr data-team="1411" data-nation="ee"><td>168</td><td class="gc hide" >166</td><td class="gc hide" >+2:08:08</td><td class="bibs hide" >54</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="martin-laas" data-id="141096" style="margin: 0; " /><span></span></td><td><div><span class="flag ee"></span> <a href="rider/martin-laas">LAAS Martin</a><span class="showIfMobile riderteam">BORA - hansgrohe</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/bora-hansgrohe-2021">BORA - hansgrohe</a></td><td></td><td></td><td class="time ar" ><span>14:09</span><div class="hide">14:09</div></td></tr>
 <tr data-team="4000" data-nation="gb"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >104</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="simon-carr" data-id="209865" style="margin: 0; " /><span></span></td><td><div><span class="flag gb"></span> <a href="rider/simon-carr">CARR Simon</a><span class="showIfMobile riderteam">EF Education - Nippo</span></div></td><td class="age hide" >22</td><td class="cu600" ><a href="team/ef-education-nippo-2021">EF Education - Nippo</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="1375" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >32</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="alex-aranburu" data-id="182127" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/alex-aranburu">ARANBURU Alex</a><span class="showIfMobile riderteam">Astana - Premier Tech</span></div></td><td class="age hide" >25</td><td class="cu600" ><a href="team/astana-premier-tech-2021">Astana - Premier Tech</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1100" data-nation="be"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >26</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jasper-philipsen" data-id="193131" style="margin: 0; " /><span></span></td><td><div><span class="flag be"></span> <a href="rider/jasper-philipsen">PHILIPSEN Jasper</a><span class="showIfMobile riderteam">Alpecin-Fenix</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/alpecin-fenix-2021">Alpecin-Fenix</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="1375" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >32</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="alex-aranburu" data-id="182127" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/alex-aranburu">ARANBURU Alex</a><span class="showIfMobile riderteam">Astana - Premier Tech</span></div></td><td class="age hide" >25</td><td class="cu600" ><a href="team/astana-premier-tech-2021">Astana - Premier Tech</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div><div style="text-align: right; font-size: 11px; ">Timelimit 16%, or 3:41:34 (+30:34)</div></div><div class="result-cont hide" data-id="267917">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -751,7 +756,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0958 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2553kb) peak (2720kb)</span></li></ul></li>
+<li><span>0.0901 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2550kb) peak (2716kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

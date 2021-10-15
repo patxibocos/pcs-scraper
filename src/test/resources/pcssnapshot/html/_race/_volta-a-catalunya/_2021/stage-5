@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -274,13 +279,13 @@
 <tr data-team="1235" data-nation="us"><td>145</td><td class="gc hide" >138</td><td class="gc hide" >+1:22:29</td><td class="bibs hide" >223</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="colin-joyce" data-id="162223" style="margin: 0; " /><span></span></td><td><div><span class="flag us"></span> <a href="rider/colin-joyce">JOYCE Colin</a><span class="showIfMobile riderteam">Rally Cycling</span></div></td><td class="age hide" >26</td><td class="cu600" ><a href="team/rally-cycling-2021">Rally Cycling</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">19:47</div></td></tr>
 <tr data-team="1107" data-nation="fr"><td>146</td><td class="gc hide" >133</td><td class="gc hide" >+1:16:12</td><td class="bibs hide" >204</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="matis-louvel" data-id="201720" style="margin: 0; " /><span></span></td><td><div><span class="flag fr"></span> <a href="rider/matis-louvel">LOUVEL Matis</a><span class="showIfMobile riderteam">Team Arkéa Samsic</span></div></td><td class="age hide" >21</td><td class="cu600" ><a href="team/team-arkea-samsic-2021">Team Arkéa Samsic</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">19:47</div></td></tr>
 <tr data-team="1508" data-nation="ru"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >217</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="denis-nekrasov" data-id="189507" style="margin: 0; " /><span></span></td><td><div><span class="flag ru"></span> <a href="rider/denis-nekrasov">NEKRASOV Denis</a><span class="showIfMobile riderteam">Gazprom - RusVelo</span></div></td><td class="age hide" >24</td><td class="cu600" ><a href="team/gazprom-rusvelo-2021">Gazprom - RusVelo</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="7807" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >234</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="urko-berrade-fernandez" data-id="204766" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/urko-berrade-fernandez">BERRADE Urko</a><span class="showIfMobile riderteam">Equipo Kern Pharma</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/equipo-kern-pharma-2021">Equipo Kern Pharma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="7807" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >233</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="francisco-galvan" data-id="194924" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/francisco-galvan">GALVÁN Francisco</a><span class="showIfMobile riderteam">Equipo Kern Pharma</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/equipo-kern-pharma-2021">Equipo Kern Pharma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="7807" data-nation="co"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >236</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="daniel-alejandro-mendez-norena" data-id="211895" style="margin: 0; " /><span></span></td><td><div><span class="flag co"></span> <a href="rider/daniel-alejandro-mendez-norena">MENDEZ Daniel Alejandro</a><span class="showIfMobile riderteam">Equipo Kern Pharma</span></div></td><td class="age hide" >20</td><td class="cu600" ><a href="team/equipo-kern-pharma-2021">Equipo Kern Pharma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="7807" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >237</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="roger-adria" data-id="211420" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/roger-adria">ADRIÀ Roger</a><span class="showIfMobile riderteam">Equipo Kern Pharma</span></div></td><td class="age hide" >22</td><td class="cu600" ><a href="team/equipo-kern-pharma-2021">Equipo Kern Pharma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="7807" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >232</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jaime-castrillo" data-id="197080" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/jaime-castrillo">CASTRILLO Jaime</a><span class="showIfMobile riderteam">Equipo Kern Pharma</span></div></td><td class="age hide" >25</td><td class="cu600" ><a href="team/equipo-kern-pharma-2021">Equipo Kern Pharma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="7807" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >231</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="marti-marquez" data-id="209332" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/marti-marquez">MARQUEZ Marti</a><span class="showIfMobile riderteam">Equipo Kern Pharma</span></div></td><td class="age hide" >25</td><td class="cu600" ><a href="team/equipo-kern-pharma-2021">Equipo Kern Pharma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="7807" data-nation="ru"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >235</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="savva-novikov" data-id="205673" style="margin: 0; " /><span></span></td><td><div><span class="flag ru"></span> <a href="rider/savva-novikov">NOVIKOV Savva</a><span class="showIfMobile riderteam">Equipo Kern Pharma</span></div></td><td class="age hide" >21</td><td class="cu600" ><a href="team/equipo-kern-pharma-2021">Equipo Kern Pharma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="7807" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >234</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="urko-berrade-fernandez" data-id="204766" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/urko-berrade-fernandez">BERRADE Urko</a><span class="showIfMobile riderteam">Equipo Kern Pharma</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/equipo-kern-pharma-2021">Equipo Kern Pharma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="7807" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >233</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="francisco-galvan" data-id="194924" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/francisco-galvan">GALVÁN Francisco</a><span class="showIfMobile riderteam">Equipo Kern Pharma</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/equipo-kern-pharma-2021">Equipo Kern Pharma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="7807" data-nation="co"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >236</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="daniel-alejandro-mendez-norena" data-id="211895" style="margin: 0; " /><span></span></td><td><div><span class="flag co"></span> <a href="rider/daniel-alejandro-mendez-norena">MENDEZ Daniel Alejandro</a><span class="showIfMobile riderteam">Equipo Kern Pharma</span></div></td><td class="age hide" >20</td><td class="cu600" ><a href="team/equipo-kern-pharma-2021">Equipo Kern Pharma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div></div><div class="result-cont hide" data-id="264869">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -587,7 +592,7 @@
 <li><div>Departure:</div> <div><a    href="location/pobla-de-segur">La Pobla de Segur</a></div></li>
 <li><div>Arrival:</div> <div><a    href="location/manresa">Manresa</a></div></li>
 <li><div>Race ranking:</div> <div>8</div></li>
-<li><div>Won how: </div> <div><a    href="race/volta-a-catalunya/2021/stage-5/more/contribute-info">? - let us know!</a></div></li>
+<li><div>Won how: </div> <div>12 km solo</div></li>
 <li><div></div> <div></div></li>
 </ul></div>
 <div class=""><ul class="list"><li class="goto" ><a  class="goto" href="race/volta-a-catalunya/2021/stage-5/live">LiveStats</a></li>
@@ -647,7 +652,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0882 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2288kb) peak (2471kb)</span></li></ul></li>
+<li><span>0.0851 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2285kb) peak (2467kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

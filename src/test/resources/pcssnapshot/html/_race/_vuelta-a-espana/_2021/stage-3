@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -309,8 +314,8 @@
 <tr data-team="1411" data-nation="ee"><td>180</td><td class="gc hide" >171</td><td class="gc hide" >+22:04</td><td class="bibs hide" >54</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="martin-laas" data-id="141096" style="margin: 0; " /><span></span></td><td><div><span class="flag ee"></span> <a href="rider/martin-laas">LAAS Martin</a><span class="showIfMobile riderteam">BORA - hansgrohe</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/bora-hansgrohe-2021">BORA - hansgrohe</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">21:53</div></td></tr>
 <tr data-team="1328" data-nation="cz"><td>181</td><td class="gc hide" >160</td><td class="gc hide" >+20:45</td><td class="bibs hide" >93</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="josef-cerny" data-id="153175" style="margin: 0; " /><span></span></td><td><div><span class="flag cz"></span> <a href="rider/josef-cerny">ČERNÝ Josef</a><span class="showIfMobile riderteam">Deceuninck - Quick Step</span></div></td><td class="age hide" >28</td><td class="cu600" ><a href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">21:53</div></td></tr>
 <tr data-team="1411" data-nation="be"><td>182</td><td class="gc hide" >181</td><td class="gc hide" >+27:33</td><td class="bibs hide" >55</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jordi-meeus" data-id="194085" style="margin: 0; " /><span></span></td><td><div><span class="flag be"></span> <a href="rider/jordi-meeus">MEEUS Jordi</a><span class="showIfMobile riderteam">BORA - hansgrohe</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/bora-hansgrohe-2021">BORA - hansgrohe</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">21:53</div></td></tr>
-<tr data-team="2738" data-nation="ca"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >153</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="alexander-cataford" data-id="174310" style="margin: 0; " /><span></span></td><td><div><span class="flag ca"></span> <a href="rider/alexander-cataford">CATAFORD Alexander</a><span class="showIfMobile riderteam">Israel Start-Up Nation</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/israel-start-up-nation-2021">Israel Start-Up Nation</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="2088" data-nation="be"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >163</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="frederik-frison" data-id="138666" style="margin: 0; " /><span></span></td><td><div><span class="flag be"></span> <a href="rider/frederik-frison">FRISON Frederik</a><span class="showIfMobile riderteam">Lotto Soudal</span></div></td><td class="age hide" >29</td><td class="cu600" ><a href="team/lotto-soudal-2021">Lotto Soudal</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="2738" data-nation="ca"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >153</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="alexander-cataford" data-id="174310" style="margin: 0; " /><span></span></td><td><div><span class="flag ca"></span> <a href="rider/alexander-cataford">CATAFORD Alexander</a><span class="showIfMobile riderteam">Israel Start-Up Nation</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/israel-start-up-nation-2021">Israel Start-Up Nation</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div><div style="text-align: right; font-size: 11px; ">Timelimit 16%, or 6:07:40 (+50:43)</div></div><div class="result-cont hide" data-id="267658">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -713,7 +718,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0831 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2441kb) peak (2599kb)</span></li></ul></li>
+<li><span>0.0968 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2438kb) peak (2596kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

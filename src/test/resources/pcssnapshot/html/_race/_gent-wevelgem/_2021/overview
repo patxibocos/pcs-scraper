@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -155,7 +160,7 @@
 <li class="" ><div><span class="flag ch"></span> <a    href="rider/stefan-kung">KÜNG Stefan</a></div></li>
 </ul></div>
 <div class="text-regular"><a class="goto3" href="race/gent-wevelgem/2021/result/startlist/riders-ranked">full statistic</a></div>
-<div class="mt20"><h3>Competing teams</h3><ul class="list fs14"  style=" "><li class="" ><div class="mg_rp5   " ><span class="flag us"></span> <a    href="team/trek-segafredo-2021">Trek - Segafredo</a></div><div class=" clr999   " > (Theuns, Stuyven)</div></li>
+<div class="mt20"><h3>Competing teams</h3><ul class="list fs14"  style=" "><li class="" ><div class="mg_rp5   " ><span class="flag us"></span> <a    href="team/trek-segafredo-2021">Trek - Segafredo</a></div><div class=" clr999   " > (Stuyven, Pedersen)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></div><div class=" clr999   " > (Štybar, Bennett)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/lotto-soudal-2021">Lotto Soudal</a></div><div class=" clr999   " > (Gilbert, Degenkolb)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/intermarche-wanty-gobert-materiaux-2021">Intermarché - Wanty - Gobert Matériaux</a></div><div class=" clr999   " > (van Poppel, Pasqualon)</div></li>
@@ -174,7 +179,7 @@
 <li class="" ><div class="mg_rp5   " ><span class="flag us"></span> <a    href="team/ef-education-nippo-2021">EF Education - Nippo</a></div><div class=" clr999   " > (Langeveld, Keukeleire)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag fr"></span> <a    href="team/groupama-fdj-2021">Groupama - FDJ</a></div><div class=" clr999   " > (Küng, Démare)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag gb"></span> <a    href="team/ineos-grenadiers-2021">INEOS Grenadiers</a></div><div class=" clr999   " > (van Baarle, Amador)</div></li>
-<li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/sport-vlaanderen-baloise-2021">Sport Vlaanderen - Baloise</a></div><div class=" clr999   " > (Warlop, Van Den Bossche)</div></li>
+<li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/sport-vlaanderen-baloise-2021">Sport Vlaanderen - Baloise</a></div><div class=" clr999   " > (Warlop, Marit)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/alpecin-fenix-2021">Alpecin-Fenix</a></div><div class=" clr999   " > (Philipsen, Dillier)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/bingoal-wallonie-bruxelles-2021">Bingoal Pauwels Sauces WB</a></div><div class=" clr999   " > (Vanendert, Dupont)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag fr"></span> <a    href="team/b-b-hotels-pb-ktm-2021">B&B Hotels p/b KTM</a></div><div class=" clr999   " > (Debusschere, Coquard)</div></li>
@@ -233,7 +238,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0531 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1089kb) peak (1233kb)</span></li></ul></li>
+<li><span>0.0440 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1086kb) peak (1229kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

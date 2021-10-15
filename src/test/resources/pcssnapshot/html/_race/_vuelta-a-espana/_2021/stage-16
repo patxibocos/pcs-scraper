@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -285,9 +290,9 @@
 <tr data-team="2088" data-nation="be"><td>156</td><td class="gc hide" >126</td><td class="gc hide" >+2:44:09</td><td class="bibs hide" >167</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="harm-vanhoucke" data-id="184455" style="margin: 0; " /><span></span></td><td><div><span class="flag be"></span> <a href="rider/harm-vanhoucke">VANHOUCKE Harm</a><span class="showIfMobile riderteam">Lotto Soudal</span></div></td><td class="age hide" >24</td><td class="cu600" ><a href="team/lotto-soudal-2021">Lotto Soudal</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">6:32</div></td></tr>
 <tr data-team="1187" data-nation="lu"><td>157</td><td class="gc hide" >102</td><td class="gc hide" >+2:20:42</td><td class="bibs hide" >122</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="kevin-geniets" data-id="186228" style="margin: 0; " /><span></span></td><td><div><span class="flag lu"></span> <a href="rider/kevin-geniets">GENIETS Kevin</a><span class="showIfMobile riderteam">Groupama - FDJ</span></div></td><td class="age hide" >24</td><td class="cu600" ><a href="team/groupama-fdj-2021">Groupama - FDJ</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">6:32</div></td></tr>
 <tr data-team="1293" data-nation="nz"><td>158</td><td class="gc hide" >157</td><td class="gc hide" >+3:27:02</td><td class="bibs hide" >203</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="connor-brown2" data-id="207241" style="margin: 0; " /><span></span></td><td><div><span class="flag nz"></span> <a href="rider/connor-brown2">BROWN Connor</a><span class="showIfMobile riderteam">Team Qhubeka NextHash</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/team-qhubeka-nexthash-2021">Team Qhubeka NextHash</a></td><td></td><td></td><td class="time ar" ><span>16:19</span><div class="hide">16:19</div></td></tr>
+<tr data-team="2738" data-nation="be"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >151</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="sep-vanmarcke" data-id="140240" style="margin: 0; " /><span></span></td><td><div><span class="flag be"></span> <a href="rider/sep-vanmarcke">VANMARCKE Sep</a><span class="showIfMobile riderteam">Israel Start-Up Nation</span></div></td><td class="age hide" >33</td><td class="cu600" ><a href="team/israel-start-up-nation-2021">Israel Start-Up Nation</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1187" data-nation="fr"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >126</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="rudy-molard" data-id="137745" style="margin: 0; " /><span></span></td><td><div><span class="flag fr"></span> <a href="rider/rudy-molard">MOLARD Rudy</a><span class="showIfMobile riderteam">Groupama - FDJ</span></div></td><td class="age hide" >31</td><td class="cu600" ><a href="team/groupama-fdj-2021">Groupama - FDJ</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1258" data-nation="it"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >211</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="giulio-ciccone" data-id="170183" style="margin: 0; " /><span></span></td><td><div><span class="flag it"></span> <a href="rider/giulio-ciccone">CICCONE Giulio</a><span class="showIfMobile riderteam">Trek - Segafredo</span></div></td><td class="age hide" >26</td><td class="cu600" ><a href="team/trek-segafredo-2021">Trek - Segafredo</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="2738" data-nation="be"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >151</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="sep-vanmarcke" data-id="140240" style="margin: 0; " /><span></span></td><td><div><span class="flag be"></span> <a href="rider/sep-vanmarcke">VANMARCKE Sep</a><span class="showIfMobile riderteam">Israel Start-Up Nation</span></div></td><td class="age hide" >33</td><td class="cu600" ><a href="team/israel-start-up-nation-2021">Israel Start-Up Nation</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div></div><div class="result-cont hide" data-id="268178">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -757,7 +762,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0892 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2563kb) peak (2739kb)</span></li></ul></li>
+<li><span>0.0859 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2561kb) peak (2735kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

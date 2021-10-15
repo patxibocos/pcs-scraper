@@ -4,13 +4,18 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
 <title>Preview statistics for Benelux Tour 2021</title>
 <base href="https://www.procyclingstats.com/race.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/race/benelux-tour/2021/gc/overview/overview" />
-<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Top competitors for Benelux Tour 2021 are Jakob Fuglsang, Tim Merlier and Peter Sagan.">
+<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Top competitors for Benelux Tour 2021 are Stefan Küng, Kasper Asgreen and Tim Merlier.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="utf-8"> 
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -148,20 +153,20 @@
 <div class="fs14"><div class="text-regular">No event map available.</div></div>
 </div>
 <div class="w47 right mb_w100" >
-<div class="mt20"><h3>Top competitors</h3><ul class="list fs14"  style=" "><li class="" ><div><span class="flag dk"></span> <a    href="rider/jakob-fuglsang">FUGLSANG Jakob</a></div></li>
-<li class="" ><div><span class="flag be"></span> <a    href="rider/tim-merlier">MERLIER Tim</a></div></li>
-<li class="" ><div><span class="flag sk"></span> <a    href="rider/peter-sagan">SAGAN Peter</a></div></li>
-<li class="" ><div><span class="flag gb"></span> <a    href="rider/geraint-thomas">THOMAS Geraint</a></div></li>
-<li class="" ><div><span class="flag au"></span> <a    href="rider/caleb-ewan">EWAN Caleb</a></div></li>
+<div class="mt20"><h3>Top competitors</h3><ul class="list fs14"  style=" "><li class="" ><div><span class="flag ch"></span> <a    href="rider/stefan-kung">KÜNG Stefan</a></div></li>
 <li class="" ><div><span class="flag dk"></span> <a    href="rider/kasper-asgreen">ASGREEN Kasper</a></div></li>
-<li class="" ><div><span class="flag be"></span> <a    href="rider/greg-van-avermaet">VAN AVERMAET Greg</a></div></li>
-<li class="" ><div><span class="flag ch"></span> <a    href="rider/stefan-kung">KÜNG Stefan</a></div></li>
+<li class="" ><div><span class="flag be"></span> <a    href="rider/tim-merlier">MERLIER Tim</a></div></li>
+<li class="" ><div><span class="flag si"></span> <a    href="rider/matej-mohoric">MOHORIČ Matej</a></div></li>
+<li class="" ><div><span class="flag gb"></span> <a    href="rider/geraint-thomas">THOMAS Geraint</a></div></li>
+<li class="" ><div><span class="flag nl"></span> <a    href="rider/wilco-kelderman">KELDERMAN Wilco</a></div></li>
+<li class="" ><div><span class="flag it"></span> <a    href="rider/sonny-colbrelli">COLBRELLI Sonny</a></div></li>
 <li class="" ><div><span class="flag be"></span> <a    href="rider/remco-evenepoel">EVENEPOEL Remco</a></div></li>
+<li class="" ><div><span class="flag sk"></span> <a    href="rider/peter-sagan">SAGAN Peter</a></div></li>
 <li class="" ><div><span class="flag dk"></span> <a    href="rider/mads-pedersen">PEDERSEN Mads</a></div></li>
 </ul></div>
 <div class="text-regular"><a class="goto3" href="race/benelux-tour/2021/gc/startlist/riders-ranked">full statistic</a></div>
 <div class="mt20"><h3>Competing teams</h3><ul class="list fs14"  style=" "><li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/alpecin-fenix-2021">Alpecin-Fenix</a></div><div class=" clr999   " > (Vakoč, Merlier)</div></li>
-<li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></div><div class=" clr999   " > (Mørkøv, Devenyns)</div></li>
+<li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></div><div class=" clr999   " > (Evenepoel, Devenyns)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/lotto-soudal-2021">Lotto Soudal</a></div><div class=" clr999   " > (Wellens, Gilbert)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag fr"></span> <a    href="team/ag2r-citroen-team-2021">AG2R Citroën Team</a></div><div class=" clr999   " > (Van Avermaet, Naesen)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag kz"></span> <a    href="team/astana-premier-tech-2021">Astana - Premier Tech</a></div><div class=" clr999   " > (Fuglsang, Felline)</div></li>
@@ -178,7 +183,7 @@
 <li class="" ><div class="mg_rp5   " ><span class="flag au"></span> <a    href="team/teambikeexchange-2021">Team BikeExchange</a></div><div class=" clr999   " > (Durbridge, Bauer)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag de"></span> <a    href="team/team-dsm-2021">Team DSM</a></div><div class=" clr999   " > (Kragh Andersen, Benoot)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag za"></span> <a    href="team/team-qhubeka-nexthash-2021">Team Qhubeka NextHash</a></div><div class=" clr999   " > (Janse van Rensburg, Campenaerts)</div></li>
-<li class="" ><div class="mg_rp5   " ><span class="flag us"></span> <a    href="team/trek-segafredo-2021">Trek - Segafredo</a></div><div class=" clr999   " > (Theuns, Stuyven)</div></li>
+<li class="" ><div class="mg_rp5   " ><span class="flag us"></span> <a    href="team/trek-segafredo-2021">Trek - Segafredo</a></div><div class=" clr999   " > (Stuyven, Pedersen)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag ae"></span> <a    href="team/uae-team-emirates-2021">UAE-Team Emirates</a></div><div class=" clr999   " > (Richeze, Gaviria)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/bingoal-wallonie-bruxelles-2021">Bingoal Pauwels Sauces WB</a></div><div class=" clr999   " > (Dupont, De Bie)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/sport-vlaanderen-baloise-2021">Sport Vlaanderen - Baloise</a></div><div class=" clr999   " > (Van Rooy, Sprengers)</div></li>
@@ -235,7 +240,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0454 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1052kb) peak (1204kb)</span></li></ul></li>
+<li><span>0.0534 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1050kb) peak (1200kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

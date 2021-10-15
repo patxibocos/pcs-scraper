@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -169,13 +174,13 @@
 <div class="mt20"><h3>Top competitors</h3><ul class="list fs14"  style=" "><li class="" ><div><span class="flag si"></span> <a    href="rider/primoz-roglic">ROGLIČ Primož</a></div></li>
 <li class="" ><div><span class="flag ec"></span> <a    href="rider/richard-carapaz">CARAPAZ Richard</a></div></li>
 <li class="" ><div><span class="flag es"></span> <a    href="rider/alejandro-valverde">VALVERDE Alejandro</a></div></li>
+<li class="" ><div><span class="flag be"></span> <a    href="rider/jasper-philipsen">PHILIPSEN Jasper</a></div></li>
 <li class="" ><div><span class="flag co"></span> <a    href="rider/egan-bernal">BERNAL Egan</a></div></li>
 <li class="" ><div><span class="flag ru"></span> <a    href="rider/aleksandr-vlasov">VLASOV Aleksandr</a></div></li>
-<li class="" ><div><span class="flag fr"></span> <a    href="rider/arnaud-demare">DÉMARE Arnaud</a></div></li>
+<li class="" ><div><span class="flag es"></span> <a    href="rider/enric-mas">MAS Enric</a></div></li>
+<li class="" ><div><span class="flag au"></span> <a    href="rider/michael-matthews">MATTHEWS Michael</a></div></li>
+<li class="" ><div><span class="flag fr"></span> <a    href="rider/guillaume-martin">MARTIN Guillaume</a></div></li>
 <li class="" ><div><span class="flag de"></span> <a    href="rider/maximilian-schachmann">SCHACHMANN Maximilian</a></div></li>
-<li class="" ><div><span class="flag be"></span> <a    href="rider/jasper-philipsen">PHILIPSEN Jasper</a></div></li>
-<li class="" ><div><span class="flag it"></span> <a    href="rider/damiano-caruso">CARUSO Damiano</a></div></li>
-<li class="" ><div><span class="flag gb"></span> <a    href="rider/adam-yates">YATES Adam</a></div></li>
 </ul></div>
 <div class="text-regular"><a class="goto3" href="race/vuelta-a-espana/2021/gc/startlist/riders-ranked">full statistic</a></div>
 <div class="mt20"><h3>Competing teams</h3><ul class="list fs14"  style=" "><li class="" ><div class="mg_rp5   " ><span class="flag nl"></span> <a    href="team/team-jumbo-visma-2021">Team Jumbo-Visma</a></div><div class=" clr999   " > (Roglič, Gesink)</div></li>
@@ -254,7 +259,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0639 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1117kb) peak (1268kb)</span></li></ul></li>
+<li><span>0.0621 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1114kb) peak (1263kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

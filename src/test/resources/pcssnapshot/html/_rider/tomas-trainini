@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -126,7 +131,7 @@ $(document).ready(function() {
 <li data-n="5"><a href="rider/tomas-trainini/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/tomas-trainini/contribute/contribute-family">Family</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag it w32"></span><span class="flag it w24"></span><h1 class="">Tomas  Trainini</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Bardiani-CSF-Faizanè</span></div><div class="sub"><span class="red showIfMobile">Bardiani-CSF-Faizanè</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="" >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/tomas-trainini/statistics/overview"><img src="images/riders/bp/fc/tomas-trainini-2021.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 23<sup>rd</sup> September 2001 (19)<br /><b>Nationality:</b> <span class="flag  it"></span><a class="black" href="nation/italy">Italy</a><br /><span><b>Height:</b> 1.70 m<br /><b>Place of birth:</b> <a href="location.php?id=1656">Brescia</a><br /><div class=""></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/tomas-trainini/statistics/overview"><img src="images/riders/bp/fc/tomas-trainini-2021.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 23<sup>rd</sup> September 2001 (20)<br /><b>Nationality:</b> <span class="flag  it"></span><a class="black" href="nation/italy">Italy</a><br /><span><b>Height:</b> 1.70 m<br /><b>Place of birth:</b> <a href="location.php?id=1656">Brescia</a><br /><div class=""></div>
 <div class="mt10 pps"><h3>Points per specialty</h3><ul class="basic"  style=" "><li class="" ><div class="bar   " ><div class="barCont"><div class="bg left green" style="width: 0%;  height: 8px;  "></div></div></div><div class="pnt   " >0</div><div class="title   " ><a    href="rider/tomas-trainini/results/career-points-one-day-races">One day races</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left red" style="width: 0%;  height: 8px;  "></div></div></div><div class="pnt   " >0</div><div class="title   " ><a    href="rider/tomas-trainini/results/career-points-gc">GC</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left blue" style="width: 0%;  height: 8px;  "></div></div></div><div class="pnt   " >0</div><div class="title   " ><a    href="rider/tomas-trainini/results/career-points-time-trial">Time trial</a></div></li>
@@ -137,7 +142,7 @@ $(document).ready(function() {
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"  class="" href="https://www.procyclinggame.com/rider/tomas-trainini">ProCyclingGame</a></li>
 </ul></div>
 <div class=""><ul class="list horizontal rdr-rankings"  style=" "></ul></div>
-<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-up">&#x25B2;162</span></div><div>  this week</div></li>
+<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;2</span></div><div>  this week</div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">18th&nbsp;</div><div><span class="blue"></span> <a href="race/grand-prix-manavgat-side/2021/result">Grand Prix Velo Manavgat ME</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">32nd&nbsp;</div><div><span class="blue"></span> <a href="race/trofej-umag-umag-trophy/2021/result">Trofej Umag - Umag Trophy</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
@@ -261,7 +266,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0633 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1128kb) peak (1328kb)</span></li></ul></li>
+<li><span>0.0566 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1125kb) peak (1324kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

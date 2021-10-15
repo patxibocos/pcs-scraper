@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -139,9 +144,9 @@ $(document).ready(function() {
 <li><span class="icon facebook left"></span><a  target="_blank"  class="" href="https://www.facebook.com/alexander.evans.35">facebook</a></li>
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"  class="" href="https://www.procyclinggame.com/rider/alexander-evans">ProCyclingGame</a></li>
 </ul></div>
-<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >3185</div></li>
+<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >3236</div></li>
 </ul></div>
-<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;151</span></div><div>  this week</div></li>
+<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;52</span></div><div>  this week</div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/herald-sun-tour/2018/stage-3">Herald Sun Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-de-l-avenir/2019/stage-8">Tour de l'Avenir</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
@@ -297,7 +302,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0742 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1220kb) peak (1417kb)</span></li></ul></li>
+<li><span>0.0858 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1217kb) peak (1413kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

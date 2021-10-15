@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -273,8 +278,8 @@
 <tr data-team="4000" data-nation="au"><td>144</td><td class="gc hide" >136</td><td class="gc hide" >+13:26</td><td class="bibs hide" >84</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="mitchell-docker" data-id="140440" style="margin: 0; " /><span></span></td><td><div><span class="flag au"></span> <a href="rider/mitchell-docker">DOCKER Mitchell</a><span class="showIfMobile riderteam">EF Education - Nippo</span></div></td><td class="age hide" >34</td><td class="cu600" ><a href="team/ef-education-nippo-2021">EF Education - Nippo</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">4:46</div></td></tr>
 <tr data-team="1293" data-nation="dk"><td>145</td><td class="gc hide" >143</td><td class="gc hide" >+23:05</td><td class="bibs hide" >173</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="lasse-norman-hansen" data-id="131925" style="margin: 0; " /><span></span></td><td><div><span class="flag dk"></span> <a href="rider/lasse-norman-hansen">HANSEN Lasse Norman</a><span class="showIfMobile riderteam">Team Qhubeka NextHash</span></div></td><td class="age hide" >29</td><td class="cu600" ><a href="team/team-qhubeka-nexthash-2021">Team Qhubeka NextHash</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">4:46</div></td></tr>
 <tr data-team="2040" data-nation="es"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >146</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="sebastian-mora-vedri" data-id="129883" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/sebastian-mora-vedri">MORA Sebastián</a><span class="showIfMobile riderteam">Movistar Team</span></div></td><td class="age hide" >33</td><td class="cu600" ><a href="team/movistar-team-2021">Movistar Team</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="2040" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >147</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="albert-torres" data-id="132221" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/albert-torres">TORRES Albert</a><span class="showIfMobile riderteam">Movistar Team</span></div></td><td class="age hide" >31</td><td class="cu600" ><a href="team/movistar-team-2021">Movistar Team</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1136" data-nation="fr"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >74</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="emmanuel-morin" data-id="198826" style="margin: 0; " /><span></span></td><td><div><span class="flag fr"></span> <a href="rider/emmanuel-morin">MORIN Emmanuel</a><span class="showIfMobile riderteam">Cofidis, Solutions Crédits</span></div></td><td class="age hide" >26</td><td class="cu600" ><a href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="2040" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >147</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="albert-torres" data-id="132221" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/albert-torres">TORRES Albert</a><span class="showIfMobile riderteam">Movistar Team</span></div></td><td class="age hide" >31</td><td class="cu600" ><a href="team/movistar-team-2021">Movistar Team</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div><div style="text-align: right; font-size: 11px; ">Timelimit 8%, or 3:53:48 (+17:19)</div></div><div class="result-cont hide" data-id="268223">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -543,7 +548,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0786 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2001kb) peak (2188kb)</span></li></ul></li>
+<li><span>0.0736 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1999kb) peak (2184kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

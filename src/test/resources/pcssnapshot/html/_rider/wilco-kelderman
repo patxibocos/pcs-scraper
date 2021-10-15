@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -133,18 +138,18 @@ $(document).ready(function() {
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left orange" style="width: 17.1%;  height: 8px;  "></div></div></div><div class="pnt   " >838</div><div class="title   " ><a    href="rider/wilco-kelderman/results/career-points-sprint">Sprint</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left purple" style="width: 87.8%;  height: 8px;  "></div></div></div><div class="pnt   " >4294</div><div class="title   " ><a    href="rider/wilco-kelderman/results/career-points-climbers">Climber</a></div></li>
 </ul></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon strava left"></span><a  target="_blank"  class="" href="https://www.strava.com/pros/wilco_kelderman">strava</a></li>
-<li><span class="icon facebook left"></span><a  target="_blank"  class="" href="https://www.facebook.com/wilcokeldermanofficial">facebook</a></li>
-<li><span class="icon website left"></span><a  target="_blank"  class="" href="http://www.wilcokeldermanofficial.com/home">site</a></li>
+<div class="mt10"><ul class="list horizontal sites"><li><span class="icon website left"></span><a  target="_blank"  class="" href="http://www.wilcokeldermanofficial.com/home">site</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/w1lcokelderman">instagram</a></li>
+<li><span class="icon strava left"></span><a  target="_blank"  class="" href="https://www.strava.com/pros/wilco_kelderman">strava</a></li>
+<li><span class="icon facebook left"></span><a  target="_blank"  class="" href="https://www.facebook.com/wilcokeldermanofficial">facebook</a></li>
 <li><span class="icon twitter left"></span><a  target="_blank"  class="" href="https://twitter.com/W1lcokelderman">twitter</a></li>
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"  class="" href="https://www.procyclinggame.com/rider/wilco-kelderman">ProCyclingGame</a></li>
 </ul></div>
-<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >33</div></li>
-<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >36</div></li>
-<li class="" ><div class="title   " ><a    href="rankings/me/all-time">Specials | All Time Ranking</a></div><div class="rnk   " >723</div></li>
+<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >43</div></li>
+<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >47</div></li>
+<li class="" ><div class="title   " ><a    href="rankings/me/all-time">Specials | All Time Ranking</a></div><div class="rnk   " >722</div></li>
 </ul></div>
-<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;3120</span></div><div>  this week</div></li>
+<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-up">&#x25B2;284</span></div><div>  this week</div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-of-denmark/2013/gc">Post Danmark Rundt - Tour of Denmark</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('13)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">GC</span> <a href="race/giro-d-italia/2020/gc">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
@@ -152,8 +157,8 @@ $(document).ready(function() {
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/vuelta-a-espana/2017/gc">Vuelta a España</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/abu-dhabi-tour/2018/gc">Abu Dhabi Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">GC</span> <a href="race/benelux-tour/2015/gc">Eneco Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('15)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/dauphine/2021/gc">Critérium du Dauphiné</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21, '14)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tirreno-adriatico/2020/gc">Tirreno-Adriatico</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/dauphine/2021/gc">Critérium du Dauphiné</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21, '14)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">7th&nbsp;</div><div><span class="blue">GC</span> <a href="race/giro-d-italia/2014/gc">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('14)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-pologne/2017/gc">Tour de Pologne</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">7th&nbsp;</div><div><span class="blue">GC</span> <a href="race/vuelta-a-espana/2019/gc">La Vuelta ciclista a España</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
@@ -252,7 +257,7 @@ $(document).ready(function() {
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 68%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">819</span></div></td><td class="ac  " >31</td></tr>
+<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 68%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">819</span></div></td><td class="ac  " >43</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 75.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">911</span></div></td><td class="ac  " >16</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 39.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">481</span></div></td><td class="ac  " >127</td></tr>
 <tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 62.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">749</span></div></td><td class="ac  " >69</td></tr>
@@ -359,7 +364,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.4952 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1418kb) peak (2295kb)</span></li></ul></li>
+<li><span>0.1158 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1416kb) peak (2291kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

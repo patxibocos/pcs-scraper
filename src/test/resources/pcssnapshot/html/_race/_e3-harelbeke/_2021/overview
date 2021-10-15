@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -162,7 +167,7 @@
 <li class="" ><div class="mg_rp5   " ><span class="flag de"></span> <a    href="team/bora-hansgrohe-2021">BORA - hansgrohe</a></div><div class=" clr999   " > (Oss, Burghardt)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag il"></span> <a    href="team/israel-start-up-nation-2021">Israel Start-Up Nation</a></div><div class=" clr999   " > (Vanmarcke, Greipel)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag de"></span> <a    href="team/team-dsm-2021">Team DSM</a></div><div class=" clr999   " > (Kragh Andersen, Benoot)</div></li>
-<li class="" ><div class="mg_rp5   " ><span class="flag us"></span> <a    href="team/trek-segafredo-2021">Trek - Segafredo</a></div><div class=" clr999   " > (Theuns, Stuyven)</div></li>
+<li class="" ><div class="mg_rp5   " ><span class="flag us"></span> <a    href="team/trek-segafredo-2021">Trek - Segafredo</a></div><div class=" clr999   " > (Stuyven, Pedersen)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag gb"></span> <a    href="team/ineos-grenadiers-2021">INEOS Grenadiers</a></div><div class=" clr999   " > (van Baarle, Gołaś)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag za"></span> <a    href="team/team-qhubeka-nexthash-2021">Team Qhubeka NextHash</a></div><div class=" clr999   " > (Clarke, Campenaerts)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag bh"></span> <a    href="team/bahrain-victorious-2021">Bahrain - Victorious</a></div><div class=" clr999   " > (Haussler, Colbrelli)</div></li>
@@ -232,7 +237,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0349 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1065kb) peak (1218kb)</span></li></ul></li>
+<li><span>0.0317 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1062kb) peak (1214kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

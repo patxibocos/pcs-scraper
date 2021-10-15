@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="team.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -134,58 +139,58 @@
 <li class="tabc" ><a  class="tabc" href="#">age</a></li>
 <li class="tabd" ><a  class="tabd" href="#">country</a></li>
 </ul></div>
-<div class="hide ttabs taba"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag fr"></span> <a    href="rider/bryan-coquard">COQUARD Bryan</a></div><div class="right   " >5598</div></li>
+<div class="hide ttabs taba"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag fr"></span> <a    href="rider/bryan-coquard">COQUARD Bryan</a></div><div class="right   " >5666</div></li>
 <li class="" ><div>2</div><div><span class="flag fr"></span> <a    href="rider/pierre-rolland">ROLLAND Pierre</a></div><div class="right   " >5175</div></li>
 <li class="" ><div>3</div><div><span class="flag fr"></span> <a    href="rider/jonathan-hivert">HIVERT Jonathan</a></div><div class="right   " >3843</div></li>
-<li class="" ><div>4</div><div><span class="flag be"></span> <a    href="rider/jens-debusschere">DEBUSSCHERE Jens</a></div><div class="right   " >3495</div></li>
-<li class="" ><div>5</div><div><span class="flag fr"></span> <a    href="rider/cyril-gautier">GAUTIER Cyril</a></div><div class="right   " >2818</div></li>
+<li class="" ><div>4</div><div><span class="flag be"></span> <a    href="rider/jens-debusschere">DEBUSSCHERE Jens</a></div><div class="right   " >3517</div></li>
+<li class="" ><div>5</div><div><span class="flag fr"></span> <a    href="rider/cyril-gautier">GAUTIER Cyril</a></div><div class="right   " >2834</div></li>
 <li class="" ><div>6</div><div><span class="flag be"></span> <a    href="rider/jonas-van-genechten">VAN GENECHTEN Jonas</a></div><div class="right   " >2223</div></li>
-<li class="" ><div>7</div><div><span class="flag fr"></span> <a    href="rider/cyril-lemoine">LEMOINE Cyril</a></div><div class="right   " >1822</div></li>
-<li class="" ><div>8</div><div><span class="flag fr"></span> <a    href="rider/quentin-pacher">PACHER Quentin</a></div><div class="right   " >1375</div></li>
+<li class="" ><div>7</div><div><span class="flag fr"></span> <a    href="rider/cyril-lemoine">LEMOINE Cyril</a></div><div class="right   " >1827</div></li>
+<li class="" ><div>8</div><div><span class="flag fr"></span> <a    href="rider/quentin-pacher">PACHER Quentin</a></div><div class="right   " >1383</div></li>
 <li class="" ><div>9</div><div><span class="flag be"></span> <a    href="rider/eliot-lietaer">LIETAER Eliot</a></div><div class="right   " >1024</div></li>
 <li class="" ><div>10</div><div><span class="flag be"></span> <a    href="rider/frederik-backaert">BACKAERT Frederik</a></div><div class="right   " >983</div></li>
 <li class="" ><div>11</div><div><span class="flag fr"></span> <a    href="rider/kevin-reza">REZA Kévin</a></div><div class="right   " >973</div></li>
-<li class="" ><div>12</div><div><span class="flag be"></span> <a    href="rider/bert-de-backer">DE BACKER Bert</a></div><div class="right   " >954</div></li>
-<li class="" ><div>13</div><div><span class="flag fr"></span> <a    href="rider/franck-bonnamour">BONNAMOUR Franck</a></div><div class="right   " >810</div></li>
+<li class="" ><div>12</div><div><span class="flag be"></span> <a    href="rider/bert-de-backer">DE BACKER Bert</a></div><div class="right   " >971</div></li>
+<li class="" ><div>13</div><div><span class="flag fr"></span> <a    href="rider/franck-bonnamour">BONNAMOUR Franck</a></div><div class="right   " >910</div></li>
 <li class="" ><div>14</div><div><span class="flag fr"></span> <a    href="rider/quentin-jauregui">JAUREGUI Quentin</a></div><div class="right   " >716</div></li>
-<li class="" ><div>15</div><div><span class="flag it"></span> <a    href="rider/luca-mozzato">MOZZATO Luca</a></div><div class="right   " >487</div></li>
-<li class="" ><div>16</div><div><span class="flag fr"></span> <a    href="rider/jeremy-lecroq">LECROQ Jérémy</a></div><div class="right   " >407</div></li>
+<li class="" ><div>15</div><div><span class="flag it"></span> <a    href="rider/luca-mozzato">MOZZATO Luca</a></div><div class="right   " >549</div></li>
+<li class="" ><div>16</div><div><span class="flag fr"></span> <a    href="rider/jeremy-lecroq">LECROQ Jérémy</a></div><div class="right   " >436</div></li>
 <li class="" ><div>17</div><div><span class="flag it"></span> <a    href="rider/nicola-bagioli">BAGIOLI Nicola</a></div><div class="right   " >390</div></li>
-<li class="" ><div>18</div><div><span class="flag fr"></span> <a    href="rider/thibault-ferasse">FERASSE Thibault</a></div><div class="right   " >343</div></li>
-<li class="" ><div>19</div><div><span class="flag fr"></span> <a    href="rider/cyril-barthe">BARTHE Cyril</a></div><div class="right   " >325</div></li>
-<li class="" ><div>20</div><div><span class="flag at"></span> <a    href="rider/sebastian-schonberger">SCHÖNBERGER Sebastian</a></div><div class="right   " >188</div></li>
-<li class="" ><div>21</div><div><span class="flag fr"></span> <a    href="rider/maxime-chevalier">CHEVALIER Maxime</a></div><div class="right   " >153</div></li>
+<li class="" ><div>18</div><div><span class="flag fr"></span> <a    href="rider/thibault-ferasse">FERASSE Thibault</a></div><div class="right   " >386</div></li>
+<li class="" ><div>19</div><div><span class="flag fr"></span> <a    href="rider/cyril-barthe">BARTHE Cyril</a></div><div class="right   " >370</div></li>
+<li class="" ><div>20</div><div><span class="flag at"></span> <a    href="rider/sebastian-schonberger">SCHÖNBERGER Sebastian</a></div><div class="right   " >258</div></li>
+<li class="" ><div>21</div><div><span class="flag fr"></span> <a    href="rider/maxime-chevalier">CHEVALIER Maxime</a></div><div class="right   " >173</div></li>
 <li class="" ><div>22</div><div><span class="flag fr"></span> <a    href="rider/julien-morice">MORICE Julien</a></div><div class="right   " >131</div></li>
 <li class="" ><div>23</div><div><span class="flag fr"></span> <a    href="rider/alan-boileau">BOILEAU Alan</a></div><div class="right   " >130</div></li>
 <li class="" ><div>24</div><div><span class="flag fr"></span> <a    href="rider/maxime-cam">CAM Maxime</a></div><div class="right   " >56</div></li>
 <li class="" ><div>25</div><div><span class="flag fr"></span> <a    href="rider/axel-laurance">LAURANCE Axel</a></div><div class="right   " >9</div></li>
-<li class="" ><div>26</div><div><span class="flag fr"></span> <a    href="rider/florian-dauphin">DAUPHIN Florian</a></div><div class="right   " >7</div></li>
+<li class="" ><div>26</div><div><span class="flag fr"></span> <a    href="rider/florian-dauphin">DAUPHIN Florian</a></div><div class="right   " >8</div></li>
 <li class="" ><div>27</div><div><span class="flag fr"></span> <a    href="rider/adrien-lagree">LAGRÉE Adrien</a></div><div class="right   " >1</div></li>
 </ul></div>
-<div class="hide ttabs tabe"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag fr"></span> <a    href="rider/franck-bonnamour">BONNAMOUR Franck</a></div><div class="right ar w12 fs11 clr555   " >(433)</div><div class="right ac   " >100</div></li>
-<li class="" ><div>2</div><div><span class="flag it"></span> <a    href="rider/luca-mozzato">MOZZATO Luca</a></div><div class="right ar w12 fs11 clr555   " >(331)</div><div class="right ac   " >133</div></li>
-<li class="" ><div>3</div><div><span class="flag fr"></span> <a    href="rider/bryan-coquard">COQUARD Bryan</a></div><div class="right ar w12 fs11 clr555   " >(319)</div><div class="right ac   " >142</div></li>
-<li class="" ><div>4</div><div><span class="flag fr"></span> <a    href="rider/quentin-pacher">PACHER Quentin</a></div><div class="right ar w12 fs11 clr555   " >(153)</div><div class="right ac   " >308</div></li>
-<li class="" ><div>5</div><div><span class="flag fr"></span> <a    href="rider/jeremy-lecroq">LECROQ Jérémy</a></div><div class="right ar w12 fs11 clr555   " >(151)</div><div class="right ac   " >310</div></li>
-<li class="" ><div>6</div><div><span class="flag fr"></span> <a    href="rider/alan-boileau">BOILEAU Alan</a></div><div class="right ar w12 fs11 clr555   " >(128)</div><div class="right ac   " >362</div></li>
-<li class="" ><div>7</div><div><span class="flag be"></span> <a    href="rider/eliot-lietaer">LIETAER Eliot</a></div><div class="right ar w12 fs11 clr555   " >(122)</div><div class="right ac   " >375</div></li>
-<li class="" ><div>8</div><div><span class="flag fr"></span> <a    href="rider/cyril-barthe">BARTHE Cyril</a></div><div class="right ar w12 fs11 clr555   " >(117)</div><div class="right ac   " >389</div></li>
-<li class="" ><div>9</div><div><span class="flag fr"></span> <a    href="rider/maxime-chevalier">CHEVALIER Maxime</a></div><div class="right ar w12 fs11 clr555   " >(91)</div><div class="right ac   " >442</div></li>
-<li class="" ><div>10</div><div><span class="flag fr"></span> <a    href="rider/pierre-rolland">ROLLAND Pierre</a></div><div class="right ar w12 fs11 clr555   " >(71)</div><div class="right ac   " >531</div></li>
-<li class="" ><div>11</div><div><span class="flag fr"></span> <a    href="rider/jonathan-hivert">HIVERT Jonathan</a></div><div class="right ar w12 fs11 clr555   " >(65)</div><div class="right ac   " >551</div></li>
-<li class="" ><div>12</div><div><span class="flag be"></span> <a    href="rider/jens-debusschere">DEBUSSCHERE Jens</a></div><div class="right ar w12 fs11 clr555   " >(63)</div><div class="right ac   " >565</div></li>
-<li class="" ><div>13</div><div><span class="flag fr"></span> <a    href="rider/cyril-lemoine">LEMOINE Cyril</a></div><div class="right ar w12 fs11 clr555   " >(61)</div><div class="right ac   " >574</div></li>
-<li class="" ><div>14</div><div><span class="flag fr"></span> <a    href="rider/cyril-gautier">GAUTIER Cyril</a></div><div class="right ar w12 fs11 clr555   " >(60)</div><div class="right ac   " >581</div></li>
-<li class="" ><div>15</div><div><span class="flag at"></span> <a    href="rider/sebastian-schonberger">SCHÖNBERGER Sebastian</a></div><div class="right ar w12 fs11 clr555   " >(37)</div><div class="right ac   " >760</div></li>
-<li class="" ><div>16</div><div><span class="flag be"></span> <a    href="rider/bert-de-backer">DE BACKER Bert</a></div><div class="right ar w12 fs11 clr555   " >(33)</div><div class="right ac   " >795</div></li>
-<li class="" ><div>17</div><div><span class="flag fr"></span> <a    href="rider/thibault-ferasse">FERASSE Thibault</a></div><div class="right ar w12 fs11 clr555   " >(14)</div><div class="right ac   " >1189</div></li>
-<li class="" ><div>18</div><div><span class="flag be"></span> <a    href="rider/frederik-backaert">BACKAERT Frederik</a></div><div class="right ar w12 fs11 clr555   " >(11)</div><div class="right ac   " >1267</div></li>
-<li class="" ><div>19</div><div><span class="flag fr"></span> <a    href="rider/axel-laurance">LAURANCE Axel</a></div><div class="right ar w12 fs11 clr555   " >(9)</div><div class="right ac   " >1389</div></li>
-<li class="" ><div>20</div><div><span class="flag fr"></span> <a    href="rider/florian-dauphin">DAUPHIN Florian</a></div><div class="right ar w12 fs11 clr555   " >(7)</div><div class="right ac   " >1486</div></li>
-<li class="" ><div>21</div><div><span class="flag fr"></span> <a    href="rider/julien-morice">MORICE Julien</a></div><div class="right ar w12 fs11 clr555   " >(3)</div><div class="right ac   " >1761</div></li>
-<li class="" ><div>22</div><div><span class="flag it"></span> <a    href="rider/nicola-bagioli">BAGIOLI Nicola</a></div><div class="right ar w12 fs11 clr555   " >(3)</div><div class="right ac   " >1767</div></li>
-<li class="" ><div>23</div><div><span class="flag fr"></span> <a    href="rider/quentin-jauregui">JAUREGUI Quentin</a></div><div class="right ar w12 fs11 clr555   " >(2)</div><div class="right ac   " >1834</div></li>
-<li class="" ><div>24</div><div><span class="flag fr"></span> <a    href="rider/maxime-cam">CAM Maxime</a></div><div class="right ar w12 fs11 clr555   " >(1)</div><div class="right ac   " >1984</div></li>
+<div class="hide ttabs tabe"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag fr"></span> <a    href="rider/franck-bonnamour">BONNAMOUR Franck</a></div><div class="right ar w12 fs11 clr555   " >(532)</div><div class="right ac   " >86</div></li>
+<li class="" ><div>2</div><div><span class="flag fr"></span> <a    href="rider/bryan-coquard">COQUARD Bryan</a></div><div class="right ar w12 fs11 clr555   " >(387)</div><div class="right ac   " >131</div></li>
+<li class="" ><div>3</div><div><span class="flag it"></span> <a    href="rider/luca-mozzato">MOZZATO Luca</a></div><div class="right ar w12 fs11 clr555   " >(361)</div><div class="right ac   " >142</div></li>
+<li class="" ><div>4</div><div><span class="flag fr"></span> <a    href="rider/cyril-barthe">BARTHE Cyril</a></div><div class="right ar w12 fs11 clr555   " >(162)</div><div class="right ac   " >321</div></li>
+<li class="" ><div>5</div><div><span class="flag fr"></span> <a    href="rider/quentin-pacher">PACHER Quentin</a></div><div class="right ar w12 fs11 clr555   " >(161)</div><div class="right ac   " >323</div></li>
+<li class="" ><div>6</div><div><span class="flag fr"></span> <a    href="rider/jeremy-lecroq">LECROQ Jérémy</a></div><div class="right ar w12 fs11 clr555   " >(148)</div><div class="right ac   " >341</div></li>
+<li class="" ><div>7</div><div><span class="flag fr"></span> <a    href="rider/alan-boileau">BOILEAU Alan</a></div><div class="right ar w12 fs11 clr555   " >(114)</div><div class="right ac   " >418</div></li>
+<li class="" ><div>8</div><div><span class="flag fr"></span> <a    href="rider/maxime-chevalier">CHEVALIER Maxime</a></div><div class="right ar w12 fs11 clr555   " >(111)</div><div class="right ac   " >431</div></li>
+<li class="" ><div>9</div><div><span class="flag be"></span> <a    href="rider/eliot-lietaer">LIETAER Eliot</a></div><div class="right ar w12 fs11 clr555   " >(94)</div><div class="right ac   " >467</div></li>
+<li class="" ><div>10</div><div><span class="flag be"></span> <a    href="rider/jens-debusschere">DEBUSSCHERE Jens</a></div><div class="right ar w12 fs11 clr555   " >(85)</div><div class="right ac   " >492</div></li>
+<li class="" ><div>11</div><div><span class="flag at"></span> <a    href="rider/sebastian-schonberger">SCHÖNBERGER Sebastian</a></div><div class="right ar w12 fs11 clr555   " >(82)</div><div class="right ac   " >504</div></li>
+<li class="" ><div>12</div><div><span class="flag fr"></span> <a    href="rider/cyril-gautier">GAUTIER Cyril</a></div><div class="right ar w12 fs11 clr555   " >(76)</div><div class="right ac   " >529</div></li>
+<li class="" ><div>13</div><div><span class="flag fr"></span> <a    href="rider/pierre-rolland">ROLLAND Pierre</a></div><div class="right ar w12 fs11 clr555   " >(71)</div><div class="right ac   " >555</div></li>
+<li class="" ><div>14</div><div><span class="flag fr"></span> <a    href="rider/cyril-lemoine">LEMOINE Cyril</a></div><div class="right ar w12 fs11 clr555   " >(62)</div><div class="right ac   " >601</div></li>
+<li class="" ><div>15</div><div><span class="flag fr"></span> <a    href="rider/thibault-ferasse">FERASSE Thibault</a></div><div class="right ar w12 fs11 clr555   " >(57)</div><div class="right ac   " >629</div></li>
+<li class="" ><div>16</div><div><span class="flag fr"></span> <a    href="rider/jonathan-hivert">HIVERT Jonathan</a></div><div class="right ar w12 fs11 clr555   " >(49)</div><div class="right ac   " >683</div></li>
+<li class="" ><div>17</div><div><span class="flag be"></span> <a    href="rider/bert-de-backer">DE BACKER Bert</a></div><div class="right ar w12 fs11 clr555   " >(43)</div><div class="right ac   " >733</div></li>
+<li class="" ><div>18</div><div><span class="flag be"></span> <a    href="rider/frederik-backaert">BACKAERT Frederik</a></div><div class="right ar w12 fs11 clr555   " >(11)</div><div class="right ac   " >1285</div></li>
+<li class="" ><div>19</div><div><span class="flag fr"></span> <a    href="rider/axel-laurance">LAURANCE Axel</a></div><div class="right ar w12 fs11 clr555   " >(9)</div><div class="right ac   " >1415</div></li>
+<li class="" ><div>20</div><div><span class="flag fr"></span> <a    href="rider/julien-morice">MORICE Julien</a></div><div class="right ar w12 fs11 clr555   " >(3)</div><div class="right ac   " >1773</div></li>
+<li class="" ><div>21</div><div><span class="flag it"></span> <a    href="rider/nicola-bagioli">BAGIOLI Nicola</a></div><div class="right ar w12 fs11 clr555   " >(3)</div><div class="right ac   " >1782</div></li>
+<li class="" ><div>22</div><div><span class="flag fr"></span> <a    href="rider/quentin-jauregui">JAUREGUI Quentin</a></div><div class="right ar w12 fs11 clr555   " >(2)</div><div class="right ac   " >1851</div></li>
+<li class="" ><div>23</div><div><span class="flag fr"></span> <a    href="rider/florian-dauphin">DAUPHIN Florian</a></div><div class="right ar w12 fs11 clr555   " >(1)</div><div class="right ac   " >2074</div></li>
+<li class="" ><div>24</div><div><span class="flag fr"></span> <a    href="rider/maxime-cam">CAM Maxime</a></div><div class="right ar w12 fs11 clr555   " >(1)</div><div class="right ac   " >2005</div></li>
 <li class="" ><div>25</div><div><span class="flag fr"></span> <a    href="rider/kevin-reza">REZA Kévin</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
 <li class="" ><div>26</div><div><span class="flag be"></span> <a    href="rider/jonas-van-genechten">VAN GENECHTEN Jonas</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
 <li class="" ><div>27</div><div><span class="flag fr"></span> <a    href="rider/adrien-lagree">LAGRÉE Adrien</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
@@ -228,7 +233,7 @@
 <li class="" ><div>8</div><div><span class="flag fr"></span> <a    href="rider/franck-bonnamour">BONNAMOUR Franck</a></div><div class="right   " >26</div></li>
 <li class="" ><div>9</div><div><span class="flag fr"></span> <a    href="rider/jeremy-lecroq">LECROQ Jérémy</a></div><div class="right   " >26</div></li>
 <li class="" ><div>10</div><div><span class="flag it"></span> <a    href="rider/nicola-bagioli">BAGIOLI Nicola</a></div><div class="right   " >26</div></li>
-<li class="" ><div>11</div><div><span class="flag fr"></span> <a    href="rider/thibault-ferasse">FERASSE Thibault</a></div><div class="right   " >26</div></li>
+<li class="" ><div>11</div><div><span class="flag fr"></span> <a    href="rider/thibault-ferasse">FERASSE Thibault</a></div><div class="right   " >27</div></li>
 <li class="" ><div>12</div><div><span class="flag at"></span> <a    href="rider/sebastian-schonberger">SCHÖNBERGER Sebastian</a></div><div class="right   " >27</div></li>
 <li class="" ><div>13</div><div><span class="flag fr"></span> <a    href="rider/quentin-jauregui">JAUREGUI Quentin</a></div><div class="right   " >27</div></li>
 <li class="" ><div>14</div><div><span class="flag fr"></span> <a    href="rider/maxime-cam">CAM Maxime</a></div><div class="right   " >29</div></li>
@@ -239,9 +244,9 @@
 <li class="" ><div>19</div><div><span class="flag be"></span> <a    href="rider/frederik-backaert">BACKAERT Frederik</a></div><div class="right   " >31</div></li>
 <li class="" ><div>20</div><div><span class="flag be"></span> <a    href="rider/jens-debusschere">DEBUSSCHERE Jens</a></div><div class="right   " >32</div></li>
 <li class="" ><div>21</div><div><span class="flag fr"></span> <a    href="rider/kevin-reza">REZA Kévin</a></div><div class="right   " >33</div></li>
-<li class="" ><div>22</div><div><span class="flag fr"></span> <a    href="rider/cyril-gautier">GAUTIER Cyril</a></div><div class="right   " >33</div></li>
-<li class="" ><div>23</div><div><span class="flag fr"></span> <a    href="rider/pierre-rolland">ROLLAND Pierre</a></div><div class="right   " >34</div></li>
-<li class="" ><div>24</div><div><span class="flag be"></span> <a    href="rider/jonas-van-genechten">VAN GENECHTEN Jonas</a></div><div class="right   " >34</div></li>
+<li class="" ><div>22</div><div><span class="flag fr"></span> <a    href="rider/cyril-gautier">GAUTIER Cyril</a></div><div class="right   " >34</div></li>
+<li class="" ><div>23</div><div><span class="flag fr"></span> <a    href="rider/pierre-rolland">ROLLAND Pierre</a></div><div class="right   " >35</div></li>
+<li class="" ><div>24</div><div><span class="flag be"></span> <a    href="rider/jonas-van-genechten">VAN GENECHTEN Jonas</a></div><div class="right   " >35</div></li>
 <li class="" ><div>25</div><div><span class="flag fr"></span> <a    href="rider/jonathan-hivert">HIVERT Jonathan</a></div><div class="right   " >36</div></li>
 <li class="" ><div>26</div><div><span class="flag be"></span> <a    href="rider/bert-de-backer">DE BACKER Bert</a></div><div class="right   " >37</div></li>
 <li class="" ><div>27</div><div><span class="flag fr"></span> <a    href="rider/cyril-lemoine">LEMOINE Cyril</a></div><div class="right   " >38</div></li>
@@ -252,25 +257,25 @@
 <li class="" ><div>4</div><div><span class="flag be"></span> <a    href="rider/bert-de-backer">DE BACKER Bert</a></div></li>
 <li class="" ><div>5</div><div><span class="flag be"></span> <a    href="rider/jonas-van-genechten">VAN GENECHTEN Jonas</a></div></li>
 <li class="" ><div>6</div><div><span class="flag be"></span> <a    href="rider/jens-debusschere">DEBUSSCHERE Jens</a></div></li>
-<li class="" ><div>7</div><div><span class="flag fr"></span> <a    href="rider/bryan-coquard">COQUARD Bryan</a></div></li>
-<li class="" ><div>8</div><div><span class="flag fr"></span> <a    href="rider/axel-laurance">LAURANCE Axel</a></div></li>
-<li class="" ><div>9</div><div><span class="flag fr"></span> <a    href="rider/cyril-lemoine">LEMOINE Cyril</a></div></li>
-<li class="" ><div>10</div><div><span class="flag fr"></span> <a    href="rider/alan-boileau">BOILEAU Alan</a></div></li>
-<li class="" ><div>11</div><div><span class="flag fr"></span> <a    href="rider/jeremy-lecroq">LECROQ Jérémy</a></div></li>
-<li class="" ><div>12</div><div><span class="flag fr"></span> <a    href="rider/florian-dauphin">DAUPHIN Florian</a></div></li>
-<li class="" ><div>13</div><div><span class="flag fr"></span> <a    href="rider/julien-morice">MORICE Julien</a></div></li>
-<li class="" ><div>14</div><div><span class="flag fr"></span> <a    href="rider/thibault-ferasse">FERASSE Thibault</a></div></li>
-<li class="" ><div>15</div><div><span class="flag fr"></span> <a    href="rider/quentin-jauregui">JAUREGUI Quentin</a></div></li>
-<li class="" ><div>16</div><div><span class="flag fr"></span> <a    href="rider/kevin-reza">REZA Kévin</a></div></li>
-<li class="" ><div>17</div><div><span class="flag fr"></span> <a    href="rider/maxime-chevalier">CHEVALIER Maxime</a></div></li>
-<li class="" ><div>18</div><div><span class="flag fr"></span> <a    href="rider/pierre-rolland">ROLLAND Pierre</a></div></li>
-<li class="" ><div>19</div><div><span class="flag fr"></span> <a    href="rider/adrien-lagree">LAGRÉE Adrien</a></div></li>
-<li class="" ><div>20</div><div><span class="flag fr"></span> <a    href="rider/cyril-barthe">BARTHE Cyril</a></div></li>
-<li class="" ><div>21</div><div><span class="flag fr"></span> <a    href="rider/jonathan-hivert">HIVERT Jonathan</a></div></li>
-<li class="" ><div>22</div><div><span class="flag fr"></span> <a    href="rider/franck-bonnamour">BONNAMOUR Franck</a></div></li>
-<li class="" ><div>23</div><div><span class="flag fr"></span> <a    href="rider/maxime-cam">CAM Maxime</a></div></li>
-<li class="" ><div>24</div><div><span class="flag fr"></span> <a    href="rider/quentin-pacher">PACHER Quentin</a></div></li>
-<li class="" ><div>25</div><div><span class="flag fr"></span> <a    href="rider/cyril-gautier">GAUTIER Cyril</a></div></li>
+<li class="" ><div>7</div><div><span class="flag fr"></span> <a    href="rider/maxime-cam">CAM Maxime</a></div></li>
+<li class="" ><div>8</div><div><span class="flag fr"></span> <a    href="rider/quentin-pacher">PACHER Quentin</a></div></li>
+<li class="" ><div>9</div><div><span class="flag fr"></span> <a    href="rider/cyril-gautier">GAUTIER Cyril</a></div></li>
+<li class="" ><div>10</div><div><span class="flag fr"></span> <a    href="rider/bryan-coquard">COQUARD Bryan</a></div></li>
+<li class="" ><div>11</div><div><span class="flag fr"></span> <a    href="rider/axel-laurance">LAURANCE Axel</a></div></li>
+<li class="" ><div>12</div><div><span class="flag fr"></span> <a    href="rider/cyril-lemoine">LEMOINE Cyril</a></div></li>
+<li class="" ><div>13</div><div><span class="flag fr"></span> <a    href="rider/alan-boileau">BOILEAU Alan</a></div></li>
+<li class="" ><div>14</div><div><span class="flag fr"></span> <a    href="rider/jeremy-lecroq">LECROQ Jérémy</a></div></li>
+<li class="" ><div>15</div><div><span class="flag fr"></span> <a    href="rider/florian-dauphin">DAUPHIN Florian</a></div></li>
+<li class="" ><div>16</div><div><span class="flag fr"></span> <a    href="rider/julien-morice">MORICE Julien</a></div></li>
+<li class="" ><div>17</div><div><span class="flag fr"></span> <a    href="rider/thibault-ferasse">FERASSE Thibault</a></div></li>
+<li class="" ><div>18</div><div><span class="flag fr"></span> <a    href="rider/quentin-jauregui">JAUREGUI Quentin</a></div></li>
+<li class="" ><div>19</div><div><span class="flag fr"></span> <a    href="rider/kevin-reza">REZA Kévin</a></div></li>
+<li class="" ><div>20</div><div><span class="flag fr"></span> <a    href="rider/maxime-chevalier">CHEVALIER Maxime</a></div></li>
+<li class="" ><div>21</div><div><span class="flag fr"></span> <a    href="rider/pierre-rolland">ROLLAND Pierre</a></div></li>
+<li class="" ><div>22</div><div><span class="flag fr"></span> <a    href="rider/adrien-lagree">LAGRÉE Adrien</a></div></li>
+<li class="" ><div>23</div><div><span class="flag fr"></span> <a    href="rider/cyril-barthe">BARTHE Cyril</a></div></li>
+<li class="" ><div>24</div><div><span class="flag fr"></span> <a    href="rider/jonathan-hivert">HIVERT Jonathan</a></div></li>
+<li class="" ><div>25</div><div><span class="flag fr"></span> <a    href="rider/franck-bonnamour">BONNAMOUR Franck</a></div></li>
 <li class="" ><div>26</div><div><span class="flag it"></span> <a    href="rider/luca-mozzato">MOZZATO Luca</a></div></li>
 <li class="" ><div>27</div><div><span class="flag it"></span> <a    href="rider/nicola-bagioli">BAGIOLI Nicola</a></div></li>
 </ul></div>
@@ -296,28 +301,16 @@
 </tbody></table></div>
 <div class="mt30"><h3>Points per season</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 20%; ">year</th><th style="width: 60%; ">points</th><th class="ac  "  style="width: 20%; ">position</th></tr></thead><tbody>
-<tr ><td>2021</td><td><div class="barCont"><div class="bg left green2" style="width: 82.5%;  height: 14px;  "></div></div></td><td class="ac  " >23</td></tr>
+<tr ><td>2021</td><td><div class="barCont"><div class="bg left green2" style="width: 99.3%;  height: 14px;  "></div></div></td><td class="ac  " >23</td></tr>
 <tr ><td>2020</td><td><div class="barCont"><div class="bg left green2" style="width: 49.6%;  height: 14px;  "></div></div></td><td class="ac  " >24</td></tr>
 <tr ><td>2019</td><td><div class="barCont"><div class="bg left green2" style="width: 100%;  height: 14px;  "></div></div></td><td class="ac  " >26</td></tr>
 <tr ><td>2018</td><td><div class="barCont"><div class="bg left green2" style="width: 76.9%;  height: 14px;  "></div></div></td><td class="ac  " >30</td></tr>
 </tbody></table></div>
 </div><div class="w70 left mb_w100"><div class="mt10 mob-ad team-between-stats "></div><div class="mt20"><h3>Upcoming races for team</h3>
 <table class="basic"  style=""><thead><tr><th class="cu600  "  style="width: 13%; ">Date</th><th class="cs600 hide  "  style="width: 17.4%; ">Date</th><th style="width: 34.8%; ">Race</th><th class="cu600 fs10 clr555  "  style="width: 34.8%; ">Riders</th></tr></thead><tbody>
-<tr ><td class="cu600  " >12/09</td><td class="cs600 hide  " >12/09</td><td><span class="flag fr"></span> <a    href="race/gp-de-fourmies/2021">GP de Fourmies / La Voix du Nord</a></td><td class="cu600 fs10 clr555  " >Coquard, Bagioli, Barthe, Ferasse, van Genechten, Lagrée</td></tr>
-<tr ><td class="cu600  " >12/09</td><td class="cs600 hide  " >12/09</td><td><span class="flag be"></span> <a    href="race/antwerp-port-epic/2021">Antwerp Port Epic / Sels Trophy</a></td><td class="cu600 fs10 clr555  " >De Backer, Debusschere, Jauregui, Lecroq, Lemoine, Morice, Mozzato</td></tr>
-<tr ><td class="cu600  " >14/09 - 18/09</td><td class="cs600 hide  " >14/09 - 18/09</td><td><span class="flag lu"></span> <a    href="race/tour-de-luxembourg/2021">Skoda-Tour de Luxembourg</a></td><td class="cu600 fs10 clr555  " >Barthe, Bonnamour, Coquard, Hivert, Rolland, Schönberger</td></tr>
-<tr ><td class="cu600  " >15/09</td><td class="cs600 hide  " >15/09</td><td><span class="flag be"></span> <a    href="race/gp-de-wallonie/2021">Grand Prix de Wallonie</a></td><td class="cu600 fs10 clr555  " >Bagioli, Boileau, Chevalier, Ferasse, Laurance, Pacher, Schönberger</td></tr>
-<tr ><td class="cu600  " >19/09</td><td class="cs600 hide  " >19/09</td><td><span class="flag de"></span> <a    href="race/Eschborn-Frankfurt/2021">Eschborn-Frankfurt</a></td><td class="cu600 fs10 clr555  " >Coquard, Backaert, Chevalier, Gautier, Pacher, Schönberger, van Genechten</td></tr>
-<tr class=" hide"  ><td class="cu600  " >19/09</td><td class="cs600 hide  " >19/09</td><td><span class="flag be"></span> <a    href="race/gooikse-pijl/2021">Gooikse Pijl</a></td><td class="cu600 fs10 clr555  " >De Backer, Mozzato</td></tr>
-<tr class=" hide"  ><td class="cu600  " >19/09</td><td class="cs600 hide  " >19/09</td><td><span class="flag fr"></span> <a    href="race/gp-d-isbergues/2021">Grand Prix d'Isbergues - Pas de Calais</a></td><td class="cu600 fs10 clr555  " >Debusschere, Lemoine</td></tr>
-<tr class=" hide"  ><td class="cu600  " >20/09 - 26/09</td><td class="cs600 hide  " >20/09 - 26/09</td><td><span class="flag fr"></span> <a    href="race/le-tour-de-bretagne/2021">Le Tour de Bretagne Cycliste</a></td><td class="cu600 fs10 clr555  " >Laurance, Lagrée, Dauphin, Ferasse, Boileau, Bagioli</td></tr>
-<tr class=" hide"  ><td class="cu600  " >21/09</td><td class="cs600 hide  " >21/09</td><td><span class="flag fr"></span> <a    href="race/gp-de-denain/2021">Grand Prix de Denain - Porte du Hainaut</a></td><td class="cu600 fs10 clr555  " >Debusschere, Lemoine</td></tr>
-<tr class=" hide"  ><td class="cu600  " >29/09</td><td class="cs600 hide  " >29/09</td><td><span class="flag be"></span> <a    href="race/circuit-franco-belge/2021">Eurométropole Tour</a></td><td class="cu600 fs10 clr555  " >Debusschere, Lemoine</td></tr>
-<tr class=" hide"  ><td class="cu600  " >01/10</td><td class="cs600 hide  " >01/10</td><td><span class="flag fr"></span> <a    href="race/route-adelie-de-vitre/2021">La Route Adélie de Vitré</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >03/10</td><td class="cs600 hide  " >03/10</td><td><span class="flag fr"></span> <a    href="race/paris-roubaix/2021">Paris-Roubaix</a></td><td class="cu600 fs10 clr555  " >De Backer, Debusschere, Lemoine</td></tr>
-<tr class=" hide"  ><td class="cu600  " >03/10</td><td class="cs600 hide  " >03/10</td><td><span class="flag be"></span> <a    href="race/famenne-ardenne-classic/2021">La DH Famenne Ardenne Classic</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >10/10</td><td class="cs600 hide  " >10/10</td><td><span class="flag fr"></span> <a    href="race/paris-tours/2021">Paris - Tours Elite</a></td><td class="cu600 fs10 clr555  " >Lemoine</td></tr>
-</tbody></table><a class="showFullList" href="">show more</a></div>
+<tr ><td class="cu600  " >16/10</td><td class="cs600 hide  " >16/10</td><td><span class="flag fr"></span> <a    href="race/gp-de-plumelec/2021">Grand Prix du Morbihan</a></td><td class="cu600 fs10 clr555  " >Coquard, Dauphin, Ferasse, Hivert, Jauregui, Morice, Schönberger</td></tr>
+<tr ><td class="cu600  " >17/10</td><td class="cs600 hide  " >17/10</td><td><span class="flag fr"></span> <a    href="race/boucles-de-l-aulne/2021">Boucles de l'Aulne - Châteaulin</a></td><td class="cu600 fs10 clr555  " >Boileau, Chevalier, Coquard, Ferasse, Hivert, Jauregui, Schönberger</td></tr>
+</tbody></table></div>
 <div class="mt20"><h3>Last victories</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 7.7%; ">#</th><th style="width: 53.8%; ">Race</th><th style="width: 7.7%; ">Class</th><th style="width: 30.8%; ">Winner</th></tr></thead><tbody>
 <tr ><td>6</td><td><span class="flag fr"></span> <a    href="race/tour-des-pays-de-savoie/2021/stage-3">Le Tour de Savoie Mont Blanc | Stage 3</a></td><td>2.2</td><td>BOILEAU Alan</td></tr>
@@ -330,15 +323,15 @@
 <div class="mt30"><h3>Top results</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 7.7%; ">Result</th><th style="width: 53.8%; ">Race</th><th style="width: 7.7%; ">Class</th><th style="width: 30.8%; ">Rider</th></tr></thead><tbody>
 <tr ><td>22</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2021/gc">Tour de France </a></td><td>2.UWT</td><td>BONNAMOUR Franck</td></tr>
+<tr ><td>2</td><td><span class="flag fr"></span> <a    href="race/paris-tours/2021/result">Paris - Tours Elite </a></td><td>1.Pro</td><td>BONNAMOUR Franck</td></tr>
 <tr ><td>4</td><td><span class="flag fr"></span> <a    href="race/boucles-de-la-mayenne/2021/gc">Boucles de la Mayenne </a></td><td>2.Pro</td><td>COQUARD Bryan</td></tr>
-<tr ><td>2</td><td><span class="flag fr"></span> <a    href="race/tour-du-limousin/2021/gc">Tour du Limousin - Nouvelle Aquitaine </a></td><td>2.1</td><td>BONNAMOUR Franck</td></tr>
 <tr ><td>6</td><td><span class="flag fr"></span> <a    href="race/bretagne-classic/2021/result">Bretagne Classic - Ouest-France </a></td><td>1.UWT</td><td>BONNAMOUR Franck</td></tr>
-<tr ><td>3</td><td><span class="flag be"></span> <a    href="race/nokere-koers/2021/result">Danilith Nokere Koerse ME </a></td><td>1.Pro</td><td>MOZZATO Luca</td></tr>
+<tr ><td>2</td><td><span class="flag fr"></span> <a    href="race/tour-du-limousin/2021/gc">Tour du Limousin - Nouvelle Aquitaine </a></td><td>2.1</td><td>BONNAMOUR Franck</td></tr>
+<tr class=" hide"  ><td>3</td><td><span class="flag be"></span> <a    href="race/nokere-koers/2021/result">Danilith Nokere Koerse ME </a></td><td>1.Pro</td><td>MOZZATO Luca</td></tr>
 <tr class=" hide"  ><td>7</td><td><span class="flag de"></span> <a    href="race/deutschland-tour/2021/gc">Deutschland Tour </a></td><td>2.Pro</td><td>MOZZATO Luca</td></tr>
 <tr class=" hide"  ><td>9</td><td><span class="flag fr"></span> <a    href="race/bretagne-classic/2021/result">Bretagne Classic - Ouest-France </a></td><td>1.UWT</td><td>PACHER Quentin</td></tr>
 <tr class=" hide"  ><td>3</td><td><span class="flag fr"></span> <a    href="race/gp-d-ouverture/2021/result">Grand Prix Cycliste la Marseillaise </a></td><td>1.1</td><td>COQUARD Bryan</td></tr>
-<tr class=" hide"  ><td>3</td><td><span class="flag be"></span> <a    href="race/gp-stad-zottegem/2021/result">Egmont Cycling Race </a></td><td>1.1</td><td>MOZZATO Luca</td></tr>
-<tr class=" hide"  ><td>11</td><td><span class="flag be"></span> <a    href="race/gent-wevelgem/2021/result">Gent-Wevelgem in Flanders Fields ME </a></td><td>1.UWT</td><td>LECROQ Jérémy</td></tr>
+<tr class=" hide"  ><td>3</td><td><span class="flag fr"></span> <a    href="race/tour-de-vendee/2021/result">Tour de Vendée </a></td><td>1.1</td><td>SCHÖNBERGER Sebastian</td></tr>
 </tbody></table><a class="showFullList" href="">show more</a></div>
 </div>  <script>
   $(document).ready(function(){
@@ -394,7 +387,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1075 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1164kb) peak (1298kb)</span></li></ul></li>
+<li><span>0.1026 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1153kb) peak (1286kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="2101" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

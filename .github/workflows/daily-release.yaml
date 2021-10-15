@@ -19,7 +19,7 @@ jobs:
       - name: Build
         run: ./gradlew build
       - name: Run scraper
-        run: java -jar build/libs/pcs-scraper.jar -s 2021 -d out -f sqlite -f json -f protobuf
+        run: java -jar build/libs/pcs-scraper.jar -s 2022 -d out -f sqlite -f json -f protobuf
       - name: Set current date as env variable
         run: echo "TODAY=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
       - name: Release

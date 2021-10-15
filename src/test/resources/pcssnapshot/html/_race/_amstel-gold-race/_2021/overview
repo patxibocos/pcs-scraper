@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -170,7 +175,7 @@
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/intermarche-wanty-gobert-materiaux-2021">Intermarché - Wanty - Gobert Matériaux</a></div><div class=" clr999   " > (Lammertink, Bakelants)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag kz"></span> <a    href="team/astana-premier-tech-2021">Astana - Premier Tech</a></div><div class=" clr999   " > (Lutsenko, Fuglsang)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag fr"></span> <a    href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></div><div class=" clr999   " > (Martin, Geschke)</div></li>
-<li class="" ><div class="mg_rp5   " ><span class="flag es"></span> <a    href="team/movistar-team-2021">Movistar Team</a></div><div class=" clr999   " > (Verona, Valverde)</div></li>
+<li class="" ><div class="mg_rp5   " ><span class="flag es"></span> <a    href="team/movistar-team-2021">Movistar Team</a></div><div class=" clr999   " > (Valverde, García Cortina)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag de"></span> <a    href="team/team-dsm-2021">Team DSM</a></div><div class=" clr999   " > (Kragh Andersen, Benoot)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag ae"></span> <a    href="team/uae-team-emirates-2021">UAE-Team Emirates</a></div><div class=" clr999   " > (Trentin, Costa)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/alpecin-fenix-2021">Alpecin-Fenix</a></div><div class=" clr999   " > (Sbaragli, Meurisse)</div></li>
@@ -232,7 +237,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0353 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1056kb) peak (1209kb)</span></li></ul></li>
+<li><span>0.0439 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1053kb) peak (1204kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

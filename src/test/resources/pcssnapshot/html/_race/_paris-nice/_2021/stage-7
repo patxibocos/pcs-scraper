@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -264,11 +269,11 @@
 <tr data-team="1490" data-nation="nl"><td>135</td><td class="gc hide" >126</td><td class="gc hide" >+59:53</td><td class="bibs hide" >205</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="taco-van-der-hoorn" data-id="139754" style="margin: 0; " /><span></span></td><td><div><span class="flag nl"></span> <a href="rider/taco-van-der-hoorn">VAN DER HOORN Taco</a><span class="showIfMobile riderteam">Intermarché - Wanty - Gobert Matériaux</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/intermarche-wanty-gobert-materiaux-2021">Intermarché - Wanty - Gobert Matériaux</a></td><td></td><td></td><td class="time ar" ><span>25:35</span><div class="hide">25:35</div></td></tr>
 <tr data-team="1187" data-nation="nl"><td>136</td><td class="gc hide" >134</td><td class="gc hide" >+1:06:40</td><td class="bibs hide" >87</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="ramon-sinkeldam" data-id="140916" style="margin: 0; " /><span></span></td><td><div><span class="flag nl"></span> <a href="rider/ramon-sinkeldam">SINKELDAM Ramon</a><span class="showIfMobile riderteam">Groupama - FDJ</span></div></td><td class="age hide" >32</td><td class="cu600" ><a href="team/groupama-fdj-2021">Groupama - FDJ</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">25:35</div></td></tr>
 <tr data-team="1330" data-nation="nl"><td>137</td><td class="gc hide" >113</td><td class="gc hide" >+51:18</td><td class="bibs hide" >33</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="lennard-hofstede" data-id="145201" style="margin: 0; " /><span></span></td><td><div><span class="flag nl"></span> <a href="rider/lennard-hofstede">HOFSTEDE Lennard</a><span class="showIfMobile riderteam">Team Jumbo-Visma</span></div></td><td class="age hide" >26</td><td class="cu600" ><a href="team/team-jumbo-visma-2021">Team Jumbo-Visma</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">25:35</div></td></tr>
-<tr data-team="1207" data-nation="au"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >133</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="alexander-edmondson" data-id="136190" style="margin: 0; " /><span></span></td><td><div><span class="flag au"></span> <a href="rider/alexander-edmondson">EDMONDSON Alex</a><span class="showIfMobile riderteam">Team BikeExchange</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/teambikeexchange-2021">Team BikeExchange</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="2738" data-nation="fr"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >192</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="rudy-barbier" data-id="133760" style="margin: 0; " /><span></span></td><td><div><span class="flag fr"></span> <a href="rider/rudy-barbier">BARBIER Rudy</a><span class="showIfMobile riderteam">Israel Start-Up Nation</span></div></td><td class="age hide" >28</td><td class="cu600" ><a href="team/israel-start-up-nation-2021">Israel Start-Up Nation</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="1207" data-nation="au"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >133</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="alexander-edmondson" data-id="136190" style="margin: 0; " /><span></span></td><td><div><span class="flag au"></span> <a href="rider/alexander-edmondson">EDMONDSON Alex</a><span class="showIfMobile riderteam">Team BikeExchange</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/teambikeexchange-2021">Team BikeExchange</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="2738" data-nation="nz"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >193</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="patrick-bevin" data-id="140102" style="margin: 0; " /><span></span></td><td><div><span class="flag nz"></span> <a href="rider/patrick-bevin">BEVIN Patrick</a><span class="showIfMobile riderteam">Israel Start-Up Nation</span></div></td><td class="age hide" >30</td><td class="cu600" ><a href="team/israel-start-up-nation-2021">Israel Start-Up Nation</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1293" data-nation="de"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >57</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="max-walscheid" data-id="141166" style="margin: 0; " /><span></span></td><td><div><span class="flag de"></span> <a href="rider/max-walscheid">WALSCHEID Max</a><span class="showIfMobile riderteam">Team Qhubeka ASSOS</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/team-qhubeka-assos-2021">Team Qhubeka ASSOS</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1100" data-nation="be"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >221</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jasper-philipsen" data-id="193131" style="margin: 0; " /><span></span></td><td><div><span class="flag be"></span> <a href="rider/jasper-philipsen">PHILIPSEN Jasper</a><span class="showIfMobile riderteam">Alpecin-Fenix</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/alpecin-fenix-2021">Alpecin-Fenix</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="2738" data-nation="nz"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >193</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="patrick-bevin" data-id="140102" style="margin: 0; " /><span></span></td><td><div><span class="flag nz"></span> <a href="rider/patrick-bevin">BEVIN Patrick</a><span class="showIfMobile riderteam">Israel Start-Up Nation</span></div></td><td class="age hide" >30</td><td class="cu600" ><a href="team/israel-start-up-nation-2021">Israel Start-Up Nation</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div></div><div class="result-cont hide" data-id="264677">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -569,7 +574,7 @@
 <li><div>Departure:</div> <div><a    href="location/le-broc">Le Broc</a></div></li>
 <li><div>Arrival:</div> <div><a    href="location/col-saint-martin">Valdeblore La Colmiane</a></div></li>
 <li><div>Race ranking:</div> <div>4</div></li>
-<li><div>Won how: </div> <div><a    href="race/paris-nice/2021/stage-7/more/contribute-info">? - let us know!</a></div></li>
+<li><div>Won how: </div> <div>Sprint of small group</div></li>
 <li><div></div> <div></div></li>
 </ul></div>
 <div class=""><ul class="list"><li class="goto" ><a  class="goto" href="race/paris-nice/2021/stage-7/live">LiveStats</a></li>
@@ -631,7 +636,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0503 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2224kb) peak (2415kb)</span></li></ul></li>
+<li><span>0.0556 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2221kb) peak (2411kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

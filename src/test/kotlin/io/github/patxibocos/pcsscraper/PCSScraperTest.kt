@@ -45,7 +45,7 @@ class PCSScraperTest : BehaviorSpec({
         }
 
         `when`("scrapping races") {
-            val scrapedRaces = (pcsScraper.scrapeRaces())
+            val scrapedRaces = (pcsScraper.scrapeRaces(2021))
             val serializedJson = json.encodeToString(scrapedRaces)
             then("it should be equal to the snapshot") {
                 val expectedJson = this.javaClass.getResource("/pcssnapshot/json/races.json")!!.readText()

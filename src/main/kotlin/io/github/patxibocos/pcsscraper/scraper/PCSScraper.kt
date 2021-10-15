@@ -48,14 +48,14 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         pcsRiders.map(::pcsRiderToRider).sortedWith(ridersComparator)
     }
 
-    override suspend fun scrapeRaces(): List<Race> = coroutineScope {
-        getRacesUrls().mapNotNull { raceUrl ->
+    override suspend fun scrapeRaces(season: Int): List<Race> = coroutineScope {
+        getRacesUrls(season).map { raceUrl ->
             getRace(raceUrl)
         }.map(::pcsRaceToRace).sortedBy { it.startDate }
     }
 
     private suspend fun getTeamsUrls(season: Int): List<String> {
-        val teamsURL = buildURL("teams.php?year=$season&filter=Filter&s=worldtour")
+        val teamsURL = buildURL("teams.php?year=$season&s=worldtour")
         val teamsDoc = docFetcher.getDoc(teamsURL)
         return teamsDoc.findAll(".list.fs14.columns2.mob_columns1 a").map { it.attribute("href") }
     }
@@ -128,21 +128,17 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         )
     }
 
-    private suspend fun getRacesUrls(): List<String> {
-        val calendarUrl = buildURL("calendar/wt-calendar-chart")
+    private suspend fun getRacesUrls(season: Int): List<String> {
+        val calendarUrl = buildURL("races.php?year=$season&circuit=1")
         val calendarDoc = docFetcher.getDoc(calendarUrl)
-        return calendarDoc.findAll("ul.gantt a").map { it.attribute("href") }
+        return calendarDoc.findAll("table tr:not(.striked) > td:nth-child(3) > a").map { it.attribute("href") }
+            .map { it.removeSuffix("/preview").removeSuffix("/startlist") + "/overview" }
     }
 
-    private suspend fun getRace(raceUrl: String): PCSRace? = coroutineScope {
+    private suspend fun getRace(raceUrl: String): PCSRace = coroutineScope {
         val raceURL = buildURL(raceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
         val infoList = raceDoc.ul { withClass = "infolist"; this }
-        val uciTour = infoList.findByIndex(3, "li").findSecond("div").ownText
-        // Discard any race that is not part of the UCI Worldtour
-        if (uciTour != "UCI Worldtour") {
-            return@coroutineScope null
-        }
         val header = raceDoc.findAll(".page-topnav > ul > li")
         val participantsIndex = header.indexOfFirst { it.text == "Startlist" }
         val resultsIndex = header.indexOfFirst { it.text == "Results" }
@@ -288,7 +284,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     private fun pcsRaceToRace(pcsRace: PCSRace): Race {
-        val raceId = pcsRace.url.split("/").dropLast(1).takeLast(2).joinToString("/").replace("/", "-")
+        val raceId = pcsRace.url.split("/").dropLast(1).takeLast(2).joinToString("-")
         return Race(
             id = raceId,
             name = pcsRace.name,

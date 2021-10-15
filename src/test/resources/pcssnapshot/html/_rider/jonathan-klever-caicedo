@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -133,15 +138,15 @@ $(document).ready(function() {
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left orange" style="width: 61.4%;  height: 8px;  "></div></div></div><div class="pnt   " >170</div><div class="title   " ><a    href="rider/jonathan-klever-caicedo/results/career-points-sprint">Sprint</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left purple" style="width: 57.4%;  height: 8px;  "></div></div></div><div class="pnt   " >159</div><div class="title   " ><a    href="rider/jonathan-klever-caicedo/results/career-points-climbers">Climber</a></div></li>
 </ul></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/jkleverc/">instagram</a></li>
+<div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"  class="" href="https://twitter.com/Jonatha61330275">twitter</a></li>
+<li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/jkleverc/">instagram</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/caicedo3573/">instagram</a></li>
-<li><span class="icon twitter left"></span><a  target="_blank"  class="" href="https://twitter.com/Jonatha61330275">twitter</a></li>
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"  class="" href="https://www.procyclinggame.com/rider/jonathan-klever-caicedo">ProCyclingGame</a></li>
 </ul></div>
-<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >780</div></li>
-<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >1381</div></li>
+<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >1033</div></li>
+<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >1428</div></li>
 </ul></div>
-<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;1216</span></div><div>  this week</div></li>
+<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;117</span></div><div>  this week</div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/giro-d-italia/2020/stage-3">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/panamerican-championships/2016/result">Campeonato Panamericano de Ruta - ME - RR</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16)</span></div></li>
@@ -191,7 +196,7 @@ $(document).ready(function() {
 <tr data-main="0"><td>04.08</td><td>89</td><td class="gc cu600">97</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/vuelta-a-burgos/2021/stage-2">Stage 2 - Tardajos › Briviesca</a></td><td class="cu600">175</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=184787&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
 <tr data-main="0"><td>03.08</td><td>98</td><td class="gc cu600">98</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/vuelta-a-burgos/2021/stage-1">Stage 1 - Burgos (Catedral) › Burgos (El Castillo)</a></td><td class="cu600">161</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=184787&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
 <tr data-main="1"><td>31.07</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/san-sebastian/2021/result"><b>Donostia San Sebastian Klasikoa</b></a>  (1.UWT)</td><td class="cu600">223.5</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=184787&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="1"><td>18.06</td><td>DNS</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ec"></span><a href="race/nc-ecuador/2021/result"><b>National Championships Ecuador - Road Race</b></a>  (NC)</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=184787&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
+<tr data-main="1"><td>18.06</td><td>DNS</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ec"></span><a href="race/nc-ecuador/2021/result"><b>National Championships Ecuador - Road Race</b></a>  (NC)</td><td class="cu600">150</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=184787&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
 <tr data-main="1"><td>17.06</td><td>DNS</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ec"></span><a href="race/nc-ecuador-itt/2021/result"><b>National Championships Ecuador - ITT</b></a>  (NC)</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=184787&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
 <tr data-main="1"><td>19.05</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2021/stage-11"><b>Giro d'Italia</b></a>  (2.UWT)</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=184787&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
 <tr data-main="0"><td>19.05</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/giro-d-italia/2021/stage-11">Stage 11 - Perugia › Montalcino</a></td><td class="cu600">162</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=184787&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
@@ -238,7 +243,7 @@ $(document).ready(function() {
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 8.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">20</span></div></td><td class="ac  " >956</td></tr>
+<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 8.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">20</span></div></td><td class="ac  " >1035</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 83%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">190</span></div></td><td class="ac  " >175</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 47.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">109</span></div></td><td class="ac  " >528</td></tr>
 <tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 78.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">180</span></div></td><td class="ac  " >343</td></tr>
@@ -338,7 +343,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0727 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1393kb) peak (1610kb)</span></li></ul></li>
+<li><span>0.0878 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1390kb) peak (1606kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

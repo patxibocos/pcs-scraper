@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -126,7 +131,7 @@ $(document).ready(function() {
 <li data-n="5"><a href="rider/rob-britton/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/rob-britton/contribute/contribute-family">Family</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag ca w32"></span><span class="flag ca w24"></span><h1 class="">Rob  Britton</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Rally Cycling</span></div><div class="sub"><span class="red showIfMobile">Rally Cycling</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="" >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/rob-britton/statistics/overview"><img src="images/riders/bp/ad/rob-britton-2021.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 22<sup>nd</sup> September 1984 (36)<br /><b>Nationality:</b> <span class="flag  ca"></span><a class="black" href="nation/canada">Canada</a><br /><span><b>Height:</b> 1.88 m<br /><b>Place of birth:</b> <a href="location.php?id=6400">Regina</a><br /><div class=""></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/rob-britton/statistics/overview"><img src="images/riders/bp/ad/rob-britton-2021.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 22<sup>nd</sup> September 1984 (37)<br /><b>Nationality:</b> <span class="flag  ca"></span><a class="black" href="nation/canada">Canada</a><br /><span><b>Height:</b> 1.88 m<br /><b>Place of birth:</b> <a href="location.php?id=6400">Regina</a><br /><div class=""></div>
 <div class="mt10 pps"><h3>Points per specialty</h3><ul class="basic"  style=" "><li class="" ><div class="bar   " ><div class="barCont"><div class="bg left green" style="width: 7.8%;  height: 8px;  "></div></div></div><div class="pnt   " >61</div><div class="title   " ><a    href="rider/rob-britton/results/career-points-one-day-races">One day races</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left red" style="width: 100%;  height: 8px;  "></div></div></div><div class="pnt   " >779</div><div class="title   " ><a    href="rider/rob-britton/results/career-points-gc">GC</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left blue" style="width: 77.2%;  height: 8px;  "></div></div></div><div class="pnt   " >601</div><div class="title   " ><a    href="rider/rob-britton/results/career-points-time-trial">Time trial</a></div></li>
@@ -138,9 +143,9 @@ $(document).ready(function() {
 <li><span class="icon twitter left"></span><a  target="_blank"  class="" href="https://twitter.com/RBinhd">twitter</a></li>
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"  class="" href="https://www.procyclinggame.com/rider/rob-britton">ProCyclingGame</a></li>
 </ul></div>
-<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >1300</div></li>
+<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >1316</div></li>
 </ul></div>
-<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-up">&#x25B2;175</span></div><div>  this week</div></li>
+<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-up">&#x25B2;191</span></div><div>  this week</div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-of-utah/2017/gc">The Larry H.Miller Tour of Utah</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-of-utah/2017/stage-3">The Larry H.Miller Tour of Utah</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17)</span></div></li>
@@ -220,7 +225,7 @@ $(document).ready(function() {
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">10</span></div></td><td class="ac  " >1225</td></tr>
+<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">10</span></div></td><td class="ac  " >1319</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 1.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">4</span></div></td><td class="ac  " >1395</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 39.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">131</span></div></td><td class="ac  " >450</td></tr>
 <tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 47.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">158</span></div></td><td class="ac  " >391</td></tr>
@@ -325,7 +330,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0884 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1295kb) peak (1715kb)</span></li></ul></li>
+<li><span>0.0877 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1292kb) peak (1711kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

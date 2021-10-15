@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -272,8 +277,8 @@
 <tr data-team="3345" data-nation="it"><td>143</td><td class="gc hide" >103</td><td class="gc hide" >+3:53:15</td><td class="bibs hide" >68</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="samuele-zoccarato" data-id="196254" style="margin: 0; " /><span></span></td><td><div><span class="flag it"></span> <a href="rider/samuele-zoccarato">ZOCCARATO Samuele</a><span class="showIfMobile riderteam">Bardiani-CSF-Faizanè</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/bardiani-csf-2021">Bardiani-CSF-Faizanè</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">29:16</div></td></tr>
 <tr data-team="4723" data-nation="it"><td>144</td><td class="gc hide" >128</td><td class="gc hide" >+4:23:22</td><td class="bibs hide" >118</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="samuele-rivi" data-id="198565" style="margin: 0; " /><span></span></td><td><div><span class="flag it"></span> <a href="rider/samuele-rivi">RIVI Samuele</a><span class="showIfMobile riderteam">EOLO-Kometa</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/eolo-kometa-2021">EOLO-Kometa</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">29:16</div></td></tr>
 <tr data-team="1258" data-nation="it"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >212</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="gianluca-brambilla" data-id="140229" style="margin: 0; " /><span></span></td><td><div><span class="flag it"></span> <a href="rider/gianluca-brambilla">BRAMBILLA Gianluca</a><span class="showIfMobile riderteam">Trek - Segafredo</span></div></td><td class="age hide" >33</td><td class="cu600" ><a href="team/trek-segafredo-2021">Trek - Segafredo</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="2925" data-nation="ec"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >31</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jefferson-alexander-cepeda" data-id="207051" style="margin: 0; " /><span></span></td><td><div><span class="flag ec"></span> <a href="rider/jefferson-alexander-cepeda">CEPEDA Jefferson Alexander</a><span class="showIfMobile riderteam">Androni Giocattoli - Sidermec</span></div></td><td class="age hide" >22</td><td class="cu600" ><a href="team/androni-giocattoli-sidermec-2021">Androni Giocattoli - Sidermec</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1136" data-nation="fr"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >85</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="victor-lafay" data-id="181203" style="margin: 0; " /><span></span></td><td><div><span class="flag fr"></span> <a href="rider/victor-lafay">LAFAY Victor</a><span class="showIfMobile riderteam">Cofidis, Solutions Crédits</span></div></td><td class="age hide" >25</td><td class="cu600" ><a href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="2925" data-nation="ec"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >31</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jefferson-alexander-cepeda" data-id="207051" style="margin: 0; " /><span></span></td><td><div><span class="flag ec"></span> <a href="rider/jefferson-alexander-cepeda">CEPEDA Jefferson Alexander</a><span class="showIfMobile riderteam">Androni Giocattoli - Sidermec</span></div></td><td class="age hide" >22</td><td class="cu600" ><a href="team/androni-giocattoli-sidermec-2021">Androni Giocattoli - Sidermec</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div><div style="text-align: right; font-size: 11px; ">Timelimit 18%, or 4:46:39 (+43:44)</div></div><div class="result-cont hide" data-id="265571">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -746,7 +751,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0946 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2552kb) peak (2739kb)</span></li></ul></li>
+<li><span>0.0967 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2549kb) peak (2735kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

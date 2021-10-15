@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -155,7 +160,7 @@
 <li class="" ><div><span class="flag no"></span> <a    href="rider/alexander-kristoff">KRISTOFF Alexander</a></div></li>
 </ul></div>
 <div class="text-regular"><a class="goto3" href="race/omloop-het-nieuwsblad/2021/result/startlist/riders-ranked">full statistic</a></div>
-<div class="mt20"><h3>Competing teams</h3><ul class="list fs14"  style=" "><li class="" ><div class="mg_rp5   " ><span class="flag us"></span> <a    href="team/trek-segafredo-2021">Trek - Segafredo</a></div><div class=" clr999   " > (Theuns, Stuyven)</div></li>
+<div class="mt20"><h3>Competing teams</h3><ul class="list fs14"  style=" "><li class="" ><div class="mg_rp5   " ><span class="flag us"></span> <a    href="team/trek-segafredo-2021">Trek - Segafredo</a></div><div class=" clr999   " > (Stuyven, Pedersen)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></div><div class=" clr999   " > (Štybar, Alaphilippe)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/lotto-soudal-2021">Lotto Soudal</a></div><div class=" clr999   " > (Wellens, Gilbert)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/intermarche-wanty-gobert-materiaux-2021">Intermarché - Wanty - Gobert Matériaux</a></div><div class=" clr999   " > (van Poppel, Pasqualon)</div></li>
@@ -233,7 +238,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0539 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1085kb) peak (1229kb)</span></li></ul></li>
+<li><span>0.0485 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1082kb) peak (1225kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

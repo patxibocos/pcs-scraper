@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -133,16 +138,16 @@ $(document).ready(function() {
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left orange" style="width: 0%;  height: 8px;  "></div></div></div><div class="pnt   " >0</div><div class="title   " ><a    href="rider/andrii-ponomar/results/career-points-sprint">Sprint</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left purple" style="width: 34.8%;  height: 8px;  "></div></div></div><div class="pnt   " >8</div><div class="title   " ><a    href="rider/andrii-ponomar/results/career-points-climbers">Climber</a></div></li>
 </ul></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon facebook left"></span><a  target="_blank"  class="" href="https://www.facebook.com/andrew.ponomar.7">facebook</a></li>
-<li><span class="icon twitter left"></span><a  target="_blank"  class="" href="https://twitter.com/AndriiPonomar?s=09">twitter</a></li>
+<div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"  class="" href="https://twitter.com/AndriiPonomar?s=09">twitter</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/andrewponomar/">instagram</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"  class="" href="https://www.strava.com/athletes/24521924">strava</a></li>
+<li><span class="icon facebook left"></span><a  target="_blank"  class="" href="https://www.facebook.com/andrew.ponomar.7">facebook</a></li>
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"  class="" href="https://www.procyclinggame.com/rider/andrii-ponomar">ProCyclingGame</a></li>
 </ul></div>
-<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >711</div></li>
-<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >510</div></li>
+<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >742</div></li>
+<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >538</div></li>
 </ul></div>
-<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-up">&#x25B2;131</span></div><div>  this week</div></li>
+<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;152</span></div><div>  this week</div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/nc-ukraine/2021/result">National Championships Ukraine - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">18th&nbsp;</div><div><span class="blue">stage</span> <a href="race/giro-d-italia/2021/stage-18">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
@@ -235,7 +240,7 @@ $(document).ready(function() {
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 83%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">43</span></div></td><td class="ac  " >674</td></tr>
+<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 83%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">43</span></div></td><td class="ac  " >728</td></tr>
 </tbody></table></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
@@ -329,7 +334,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0741 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1371kb) peak (1556kb)</span></li></ul></li>
+<li><span>0.0985 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1369kb) peak (1552kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

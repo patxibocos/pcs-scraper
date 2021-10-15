@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -254,9 +259,9 @@
 <tr data-team="2040" data-nation="es"><td>125</td><td class="gc hide" >53</td><td class="gc hide" >+23:15</td><td class="bibs hide" >155</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="antonio-pedrero" data-id="130946" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/antonio-pedrero">PEDRERO Antonio</a><span class="showIfMobile riderteam">Movistar Team</span></div></td><td class="age hide" >29</td><td class="cu600" ><a href="team/movistar-team-2021">Movistar Team</a></td><td></td><td></td><td class="time ar" ><span>3:06</span><div class="hide">3:06</div></td></tr>
 <tr data-team="2040" data-nation="es"><td>126</td><td class="gc hide" >113</td><td class="gc hide" >+46:58</td><td class="bibs hide" >156</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="albert-torres" data-id="132221" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/albert-torres">TORRES Albert</a><span class="showIfMobile riderteam">Movistar Team</span></div></td><td class="age hide" >30</td><td class="cu600" ><a href="team/movistar-team-2021">Movistar Team</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">3:06</div></td></tr>
 <tr data-team="1136" data-nation="it"><td>127</td><td class="gc hide" >121</td><td class="gc hide" >+51:46</td><td class="bibs hide" >75</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="fabio-sabatini" data-id="140358" style="margin: 0; " /><span></span></td><td><div><span class="flag it"></span> <a href="rider/fabio-sabatini">SABATINI Fabio</a><span class="showIfMobile riderteam">Cofidis, Solutions Crédits</span></div></td><td class="age hide" >36</td><td class="cu600" ><a href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></td><td></td><td></td><td class="time ar" ><span>6:53</span><div class="hide">6:53</div></td></tr>
+<tr data-team="1360" data-nation="de"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >177</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="florian-stork" data-id="196139" style="margin: 0; " /><span></span></td><td><div><span class="flag de"></span> <a href="rider/florian-stork">STORK Florian</a><span class="showIfMobile riderteam">Team DSM</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/team-dsm-2021">Team DSM</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1187" data-nation="fr"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >106</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="anthony-roux" data-id="140590" style="margin: 0; " /><span></span></td><td><div><span class="flag fr"></span> <a href="rider/anthony-roux">ROUX Anthony</a><span class="showIfMobile riderteam">Groupama - FDJ</span></div></td><td class="age hide" >33</td><td class="cu600" ><a href="team/groupama-fdj-2021">Groupama - FDJ</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1258" data-nation="it"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >195</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="matteo-moschetti" data-id="179562" style="margin: 0; " /><span></span></td><td><div><span class="flag it"></span> <a href="rider/matteo-moschetti">MOSCHETTI Matteo</a><span class="showIfMobile riderteam">Trek - Segafredo</span></div></td><td class="age hide" >24</td><td class="cu600" ><a href="team/trek-segafredo-2021">Trek - Segafredo</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="1360" data-nation="de"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >177</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="florian-stork" data-id="196139" style="margin: 0; " /><span></span></td><td><div><span class="flag de"></span> <a href="rider/florian-stork">STORK Florian</a><span class="showIfMobile riderteam">Team DSM</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/team-dsm-2021">Team DSM</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div></div><div class="result-cont hide" data-id="264544">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -571,7 +576,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0809 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2034kb) peak (2240kb)</span></li></ul></li>
+<li><span>0.0565 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2031kb) peak (2236kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

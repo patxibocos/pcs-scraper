@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -133,15 +138,15 @@ $(document).ready(function() {
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left orange" style="width: 44.4%;  height: 8px;  "></div></div></div><div class="pnt   " >8</div><div class="title   " ><a    href="rider/ibai-azurmendi-sagastibel/results/career-points-sprint">Sprint</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left purple" style="width: 100%;  height: 8px;  "></div></div></div><div class="pnt   " >18</div><div class="title   " ><a    href="rider/ibai-azurmendi-sagastibel/results/career-points-climbers">Climber</a></div></li>
 </ul></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/iazurmendi96">instagram</a></li>
-<li><span class="icon strava left"></span><a  target="_blank"  class="" href="https://www.strava.com/athletes/3060100">strava</a></li>
+<div class="mt10"><ul class="list horizontal sites"><li><span class="icon strava left"></span><a  target="_blank"  class="" href="https://www.strava.com/athletes/3060100">strava</a></li>
 <li><span class="icon twitter left"></span><a  target="_blank"  class="" href="https://twitter.com/iazurmendi96">twitter</a></li>
+<li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/iazurmendi96">instagram</a></li>
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"  class="" href="https://www.procyclinggame.com/rider/ibai-azurmendi-sagastibel">ProCyclingGame</a></li>
 </ul></div>
-<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >1192</div></li>
-<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >1827</div></li>
+<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >1227</div></li>
+<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >2159</div></li>
 </ul></div>
-<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-up">&#x25B2;71</span></div><div>  this week</div></li>
+<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;64</span></div><div>  this week</div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">35th&nbsp;</div><div><span class="blue">stage</span> <a href="race/vuelta-a-la-comunidad-valenciana/2019/stage-4">Volta a la Comunitat Valenciana</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">46th&nbsp;</div><div><span class="blue">stage</span> <a href="race/vuelta-a-la-comunidad-valenciana/2019/stage-3">Volta a la Comunitat Valenciana</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
@@ -155,7 +160,8 @@ $(document).ready(function() {
 <li class="main"><div class="ar" style="width: 55px; ">31st&nbsp;</div><div><span class="blue">GC</span> <a href="race/ruta-del-sol/2018/gc">Vuelta a Andalucia Ruta Ciclista Del Sol</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">46th&nbsp;</div><div><span class="blue">stage</span> <a href="race/ruta-del-sol/2018/stage-3">Vuelta a Andalucia Ruta Ciclista Del Sol</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">48th&nbsp;</div><div><span class="blue">stage</span> <a href="race/ruta-del-sol/2018/stage-4">Vuelta a Andalucia Ruta Ciclista Del Sol</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
-</ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   " >2021</div><div class="name   " ><a    href="team/euskaltel-euskadi-2021">Euskaltel - Euskadi</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
+</ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   " >2022</div><div class="name   " ><a    href="team/euskaltel-euskadi-2022">Euskaltel - Euskadi</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
+<li class=" main " ><div class="season   " >2021</div><div class="name   " ><a    href="team/euskaltel-euskadi-2021">Euskaltel - Euskadi</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
 <li class=" main " ><div class="season   " >2020</div><div class="name   " ><a    href="team/fundacion-orbea-2020">Fundación - Orbea</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
 <li class=" main " ><div class="season   " >2019</div><div class="name   " ><a    href="team/fundacia-n-euskadi-2019">Fundación Euskadi</a></div><div> (CT)</div><div class="fs10   " ></div></li>
 <li class=" main " ><div class="season   " >2018</div><div class="name   " ><a    href="team/fundacion-euskadi-2018">Fundación Euskadi</a></div><div> (CT)</div><div class="fs10   " ></div></li>
@@ -215,7 +221,7 @@ $(document).ready(function() {
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 83%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">13</span></div></td><td class="ac  " >1154</td></tr>
+<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 83%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">13</span></div></td><td class="ac  " >1209</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 6.4%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">1</span></div></td><td class="ac  " >1627</td></tr>
 <tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 38.3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">6</span></div></td><td class="ac  " >2027</td></tr>
 </tbody></table></div>
@@ -311,7 +317,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1035 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1277kb) peak (1469kb)</span></li></ul></li>
+<li><span>0.0690 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1274kb) peak (1466kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -133,12 +138,12 @@ $(document).ready(function() {
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left orange" style="width: 100%;  height: 8px;  "></div></div></div><div class="pnt   " >63</div><div class="title   " ><a    href="rider/gregorio-ferri/results/career-points-sprint">Sprint</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left purple" style="width: 0%;  height: 8px;  "></div></div></div><div class="pnt   " >0</div><div class="title   " ><a    href="rider/gregorio-ferri/results/career-points-climbers">Climber</a></div></li>
 </ul></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/gregorio_ferri/">instagram</a></li>
-<li><span class="icon facebook left"></span><a  target="_blank"  class="" href="https://m.facebook.com/gregorio.ferri.3?ref=bookmark">facebook</a></li>
+<div class="mt10"><ul class="list horizontal sites"><li><span class="icon facebook left"></span><a  target="_blank"  class="" href="https://m.facebook.com/gregorio.ferri.3?ref=bookmark">facebook</a></li>
+<li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/gregorio_ferri/">instagram</a></li>
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"  class="" href="https://www.procyclinggame.com/rider/gregorio-ferri">ProCyclingGame</a></li>
 </ul></div>
 <div class=""><ul class="list horizontal rdr-rankings"  style=" "></ul></div>
-<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-up">&#x25B2;110</span></div><div>  this week</div></li>
+<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;395</span></div><div>  this week</div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/gp-industrie-del-marmo/2018/result">Gran Premio Industrie del Marmo</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/giro-ciclistico-d-italia/2019/stage-2">Giro Ciclistico d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
@@ -159,8 +164,15 @@ $(document).ready(function() {
 <div class=""><div class="">No races on program.</div></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2021" class="cur"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li class="more hide show_if"><span>more</span><ul><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" hide"><a class="seasonResults" data-season="2015" href="">2015</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600" style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>11.10</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/coppa-agostoni/2021/result"><b>Coppa Agostoni - Giro delle Brianze</b></a>  (1.1)</td><td class="cu600">180</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=195697&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
+<tr data-main="1"><td>07.10</td><td>113</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/gran-piemonte/2021/result"><b>Gran Piemonte</b></a>  (1.Pro)</td><td class="cu600">168</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=195697&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
+<tr data-main="1"><td>04.10</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/coppa-bernocchi/2021/result"><b>Coppa Bernocchi - GP BPM</b></a>  (1.Pro)</td><td class="cu600">197.15</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=195697&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
+<tr data-main="1"><td>28.09</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-di-sicilia/2021/stage-1"><b>Giro di Sicilia - Tour of Sicily</b></a>  (2.1)</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=195697&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
+<tr data-main="0"><td>28.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/giro-di-sicilia/2021/stage-1">Stage 1 - Avola › Licata</a></td><td class="cu600">179</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=195697&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
+<tr data-main="1"><td>19.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/trofeo-matteotti/2021/result"><b>Trofeo Matteotti</b></a>  (1.1)</td><td class="cu600">195</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=195697&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
+<tr data-main="1"><td>18.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/memorial-marco-pantani/2021/result"><b>Memorial Marco Pantani</b></a>  (1.1)</td><td class="cu600">190.7</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=195697&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
 <tr data-main="1"><td>02.05</td><td>30</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/circuito-del-porto-trofeo-arvedi/2021/result"><b>Circuito del Porto - Trofeo Arvedi</b></a>  (1.2)</td><td class="cu600">179.9</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=195697&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>180</b> km in <b>1</b> days. PCS points: <b>0</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   " >0</div><div class="title   " ><a    href="rider/gregorio-ferri/statistics/wins">Wins</a></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
+</tbody></table><div class="rdrResultsSum" ><div>819</b> km in <b>7</b> days. PCS points: <b>0</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   " >0</div><div class="title   " ><a    href="rider/gregorio-ferri/statistics/wins">Wins</a></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
 <li class="" ><div class="nr   " >0</div><div class="title   " ><a    href="rider/gregorio-ferri/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
 <li class="" ><div class="nr   " >0</div><div class="title   " ><a    href="rider/gregorio-ferri/statistics/top-classic-results">Classics</a></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
 </ul></div>
@@ -263,7 +275,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.4379 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1121kb) peak (1326kb)</span></li></ul></li>
+<li><span>0.0608 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1141kb) peak (1344kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

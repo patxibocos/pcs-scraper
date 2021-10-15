@@ -4,13 +4,18 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
 <title>Preview statistics for Donostia San Sebastian Klasikoa 2021</title>
 <base href="https://www.procyclingstats.com/race.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/race/san-sebastian/2021/result/overview/overview" />
-<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Top competitors for Donostia San Sebastian Klasikoa 2021 are Julian Alaphilippe, Egan Bernal and Adam Yates.">
+<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Top competitors for Donostia San Sebastian Klasikoa 2021 are Julian Alaphilippe, Jonas Vingegaard and Egan Bernal.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="utf-8"> 
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -143,15 +148,15 @@
 </div>
 <div class="w47 right mb_w100" >
 <div class="mt20"><h3>Top competitors</h3><ul class="list fs14"  style=" "><li class="" ><div><span class="flag fr"></span> <a    href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div></li>
+<li class="" ><div><span class="flag dk"></span> <a    href="rider/jonas-vingegaard-rasmussen">VINGEGAARD Jonas</a></div></li>
 <li class="" ><div><span class="flag co"></span> <a    href="rider/egan-bernal">BERNAL Egan</a></div></li>
-<li class="" ><div><span class="flag gb"></span> <a    href="rider/adam-yates">YATES Adam</a></div></li>
+<li class="" ><div><span class="flag nl"></span> <a    href="rider/bauke-mollema">MOLLEMA Bauke</a></div></li>
 <li class="" ><div><span class="flag it"></span> <a    href="rider/diego-ulissi">ULISSI Diego</a></div></li>
 <li class="" ><div><span class="flag gb"></span> <a    href="rider/simon-yates">YATES Simon</a></div></li>
-<li class="" ><div><span class="flag es"></span> <a    href="rider/mikel-landa">LANDA Mikel</a></div></li>
-<li class="" ><div><span class="flag nl"></span> <a    href="rider/bauke-mollema">MOLLEMA Bauke</a></div></li>
-<li class="" ><div><span class="flag dk"></span> <a    href="rider/jonas-vingegaard-rasmussen">VINGEGAARD Jonas</a></div></li>
 <li class="" ><div><span class="flag nl"></span> <a    href="rider/wilco-kelderman">KELDERMAN Wilco</a></div></li>
-<li class="" ><div><span class="flag it"></span> <a    href="rider/matteo-trentin">TRENTIN Matteo</a></div></li>
+<li class="" ><div><span class="flag gb"></span> <a    href="rider/adam-yates">YATES Adam</a></div></li>
+<li class="" ><div><span class="flag it"></span> <a    href="rider/mattia-cattaneo">CATTANEO Mattia</a></div></li>
+<li class="" ><div><span class="flag si"></span> <a    href="rider/matej-mohoric">MOHORIČ Matej</a></div></li>
 </ul></div>
 <div class="text-regular"><a class="goto3" href="race/san-sebastian/2021/result/startlist/riders-ranked">full statistic</a></div>
 <div class="mt20"><h3>Competing teams</h3><ul class="list fs14"  style=" "><li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></div><div class=" clr999   " > (Štybar, Alaphilippe)</div></li>
@@ -232,7 +237,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0427 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1048kb) peak (1201kb)</span></li></ul></li>
+<li><span>0.0473 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1046kb) peak (1197kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

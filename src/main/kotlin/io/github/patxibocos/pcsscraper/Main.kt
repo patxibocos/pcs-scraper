@@ -31,7 +31,7 @@ fun main(args: Array<String>) {
     runBlocking {
         val teams = teamsScraper.scrapeTeams(season = season)
         val riders = ridersScraper.scrapeRiders(season = season)
-        val races = racesScraper.scrapeRaces()
+        val races = racesScraper.scrapeRaces(season = season)
 
         formats.forEach { format ->
             val exporter: Exporter = Exporter.from(destination, format)

@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -272,8 +277,8 @@
 <tr data-team="1328" data-nation="be"><td>143</td><td class="gc hide" >138</td><td class="gc hide" >+3:11:08</td><td class="bibs hide" >57</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="dries-devenyns" data-id="140592" style="margin: 0; " /><span></span></td><td><div><span class="flag be"></span> <a href="rider/dries-devenyns">DEVENYNS Dries</a><span class="showIfMobile riderteam">Deceuninck - Quick Step</span></div></td><td class="age hide" >37</td><td class="cu600" ><a href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">23:40</div></td></tr>
 <tr data-team="1360" data-nation="nl"><td>144</td><td class="gc hide" >144</td><td class="gc hide" >+3:28:08</td><td class="bibs hide" >143</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="cees-bol" data-id="171075" style="margin: 0; " /><span></span></td><td><div><span class="flag nl"></span> <a href="rider/cees-bol">BOL Cees</a><span class="showIfMobile riderteam">Team DSM</span></div></td><td class="age hide" >25</td><td class="cu600" ><a href="team/team-dsm-2021">Team DSM</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">23:40</div></td></tr>
 <tr data-team="1360" data-nation="nl"><td>145</td><td class="gc hide" >132</td><td class="gc hide" >+3:04:19</td><td class="bibs hide" >145</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="nils-eekhoff" data-id="194062" style="margin: 0; " /><span></span></td><td><div><span class="flag nl"></span> <a href="rider/nils-eekhoff">EEKHOFF Nils</a><span class="showIfMobile riderteam">Team DSM</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/team-dsm-2021">Team DSM</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">23:40</div></td></tr>
-<tr data-team="1207" data-nation="no"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >175</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="amund-grondahl-jansen" data-id="164908" style="margin: 0; " /><span></span></td><td><div><span class="flag no"></span> <a href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a><span class="showIfMobile riderteam">Team BikeExchange</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/teambikeexchange-2021">Team BikeExchange</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1258" data-nation="it"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >41</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="vincenzo-nibali" data-id="140778" style="margin: 0; " /><span></span></td><td><div><span class="flag it"></span> <a href="rider/vincenzo-nibali">NIBALI Vincenzo</a><span class="showIfMobile riderteam">Trek - Segafredo</span></div></td><td class="age hide" >36</td><td class="cu600" ><a href="team/trek-segafredo-2021">Trek - Segafredo</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="1207" data-nation="no"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >175</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="amund-grondahl-jansen" data-id="164908" style="margin: 0; " /><span></span></td><td><div><span class="flag no"></span> <a href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a><span class="showIfMobile riderteam">Team BikeExchange</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/teambikeexchange-2021">Team BikeExchange</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div><div style="text-align: right; font-size: 11px; ">Timelimit 17%, or 4:43:07 (+41:08)</div></div><div class="result-cont hide" data-id="266909">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -732,7 +737,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0897 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2499kb) peak (2685kb)</span></li></ul></li>
+<li><span>0.0902 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2496kb) peak (2681kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

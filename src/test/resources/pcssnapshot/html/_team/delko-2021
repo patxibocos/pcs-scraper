@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="team.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -95,7 +100,7 @@
 			 </div>
 			 <a class="user4" data-logged="0" href="login.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
-<div class="content  "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><div ><form style="  "><select style="" onChange="window.location.href=this.value; "><option value="team/delko-2024/overview/" >2024 | DELKO</option><option value="team/delko-2023/overview/" >2023 | DELKO</option><option value="team/delko-2022/overview/" >2022 | DELKO</option><option value="team/delko-2021/overview/" selected>2021 | DELKO</option><option value="team/nippo-delko-one-provence-2020/overview/" >2020 | NIPPO DELKO One Provence</option><option value="team/delko-marseille-provence-2019/overview/" >2019 | Delko Marseille Provence</option><option value="team/delko-marseille-provence-ktm-2018/overview/" >2018 | Delko Marseille Provence KTM</option><option value="team/delko-marseille-provence-ktm-2017/overview/" >2017 | Delko Marseille Provence KTM</option><option value="team/delko-marseille-provence-ktm-2016/overview/" >2016 | Delko Marseille Provence KTM</option><option value="team/team-marseille-13-ktm-2015/overview/" >2015 | Team Marseille 13 KTM</option><option value="team/team-la-pomme-marseille-13-2014/overview/" >2014 | Team La Pomme Marseille 13</option><option value="team/la-pomme-marseille-2013/overview/" >2013 | La Pomme Marseille</option><option value="team/la-pomme-marseille-2012/overview/" >2012 | La Pomme Marseille</option><option value="team/la-pomme-marseille-2011/overview/" >2011 | La Pomme Marseille</option><option value="team/vc-la-pomme-marseille-2010/overview/" >2010 | VC La Pomme Marseille</option><option value="team/vc-la-pomme-marseille-2009/overview/" >2009 | VC La Pomme Marseille</option><option value="team/vc-la-pomme-marseille-2008/overview/" >2008 | VC La Pomme Marseille</option></select></form></div></div></div><ul><li class="reg "><a class="cur" href="team/delko-2021">Start</a></li>
+<div class="content  "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><div ><form style="  "><select style="" onChange="window.location.href=this.value; "><option value="team/delko-2021/overview/" selected>2021 | DELKO</option><option value="team/nippo-delko-one-provence-2020/overview/" >2020 | NIPPO DELKO One Provence</option><option value="team/delko-marseille-provence-2019/overview/" >2019 | Delko Marseille Provence</option><option value="team/delko-marseille-provence-ktm-2018/overview/" >2018 | Delko Marseille Provence KTM</option><option value="team/delko-marseille-provence-ktm-2017/overview/" >2017 | Delko Marseille Provence KTM</option><option value="team/delko-marseille-provence-ktm-2016/overview/" >2016 | Delko Marseille Provence KTM</option><option value="team/team-marseille-13-ktm-2015/overview/" >2015 | Team Marseille 13 KTM</option><option value="team/team-la-pomme-marseille-13-2014/overview/" >2014 | Team La Pomme Marseille 13</option><option value="team/la-pomme-marseille-2013/overview/" >2013 | La Pomme Marseille</option><option value="team/la-pomme-marseille-2012/overview/" >2012 | La Pomme Marseille</option><option value="team/la-pomme-marseille-2011/overview/" >2011 | La Pomme Marseille</option><option value="team/vc-la-pomme-marseille-2010/overview/" >2010 | VC La Pomme Marseille</option><option value="team/vc-la-pomme-marseille-2009/overview/" >2009 | VC La Pomme Marseille</option><option value="team/vc-la-pomme-marseille-2008/overview/" >2008 | VC La Pomme Marseille</option></select></form></div></div></div><ul><li class="reg "><a class="cur" href="team/delko-2021">Start</a></li>
 <li class="reg "><a class="" href="team/delko-2021/statistics">Statistics&#x25BC;</a><ul><li><a href="team/delko-2021/statistics/overview">Overview</a></li>
 <li><a href="team/delko-2021/statistics/races-per-nation">Races per nation</a></li>
 <li><a href="team/delko-2021/statistics/riders-per-country">#Riders per country</a></li>
@@ -125,90 +130,90 @@
 <li data-n="7"><a href="team/delko-2021/more/contribute-link">Contribute link</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag fr w32"></span><span class="flag fr w24"></span><h1 class="">DELKO (PRT)</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">2021</span></div><div class="sub"><span class="red showIfMobile">2021</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord team"></div><div class="mob-ad leaderbord team"></div><div class="top-cont"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100" >
 <ul class="list horizontal teamkpi" style=""><li><div>wins</div> <div><a    href="team/delko-2021/wins">5</a></div></li>
-<li><div>ranking</div> <div><a    href="rankings/me/teams">26</a></div></li>
+<li><div>ranking</div> <div><a    href="rankings/me/teams">28</a></div></li>
 <li><div>incoming transfers</div> <div><a    href="team/delko-2021/transfers">4</a></div></li>
 </ul>
-<div class="mt20"><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/ab/mauro-finetto-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mauro-finetto"></a><span>FINETTO Mauro</span></li><li><a style="background: url(images/riders/bp/cf/eduard-prades-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/eduard-prades"></a><span>PRADES Eduard</span></li><li><a style="background: url(images/riders/bp/fb/eduard-michael-grosu-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/eduard-michael-grosu"></a><span>GROSU Eduard-Michael</span></li><li><a style="background: url(images/riders/bp/af/justin-jules-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/justin-jules"></a><span>JULES Justin</span></li><li><a style="background: url(images/riders/bp/de/jose-goncalves-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/jose-goncalves"></a><span>GONÇALVES José</span></li><li><a style="background: url(images/riders/bp/df/delio-fernandez-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/delio-fernandez"></a><span>FERNÁNDEZ Delio</span></li><li><a style="background: url(images/riders/bp/ad/edvaldas-siskevicius-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/edvaldas-siskevicius"></a><span>ŠIŠKEVIČIUS Evaldas</span></li><li><a style="background: url(images/riders/bp/cf/august-jensen-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/august-jensen"></a><span>JENSEN August</span></li><li><a style="background: url(images/riders/bp/ae/pierre-barbier-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/pierre-barbier"></a><span>BARBIER Pierre</span></li><li><a style="background: url(images/riders/bp/cd/jose-manuel-diaz-gallego-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/jose-manuel-diaz-gallego"></a><span>DÍAZ José Manuel</span></li><li><a style="background: url(images/riders/bp/af/dusan-rajovic-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/dusan-rajovic"></a><span>RAJOVIĆ Dušan</span></li><li><a style="background: url(images/riders/bp/bb/alessandro-fedeli-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alessandro-fedeli"></a><span>FEDELI Alessandro</span></li><li><a style="background: url(images/riders/bp/ee/mathias-le-turnier-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mathias-le-turnier"></a><span>LE TURNIER Mathias</span></li><li><a style="background: url(images/riders/bp/cc/julien-trarieux-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/julien-trarieux"></a><span>TRARIEUX Julien</span></li><li><a style="background: url(images/riders/bp/fa/yakob-debesay-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/yakob-debesay"></a><span>DEBESAY Yakob</span></li><li><a style="background: url(images/riders/bp/ec/lucas-de-rossi-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/lucas-de-rossi"></a><span>DE ROSSI Lucas</span></li><li><a style="background: url(images/riders/bp/dd/clement-carisey-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/clement-carisey"></a><span>CARISEY Clément</span></li><li><a style="background: url(images/riders/bp/cc/alexandre-delettre-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alexandre-delettre"></a><span>DELETTRE Alexandre</span></li><li><a style="background: url(images/riders/bp/fe/mulu-kinfe-hailemichael-2021.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mulu-kinfe-hailemichael"></a><span>HAILEMICHAEL Mulu Kinfe</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a><div class="mt10 desktop-ad team-after-photos "></div><div class="mt10 mob-ad team-between-stats "></div></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a  class="taba" href="#">career points</a></li>
+<div class="mt20"><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"></ul><div class="clear"></div><div class="mt10 desktop-ad team-after-photos "></div><div class="mt10 mob-ad team-between-stats "></div></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a  class="taba" href="#">career points</a></li>
 <li class="tabb cur" ><a  class="tabb cur" href="#">name</a></li>
 <li class="tabe" ><a  class="tabe" href="#">ranking</a></li>
 <li class="tabc" ><a  class="tabc" href="#">age</a></li>
 <li class="tabd" ><a  class="tabd" href="#">country</a></li>
 </ul></div>
 <div class="hide ttabs taba"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag it"></span> <a    href="rider/mauro-finetto">FINETTO Mauro</a></div><div class="right   " >3737</div></li>
-<li class="" ><div>2</div><div><span class="flag es"></span> <a    href="rider/eduard-prades">PRADES Eduard</a></div><div class="right   " >2187</div></li>
-<li class="" ><div>3</div><div><span class="flag ro"></span> <a    href="rider/eduard-michael-grosu">GROSU Eduard-Michael</a></div><div class="right   " >1866</div></li>
+<li class="" ><div>2</div><div><span class="flag es"></span> <a    href="rider/eduard-prades">PRADES Eduard</a></div><div class="right   " >2242</div></li>
+<li class="" ><div>3</div><div><span class="flag ro"></span> <a    href="rider/eduard-michael-grosu">GROSU Eduard-Michael</a></div><div class="right   " >1878</div></li>
 <li class="" ><div>4</div><div><span class="flag fr"></span> <a    href="rider/justin-jules">JULES Justin</a></div><div class="right   " >1763</div></li>
 <li class="" ><div>5</div><div><span class="flag pt"></span> <a    href="rider/jose-goncalves">GONÇALVES José</a></div><div class="right   " >1623</div></li>
-<li class="" ><div>6</div><div><span class="flag es"></span> <a    href="rider/delio-fernandez">FERNÁNDEZ Delio</a></div><div class="right   " >1258</div></li>
-<li class="" ><div>7</div><div><span class="flag lt"></span> <a    href="rider/edvaldas-siskevicius">ŠIŠKEVIČIUS Evaldas</a></div><div class="right   " >1225</div></li>
-<li class="" ><div>8</div><div><span class="flag no"></span> <a    href="rider/august-jensen">JENSEN August</a></div><div class="right   " >912</div></li>
-<li class="" ><div>9</div><div><span class="flag er"></span> <a    href="rider/biniam-ghirmay">GHIRMAY HAILU Biniam</a></div><div class="right   " >641</div></li>
-<li class="" ><div>10</div><div><span class="flag fr"></span> <a    href="rider/pierre-barbier">BARBIER Pierre</a></div><div class="right   " >447</div></li>
+<li class="" ><div>6</div><div><span class="flag es"></span> <a    href="rider/delio-fernandez">FERNÁNDEZ Delio</a></div><div class="right   " >1264</div></li>
+<li class="" ><div>7</div><div><span class="flag lt"></span> <a    href="rider/edvaldas-siskevicius">ŠIŠKEVIČIUS Evaldas</a></div><div class="right   " >1232</div></li>
+<li class="" ><div>8</div><div><span class="flag no"></span> <a    href="rider/august-jensen">JENSEN August</a></div><div class="right   " >944</div></li>
+<li class="" ><div>9</div><div><span class="flag er"></span> <a    href="rider/biniam-ghirmay">GHIRMAY HAILU Biniam</a></div><div class="right   " >787</div></li>
+<li class="" ><div>10</div><div><span class="flag fr"></span> <a    href="rider/pierre-barbier">BARBIER Pierre</a></div><div class="right   " >451</div></li>
 <li class="" ><div>11</div><div><span class="flag es"></span> <a    href="rider/jose-manuel-diaz-gallego">DÍAZ José Manuel</a></div><div class="right   " >442</div></li>
-<li class="" ><div>12</div><div><span class="flag rs"></span> <a    href="rider/dusan-rajovic">RAJOVIĆ Dušan</a></div><div class="right   " >405</div></li>
+<li class="" ><div>12</div><div><span class="flag rs"></span> <a    href="rider/dusan-rajovic">RAJOVIĆ Dušan</a></div><div class="right   " >411</div></li>
 <li class="" ><div>13</div><div><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right   " >294</div></li>
 <li class="" ><div>14</div><div><span class="flag fr"></span> <a    href="rider/mathias-le-turnier">LE TURNIER Mathias</a></div><div class="right   " >239</div></li>
-<li class="" ><div>15</div><div><span class="flag fr"></span> <a    href="rider/julien-trarieux">TRARIEUX Julien</a></div><div class="right   " >158</div></li>
+<li class="" ><div>15</div><div><span class="flag fr"></span> <a    href="rider/julien-trarieux">TRARIEUX Julien</a></div><div class="right   " >184</div></li>
 <li class="" ><div>16</div><div><span class="flag er"></span> <a    href="rider/yakob-debesay">DEBESAY Yakob</a></div><div class="right   " >149</div></li>
-<li class="" ><div>17</div><div><span class="flag fr"></span> <a    href="rider/lucas-de-rossi">DE ROSSI Lucas</a></div><div class="right   " >134</div></li>
-<li class="" ><div>18</div><div><span class="flag fr"></span> <a    href="rider/clement-carisey">CARISEY Clément</a></div><div class="right   " >132</div></li>
-<li class="" ><div>19</div><div><span class="flag fr"></span> <a    href="rider/alexandre-delettre">DELETTRE Alexandre</a></div><div class="right   " >128</div></li>
+<li class="" ><div>17</div><div><span class="flag fr"></span> <a    href="rider/alexandre-delettre">DELETTRE Alexandre</a></div><div class="right   " >146</div></li>
+<li class="" ><div>18</div><div><span class="flag fr"></span> <a    href="rider/lucas-de-rossi">DE ROSSI Lucas</a></div><div class="right   " >134</div></li>
+<li class="" ><div>19</div><div><span class="flag fr"></span> <a    href="rider/clement-carisey">CARISEY Clément</a></div><div class="right   " >132</div></li>
 <li class="" ><div>20</div><div><span class="flag jp"></span> <a    href="rider/atsushi-oka">OKA Atsushi</a></div><div class="right   " >92</div></li>
 <li class="" ><div>21</div><div><span class="flag et"></span> <a    href="rider/mulu-kinfe-hailemichael">HAILEMICHAEL Mulu Kinfe</a></div><div class="right   " >92</div></li>
-<li class="" ><div>22</div><div><span class="flag fr"></span> <a    href="rider/clement-berthet">BERTHET Clément</a></div><div class="right   " >65</div></li>
+<li class="" ><div>22</div><div><span class="flag fr"></span> <a    href="rider/clement-berthet">BERTHET Clément</a></div><div class="right   " >91</div></li>
 </ul></div>
-<div class="hide ttabs tabe"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag er"></span> <a    href="rider/biniam-ghirmay">GHIRMAY HAILU Biniam</a></div><div class="right ar w12 fs11 clr555   " >(316)</div><div class="right ac   " >144</div></li>
-<li class="" ><div>2</div><div><span class="flag es"></span> <a    href="rider/jose-manuel-diaz-gallego">DÍAZ José Manuel</a></div><div class="right ar w12 fs11 clr555   " >(266)</div><div class="right ac   " >179</div></li>
-<li class="" ><div>3</div><div><span class="flag ro"></span> <a    href="rider/eduard-michael-grosu">GROSU Eduard-Michael</a></div><div class="right ar w12 fs11 clr555   " >(141)</div><div class="right ac   " >335</div></li>
-<li class="" ><div>4</div><div><span class="flag fr"></span> <a    href="rider/pierre-barbier">BARBIER Pierre</a></div><div class="right ar w12 fs11 clr555   " >(130)</div><div class="right ac   " >358</div></li>
-<li class="" ><div>5</div><div><span class="flag lt"></span> <a    href="rider/edvaldas-siskevicius">ŠIŠKEVIČIUS Evaldas</a></div><div class="right ar w12 fs11 clr555   " >(104)</div><div class="right ac   " >413</div></li>
-<li class="" ><div>6</div><div><span class="flag es"></span> <a    href="rider/delio-fernandez">FERNÁNDEZ Delio</a></div><div class="right ar w12 fs11 clr555   " >(98)</div><div class="right ac   " >426</div></li>
-<li class="" ><div>7</div><div><span class="flag fr"></span> <a    href="rider/alexandre-delettre">DELETTRE Alexandre</a></div><div class="right ar w12 fs11 clr555   " >(93)</div><div class="right ac   " >438</div></li>
-<li class="" ><div>8</div><div><span class="flag it"></span> <a    href="rider/mauro-finetto">FINETTO Mauro</a></div><div class="right ar w12 fs11 clr555   " >(84)</div><div class="right ac   " >467</div></li>
-<li class="" ><div>9</div><div><span class="flag es"></span> <a    href="rider/eduard-prades">PRADES Eduard</a></div><div class="right ar w12 fs11 clr555   " >(75)</div><div class="right ac   " >510</div></li>
-<li class="" ><div>10</div><div><span class="flag fr"></span> <a    href="rider/clement-berthet">BERTHET Clément</a></div><div class="right ar w12 fs11 clr555   " >(65)</div><div class="right ac   " >555</div></li>
-<li class="" ><div>11</div><div><span class="flag rs"></span> <a    href="rider/dusan-rajovic">RAJOVIĆ Dušan</a></div><div class="right ar w12 fs11 clr555   " >(56)</div><div class="right ac   " >611</div></li>
-<li class="" ><div>12</div><div><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right ar w12 fs11 clr555   " >(43)</div><div class="right ac   " >705</div></li>
-<li class="" ><div>13</div><div><span class="flag no"></span> <a    href="rider/august-jensen">JENSEN August</a></div><div class="right ar w12 fs11 clr555   " >(43)</div><div class="right ac   " >703</div></li>
-<li class="" ><div>14</div><div><span class="flag fr"></span> <a    href="rider/clement-carisey">CARISEY Clément</a></div><div class="right ar w12 fs11 clr555   " >(36)</div><div class="right ac   " >776</div></li>
-<li class="" ><div>15</div><div><span class="flag fr"></span> <a    href="rider/julien-trarieux">TRARIEUX Julien</a></div><div class="right ar w12 fs11 clr555   " >(26)</div><div class="right ac   " >895</div></li>
-<li class="" ><div>16</div><div><span class="flag er"></span> <a    href="rider/yakob-debesay">DEBESAY Yakob</a></div><div class="right ar w12 fs11 clr555   " >(8)</div><div class="right ac   " >1426</div></li>
-<li class="" ><div>17</div><div><span class="flag et"></span> <a    href="rider/mulu-kinfe-hailemichael">HAILEMICHAEL Mulu Kinfe</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>18</div><div><span class="flag jp"></span> <a    href="rider/atsushi-oka">OKA Atsushi</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>19</div><div><span class="flag fr"></span> <a    href="rider/justin-jules">JULES Justin</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<div class="hide ttabs tabe"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag er"></span> <a    href="rider/biniam-ghirmay">GHIRMAY HAILU Biniam</a></div><div class="right ar w12 fs11 clr555   " >(424)</div><div class="right ac   " >118</div></li>
+<li class="" ><div>2</div><div><span class="flag es"></span> <a    href="rider/jose-manuel-diaz-gallego">DÍAZ José Manuel</a></div><div class="right ar w12 fs11 clr555   " >(266)</div><div class="right ac   " >201</div></li>
+<li class="" ><div>3</div><div><span class="flag es"></span> <a    href="rider/eduard-prades">PRADES Eduard</a></div><div class="right ar w12 fs11 clr555   " >(130)</div><div class="right ac   " >377</div></li>
+<li class="" ><div>4</div><div><span class="flag fr"></span> <a    href="rider/pierre-barbier">BARBIER Pierre</a></div><div class="right ar w12 fs11 clr555   " >(118)</div><div class="right ac   " >406</div></li>
+<li class="" ><div>5</div><div><span class="flag ro"></span> <a    href="rider/eduard-michael-grosu">GROSU Eduard-Michael</a></div><div class="right ar w12 fs11 clr555   " >(113)</div><div class="right ac   " >419</div></li>
+<li class="" ><div>6</div><div><span class="flag fr"></span> <a    href="rider/alexandre-delettre">DELETTRE Alexandre</a></div><div class="right ar w12 fs11 clr555   " >(111)</div><div class="right ac   " >430</div></li>
+<li class="" ><div>7</div><div><span class="flag es"></span> <a    href="rider/delio-fernandez">FERNÁNDEZ Delio</a></div><div class="right ar w12 fs11 clr555   " >(104)</div><div class="right ac   " >442</div></li>
+<li class="" ><div>8</div><div><span class="flag fr"></span> <a    href="rider/clement-berthet">BERTHET Clément</a></div><div class="right ar w12 fs11 clr555   " >(91)</div><div class="right ac   " >477</div></li>
+<li class="" ><div>9</div><div><span class="flag lt"></span> <a    href="rider/edvaldas-siskevicius">ŠIŠKEVIČIUS Evaldas</a></div><div class="right ar w12 fs11 clr555   " >(81)</div><div class="right ac   " >507</div></li>
+<li class="" ><div>10</div><div><span class="flag it"></span> <a    href="rider/mauro-finetto">FINETTO Mauro</a></div><div class="right ar w12 fs11 clr555   " >(59)</div><div class="right ac   " >612</div></li>
+<li class="" ><div>11</div><div><span class="flag fr"></span> <a    href="rider/julien-trarieux">TRARIEUX Julien</a></div><div class="right ar w12 fs11 clr555   " >(52)</div><div class="right ac   " >661</div></li>
+<li class="" ><div>12</div><div><span class="flag rs"></span> <a    href="rider/dusan-rajovic">RAJOVIĆ Dušan</a></div><div class="right ar w12 fs11 clr555   " >(46)</div><div class="right ac   " >711</div></li>
+<li class="" ><div>13</div><div><span class="flag no"></span> <a    href="rider/august-jensen">JENSEN August</a></div><div class="right ar w12 fs11 clr555   " >(42)</div><div class="right ac   " >748</div></li>
+<li class="" ><div>14</div><div><span class="flag fr"></span> <a    href="rider/clement-carisey">CARISEY Clément</a></div><div class="right ar w12 fs11 clr555   " >(36)</div><div class="right ac   " >797</div></li>
+<li class="" ><div>15</div><div><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right ar w12 fs11 clr555   " >(25)</div><div class="right ac   " >942</div></li>
+<li class="" ><div>16</div><div><span class="flag et"></span> <a    href="rider/mulu-kinfe-hailemichael">HAILEMICHAEL Mulu Kinfe</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>17</div><div><span class="flag jp"></span> <a    href="rider/atsushi-oka">OKA Atsushi</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>18</div><div><span class="flag fr"></span> <a    href="rider/justin-jules">JULES Justin</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>19</div><div><span class="flag er"></span> <a    href="rider/yakob-debesay">DEBESAY Yakob</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
 <li class="" ><div>20</div><div><span class="flag pt"></span> <a    href="rider/jose-goncalves">GONÇALVES José</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
 <li class="" ><div>21</div><div><span class="flag fr"></span> <a    href="rider/mathias-le-turnier">LE TURNIER Mathias</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
 <li class="" ><div>22</div><div><span class="flag fr"></span> <a    href="rider/lucas-de-rossi">DE ROSSI Lucas</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
 </ul></div>
-<div class="ttabs tabb"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag fr"></span> <a    href="rider/pierre-barbier">BARBIER Pierre</a></div><div class="fs11 clr999   " ></div></li>
+<div class="ttabs tabb"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag fr"></span> <a    href="rider/pierre-barbier">BARBIER Pierre</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
 <li class="" ><div>2</div><div><span class="flag fr"></span> <a    href="rider/clement-berthet">BERTHET Clément</a></div><div class="fs11 clr999   " > (until 31/07)</div></li>
-<li class="" ><div>3</div><div><span class="flag fr"></span> <a    href="rider/clement-carisey">CARISEY Clément</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>4</div><div><span class="flag fr"></span> <a    href="rider/lucas-de-rossi">DE ROSSI Lucas</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>5</div><div><span class="flag er"></span> <a    href="rider/yakob-debesay">DEBESAY Yakob</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>6</div><div><span class="flag fr"></span> <a    href="rider/alexandre-delettre">DELETTRE Alexandre</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>7</div><div><span class="flag es"></span> <a    href="rider/jose-manuel-diaz-gallego">DÍAZ José Manuel</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>8</div><div><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>9</div><div><span class="flag es"></span> <a    href="rider/delio-fernandez">FERNÁNDEZ Delio</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>10</div><div><span class="flag it"></span> <a    href="rider/mauro-finetto">FINETTO Mauro</a></div><div class="fs11 clr999   " ></div></li>
+<li class="" ><div>3</div><div><span class="flag fr"></span> <a    href="rider/clement-carisey">CARISEY Clément</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>4</div><div><span class="flag fr"></span> <a    href="rider/lucas-de-rossi">DE ROSSI Lucas</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>5</div><div><span class="flag er"></span> <a    href="rider/yakob-debesay">DEBESAY Yakob</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>6</div><div><span class="flag fr"></span> <a    href="rider/alexandre-delettre">DELETTRE Alexandre</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>7</div><div><span class="flag es"></span> <a    href="rider/jose-manuel-diaz-gallego">DÍAZ José Manuel</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>8</div><div><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>9</div><div><span class="flag es"></span> <a    href="rider/delio-fernandez">FERNÁNDEZ Delio</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>10</div><div><span class="flag it"></span> <a    href="rider/mauro-finetto">FINETTO Mauro</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
 <li class="" ><div>11</div><div><span class="flag er"></span> <a    href="rider/biniam-ghirmay">GHIRMAY HAILU Biniam</a></div><div class="fs11 clr999   " > (until 31/05)</div></li>
-<li class="" ><div>12</div><div><span class="flag pt"></span> <a    href="rider/jose-goncalves">GONÇALVES José</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>13</div><div><span class="flag ro"></span> <a    href="rider/eduard-michael-grosu">GROSU Eduard-Michael</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>14</div><div><span class="flag et"></span> <a    href="rider/mulu-kinfe-hailemichael">HAILEMICHAEL Mulu Kinfe</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>15</div><div><span class="flag no"></span> <a    href="rider/august-jensen">JENSEN August</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>16</div><div><span class="flag fr"></span> <a    href="rider/justin-jules">JULES Justin</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>17</div><div><span class="flag fr"></span> <a    href="rider/mathias-le-turnier">LE TURNIER Mathias</a></div><div class="fs11 clr999   " ></div></li>
+<li class="" ><div>12</div><div><span class="flag pt"></span> <a    href="rider/jose-goncalves">GONÇALVES José</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>13</div><div><span class="flag ro"></span> <a    href="rider/eduard-michael-grosu">GROSU Eduard-Michael</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>14</div><div><span class="flag et"></span> <a    href="rider/mulu-kinfe-hailemichael">HAILEMICHAEL Mulu Kinfe</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>15</div><div><span class="flag no"></span> <a    href="rider/august-jensen">JENSEN August</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>16</div><div><span class="flag fr"></span> <a    href="rider/justin-jules">JULES Justin</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>17</div><div><span class="flag fr"></span> <a    href="rider/mathias-le-turnier">LE TURNIER Mathias</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
 <li class="" ><div>18</div><div><span class="flag jp"></span> <a    href="rider/atsushi-oka">OKA Atsushi</a></div><div class="fs11 clr999   " > (until 28/04)</div></li>
-<li class="" ><div>19</div><div><span class="flag es"></span> <a    href="rider/eduard-prades">PRADES Eduard</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>20</div><div><span class="flag rs"></span> <a    href="rider/dusan-rajovic">RAJOVIĆ Dušan</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>21</div><div><span class="flag lt"></span> <a    href="rider/edvaldas-siskevicius">ŠIŠKEVIČIUS Evaldas</a></div><div class="fs11 clr999   " ></div></li>
-<li class="" ><div>22</div><div><span class="flag fr"></span> <a    href="rider/julien-trarieux">TRARIEUX Julien</a></div><div class="fs11 clr999   " ></div></li>
+<li class="" ><div>19</div><div><span class="flag es"></span> <a    href="rider/eduard-prades">PRADES Eduard</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>20</div><div><span class="flag rs"></span> <a    href="rider/dusan-rajovic">RAJOVIĆ Dušan</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>21</div><div><span class="flag lt"></span> <a    href="rider/edvaldas-siskevicius">ŠIŠKEVIČIUS Evaldas</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
+<li class="" ><div>22</div><div><span class="flag fr"></span> <a    href="rider/julien-trarieux">TRARIEUX Julien</a></div><div class="fs11 clr999   " > (until 10/10)</div></li>
 </ul></div>
 <div class="hide ttabs tabc"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag er"></span> <a    href="rider/biniam-ghirmay">GHIRMAY HAILU Biniam</a></div><div class="right   " >21</div></li>
 <li class="" ><div>2</div><div><span class="flag er"></span> <a    href="rider/yakob-debesay">DEBESAY Yakob</a></div><div class="right   " >22</div></li>
 <li class="" ><div>3</div><div><span class="flag et"></span> <a    href="rider/mulu-kinfe-hailemichael">HAILEMICHAEL Mulu Kinfe</a></div><div class="right   " >22</div></li>
 <li class="" ><div>4</div><div><span class="flag rs"></span> <a    href="rider/dusan-rajovic">RAJOVIĆ Dušan</a></div><div class="right   " >23</div></li>
 <li class="" ><div>5</div><div><span class="flag fr"></span> <a    href="rider/alexandre-delettre">DELETTRE Alexandre</a></div><div class="right   " >23</div></li>
-<li class="" ><div>6</div><div><span class="flag fr"></span> <a    href="rider/pierre-barbier">BARBIER Pierre</a></div><div class="right   " >23</div></li>
+<li class="" ><div>6</div><div><span class="flag fr"></span> <a    href="rider/pierre-barbier">BARBIER Pierre</a></div><div class="right   " >24</div></li>
 <li class="" ><div>7</div><div><span class="flag fr"></span> <a    href="rider/clement-berthet">BERTHET Clément</a></div><div class="right   " >24</div></li>
 <li class="" ><div>8</div><div><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right   " >25</div></li>
 <li class="" ><div>9</div><div><span class="flag jp"></span> <a    href="rider/atsushi-oka">OKA Atsushi</a></div><div class="right   " >26</div></li>
@@ -222,26 +227,26 @@
 <li class="" ><div>17</div><div><span class="flag pt"></span> <a    href="rider/jose-goncalves">GONÇALVES José</a></div><div class="right   " >32</div></li>
 <li class="" ><div>18</div><div><span class="flag lt"></span> <a    href="rider/edvaldas-siskevicius">ŠIŠKEVIČIUS Evaldas</a></div><div class="right   " >32</div></li>
 <li class="" ><div>19</div><div><span class="flag es"></span> <a    href="rider/eduard-prades">PRADES Eduard</a></div><div class="right   " >34</div></li>
-<li class="" ><div>20</div><div><span class="flag fr"></span> <a    href="rider/justin-jules">JULES Justin</a></div><div class="right   " >34</div></li>
+<li class="" ><div>20</div><div><span class="flag fr"></span> <a    href="rider/justin-jules">JULES Justin</a></div><div class="right   " >35</div></li>
 <li class="" ><div>21</div><div><span class="flag es"></span> <a    href="rider/delio-fernandez">FERNÁNDEZ Delio</a></div><div class="right   " >35</div></li>
 <li class="" ><div>22</div><div><span class="flag it"></span> <a    href="rider/mauro-finetto">FINETTO Mauro</a></div><div class="right   " >36</div></li>
 </ul></div>
-<div class="hide ttabs tabd"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag er"></span> <a    href="rider/yakob-debesay">DEBESAY Yakob</a></div></li>
-<li class="" ><div>2</div><div><span class="flag er"></span> <a    href="rider/biniam-ghirmay">GHIRMAY HAILU Biniam</a></div></li>
+<div class="hide ttabs tabd"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag er"></span> <a    href="rider/biniam-ghirmay">GHIRMAY HAILU Biniam</a></div></li>
+<li class="" ><div>2</div><div><span class="flag er"></span> <a    href="rider/yakob-debesay">DEBESAY Yakob</a></div></li>
 <li class="" ><div>3</div><div><span class="flag es"></span> <a    href="rider/eduard-prades">PRADES Eduard</a></div></li>
 <li class="" ><div>4</div><div><span class="flag es"></span> <a    href="rider/delio-fernandez">FERNÁNDEZ Delio</a></div></li>
 <li class="" ><div>5</div><div><span class="flag es"></span> <a    href="rider/jose-manuel-diaz-gallego">DÍAZ José Manuel</a></div></li>
 <li class="" ><div>6</div><div><span class="flag et"></span> <a    href="rider/mulu-kinfe-hailemichael">HAILEMICHAEL Mulu Kinfe</a></div></li>
-<li class="" ><div>7</div><div><span class="flag fr"></span> <a    href="rider/julien-trarieux">TRARIEUX Julien</a></div></li>
-<li class="" ><div>8</div><div><span class="flag fr"></span> <a    href="rider/clement-berthet">BERTHET Clément</a></div></li>
-<li class="" ><div>9</div><div><span class="flag fr"></span> <a    href="rider/clement-carisey">CARISEY Clément</a></div></li>
-<li class="" ><div>10</div><div><span class="flag fr"></span> <a    href="rider/lucas-de-rossi">DE ROSSI Lucas</a></div></li>
-<li class="" ><div>11</div><div><span class="flag fr"></span> <a    href="rider/pierre-barbier">BARBIER Pierre</a></div></li>
-<li class="" ><div>12</div><div><span class="flag fr"></span> <a    href="rider/mathias-le-turnier">LE TURNIER Mathias</a></div></li>
-<li class="" ><div>13</div><div><span class="flag fr"></span> <a    href="rider/alexandre-delettre">DELETTRE Alexandre</a></div></li>
-<li class="" ><div>14</div><div><span class="flag fr"></span> <a    href="rider/justin-jules">JULES Justin</a></div></li>
-<li class="" ><div>15</div><div><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div></li>
-<li class="" ><div>16</div><div><span class="flag it"></span> <a    href="rider/mauro-finetto">FINETTO Mauro</a></div></li>
+<li class="" ><div>7</div><div><span class="flag fr"></span> <a    href="rider/justin-jules">JULES Justin</a></div></li>
+<li class="" ><div>8</div><div><span class="flag fr"></span> <a    href="rider/julien-trarieux">TRARIEUX Julien</a></div></li>
+<li class="" ><div>9</div><div><span class="flag fr"></span> <a    href="rider/clement-berthet">BERTHET Clément</a></div></li>
+<li class="" ><div>10</div><div><span class="flag fr"></span> <a    href="rider/clement-carisey">CARISEY Clément</a></div></li>
+<li class="" ><div>11</div><div><span class="flag fr"></span> <a    href="rider/lucas-de-rossi">DE ROSSI Lucas</a></div></li>
+<li class="" ><div>12</div><div><span class="flag fr"></span> <a    href="rider/pierre-barbier">BARBIER Pierre</a></div></li>
+<li class="" ><div>13</div><div><span class="flag fr"></span> <a    href="rider/mathias-le-turnier">LE TURNIER Mathias</a></div></li>
+<li class="" ><div>14</div><div><span class="flag fr"></span> <a    href="rider/alexandre-delettre">DELETTRE Alexandre</a></div></li>
+<li class="" ><div>15</div><div><span class="flag it"></span> <a    href="rider/mauro-finetto">FINETTO Mauro</a></div></li>
+<li class="" ><div>16</div><div><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div></li>
 <li class="" ><div>17</div><div><span class="flag jp"></span> <a    href="rider/atsushi-oka">OKA Atsushi</a></div></li>
 <li class="" ><div>18</div><div><span class="flag lt"></span> <a    href="rider/edvaldas-siskevicius">ŠIŠKEVIČIUS Evaldas</a></div></li>
 <li class="" ><div>19</div><div><span class="flag no"></span> <a    href="rider/august-jensen">JENSEN August</a></div></li>
@@ -267,21 +272,16 @@
 </tbody></table></div>
 <div class="mt30"><h3>Points per season</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 20%; ">year</th><th style="width: 60%; ">points</th><th class="ac  "  style="width: 20%; ">position</th></tr></thead><tbody>
-<tr ><td>2021</td><td><div class="barCont"><div class="bg left green2" style="width: 60.6%;  height: 14px;  "></div></div></td><td class="ac  " >27</td></tr>
 <tr ><td>2020</td><td><div class="barCont"><div class="bg left green2" style="width: 81.9%;  height: 14px;  "></div></div></td><td class="ac  " >23</td></tr>
 <tr ><td>2019</td><td><div class="barCont"><div class="bg left green2" style="width: 98.3%;  height: 14px;  "></div></div></td><td class="ac  " >31</td></tr>
 <tr ><td>2018</td><td><div class="barCont"><div class="bg left green2" style="width: 100%;  height: 14px;  "></div></div></td><td class="ac  " >31</td></tr>
 <tr ><td>2017</td><td><div class="barCont"><div class="bg left green2" style="width: 98.9%;  height: 14px;  "></div></div></td><td class="ac  " >28</td></tr>
+<tr ><td>2016</td><td><div class="barCont"><div class="bg left green2" style="width: 54%;  height: 14px;  "></div></div></td><td class="ac  " >39</td></tr>
 </tbody></table></div>
 </div><div class="w70 left mb_w100"><div class="mt10 mob-ad team-between-stats "></div><div class="mt20"><h3>Upcoming races for team</h3>
 <table class="basic"  style=""><thead><tr><th class="cu600  "  style="width: 13%; ">Date</th><th class="cs600 hide  "  style="width: 17.4%; ">Date</th><th style="width: 34.8%; ">Race</th><th class="cu600 fs10 clr555  "  style="width: 34.8%; ">Riders</th></tr></thead><tbody>
-<tr ><td class="cu600  " >12/09</td><td class="cs600 hide  " >12/09</td><td><span class="flag fr"></span> <a    href="race/gp-de-fourmies/2021">GP de Fourmies / La Voix du Nord</a></td><td class="cu600 fs10 clr555  " >Grosu, Barbier, Carisey, Delettre, Prades, Trarieux, Gonçalves</td></tr>
-<tr ><td class="cu600  " >14/09 - 18/09</td><td class="cs600 hide  " >14/09 - 18/09</td><td><span class="flag lu"></span> <a    href="race/tour-de-luxembourg/2021">Skoda-Tour de Luxembourg</a></td><td class="cu600 fs10 clr555  " >Grosu, Fernández, Jensen, Prades, Trarieux, Šiškevičius</td></tr>
-<tr ><td class="cu600  " >19/09</td><td class="cs600 hide  " >19/09</td><td><span class="flag fr"></span> <a    href="race/gp-d-isbergues/2021">Grand Prix d'Isbergues - Pas de Calais</a></td><td class="cu600 fs10 clr555  " >Grosu</td></tr>
-<tr ><td class="cu600  " >01/10</td><td class="cs600 hide  " >01/10</td><td><span class="flag fr"></span> <a    href="race/route-adelie-de-vitre/2021">La Route Adélie de Vitré</a></td><td class="cu600 fs10 clr555  " >Grosu</td></tr>
-<tr ><td class="cu600  " >02/10</td><td class="cs600 hide  " >02/10</td><td><span class="flag fr"></span> <a    href="race/classic-loire-atlantique/2021">Classic Loire Atlantique</a></td><td class="cu600 fs10 clr555  " >Grosu</td></tr>
-<tr class=" hide"  ><td class="cu600  " >03/10</td><td class="cs600 hide  " >03/10</td><td><span class="flag fr"></span> <a    href="race/paris-roubaix/2021">Paris-Roubaix</a></td><td class="cu600 fs10 clr555  " >Grosu</td></tr>
-</tbody></table><a class="showFullList" href="">show more</a></div>
+<tr ><td class="cu600  " >16/10</td><td class="cs600 hide  " >16/10</td><td><span class="flag fr"></span> <a    href="race/gp-de-plumelec/2021">Grand Prix du Morbihan</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+</tbody></table></div>
 <div class="mt20"><h3>Last victories</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 7.7%; ">#</th><th style="width: 53.8%; ">Race</th><th style="width: 7.7%; ">Class</th><th style="width: 30.8%; ">Winner</th></tr></thead><tbody>
 <tr ><td>5</td><td><span class="flag fr"></span> <a    href="race/tour-du-poitou-charentes-et-de-la-vienne/2021/stage-5">Tour Poitou - Charentes en Nouvelle Aquitaine | Stage 5</a></td><td>2.1</td><td>CARISEY Clément</td></tr>
@@ -294,14 +294,14 @@
 <table class="basic"  style=""><thead><tr><th style="width: 7.7%; ">Result</th><th style="width: 53.8%; ">Race</th><th style="width: 7.7%; ">Class</th><th style="width: 30.8%; ">Rider</th></tr></thead><tbody>
 <tr ><td>1</td><td><span class="flag tr"></span> <a    href="race/tour-of-turkey/2021/gc">Presidential Cycling Tour of Turkey </a></td><td>2.Pro</td><td>DÍAZ José Manuel</td></tr>
 <tr ><td>6</td><td><span class="flag no"></span> <a    href="race/arctic-race-of-norway/2021/gc">Arctic Race of Norway </a></td><td>2.Pro</td><td>PRADES Eduard</td></tr>
+<tr ><td>2</td><td><span class="flag fr"></span> <a    href="race/tour-de-vendee/2021/result">Tour de Vendée </a></td><td>1.1</td><td>PRADES Eduard</td></tr>
 <tr ><td>7</td><td><span class="flag tr"></span> <a    href="race/tour-of-turkey/2021/gc">Presidential Cycling Tour of Turkey </a></td><td>2.Pro</td><td>FERNÁNDEZ Delio</td></tr>
 <tr ><td>5</td><td><span class="flag be"></span> <a    href="race/bredene-koksijde-classic/2021/result">Bredene Koksijde Classic </a></td><td>1.Pro</td><td>GROSU Eduard-Michael</td></tr>
-<tr ><td>3</td><td><span class="flag fr"></span> <a    href="race/cholet-pays-de-loire/2021/result">Cholet - Pays de la Loire </a></td><td>1.1</td><td>BARBIER Pierre</td></tr>
+<tr class=" hide"  ><td>3</td><td><span class="flag fr"></span> <a    href="race/cholet-pays-de-loire/2021/result">Cholet - Pays de la Loire </a></td><td>1.1</td><td>BARBIER Pierre</td></tr>
 <tr class=" hide"  ><td>11</td><td><span class="flag fr"></span> <a    href="race/boucles-de-la-mayenne/2021/gc">Boucles de la Mayenne </a></td><td>2.Pro</td><td>DELETTRE Alexandre</td></tr>
 <tr class=" hide"  ><td>7</td><td><span class="flag fr"></span> <a    href="race/la-drome-classic/2021/result">Royal Bernard Drome Classic </a></td><td>1.Pro</td><td>GHIRMAY HAILU Biniam</td></tr>
-<tr class=" hide"  ><td>12</td><td><span class="flag pt"></span> <a    href="race/volta-ao-algarve/2021/gc">Volta ao Algarve em Bicicleta </a></td><td>2.Pro</td><td>FERNÁNDEZ Delio</td></tr>
-<tr class=" hide"  ><td>4</td><td><span class="flag be"></span> <a    href="race/grote-prijs-jean-pierre-monsere/2021/result">Grote prijs Jean-Pierre Monseré </a></td><td>1.1</td><td>BARBIER Pierre</td></tr>
 <tr class=" hide"  ><td>12</td><td><span class="flag tr"></span> <a    href="race/tour-of-turkey/2021/gc">Presidential Cycling Tour of Turkey </a></td><td>2.Pro</td><td>FINETTO Mauro</td></tr>
+<tr class=" hide"  ><td>12</td><td><span class="flag pt"></span> <a    href="race/volta-ao-algarve/2021/gc">Volta ao Algarve em Bicicleta </a></td><td>2.Pro</td><td>FERNÁNDEZ Delio</td></tr>
 </tbody></table><a class="showFullList" href="">show more</a></div>
 </div>  <script>
   $(document).ready(function(){
@@ -357,7 +357,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0557 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1146kb) peak (1279kb)</span></li></ul></li>
+<li><span>0.0763 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1129kb) peak (1255kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="2101" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

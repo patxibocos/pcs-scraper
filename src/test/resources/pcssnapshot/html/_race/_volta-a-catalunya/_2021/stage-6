@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -269,10 +274,10 @@
 <tr data-team="1258" data-nation="dk"><td>140</td><td class="gc hide" >84</td><td class="gc hide" >+52:30</td><td class="bibs hide" >87</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="mattias-skjelmose-jensen" data-id="208786" style="margin: 0; " /><span></span></td><td><div><span class="flag dk"></span> <a href="rider/mattias-skjelmose-jensen">SKJELMOSE JENSEN Mattias</a><span class="showIfMobile riderteam">Trek - Segafredo</span></div></td><td class="age hide" >20</td><td class="cu600" ><a href="team/trek-segafredo-2021">Trek - Segafredo</a></td><td></td><td></td><td class="time ar" ><span>9:31</span><div class="hide">9:31</div></td></tr>
 <tr data-team="1411" data-nation="dk"><td>141</td><td class="gc hide" >142</td><td class="gc hide" >+1:46:06</td><td class="bibs hide" >67</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="frederik-wandahl" data-id="216889" style="margin: 0; " /><span></span></td><td><div><span class="flag dk"></span> <a href="rider/frederik-wandahl">WANDAHL Frederik</a><span class="showIfMobile riderteam">BORA - hansgrohe</span></div></td><td class="age hide" >19</td><td class="cu600" ><a href="team/bora-hansgrohe-2021">BORA - hansgrohe</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">9:31</div></td></tr>
 <tr data-team="4831" data-nation="es"><td>142</td><td class="gc hide" >110</td><td class="gc hide" >+1:04:45</td><td class="bibs hide" >246</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="mikel-iturria" data-id="174487" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/mikel-iturria">ITURRIA Mikel</a><span class="showIfMobile riderteam">Euskaltel - Euskadi</span></div></td><td class="age hide" >29</td><td class="cu600" ><a href="team/euskaltel-euskadi-2021">Euskaltel - Euskadi</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">9:31</div></td></tr>
-<tr data-team="1258" data-nation="it"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >84</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="giulio-ciccone" data-id="170183" style="margin: 0; " /><span></span></td><td><div><span class="flag it"></span> <a href="rider/giulio-ciccone">CICCONE Giulio</a><span class="showIfMobile riderteam">Trek - Segafredo</span></div></td><td class="age hide" >26</td><td class="cu600" ><a href="team/trek-segafredo-2021">Trek - Segafredo</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1235" data-nation="us"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >226</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="nathan-brown" data-id="140145" style="margin: 0; " /><span></span></td><td><div><span class="flag us"></span> <a href="rider/nathan-brown">BROWN Nathan</a><span class="showIfMobile riderteam">Rally Cycling</span></div></td><td class="age hide" >29</td><td class="cu600" ><a href="team/rally-cycling-2021">Rally Cycling</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="1136" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >154</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jose-herrada" data-id="140205" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/jose-herrada">HERRADA José</a><span class="showIfMobile riderteam">Cofidis, Solutions Crédits</span></div></td><td class="age hide" >35</td><td class="cu600" ><a href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="1258" data-nation="it"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >84</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="giulio-ciccone" data-id="170183" style="margin: 0; " /><span></span></td><td><div><span class="flag it"></span> <a href="rider/giulio-ciccone">CICCONE Giulio</a><span class="showIfMobile riderteam">Trek - Segafredo</span></div></td><td class="age hide" >26</td><td class="cu600" ><a href="team/trek-segafredo-2021">Trek - Segafredo</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1136" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >151</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="ruben-fernandez" data-id="138963" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/ruben-fernandez">FERNÁNDEZ Rubén</a><span class="showIfMobile riderteam">Cofidis, Solutions Crédits</span></div></td><td class="age hide" >30</td><td class="cu600" ><a href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="1136" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >154</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jose-herrada" data-id="140205" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/jose-herrada">HERRADA José</a><span class="showIfMobile riderteam">Cofidis, Solutions Crédits</span></div></td><td class="age hide" >35</td><td class="cu600" ><a href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div></div><div class="result-cont hide" data-id="264879">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -646,7 +651,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0948 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2280kb) peak (2468kb)</span></li></ul></li>
+<li><span>0.0830 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2278kb) peak (2464kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

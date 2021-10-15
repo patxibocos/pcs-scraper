@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -308,9 +313,9 @@
 <tr data-team="1207" data-nation="no"><td>179</td><td class="gc hide" >179</td><td class="gc hide" >+16:39</td><td class="bibs hide" >175</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="amund-grondahl-jansen" data-id="164908" style="margin: 0; " /><span></span></td><td><div><span class="flag no"></span> <a href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a><span class="showIfMobile riderteam">Team BikeExchange</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/teambikeexchange-2021">Team BikeExchange</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">16:29</div></td></tr>
 <tr data-team="1253" data-nation="ch"><td>180</td><td class="gc hide" >180</td><td class="gc hide" >+18:19</td><td class="bibs hide" >5</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="marc-hirschi" data-id="194909" style="margin: 0; " /><span></span></td><td><div><span class="flag ch"></span> <a href="rider/marc-hirschi">HIRSCHI Marc</a><span class="showIfMobile riderteam">UAE-Team Emirates</span></div></td><td class="age hide" >22</td><td class="cu600" ><a href="team/uae-team-emirates-2021">UAE-Team Emirates</a></td><td></td><td></td><td class="time ar" ><span>18:09</span><div class="hide">18:09</div></td></tr>
 <tr data-team="2040" data-nation="es"><td>181</td><td class="gc hide" >181</td><td class="gc hide" >+24:48</td><td class="bibs hide" >66</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="marc-soler" data-id="164709" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/marc-soler">SOLER Marc</a><span class="showIfMobile riderteam">Movistar Team</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/movistar-team-2021">Movistar Team</a></td><td></td><td></td><td class="time ar" ><span>24:38</span><div class="hide">24:38</div></td></tr>
-<tr data-team="1187" data-nation="lt"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >85</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="ignatas-konovalovas" data-id="140319" style="margin: 0; " /><span></span></td><td><div><span class="flag lt"></span> <a href="rider/ignatas-konovalovas">KONOVALOVAS Ignatas</a><span class="showIfMobile riderteam">Groupama - FDJ</span></div></td><td class="age hide" >35</td><td class="cu600" ><a href="team/groupama-fdj-2021">Groupama - FDJ</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1360" data-nation="de"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >148</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jasha-sutterlin" data-id="140258" style="margin: 0; " /><span></span></td><td><div><span class="flag de"></span> <a href="rider/jasha-sutterlin">SÜTTERLIN Jasha</a><span class="showIfMobile riderteam">Team DSM</span></div></td><td class="age hide" >28</td><td class="cu600" ><a href="team/team-dsm-2021">Team DSM</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="4627" data-nation="fr"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >226</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="cyril-lemoine" data-id="140596" style="margin: 0; " /><span></span></td><td><div><span class="flag fr"></span> <a href="rider/cyril-lemoine">LEMOINE Cyril</a><span class="showIfMobile riderteam">B&B Hotels p/b KTM</span></div></td><td class="age hide" >38</td><td class="cu600" ><a href="team/b-b-hotels-pb-ktm-2021">B&B Hotels p/b KTM</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="1187" data-nation="lt"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >85</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="ignatas-konovalovas" data-id="140319" style="margin: 0; " /><span></span></td><td><div><span class="flag lt"></span> <a href="rider/ignatas-konovalovas">KONOVALOVAS Ignatas</a><span class="showIfMobile riderteam">Groupama - FDJ</span></div></td><td class="age hide" >35</td><td class="cu600" ><a href="team/groupama-fdj-2021">Groupama - FDJ</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div><div style="text-align: right; font-size: 11px; ">Timelimit 14%, or 5:18:09 (+39:04)</div></div><div class="result-cont hide" data-id="266533">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -672,7 +677,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0758 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2103kb) peak (2350kb)</span></li></ul></li>
+<li><span>0.0917 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2100kb) peak (2346kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

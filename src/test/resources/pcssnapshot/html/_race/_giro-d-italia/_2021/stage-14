@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -286,11 +291,11 @@
 <tr data-team="1207" data-nation="au"><td>157</td><td class="gc hide" >129</td><td class="gc hide" >+2:37:47</td><td class="bibs hide" >185</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="cameron-meyer" data-id="140301" style="margin: 0; " /><span></span></td><td><div><span class="flag au"></span> <a href="rider/cameron-meyer">MEYER Cameron</a><span class="showIfMobile riderteam">Team BikeExchange</span></div></td><td class="age hide" >33</td><td class="cu600" ><a href="team/teambikeexchange-2021">Team BikeExchange</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">38:40</div></td></tr>
 <tr data-team="1207" data-nation="au"><td>158</td><td class="gc hide" >93</td><td class="gc hide" >+2:00:58</td><td class="bibs hide" >188</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="callum-scotson" data-id="176301" style="margin: 0; " /><span></span></td><td><div><span class="flag au"></span> <a href="rider/callum-scotson">SCOTSON Callum</a><span class="showIfMobile riderteam">Team BikeExchange</span></div></td><td class="age hide" >24</td><td class="cu600" ><a href="team/teambikeexchange-2021">Team BikeExchange</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">38:40</div></td></tr>
 <tr data-team="2040" data-nation="es"><td>159</td><td class="gc hide" >157</td><td class="gc hide" >+3:05:45</td><td class="bibs hide" >177</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="albert-torres" data-id="132221" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/albert-torres">TORRES Albert</a><span class="showIfMobile riderteam">Movistar Team</span></div></td><td class="age hide" >31</td><td class="cu600" ><a href="team/movistar-team-2021">Movistar Team</a></td><td></td><td></td><td class="time ar" ><span>38:43</span><div class="hide">38:43</div></td></tr>
-<tr data-team="1136" data-nation="fr"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >84</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="nicolas-edet" data-id="140627" style="margin: 0; " /><span></span></td><td><div><span class="flag fr"></span> <a href="rider/nicolas-edet">EDET Nicolas</a><span class="showIfMobile riderteam">Cofidis, Solutions Crédits</span></div></td><td class="age hide" >33</td><td class="cu600" ><a href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="2088" data-nation="de"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >165</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="roger-kluge" data-id="140403" style="margin: 0; " /><span></span></td><td><div><span class="flag de"></span> <a href="rider/roger-kluge">KLUGE Roger</a><span class="showIfMobile riderteam">Lotto Soudal</span></div></td><td class="age hide" >35</td><td class="cu600" ><a href="team/lotto-soudal-2021">Lotto Soudal</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="1136" data-nation="fr"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >84</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="nicolas-edet" data-id="140627" style="margin: 0; " /><span></span></td><td><div><span class="flag fr"></span> <a href="rider/nicolas-edet">EDET Nicolas</a><span class="showIfMobile riderteam">Cofidis, Solutions Crédits</span></div></td><td class="age hide" >33</td><td class="cu600" ><a href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="1330" data-nation="nl"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >156</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="dylan-groenewegen" data-id="138396" style="margin: 0; " /><span></span></td><td><div><span class="flag nl"></span> <a href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a><span class="showIfMobile riderteam">Team Jumbo-Visma</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/team-jumbo-visma-2021">Team Jumbo-Visma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1330" data-nation="nl"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >154</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="david-dekker" data-id="192008" style="margin: 0; " /><span></span></td><td><div><span class="flag nl"></span> <a href="rider/david-dekker">DEKKER David</a><span class="showIfMobile riderteam">Team Jumbo-Visma</span></div></td><td class="age hide" >23</td><td class="cu600" ><a href="team/team-jumbo-visma-2021">Team Jumbo-Visma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1360" data-nation="au"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >191</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jai-hindley" data-id="176305" style="margin: 0; " /><span></span></td><td><div><span class="flag au"></span> <a href="rider/jai-hindley">HINDLEY Jai</a><span class="showIfMobile riderteam">Team DSM</span></div></td><td class="age hide" >25</td><td class="cu600" ><a href="team/team-dsm-2021">Team DSM</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="1330" data-nation="nl"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >156</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="dylan-groenewegen" data-id="138396" style="margin: 0; " /><span></span></td><td><div><span class="flag nl"></span> <a href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a><span class="showIfMobile riderteam">Team Jumbo-Visma</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/team-jumbo-visma-2021">Team Jumbo-Visma</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div><div style="text-align: right; font-size: 11px; ">Timelimit 18%, or 6:14:30 (+57:08)</div></div><div class="result-cont hide" data-id="265458">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -763,7 +768,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1133 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2587kb) peak (2761kb)</span></li></ul></li>
+<li><span>0.0960 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2584kb) peak (2757kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

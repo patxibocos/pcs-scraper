@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="team.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -134,15 +139,15 @@
 <li class="tabc" ><a  class="tabc" href="#">age</a></li>
 <li class="tabd" ><a  class="tabd" href="#">country</a></li>
 </ul></div>
-<div class="hide ttabs taba"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag it"></span> <a    href="rider/jakub-mareczko">MARECZKO Jakub</a></div><div class="right   " >2312</div></li>
+<div class="hide ttabs taba"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag it"></span> <a    href="rider/jakub-mareczko">MARECZKO Jakub</a></div><div class="right   " >2370</div></li>
 <li class="" ><div>2</div><div><span class="flag it"></span> <a    href="rider/marco-frapporti">FRAPPORTI Marco</a></div><div class="right   " >1078</div></li>
-<li class="" ><div>3</div><div><span class="flag it"></span> <a    href="rider/edoardo-zardini">ZARDINI Edoardo</a></div><div class="right   " >898</div></li>
+<li class="" ><div>3</div><div><span class="flag it"></span> <a    href="rider/edoardo-zardini">ZARDINI Edoardo</a></div><div class="right   " >903</div></li>
 <li class="" ><div>4</div><div><span class="flag pl"></span> <a    href="rider/kamil-gradek">GRADEK Kamil</a></div><div class="right   " >822</div></li>
 <li class="" ><div>5</div><div><span class="flag it"></span> <a    href="rider/riccardo-stacchiotti">STACCHIOTTI Riccardo</a></div><div class="right   " >539</div></li>
-<li class="" ><div>6</div><div><span class="flag it"></span> <a    href="rider/liam-bertazzo">BERTAZZO Liam</a></div><div class="right   " >405</div></li>
+<li class="" ><div>6</div><div><span class="flag it"></span> <a    href="rider/liam-bertazzo">BERTAZZO Liam</a></div><div class="right   " >410</div></li>
 <li class="" ><div>7</div><div><span class="flag nl"></span> <a    href="rider/etienne-van-empel">VAN EMPEL Etienne</a></div><div class="right   " >228</div></li>
 <li class="" ><div>8</div><div><span class="flag gb"></span> <a    href="rider/daniel-pearson">PEARSON Daniel</a></div><div class="right   " >221</div></li>
-<li class="" ><div>9</div><div><span class="flag it"></span> <a    href="rider/davide-orrico">ORRICO Davide</a></div><div class="right   " >169</div></li>
+<li class="" ><div>9</div><div><span class="flag it"></span> <a    href="rider/davide-orrico">ORRICO Davide</a></div><div class="right   " >193</div></li>
 <li class="" ><div>10</div><div><span class="flag rs"></span> <a    href="rider/veljko-stojnic">STOJNIĆ Veljko</a></div><div class="right   " >87</div></li>
 <li class="" ><div>11</div><div><span class="flag pa"></span> <a    href="rider/roberto-gonzalez">GONZÁLEZ Roberto Carlos</a></div><div class="right   " >62</div></li>
 <li class="" ><div>12</div><div><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right   " >57</div></li>
@@ -154,35 +159,35 @@
 <li class="" ><div>18</div><div><span class="flag it"></span> <a    href="rider/leonardo-tortomasi">TORTOMASI Leonardo</a></div><div class="right   " >6</div></li>
 <li class="" ><div>19</div><div><span class="flag it"></span> <a    href="rider/giulio-masotto">MASOTTO Giulio</a></div><div class="right   " >4</div></li>
 <li class="" ><div>20</div><div><span class="flag it"></span> <a    href="rider/ricardo-tosin">TOSIN Ricardo</a></div><div class="right   " >1</div></li>
-<li class="" ><div>21</div><div><span class="flag it"></span> <a    href="rider/alessandro-iacchi">IACCHI Alessandro</a></div><div class="right   " >0</div></li>
-<li class="" ><div>22</div><div><span class="flag nl"></span> <a    href="rider/wout-van-elzakker">VAN ELZAKKER Wout</a></div><div class="right   " >0</div></li>
-<li class="" ><div>23</div><div><span class="flag it"></span> <a    href="rider/andrea-bartolozzi">BARTOLOZZI Andrea</a></div><div class="right   " >0</div></li>
-<li class="" ><div>24</div><div><span class="flag it"></span> <a    href="rider/matteo-de-bonis">DE BONIS Matteo</a></div><div class="right   " >0</div></li>
+<li class="" ><div>21</div><div><span class="flag it"></span> <a    href="rider/matteo-de-bonis">DE BONIS Matteo</a></div><div class="right   " >0</div></li>
+<li class="" ><div>22</div><div><span class="flag it"></span> <a    href="rider/alessandro-iacchi">IACCHI Alessandro</a></div><div class="right   " >0</div></li>
+<li class="" ><div>23</div><div><span class="flag nl"></span> <a    href="rider/wout-van-elzakker">VAN ELZAKKER Wout</a></div><div class="right   " >0</div></li>
+<li class="" ><div>24</div><div><span class="flag it"></span> <a    href="rider/andrea-bartolozzi">BARTOLOZZI Andrea</a></div><div class="right   " >0</div></li>
 </ul></div>
-<div class="hide ttabs tabe"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag it"></span> <a    href="rider/jakub-mareczko">MARECZKO Jakub</a></div><div class="right ar w12 fs11 clr555   " >(84)</div><div class="right ac   " >468</div></li>
-<li class="" ><div>2</div><div><span class="flag pl"></span> <a    href="rider/kamil-gradek">GRADEK Kamil</a></div><div class="right ar w12 fs11 clr555   " >(23)</div><div class="right ac   " >942</div></li>
-<li class="" ><div>3</div><div><span class="flag it"></span> <a    href="rider/davide-orrico">ORRICO Davide</a></div><div class="right ar w12 fs11 clr555   " >(23)</div><div class="right ac   " >941</div></li>
-<li class="" ><div>4</div><div><span class="flag pa"></span> <a    href="rider/roberto-gonzalez">GONZÁLEZ Roberto Carlos</a></div><div class="right ar w12 fs11 clr555   " >(16)</div><div class="right ac   " >1097</div></li>
-<li class="" ><div>5</div><div><span class="flag rs"></span> <a    href="rider/veljko-stojnic">STOJNIĆ Veljko</a></div><div class="right ar w12 fs11 clr555   " >(12)</div><div class="right ac   " >1255</div></li>
-<li class="" ><div>6</div><div><span class="flag it"></span> <a    href="rider/riccardo-stacchiotti">STACCHIOTTI Riccardo</a></div><div class="right ar w12 fs11 clr555   " >(10)</div><div class="right ac   " >1294</div></li>
-<li class="" ><div>7</div><div><span class="flag it"></span> <a    href="rider/andrea-di-renzo">DI RENZO Andrea</a></div><div class="right ar w12 fs11 clr555   " >(10)</div><div class="right ac   " >1316</div></li>
-<li class="" ><div>8</div><div><span class="flag ch"></span> <a    href="rider/joab-schneiter">SCHNEITER Joab</a></div><div class="right ar w12 fs11 clr555   " >(8)</div><div class="right ac   " >1420</div></li>
-<li class="" ><div>9</div><div><span class="flag it"></span> <a    href="rider/giulio-masotto">MASOTTO Giulio</a></div><div class="right ar w12 fs11 clr555   " >(4)</div><div class="right ac   " >1692</div></li>
-<li class="" ><div>10</div><div><span class="flag lu"></span> <a    href="rider/jan-petelin">PETELIN Jan</a></div><div class="right ar w12 fs11 clr555   " >(3)</div><div class="right ac   " >1774</div></li>
-<li class="" ><div>11</div><div><span class="flag it"></span> <a    href="rider/leonardo-tortomasi">TORTOMASI Leonardo</a></div><div class="right ar w12 fs11 clr555   " >(3)</div><div class="right ac   " >1766</div></li>
-<li class="" ><div>12</div><div><span class="flag nl"></span> <a    href="rider/etienne-van-empel">VAN EMPEL Etienne</a></div><div class="right ar w12 fs11 clr555   " >(3)</div><div class="right ac   " >1763</div></li>
-<li class="" ><div>13</div><div><span class="flag it"></span> <a    href="rider/andrea-bartolozzi">BARTOLOZZI Andrea</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>14</div><div><span class="flag it"></span> <a    href="rider/alessandro-iacchi">IACCHI Alessandro</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>15</div><div><span class="flag it"></span> <a    href="rider/mattia-bevilacqua">BEVILACQUA Mattia</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>16</div><div><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>17</div><div><span class="flag it"></span> <a    href="rider/marco-frapporti">FRAPPORTI Marco</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>18</div><div><span class="flag nl"></span> <a    href="rider/wout-van-elzakker">VAN ELZAKKER Wout</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>19</div><div><span class="flag it"></span> <a    href="rider/liam-bertazzo">BERTAZZO Liam</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>20</div><div><span class="flag gb"></span> <a    href="rider/daniel-pearson">PEARSON Daniel</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>21</div><div><span class="flag it"></span> <a    href="rider/gregorio-ferri">FERRI Gregorio</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>22</div><div><span class="flag it"></span> <a    href="rider/ricardo-tosin">TOSIN Ricardo</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>23</div><div><span class="flag it"></span> <a    href="rider/edoardo-zardini">ZARDINI Edoardo</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
-<li class="" ><div>24</div><div><span class="flag it"></span> <a    href="rider/matteo-de-bonis">DE BONIS Matteo</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<div class="hide ttabs tabe"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag it"></span> <a    href="rider/jakub-mareczko">MARECZKO Jakub</a></div><div class="right ar w12 fs11 clr555   " >(142)</div><div class="right ac   " >348</div></li>
+<li class="" ><div>2</div><div><span class="flag it"></span> <a    href="rider/davide-orrico">ORRICO Davide</a></div><div class="right ar w12 fs11 clr555   " >(47)</div><div class="right ac   " >697</div></li>
+<li class="" ><div>3</div><div><span class="flag pa"></span> <a    href="rider/roberto-gonzalez">GONZÁLEZ Roberto Carlos</a></div><div class="right ar w12 fs11 clr555   " >(16)</div><div class="right ac   " >1121</div></li>
+<li class="" ><div>4</div><div><span class="flag pl"></span> <a    href="rider/kamil-gradek">GRADEK Kamil</a></div><div class="right ar w12 fs11 clr555   " >(13)</div><div class="right ac   " >1224</div></li>
+<li class="" ><div>5</div><div><span class="flag rs"></span> <a    href="rider/veljko-stojnic">STOJNIĆ Veljko</a></div><div class="right ar w12 fs11 clr555   " >(12)</div><div class="right ac   " >1271</div></li>
+<li class="" ><div>6</div><div><span class="flag it"></span> <a    href="rider/riccardo-stacchiotti">STACCHIOTTI Riccardo</a></div><div class="right ar w12 fs11 clr555   " >(10)</div><div class="right ac   " >1310</div></li>
+<li class="" ><div>7</div><div><span class="flag it"></span> <a    href="rider/andrea-di-renzo">DI RENZO Andrea</a></div><div class="right ar w12 fs11 clr555   " >(10)</div><div class="right ac   " >1336</div></li>
+<li class="" ><div>8</div><div><span class="flag ch"></span> <a    href="rider/joab-schneiter">SCHNEITER Joab</a></div><div class="right ar w12 fs11 clr555   " >(8)</div><div class="right ac   " >1441</div></li>
+<li class="" ><div>9</div><div><span class="flag it"></span> <a    href="rider/edoardo-zardini">ZARDINI Edoardo</a></div><div class="right ar w12 fs11 clr555   " >(5)</div><div class="right ac   " >1596</div></li>
+<li class="" ><div>10</div><div><span class="flag it"></span> <a    href="rider/giulio-masotto">MASOTTO Giulio</a></div><div class="right ar w12 fs11 clr555   " >(4)</div><div class="right ac   " >1706</div></li>
+<li class="" ><div>11</div><div><span class="flag nl"></span> <a    href="rider/etienne-van-empel">VAN EMPEL Etienne</a></div><div class="right ar w12 fs11 clr555   " >(3)</div><div class="right ac   " >1778</div></li>
+<li class="" ><div>12</div><div><span class="flag lu"></span> <a    href="rider/jan-petelin">PETELIN Jan</a></div><div class="right ar w12 fs11 clr555   " >(3)</div><div class="right ac   " >1787</div></li>
+<li class="" ><div>13</div><div><span class="flag it"></span> <a    href="rider/leonardo-tortomasi">TORTOMASI Leonardo</a></div><div class="right ar w12 fs11 clr555   " >(3)</div><div class="right ac   " >1781</div></li>
+<li class="" ><div>14</div><div><span class="flag it"></span> <a    href="rider/ricardo-tosin">TOSIN Ricardo</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>15</div><div><span class="flag it"></span> <a    href="rider/matteo-de-bonis">DE BONIS Matteo</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>16</div><div><span class="flag it"></span> <a    href="rider/andrea-bartolozzi">BARTOLOZZI Andrea</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>17</div><div><span class="flag it"></span> <a    href="rider/alessandro-iacchi">IACCHI Alessandro</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>18</div><div><span class="flag it"></span> <a    href="rider/mattia-bevilacqua">BEVILACQUA Mattia</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>19</div><div><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>20</div><div><span class="flag it"></span> <a    href="rider/marco-frapporti">FRAPPORTI Marco</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>21</div><div><span class="flag nl"></span> <a    href="rider/wout-van-elzakker">VAN ELZAKKER Wout</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>22</div><div><span class="flag it"></span> <a    href="rider/liam-bertazzo">BERTAZZO Liam</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>23</div><div><span class="flag gb"></span> <a    href="rider/daniel-pearson">PEARSON Daniel</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
+<li class="" ><div>24</div><div><span class="flag it"></span> <a    href="rider/gregorio-ferri">FERRI Gregorio</a></div><div class="right ar w12 fs11 clr555   " >(0)</div><div class="right ac   " >-</div></li>
 </ul></div>
 <div class="ttabs tabb"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag it"></span> <a    href="rider/andrea-bartolozzi">BARTOLOZZI Andrea</a></div><div class="fs11 clr999   " ></div></li>
 <li class="" ><div>2</div><div><span class="flag it"></span> <a    href="rider/liam-bertazzo">BERTAZZO Liam</a></div><div class="fs11 clr999   " ></div></li>
@@ -220,7 +225,7 @@
 <li class="" ><div>9</div><div><span class="flag it"></span> <a    href="rider/gregorio-ferri">FERRI Gregorio</a></div><div class="right   " >24</div></li>
 <li class="" ><div>10</div><div><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right   " >24</div></li>
 <li class="" ><div>11</div><div><span class="flag lu"></span> <a    href="rider/jan-petelin">PETELIN Jan</a></div><div class="right   " >25</div></li>
-<li class="" ><div>12</div><div><span class="flag it"></span> <a    href="rider/matteo-de-bonis">DE BONIS Matteo</a></div><div class="right   " >25</div></li>
+<li class="" ><div>12</div><div><span class="flag it"></span> <a    href="rider/matteo-de-bonis">DE BONIS Matteo</a></div><div class="right   " >26</div></li>
 <li class="" ><div>13</div><div><span class="flag it"></span> <a    href="rider/andrea-di-renzo">DI RENZO Andrea</a></div><div class="right   " >26</div></li>
 <li class="" ><div>14</div><div><span class="flag pa"></span> <a    href="rider/roberto-gonzalez">GONZÁLEZ Roberto Carlos</a></div><div class="right   " >27</div></li>
 <li class="" ><div>15</div><div><span class="flag it"></span> <a    href="rider/jakub-mareczko">MARECZKO Jakub</a></div><div class="right   " >27</div></li>
@@ -229,29 +234,29 @@
 <li class="" ><div>18</div><div><span class="flag it"></span> <a    href="rider/leonardo-tortomasi">TORTOMASI Leonardo</a></div><div class="right   " >27</div></li>
 <li class="" ><div>19</div><div><span class="flag it"></span> <a    href="rider/liam-bertazzo">BERTAZZO Liam</a></div><div class="right   " >29</div></li>
 <li class="" ><div>20</div><div><span class="flag it"></span> <a    href="rider/riccardo-stacchiotti">STACCHIOTTI Riccardo</a></div><div class="right   " >29</div></li>
-<li class="" ><div>21</div><div><span class="flag pl"></span> <a    href="rider/kamil-gradek">GRADEK Kamil</a></div><div class="right   " >30</div></li>
+<li class="" ><div>21</div><div><span class="flag pl"></span> <a    href="rider/kamil-gradek">GRADEK Kamil</a></div><div class="right   " >31</div></li>
 <li class="" ><div>22</div><div><span class="flag it"></span> <a    href="rider/davide-orrico">ORRICO Davide</a></div><div class="right   " >31</div></li>
 <li class="" ><div>23</div><div><span class="flag it"></span> <a    href="rider/edoardo-zardini">ZARDINI Edoardo</a></div><div class="right   " >31</div></li>
 <li class="" ><div>24</div><div><span class="flag it"></span> <a    href="rider/marco-frapporti">FRAPPORTI Marco</a></div><div class="right   " >36</div></li>
 </ul></div>
 <div class="hide ttabs tabd"><ul class="list pad2"  style=" "><li class="" ><div>1</div><div><span class="flag ch"></span> <a    href="rider/joab-schneiter">SCHNEITER Joab</a></div></li>
 <li class="" ><div>2</div><div><span class="flag gb"></span> <a    href="rider/daniel-pearson">PEARSON Daniel</a></div></li>
-<li class="" ><div>3</div><div><span class="flag it"></span> <a    href="rider/alessandro-iacchi">IACCHI Alessandro</a></div></li>
-<li class="" ><div>4</div><div><span class="flag it"></span> <a    href="rider/gregorio-ferri">FERRI Gregorio</a></div></li>
-<li class="" ><div>5</div><div><span class="flag it"></span> <a    href="rider/riccardo-stacchiotti">STACCHIOTTI Riccardo</a></div></li>
-<li class="" ><div>6</div><div><span class="flag it"></span> <a    href="rider/ricardo-tosin">TOSIN Ricardo</a></div></li>
-<li class="" ><div>7</div><div><span class="flag it"></span> <a    href="rider/andrea-bartolozzi">BARTOLOZZI Andrea</a></div></li>
-<li class="" ><div>8</div><div><span class="flag it"></span> <a    href="rider/marco-frapporti">FRAPPORTI Marco</a></div></li>
-<li class="" ><div>9</div><div><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div></li>
-<li class="" ><div>10</div><div><span class="flag it"></span> <a    href="rider/andrea-di-renzo">DI RENZO Andrea</a></div></li>
-<li class="" ><div>11</div><div><span class="flag it"></span> <a    href="rider/mattia-bevilacqua">BEVILACQUA Mattia</a></div></li>
-<li class="" ><div>12</div><div><span class="flag it"></span> <a    href="rider/davide-orrico">ORRICO Davide</a></div></li>
-<li class="" ><div>13</div><div><span class="flag it"></span> <a    href="rider/giulio-masotto">MASOTTO Giulio</a></div></li>
-<li class="" ><div>14</div><div><span class="flag it"></span> <a    href="rider/matteo-de-bonis">DE BONIS Matteo</a></div></li>
-<li class="" ><div>15</div><div><span class="flag it"></span> <a    href="rider/jakub-mareczko">MARECZKO Jakub</a></div></li>
-<li class="" ><div>16</div><div><span class="flag it"></span> <a    href="rider/leonardo-tortomasi">TORTOMASI Leonardo</a></div></li>
-<li class="" ><div>17</div><div><span class="flag it"></span> <a    href="rider/edoardo-zardini">ZARDINI Edoardo</a></div></li>
-<li class="" ><div>18</div><div><span class="flag it"></span> <a    href="rider/liam-bertazzo">BERTAZZO Liam</a></div></li>
+<li class="" ><div>3</div><div><span class="flag it"></span> <a    href="rider/mattia-bevilacqua">BEVILACQUA Mattia</a></div></li>
+<li class="" ><div>4</div><div><span class="flag it"></span> <a    href="rider/davide-orrico">ORRICO Davide</a></div></li>
+<li class="" ><div>5</div><div><span class="flag it"></span> <a    href="rider/giulio-masotto">MASOTTO Giulio</a></div></li>
+<li class="" ><div>6</div><div><span class="flag it"></span> <a    href="rider/matteo-de-bonis">DE BONIS Matteo</a></div></li>
+<li class="" ><div>7</div><div><span class="flag it"></span> <a    href="rider/jakub-mareczko">MARECZKO Jakub</a></div></li>
+<li class="" ><div>8</div><div><span class="flag it"></span> <a    href="rider/leonardo-tortomasi">TORTOMASI Leonardo</a></div></li>
+<li class="" ><div>9</div><div><span class="flag it"></span> <a    href="rider/edoardo-zardini">ZARDINI Edoardo</a></div></li>
+<li class="" ><div>10</div><div><span class="flag it"></span> <a    href="rider/liam-bertazzo">BERTAZZO Liam</a></div></li>
+<li class="" ><div>11</div><div><span class="flag it"></span> <a    href="rider/alessandro-iacchi">IACCHI Alessandro</a></div></li>
+<li class="" ><div>12</div><div><span class="flag it"></span> <a    href="rider/gregorio-ferri">FERRI Gregorio</a></div></li>
+<li class="" ><div>13</div><div><span class="flag it"></span> <a    href="rider/riccardo-stacchiotti">STACCHIOTTI Riccardo</a></div></li>
+<li class="" ><div>14</div><div><span class="flag it"></span> <a    href="rider/ricardo-tosin">TOSIN Ricardo</a></div></li>
+<li class="" ><div>15</div><div><span class="flag it"></span> <a    href="rider/andrea-bartolozzi">BARTOLOZZI Andrea</a></div></li>
+<li class="" ><div>16</div><div><span class="flag it"></span> <a    href="rider/marco-frapporti">FRAPPORTI Marco</a></div></li>
+<li class="" ><div>17</div><div><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div></li>
+<li class="" ><div>18</div><div><span class="flag it"></span> <a    href="rider/andrea-di-renzo">DI RENZO Andrea</a></div></li>
 <li class="" ><div>19</div><div><span class="flag lu"></span> <a    href="rider/jan-petelin">PETELIN Jan</a></div></li>
 <li class="" ><div>20</div><div><span class="flag nl"></span> <a    href="rider/etienne-van-empel">VAN EMPEL Etienne</a></div></li>
 <li class="" ><div>21</div><div><span class="flag nl"></span> <a    href="rider/wout-van-elzakker">VAN ELZAKKER Wout</a></div></li>
@@ -279,7 +284,7 @@
 </tbody></table></div>
 <div class="mt30"><h3>Points per season</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 20%; ">year</th><th style="width: 60%; ">points</th><th class="ac  "  style="width: 20%; ">position</th></tr></thead><tbody>
-<tr ><td>2021</td><td><div class="barCont"><div class="bg left green2" style="width: 5.6%;  height: 14px;  "></div></div></td><td class="ac  " >61</td></tr>
+<tr ><td>2021</td><td><div class="barCont"><div class="bg left green2" style="width: 8.9%;  height: 14px;  "></div></div></td><td class="ac  " >52</td></tr>
 <tr ><td>2020</td><td><div class="barCont"><div class="bg left green2" style="width: 29%;  height: 14px;  "></div></div></td><td class="ac  " >28</td></tr>
 <tr ><td>2019</td><td><div class="barCont"><div class="bg left green2" style="width: 79.8%;  height: 14px;  "></div></div></td><td class="ac  " >28</td></tr>
 <tr ><td>2018</td><td><div class="barCont"><div class="bg left green2" style="width: 63.2%;  height: 14px;  "></div></div></td><td class="ac  " >33</td></tr>
@@ -287,9 +292,7 @@
 </tbody></table></div>
 </div><div class="w70 left mb_w100"><div class="mt10 mob-ad team-between-stats "></div><div class="mt20"><h3>Upcoming races for team</h3>
 <table class="basic"  style=""><thead><tr><th class="cu600  "  style="width: 13%; ">Date</th><th class="cs600 hide  "  style="width: 17.4%; ">Date</th><th style="width: 34.8%; ">Race</th><th class="cu600 fs10 clr555  "  style="width: 34.8%; ">Riders</th></tr></thead><tbody>
-<tr ><td class="cu600  " >12/09</td><td class="cs600 hide  " >12/09</td><td><span class="flag fr"></span> <a    href="race/gp-de-fourmies/2021">GP de Fourmies / La Voix du Nord</a></td><td class="cu600 fs10 clr555  " >Mareczko, Gradek, van Empel, González, Stacchiotti, van Elzakker, Tortomasi</td></tr>
-<tr ><td class="cu600  " >14/09 - 18/09</td><td class="cs600 hide  " >14/09 - 18/09</td><td><span class="flag lu"></span> <a    href="race/tour-de-luxembourg/2021">Skoda-Tour de Luxembourg</a></td><td class="cu600 fs10 clr555  " >Bevilacqua, Frapporti, Orrico, Petelin, Schneiter, Stojnić</td></tr>
-<tr ><td class="cu600  " >09/10</td><td class="cs600 hide  " >09/10</td><td><span class="flag it"></span> <a    href="race/il-lombardia/2021">Il Lombardia</a></td><td class="cu600 fs10 clr555  " >Orrico</td></tr>
+<tr ><td class="cu600  " >17/10</td><td class="cs600 hide  " >17/10</td><td><span class="flag it"></span> <a    href="race/veneto-classic/2021">Veneto Classic</a></td><td class="cu600 fs10 clr555  " >Bevilacqua</td></tr>
 </tbody></table></div>
 <div class="mt20"><h3>Last victories</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 7.7%; ">#</th><th style="width: 53.8%; ">Race</th><th style="width: 7.7%; ">Class</th><th style="width: 30.8%; ">Winner</th></tr></thead><tbody>
@@ -298,16 +301,16 @@
 </tbody></table></div>
 <div class="mt30"><h3>Top results</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 7.7%; ">Result</th><th style="width: 53.8%; ">Race</th><th style="width: 7.7%; ">Class</th><th style="width: 30.8%; ">Rider</th></tr></thead><tbody>
+<tr ><td>6</td><td><span class="flag it"></span> <a    href="race/gran-piemonte/2021/result">Gran Piemonte </a></td><td>1.Pro</td><td>MARECZKO Jakub</td></tr>
 <tr ><td>1</td><td><span class="flag it"></span> <a    href="race/settimana-internazionale-coppi-e-bartali/2021/stage-1a">Settimana Internazionale Coppi e Bartali Stage 1a</a></td><td>2.1</td><td>MARECZKO Jakub</td></tr>
 <tr ><td>8</td><td><span class="flag ch"></span> <a    href="race/gp-lugano/2021/result">Axion SWISS Bank Gran Premio Città di Lugano </a></td><td>1.1</td><td>ORRICO Davide</td></tr>
 <tr ><td>1</td><td><span class="flag hr"></span> <a    href="race/trofej-umag-umag-trophy/2021/result">Trofej Umag - Umag Trophy </a></td><td>1.2</td><td>MARECZKO Jakub</td></tr>
-<tr ><td>2</td><td><span class="flag it"></span> <a    href="race/adriatica-ionica-race/2021/stage-3">Adriatica Ionica Race / Sulle Rotte della Serenissima Stage 3</a></td><td>2.1</td><td>MARECZKO Jakub</td></tr>
-<tr ><td>2</td><td><span class="flag hu"></span> <a    href="race/tour-de-hongrie/2021/stage-1">Tour de Hongrie Stage 1</a></td><td>2.1</td><td>MARECZKO Jakub</td></tr>
+<tr ><td>10</td><td><span class="flag it"></span> <a    href="race/giro-del-veneto/2021/result">Giro del Veneto </a></td><td>1.1</td><td>ORRICO Davide</td></tr>
+<tr class=" hide"  ><td>2</td><td><span class="flag hu"></span> <a    href="race/tour-de-hongrie/2021/stage-1">Tour de Hongrie Stage 1</a></td><td>2.1</td><td>MARECZKO Jakub</td></tr>
+<tr class=" hide"  ><td>2</td><td><span class="flag it"></span> <a    href="race/adriatica-ionica-race/2021/stage-3">Adriatica Ionica Race / Sulle Rotte della Serenissima Stage 3</a></td><td>2.1</td><td>MARECZKO Jakub</td></tr>
 <tr class=" hide"  ><td>13</td><td><span class="flag it"></span> <a    href="race/per-sempre-alfredo/2021/result">Per Sempre "Alfredo" </a></td><td>1.1</td><td>GRADEK Kamil</td></tr>
-<tr class=" hide"  ><td>3</td><td><span class="flag ro"></span> <a    href="race/sibiu-cycling-tour/2021/prologue">Sibiu Cycling Tour Prologue</a></td><td>2.1</td><td>STACCHIOTTI Riccardo</td></tr>
-<tr class=" hide"  ><td>16</td><td><span class="flag it"></span> <a    href="race/adriatica-ionica-race/2021/gc">Adriatica Ionica Race / Sulle Rotte della Serenissima </a></td><td>2.1</td><td>ORRICO Davide</td></tr>
-<tr class=" hide"  ><td>4</td><td><span class="flag fr"></span> <a    href="race/tour-du-limousin/2021/stage-3">Tour du Limousin - Nouvelle Aquitaine Stage 3</a></td><td>2.1</td><td>STOJNIĆ Veljko</td></tr>
-<tr class=" hide"  ><td>16</td><td><span class="flag hu"></span> <a    href="race/tour-de-hongrie/2021/gc">Tour de Hongrie </a></td><td>2.1</td><td>GRADEK Kamil</td></tr>
+<tr class=" hide"  ><td>18</td><td><span class="flag fr"></span> <a    href="race/gp-de-fourmies/2021/result">GP de Fourmies / La Voix du Nord </a></td><td>1.Pro</td><td>MARECZKO Jakub</td></tr>
+<tr class=" hide"  ><td>3</td><td><span class="flag it"></span> <a    href="race/giro-di-sicilia/2021/stage-2">Giro di Sicilia - Tour of Sicily Stage 2</a></td><td>2.1</td><td>MARECZKO Jakub</td></tr>
 </tbody></table><a class="showFullList" href="">show more</a></div>
 </div>  <script>
   $(document).ready(function(){
@@ -363,7 +366,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0834 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1149kb) peak (1282kb)</span></li></ul></li>
+<li><span>0.0933 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1144kb) peak (1276kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="2101" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

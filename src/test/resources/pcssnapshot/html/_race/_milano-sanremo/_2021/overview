@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -165,12 +170,12 @@
 <li class="" ><div class="mg_rp5   " ><span class="flag au"></span> <a    href="team/teambikeexchange-2021">Team BikeExchange</a></div><div class=" clr999   " > (Mezgec, Matthews)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag de"></span> <a    href="team/bora-hansgrohe-2021">BORA - hansgrohe</a></div><div class=" clr999   " > (Sagan, Ackermann)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag fr"></span> <a    href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></div><div class=" clr999   " > (Viviani, Martin)</div></li>
-<li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></div><div class=" clr999   " > (Bennett, Alaphilippe)</div></li>
+<li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></div><div class=" clr999   " > (Štybar, Alaphilippe)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag us"></span> <a    href="team/ef-education-nippo-2021">EF Education - Nippo</a></div><div class=" clr999   " > (Valgren, Langeveld)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag fr"></span> <a    href="team/groupama-fdj-2021">Groupama - FDJ</a></div><div class=" clr999   " > (Konovalovas, Démare)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag gb"></span> <a    href="team/ineos-grenadiers-2021">INEOS Grenadiers</a></div><div class=" clr999   " > (Swift, Kwiatkowski)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/intermarche-wanty-gobert-materiaux-2021">Intermarché - Wanty - Gobert Matériaux</a></div><div class=" clr999   " > (Vliegen, Pasqualon)</div></li>
-<li class="" ><div class="mg_rp5   " ><span class="flag il"></span> <a    href="team/israel-start-up-nation-2021">Israel Start-Up Nation</a></div><div class=" clr999   " > (Cimolai, Brändle)</div></li>
+<li class="" ><div class="mg_rp5   " ><span class="flag il"></span> <a    href="team/israel-start-up-nation-2021">Israel Start-Up Nation</a></div><div class=" clr999   " > (De Marchi, Cimolai)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag be"></span> <a    href="team/lotto-soudal-2021">Lotto Soudal</a></div><div class=" clr999   " > (Gilbert, Degenkolb)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag es"></span> <a    href="team/movistar-team-2021">Movistar Team</a></div><div class=" clr999   " > (Villella, Oliveira)</div></li>
 <li class="" ><div class="mg_rp5   " ><span class="flag fr"></span> <a    href="team/team-arkea-samsic-2021">Team Arkéa Samsic</a></div><div class=" clr999   " > (Bouhanni, Barguil)</div></li>
@@ -233,7 +238,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0544 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1094kb) peak (1247kb)</span></li></ul></li>
+<li><span>0.0336 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1092kb) peak (1242kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

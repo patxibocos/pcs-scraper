@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -247,10 +252,10 @@
 <tr data-team="1293" data-nation="au"><td>118</td><td class="gc hide" >97</td><td class="gc hide" >+1:00:25</td><td class="bibs hide" >116</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="dylan-sunderland" data-id="184268" style="margin: 0; " /><span></span></td><td><div><span class="flag au"></span> <a href="rider/dylan-sunderland">SUNDERLAND Dylan</a><span class="showIfMobile riderteam">Team Qhubeka ASSOS</span></div></td><td class="age hide" >25</td><td class="cu600" ><a href="team/team-qhubeka-assos-2021">Team Qhubeka ASSOS</a></td><td></td><td></td><td class="time ar" ><span>4:11</span><div class="hide">4:11</div></td><td class="ar" >37.242</td></tr>
 <tr data-team="1136" data-nation="it"><td>119</td><td class="gc hide" >118</td><td class="gc hide" >+1:25:17</td><td class="bibs hide" >156</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="fabio-sabatini" data-id="140358" style="margin: 0; " /><span></span></td><td><div><span class="flag it"></span> <a href="rider/fabio-sabatini">SABATINI Fabio</a><span class="showIfMobile riderteam">Cofidis, Solutions Crédits</span></div></td><td class="age hide" >36</td><td class="cu600" ><a href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></td><td></td><td></td><td class="time ar" ><span>4:18</span><div class="hide">4:18</div></td><td class="ar" >37.076</td></tr>
 <tr data-team="1293" data-nation="za"><td>120</td><td class="gc hide" >113</td><td class="gc hide" >+1:20:40</td><td class="bibs hide" >114</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="reinardt-janse-van-rensburg" data-id="136269" style="margin: 0; " /><span></span></td><td><div><span class="flag za"></span> <a href="rider/reinardt-janse-van-rensburg">JANSE VAN RENSBURG Reinardt</a><span class="showIfMobile riderteam">Team Qhubeka ASSOS</span></div></td><td class="age hide" >32</td><td class="cu600" ><a href="team/team-qhubeka-assos-2021">Team Qhubeka ASSOS</a></td><td></td><td></td><td class="time ar" ><span>5:05</span><div class="hide">5:05</div></td><td class="ar" >36.000</td></tr>
-<tr data-team="1328" data-nation="be"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >17</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="iljo-keisse" data-id="140024" style="margin: 0; " /><span></span></td><td><div><span class="flag be"></span> <a href="rider/iljo-keisse">KEISSE Iljo</a><span class="showIfMobile riderteam">Deceuninck - Quick Step</span></div></td><td class="age hide" >38</td><td class="cu600" ><a href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></td><td></td><td></td><td class="time ar" >-</td><td class="ar" ></td></tr>
-<tr data-team="1253" data-nation="ar"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >35</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="ariel-maximiliano-richeze" data-id="140776" style="margin: 0; " /><span></span></td><td><div><span class="flag ar"></span> <a href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a><span class="showIfMobile riderteam">UAE-Team Emirates</span></div></td><td class="age hide" >38</td><td class="cu600" ><a href="team/uae-team-emirates-2021">UAE-Team Emirates</a></td><td></td><td></td><td class="time ar" >-</td><td class="ar" ></td></tr>
 <tr data-team="1330" data-nation="nl"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >27</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jos-van-emden" data-id="140268" style="margin: 0; " /><span></span></td><td><div><span class="flag nl"></span> <a href="rider/jos-van-emden">VAN EMDEN Jos</a><span class="showIfMobile riderteam">Team Jumbo-Visma</span></div></td><td class="age hide" >36</td><td class="cu600" ><a href="team/team-jumbo-visma-2021">Team Jumbo-Visma</a></td><td></td><td></td><td class="time ar" >-</td><td class="ar" ></td></tr>
 <tr data-team="1375" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >84</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="gorka-izagirre" data-id="140615" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/gorka-izagirre">IZAGIRRE Gorka</a><span class="showIfMobile riderteam">Astana - Premier Tech</span></div></td><td class="age hide" >33</td><td class="cu600" ><a href="team/astana-premier-tech-2021">Astana - Premier Tech</a></td><td></td><td></td><td class="time ar" >-</td><td class="ar" ></td></tr>
+<tr data-team="1328" data-nation="be"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >17</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="iljo-keisse" data-id="140024" style="margin: 0; " /><span></span></td><td><div><span class="flag be"></span> <a href="rider/iljo-keisse">KEISSE Iljo</a><span class="showIfMobile riderteam">Deceuninck - Quick Step</span></div></td><td class="age hide" >38</td><td class="cu600" ><a href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></td><td></td><td></td><td class="time ar" >-</td><td class="ar" ></td></tr>
+<tr data-team="1253" data-nation="ar"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >35</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="ariel-maximiliano-richeze" data-id="140776" style="margin: 0; " /><span></span></td><td><div><span class="flag ar"></span> <a href="rider/ariel-maximiliano-richeze">RICHEZE Maximiliano</a><span class="showIfMobile riderteam">UAE-Team Emirates</span></div></td><td class="age hide" >38</td><td class="cu600" ><a href="team/uae-team-emirates-2021">UAE-Team Emirates</a></td><td></td><td></td><td class="time ar" >-</td><td class="ar" ></td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div><div style="text-align: right; font-size: 11px; ">Timelimit 25%, or 27:23 (+5:29)</div></div><div class="result-cont " data-id="255766">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th>Pnt</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -583,7 +588,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0347 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2104kb) peak (2314kb)</span></li></ul></li>
+<li><span>0.0311 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2101kb) peak (2310kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

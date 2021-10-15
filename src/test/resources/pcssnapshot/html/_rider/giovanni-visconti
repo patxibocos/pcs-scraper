@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -129,22 +134,22 @@ $(document).ready(function() {
 <div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/giovanni-visconti/statistics/overview"><img src="images/riders/bp/ef/giovanni-visconti-2021.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 13<sup>th</sup> January 1983 (38)<br /><b>Nationality:</b> <span class="flag  it"></span><a class="black" href="nation/italy">Italy</a><br /><span><b>Weight:</b> 63 kg &nbsp; <span><b>Height:</b> 1.75 m<br /><b>Place of birth:</b> <a href="location.php?id=1613">Turin</a><br /><div class=""></div>
 <div class="mt10 pps"><h3>Points per specialty</h3><ul class="basic"  style=" "><li class="" ><div class="bar   " ><div class="barCont"><div class="bg left green" style="width: 100%;  height: 8px;  "></div></div></div><div class="pnt   " >5537</div><div class="title   " ><a    href="rider/giovanni-visconti/results/career-points-one-day-races">One day races</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left red" style="width: 35.7%;  height: 8px;  "></div></div></div><div class="pnt   " >1975</div><div class="title   " ><a    href="rider/giovanni-visconti/results/career-points-gc">GC</a></div></li>
-<li class="" ><div class="bar   " ><div class="barCont"><div class="bg left blue" style="width: 14.2%;  height: 8px;  "></div></div></div><div class="pnt   " >788</div><div class="title   " ><a    href="rider/giovanni-visconti/results/career-points-time-trial">Time trial</a></div></li>
+<li class="" ><div class="bar   " ><div class="barCont"><div class="bg left blue" style="width: 14.4%;  height: 8px;  "></div></div></div><div class="pnt   " >798</div><div class="title   " ><a    href="rider/giovanni-visconti/results/career-points-time-trial">Time trial</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left orange" style="width: 66.7%;  height: 8px;  "></div></div></div><div class="pnt   " >3694</div><div class="title   " ><a    href="rider/giovanni-visconti/results/career-points-sprint">Sprint</a></div></li>
-<li class="" ><div class="bar   " ><div class="barCont"><div class="bg left purple" style="width: 59.1%;  height: 8px;  "></div></div></div><div class="pnt   " >3274</div><div class="title   " ><a    href="rider/giovanni-visconti/results/career-points-climbers">Climber</a></div></li>
+<li class="" ><div class="bar   " ><div class="barCont"><div class="bg left purple" style="width: 60.4%;  height: 8px;  "></div></div></div><div class="pnt   " >3346</div><div class="title   " ><a    href="rider/giovanni-visconti/results/career-points-climbers">Climber</a></div></li>
 </ul></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/visconti_giovanni">instagram</a></li>
+<div class="mt10"><ul class="list horizontal sites"><li><span class="icon website left"></span><a  target="_blank"  class="" href="http://www.giovannivisconti.it/">site</a></li>
+<li><span class="icon strava left"></span><a  target="_blank"  class="" href="https://www.strava.com/pros/2957348">strava</a></li>
+<li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/visconti_giovanni">instagram</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"  class="" href="https://www.facebook.com/giovanniviscontiofficial">facebook</a></li>
 <li><span class="icon twitter left"></span><a  target="_blank"  class="" href="https://twitter.com/giovisco">twitter</a></li>
-<li><span class="icon website left"></span><a  target="_blank"  class="" href="http://www.giovannivisconti.it/">site</a></li>
-<li><span class="icon strava left"></span><a  target="_blank"  class="" href="https://www.strava.com/pros/2957348">strava</a></li>
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"  class="" href="https://www.procyclinggame.com/rider/giovanni-visconti">ProCyclingGame</a></li>
 </ul></div>
-<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >497</div></li>
-<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >762</div></li>
+<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   " >638</div></li>
+<li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >1975</div></li>
 <li class="" ><div class="title   " ><a    href="rankings/me/all-time">Specials | All Time Ranking</a></div><div class="rnk   " >231</div></li>
 </ul></div>
-<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-up">&#x25B2;47</span></div><div>  this week</div></li>
+<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-down">&#x25BC;212</span></div><div>  this week</div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/giro-d-italia/2013/stage-17">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('13)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/gp-de-fourmies/2008/result">GP de Fourmies - La Voix du Nord</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('08)</span></div></li>
@@ -158,7 +163,8 @@ $(document).ready(function() {
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/gran-premio-dell-insubria/2011/result">Gran Premio Regio Insubrica</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('11)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/gp-industria2/2009/result">GP Industria & Commercio di Prato</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('09)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/17th-trofeo-melinda/2009/result">Trofeo Melinda</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('09)</span></div></li>
-</ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   " >2021</div><div class="name   " ><a    href="team/bardiani-csf-2021">Bardiani-CSF-Faizanè</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
+</ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   " >2022</div><div class="name   " ><a    href="team/bardiani-csf-faizane-2022">Bardiani-CSF-Faizanè</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
+<li class=" main " ><div class="season   " >2021</div><div class="name   " ><a    href="team/bardiani-csf-2021">Bardiani-CSF-Faizanè</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
 <li class=" main " ><div class="season   " >2020</div><div class="name   " ><a    href="team/vini-zabu-ktm-2020">Vini Zabù - KTM</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
 <li class=" main " ><div class="season   " >2019</div><div class="name   " ><a    href="team/neri-sottoli-selle-italia-ktm-2019">Neri Sottoli - Selle Italia - KTM</a></div><div> (PCT)</div><div class="fs10   " ></div></li>
 <li class=" main " ><div class="season   " >2018</div><div class="name   " ><a    href="team/bahrain-merida-pro-cycling-team-2018">Bahrain Merida Pro Cycling Team</a></div><div> (WT)</div><div class="fs10   " ></div></li>
@@ -247,7 +253,7 @@ $(document).ready(function() {
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 4.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">55</span></div></td><td class="ac  " >578</td></tr>
+<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 4.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">55</span></div></td><td class="ac  " >633</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 11.4%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">149</span></div></td><td class="ac  " >226</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 49.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">644</span></div></td><td class="ac  " >83</td></tr>
 <tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 38.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px;">509</span></div></td><td class="ac  " >103</td></tr>
@@ -359,7 +365,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1823 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1389kb) peak (2358kb)</span></li></ul></li>
+<li><span>0.1433 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1387kb) peak (2354kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

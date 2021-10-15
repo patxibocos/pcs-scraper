@@ -4,6 +4,11 @@
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
+  gtag('config', 'GA_MEASUREMENT_ID', {
+	  'linker': {
+	    'domains': ['cx.procyclingstats.com','procyclingstats.com']
+	  }
+	});
 
   gtag('config', 'UA-35889790-1');
 </script>
@@ -18,7 +23,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a96.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s41.js"></script>
 <script src="https://www.procyclingstats.com/pcs_search14.js"></script>
@@ -276,10 +281,10 @@
 <tr data-team="1328" data-nation="cz"><td>147</td><td class="gc hide" >148</td><td class="gc hide" >+4:55:13</td><td class="bibs hide" >93</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="josef-cerny" data-id="153175" style="margin: 0; " /><span></span></td><td><div><span class="flag cz"></span> <a href="rider/josef-cerny">ČERNÝ Josef</a><span class="showIfMobile riderteam">Deceuninck - Quick Step</span></div></td><td class="age hide" >28</td><td class="cu600" ><a href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">40:54</div></td></tr>
 <tr data-team="1411" data-nation="ee"><td>148</td><td class="gc hide" >146</td><td class="gc hide" >+4:45:55</td><td class="bibs hide" >54</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="martin-laas" data-id="141096" style="margin: 0; " /><span></span></td><td><div><span class="flag ee"></span> <a href="rider/martin-laas">LAAS Martin</a><span class="showIfMobile riderteam">BORA - hansgrohe</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/bora-hansgrohe-2021">BORA - hansgrohe</a></td><td></td><td></td><td class="time ar" ><span>,,</span><div class="hide">40:54</div></td></tr>
 <tr data-team="2088" data-nation="gb"><td>OTL</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >164</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="matthew-holmes" data-id="176326" style="margin: 0; " /><span></span></td><td><div><span class="flag gb"></span> <a href="rider/matthew-holmes">HOLMES Matthew</a><span class="showIfMobile riderteam">Lotto Soudal</span></div></td><td class="age hide" >27</td><td class="cu600" ><a href="team/lotto-soudal-2021">Lotto Soudal</a></td><td></td><td></td><td class="time ar" ><span>48:54</span><div class="hide">48:54</div></td></tr>
-<tr data-team="1111" data-nation="es"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >71</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jonathan-lastra" data-id="190460" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/jonathan-lastra">LASTRA Jonathan</a><span class="showIfMobile riderteam">Caja Rural - Seguros RGA</span></div></td><td class="age hide" >28</td><td class="cu600" ><a href="team/caja-rural-seguros-rga-2021">Caja Rural - Seguros RGA</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="1109" data-nation="es"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >67</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="diego-rubio" data-id="138217" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/diego-rubio">RUBIO Diego</a><span class="showIfMobile riderteam">Burgos-BH</span></div></td><td class="age hide" >30</td><td class="cu600" ><a href="team/burgos-bh-2021">Burgos-BH</a></td><td></td><td></td><td class="time ar" >-</td></tr>
-<tr data-team="1423" data-nation="nl"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >137</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="dylan-van-baarle" data-id="139904" style="margin: 0; " /><span></span></td><td><div><span class="flag nl"></span> <a href="rider/dylan-van-baarle">VAN BAARLE Dylan</a><span class="showIfMobile riderteam">INEOS Grenadiers</span></div></td><td class="age hide" >29</td><td class="cu600" ><a href="team/ineos-grenadiers-2021">INEOS Grenadiers</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="1111" data-nation="es"><td>DNF</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >71</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="jonathan-lastra" data-id="190460" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/jonathan-lastra">LASTRA Jonathan</a><span class="showIfMobile riderteam">Caja Rural - Seguros RGA</span></div></td><td class="age hide" >28</td><td class="cu600" ><a href="team/caja-rural-seguros-rga-2021">Caja Rural - Seguros RGA</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 <tr data-team="2040" data-nation="es"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >178</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="carlos-verona" data-id="137768" style="margin: 0; " /><span></span></td><td><div><span class="flag es"></span> <a href="rider/carlos-verona">VERONA Carlos</a><span class="showIfMobile riderteam">Movistar Team</span></div></td><td class="age hide" >28</td><td class="cu600" ><a href="team/movistar-team-2021">Movistar Team</a></td><td></td><td></td><td class="time ar" >-</td></tr>
+<tr data-team="1423" data-nation="nl"><td>DNS</td><td class="gc hide" ></td><td class="gc hide" ></td><td class="bibs hide" >137</td><td class="h2h hide" ><input type="checkbox" class="gotoH2H cbFalseOnLoad" data-seo="dylan-van-baarle" data-id="139904" style="margin: 0; " /><span></span></td><td><div><span class="flag nl"></span> <a href="rider/dylan-van-baarle">VAN BAARLE Dylan</a><span class="showIfMobile riderteam">INEOS Grenadiers</span></div></td><td class="age hide" >29</td><td class="cu600" ><a href="team/ineos-grenadiers-2021">INEOS Grenadiers</a></td><td></td><td></td><td class="time ar" >-</td></tr>
 </tbody></table>
 <div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result </div><div class="more-results-cont"><a class="viewMoreResults" data-n="25" href="">View top-25</a><div style="width: 10px; "></div><a class="viewMoreResults" data-n="250" href="">View full result</a></div><div class="mob-ad after-result "></div><div style="text-align: right; font-size: 11px; ">Timelimit 16%, or 5:26:22 (+45:01)</div></div><div class="result-cont hide" data-id="268227">
 <table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="fs10 clr999" >Prev</th><th class="fs10" >&#x25BC;&#x25B2;</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th class="time ar" >Time</th><th class="time_wonlost hide ar" >Time won/lost</th></tr></thead><tbody>
@@ -744,7 +749,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0951 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2529kb) peak (2711kb)</span></li></ul></li>
+<li><span>0.0759 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (2526kb) peak (2707kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
