@@ -10,7 +10,7 @@ object RiderResultKt {
   @kotlin.OptIn(com.google.protobuf.kotlin.OnlyForUseByGeneratedProtoCode::class)
   @com.google.protobuf.kotlin.ProtoDslMarker
   class Dsl private constructor(
-    @kotlin.jvm.JvmField private val _builder: io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder
+    private val _builder: io.github.patxibocos.pcsscraper.protobuf.race.RaceOuterClass.RiderResult.Builder
   ) {
     companion object {
       @kotlin.jvm.JvmSynthetic

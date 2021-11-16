@@ -21,7 +21,9 @@ import java.time.format.DateTimeFormatter
 import java.time.format.DateTimeParseException
 import java.util.Locale
 import kotlin.math.max
-import kotlin.time.Duration
+import kotlin.time.Duration.Companion.hours
+import kotlin.time.Duration.Companion.minutes
+import kotlin.time.Duration.Companion.seconds
 import kotlin.time.ExperimentalTime
 
 class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String) :
@@ -311,11 +313,11 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                 val timeInSeconds = when (parts.size) {
                     3 -> {
                         val (hours, minutes, seconds) = parts
-                        (Duration.hours(hours) + Duration.minutes(minutes) + Duration.seconds(seconds)).inWholeSeconds
+                        (hours.hours + minutes.minutes + seconds.seconds).inWholeSeconds
                     }
                     2 -> {
                         val (minutes, seconds) = parts
-                        (Duration.minutes(minutes) + Duration.seconds(seconds)).inWholeSeconds
+                        (minutes.minutes + seconds.seconds).inWholeSeconds
                     }
                     else -> throw RuntimeException("Unexpected time value: ${it.time}")
                 }
