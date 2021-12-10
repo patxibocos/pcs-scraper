@@ -1,14 +1,13 @@
 package io.github.patxibocos.pcsscraper.export
 
+import com.amazonaws.regions.Regions
+import com.amazonaws.services.s3.AmazonS3ClientBuilder
+import com.amazonaws.services.s3.model.ObjectMetadata
 import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
 import io.github.patxibocos.pcsscraper.export.protobuf.buildProtobufMessages
 import io.github.patxibocos.pcsscraper.protobuf.cyclingData
-import software.amazon.awssdk.core.sync.RequestBody
-import software.amazon.awssdk.regions.Region
-import software.amazon.awssdk.services.s3.S3Client
-import software.amazon.awssdk.services.s3.model.PutObjectRequest
 
 internal class S3Exporter : Exporter {
 
@@ -21,12 +20,13 @@ internal class S3Exporter : Exporter {
         }
         val s3Bucket = System.getenv("AWS_S3_BUCKET")
         val s3ObjectKey = System.getenv("AWS_S3_OBJECT_KEY")
-        S3Client.builder().region(Region.EU_WEST_3).build().use { s3Client ->
-            s3Client.putObject(
-                PutObjectRequest.builder().bucket(s3Bucket).key(s3ObjectKey)
-                    .contentLength(cyclingData.serializedSize.toLong()).contentType("application/x-protobuf").build(),
-                RequestBody.fromBytes(cyclingData.toByteArray())
-            )
-        }
+        val s3 = AmazonS3ClientBuilder.standard().withRegion(Regions.EU_WEST_3).build()
+        s3.putObject(
+            s3Bucket, s3ObjectKey, cyclingData.toByteArray().inputStream(),
+            ObjectMetadata().apply {
+                contentType = "application/x-protobuf"
+                contentLength = cyclingData.serializedSize.toLong()
+            }
+        )
     }
 }
