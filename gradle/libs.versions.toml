@@ -5,6 +5,7 @@ ktlint = "0.43.0"
 ktor = "1.6.5"
 
 [libraries]
+aws-http-client-engine = "aws.sdk.kotlin:http-client-engine-crt-jvm:0.9.5-beta"
 aws-s3 = "aws.sdk.kotlin:s3:0.9.4-beta"
 exposed-core = { module = "org.jetbrains.exposed:exposed-core", version.ref = "exposed" }
 exposed-jdbc = { module = "org.jetbrains.exposed:exposed-jdbc", version.ref = "exposed" }

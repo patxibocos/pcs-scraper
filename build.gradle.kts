@@ -21,6 +21,7 @@ repositories {
 
 dependencies {
     implementation(libs.aws.s3)
+    implementation(libs.aws.http.client.engine)
     implementation(libs.exposed.core)
     implementation(libs.exposed.jdbc)
     implementation(libs.firebase.admin)
