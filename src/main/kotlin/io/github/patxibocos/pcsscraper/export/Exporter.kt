@@ -7,7 +7,7 @@ import java.io.File
 import java.nio.file.Paths
 
 enum class Format {
-    FIREBASE, JSON, PROTOBUF, SQLITE
+    FIREBASE, JSON, PROTOBUF, S3, SQLITE
 }
 
 interface Exporter {
@@ -22,6 +22,7 @@ interface Exporter {
                 Format.JSON -> JsonExporter(destination)
                 Format.PROTOBUF -> ProtobufExporter(destination)
                 Format.SQLITE -> SQLiteExporter(destination)
+                Format.S3 -> S3Exporter()
             }
         }
     }

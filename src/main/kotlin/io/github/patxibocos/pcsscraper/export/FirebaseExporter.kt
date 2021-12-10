@@ -12,6 +12,9 @@ import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
 import io.github.patxibocos.pcsscraper.export.protobuf.buildProtobufMessages
+import io.github.patxibocos.pcsscraper.protobuf.races
+import io.github.patxibocos.pcsscraper.protobuf.riders
+import io.github.patxibocos.pcsscraper.protobuf.teams
 import kotlinx.serialization.ExperimentalSerializationApi
 import java.io.ByteArrayOutputStream
 import java.util.Base64
@@ -26,15 +29,15 @@ internal class FirebaseExporter : Exporter {
             .build()
         FirebaseApp.initializeApp(options)
 
-        val (teamsProtobufMessage, ridersProtobufMessage, racesProtobufMessage) = buildProtobufMessages(
+        val (teamsMessages, ridersMessages, racesMessages) = buildProtobufMessages(
             teams,
             riders,
             races
         )
 
-        val teamsGzipBase64 = gzipThenBase64(teamsProtobufMessage)
-        val ridersGzipBase64 = gzipThenBase64(ridersProtobufMessage)
-        val racesGzipBase64 = gzipThenBase64(racesProtobufMessage)
+        val teamsGzipBase64 = gzipThenBase64(teams { this.teams.addAll(teamsMessages) })
+        val ridersGzipBase64 = gzipThenBase64(riders { this.riders.addAll(ridersMessages) })
+        val racesGzipBase64 = gzipThenBase64(races { this.races.addAll(racesMessages) })
 
         val template: Template = FirebaseRemoteConfig.getInstance().templateAsync.get()
         template.parameters["teams"] = Parameter().setDefaultValue(ParameterValue.of(teamsGzipBase64))

@@ -1,5 +1,6 @@
 syntax = "proto3";
-package io.github.patxibocos.pcsscraper.protobuf.rider;
+package io.github.patxibocos.pcsscraper.protobuf;
+option go_package = "github.com/patxibocos/pcsscraper";
 
 import "src/main/proto/rider.proto";
 
