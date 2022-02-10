@@ -1,10 +1,10 @@
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
-    kotlin("jvm") version "1.6.0"
-    kotlin("plugin.serialization") version "1.6.0"
+    kotlin("jvm") version "1.6.10"
+    kotlin("plugin.serialization") version "1.6.10"
     application
-    id("com.diffplug.spotless") version "5.15.1"
+    id("com.diffplug.spotless") version "6.2.2"
 }
 
 group = "io.github.patxibocos"
@@ -61,11 +61,11 @@ spotless {
     kotlin {
         target("**/*.kt")
         targetExclude("$buildDir/**/*.kt", "bin/**/*.kt", "**/protobuf/**/*.kt")
-        ktlint("0.42.1")
+        ktlint("0.43.2")
     }
 
     kotlinGradle {
         target("*.gradle.kts")
-        ktlint("0.42.1")
+        ktlint("0.43.2")
     }
 }

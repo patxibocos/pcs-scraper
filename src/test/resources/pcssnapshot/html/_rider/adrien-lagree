@@ -15,7 +15,7 @@
 <title>Adrien  Lagrée </title>
 <base href="https://www.procyclingstats.com/rider.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/rider/adrien-lagree" />
-<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Adrien Lagrée (born 1997-04-25) is a professional road racing cyclist from France, currently riding for B&B Hotels p/b KTM. His best results are 33rd place in Paris - Tours Elite, 1st place in KOM Le Tour de Bretagne Cycliste and 3rd place in stage Le Tour de Bretagne Cycliste.">
+<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Adrien Lagrée (born 1997-04-25) is a professional road racing cyclist from France, currently riding for B&B Hotels - KTM. His best results are 45th place in stage Volta a la Comunitat Valenciana, 33rd place in Paris - Tours Elite and 1st place in KOM Le Tour de Bretagne Cycliste.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="utf-8"> 
@@ -23,27 +23,20 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a99.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a109.css" />
 
-<script src="https://www.procyclingstats.com/pcs_s41.js"></script>
-<script src="https://www.procyclingstats.com/pcs_search14.js"></script>
+<script src="https://www.procyclingstats.com/pcs_s47.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
 </head>
 <body>
-<script>
-$(document).ready(function() {
-	var id = 189915; 
-	var uid = ''; 
-	$.ajax({ method: "GET", url: "https://www.procyclingstatsdata.com/views.php", data: { v: 'rider', id: id, uid: uid  }   }).done(function() {    });
-});
-</script><div class="wrapper">
+<div class="wrapper">
   <header class="  ">
     <div class="cont">
     	<a class="logo4" href="index.php"><ul><li class="r">P</li><li class="r">C</li><li class="z">S</li></ul></a>
 
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
-    		<input type="text" name="term" id="search" data-nav="rider/-id-" data-page="rider" class="search4"  placeholder="search"  /></form>	
+    		<input type="text" name="term" id="search" data-nav="rider/-id-" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
       	<a class="mobMenu" href="">Menu&#x25BC;</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
@@ -65,25 +58,24 @@ $(document).ready(function() {
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/ag2r-citroen-team-2021">AG2R Citroën Team</a></li>
-<li><a href="team/astana-premier-tech-2021">Astana - Premier Tech </a></li>
-<li><a href="team/bahrain-victorious-2021">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2021">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-solutions-credits-2021">Cofidis, Solutions Crédits</a></li>
-<li><a href="team/deceuninck-quick-step-2021">Deceuninck - Quick Step</a></li>
-<li><a href="team/ef-education-nippo-2021">EF Education - Nippo</a></li>
-<li><a href="team/groupama-fdj-2021">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2021">INEOS Grenadiers </a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2021">Intermarché - Wanty - Gobert Matériaux</a></li>
-<li><a href="team/israel-start-up-nation-2021">Israel Start-Up Nation</a></li>
-<li><a href="team/lotto-soudal-2021">Lotto Soudal</a></li>
-<li><a href="team/movistar-team-2021">Movistar Team</a></li>
-<li><a href="team/teambikeexchange-2021">Team BikeExchange</a></li>
-<li><a href="team/team-dsm-2021">Team DSM</a></li>
-<li><a href="team/team-jumbo-visma-2021">Team Jumbo-Visma</a></li>
-<li><a href="team/team-qhubeka-assos-2021">Team Qhubeka ASSOS</a></li>
-<li><a href="team/trek-segafredo-2021">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2021">UAE-Team Emirates</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
+<li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
+<li><a href="team/team-dsm-2022">Team DSM</a></li>
+<li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
+<li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
+<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
+<li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2022">Cofidis</a></li>
+<li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
+<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
+<li><a href="team/movistar-team-2022">Movistar Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -96,7 +88,11 @@ $(document).ready(function() {
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
-<li><a href="tools.php">Favorite500</a></li>
+<li><a href="favorite500.php">Favorite500</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
 <li><a href="">Lists</a></li>
@@ -106,7 +102,7 @@ $(document).ready(function() {
 			 </div>
 			 <a class="user4" data-logged="0" href="login.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
-<div class="content  "> <div class="page-topnav "><ul><li class="reg "><a class="cur" href="rider/adrien-lagree">Overview</a></li>
+<div class="content  "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/adrien-lagree">Overview</a></li>
 <li class="reg "><a class="" href="rider/adrien-lagree/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/adrien-lagree/statistics/overview">Overview</a></li>
 <li><a href="rider/adrien-lagree/statistics/wins">Wins</a></li>
 <li><a href="rider/adrien-lagree/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -130,24 +126,25 @@ $(document).ready(function() {
 <li data-n="5"><a href="rider/adrien-lagree/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/adrien-lagree/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/adrien-lagree/contribute/contribute-family">Family</a></li>
-</ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag fr w32"></span><span class="flag fr w24"></span><h1 class="">Adrien  Lagrée</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">B&B Hotels p/b KTM</span></div><div class="sub"><span class="red showIfMobile">B&B Hotels p/b KTM</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="" >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/adrien-lagree/statistics/overview"><img src="images/riders/bp/da/adrien-lagree-2021-n2.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 25<sup>th</sup> April 1997 (24)<br /><b>Nationality:</b> <span class="flag  fr"></span><a class="black" href="nation/france">France</a><br /><span><b>Weight:</b> 66 kg &nbsp; <span><b>Height:</b> 1.76 m<br /><b>Place of birth:</b> <a href="location.php?id=3488">Saint-Hilaire-du-Harcouët</a><br /><div class=""></div>
+</ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag fr w32"></span><span class="flag fr w24"></span><h1 class="">Adrien  Lagrée</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">B&B Hotels - KTM</span></div><div class="sub"><span class="red showIfMobile">B&B Hotels - KTM</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="" >
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/adrien-lagree/statistics/overview"><img src="images/riders/bp/da/adrien-lagree-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 25<sup>th</sup> April 1997 (24)<br /><b>Nationality:</b> <span class="flag  fr"></span><a class="black" href="nation/france">France</a><br /><span><b>Weight:</b> 66 kg &nbsp; <span><b>Height:</b> 1.76 m<br /><b>Place of birth:</b> <a href="location.php?id=3488">Saint-Hilaire-du-Harcouët</a><br /><div class=""></div>
 <div class="mt10 pps"><h3>Points per specialty</h3><ul class="basic"  style=" "><li class="" ><div class="bar   " ><div class="barCont"><div class="bg left green" style="width: 0%;  height: 8px;  "></div></div></div><div class="pnt   " >0</div><div class="title   " ><a    href="rider/adrien-lagree/results/career-points-one-day-races">One day races</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left red" style="width: 100%;  height: 8px;  "></div></div></div><div class="pnt   " >16</div><div class="title   " ><a    href="rider/adrien-lagree/results/career-points-gc">GC</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left blue" style="width: 0%;  height: 8px;  "></div></div></div><div class="pnt   " >0</div><div class="title   " ><a    href="rider/adrien-lagree/results/career-points-time-trial">Time trial</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left orange" style="width: 62.5%;  height: 8px;  "></div></div></div><div class="pnt   " >10</div><div class="title   " ><a    href="rider/adrien-lagree/results/career-points-sprint">Sprint</a></div></li>
 <li class="" ><div class="bar   " ><div class="barCont"><div class="bg left purple" style="width: 0%;  height: 8px;  "></div></div></div><div class="pnt   " >0</div><div class="title   " ><a    href="rider/adrien-lagree/results/career-points-climbers">Climber</a></div></li>
 </ul></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/adrienlagree/">instagram</a></li>
-<li><span class="icon twitter left"></span><a  target="_blank"  class="" href="https://twitter.com/adrien_lagree">twitter</a></li>
+<div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"  class="" href="https://twitter.com/adrien_lagree">twitter</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"  class="" href="https://fr-fr.facebook.com/adrien.lagree.3">facebook</a></li>
+<li><span class="icon instagram left"></span><a  target="_blank"  class="" href="https://www.instagram.com/adrienlagree/">instagram</a></li>
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"  class="" href="https://www.procyclinggame.com/rider/adrien-lagree">ProCyclingGame</a></li>
 </ul></div>
-<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >2459</div></li>
+<div class=""><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   " ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   " >2505</div></li>
 </ul></div>
-<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-up">&#x25B2;308</span></div><div>  this week</div></li>
+<div class=""><ul class="list horizontal"  style=" "><li class="" ><div class="bold   " >Visits:</div><div><span class="delta-up">&#x25B2;253</span></div><div>  this week</div></li>
 </ul></div>
-</div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">33rd&nbsp;</div><div><span class="blue"></span> <a href="race/paris-tours/2021/result">Paris - Tours Elite</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
+</div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">45th&nbsp;</div><div><span class="blue">stage</span> <a href="race/vuelta-a-la-comunidad-valenciana/2022/stage-4">Volta a la Comunitat Valenciana</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">33rd&nbsp;</div><div><span class="blue"></span> <a href="race/paris-tours/2021/result">Paris - Tours Elite</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st7 w14"></span></div><div><span class="blue">KOM</span> <a href="race/le-tour-de-bretagne/2019/kom">Le Tour de Bretagne Cycliste</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">stage</span> <a href="race/le-tour-de-bretagne/2019/stage-5">Le Tour de Bretagne Cycliste</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">49th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-france-itt/2018/result">National Championships France - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
@@ -158,48 +155,24 @@ $(document).ready(function() {
 <li class="main"><div class="ar" style="width: 55px; ">22nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/kreiz-breizh-elites/2019/gc">Kreiz Breizh Elites</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">28th&nbsp;</div><div><span class="blue">stage</span> <a href="race/kreiz-breizh-elites/2019/stage-4">Kreiz Breizh Elites</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">46th&nbsp;</div><div><span class="blue">GC</span> <a href="race/paris-arras-tour/2019/gc">A Travers les Hauts de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">39th&nbsp;</div><div><span class="blue">GC</span> <a href="race/paris-arras-tour/2018/gc">A Travers Les Hauts De France - Trophee Paris-Arras Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
-</ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   " >2023</div><div class="name   " ><a    href="team/b-b-hotels-pb-ktm-2023">B&B Hotels p/b KTM</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
-<li class=" main " ><div class="season   " >2022</div><div class="name   " ><a    href="team/b-b-hotels-pb-ktm-2022">B&B Hotels p/b KTM</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
+</ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
+<div class=""><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   " >2023</div><div class="name   " ><a    href="team/b-b-hotels-ktm-2023">B&B Hotels - KTM</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
+<li class=" main " ><div class="season   " >2022</div><div class="name   " ><a    href="team/b-b-hotels-ktm-2022">B&B Hotels - KTM</a></div><div> (PRT)</div><div class="fs10   " ></div></li>
 <li class=" main " ><div class="season   " >2021</div><div class="name   " ><a    href="team/b-b-hotels-pb-ktm-2021">B&B Hotels p/b KTM</a></div><div> (PRT)</div><div class="fs10   " > trainee as from 01/08</div></li>
 </ul></div>
-<div class="mt30"><h3>Upcoming participations</h3><ul class="list flex pad2 dashed"  style=" "></ul></div>
-<div class=""><div class="">No races on program.</div></div>
+<div class="mt30"><h3>Upcoming participations</h3><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   " >12.02</div><div class="ellipsis   " ><span class="flag es"></span> <a    href="race/vuelta-ciclista-a-la-region-de-murcia/2022/startlist">Vuelta Ciclista a la Region de Murcia Costa Calida</a></div><div class="fs11   " ><a    href="rider.php?race=1202&id=189915&p=statistics&s=statistics-in-race">more</a></div></li>
+</ul></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
-</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2021" class="cur"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li class="more hide show_if"><span>more</span><ul><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" hide"><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" hide"><a class="seasonResults" data-season="2014" href="">2014</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600" style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>10.10</td><td>33</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-tours/2021/result"><b>Paris - Tours Elite</b></a>  (1.Pro)</td><td class="cu600">212.3</td><td class="cu600"></td><td class="cu600">3</td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="1"><td>05.10</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/memorial-frank-vandenbroucke/2021/result"><b>Binche -  Chimay - Binche / Mémorial Frank Vandenbroucke</b></a>  (1.1)</td><td class="cu600">198.6</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="1"><td>25.09</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/le-tour-de-bretagne/2021/stage-6-gc"><b>Le Tour de Bretagne Cycliste</b></a>  (2.2)</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>26.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/le-tour-de-bretagne/2021/stage-7">Stage 7 - Guitté › Dinan</a></td><td class="cu600">155.3</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>25.09</td><td>60</td><td class="gc cu600">35</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/le-tour-de-bretagne/2021/stage-6">Stage 6 - Quédillac › Fougères</a></td><td class="cu600">166</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>24.09</td><td>85</td><td class="gc cu600">32</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/le-tour-de-bretagne/2021/stage-5">Stage 5 - Châteaubriant › Boisgervilly</a></td><td class="cu600">217</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>23.09</td><td>94</td><td class="gc cu600">33</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/le-tour-de-bretagne/2021/stage-4">Stage 4 - Ploeren › Louisfert</a></td><td class="cu600">167.6</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>22.09</td><td>38</td><td class="gc cu600">35</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/le-tour-de-bretagne/2021/stage-3">Stage 3 - Rosporden › Brandivy</a></td><td class="cu600">170.5</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>21.09</td><td>73</td><td class="gc cu600">59</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/le-tour-de-bretagne/2021/stage-2">Stage 2 - Corlay › Rosporden</a></td><td class="cu600">169.1</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>20.09</td><td>59</td><td class="gc cu600">60</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/le-tour-de-bretagne/2021/stage-1">Stage 1 - Le Cambout › Allineuc</a></td><td class="cu600">159</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="1"><td>12.09</td><td>74</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/gp-de-fourmies/2021/result"><b>GP de Fourmies / La Voix du Nord</b></a>  (1.Pro)</td><td class="cu600">197.6</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="1"><td>15.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/la-poly-normande/2021/result"><b>La Polynormande</b></a>  (1.1)</td><td class="cu600">168.9</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="1"><td>08.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-des-pays-de-savoie/2021/stage-4-kom"><b>Le Tour de Savoie Mont Blanc</b></a>  (2.2)</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td></td><td>22</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt st7 w14"  ></span></td><td class="name"><a href="race/tour-des-pays-de-savoie/2021/stage-4-kom">Mountains classification</a></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td></td><td>27</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt st5 w14"  ></span></td><td class="name"><a href="race/tour-des-pays-de-savoie/2021/stage-4-points">Points classification</a></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td></td><td>53</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt st4 w14"  ></span></td><td class="name"><a href="race/tour-des-pays-de-savoie/2021/gc">General classification</a></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>08.08</td><td>52</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/tour-des-pays-de-savoie/2021/stage-4">Stage 4 - Saint-Jean-de-Maurienne › La Toussuire</a></td><td class="cu600">124</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>07.08</td><td>52</td><td class="gc cu600">56</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/tour-des-pays-de-savoie/2021/stage-3">Stage 3 - Orelle › Aussois</a></td><td class="cu600">128</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>06.08</td><td>53</td><td class="gc cu600">57</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/tour-des-pays-de-savoie/2021/stage-2">Stage 2 - Val Cenis Termignon › Col du Galibier </a></td><td class="cu600">150.6</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>05.08</td><td>62</td><td class="gc cu600">62</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/tour-des-pays-de-savoie/2021/stage-1">Stage 1 - Bonneville › Praz-sur-Arly </a></td><td class="cu600">122.1</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>04.08</td><td>36</td><td class="gc cu600">36</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><a href="race/tour-des-pays-de-savoie/2021/prologue">Prologue - Sallanches › Sallanches</a></td><td class="cu600">5.6</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="1"><td>31.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/kreiz-breizh-elites/2021/stage-2-gc"><b>Kreiz Breizh Elites</b></a>  (2.2)</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>01.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/kreiz-breizh-elites/2021/stage-3">Stage 3 - Ploërdut › Carhaix</a></td><td class="cu600">180.5</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>31.07</td><td>117</td><td class="gc cu600">96</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/kreiz-breizh-elites/2021/stage-2">Stage 2 - Calanhel › Plouray</a></td><td class="cu600">189.9</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>30.07</td><td>24</td><td class="gc cu600">110</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><a href="race/kreiz-breizh-elites/2021/stage-1">Stage 1 (TTT) - Ploumagoar › Ploumagoar</a></td><td class="cu600">12.5</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="1"><td>25.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-alsace/2021/gc"><b>Tour Alsace</b></a>  (2.2)</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td></td><td>80</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt st4 w14"  ></span></td><td class="name"><a href="race/tour-alsace/2021/gc">General classification</a></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>25.07</td><td>44</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/tour-alsace/2021/stage-5">Stage 5 - Mulhouse › Berrwiller</a></td><td class="cu600">153.6</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>24.07</td><td>92</td><td class="gc cu600">85</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/tour-alsace/2021/stage-4">Stage 4 - Ribeauvillé  › Lac Blanc</a></td><td class="cu600">161.3</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>23.07</td><td>75</td><td class="gc cu600">77</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/tour-alsace/2021/stage-3">Stage 3 - Vesoul › La Planche des Belles Filles</a></td><td class="cu600">143.1</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>22.07</td><td>133</td><td class="gc cu600">97</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="race/tour-alsace/2021/stage-2">Stage 2 - Colmar › Altkirch</a></td><td class="cu600">163.1</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-<tr data-main="0"><td>21.07</td><td>34</td><td class="gc cu600">95</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><a href="race/tour-alsace/2021/stage-1">Prologue (TTT) - Sausheim › Sausheim</a></td><td class="cu600">4.3</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>3169</b> km in <b>24</b> days. PCS points: <b>0</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   " >0</div><div class="title   " ><a    href="rider/adrien-lagree/statistics/wins">Wins</a></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
+</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2022" class="cur"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li class="more hide show_if"><span>more</span><ul><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" hide"><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" hide"><a class="seasonResults" data-season="2014" href="">2014</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600 " style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>06.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2022/stage-5-youth"><b>Volta a la Comunitat Valenciana</b></a>  (2.Pro)</td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=1101">more</a></td></tr>
+<tr data-main="0"><td></td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt st6 w14"  ></span></td><td class="name"><a href="https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2022/stage-5-youth">Youth classification</a></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=1101">more</a></td></tr>
+<tr data-main="0"><td></td><td>108</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt st4 w14"  ></span></td><td class="name"><a href="https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2022/gc">General classification</a></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=1101">more</a></td></tr>
+<tr data-main="0"><td>06.02</td><td>62</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2022/stage-5">Stage 5 - Paterna › Valencia</a></td><td class="cu600">92</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=1101">more</a></td></tr>
+<tr data-main="0"><td>05.02</td><td>45</td><td class="gc cu600">111</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2022/stage-4">Stage 4 - Orihuela › Torrevieja </a></td><td class="cu600">193.1</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=1101">more</a></td></tr>
+<tr data-main="0"><td>04.02</td><td>106</td><td class="gc cu600">125</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2022/stage-3">Stage 3 - Alicante › Antenas del Maigmó</a></td><td class="cu600">155.1</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=1101">more</a></td></tr>
+<tr data-main="0"><td>03.02</td><td>125</td><td class="gc cu600">136</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2022/stage-2">Stage 2 - Bétera › Torrent</a></td><td class="cu600">171.5</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=1101">more</a></td></tr>
+<tr data-main="0"><td>02.02</td><td>127</td><td class="gc cu600">127</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><a href="https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2022/stage-1">Stage 1 - Les Alqueries › Torralba del Pinar</a></td><td class="cu600">166.7</td><td class="cu600"></td><td class="cu600"></td><td class="cu600"><a class="more" href="rider.php?id=189915&p=statistics&s=statistics-in-race&race=1101">more</a></td></tr>
+</tbody></table><div class="rdrResultsSum" ><div>778</b> km in <b>5</b> days. PCS points: <b>0</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   " >0</div><div class="title   " ><a    href="rider/adrien-lagree/statistics/wins">Wins</a></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
 <li class="" ><div class="nr   " >0</div><div class="title   " ><a    href="rider/adrien-lagree/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
 <li class="" ><div class="nr   " >0</div><div class="title   " ><a    href="rider/adrien-lagree/statistics/top-classic-results">Classics</a></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div><div class="info fs11   " ></div></li>
 </ul></div>
@@ -227,17 +200,20 @@ $(document).ready(function(){
     //history.pushState("string", "page", url);  
     $(this).parents('ul').find('li').removeClass('cur');
     $(this).parent('li').addClass('cur'); 
+    console.log(subpath);
     $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season') }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
   });   
 
   $(document).on('click', '.seasonResults', function(e){
     e.preventDefault();       
     var season = $(this).attr('data-season');  
-    //console.log('dis: '+discipline+', id: '+id);
+    
+    //console.log('dis: '+discipline+', id: '+id+', season: '+season+', subpath:'+subpath);
     var url = 'rider/'+seo+'/'+season;
     history.pushState("string", "page", url);  
     $(".rdrSeasonNav li").removeClass('cur');
     $(".rdrSeasonNav li[data-season="+season+"]").addClass('cur'); 
+
     $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, season: season, sort: sort, pid: pid, discipline: discipline  }  }).done(function( response ) {   
     	//console.log(response);
       $('#resultsCont').html(response);      })  
@@ -299,9 +275,10 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0669 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1229kb) peak (1425kb)</span></li></ul></li>
+<li><span>0.0640 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1187kb) peak (1416kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
+<script src="search_list.js"></script>

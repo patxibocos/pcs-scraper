@@ -213,10 +213,10 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
 
         val infoList = stageDoc.findFirst("ul.infolist")
         val startDateTime = infoList.findFirst("li > div:nth-child(2)").ownText
-        val distance = infoList.findByIndex(3, "li > div:nth-child(2)").ownText
-        val type = infoList.findByIndex(5, "li").findFirst("span").classNames.last()
-        val departure = infoList.findByIndex(8, "li").findFirst("a").text.ifEmpty { null }
-        val arrival = infoList.findByIndex(9, "li").findFirst("a").text.ifEmpty { null }
+        val distance = infoList.findByIndex(4, "li > div:nth-child(2)").ownText
+        val type = infoList.findByIndex(6, "li").findFirst("span").classNames.last()
+        val departure = infoList.findByIndex(9, "li").findFirst("a").text.ifEmpty { null }
+        val arrival = infoList.findByIndex(10, "li").findFirst("a").text.ifEmpty { null }
         val result = getResult(stageDoc)
         return PCSStage(
             url = stageUrl,
