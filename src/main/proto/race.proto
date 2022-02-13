@@ -4,6 +4,10 @@ option go_package = "github.com/patxibocos/pcsscraper";
 
 import "google/protobuf/timestamp.proto";
 
+message Races {
+  repeated Race races = 1;
+}
+
 message Race {
   string id = 1;
   string name = 2;

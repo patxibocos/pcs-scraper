@@ -4,9 +4,11 @@ import com.google.protobuf.Timestamp
 import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
+import io.github.patxibocos.pcsscraper.protobuf.CyclingDataOuterClass
 import io.github.patxibocos.pcsscraper.protobuf.RaceOuterClass
 import io.github.patxibocos.pcsscraper.protobuf.RiderOuterClass
 import io.github.patxibocos.pcsscraper.protobuf.TeamOuterClass
+import io.github.patxibocos.pcsscraper.protobuf.cyclingData
 import io.github.patxibocos.pcsscraper.protobuf.race
 import io.github.patxibocos.pcsscraper.protobuf.rider
 import io.github.patxibocos.pcsscraper.protobuf.riderParticipation
@@ -15,26 +17,23 @@ import io.github.patxibocos.pcsscraper.protobuf.stage
 import io.github.patxibocos.pcsscraper.protobuf.team
 import io.github.patxibocos.pcsscraper.protobuf.teamParticipation
 import kotlinx.coroutines.Dispatchers
-import kotlinx.coroutines.async
-import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.withContext
 import java.time.ZoneOffset
 
-internal suspend fun buildProtobufMessages(
+internal suspend fun buildCyclingDataProtobuf(
     teams: List<Team>,
     riders: List<Rider>,
     races: List<Race>
-): Triple<List<TeamOuterClass.Team>, List<RiderOuterClass.Rider>, List<RaceOuterClass.Race>> =
+): CyclingDataOuterClass.CyclingData =
     withContext(Dispatchers.Default) {
-        val teamsProtobufMessage = async { buildTeamsProtobufMessage(teams) }
-        val ridersProtobufMessage = async { buildRidersProtobufMessage(riders) }
-        val racesProtobufMessage = async { buildRacesProtobufMessage(races) }
-        val protobufMessages = awaitAll(teamsProtobufMessage, ridersProtobufMessage, racesProtobufMessage)
-        Triple(
-            protobufMessages[0] as List<TeamOuterClass.Team>,
-            protobufMessages[1] as List<RiderOuterClass.Rider>,
-            protobufMessages[2] as List<RaceOuterClass.Race>
-        )
+        val teamsProtobufMessage = buildTeamsProtobufMessage(teams)
+        val ridersProtobufMessage = buildRidersProtobufMessage(riders)
+        val racesProtobufMessage = buildRacesProtobufMessage(races)
+        cyclingData {
+            this.teams.addAll(teamsProtobufMessage)
+            this.riders.addAll(ridersProtobufMessage)
+            this.races.addAll(racesProtobufMessage)
+        }
     }
 
 private fun buildTeamsProtobufMessage(_teams: List<Team>): List<TeamOuterClass.Team> =

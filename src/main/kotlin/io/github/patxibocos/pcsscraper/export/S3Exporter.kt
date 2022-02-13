@@ -6,18 +6,12 @@ import com.amazonaws.services.s3.model.ObjectMetadata
 import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
-import io.github.patxibocos.pcsscraper.export.protobuf.buildProtobufMessages
-import io.github.patxibocos.pcsscraper.protobuf.cyclingData
+import io.github.patxibocos.pcsscraper.export.protobuf.buildCyclingDataProtobuf
 
 internal class S3Exporter : Exporter {
 
     override suspend fun export(teams: List<Team>, riders: List<Rider>, races: List<Race>) {
-        val (teamsMessages, ridersMessages, racesMessages) = buildProtobufMessages(teams, riders, races)
-        val cyclingData = cyclingData {
-            this.teams.addAll(teamsMessages)
-            this.riders.addAll(ridersMessages)
-            this.races.addAll(racesMessages)
-        }
+        val cyclingData = buildCyclingDataProtobuf(teams, riders, races)
         val s3Bucket = System.getenv("AWS_S3_BUCKET")
         val s3ObjectKey = System.getenv("AWS_S3_OBJECT_KEY")
         val s3 = AmazonS3ClientBuilder.standard().withRegion(Regions.EU_WEST_3).build()

@@ -11,10 +11,7 @@ import com.google.protobuf.MessageLite
 import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
-import io.github.patxibocos.pcsscraper.export.protobuf.buildProtobufMessages
-import io.github.patxibocos.pcsscraper.protobuf.races
-import io.github.patxibocos.pcsscraper.protobuf.riders
-import io.github.patxibocos.pcsscraper.protobuf.teams
+import io.github.patxibocos.pcsscraper.export.protobuf.buildCyclingDataProtobuf
 import kotlinx.serialization.ExperimentalSerializationApi
 import java.io.ByteArrayOutputStream
 import java.util.Base64
@@ -29,20 +26,12 @@ internal class FirebaseExporter : Exporter {
             .build()
         FirebaseApp.initializeApp(options)
 
-        val (teamsMessages, ridersMessages, racesMessages) = buildProtobufMessages(
-            teams,
-            riders,
-            races
-        )
+        val cyclingData = buildCyclingDataProtobuf(teams, riders, races)
 
-        val teamsGzipBase64 = gzipThenBase64(teams { this.teams.addAll(teamsMessages) })
-        val ridersGzipBase64 = gzipThenBase64(riders { this.riders.addAll(ridersMessages) })
-        val racesGzipBase64 = gzipThenBase64(races { this.races.addAll(racesMessages) })
+        val cyclingDataGzipBase64 = gzipThenBase64(cyclingData)
 
         val template: Template = FirebaseRemoteConfig.getInstance().templateAsync.get()
-        template.parameters["teams"] = Parameter().setDefaultValue(ParameterValue.of(teamsGzipBase64))
-        template.parameters["riders"] = Parameter().setDefaultValue(ParameterValue.of(ridersGzipBase64))
-        template.parameters["races"] = Parameter().setDefaultValue(ParameterValue.of(racesGzipBase64))
+        template.parameters["cycling_data"] = Parameter().setDefaultValue(ParameterValue.of(cyclingDataGzipBase64))
         FirebaseRemoteConfig.getInstance().publishTemplate(template)
     }
 

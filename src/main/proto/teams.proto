@@ -1,9 +1,0 @@
-syntax = "proto3";
-package io.github.patxibocos.pcsscraper.protobuf;
-option go_package = "github.com/patxibocos/pcsscraper";
-
-import "src/main/proto/team.proto";
-
-message Teams {
-  repeated Team teams = 1;
-}
