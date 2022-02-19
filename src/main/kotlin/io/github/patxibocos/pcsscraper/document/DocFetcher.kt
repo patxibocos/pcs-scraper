@@ -22,6 +22,7 @@ class DocFetcher(
         docURL: URL,
         init: (Doc.() -> Unit)? = null,
     ): Doc = coroutineScope {
+        println("Fetching document $docURL")
         val path = docURL.file.dropWhile { it == '/' }
         val splits = path.split("/")
         val normalizeParentPath = if (splits.size > 1) splits.dropLast(1).joinToString(separator = "/", postfix = "/") {
