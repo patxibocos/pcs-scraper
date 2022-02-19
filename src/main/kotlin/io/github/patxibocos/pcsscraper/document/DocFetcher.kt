@@ -31,10 +31,15 @@ class DocFetcher(
         val cacheKey = "$normalizeParentPath${splits.last()}"
         val cacheContent = if (!skipCache && cache != null) cache.get(cacheKey) else null
         if (cacheContent != null) {
-            return@coroutineScope htmlDocument(cacheContent) {
+            val cachedDoc = htmlDocument(cacheContent) {
                 init?.invoke(this)
                 this
             }
+            if (cachedDoc.isEmpty()) {
+                cache?.remove(cacheKey)
+                return@coroutineScope getDoc(docURL, init)
+            }
+            return@coroutineScope cachedDoc
         }
         val httpResponse: HttpResponse = try {
             withContext(Dispatchers.IO) {
@@ -46,9 +51,15 @@ class DocFetcher(
         val byteArrayBody: ByteArray = httpResponse.receive()
         val remoteContent = String(byteArrayBody)
         cache?.put(cacheKey to remoteContent)
-        return@coroutineScope htmlDocument(remoteContent) {
+        val fetchedDoc = htmlDocument(remoteContent) {
             init?.invoke(this)
             this
         }
+        if (fetchedDoc.isEmpty()) {
+            return@coroutineScope getDoc(docURL, init)
+        }
+        return@coroutineScope fetchedDoc
     }
 }
+
+private fun Doc.isEmpty() = findFirst(".page-content").text.trim().isEmpty()
