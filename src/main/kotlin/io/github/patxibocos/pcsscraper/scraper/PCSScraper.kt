@@ -164,8 +164,9 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         }
 
         val startList = getRaceStartList(raceParticipantsUrl)
-        val raceResultDoc = docFetcher.getDoc(buildURL(raceResultUrl)) { relaxed = true }
-        val result = getResult(raceResultDoc)
+        val result = stages.findLast {
+            it.gcResult.isNotEmpty()
+        }?.gcResult
         PCSRace(
             url = raceUrl,
             name = name,
@@ -175,7 +176,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             website = website,
             stages = stages,
             startList = startList,
-            result = result,
+            result = result ?: emptyList(),
         )
     }
 
@@ -218,6 +219,12 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val departure = infoList.findByIndex(9, "li").findFirst("a").text.ifEmpty { null }
         val arrival = infoList.findByIndex(10, "li").findFirst("a").text.ifEmpty { null }
         val result = getResult(stageDoc)
+        val stageGcResultUrl = stageDoc.findFirst(".restabs").findSecond("a").attribute("href")
+        val gcResult = if (stageGcResultUrl.isNotEmpty()) {
+            getStageGcResult(stageGcResultUrl)
+        } else {
+            emptyList()
+        }
         return PCSStage(
             url = stageUrl,
             startDate = startDateTime,
@@ -226,7 +233,13 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             departure = departure,
             arrival = arrival,
             result = result,
+            gcResult = gcResult,
         )
+    }
+
+    private suspend fun getStageGcResult(stageGcResultUrl: String): List<PCSRiderResult> {
+        val raceResultDoc = docFetcher.getDoc(buildURL(stageGcResultUrl)) { relaxed = true }
+        return getResult(raceResultDoc)
     }
 
     private fun getResult(doc: Doc): List<PCSRiderResult> {
@@ -438,7 +451,8 @@ private data class PCSStage(
     val type: String,
     val departure: String?,
     val arrival: String?,
-    val result: List<PCSRiderResult>
+    val result: List<PCSRiderResult>,
+    val gcResult: List<PCSRiderResult>,
 )
 
 private class PCSRiderResult(
