@@ -10,6 +10,7 @@ import kotlinx.serialization.json.Json
 import kotlinx.serialization.modules.SerializersModule
 import kotlinx.serialization.modules.contextual
 import java.net.URL
+import java.time.Instant
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 
@@ -17,6 +18,7 @@ val json: Json = Json {
     serializersModule = SerializersModule {
         contextual(LocalDateSerializer)
         contextual(URLSerializer)
+        contextual(InstantSerializer)
     }
 }
 
@@ -39,4 +41,14 @@ private object URLSerializer : KSerializer<URL> {
 
     override fun deserialize(decoder: Decoder): URL =
         URL(decoder.decodeString())
+}
+
+private object InstantSerializer : KSerializer<Instant> {
+    override val descriptor: SerialDescriptor = PrimitiveSerialDescriptor("java.time.Instant", PrimitiveKind.STRING)
+
+    override fun serialize(encoder: Encoder, value: Instant) =
+        encoder.encodeString(value.toString())
+
+    override fun deserialize(decoder: Decoder): Instant =
+        Instant.parse(decoder.decodeString())
 }

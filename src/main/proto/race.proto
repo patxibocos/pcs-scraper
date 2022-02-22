@@ -22,7 +22,7 @@ message Race {
 
 message Stage {
   string id = 1;
-  google.protobuf.Timestamp start_date = 2;
+  google.protobuf.Timestamp start_date_time = 2;
   float distance = 3;
   repeated RiderResult result = 4;
   Type type = 5;

@@ -2,6 +2,7 @@ package io.github.patxibocos.pcsscraper.entity
 
 import kotlinx.serialization.Contextual
 import kotlinx.serialization.Serializable
+import java.time.Instant
 import java.time.LocalDate
 
 @Serializable
@@ -19,7 +20,7 @@ data class Race(
     @Serializable
     data class Stage(
         val id: String,
-        @Contextual val startDate: LocalDate,
+        @Contextual val startDateTime: Instant,
         val distance: Float,
         val type: Type?,
         val timeTrial: Boolean,

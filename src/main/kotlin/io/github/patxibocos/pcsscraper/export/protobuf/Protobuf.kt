@@ -85,8 +85,8 @@ private fun buildRacesProtobufMessage(_races: List<Race>): List<RaceOuterClass.R
                 race.stages.map { stage ->
                     RaceOuterClass.Stage.newBuilder().apply {
                         id = stage.id
-                        startDate = Timestamp.newBuilder()
-                            .setSeconds(stage.startDate.atStartOfDay().toEpochSecond(ZoneOffset.UTC))
+                        startDateTime = Timestamp.newBuilder()
+                            .setSeconds(stage.startDateTime.epochSecond)
                             .build()
                         distance = stage.distance
                         type = when (stage.type) {

@@ -16,7 +16,11 @@ import kotlinx.coroutines.coroutineScope
 import java.net.URI
 import java.net.URL
 import java.text.Collator
+import java.time.Instant
 import java.time.LocalDate
+import java.time.LocalTime
+import java.time.OffsetTime
+import java.time.ZoneOffset
 import java.time.format.DateTimeFormatter
 import java.time.format.DateTimeParseException
 import java.util.Locale
@@ -213,7 +217,14 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
 
         val infoList = stageDoc.findFirst("ul.infolist")
-        val startDateTime = infoList.findFirst("li > div:nth-child(2)").ownText
+        val startDate = infoList.findFirst("li > div:nth-child(2)").ownText
+        val startTime = infoList.findSecond("li > div:nth-child(2)").ownText
+        val startTimeCET = if (startTime != "-") {
+            val cetTimePart = startTime.substring(startTime.indexOf('(') + 1)
+            cetTimePart.substring(0, 5)
+        } else {
+            null
+        }
         val distance = infoList.findByIndex(4, "li > div:nth-child(2)").ownText
         val type = infoList.findByIndex(6, "li").findFirst("span").classNames.last()
         val timeTrial = stageDoc.findFirst(".sub > span:nth-child(3)").text.contains("ITT")
@@ -228,7 +239,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         }
         return PCSStage(
             url = stageUrl,
-            startDate = startDateTime,
+            startDate = startDate,
+            startTimeCET = startTimeCET,
             distance = distance,
             type = type,
             timeTrial = timeTrial,
@@ -344,7 +356,17 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
 
     private fun pcsStageToStage(pcsStage: PCSStage): Race.Stage {
         // Some dates include time, so for now we just ignore the time part
-        val startDate = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
+        val startDateString = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
+        val localDate = LocalDate.parse(startDateString, DateTimeFormatter.ofPattern("dd MMMM yyyy"))
+        val startDateTime = if (pcsStage.startTimeCET != null) {
+            val (hoursCET, minutesCET) = pcsStage.startTimeCET.split(":")
+            val timeCET = OffsetTime.of(hoursCET.toInt(), minutesCET.toInt(), 0, 0, ZoneOffset.ofHours(1))
+            val timeUTC = timeCET.withOffsetSameInstant(ZoneOffset.UTC)
+            val epochSeconds = timeUTC.toEpochSecond(localDate)
+            Instant.ofEpochSecond(epochSeconds)
+        } else {
+            Instant.ofEpochSecond(localDate.toEpochSecond(LocalTime.MIDNIGHT, ZoneOffset.UTC))
+        }
         // p1, p2, p3, p4 and p5 are the only valid values
         val pcsTypeIndex = (1..5).map { "p$it" }.indexOf(pcsStage.type).takeIf { it != -1 }
         val stageId = pcsStage.url.split("/")
@@ -355,7 +377,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val result = pcsRiderResultToRiderResult(pcsStage.result)
         return Race.Stage(
             id = stageId,
-            startDate = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd MMMM yyyy")),
+            startDateTime = startDateTime,
             distance = pcsStage.distance.split(" ").first().toFloat(),
             type = pcsTypeIndex?.let { Race.Stage.Type.values()[pcsTypeIndex] },
             timeTrial = pcsStage.timeTrial,
@@ -450,6 +472,7 @@ private data class PCSRiderParticipation(
 private data class PCSStage(
     val url: String,
     val startDate: String,
+    val startTimeCET: String?,
     val distance: String,
     val type: String,
     val timeTrial: Boolean,
