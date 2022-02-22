@@ -22,6 +22,7 @@ data class Race(
         @Contextual val startDate: LocalDate,
         val distance: Float,
         val type: Type?,
+        val timeTrial: Boolean,
         val departure: String?,
         val arrival: String?,
         val result: List<RiderResult>,

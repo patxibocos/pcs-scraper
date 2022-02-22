@@ -97,6 +97,7 @@ private fun buildRacesProtobufMessage(_races: List<Race>): List<RaceOuterClass.R
                             Race.Stage.Type.MOUNTAINS_UPHILL_FINISH -> RaceOuterClass.Stage.Type.TYPE_MOUNTAINS_UPHILL_FINISH
                             null -> RaceOuterClass.Stage.Type.TYPE_UNSPECIFIED
                         }
+                        timeTrial = stage.timeTrial
                         stage.departure?.let { departure = it }
                         stage.arrival?.let { arrival = it }
                         addAllResult(

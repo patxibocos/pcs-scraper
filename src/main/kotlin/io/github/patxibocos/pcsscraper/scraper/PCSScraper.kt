@@ -216,6 +216,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val startDateTime = infoList.findFirst("li > div:nth-child(2)").ownText
         val distance = infoList.findByIndex(4, "li > div:nth-child(2)").ownText
         val type = infoList.findByIndex(6, "li").findFirst("span").classNames.last()
+        val timeTrial = stageDoc.findFirst(".sub > span:nth-child(3)").text.contains("ITT")
         val departure = infoList.findByIndex(9, "li").findFirst("a").text.ifEmpty { null }
         val arrival = infoList.findByIndex(10, "li").findFirst("a").text.ifEmpty { null }
         val result = getResult(stageDoc)
@@ -230,6 +231,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             startDate = startDateTime,
             distance = distance,
             type = type,
+            timeTrial = timeTrial,
             departure = departure,
             arrival = arrival,
             result = result,
@@ -356,6 +358,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             startDate = LocalDate.parse(startDate, DateTimeFormatter.ofPattern("dd MMMM yyyy")),
             distance = pcsStage.distance.split(" ").first().toFloat(),
             type = pcsTypeIndex?.let { Race.Stage.Type.values()[pcsTypeIndex] },
+            timeTrial = pcsStage.timeTrial,
             departure = pcsStage.departure,
             arrival = pcsStage.arrival,
             result = result,
@@ -449,6 +452,7 @@ private data class PCSStage(
     val startDate: String,
     val distance: String,
     val type: String,
+    val timeTrial: Boolean,
     val departure: String?,
     val arrival: String?,
     val result: List<PCSRiderResult>,
