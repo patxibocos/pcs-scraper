@@ -28,6 +28,7 @@ message Stage {
   Type type = 5;
   optional string departure = 6;
   optional string arrival = 7;
+  bool time_trial = 8;
 
   enum Type {
     TYPE_UNSPECIFIED = 0;

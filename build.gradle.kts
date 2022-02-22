@@ -1,10 +1,14 @@
+import com.google.protobuf.gradle.protobuf
+import com.google.protobuf.gradle.protoc
 import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
+    application
+    idea
     kotlin("jvm") version "1.6.10"
     kotlin("plugin.serialization") version "1.6.10"
-    application
     id("com.diffplug.spotless") version "6.2.2"
+    id("com.google.protobuf") version "0.8.18"
 }
 
 group = "io.github.patxibocos"
@@ -13,6 +17,12 @@ version = "1.0-SNAPSHOT"
 application {
     mainClass.set("io.github.patxibocos.pcsscraper.MainKt")
     applicationName = rootProject.name
+}
+
+protobuf {
+    protoc {
+        artifact = "com.google.protobuf:protoc:3.19.4"
+    }
 }
 
 repositories {

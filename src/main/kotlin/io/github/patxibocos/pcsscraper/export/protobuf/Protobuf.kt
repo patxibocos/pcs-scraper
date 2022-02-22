@@ -8,14 +8,6 @@ import io.github.patxibocos.pcsscraper.protobuf.CyclingDataOuterClass
 import io.github.patxibocos.pcsscraper.protobuf.RaceOuterClass
 import io.github.patxibocos.pcsscraper.protobuf.RiderOuterClass
 import io.github.patxibocos.pcsscraper.protobuf.TeamOuterClass
-import io.github.patxibocos.pcsscraper.protobuf.cyclingData
-import io.github.patxibocos.pcsscraper.protobuf.race
-import io.github.patxibocos.pcsscraper.protobuf.rider
-import io.github.patxibocos.pcsscraper.protobuf.riderParticipation
-import io.github.patxibocos.pcsscraper.protobuf.riderResult
-import io.github.patxibocos.pcsscraper.protobuf.stage
-import io.github.patxibocos.pcsscraper.protobuf.team
-import io.github.patxibocos.pcsscraper.protobuf.teamParticipation
 import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.withContext
 import java.time.ZoneOffset
@@ -29,16 +21,16 @@ internal suspend fun buildCyclingDataProtobuf(
         val teamsProtobufMessage = buildTeamsProtobufMessage(teams)
         val ridersProtobufMessage = buildRidersProtobufMessage(riders)
         val racesProtobufMessage = buildRacesProtobufMessage(races)
-        cyclingData {
-            this.teams.addAll(teamsProtobufMessage)
-            this.riders.addAll(ridersProtobufMessage)
-            this.races.addAll(racesProtobufMessage)
-        }
+        CyclingDataOuterClass.CyclingData.newBuilder().apply {
+            addAllTeams(teamsProtobufMessage)
+            addAllRiders(ridersProtobufMessage)
+            addAllRaces(racesProtobufMessage)
+        }.build()
     }
 
 private fun buildTeamsProtobufMessage(_teams: List<Team>): List<TeamOuterClass.Team> =
     _teams.map { team ->
-        team {
+        TeamOuterClass.Team.newBuilder().apply {
             id = team.id
             name = team.name
             status = when (team.status) {
@@ -51,13 +43,13 @@ private fun buildTeamsProtobufMessage(_teams: List<Team>): List<TeamOuterClass.T
             jersey = team.jersey.toString()
             team.website?.let { website = it }
             year = team.year
-            riderIds.addAll(team.riders)
-        }
+            addAllRiderIds(team.riders)
+        }.build()
     }
 
 private fun buildRidersProtobufMessage(_riders: List<Rider>): List<RiderOuterClass.Rider> =
     _riders.map { rider ->
-        rider {
+        RiderOuterClass.Rider.newBuilder().apply {
             id = rider.id
             firstName = rider.firstName
             lastName = rider.lastName
@@ -72,12 +64,12 @@ private fun buildRidersProtobufMessage(_riders: List<Rider>): List<RiderOuterCla
             rider.weight?.let { weight = it }
             rider.height?.let { height = it }
             photo = rider.photo.toString()
-        }
+        }.build()
     }
 
 private fun buildRacesProtobufMessage(_races: List<Race>): List<RaceOuterClass.Race> =
     _races.map { race ->
-        race {
+        RaceOuterClass.Race.newBuilder().apply {
             id = race.id
             name = race.name
             country = race.country
@@ -89,9 +81,9 @@ private fun buildRacesProtobufMessage(_races: List<Race>): List<RaceOuterClass.R
                 Timestamp.newBuilder().setSeconds(race.endDate.atStartOfDay().toEpochSecond(ZoneOffset.UTC))
                     .build()
             race.website?.let { website = it }
-            stages.addAll(
+            addAllStages(
                 race.stages.map { stage ->
-                    stage {
+                    RaceOuterClass.Stage.newBuilder().apply {
                         id = stage.id
                         startDate = Timestamp.newBuilder()
                             .setSeconds(stage.startDate.atStartOfDay().toEpochSecond(ZoneOffset.UTC))
@@ -107,41 +99,41 @@ private fun buildRacesProtobufMessage(_races: List<Race>): List<RaceOuterClass.R
                         }
                         stage.departure?.let { departure = it }
                         stage.arrival?.let { arrival = it }
-                        result.addAll(
+                        addAllResult(
                             stage.result.map { riderResult ->
-                                riderResult {
+                                RaceOuterClass.RiderResult.newBuilder().apply {
                                     position = riderResult.position
                                     riderId = riderResult.rider
                                     time = riderResult.time
-                                }
+                                }.build()
                             }
                         )
-                    }
+                    }.build()
                 }
             )
-            teams.addAll(
+            addAllTeams(
                 race.startList.map { teamParticipation ->
-                    teamParticipation {
+                    RaceOuterClass.TeamParticipation.newBuilder().apply {
                         teamId = teamParticipation.team
-                        riders.addAll(
+                        addAllRiders(
                             teamParticipation.riders.map { riderParticipation ->
-                                riderParticipation {
+                                RaceOuterClass.RiderParticipation.newBuilder().apply {
                                     riderId = riderParticipation.rider
                                     riderParticipation.number?.let { number = it }
-                                }
+                                }.build()
                             }
                         )
-                    }
+                    }.build()
                 }
             )
-            result.addAll(
+            addAllResult(
                 race.result.map { riderResult ->
-                    riderResult {
+                    RaceOuterClass.RiderResult.newBuilder().apply {
                         position = riderResult.position
                         riderId = riderResult.rider
                         time = riderResult.time
-                    }
+                    }.build()
                 }
             )
-        }
+        }.build()
     }

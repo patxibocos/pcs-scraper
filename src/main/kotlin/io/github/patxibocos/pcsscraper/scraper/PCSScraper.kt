@@ -165,7 +165,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
 
         val startList = getRaceStartList(raceParticipantsUrl)
         val result = stages.findLast {
-            it.gcResult.isNotEmpty()
+            it.gcResult.size >= 3 // We do this because since a stage ends until complete GC is published, GC sometimes contains just the Top 1
         }?.gcResult
         PCSRace(
             url = raceUrl,
