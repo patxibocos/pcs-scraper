@@ -155,7 +155,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val startDate = infoList.findFirst("li").findSecond("div").ownText
         val endDate = infoList.findSecond("li").findSecond("div").ownText
         val stages = if (startDate == endDate) {
-            listOf(getStage(raceResultUrl))
+            listOf(getStage(raceResultUrl, true))
         } else {
             getStages(stagesUrl)
         }
@@ -169,8 +169,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
 
         val startList = getRaceStartList(raceParticipantsUrl)
         val result = stages.findLast {
-            it.gcResult.size >= 3 // We do this because since a stage ends until complete GC is published, GC sometimes contains just the Top 1
-        }?.gcResult
+            it.gcResult.isNotEmpty()
+        }?.gcResult ?: emptyList()
         PCSRace(
             url = raceUrl,
             name = name,
@@ -180,7 +180,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             website = website,
             stages = stages,
             startList = startList,
-            result = result ?: emptyList(),
+            result = result,
         )
     }
 
@@ -209,10 +209,10 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val stagesUrls = stagesDoc.findFirst("table.basic > tbody").findAll("tr").map {
             it.findThird("td").findFirst("a").attribute("href")
         }
-        stagesUrls.map { stageUrl -> getStage(stageUrl) }
+        stagesUrls.map { stageUrl -> getStage(stageUrl, false) }
     }
 
-    private suspend fun getStage(stageUrl: String): PCSStage {
+    private suspend fun getStage(stageUrl: String, isSingleDayRace: Boolean): PCSStage {
         val stageURL = buildURL(stageUrl)
         val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
 
@@ -230,12 +230,29 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val timeTrial = stageDoc.findFirst(".sub > span:nth-child(3)").text.contains("ITT")
         val departure = infoList.findByIndex(9, "li").findFirst("a").text.ifEmpty { null }
         val arrival = infoList.findByIndex(10, "li").findFirst("a").text.ifEmpty { null }
-        val result = getResult(stageDoc)
         val stageGcResultUrl = stageDoc.findFirst(".restabs").findSecond("a").attribute("href")
-        val gcResult = if (stageGcResultUrl.isNotEmpty()) {
-            getStageGcResult(stageGcResultUrl)
-        } else {
-            emptyList()
+        val result: List<PCSRiderResult>
+        val gcResult: List<PCSRiderResult>
+        when (isSingleDayRace) {
+            // Single day races will never have a gcResult, so we manually set it
+            true -> {
+                result = getResult(stageDoc)
+                gcResult = result
+            }
+            false -> {
+                // Url may be empty because the element is not present until stage is active
+                gcResult = if (stageGcResultUrl.isNotEmpty()) {
+                    getStageGcResult(stageGcResultUrl)
+                } else {
+                    emptyList()
+                }
+                // We skip stage result if GC result is not available, just for consistency
+                result = if (gcResult.isEmpty()) {
+                    gcResult
+                } else {
+                    getResult(stageDoc)
+                }
+            }
         }
         return PCSStage(
             url = stageUrl,
@@ -262,7 +279,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         val positionColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rnk" }
         val riderColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rider" }
         val timeColumnIndex = resultColumns.indexOfFirst { it.ownText == "Time" }
-        return resultsTable.findAll("tbody > tr").map {
+        val result = resultsTable.findAll("tbody > tr").map {
             val position = it.td { findByIndex(positionColumnIndex) }.ownText
             val rider = it.td { findByIndex(riderColumnIndex) }.a { findFirst { attribute("href") } }
             val time = it.td { findByIndex(timeColumnIndex) }.ownText.ifEmpty {
@@ -274,6 +291,9 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                 time = time,
             )
         }
+        return result.takeIf {
+            it.size >= 3
+        } ?: emptyList()
     }
 
     private fun pcsTeamToTeam(pcsTeam: PCSTeam): Team =
