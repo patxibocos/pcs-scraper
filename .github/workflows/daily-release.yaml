@@ -16,10 +16,13 @@ jobs:
         with:
           distribution: 'zulu'
           java-version: '16'
-      - name: Build
-        run: ./gradlew build
+      - name: Build pcs-scraper
+        uses: burrunan/gradle-cache-action@v1
+        with:
+          arguments: build
+          gradle-version: wrapper
       - name: Run scraper
-        run: java -jar build/libs/pcs-scraper.jar -s 2022 -d out -f sqlite -f json -f protobuf
+        run: java -jar build/libs/pcs-scraper.jar -s 2022 -c cache -d out -f sqlite -f json -f protobuf
       - name: Set current date as env variable
         run: echo "TODAY=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
       - name: Release

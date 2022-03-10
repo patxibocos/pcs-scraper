@@ -38,8 +38,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     RacesScraper {
     override suspend fun scrapeTeams(season: Int): List<Team> = coroutineScope {
         getTeamsUrls(season).map { teamUrl ->
-            getTeam(teamUrl, season)
-        }.map(::pcsTeamToTeam).sortedBy { it.name }
+            async { getTeam(teamUrl, season) }
+        }.awaitAll().map(::pcsTeamToTeam).sortedBy { it.name }
     }
 
     override suspend fun scrapeRiders(season: Int): List<Rider> = coroutineScope {
