@@ -12,6 +12,8 @@ import it.skrape.selects.html5.td
 import it.skrape.selects.html5.thead
 import it.skrape.selects.html5.tr
 import it.skrape.selects.html5.ul
+import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
 import java.net.URI
 import java.net.URL
@@ -45,8 +47,15 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
             getTeam(teamUrl, season)
         }
         val pcsRiders = pcsTeams
-            .flatMap(PCSTeam::riders)
-            .map { (riderUrl, riderFullName) -> getRider(riderUrl, riderFullName) }
+            .map {
+                async {
+                    it.riders.map { (riderUrl, riderFullName) ->
+                        getRider(riderUrl, riderFullName)
+                    }
+                }
+            }
+            .awaitAll()
+            .flatten()
             .distinctBy { it.url }
         val usCollator = Collator.getInstance(Locale.US)
         val ridersComparator = compareBy(usCollator) { r: Rider -> r.lastName.lowercase() }
@@ -55,9 +64,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     override suspend fun scrapeRaces(season: Int): List<Race> = coroutineScope {
-        getRacesUrls(season).map { raceUrl ->
-            getRace(raceUrl)
-        }.map(::pcsRaceToRace).sortedBy { it.startDate }
+        val pcsRaces = getRacesUrls(season).map { raceUrl -> async { getRace(raceUrl) } }.awaitAll()
+        pcsRaces.map(::pcsRaceToRace).sortedBy { it.startDate }
     }
 
     private suspend fun getTeamsUrls(season: Int): List<String> {
