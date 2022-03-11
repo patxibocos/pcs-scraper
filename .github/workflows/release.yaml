@@ -6,23 +6,21 @@ on:
   workflow_dispatch:
 
 jobs:
+  scrap:
+    uses: ./.github/workflows/run.yaml
+    with:
+      formats: -f sqlite -f json -f protobuf
+    secrets:
+      FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
+      FIREBASE_SERVICE_ACCOUNT_PASSPHRASE: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PASSPHRASE }}
+      AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
+      AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
+      AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
+      AWS_S3_OBJECT_KEY: ${{ secrets.AWS_S3_OBJECT_KEY }}
   release:
+    needs: scrap
     runs-on: ubuntu-latest
     steps:
-      - name: Checkout
-        uses: actions/checkout@v2
-      - name: Set up JDK 16
-        uses: actions/setup-java@v2
-        with:
-          distribution: 'zulu'
-          java-version: '16'
-      - name: Build pcs-scraper
-        uses: burrunan/gradle-cache-action@v1
-        with:
-          arguments: build
-          gradle-version: wrapper
-      - name: Run scraper
-        run: java -jar build/libs/pcs-scraper.jar -s 2022 -c cache -d out -f sqlite -f json -f protobuf
       - name: Set current date as env variable
         run: echo "TODAY=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
       - name: Release
