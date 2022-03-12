@@ -10,6 +10,7 @@ jobs:
     uses: ./.github/workflows/run.yaml
     with:
       formats: -f sqlite -f json -f protobuf
+      upload-artifact: true
     secrets:
       FIREBASE_SERVICE_ACCOUNT: ${{ secrets.FIREBASE_SERVICE_ACCOUNT }}
       FIREBASE_SERVICE_ACCOUNT_PASSPHRASE: ${{ secrets.FIREBASE_SERVICE_ACCOUNT_PASSPHRASE }}
@@ -21,6 +22,11 @@ jobs:
     needs: scrap
     runs-on: ubuntu-latest
     steps:
+      - name: Download output
+        uses: actions/download-artifact@v3
+        with:
+          name: scraper
+          path: out
       - name: Set current date as env variable
         run: echo "TODAY=$(date +'%Y.%m.%d')" >> $GITHUB_ENV
       - name: Release
