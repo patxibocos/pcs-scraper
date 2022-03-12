@@ -6,6 +6,10 @@ on:
       formats:
         required: true
         type: string
+      upload-artifact:
+        required: false
+        type: boolean
+        default: false
     secrets:
       FIREBASE_SERVICE_ACCOUNT:
         required: true
@@ -49,3 +53,9 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_S3_OBJECT_KEY: ${{ secrets.AWS_S3_OBJECT_KEY }}
+      - name: Upload output
+        uses: actions/upload-artifact@v3
+        if: ${{ inputs.upload-artifact }}
+        with:
+          name: scraper
+          path: out/
