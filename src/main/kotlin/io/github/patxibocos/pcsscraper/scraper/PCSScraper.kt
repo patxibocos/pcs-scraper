@@ -30,7 +30,6 @@ import kotlin.math.max
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Duration.Companion.seconds
-import kotlin.time.ExperimentalTime
 
 class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String) :
     TeamsScraper,
@@ -355,7 +354,6 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         )
     }
 
-    @OptIn(ExperimentalTime::class)
     private fun pcsRiderResultToRiderResult(pcsRiderResults: List<PCSRiderResult>): List<Race.RiderResult> {
         var currentTime = 0L
         return pcsRiderResults.take(10).mapNotNull {

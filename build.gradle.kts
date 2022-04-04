@@ -5,9 +5,9 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     application
     idea
-    kotlin("jvm") version "1.6.10"
-    kotlin("plugin.serialization") version "1.6.10"
-    id("com.diffplug.spotless") version "6.2.2"
+    kotlin("jvm") version "1.6.20"
+    kotlin("plugin.serialization") version "1.6.20"
+    id("com.diffplug.spotless") version "6.4.1"
     id("com.google.protobuf") version "0.8.18"
 }
 
@@ -21,7 +21,7 @@ application {
 
 protobuf {
     protoc {
-        artifact = "com.google.protobuf:protoc:3.19.4"
+        artifact = "com.google.protobuf:protoc:3.20.0"
     }
 }
 
@@ -52,8 +52,7 @@ tasks.test {
 }
 
 tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "16"
-    kotlinOptions.freeCompilerArgs += "-Xopt-in=kotlin.RequiresOptIn"
+    kotlinOptions.jvmTarget = "17"
 }
 
 tasks.withType<Jar> {
@@ -71,11 +70,11 @@ spotless {
     kotlin {
         target("**/*.kt")
         targetExclude("$buildDir/**/*.kt", "bin/**/*.kt", "**/protobuf/**/*.kt")
-        ktlint("0.43.2")
+        ktlint("0.45.1")
     }
 
     kotlinGradle {
         target("*.gradle.kts")
-        ktlint("0.43.2")
+        ktlint("0.45.1")
     }
 }

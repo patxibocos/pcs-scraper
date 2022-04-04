@@ -3,7 +3,6 @@ package io.github.patxibocos.pcsscraper.export
 import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
-import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.encodeToString
 import kotlinx.serialization.json.Json
 import org.jetbrains.exposed.sql.Database
@@ -55,7 +54,6 @@ internal class SQLiteExporter(destination: File) : Exporter {
         override val primaryKey: PrimaryKey
             get() = PrimaryKey(id, name = "id")
 
-        @OptIn(ExperimentalSerializationApi::class)
         override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Team) {
             insertStatement[id] = t.id
             insertStatement[name] = t.name
