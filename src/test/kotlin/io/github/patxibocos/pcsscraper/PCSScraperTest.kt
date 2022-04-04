@@ -9,10 +9,8 @@ import io.kotest.matchers.shouldBe
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.slot
-import kotlinx.serialization.ExperimentalSerializationApi
 import kotlinx.serialization.encodeToString
 
-@OptIn(ExperimentalSerializationApi::class)
 class PCSScraperTest : BehaviorSpec({
     given("a PCSScraper") {
         val cacheKeySlot = slot<String>()
