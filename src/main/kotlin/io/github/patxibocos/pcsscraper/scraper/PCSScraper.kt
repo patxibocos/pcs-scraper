@@ -362,7 +362,11 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
                 return@mapNotNull null
             }
             if (it.time != ",,") { // Time being ,, means that it has the same time as the previous rider
-                val parts = it.time.split(":").map(String::toInt)
+                val splits = it.time.split(":")
+                if (splits.any { s -> s.toIntOrNull() == null }) {
+                    return@mapNotNull null
+                }
+                val parts = splits.map(String::toInt)
                 val timeInSeconds = when (parts.size) {
                     3 -> {
                         val (hours, minutes, seconds) = parts
