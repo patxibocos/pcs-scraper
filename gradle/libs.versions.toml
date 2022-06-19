@@ -1,22 +1,22 @@
 [versions]
-exposed = "0.37.3"
-kotest = "5.1.0"
-ktlint = "0.43.0"
-ktor = "1.6.8"
+exposed = "0.38.2"
+kotest = "5.3.1"
+ktlint = "0.45.2"
+ktor = "2.0.2"
 
 [libraries]
-aws-s3 = "com.amazonaws:aws-java-sdk-s3:1.12.191"
+aws-s3 = "com.amazonaws:aws-java-sdk-s3:1.12.236"
 exposed-core = { module = "org.jetbrains.exposed:exposed-core", version.ref = "exposed" }
 exposed-jdbc = { module = "org.jetbrains.exposed:exposed-jdbc", version.ref = "exposed" }
-firebase-admin = "com.google.firebase:firebase-admin:8.1.0"
+firebase-admin = "com.google.firebase:firebase-admin:8.2.0"
 kotlin-cli = "org.jetbrains.kotlinx:kotlinx-cli-jvm:0.3.4"
-kotlin-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.2"
+kotlin-serialization-json = "org.jetbrains.kotlinx:kotlinx-serialization-json:1.3.3"
 ktor-client-core = { module = "io.ktor:ktor-client-core", version.ref = "ktor" }
 ktor-client-cio = { module = "io.ktor:ktor-client-cio", version.ref = "ktor" }
-protobuf-kotlin = "com.google.protobuf:protobuf-kotlin:3.19.4"
+protobuf-kotlin = "com.google.protobuf:protobuf-kotlin:3.21.1"
 skrapeit = "it.skrape:skrapeit:1.2.1"
 sqlite-jdbc = "org.xerial:sqlite-jdbc:3.36.0.3"
 
 test-kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
 test-kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
-test-mockk = "io.mockk:mockk:1.12.3"
+test-mockk = "io.mockk:mockk:1.12.2"

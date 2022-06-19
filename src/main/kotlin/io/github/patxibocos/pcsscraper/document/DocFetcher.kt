@@ -1,7 +1,7 @@
 package io.github.patxibocos.pcsscraper.document
 
 import io.ktor.client.HttpClient
-import io.ktor.client.call.receive
+import io.ktor.client.call.body
 import io.ktor.client.engine.cio.CIO
 import io.ktor.client.request.get
 import io.ktor.client.statement.HttpResponse
@@ -43,7 +43,7 @@ class DocFetcher(
         } catch (t: Throwable) {
             return@coroutineScope getDoc(docURL, init)
         }
-        val byteArrayBody: ByteArray = httpResponse.receive()
+        val byteArrayBody: ByteArray = httpResponse.body()
         val remoteContent = String(byteArrayBody)
         val fetchedDoc = htmlDocument(remoteContent) {
             init?.invoke(this)
