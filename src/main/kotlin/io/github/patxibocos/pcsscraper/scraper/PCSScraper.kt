@@ -5,6 +5,7 @@ import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
 import it.skrape.selects.Doc
+import it.skrape.selects.ElementNotFoundException
 import it.skrape.selects.html5.a
 import it.skrape.selects.html5.h1
 import it.skrape.selects.html5.span
@@ -15,6 +16,7 @@ import it.skrape.selects.html5.ul
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
+import kotlinx.coroutines.delay
 import java.net.URI
 import java.net.URL
 import java.text.Collator
@@ -30,6 +32,16 @@ import kotlin.math.max
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Duration.Companion.seconds
+
+suspend fun <T> retry(f: suspend () -> T): T {
+    return try {
+        f()
+    } catch (e: ElementNotFoundException) {
+        println("Error parsing scraped document: ${e.message}")
+        delay(1_000)
+        retry(f)
+    }
+}
 
 class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String) :
     TeamsScraper,
@@ -76,38 +88,40 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     private suspend fun getTeam(teamUrl: String, season: Int): PCSTeam {
         val teamURL = buildURL(teamUrl)
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
-        val infoList = teamDoc.ul { withClass = "infolist"; this }
-        val status = infoList.findFirst("li").findSecond("div").ownText
-        val abbreviation = infoList.findSecond("li").findSecond("div").ownText
-        val bike = infoList.findThird("li").findFirst("a").ownText
-        val website = teamDoc.getWebsite()
+        return retry {
+            val infoList = teamDoc.ul { withClass = "infolist"; this }
+            val status = infoList.findFirst("li").findSecond("div").ownText
+            val abbreviation = infoList.findSecond("li").findSecond("div").ownText
+            val bike = infoList.findThird("li").findFirst("a").ownText
+            val website = teamDoc.getWebsite()
 
-        fun getJerseyImageFromUci(): String {
-            val uciCategory = when (status) {
-                "WT" -> "WTT"
-                "PRT" -> "PRT"
-                else -> ""
+            fun getJerseyImageFromUci(): String {
+                val uciCategory = when (status) {
+                    "WT" -> "WTT"
+                    "PRT" -> "PRT"
+                    else -> ""
+                }
+                return "https://ucibws.uci.ch/api/WebResources/ModulesData/Teams/$season/ROA/Jerseys/$uciCategory/ROA-${uciCategory}_${abbreviation}_$season.jpg"
             }
-            return "https://ucibws.uci.ch/api/WebResources/ModulesData/Teams/$season/ROA/Jerseys/$uciCategory/ROA-${uciCategory}_${abbreviation}_$season.jpg"
-        }
 
-        val jersey = getJerseyImageFromUci()
-        val pageTitleMain = teamDoc.findFirst(".page-title > .main")
-        val teamName = pageTitleMain.h1 { findFirst { text } }.substringBefore('(').trim()
-        val country = teamDoc.getCountry()
-        val year = pageTitleMain.findLast("span").ownText.toInt()
-        return PCSTeam(
-            url = teamUrl,
-            name = teamName,
-            status = status,
-            abbreviation = abbreviation,
-            country = country,
-            bike = bike,
-            website = website,
-            jersey = jersey,
-            year = year,
-            riders = getTeamRiders(teamDoc),
-        )
+            val jersey = getJerseyImageFromUci()
+            val pageTitleMain = teamDoc.findFirst(".page-title > .main")
+            val teamName = pageTitleMain.h1 { findFirst { text } }.substringBefore('(').trim()
+            val country = teamDoc.getCountry()
+            val year = pageTitleMain.findLast("span").ownText.toInt()
+            PCSTeam(
+                url = teamUrl,
+                name = teamName,
+                status = status,
+                abbreviation = abbreviation,
+                country = country,
+                bike = bike,
+                website = website,
+                jersey = jersey,
+                year = year,
+                riders = getTeamRiders(teamDoc),
+            )
+        }
     }
 
     private fun getTeamRiders(teamDoc: Doc): List<Pair<String, String>> =
@@ -116,29 +130,31 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     private suspend fun getRider(riderUrl: String, riderFullName: String): PCSRider {
         val riderURL = buildURL(riderUrl)
         val riderDoc = docFetcher.getDoc(riderURL) { relaxed = true }
-        val infoContent = riderDoc.findFirst(".rdr-info-cont")
-        val country = riderDoc.findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
-        val website = riderDoc.getWebsite()
-        val birthDate = infoContent.ownText.split(' ').take(3).joinToString(" ")
-        val birthPlaceWeightAndHeight = infoContent.children.last().findFirst { text }.split(' ')
-        val birthPlaceWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("birth") }
-        val birthPlace = if (birthPlaceWordIndex != -1) birthPlaceWeightAndHeight[birthPlaceWordIndex + 1] else null
-        val weightWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("weight") }
-        val weight = if (weightWordIndex != -1) birthPlaceWeightAndHeight[weightWordIndex + 1] else null
-        val heightWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("height") }
-        val height = if (heightWordIndex != -1) birthPlaceWeightAndHeight[heightWordIndex + 1] else null
-        val imageUrl = riderDoc.findFirst("img").attribute("src")
-        return PCSRider(
-            url = riderUrl,
-            fullName = riderFullName,
-            country = country,
-            website = website,
-            birthDate = birthDate,
-            birthPlace = birthPlace,
-            weight = weight,
-            height = height,
-            photo = imageUrl,
-        )
+        return retry {
+            val infoContent = riderDoc.findFirst(".rdr-info-cont")
+            val country = riderDoc.findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
+            val website = riderDoc.getWebsite()
+            val birthDate = infoContent.ownText.split(' ').take(3).joinToString(" ")
+            val birthPlaceWeightAndHeight = infoContent.findFirst(":last-child").findFirst { text }.split(' ')
+            val birthPlaceWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("birth") }
+            val birthPlace = if (birthPlaceWordIndex != -1) birthPlaceWeightAndHeight[birthPlaceWordIndex + 1] else null
+            val weightWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("weight") }
+            val weight = if (weightWordIndex != -1) birthPlaceWeightAndHeight[weightWordIndex + 1] else null
+            val heightWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("height") }
+            val height = if (heightWordIndex != -1) birthPlaceWeightAndHeight[heightWordIndex + 1] else null
+            val imageUrl = riderDoc.findFirst("img").attribute("src")
+            PCSRider(
+                url = riderUrl,
+                fullName = riderFullName,
+                country = country,
+                website = website,
+                birthDate = birthDate,
+                birthPlace = birthPlace,
+                weight = weight,
+                height = height,
+                photo = imageUrl,
+            )
+        }
     }
 
     private suspend fun getRacesUrls(season: Int): List<String> {
@@ -151,44 +167,47 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     private suspend fun getRace(raceUrl: String): PCSRace = coroutineScope {
         val raceURL = buildURL(raceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
-        val infoList = raceDoc.ul { withClass = "infolist"; this }
-        val header = raceDoc.findAll(".page-topnav > ul > li")
-        val participantsIndex = header.indexOfFirst { it.text == "Startlist" }
-        val resultsIndex = header.indexOfFirst { it.text == "Results" }
-        val stagesIndex = header.indexOfFirst { it.text.startsWith("Stages") }
-        val raceParticipantsUrl = header[participantsIndex].a { findFirst { attribute("href") } }
-        val raceResultUrl = header[resultsIndex].a { findFirst { attribute("href") } }
-        val stagesUrl = header[stagesIndex].a { findFirst { attribute("href") } }
-        val startDate = infoList.findFirst("li").findSecond("div").ownText
-        val endDate = infoList.findSecond("li").findSecond("div").ownText
-        val stages = if (startDate == endDate) {
-            listOf(getStage(raceResultUrl, true))
-        } else {
-            getStages(stagesUrl)
-        }
+        retry {
+            val infoList = raceDoc.ul { withClass = "infolist"; this }
+            val header = raceDoc.findAll(".page-topnav > ul > li")
+            val participantsIndex = header.indexOfFirst { it.text == "Startlist" }
+            val resultsIndex = header.indexOfFirst { it.text == "Results" }
+            val stagesIndex = header.indexOfFirst { it.text.startsWith("Stages") }
+            val raceParticipantsUrl = header[participantsIndex].a { findFirst { attribute("href") } }
+            val raceResultUrl = header[resultsIndex].a { findFirst { attribute("href") } }
+            val stagesUrl = header[stagesIndex].a { findFirst { attribute("href") } }
+            val startDate = infoList.findFirst("li").findSecond("div").ownText
+            val endDate = infoList.findSecond("li").findSecond("div").ownText
+            val stages = if (startDate == endDate) {
+                listOf(getStage(raceResultUrl, true))
+            } else {
+                getStages(stagesUrl)
+            }
 
-        val name = raceDoc.findFirst(".main > h1").text
-        val country = raceDoc.getCountry()
-        val websites = raceDoc.findAll("ul.list.circle.bluelink.fs14 a").map { it.attribute("href") }
-        val website = websites.firstOrNull {
-            !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") && it.trim().isNotEmpty()
-        }
+            val name = raceDoc.findFirst(".main > h1").text
+            val country = raceDoc.getCountry()
+            val websites = raceDoc.findAll("ul.list.circle.bluelink.fs14 a").map { it.attribute("href") }
+            val website = websites.firstOrNull {
+                !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") && it.trim()
+                    .isNotEmpty()
+            }
 
-        val startList = getRaceStartList(raceParticipantsUrl)
-        val result = stages.findLast {
-            it.gcResult.isNotEmpty()
-        }?.gcResult ?: emptyList()
-        PCSRace(
-            url = raceUrl,
-            name = name,
-            country = country,
-            startDate = startDate,
-            endDate = endDate,
-            website = website,
-            stages = stages,
-            startList = startList,
-            result = result,
-        )
+            val startList = getRaceStartList(raceParticipantsUrl)
+            val result = stages.findLast {
+                it.gcResult.isNotEmpty()
+            }?.gcResult ?: emptyList()
+            PCSRace(
+                url = raceUrl,
+                name = name,
+                country = country,
+                startDate = startDate,
+                endDate = endDate,
+                website = website,
+                stages = stages,
+                startList = startList,
+                result = result,
+            )
+        }
     }
 
     private suspend fun getRaceStartList(raceStartListUrl: String): List<PCSTeamParticipation> {
@@ -219,60 +238,61 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
         stagesUrls.map { stageUrl -> getStage(stageUrl, false) }
     }
 
-    private suspend fun getStage(stageUrl: String, isSingleDayRace: Boolean): PCSStage {
+    private suspend fun getStage(stageUrl: String, isSingleDayRace: Boolean): PCSStage = coroutineScope {
         val stageURL = buildURL(stageUrl)
         val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
-
-        val infoList = stageDoc.findFirst("ul.infolist")
-        val startDate = infoList.findFirst("li > div:nth-child(2)").ownText
-        val startTime = infoList.findSecond("li > div:nth-child(2)").ownText
-        val startTimeCET = if (startTime != "-") {
-            val cetTimePart = startTime.substring(startTime.indexOf('(') + 1)
-            cetTimePart.substring(0, 5)
-        } else {
-            null
-        }
-        val distance = infoList.findByIndex(4, "li > div:nth-child(2)").ownText
-        val type = infoList.findByIndex(6, "li").findFirst("span").classNames.last()
-        val timeTrial = stageDoc.findFirst(".sub > span:nth-child(3)").text.contains("ITT")
-        val departure = infoList.findByIndex(9, "li").findFirst("a").text.ifEmpty { null }
-        val arrival = infoList.findByIndex(10, "li").findFirst("a").text.ifEmpty { null }
-        val stageGcResultUrl = stageDoc.findFirst(".restabs").findSecond("a").attribute("href")
-        val result: List<PCSRiderResult>
-        val gcResult: List<PCSRiderResult>
-        when (isSingleDayRace) {
-            // Single day races will never have a gcResult, so we manually set it
-            true -> {
-                result = getResult(stageDoc)
-                gcResult = result
+        retry {
+            val infoList = stageDoc.findFirst("ul.infolist")
+            val startDate = infoList.findFirst("li > div:nth-child(2)").ownText
+            val startTime = infoList.findSecond("li > div:nth-child(2)").ownText
+            val startTimeCET = if (startTime != "-") {
+                val cetTimePart = startTime.substring(startTime.indexOf('(') + 1)
+                cetTimePart.substring(0, 5)
+            } else {
+                null
             }
-            false -> {
-                // Url may be empty because the element is not present until stage is active
-                gcResult = if (stageGcResultUrl.isNotEmpty()) {
-                    getStageGcResult(stageGcResultUrl)
-                } else {
-                    emptyList()
+            val distance = infoList.findByIndex(4, "li > div:nth-child(2)").ownText
+            val type = infoList.findByIndex(6, "li").findFirst("span").classNames.last()
+            val timeTrial = stageDoc.findFirst(".sub > span:nth-child(3)").text.contains("ITT")
+            val departure = infoList.findByIndex(9, "li").findFirst("a").text.ifEmpty { null }
+            val arrival = infoList.findByIndex(10, "li").findFirst("a").text.ifEmpty { null }
+            val stageGcResultUrl = stageDoc.findFirst(".restabs").findSecond("a").attribute("href")
+            val result: List<PCSRiderResult>
+            val gcResult: List<PCSRiderResult>
+            when (isSingleDayRace) {
+                // Single day races will never have a gcResult, so we manually set it
+                true -> {
+                    result = getResult(stageDoc)
+                    gcResult = result
                 }
-                // We skip stage result if GC result is not available, just for consistency
-                result = if (gcResult.isEmpty()) {
-                    gcResult
-                } else {
-                    getResult(stageDoc)
+                false -> {
+                    // Url may be empty because the element is not present until stage is active
+                    gcResult = if (stageGcResultUrl.isNotEmpty()) {
+                        getStageGcResult(stageGcResultUrl)
+                    } else {
+                        emptyList()
+                    }
+                    // We skip stage result if GC result is not available, just for consistency
+                    result = if (gcResult.isEmpty()) {
+                        gcResult
+                    } else {
+                        getResult(stageDoc)
+                    }
                 }
             }
+            PCSStage(
+                url = stageUrl,
+                startDate = startDate,
+                startTimeCET = startTimeCET,
+                distance = distance,
+                type = type,
+                timeTrial = timeTrial,
+                departure = departure,
+                arrival = arrival,
+                result = result,
+                gcResult = gcResult,
+            )
         }
-        return PCSStage(
-            url = stageUrl,
-            startDate = startDate,
-            startTimeCET = startTimeCET,
-            distance = distance,
-            type = type,
-            timeTrial = timeTrial,
-            departure = departure,
-            arrival = arrival,
-            result = result,
-            gcResult = gcResult,
-        )
     }
 
     private suspend fun getStageGcResult(stageGcResultUrl: String): List<PCSRiderResult> {
