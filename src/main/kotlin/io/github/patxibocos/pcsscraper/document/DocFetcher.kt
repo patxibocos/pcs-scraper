@@ -18,21 +18,33 @@ class DocFetcher(
     private val skipCache: Boolean,
 ) {
     companion object {
-        private const val RETRY_DELAY = 1_000L
+        private const val RETRY_DOC_DELAY = 1_000L
     }
 
     private val client = HttpClient(CIO)
+
+    fun invalidateDoc(docURL: URL) {
+        if (skipCache || cache == null) {
+            return
+        }
+        val cacheKey = cacheKeyForURL(docURL)
+        cache.delete(cacheKey)
+    }
+
+    private fun cacheKeyForURL(url: URL): String {
+        val path = url.file.dropWhile { it == '/' }
+        val splits = path.split("/")
+        val normalizeParentPath = if (splits.size > 1) splits.dropLast(1).joinToString(separator = "/", postfix = "/") {
+            "_$it"
+        } else ""
+        return "$normalizeParentPath${splits.last()}"
+    }
 
     private suspend fun fetchDoc(
         docURL: URL,
         init: (Doc.() -> Unit)?,
     ): Doc? {
-        val path = docURL.file.dropWhile { it == '/' }
-        val splits = path.split("/")
-        val normalizeParentPath = if (splits.size > 1) splits.dropLast(1).joinToString(separator = "/", postfix = "/") {
-            "_$it"
-        } else ""
-        val cacheKey = "$normalizeParentPath${splits.last()}"
+        val cacheKey = cacheKeyForURL(docURL)
         val cacheContent = if (!skipCache && cache != null) cache.get(cacheKey) else null
         if (cacheContent != null) {
             return htmlDocument(cacheContent) {
@@ -71,7 +83,7 @@ class DocFetcher(
         while (fetchedDoc == null) {
             fetchedDoc = fetchDoc(docURL, init)
             if (fetchedDoc == null) {
-                delay(RETRY_DELAY)
+                delay(RETRY_DOC_DELAY)
             }
         }
         return@coroutineScope fetchedDoc

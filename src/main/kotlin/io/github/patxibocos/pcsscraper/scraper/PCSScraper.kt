@@ -33,20 +33,25 @@ import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Duration.Companion.seconds
 
-suspend fun <T> retry(f: suspend () -> T): T {
-    return try {
-        f()
-    } catch (e: ElementNotFoundException) {
-        println("Error parsing scraped document: ${e.message}")
-        delay(1_000)
-        retry(f)
-    }
-}
-
 class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String) :
     TeamsScraper,
     RidersScraper,
     RacesScraper {
+    private suspend fun <T> retryWhenElementNotFound(docURL: URL, f: suspend () -> T): T {
+        var t: T? = null
+        while (t == null) {
+            t = try {
+                f()
+            } catch (e: ElementNotFoundException) {
+                println("Error parsing scraped document: ${e.message}")
+                docFetcher.invalidateDoc(docURL)
+                delay(1_000)
+                null
+            }
+        }
+        return t
+    }
+
     override suspend fun scrapeTeams(season: Int): List<Team> = coroutineScope {
         getTeamsUrls(season).map { teamUrl ->
             async { getTeam(teamUrl, season) }
@@ -87,8 +92,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
 
     private suspend fun getTeam(teamUrl: String, season: Int): PCSTeam {
         val teamURL = buildURL(teamUrl)
-        val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
-        return retry {
+        return retryWhenElementNotFound(teamURL) {
+            val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
             val infoList = teamDoc.ul { withClass = "infolist"; this }
             val status = infoList.findFirst("li").findSecond("div").ownText
             val abbreviation = infoList.findSecond("li").findSecond("div").ownText
@@ -129,8 +134,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
 
     private suspend fun getRider(riderUrl: String, riderFullName: String): PCSRider {
         val riderURL = buildURL(riderUrl)
-        val riderDoc = docFetcher.getDoc(riderURL) { relaxed = true }
-        return retry {
+        return retryWhenElementNotFound(riderURL) {
+            val riderDoc = docFetcher.getDoc(riderURL) { relaxed = true }
             val infoContent = riderDoc.findFirst(".rdr-info-cont")
             val country = riderDoc.findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
             val website = riderDoc.getWebsite()
@@ -166,8 +171,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
 
     private suspend fun getRace(raceUrl: String): PCSRace = coroutineScope {
         val raceURL = buildURL(raceUrl)
-        val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
-        retry {
+        retryWhenElementNotFound(raceURL) {
+            val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
             val infoList = raceDoc.ul { withClass = "infolist"; this }
             val header = raceDoc.findAll(".page-topnav > ul > li")
             val participantsIndex = header.indexOfFirst { it.text == "Startlist" }
@@ -240,8 +245,8 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
 
     private suspend fun getStage(stageUrl: String, isSingleDayRace: Boolean): PCSStage = coroutineScope {
         val stageURL = buildURL(stageUrl)
-        val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
-        retry {
+        retryWhenElementNotFound(stageURL) {
+            val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
             val infoList = stageDoc.findFirst("ul.infolist")
             val startDate = infoList.findFirst("li > div:nth-child(2)").ownText
             val startTime = infoList.findSecond("li > div:nth-child(2)").ownText
