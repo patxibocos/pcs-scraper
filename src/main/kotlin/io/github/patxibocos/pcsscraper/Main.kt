@@ -13,8 +13,11 @@ import kotlinx.cli.ArgType
 import kotlinx.cli.default
 import kotlinx.cli.multiple
 import kotlinx.cli.required
+import kotlinx.coroutines.async
 import kotlinx.coroutines.runBlocking
+import kotlinx.coroutines.withTimeout
 import java.nio.file.Paths
+import kotlin.time.Duration.Companion.minutes
 
 const val pcsUrl = "https://www.procyclingstats.com"
 
@@ -29,9 +32,16 @@ fun main(args: Array<String>) {
     val racesScraper: RacesScraper = pcsScraper
 
     runBlocking {
-        val teams = teamsScraper.scrapeTeams(season = season)
-        val riders = ridersScraper.scrapeRiders(season = season)
-        val races = racesScraper.scrapeRaces(season = season)
+        val data = async {
+            val teams = teamsScraper.scrapeTeams(season = season)
+            val riders = ridersScraper.scrapeRiders(season = season)
+            val races = racesScraper.scrapeRaces(season = season)
+            Triple(teams, riders, races)
+        }
+
+        val (teams, riders, races) = withTimeout(20.minutes) {
+            data.await()
+        }
 
         formats.forEach { format ->
             val exporter: Exporter = Exporter.from(destination, format)
