@@ -238,7 +238,7 @@ class PCSScraper(
         val infoList = stageDoc.findFirst("ul.infolist")
         val startDate = infoList.findFirst("li > div:nth-child(2)").ownText
         val startTime = infoList.findSecond("li > div:nth-child(2)").ownText
-        val startTimeCET = if (startTime != "-") {
+        val startTimeCET = if (startTime.isNotBlank() && startTime != "-") {
             val cetTimePart = startTime.substring(startTime.indexOf('(') + 1)
             cetTimePart.substring(0, 5)
         } else {
