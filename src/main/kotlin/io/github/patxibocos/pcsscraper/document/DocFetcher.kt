@@ -68,7 +68,7 @@ class DocFetcher(
             this
         }
         if (fetchedDoc.isEmpty()) {
-            println("Empty document detected, fetching again")
+            println("Empty document detected, fetching again: $docURL")
             return null
         }
         cache?.put(cacheKey to remoteContent)
@@ -90,4 +90,7 @@ class DocFetcher(
     }
 }
 
-private fun Doc.isEmpty() = findFirst(".page-content").text.trim().isEmpty()
+private fun Doc.isEmpty(): Boolean {
+    val pageContent = findFirst(".page-content")
+    return pageContent.text.trim().isEmpty() || pageContent.text.contains("temporarily unavailable")
+}
