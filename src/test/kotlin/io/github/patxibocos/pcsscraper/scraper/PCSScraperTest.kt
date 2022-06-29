@@ -1,9 +1,8 @@
-package io.github.patxibocos.pcsscraper
+package io.github.patxibocos.pcsscraper.scraper
 
 import io.github.patxibocos.pcsscraper.document.Cache
 import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.export.json.json
-import io.github.patxibocos.pcsscraper.scraper.PCSScraper
 import io.kotest.core.spec.style.BehaviorSpec
 import io.kotest.matchers.shouldBe
 import io.mockk.every
@@ -22,7 +21,7 @@ class PCSScraperTest : BehaviorSpec({
             }
         }
         val docFetcher = DocFetcher(cache, false)
-        val pcsScraper = PCSScraper(docFetcher, pcsUrl)
+        val pcsScraper = PCSScraper(docFetcher)
 
         `when`("scrapping teams") {
             val scrapedTeams = (pcsScraper.scrapeTeams(2022))

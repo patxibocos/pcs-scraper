@@ -19,14 +19,12 @@ import kotlinx.coroutines.withTimeout
 import java.nio.file.Paths
 import kotlin.time.Duration.Companion.minutes
 
-const val pcsUrl = "https://www.procyclingstats.com"
-
 fun main(args: Array<String>) {
     val (season, cachePath, destination, formats, skipCache) = getAppArgs(args)
 
     val cache = cachePath?.let { Cache(Paths.get(it)) }
     val docFetcher = DocFetcher(cache, skipCache)
-    val pcsScraper = PCSScraper(docFetcher, pcsUrl)
+    val pcsScraper = PCSScraper(docFetcher)
     val teamsScraper: TeamsScraper = pcsScraper
     val ridersScraper: RidersScraper = pcsScraper
     val racesScraper: RacesScraper = pcsScraper

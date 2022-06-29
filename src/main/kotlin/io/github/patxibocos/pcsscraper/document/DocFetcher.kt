@@ -12,10 +12,13 @@ import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
 import java.net.URL
+import java.util.logging.Level
+import java.util.logging.Logger
 
 class DocFetcher(
     private val cache: Cache?,
     private val skipCache: Boolean,
+    private val logger: Logger = Logger.getLogger(this::class.java.name),
 ) {
     companion object {
         private const val RETRY_DOC_DELAY = 1_000L
@@ -52,13 +55,13 @@ class DocFetcher(
                 this
             }
         }
-        println("Fetching document $docURL")
+        logger.info("Fetching document $docURL")
         val httpResponse: HttpResponse = try {
             withContext(Dispatchers.IO) {
                 client.get(docURL)
             }
         } catch (t: Throwable) {
-            println("Exception occurred when fetching: ${t.message}")
+            logger.log(Level.SEVERE, "Failed fetching document $docURL", t)
             return null
         }
         val byteArrayBody: ByteArray = httpResponse.body()
@@ -68,7 +71,7 @@ class DocFetcher(
             this
         }
         if (fetchedDoc.isEmpty()) {
-            println("Empty document detected, fetching again: $docURL")
+            logger.log(Level.WARNING, "Empty document detected $docURL")
             return null
         }
         cache?.put(cacheKey to remoteContent)

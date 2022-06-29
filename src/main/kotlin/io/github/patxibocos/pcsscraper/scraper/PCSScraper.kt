@@ -26,23 +26,34 @@ import java.time.ZoneOffset
 import java.time.format.DateTimeFormatter
 import java.time.format.DateTimeParseException
 import java.util.Locale
+import java.util.logging.Logger
 import kotlin.math.max
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.minutes
 import kotlin.time.Duration.Companion.seconds
 
-class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String) :
+class PCSScraper(
+    private val docFetcher: DocFetcher,
+    private val logger: Logger = Logger.getLogger(this::class.java.name),
+    private val pcsUrl: String = PCS_URL,
+) :
     TeamsScraper,
     RidersScraper,
     RacesScraper {
 
+    companion object {
+        private const val PCS_URL = "https://www.procyclingstats.com"
+    }
+
     override suspend fun scrapeTeams(season: Int): List<Team> = coroutineScope {
+        logger.info("Scraping teams for $season season")
         getTeamsUrls(season).map { teamUrl ->
             async { getTeam(teamUrl, season) }
         }.awaitAll().map(::pcsTeamToTeam).sortedBy { it.name }
     }
 
     override suspend fun scrapeRiders(season: Int): List<Rider> = coroutineScope {
+        logger.info("Scraping riders for $season season")
         val pcsTeams = getTeamsUrls(season).map { teamUrl ->
             getTeam(teamUrl, season)
         }
@@ -63,6 +74,7 @@ class PCSScraper(private val docFetcher: DocFetcher, private val pcsUrl: String)
     }
 
     override suspend fun scrapeRaces(season: Int): List<Race> = coroutineScope {
+        logger.info("Scraping races for $season season")
         val pcsRaces = getRacesUrls(season).map { raceUrl -> async { getRace(raceUrl) } }.awaitAll()
         pcsRaces.map(::pcsRaceToRace).sortedBy { it.startDate }
     }
