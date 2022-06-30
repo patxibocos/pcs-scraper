@@ -11,14 +11,14 @@ import kotlinx.coroutines.Dispatchers
 import kotlinx.coroutines.coroutineScope
 import kotlinx.coroutines.delay
 import kotlinx.coroutines.withContext
+import mu.KotlinLogging
+import org.slf4j.Logger
 import java.net.URL
-import java.util.logging.Level
-import java.util.logging.Logger
 
 class DocFetcher(
     private val cache: Cache?,
     private val skipCache: Boolean,
-    private val logger: Logger = Logger.getLogger(this::class.java.name),
+    private val logger: Logger = KotlinLogging.logger {},
 ) {
     companion object {
         private const val RETRY_DOC_DELAY = 1_000L
@@ -61,7 +61,7 @@ class DocFetcher(
                 client.get(docURL)
             }
         } catch (t: Throwable) {
-            logger.log(Level.SEVERE, "Failed fetching document $docURL", t)
+            logger.error("Failed fetching document $docURL", t)
             return null
         }
         val byteArrayBody: ByteArray = httpResponse.body()
@@ -71,7 +71,7 @@ class DocFetcher(
             this
         }
         if (fetchedDoc.isEmpty()) {
-            logger.log(Level.WARNING, "Empty document detected $docURL")
+            logger.warn("Empty document detected $docURL")
             return null
         }
         cache?.put(cacheKey to remoteContent)

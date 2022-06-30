@@ -15,6 +15,8 @@ import it.skrape.selects.html5.ul
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
+import mu.KotlinLogging
+import org.slf4j.Logger
 import java.net.URI
 import java.net.URL
 import java.text.Collator
@@ -26,7 +28,6 @@ import java.time.ZoneOffset
 import java.time.format.DateTimeFormatter
 import java.time.format.DateTimeParseException
 import java.util.Locale
-import java.util.logging.Logger
 import kotlin.math.max
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.minutes
@@ -34,7 +35,7 @@ import kotlin.time.Duration.Companion.seconds
 
 class PCSScraper(
     private val docFetcher: DocFetcher,
-    private val logger: Logger = Logger.getLogger(this::class.java.name),
+    private val logger: Logger = KotlinLogging.logger {},
     private val pcsUrl: String = PCS_URL,
 ) :
     TeamsScraper,

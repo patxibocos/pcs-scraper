@@ -35,11 +35,17 @@ dependencies {
     implementation(libs.exposed.jdbc)
     implementation(libs.firebase.admin)
     implementation(libs.kotlin.cli)
+    implementation(libs.kotlin.logging)
     implementation(libs.kotlin.serialization.json)
+    implementation(libs.log4j.api)
+    implementation(libs.log4j.core)
+    implementation(libs.log4j.slf4j.impl)
     implementation(libs.ktor.client.core)
     implementation(libs.ktor.client.cio)
     implementation(libs.protobuf.kotlin)
-    implementation(libs.skrapeit)
+    implementation(libs.skrapeit) {
+        exclude(group = "ch.qos.logback", module = "logback-classic")
+    }
     implementation(libs.sqlite.jdbc)
 
     testImplementation(libs.test.kotest.assertions)
