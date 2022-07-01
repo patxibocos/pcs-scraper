@@ -23,8 +23,9 @@ import java.text.Collator
 import java.time.Instant
 import java.time.LocalDate
 import java.time.LocalTime
-import java.time.OffsetTime
+import java.time.ZoneId
 import java.time.ZoneOffset
+import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter
 import java.time.format.DateTimeParseException
 import java.util.Locale
@@ -60,6 +61,7 @@ class PCSScraper(
         }
         val pcsRiders = pcsTeams
             .map {
+                logger.info("Scraping riders for team ${it.name}")
                 it.riders.map { (riderUrl, riderFullName) ->
                     async {
                         getRider(riderUrl, riderFullName)
@@ -174,20 +176,19 @@ class PCSScraper(
         val stagesUrl = header[stagesIndex].a { findFirst { attribute("href") } }
         val startDate = infoList.findFirst("li").findSecond("div").ownText
         val endDate = infoList.findSecond("li").findSecond("div").ownText
+        val name = raceDoc.findFirst(".main > h1").text
         val stages = if (startDate == endDate) {
             listOf(getStage(raceResultUrl, true))
         } else {
+            logger.info("Scraping stages for race $name")
             getStages(stagesUrl)
         }
-
-        val name = raceDoc.findFirst(".main > h1").text
         val country = raceDoc.getCountry()
         val websites = raceDoc.findAll("ul.list.circle.bluelink.fs14 a").map { it.attribute("href") }
         val website = websites.firstOrNull {
             !it.contains("twitter") && !it.contains("facebook") && !it.contains("instagram") && it.trim()
                 .isNotEmpty()
         }
-
         val startList = getRaceStartList(raceParticipantsUrl)
         val result = stages.findLast {
             it.gcResult.isNotEmpty()
@@ -403,9 +404,9 @@ class PCSScraper(
         val localDate = LocalDate.parse(startDateString, DateTimeFormatter.ofPattern("dd MMMM yyyy"))
         val startDateTime = if (pcsStage.startTimeCET != null) {
             val (hoursCET, minutesCET) = pcsStage.startTimeCET.split(":")
-            val timeCET = OffsetTime.of(hoursCET.toInt(), minutesCET.toInt(), 0, 0, ZoneOffset.ofHours(1))
-            val timeUTC = timeCET.withOffsetSameInstant(ZoneOffset.UTC)
-            val epochSeconds = timeUTC.toEpochSecond(localDate)
+            val cetTimeZoned =
+                ZonedDateTime.of(localDate, LocalTime.of(hoursCET.toInt(), minutesCET.toInt()), ZoneId.of("CET"))
+            val epochSeconds = cetTimeZoned.toEpochSecond()
             Instant.ofEpochSecond(epochSeconds)
         } else {
             Instant.ofEpochSecond(localDate.toEpochSecond(LocalTime.MIDNIGHT, ZoneOffset.UTC))
