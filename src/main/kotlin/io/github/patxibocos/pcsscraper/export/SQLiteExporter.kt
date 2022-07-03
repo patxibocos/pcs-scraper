@@ -79,6 +79,7 @@ internal class SQLiteExporter(destination: File) : Exporter {
         private val weight = integer("weight").nullable()
         private val height = integer("height").nullable()
         private val photo = text("photo")
+        private val uciRankingPosition = integer("uci_ranking_position").nullable()
 
         override val primaryKey: PrimaryKey
             get() = PrimaryKey(id, name = "id")
@@ -94,6 +95,7 @@ internal class SQLiteExporter(destination: File) : Exporter {
             insertStatement[weight] = t.weight
             insertStatement[height] = t.height
             insertStatement[photo] = t.photo.toString()
+            insertStatement[uciRankingPosition] = t.uciRankingPosition
         }
     }
 
@@ -119,7 +121,7 @@ internal class SQLiteExporter(destination: File) : Exporter {
     }
 
     private object DbRaceRiderResult :
-        SQLiteExporter.DbTable<Race.RiderResult>(name = "race_rider_result") {
+        DbTable<Race.RiderResult>(name = "race_rider_result") {
         val raceId = text("race_id") references DbRace.id
         private val riderId = text("rider_id") references DbRider.id
         private val position = integer("position")
@@ -155,7 +157,7 @@ internal class SQLiteExporter(destination: File) : Exporter {
     }
 
     private object DbRiderParticipation :
-        SQLiteExporter.DbTable<Race.RiderParticipation>(name = "rider_participation") {
+        DbTable<Race.RiderParticipation>(name = "rider_participation") {
         val raceId = text("race_id") references DbRace.id
         val teamId = text("team_id") references DbTeam.id
         private val riderId = text("rider_id") references DbRider.id
@@ -168,7 +170,7 @@ internal class SQLiteExporter(destination: File) : Exporter {
     }
 
     private object DbStageRiderResult :
-        SQLiteExporter.DbTable<Race.RiderResult>(name = "stage_rider_result") {
+        DbTable<Race.RiderResult>(name = "stage_rider_result") {
         val stageId = text("stage_id") references DbStage.id
         private val riderId = text("rider_id") references DbRider.id
         private val position = integer("position")

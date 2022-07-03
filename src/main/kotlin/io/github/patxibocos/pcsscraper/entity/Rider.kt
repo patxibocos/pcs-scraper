@@ -18,6 +18,7 @@ data class Rider(
     val weight: Int?,
     val height: Int?,
     @Contextual val photo: URL,
+    val uciRankingPosition: Int?,
 ) {
     init {
         require(country.uppercase() in Locale.getISOCountries()) {

@@ -143,6 +143,8 @@ class PCSScraper(
         val heightWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("height") }
         val height = if (heightWordIndex != -1) birthPlaceWeightAndHeight[heightWordIndex + 1] else null
         val imageUrl = riderDoc.findFirst("img").attribute("src")
+        val uciWorldRanking = infoContent.findAll(".rdr-rankings > li > .title")
+            .find { it.text == "UCI World Ranking" }?.siblings?.find { it.hasClass("rnk") }?.text
         return PCSRider(
             url = riderUrl,
             fullName = riderFullName,
@@ -153,6 +155,7 @@ class PCSScraper(
             weight = weight,
             height = height,
             photo = imageUrl,
+            uciRankingPosition = uciWorldRanking,
         )
     }
 
@@ -350,6 +353,7 @@ class PCSScraper(
             weight = pcsRider.weight?.toFloat()?.toInt(),
             height = (pcsRider.height?.toFloat()?.times(100))?.toInt(),
             photo = buildURL(pcsRider.photo),
+            uciRankingPosition = pcsRider.uciRankingPosition?.toIntOrNull(),
         )
     }
 
@@ -481,6 +485,7 @@ private data class PCSRider(
     val weight: String? = null,
     val height: String? = null,
     val photo: String,
+    val uciRankingPosition: String? = null,
 ) {
     fun getFirstAndLastName(fullName: String): Pair<String, String> {
         val index = max(fullName.indexOfFirst { it.isLowerCase() } - 2, fullName.indexOfFirst { it.isWhitespace() })

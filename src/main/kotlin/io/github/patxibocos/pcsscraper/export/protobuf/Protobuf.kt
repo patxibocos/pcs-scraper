@@ -64,6 +64,7 @@ private fun buildRidersProtobufMessage(_riders: List<Rider>): List<RiderOuterCla
             rider.weight?.let { weight = it }
             rider.height?.let { height = it }
             photo = rider.photo.toString()
+            rider.uciRankingPosition?.let { uciRankingPosition = it }
         }.build()
     }
 

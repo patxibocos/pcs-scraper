@@ -19,4 +19,5 @@ message Rider {
   optional string birth_place = 8;
   optional uint32 weight = 9;
   optional uint32 height = 10;
+  optional uint32 uciRankingPosition = 11;
 }
