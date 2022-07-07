@@ -167,7 +167,9 @@ class PCSScraper(
     }
 
     private suspend fun getRace(raceUrl: String): PCSRace = coroutineScope {
-        val raceURL = buildURL(raceUrl)
+        val fixedRaceUrl = raceUrl.takeIf { it != "race/tour-de-france/2022/overview" }
+            ?: "race/tour-de-france/2022/gc/overview"
+        val raceURL = buildURL(fixedRaceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
         val infoList = raceDoc.ul { withClass = "infolist"; this }
         val header = raceDoc.findAll(".page-topnav > ul > li")
