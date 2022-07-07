@@ -17,13 +17,16 @@ import kotlinx.coroutines.async
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout
 import java.nio.file.Paths
-import kotlin.time.Duration.Companion.minutes
+import kotlin.time.Duration
 
 fun main(args: Array<String>) {
-    val (season, cachePath, destination, formats, skipCache) = getAppArgs(args)
+    val (season, cachePath, destination, formats, skipCache, scrapTimeout, retryDelay) = getAppArgs(args)
+
+    val scrapTimeoutDuration = Duration.parse(scrapTimeout)
+    val retryDelayDuration = Duration.parse(retryDelay)
 
     val cache = cachePath?.let { Cache(Paths.get(it)) }
-    val docFetcher = DocFetcher(cache, skipCache)
+    val docFetcher = DocFetcher(cache, skipCache, retryDelayDuration)
     val pcsScraper = PCSScraper(docFetcher)
     val teamsScraper: TeamsScraper = pcsScraper
     val ridersScraper: RidersScraper = pcsScraper
@@ -37,7 +40,7 @@ fun main(args: Array<String>) {
             Triple(teams, riders, races)
         }
 
-        val (teams, riders, races) = withTimeout(20.minutes) {
+        val (teams, riders, races) = withTimeout(scrapTimeoutDuration) {
             data.await()
         }
 
@@ -54,6 +57,8 @@ private data class AppArgs(
     val destination: String,
     val formats: List<Format>,
     val skipCache: Boolean,
+    val scrapTimeout: String,
+    val retryDelay: String,
 )
 
 private fun getAppArgs(args: Array<String>): AppArgs {
@@ -66,7 +71,9 @@ private fun getAppArgs(args: Array<String>): AppArgs {
         shortName = "f",
         description = "Output file format"
     ).required().multiple()
-    val skipCache by parser.option(ArgType.Boolean, shortName = "   sc", description = "Skip cache").default(false)
+    val skipCache by parser.option(ArgType.Boolean, shortName = "sc", description = "Skip cache").default(false)
+    val scrapTimeout by parser.option(ArgType.String, shortName = "st", description = "Scrap timeout").default("20m")
+    val retryDelay by parser.option(ArgType.String, shortName = "rd", description = "Retry delay").default("1s")
     parser.parse(args)
     return AppArgs(
         season = season,
@@ -74,5 +81,7 @@ private fun getAppArgs(args: Array<String>): AppArgs {
         destination = destination,
         formats = formats.map { Format.valueOf(it.uppercase()) },
         skipCache = skipCache,
+        scrapTimeout = scrapTimeout,
+        retryDelay = retryDelay,
     )
 }

@@ -14,16 +14,14 @@ import kotlinx.coroutines.withContext
 import mu.KotlinLogging
 import org.slf4j.Logger
 import java.net.URL
+import kotlin.time.Duration
 
 class DocFetcher(
     private val cache: Cache?,
     private val skipCache: Boolean,
+    private val retryDelay: Duration,
     private val logger: Logger = KotlinLogging.logger {},
 ) {
-    companion object {
-        private const val RETRY_DOC_DELAY = 1_000L
-    }
-
     private val client = HttpClient(CIO)
 
     fun invalidateDoc(docURL: URL) {
@@ -86,7 +84,7 @@ class DocFetcher(
         while (fetchedDoc == null) {
             fetchedDoc = fetchDoc(docURL, init)
             if (fetchedDoc == null) {
-                delay(RETRY_DOC_DELAY)
+                delay(retryDelay)
             }
         }
         return@coroutineScope fetchedDoc
