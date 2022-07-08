@@ -73,6 +73,9 @@ class PCSScraper(
         val usCollator = Collator.getInstance(Locale.US)
         val ridersComparator = compareBy(usCollator) { r: Rider -> r.lastName.lowercase() }
             .thenBy(usCollator) { r: Rider -> r.firstName.lowercase() }
+        val ridersByUrl = pcsRiders.associateBy { it.url }
+        val ranking = scrapeUCIWorldRanking()
+        ranking.forEach { (rider, position) -> ridersByUrl[rider]?.uciRankingPosition = position }
         pcsRiders.map(::pcsRiderToRider).sortedWith(ridersComparator)
     }
 
@@ -80,6 +83,26 @@ class PCSScraper(
         logger.info("Scraping races for $season season")
         val pcsRaces = getRacesUrls(season).map { raceUrl -> async { getRace(raceUrl) } }.awaitAll()
         pcsRaces.map(::pcsRaceToRace).sortedBy { it.startDate }
+    }
+
+    private suspend fun scrapeUCIWorldRanking(): Map<String, String> = coroutineScope {
+        logger.info("Scraping UCI World Ranking")
+        val baseUrl = "rankings.php?p=me&s=uci-individual"
+        val rankingURL = buildURL(baseUrl)
+        val rankingDoc = docFetcher.getDoc(rankingURL)
+        val offsetRanges = rankingDoc.findAll("select[name='offset'] > option").map { it.attribute("value") }
+        offsetRanges.map { offset ->
+            async {
+                val rankingPageURL = buildURL("$rankingURL&offset=$offset")
+                val rankingPageDoc = docFetcher.getDoc(rankingPageURL)
+                val riderElements = rankingPageDoc.findAll("table.basic > tbody > tr")
+                riderElements.map { riderElement ->
+                    val position = riderElement.findFirst("td").text
+                    val rider = riderElement.findByIndex(3, "td").a { findFirst { attribute("href") } }
+                    rider to position
+                }
+            }
+        }.awaitAll().flatten().toMap()
     }
 
     private suspend fun getTeamsUrls(season: Int): List<String> {
@@ -143,8 +166,6 @@ class PCSScraper(
         val heightWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("height") }
         val height = if (heightWordIndex != -1) birthPlaceWeightAndHeight[heightWordIndex + 1] else null
         val imageUrl = riderDoc.findFirst("img").attribute("src")
-        val uciWorldRanking = infoContent.findAll(".rdr-rankings > li > .title")
-            .find { it.text == "UCI World Ranking" }?.siblings?.find { it.hasClass("rnk") }?.text
         return PCSRider(
             url = riderUrl,
             fullName = riderFullName,
@@ -155,7 +176,6 @@ class PCSScraper(
             weight = weight,
             height = height,
             photo = imageUrl,
-            uciRankingPosition = uciWorldRanking,
         )
     }
 
@@ -167,9 +187,7 @@ class PCSScraper(
     }
 
     private suspend fun getRace(raceUrl: String): PCSRace = coroutineScope {
-        val fixedRaceUrl = raceUrl.takeIf { it != "race/tour-de-france/2022/overview" }
-            ?: "race/tour-de-france/2022/gc/overview"
-        val raceURL = buildURL(fixedRaceUrl)
+        val raceURL = buildURL(raceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
         val infoList = raceDoc.ul { withClass = "infolist"; this }
         val header = raceDoc.findAll(".page-topnav > ul > li")
@@ -487,7 +505,7 @@ private data class PCSRider(
     val weight: String? = null,
     val height: String? = null,
     val photo: String,
-    val uciRankingPosition: String? = null,
+    var uciRankingPosition: String? = null,
 ) {
     fun getFirstAndLastName(fullName: String): Pair<String, String> {
         val index = max(fullName.indexOfFirst { it.isLowerCase() } - 2, fullName.indexOfFirst { it.isWhitespace() })
