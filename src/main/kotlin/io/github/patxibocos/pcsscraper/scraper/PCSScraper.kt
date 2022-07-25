@@ -393,7 +393,11 @@ class PCSScraper(
     }
 
     private fun pcsRiderResultToRiderResult(pcsRiderResults: List<PCSRiderResult>): List<Race.RiderResult> {
-        var currentTime = 0L
+        if (pcsRiderResults.isEmpty()) {
+            return emptyList()
+        }
+        var firstRiderTime = 0L
+        var previousDiff = 0L
         return pcsRiderResults.take(10).mapNotNull {
             val rider = it.rider.split("/").last()
             if (it.position.toIntOrNull() == null) { // Riders that didn't finish have a position which is not a number
@@ -416,9 +420,13 @@ class PCSScraper(
                     }
                     else -> throw RuntimeException("Unexpected time value: ${it.time}")
                 }
-                currentTime += timeInSeconds
+                if (firstRiderTime == 0L) {
+                    firstRiderTime = timeInSeconds
+                } else {
+                    previousDiff = timeInSeconds
+                }
             }
-            Race.RiderResult(it.position.toInt(), rider, currentTime)
+            Race.RiderResult(it.position.toInt(), rider, firstRiderTime + previousDiff)
         }
     }
 
