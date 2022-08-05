@@ -29,6 +29,7 @@ message Stage {
   optional string departure = 6;
   optional string arrival = 7;
   bool time_trial = 8;
+  repeated RiderResult gcResult = 9;
 
   enum Type {
     TYPE_UNSPECIFIED = 0;

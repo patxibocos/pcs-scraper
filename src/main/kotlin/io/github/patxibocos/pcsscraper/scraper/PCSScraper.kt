@@ -283,6 +283,7 @@ class PCSScraper(
                 result = getResult(stageDoc)
                 gcResult = result
             }
+
             false -> {
                 // Url may be empty because the element is not present until stage is active
                 gcResult = if (stageGcResultUrl.isNotEmpty()) {
@@ -414,10 +415,12 @@ class PCSScraper(
                         val (hours, minutes, seconds) = parts
                         (hours.hours + minutes.minutes + seconds.seconds).inWholeSeconds
                     }
+
                     2 -> {
                         val (minutes, seconds) = parts
                         (minutes.minutes + seconds.seconds).inWholeSeconds
                     }
+
                     else -> throw RuntimeException("Unexpected time value: ${it.time}")
                 }
                 if (firstRiderTime == 0L) {
@@ -451,6 +454,7 @@ class PCSScraper(
             .replace("/", "-")
             .replace("result", "stage-1") // For single day races where stage info is on the result page
         val result = pcsRiderResultToRiderResult(pcsStage.result)
+        val gcResult = pcsRiderResultToRiderResult(pcsStage.gcResult)
         return Race.Stage(
             id = stageId,
             startDateTime = startDateTime,
@@ -460,6 +464,7 @@ class PCSScraper(
             departure = pcsStage.departure,
             arrival = pcsStage.arrival,
             result = result,
+            gcResult = gcResult,
         )
     }
 

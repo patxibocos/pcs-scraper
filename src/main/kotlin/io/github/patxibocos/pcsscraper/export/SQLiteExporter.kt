@@ -183,6 +183,20 @@ internal class SQLiteExporter(destination: File) : Exporter {
         }
     }
 
+    private object DbStageGcRiderResult :
+        DbTable<Race.RiderResult>(name = "stage_gc_rider_gc_result") {
+        val stageId = text("stage_id") references DbStage.id
+        private val riderId = text("rider_id") references DbRider.id
+        private val position = integer("position")
+        private val time = long("time")
+
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.RiderResult) {
+            insertStatement[riderId] = t.rider
+            insertStatement[position] = t.position
+            insertStatement[time] = t.time
+        }
+    }
+
     override suspend fun export(teams: List<Team>, riders: List<Rider>, races: List<Race>) {
         connectToDbAndInsert(DbRider, riders)
         connectToDbAndInsert(DbTeam, teams)
@@ -201,8 +215,11 @@ internal class SQLiteExporter(destination: File) : Exporter {
                 }
             }
             race.stages.forEach { stage ->
-                connectToDbAndInsert(DbStageRiderResult, race.result) {
+                connectToDbAndInsert(DbStageRiderResult, stage.result) {
                     it[DbStageRiderResult.stageId] = stage.id
+                }
+                connectToDbAndInsert(DbStageGcRiderResult, stage.gcResult) {
+                    it[DbStageGcRiderResult.stageId] = stage.id
                 }
             }
         }

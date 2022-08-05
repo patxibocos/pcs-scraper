@@ -34,7 +34,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="team.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a129.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
@@ -61,15 +61,20 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2022">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
+<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
+<li><a href="team/movistar-team-2022">Movistar Team</a></li>
 <li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
@@ -82,11 +87,6 @@
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
-<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
-<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,11 +95,6 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2022/overview">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2022/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/2022/history">Palmares</a></li>
-<li><a href="race/tour-de-france/2022/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2022/stages/all-stage-profiles">Stage profiles</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -160,13 +155,13 @@
 <li class="" ><div >2</div><div ><span class="flag it"></span> <a    href="rider/diego-rosa">ROSA Diego</a></div><div class="right   "  >2278</div><div class="clear"></div></li>
 <li class="" ><div >3</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="right   "  >933</div><div class="clear"></div></li>
 <li class="" ><div >4</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="right   "  >810</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right   "  >508</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right   "  >520</div><div class="clear"></div></li>
 <li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/edward-ravasi">RAVASI Edward</a></div><div class="right   "  >496</div><div class="clear"></div></li>
 <li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="right   "  >402</div><div class="clear"></div></li>
 <li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="right   "  >372</div><div class="clear"></div></li>
 <li class="" ><div >9</div><div ><span class="flag gb"></span> <a    href="rider/mark-christian">CHRISTIAN Mark</a></div><div class="right   "  >320</div><div class="clear"></div></li>
 <li class="" ><div >10</div><div ><span class="flag hu"></span> <a    href="rider/marton-dina">DINA Márton</a></div><div class="right   "  >187</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="right   "  >128</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="right   "  >160</div><div class="clear"></div></li>
 <li class="" ><div >12</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="right   "  >85</div><div class="clear"></div></li>
 <li class="" ><div >13</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="right   "  >69</div><div class="clear"></div></li>
 <li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="right   "  >65</div><div class="clear"></div></li>
@@ -174,34 +169,40 @@
 <li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/alejandro-ropero">ROPERO Alejandro</a></div><div class="right   "  >53</div><div class="clear"></div></li>
 <li class="" ><div >17</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="right   "  >37</div><div class="clear"></div></li>
 <li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/sergio-garcia-gonzalez">GARCÍA Sergio</a></div><div class="right   "  >33</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTIN Alex</a></div><div class="right   "  >7</div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="right   "  >4</div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag pt"></span> <a    href="rider/daniel-viegas">VIEGAS Daniel</a></div><div class="right   "  >0</div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/andrea-pietrobon">PIETROBON Andrea</a></div><div class="right   "  >7</div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTIN Alex</a></div><div class="right   "  >7</div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="right   "  >4</div><div class="clear"></div></li>
 <li class="" ><div >22</div><div ><span class="flag es"></span> <a    href="rider/arturo-gravalos-lopez">GRÁVALOS Arturo</a></div><div class="right   "  >0</div><div class="clear"></div></li>
+<li class="" ><div >23</div><div ><span class="flag it"></span> <a    href="rider/andrea-montoli">MONTOLI Andrea</a></div><div class="right   "  >0</div><div class="clear"></div></li>
+<li class="" ><div >24</div><div ><span class="flag es"></span> <a    href="rider/francisco-munoz-llana">MUÑOZ Francisco</a></div><div class="right   "  >0</div><div class="clear"></div></li>
+<li class="" ><div >25</div><div ><span class="flag pt"></span> <a    href="rider/daniel-viegas">VIEGAS Daniel</a></div><div class="right   "  >0</div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabe">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="right ar w12 fs11 clr555   "  >(600)</div><div class="right ac   "  >75</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="right ar w12 fs11 clr555   "  >(330)</div><div class="right ac   "  >185</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right ar w12 fs11 clr555   "  >(221)</div><div class="right ac   "  >255</div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="right ar w12 fs11 clr555   "  >(95)</div><div class="right ac   "  >493</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="right ar w12 fs11 clr555   "  >(64)</div><div class="right ac   "  >627</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/edward-ravasi">RAVASI Edward</a></div><div class="right ar w12 fs11 clr555   "  >(54)</div><div class="right ac   "  >700</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/diego-rosa">ROSA Diego</a></div><div class="right ar w12 fs11 clr555   "  >(53)</div><div class="right ac   "  >708</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="right ar w12 fs11 clr555   "  >(50)</div><div class="right ac   "  >730</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="right ar w12 fs11 clr555   "  >(49)</div><div class="right ac   "  >738</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="right ar w12 fs11 clr555   "  >(38)</div><div class="right ac   "  >851</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="right ar w12 fs11 clr555   "  >(33)</div><div class="right ac   "  >915</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="right ar w12 fs11 clr555   "  >(24)</div><div class="right ac   "  >1066</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag hu"></span> <a    href="rider/marton-dina">DINA Márton</a></div><div class="right ar w12 fs11 clr555   "  >(15)</div><div class="right ac   "  >1292</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag es"></span> <a    href="rider/alejandro-ropero">ROPERO Alejandro</a></div><div class="right ar w12 fs11 clr555   "  >(13)</div><div class="right ac   "  >1366</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="right ar w12 fs11 clr555   "  >(10)</div><div class="right ac   "  >1495</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag gb"></span> <a    href="rider/mark-christian">CHRISTIAN Mark</a></div><div class="right ar w12 fs11 clr555   "  >(8)</div><div class="right ac   "  >1567</div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTIN Alex</a></div><div class="right ar w12 fs11 clr555   "  >(7)</div><div class="right ac   "  >1676</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="right ar w12 fs11 clr555   "  >(4)</div><div class="right ac   "  >1962</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/sergio-garcia-gonzalez">GARCÍA Sergio</a></div><div class="right ar w12 fs11 clr555   "  >(2)</div><div class="right ac   "  >2169</div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag pt"></span> <a    href="rider/daniel-viegas">VIEGAS Daniel</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag es"></span> <a    href="rider/arturo-gravalos-lopez">GRÁVALOS Arturo</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
+<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="right ar w12 fs11 clr555   "  >(568)</div><div class="right ac   "  >83</div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="right ar w12 fs11 clr555   "  >(330)</div><div class="right ac   "  >184</div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right ar w12 fs11 clr555   "  >(233)</div><div class="right ac   "  >244</div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="right ar w12 fs11 clr555   "  >(120)</div><div class="right ac   "  >410</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="right ar w12 fs11 clr555   "  >(64)</div><div class="right ac   "  >613</div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/edward-ravasi">RAVASI Edward</a></div><div class="right ar w12 fs11 clr555   "  >(54)</div><div class="right ac   "  >687</div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="right ar w12 fs11 clr555   "  >(49)</div><div class="right ac   "  >726</div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/diego-rosa">ROSA Diego</a></div><div class="right ar w12 fs11 clr555   "  >(42)</div><div class="right ac   "  >787</div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="right ar w12 fs11 clr555   "  >(42)</div><div class="right ac   "  >792</div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="right ar w12 fs11 clr555   "  >(36)</div><div class="right ac   "  >867</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="right ar w12 fs11 clr555   "  >(33)</div><div class="right ac   "  >910</div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag hu"></span> <a    href="rider/marton-dina">DINA Márton</a></div><div class="right ar w12 fs11 clr555   "  >(15)</div><div class="right ac   "  >1285</div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="right ar w12 fs11 clr555   "  >(14)</div><div class="right ac   "  >1333</div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="right ar w12 fs11 clr555   "  >(10)</div><div class="right ac   "  >1490</div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag gb"></span> <a    href="rider/mark-christian">CHRISTIAN Mark</a></div><div class="right ar w12 fs11 clr555   "  >(8)</div><div class="right ac   "  >1569</div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="right ar w12 fs11 clr555   "  >(4)</div><div class="right ac   "  >1956</div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag es"></span> <a    href="rider/sergio-garcia-gonzalez">GARCÍA Sergio</a></div><div class="right ar w12 fs11 clr555   "  >(2)</div><div class="right ac   "  >2154</div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTIN Alex</a></div><div class="right ar w12 fs11 clr555   "  >(1)</div><div class="right ac   "  >2314</div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/andrea-montoli">MONTOLI Andrea</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag es"></span> <a    href="rider/francisco-munoz-llana">MUÑOZ Francisco</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag it"></span> <a    href="rider/andrea-pietrobon">PIETROBON Andrea</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
+<li class="" ><div >22</div><div ><span class="flag pt"></span> <a    href="rider/daniel-viegas">VIEGAS Daniel</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
+<li class="" ><div >23</div><div ><span class="flag es"></span> <a    href="rider/arturo-gravalos-lopez">GRÁVALOS Arturo</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
+<li class="" ><div >24</div><div ><span class="flag es"></span> <a    href="rider/alejandro-ropero">ROPERO Alejandro</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
+<li class="" ><div >25</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
 </ul></div>
 <div class="ttabs tabb">
 <ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
@@ -220,60 +221,69 @@
 <li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 <li class="" ><div >15</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTIN Alex</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 <li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag it"></span> <a    href="rider/edward-ravasi">RAVASI Edward</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/alejandro-ropero">ROPERO Alejandro</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/diego-rosa">ROSA Diego</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag pt"></span> <a    href="rider/daniel-viegas">VIEGAS Daniel</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag it"></span> <a    href="rider/andrea-montoli">MONTOLI Andrea</a></div><div class="fs11 clr999   "  > (trainee as from 01-08)</div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/francisco-munoz-llana">MUÑOZ Francisco</a></div><div class="fs11 clr999   "  > (trainee as from 01-08)</div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/andrea-pietrobon">PIETROBON Andrea</a></div><div class="fs11 clr999   "  > (trainee as from 01-08)</div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/edward-ravasi">RAVASI Edward</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >22</div><div ><span class="flag es"></span> <a    href="rider/alejandro-ropero">ROPERO Alejandro</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >23</div><div ><span class="flag it"></span> <a    href="rider/diego-rosa">ROSA Diego</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >24</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >25</div><div ><span class="flag pt"></span> <a    href="rider/daniel-viegas">VIEGAS Daniel</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabc">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="right   "  >22</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="right   "  >22</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTIN Alex</a></div><div class="right   "  >22</div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag es"></span> <a    href="rider/sergio-garcia-gonzalez">GARCÍA Sergio</a></div><div class="right   "  >23</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="right   "  >23</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="right   "  >24</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag es"></span> <a    href="rider/alejandro-ropero">ROPERO Alejandro</a></div><div class="right   "  >24</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="right   "  >24</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/arturo-gravalos-lopez">GRÁVALOS Arturo</a></div><div class="right   "  >24</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag pt"></span> <a    href="rider/daniel-viegas">VIEGAS Daniel</a></div><div class="right   "  >24</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right   "  >25</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="right   "  >25</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="right   "  >25</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="right   "  >26</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag hu"></span> <a    href="rider/marton-dina">DINA Márton</a></div><div class="right   "  >26</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="right   "  >26</div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right   "  >26</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag it"></span> <a    href="rider/edward-ravasi">RAVASI Edward</a></div><div class="right   "  >28</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="right   "  >30</div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag gb"></span> <a    href="rider/mark-christian">CHRISTIAN Mark</a></div><div class="right   "  >31</div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag it"></span> <a    href="rider/diego-rosa">ROSA Diego</a></div><div class="right   "  >33</div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="right   "  >37</div><div class="clear"></div></li>
+<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/andrea-montoli">MONTOLI Andrea</a></div><div class="right   "  >20</div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/francisco-munoz-llana">MUÑOZ Francisco</a></div><div class="right   "  >21</div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="right   "  >22</div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="right   "  >22</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTIN Alex</a></div><div class="right   "  >22</div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag es"></span> <a    href="rider/sergio-garcia-gonzalez">GARCÍA Sergio</a></div><div class="right   "  >23</div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/andrea-pietrobon">PIETROBON Andrea</a></div><div class="right   "  >23</div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="right   "  >23</div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="right   "  >24</div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag es"></span> <a    href="rider/alejandro-ropero">ROPERO Alejandro</a></div><div class="right   "  >24</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="right   "  >24</div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag es"></span> <a    href="rider/arturo-gravalos-lopez">GRÁVALOS Arturo</a></div><div class="right   "  >24</div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag pt"></span> <a    href="rider/daniel-viegas">VIEGAS Daniel</a></div><div class="right   "  >24</div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right   "  >25</div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="right   "  >25</div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="right   "  >25</div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="right   "  >26</div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag hu"></span> <a    href="rider/marton-dina">DINA Márton</a></div><div class="right   "  >26</div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="right   "  >26</div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right   "  >26</div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag it"></span> <a    href="rider/edward-ravasi">RAVASI Edward</a></div><div class="right   "  >28</div><div class="clear"></div></li>
+<li class="" ><div >22</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="right   "  >30</div><div class="clear"></div></li>
+<li class="" ><div >23</div><div ><span class="flag gb"></span> <a    href="rider/mark-christian">CHRISTIAN Mark</a></div><div class="right   "  >31</div><div class="clear"></div></li>
+<li class="" ><div >24</div><div ><span class="flag it"></span> <a    href="rider/diego-rosa">ROSA Diego</a></div><div class="right   "  >33</div><div class="clear"></div></li>
+<li class="" ><div >25</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="right   "  >38</div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabd">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag es"></span> <a    href="rider/alejandro-ropero">ROPERO Alejandro</a></div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTIN Alex</a></div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag es"></span> <a    href="rider/arturo-gravalos-lopez">GRÁVALOS Arturo</a></div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag es"></span> <a    href="rider/sergio-garcia-gonzalez">GARCÍA Sergio</a></div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag gb"></span> <a    href="rider/mark-christian">CHRISTIAN Mark</a></div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="clear"></div></li>
+<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag es"></span> <a    href="rider/arturo-gravalos-lopez">GRÁVALOS Arturo</a></div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/sergio-garcia-gonzalez">GARCÍA Sergio</a></div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag es"></span> <a    href="rider/francisco-munoz-llana">MUÑOZ Francisco</a></div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/alejandro-ropero">ROPERO Alejandro</a></div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTIN Alex</a></div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag gb"></span> <a    href="rider/mark-christian">CHRISTIAN Mark</a></div><div class="clear"></div></li>
 <li class="" ><div >9</div><div ><span class="flag hu"></span> <a    href="rider/marton-dina">DINA Márton</a></div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag it"></span> <a    href="rider/diego-rosa">ROSA Diego</a></div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/edward-ravasi">RAVASI Edward</a></div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag pt"></span> <a    href="rider/daniel-viegas">VIEGAS Daniel</a></div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/andrea-montoli">MONTOLI Andrea</a></div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag it"></span> <a    href="rider/diego-rosa">ROSA Diego</a></div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/andrea-pietrobon">PIETROBON Andrea</a></div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag it"></span> <a    href="rider/edward-ravasi">RAVASI Edward</a></div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="clear"></div></li>
+<li class="" ><div >22</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="clear"></div></li>
+<li class="" ><div >23</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="clear"></div></li>
+<li class="" ><div >24</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="clear"></div></li>
+<li class="" ><div >25</div><div ><span class="flag pt"></span> <a    href="rider/daniel-viegas">VIEGAS Daniel</a></div><div class="clear"></div></li>
 </ul></div>
 <div class="fs10 clr999"><div class="">In historical seasons, age is taken at July 1.</div></div>
 <div class="mt20"><h3>Info</h3><ul class="infolist" style=""><li><div>Team status:</div> <div>PRT</div></li>
@@ -288,15 +298,15 @@
 </ul></div>
 <div class="mt20"><h3>Staff</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 50%; ">Name</th><th style="width: 50%; ">Functions</th></tr></thead><tbody>
-<tr ><td><span class="flag es"></span> <a    href="staff/francisco-javier-contador">Francisco Javier  Contador</a></td><td>General manager</td></tr>
-<tr ><td><span class="flag it"></span> <a    href="staff/stefano-zanatta">Stefano  Zanatta</a></td><td>Sports Director</td></tr>
-<tr ><td><span class="flag it"></span> <a    href="staff/biagio-conte">Biagio  Conte</a></td><td>Ass. Sports Director</td></tr>
-<tr ><td><span class="flag es"></span> <a    href="staff/jesus-hernandez-3">Jesús  Hernández Blázquez</a></td><td>Ass. Sports Director</td></tr>
-<tr ><td><span class="flag gb"></span> <a    href="staff/sean-yates">Sean  Yates</a></td><td>Ass. Sports Director</td></tr>
+<tr ><td><span class="flag es"></span> <a    href="staff/francisco-javier-contador">Francisco Javier  Contador </a></td><td>General manager</td></tr>
+<tr ><td><span class="flag it"></span> <a    href="staff/stefano-zanatta">Stefano  Zanatta </a></td><td>Sports Director</td></tr>
+<tr ><td><span class="flag it"></span> <a    href="staff/biagio-conte">Biagio  Conte </a></td><td>Ass. Sports Director</td></tr>
+<tr ><td><span class="flag es"></span> <a    href="staff/jesus-hernandez-3">Jesús  Hernández Blázquez </a></td><td>Ass. Sports Director</td></tr>
+<tr ><td><span class="flag gb"></span> <a    href="staff/sean-yates">Sean  Yates </a></td><td>Ass. Sports Director</td></tr>
 </tbody></table></div>
 <div class="mt30"><h3>Points per season</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 20%; ">year</th><th class="bar  "  style="width: 60%; ">points</th><th class="ac  "  style="width: 20%; ">position</th></tr></thead><tbody>
-<tr ><td>2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 76.6%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">863</span></div></td><td class="ac  " >27</td></tr>
+<tr ><td>2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 77.7%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">875</span></div></td><td class="ac  " >27</td></tr>
 <tr ><td>2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">901</span></div></td><td class="ac  " >32</td></tr>
 <tr ><td>2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 11.5%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">130</span></div></td><td class="ac  " >59</td></tr>
 <tr ><td>2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 24.4%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">275</span></div></td><td class="ac  " >84</td></tr>
@@ -304,10 +314,11 @@
 </tbody></table></div>
 </div><div class="w70 left mb_w100"><div class="mt10 mob-ad team-between-stats "></div><div class="mt20"><h3>Upcoming races for team</h3>
 <table class="basic"  style=""><thead><tr><th class="cu600  "  style="width: 13%; ">Date</th><th class="cs600 hide  "  style="width: 17.4%; ">Date</th><th style="width: 34.8%; ">Race</th><th class="cu600 fs10 clr555  "  style="width: 34.8%; ">Riders</th></tr></thead><tbody>
-<tr ><td class="cu600  " >25/07</td><td class="cs600 hide  " >25/07</td><td><span class="flag es"></span> <a    href="race/prueba-villafranca/2022">Prueba Villafranca - Ordiziako Klasika</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr ><td class="cu600  " >27/07 - 28/07</td><td class="cs600 hide  " >27/07 - 28/07</td><td><span class="flag es"></span> <a    href="race/vuelta-a-castilla-y-leon/2022">Vuelta a Castilla y Leon</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >02/08 - 06/08</td><td class="cs600 hide  " >02/08 - 06/08</td><td><span class="flag es"></span> <a    href="race/vuelta-a-burgos/2022">Vuelta a Burgos</a></td><td class="cu600 fs10 clr555  " >Fedeli, Fortunato, García, Martin, Martin, Ravasi, Sevilla</td></tr>
+<tr ><td class="cu600  " >09/08 - 11/08</td><td class="cs600 hide  " >09/08 - 11/08</td><td><span class="flag fr"></span> <a    href="race/tour-de-l-ain/2022">Tour de l'Ain</a></td><td class="cu600 fs10 clr555  " >Bevilacqua, Christian, Lonardi, Fancellu, Dina, Ropero</td></tr>
 <tr ><td class="cu600  " >16/08 - 19/08</td><td class="cs600 hide  " >16/08 - 19/08</td><td><span class="flag fr"></span> <a    href="race/tour-du-limousin/2022">Tour du Limousin - Nouvelle Aquitaine</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr ><td class="cu600  " >23/08 - 26/08</td><td class="cs600 hide  " >23/08 - 26/08</td><td><span class="flag fr"></span> <a    href="race/tour-du-poitou-charentes-et-de-la-vienne/2022">Tour Poitou - Charentes en Nouvelle Aquitaine</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >23/08 - 26/08</td><td class="cs600 hide  " >23/08 - 26/08</td><td><span class="flag fr"></span> <a    href="race/tour-du-poitou-charentes-et-de-la-vienne/2022">Tour Poitou - Charentes en Nouvelle Aquitaine</a></td><td class="cu600 fs10 clr555  " >Fetter</td></tr>
+<tr ><td class="cu600  " >08/09 - 11/09</td><td class="cs600 hide  " >08/09 - 11/09</td><td><span class="flag cz"></span> <a    href="race/okolo-jiznich-cech/2022">Okolo jižních Čech / Tour of South Bohemia</a></td><td class="cu600 fs10 clr555  " >Fetter</td></tr>
 </tbody></table></div>
 <div class="mt20"><h3>Last victories</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 7.7%; ">#</th><th style="width: 53.8%; ">Race</th><th style="width: 7.7%; ">Class</th><th style="width: 30.8%; ">Winner</th></tr></thead><tbody>
@@ -315,17 +326,27 @@
 <tr ><td>1</td><td><span class="flag es"></span> <a    href="race/gp-de-valence/2022/result">Clàssica Comunitat Valenciana 1969 - Gran Premi València</a></td><td>1.2</td><td>LONARDI Giovanni</td></tr>
 </tbody></table></div>
 <div class="mt30"><h3>Top results</h3>
-<table class="basic"  style=""><thead><tr><th style="width: 7.7%; ">Result</th><th style="width: 53.8%; ">Race</th><th style="width: 7.7%; ">Class</th><th style="width: 30.8%; ">Rider</th></tr></thead><tbody>
-<tr ><td>15</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/gc">Giro d'Italia </a></td><td>2.UWT</td><td>FORTUNATO Lorenzo</td></tr>
-<tr ><td>4</td><td><span class="flag si"></span> <a    href="race/tour-of-slovenia/2022/gc">Tour of Slovenia </a></td><td>2.Pro</td><td>ALBANESE Vincenzo</td></tr>
-<tr ><td>2</td><td><span class="flag es"></span> <a    href="race/vuelta-asturias/2022/gc">Vuelta Asturias Julio Alvarez Mendo </a></td><td>2.1</td><td>FORTUNATO Lorenzo</td></tr>
-<tr ><td>11</td><td><span class="flag it"></span> <a    href="race/milano-sanremo/2022/result">Milano-Sanremo </a></td><td>1.UWT</td><td>ALBANESE Vincenzo</td></tr>
-<tr ><td>3</td><td><span class="flag es"></span> <a    href="race/trofeo-calvia/2022/result">Trofeo Calvia </a></td><td>1.1</td><td>ALBANESE Vincenzo</td></tr>
-<tr class=" hide"  ><td>3</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/stage-10">Giro d'Italia Stage 10</a></td><td>2.UWT</td><td>ALBANESE Vincenzo</td></tr>
-<tr class=" hide"  ><td>12</td><td><span class="flag si"></span> <a    href="race/tour-of-slovenia/2022/gc">Tour of Slovenia </a></td><td>2.Pro</td><td>RAVASI Edward</td></tr>
-<tr class=" hide"  ><td>12</td><td><span class="flag tr"></span> <a    href="race/tour-of-turkey/2022/gc">Presidential Cycling Tour of Türkiye </a></td><td>2.Pro</td><td>GAVAZZI Francesco</td></tr>
-<tr class=" hide"  ><td>9</td><td><span class="flag es"></span> <a    href="race/clasica-de-almeria/2022/result">Clasica de Almeria </a></td><td>1.Pro</td><td>ALBANESE Vincenzo</td></tr>
-<tr class=" hide"  ><td>7</td><td><span class="flag it"></span> <a    href="race/giro-di-sicilia/2022/gc">Giro di Sicilia - Tour of Sicily </a></td><td>2.1</td><td>ALBANESE Vincenzo</td></tr>
+<table class="basic"  style=""><thead><tr><th style="width: 7.1%; ">Result</th><th style="width: 50%; ">Race</th><th style="width: 7.1%; ">Class</th><th style="width: 28.6%; ">Rider</th><th style="width: 7.1%; ">Points</th></tr></thead><tbody>
+<tr ><td>15</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/gc">Giro d'Italia</a></td><td>2.UWT</td><td><a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></td><td>100</td></tr>
+<tr ><td>4</td><td><span class="flag si"></span> <a    href="race/tour-of-slovenia/2022/gc">Tour of Slovenia</a></td><td>2.Pro</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>80</td></tr>
+<tr ><td>2</td><td><span class="flag es"></span> <a    href="race/vuelta-asturias/2022/gc">Vuelta Asturias Julio Alvarez Mendo</a></td><td>2.1</td><td><a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></td><td>70</td></tr>
+<tr ><td>11</td><td><span class="flag it"></span> <a    href="race/milano-sanremo/2022/result">Milano-Sanremo</a></td><td>1.UWT</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>46</td></tr>
+<tr ><td>3</td><td><span class="flag es"></span> <a    href="race/trofeo-calvia/2022/result">Trofeo Calvia</a></td><td>1.1</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>40</td></tr>
+<tr ><td>3</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/stage-10">Giro d'Italia | Stage 10</a></td><td>2.UWT</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>35</td></tr>
+<tr ><td>12</td><td><span class="flag si"></span> <a    href="race/tour-of-slovenia/2022/gc">Tour of Slovenia</a></td><td>2.Pro</td><td><a    href="rider/edward-ravasi">RAVASI Edward</a></td><td>32</td></tr>
+<tr ><td>12</td><td><span class="flag tr"></span> <a    href="race/tour-of-turkey/2022/gc">Presidential Cycling Tour of Türkiye</a></td><td>2.Pro</td><td><a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></td><td>32</td></tr>
+<tr ><td>18</td><td><span class="flag it"></span> <a    href="race/tirreno-adriatico/2022/gc">Tirreno-Adriatico</a></td><td>2.UWT</td><td><a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></td><td>28</td></tr>
+<tr ><td>9</td><td><span class="flag es"></span> <a    href="race/clasica-de-almeria/2022/result">Clasica de Almeria</a></td><td>1.Pro</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>26</td></tr>
+<tr class=" hide"  ><td>11</td><td><span class="flag it"></span> <a    href="race/gp-industria-artigianato/2022/result">GP Industria </a></td><td>1.Pro</td><td><a    href="rider/erik-fetter">FETTER Erik</a></td><td>20</td></tr>
+<tr class=" hide"  ><td>7</td><td><span class="flag it"></span> <a    href="race/giro-di-sicilia/2022/gc">Giro di Sicilia - Tour of Sicily</a></td><td>2.1</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>20</td></tr>
+<tr class=" hide"  ><td>7</td><td><span class="flag it"></span> <a    href="race/adriatica-ionica-race/2022/gc">Adriatica Ionica Race / Sulle Rotte della Serenissima</a></td><td>2.1</td><td><a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></td><td>20</td></tr>
+<tr class=" hide"  ><td>2</td><td><span class="flag es"></span> <a    href="race/ruta-del-sol/2022/stage-5">Vuelta a Andalucia Ruta Ciclista Del Sol | Stage 5</a></td><td>2.Pro</td><td><a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></td><td>18</td></tr>
+<tr class=" hide"  ><td>16</td><td><span class="flag es"></span> <a    href="race/ruta-del-sol/2022/gc">Vuelta a Andalucia Ruta Ciclista Del Sol</a></td><td>2.Pro</td><td><a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></td><td>16</td></tr>
+<tr class=" hide"  ><td>1</td><td><span class="flag hu"></span> <a    href="race/nc-hungary-itt/2022/result">National Championships Hungary - ITT</a></td><td>NC</td><td><a    href="rider/erik-fetter">FETTER Erik</a></td><td>15</td></tr>
+<tr class=" hide"  ><td>1</td><td><span class="flag es"></span> <a    href="race/gp-de-valence/2022/result">Clàssica Comunitat Valenciana 1969 - Gran Premi València</a></td><td>1.2</td><td><a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></td><td>15</td></tr>
+<tr class=" hide"  ><td>2</td><td><span class="flag es"></span> <a    href="race/vuelta-asturias/2022/stage-2">Vuelta Asturias Julio Alvarez Mendo | Stage 2</a></td><td>2.1</td><td><a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></td><td>12</td></tr>
+<tr class=" hide"  ><td>11</td><td><span class="flag es"></span> <a    href="race/prueba-villafranca/2022/result">Prueba Villafranca - Ordiziako Klasika</a></td><td>1.1</td><td><a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></td><td>12</td></tr>
+<tr class=" hide"  ><td>2</td><td><span class="flag es"></span> <a    href="race/vuelta-asturias/2022/stage-3">Vuelta Asturias Julio Alvarez Mendo | Stage 3</a></td><td>2.1</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>12</td></tr>
 </tbody></table><a class="showFullList" href="">show more</a></div>
 </div>  <script>
   $(document).ready(function(){
@@ -381,10 +402,11 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.3523 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1293kb) peak (1424kb)</span></li></ul></li>
+<li><span>0.0909 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1320kb) peak (1443kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="2101" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
 <script src="search_list3.js"></script>
+  

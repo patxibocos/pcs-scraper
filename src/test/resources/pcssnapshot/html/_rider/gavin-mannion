@@ -34,7 +34,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a129.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
@@ -61,15 +61,20 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2022">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
+<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
+<li><a href="team/movistar-team-2022">Movistar Team</a></li>
 <li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
@@ -82,11 +87,6 @@
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
-<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
-<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,11 +95,6 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2022/overview">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2022/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/2022/history">Palmares</a></li>
-<li><a href="race/tour-de-france/2022/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2022/stages/all-stage-profiles">Stage profiles</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -155,11 +150,11 @@
 <li><span class="icon ProCyclingGame left"></span><a  target="_blank"   class="" href="https://www.procyclinggame.com/rider/gavin-mannion">ProCyclingGame</a></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >1394</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >981</div><div class="clear"></div></li>
+<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >1662</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >1150</div><div class="clear"></div></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;92</span></div><div >  this week</div><div class="clear"></div></li>
+<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;359</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/colorado-classic/2018/gc">Colorado Classic</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-utah/2017/gc">The Larry H.Miller Tour of Utah</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17)</span></div></li>
@@ -244,19 +239,19 @@
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 1.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">6</span></div></td><td class="ac  " >1439</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 1.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">6</span></div></td><td class="ac  " >1553</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 16.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">57</span></div></td><td class="ac  " >639</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 27.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">98</span></div></td><td class="ac  " >326</td></tr>
-<tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 22.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">80</span></div></td><td class="ac  " >713</td></tr>
-<tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">281</span></div></td><td class="ac  " >225</td></tr>
-<tr ><td class="season  " >2017</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 58.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">206</span></div></td><td class="ac  " >319</td></tr>
-<tr ><td class="season  " >2016</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 9.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">32</span></div></td><td class="ac  " >1112</td></tr>
-<tr ><td class="season  " >2015</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 30.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">106</span></div></td><td class="ac  " >543</td></tr>
-<tr ><td class="season  " >2014</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 1.4%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">5</span></div></td><td class="ac  " >1940</td></tr>
-<tr ><td class="season  " >2013</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 5.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">18</span></div></td><td class="ac  " >1325</td></tr>
-<tr ><td class="season  " >2012</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 7.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">27</span></div></td><td class="ac  " >1133</td></tr>
-<tr ><td class="season  " >2011</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 1.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">4</span></div></td><td class="ac  " >2183</td></tr>
-<tr ><td class="season  " >2010</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 3.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">11</span></div></td><td class="ac  " >1590</td></tr>
+<tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 22.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">80</span></div></td><td class="ac  " >714</td></tr>
+<tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">281</span></div></td><td class="ac  " >224</td></tr>
+<tr ><td class="season  " >2017</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 58.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">206</span></div></td><td class="ac  " >321</td></tr>
+<tr ><td class="season  " >2016</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 9.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">32</span></div></td><td class="ac  " >1115</td></tr>
+<tr ><td class="season  " >2015</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 30.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">106</span></div></td><td class="ac  " >542</td></tr>
+<tr ><td class="season  " >2014</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 1.4%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">5</span></div></td><td class="ac  " >1908</td></tr>
+<tr ><td class="season  " >2013</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 5.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">18</span></div></td><td class="ac  " >1314</td></tr>
+<tr ><td class="season  " >2012</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 7.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">27</span></div></td><td class="ac  " >1132</td></tr>
+<tr ><td class="season  " >2011</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 1.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">4</span></div></td><td class="ac  " >2175</td></tr>
+<tr ><td class="season  " >2010</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 3.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">11</span></div></td><td class="ac  " >1596</td></tr>
 </tbody></table></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
@@ -360,10 +355,11 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.3035 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1443kb) peak (1980kb)</span></li></ul></li>
+<li><span>0.2242 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1444kb) peak (1986kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
 <script src="search_list3.js"></script>
+  

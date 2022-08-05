@@ -110,6 +110,15 @@ private fun buildRacesProtobufMessage(_races: List<Race>): List<RaceOuterClass.R
                                 }.build()
                             }
                         )
+                        addAllGcResult(
+                            stage.gcResult.map { riderResult ->
+                                RaceOuterClass.RiderResult.newBuilder().apply {
+                                    position = riderResult.position
+                                    riderId = riderResult.rider
+                                    time = riderResult.time
+                                }.build()
+                            }
+                        )
                     }.build()
                 }
             )

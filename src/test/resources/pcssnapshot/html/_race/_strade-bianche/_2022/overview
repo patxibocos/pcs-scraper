@@ -34,7 +34,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a129.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
@@ -61,15 +61,20 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2022">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
+<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
+<li><a href="team/movistar-team-2022">Movistar Team</a></li>
 <li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
@@ -82,11 +87,6 @@
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
-<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
-<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,11 +95,6 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2022/overview">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2022/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/2022/history">Palmares</a></li>
-<li><a href="race/tour-de-france/2022/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2022/stages/all-stage-profiles">Stage profiles</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -118,7 +113,7 @@
 			 </div>
 			 <a class="user4" data-logged="0" href="login.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
-<div class="content  "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a href="race/strade-bianche/2021/overview/overview">2021</a><div ><form style="  "><select style="" onChange="window.location.href=this.value; "><option value="race/strade-bianche/2022/overview/overview" selected>2022</option><option value="race/strade-bianche/2021/overview/overview" >2021</option><option value="race/strade-bianche/2020/overview/overview" >2020</option><option value="race/strade-bianche/2019/overview/overview" >2019</option><option value="race/strade-bianche/2018/overview/overview" >2018</option><option value="race/strade-bianche/2017/overview/overview" >2017</option><option value="race/strade-bianche/2016/overview/overview" >2016</option><option value="race/strade-bianche/2015/overview/overview" >2015</option><option value="race/strade-bianche/2014/overview/overview" >2014</option><option value="race/strade-bianche/2013/overview/overview" >2013</option><option value="race/strade-bianche/2012/overview/overview" >2012</option><option value="race/strade-bianche/2011/overview/overview" >2011</option><option value="race/strade-bianche/2010/overview/overview" >2010</option><option value="race/strade-bianche/2009/overview/overview" >2009</option><option value="race/strade-bianche/2008/overview/overview" >2008</option><option value="race/strade-bianche/2007/overview/overview" >2007</option></select></form></div><a href="[urlbase]/strade-bianche/[event_seo]/overview/overview"></a></div></div><ul class="pagenavLinks"><li class="reg "><a class="" href="race/strade-bianche/2022/result">Results</a></li>
+<div class="content  "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/strade-bianche/2021/overview/overview" >2021</a><div ><form style="  "><select style="" onChange="window.location.href=this.value; "><option value="race/strade-bianche/2022/overview/overview" selected>2022</option><option value="race/strade-bianche/2021/overview/overview" >2021</option><option value="race/strade-bianche/2020/overview/overview" >2020</option><option value="race/strade-bianche/2019/overview/overview" >2019</option><option value="race/strade-bianche/2018/overview/overview" >2018</option><option value="race/strade-bianche/2017/overview/overview" >2017</option><option value="race/strade-bianche/2016/overview/overview" >2016</option><option value="race/strade-bianche/2015/overview/overview" >2015</option><option value="race/strade-bianche/2014/overview/overview" >2014</option><option value="race/strade-bianche/2013/overview/overview" >2013</option><option value="race/strade-bianche/2012/overview/overview" >2012</option><option value="race/strade-bianche/2011/overview/overview" >2011</option><option value="race/strade-bianche/2010/overview/overview" >2010</option><option value="race/strade-bianche/2009/overview/overview" >2009</option><option value="race/strade-bianche/2008/overview/overview" >2008</option><option value="race/strade-bianche/2007/overview/overview" >2007</option></select></form></div><a ></a></div></div><ul class="pagenavLinks"><li class="reg "><a class="" href="race/strade-bianche/2022/result">Results</a></li>
 <li class="reg "><a class="cur" href="race/strade-bianche/2022/result/overview">Preview</a></li>
 <li class="reg "><a class="" href="race/strade-bianche/2022/result/startlist">Startlist</a></li>
 <li class="reg "><a class="" href="race/strade-bianche/2022/result/history">History</a></li>
@@ -195,7 +190,7 @@
 <li class="" ><div class="mg_rp5   "  ><span class="flag nl"></span> <a    href="team/team-jumbo-visma-2022">Jumbo-Visma</a></div><div class=" clr999   "  > (Gesink, Benoot)</div><div class="clear"></div></li>
 <li class="" ><div class="mg_rp5   "  ><span class="flag be"></span> <a    href="team/lotto-soudal-2022">Lotto Soudal</a></div><div class=" clr999   "  > (Wellens, Campenaerts)</div><div class="clear"></div></li>
 <li class="" ><div class="mg_rp5   "  ><span class="flag es"></span> <a    href="team/movistar-team-2022">Movistar Team</a></div><div class=" clr999   "  > (Valverde, Oliveira)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/team-arkea-samsic-2022">Team Arkéa Samsic</a></div><div class=" clr999   "  > (Hardy, Barguil)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/team-arkea-samsic-2022">Team Arkéa Samsic</a></div><div class=" clr999   "  > (Delaplace, Barguil)</div><div class="clear"></div></li>
 <li class="" ><div class="mg_rp5   "  ><span class="flag au"></span> <a    href="team/team-bikeexchange-jayco-2022">Team BikeExchange - Jayco</a></div><div class=" clr999   "  > (Matthews, Grmay)</div><div class="clear"></div></li>
 <li class="" ><div class="mg_rp5   "  ><span class="flag nl"></span> <a    href="team/team-dsm-2022">Team DSM</a></div><div class=" clr999   "  > (Hamilton, Arndt)</div><div class="clear"></div></li>
 <li class="" ><div class="mg_rp5   "  ><span class="flag us"></span> <a    href="team/trek-segafredo-2022">Trek - Segafredo</a></div><div class=" clr999   "  > (Theuns, Brambilla)</div><div class="clear"></div></li>
@@ -254,10 +249,11 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0797 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1207kb) peak (1347kb)</span></li></ul></li>
+<li><span>0.0537 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1207kb) peak (1347kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
 <script src="search_list3.js"></script>
+  

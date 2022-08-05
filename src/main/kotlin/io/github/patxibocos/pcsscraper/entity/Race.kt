@@ -27,6 +27,7 @@ data class Race(
         val departure: String?,
         val arrival: String?,
         val result: List<RiderResult>,
+        val gcResult: List<RiderResult>,
     ) {
         enum class Type {
             FLAT,

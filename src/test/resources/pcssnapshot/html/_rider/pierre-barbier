@@ -34,7 +34,7 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a129.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
 
 <script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
@@ -61,15 +61,20 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2022">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
+<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
+<li><a href="team/movistar-team-2022">Movistar Team</a></li>
 <li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
@@ -82,11 +87,6 @@
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
-<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
-<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,11 +95,6 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2022/overview">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2022/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/2022/history">Palmares</a></li>
-<li><a href="race/tour-de-france/2022/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2022/stages/all-stage-profiles">Stage profiles</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -150,15 +145,15 @@
 <div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/pierre-barbier/statistics/overview"><img src="images/riders/bp/ae/pierre-barbier-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 25<sup>th</sup> September 1997 (24)<br /><b>Nationality:</b> <span class="flag  fr"></span><a class="black" href="nation/france">France</a><br /><span><b>Weight:</b> 69 kg &nbsp; <span><b>Height:</b> 1.76 m<br /><b>Place of birth:</b> <a href="location.php?id=3498">Beauvais</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 62.093862815884%; height: 100%;  "></div></div><div class="pnt">516</div><div class="title"><a href="rider/pierre-barbier/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 4.8134777376655%; height: 100%;  "></div></div><div class="pnt">40</div><div class="title"><a href="rider/pierre-barbier/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/pierre-barbier/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 100%; height: 100%;  "></div></div><div class="pnt">831</div><div class="title"><a href="rider/pierre-barbier/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 3.3694344163658%; height: 100%;  "></div></div><div class="pnt">28</div><div class="title"><a href="rider/pierre-barbier/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/barbier_p/">instagram</a></li>
 <li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/pierrebarbier60">twitter</a></li>
-<li><span class="icon ProCyclingGame left"></span><a  target="_blank"   class="" href="https://www.procyclinggame.com/rider/pierre-barbier">ProCyclingGame</a></li>
 <li><span class="icon Cyclo-cross left"></span><a  target="_blank"   class="" href="https://cx.procyclingstats.com/rider/pierre-barbier">Cyclo-cross</a></li>
+<li><span class="icon ProCyclingGame left"></span><a  target="_blank"   class="" href="https://www.procyclinggame.com/rider/pierre-barbier">ProCyclingGame</a></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >228</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >251</div><div class="clear"></div></li>
+<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >218</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >255</div><div class="clear"></div></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;402</span></div><div >  this week</div><div class="clear"></div></li>
+<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;79</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue"></span> <a href="race/grote-prijs-jean-pierre-monsere/2018/result">Grote prijs Jean-Pierre Monseré</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue"></span> <a href="race/gp-de-denain/2022/result">Grand Prix de Denain - Porte du Hainaut</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
@@ -183,8 +178,9 @@
 <li class=" main " ><div class="season   "  >2016</div><div class="name   "  ><a    href="team/roubaix-lille-metropole-2016">Roubaix Lille Métropole</a></div><div > (CT)</div><div class="fs10   "  > trainee as from 01/08</div><div class="clear"></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<ul class="list flex pad2 dashed"  style=" "></ul></div>
-<div class=""><div class="">No races on program.</div></div>
+<ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >07.08</div><div class="ellipsis   "  ><span class="flag be"></span> <a    href="race/gp-jef-scherens/2022/startlist">Tour of Leuven - Memorial Jef Scherens</a></div><div class="fs11   "  ><a    href="rider.php?race=1187&id=184865&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
+<li class="" ><div class="bold   "  >09.08</div><div class="ellipsis   "  ><span class="flag fr"></span> <a    href="race/tour-de-l-ain/2022/startlist">Tour de l'Ain</a></div><div class="fs11   "  ><a    href="rider.php?race=1144&id=184865&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
+</ul></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="tabsV3" style=" "><li class="cur"><a class="toggleDiscipline" data-discipline="road" data-rid="184865" data-season="2022" href="">road</a><span></span></li><li class=""><a class="toggleDiscipline" data-discipline="cx" data-rid="1012988" data-season="2022" href="">cross</a><span></span></li></ul><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2022" class="cur"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li class="more hide show_if"><span>more</span><ul><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" hide"><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" hide"><a class="seasonResults" data-season="2014" href="">2014</a></li></ul></li></ul><ul class="rdrSeasonNav hide" data-discipline="cx"><li data-season="2022" class="cur"><a class="seasonResults" data-season="2022" href="">21/22</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">17/18</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">15/16</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">14/15</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">13/14</a></li><li class="more hide "><span>more</span><ul><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">21/22</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">17/18</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">15/16</a></li><li data-season="2015" class=" hide"><a class="seasonResults" data-season="2015" href="">14/15</a></li><li data-season="2014" class=" hide"><a class="seasonResults" data-season="2014" href="">13/14</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600 " style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
 <tr data-main="1"><td>26.06</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/nc-france/2022/result">National Championships France - Road Race <span>(NC)</span></a> </td><td class="cu600 ">240</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=184865&p=statistics&s=statistics-in-race&race=1654">more</a></td></tr>
@@ -241,13 +237,13 @@
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">220</span></div></td><td class="ac  " >163</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">220</span></div></td><td class="ac  " >195</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 42.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">118</span></div></td><td class="ac  " >410</td></tr>
-<tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 13.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">37</span></div></td><td class="ac  " >643</td></tr>
+<tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 13.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">37</span></div></td><td class="ac  " >644</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 72.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">200</span></div></td><td class="ac  " >323</td></tr>
-<tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 31.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">87</span></div></td><td class="ac  " >653</td></tr>
-<tr ><td class="season  " >2017</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 0.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">2</span></div></td><td class="ac  " >2405</td></tr>
-<tr ><td class="season  " >2016</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 2.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">7</span></div></td><td class="ac  " >1936</td></tr>
+<tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 31.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">87</span></div></td><td class="ac  " >655</td></tr>
+<tr ><td class="season  " >2017</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 0.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">2</span></div></td><td class="ac  " >2416</td></tr>
+<tr ><td class="season  " >2016</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 2.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">7</span></div></td><td class="ac  " >1953</td></tr>
 </tbody></table></div>
 <div class="mt30"><h3>Family</h3>
 <ul class="list"  style=" "><li class="" ><div ><a    href="rider/rudy-barbier">Rudy  Barbier</a></div><div > (Brother)</div><div class="clear"></div></li>
@@ -354,10 +350,11 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.3184 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1437kb) peak (1792kb)</span></li></ul></li>
+<li><span>0.1449 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1441kb) peak (1792kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
 <script src="search_list3.js"></script>
+  
