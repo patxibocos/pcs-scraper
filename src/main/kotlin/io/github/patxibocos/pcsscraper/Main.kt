@@ -4,7 +4,9 @@ import io.github.patxibocos.pcsscraper.document.Cache
 import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.export.Exporter
 import io.github.patxibocos.pcsscraper.export.Format
-import io.github.patxibocos.pcsscraper.scraper.PCSScraper
+import io.github.patxibocos.pcsscraper.scraper.PCSRacesScraper
+import io.github.patxibocos.pcsscraper.scraper.PCSRidersScraper
+import io.github.patxibocos.pcsscraper.scraper.PCSTeamsScraper
 import io.github.patxibocos.pcsscraper.scraper.RacesScraper
 import io.github.patxibocos.pcsscraper.scraper.RidersScraper
 import io.github.patxibocos.pcsscraper.scraper.TeamsScraper
@@ -27,10 +29,9 @@ fun main(args: Array<String>) {
 
     val cache = cachePath?.let { Cache(Paths.get(it)) }
     val docFetcher = DocFetcher(cache, skipCache, retryDelayDuration)
-    val pcsScraper = PCSScraper(docFetcher)
-    val teamsScraper: TeamsScraper = pcsScraper
-    val ridersScraper: RidersScraper = pcsScraper
-    val racesScraper: RacesScraper = pcsScraper
+    val teamsScraper: TeamsScraper = PCSTeamsScraper(docFetcher)
+    val ridersScraper: RidersScraper = PCSRidersScraper(docFetcher)
+    val racesScraper: RacesScraper = PCSRacesScraper(docFetcher)
 
     runBlocking {
         val data = async {
