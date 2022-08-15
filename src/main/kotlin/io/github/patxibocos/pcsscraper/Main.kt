@@ -16,13 +16,17 @@ import kotlinx.cli.default
 import kotlinx.cli.multiple
 import kotlinx.cli.required
 import kotlinx.coroutines.async
+import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.runBlocking
 import kotlinx.coroutines.withTimeout
+import mu.KotlinLogging
+import org.slf4j.Logger
 import java.nio.file.Paths
 import kotlin.time.Duration
 
 fun main(args: Array<String>) {
-    val (season, cachePath, destination, formats, skipCache, scrapTimeout, retryDelay) = getAppArgs(args)
+    val appArgs = getAppArgs(args)
+    val (season, cachePath, destination, formats, skipCache, scrapTimeout, retryDelay) = appArgs
 
     val scrapTimeoutDuration = Duration.parse(scrapTimeout)
     val retryDelayDuration = Duration.parse(retryDelay)
@@ -34,6 +38,9 @@ fun main(args: Array<String>) {
     val racesScraper: RacesScraper = PCSRacesScraper(docFetcher)
 
     runBlocking {
+        val logger: Logger = KotlinLogging.logger {}
+
+        logger.info("Running scraper with arguments: $appArgs")
         val data = async {
             val teams = teamsScraper.scrapeTeams(season = season)
             val riders = ridersScraper.scrapeRiders(season = season)
@@ -45,10 +52,11 @@ fun main(args: Array<String>) {
             data.await()
         }
 
-        formats.forEach { format ->
+        formats.map { format ->
             val exporter: Exporter = Exporter.from(destination, format)
-            exporter.export(teams, riders, races)
-        }
+            logger.info("Exporting to $format")
+            async { exporter.export(teams, riders, races) }
+        }.awaitAll()
     }
 }
 
