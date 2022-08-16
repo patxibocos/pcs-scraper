@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="team.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
 
-<script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
 </head>
@@ -61,17 +61,15 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
 <li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
 <li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 <li><a href="team/movistar-team-2022">Movistar Team</a></li>
@@ -79,14 +77,16 @@
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
-<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,6 +95,11 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -141,56 +146,56 @@
 <li data-n="7"><a href="team/euskaltel-euskadi-2022/more/contribute-link">Contribute link</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">Euskaltel - Euskadi (PRT)</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">2022</span></div><div class="sub"><span class="red showIfMobile">2022</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord team"></div><div class="mob-ad leaderbord team"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-team"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100" >
 <ul class="list horizontal teamkpi" style=""><li><div>wins</div> <div><a    href="team/euskaltel-euskadi-2022/wins">2</a></div></li>
-<li><div>ranking</div> <div><a    href="rankings/me/teams">37</a></div></li>
+<li><div>ranking</div> <div><a    href="rankings/me/teams"></a></div></li>
 <li><div>incoming transfers</div> <div><a    href="team/euskaltel-euskadi-2022/transfers">1</a></div></li>
 </ul>
-<div class="mt20"><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/fb/luis-angel-mate-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/luis-angel-mate"></a><span>MATÉ Luis Ángel</span></li><li><a style="background: url(images/riders/bp/ef/mikel-bizkarra-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mikel-bizkarra"></a><span>BIZKARRA Mikel</span></li><li><a style="background: url(images/riders/bp/eb/mikel-iturria-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mikel-iturria"></a><span>ITURRIA Mikel</span></li><li><a style="background: url(images/riders/bp/cb/mikel-aristi-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mikel-aristi"></a><span>ARISTI Mikel</span></li><li><a style="background: url(images/riders/bp/ef/gotzon-martin-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/gotzon-martin"></a><span>MARTÍN Gotzon</span></li><li><a style="background: url(images/riders/bp/aa/antonio-soto-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/antonio-soto"></a><span>SOTO Antonio Jesús</span></li><li><a style="background: url(images/riders/bp/ab/antonio-angulo-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/antonio-angulo"></a><span>ANGULO Antonio</span></li><li><a style="background: url(images/riders/bp/cf/joan-bou-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/joan-bou"></a><span>BOU Joan</span></li><li><a style="background: url(images/riders/bp/fe/txomin-juaristi-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/txomin-juaristi"></a><span>JUARISTI Txomin</span></li><li><a style="background: url(images/riders/bp/fa/unai-cuadrado-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/unai-cuadrado"></a><span>CUADRADO Unai</span></li><li><a style="background: url(images/riders/bp/ff/xabier-mikel-azparren-irurzun-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/xabier-mikel-azparren-irurzun"></a><span>AZPARREN Xabier Mikel</span></li><li><a style="background: url(images/riders/bp/cb/carlos-canal-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/carlos-canal"></a><span>CANAL Carlos</span></li><li><a style="background: url(images/riders/bp/cb/julen-irizar-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/julen-irizar"></a><span>IRIZAR Julen</span></li><li><a style="background: url(images/riders/bp/ce/ibai-azurmendi-sagastibel-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/ibai-azurmendi-sagastibel"></a><span>AZURMENDI Ibai</span></li><li><a style="background: url(images/riders/bp/cf/unai-iribar-jauregi-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/unai-iribar-jauregi"></a><span>IRIBAR Unai</span></li><li><a style="background: url(images/riders/bp/df/xabier-isasa-larranaga-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/xabier-isasa-larranaga"></a><span>ISASA Xabier</span></li><li><a style="background: url(images/riders/bp/db/peio-goikoetxea-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/peio-goikoetxea"></a><span>GOIKOETXEA Peio</span></li><li><a style="background: url(images/riders/bp/fd/asier-etxeberria-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/asier-etxeberria"></a><span>ETXEBERRIA Asier</span></li><li><a style="background: url(images/riders/bp/be/iker-ballarin-manso-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/iker-ballarin-manso"></a><span>BALLARIN Iker</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a   class="taba" href="#">career points</a></li>
+<div class="mt20"><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/fb/luis-angel-mate-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/luis-angel-mate"></a><span>MATÉ Luis Ángel</span></li><li><a style="background: url(images/riders/bp/ef/mikel-bizkarra-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mikel-bizkarra"></a><span>BIZKARRA Mikel</span></li><li><a style="background: url(images/riders/bp/eb/mikel-iturria-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mikel-iturria"></a><span>ITURRIA Mikel</span></li><li><a style="background: url(images/riders/bp/cb/mikel-aristi-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mikel-aristi"></a><span>ARISTI Mikel</span></li><li><a style="background: url(images/riders/bp/ef/gotzon-martin-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/gotzon-martin"></a><span>MARTÍN Gotzon</span></li><li><a style="background: url(images/riders/bp/aa/antonio-soto-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/antonio-soto"></a><span>SOTO Antonio Jesús</span></li><li><a style="background: url(images/riders/bp/ab/antonio-angulo-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/antonio-angulo"></a><span>ANGULO Antonio</span></li><li><a style="background: url(images/riders/bp/fe/txomin-juaristi-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/txomin-juaristi"></a><span>JUARISTI Txomin</span></li><li><a style="background: url(images/riders/bp/cf/joan-bou-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/joan-bou"></a><span>BOU Joan</span></li><li><a style="background: url(images/riders/bp/fa/unai-cuadrado-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/unai-cuadrado"></a><span>CUADRADO Unai</span></li><li><a style="background: url(images/riders/bp/ff/xabier-mikel-azparren-irurzun-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/xabier-mikel-azparren-irurzun"></a><span>AZPARREN Xabier Mikel</span></li><li><a style="background: url(images/riders/bp/cb/carlos-canal-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/carlos-canal"></a><span>CANAL Carlos</span></li><li><a style="background: url(images/riders/bp/cb/julen-irizar-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/julen-irizar"></a><span>IRIZAR Julen</span></li><li><a style="background: url(images/riders/bp/ce/ibai-azurmendi-sagastibel-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/ibai-azurmendi-sagastibel"></a><span>AZURMENDI Ibai</span></li><li><a style="background: url(images/riders/bp/cf/unai-iribar-jauregi-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/unai-iribar-jauregi"></a><span>IRIBAR Unai</span></li><li><a style="background: url(images/riders/bp/df/xabier-isasa-larranaga-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/xabier-isasa-larranaga"></a><span>ISASA Xabier</span></li><li><a style="background: url(images/riders/bp/fd/asier-etxeberria-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/asier-etxeberria"></a><span>ETXEBERRIA Asier</span></li><li><a style="background: url(images/riders/bp/db/peio-goikoetxea-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/peio-goikoetxea"></a><span>GOIKOETXEA Peio</span></li><li><a style="background: url(images/riders/bp/be/iker-ballarin-manso-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/iker-ballarin-manso"></a><span>BALLARIN Iker</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a   class="taba" href="#">career points</a></li>
 <li class="tabb cur" ><a   class="tabb cur" href="#">name</a></li>
 <li class="tabe" ><a   class="tabe" href="#">ranking</a></li>
 <li class="tabc" ><a   class="tabc" href="#">age</a></li>
 <li class="tabd" ><a   class="tabd" href="#">country</a></li>
 </ul></div>
 <div class="hide ttabs taba">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag es"></span> <a    href="rider/juan-jose-lobato">LOBATO Juan José</a></div><div class="right   "  >2989</div><div class="clear"></div></li>
+<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag es"></span> <a    href="rider/juan-jose-lobato">LOBATO Juan José</a></div><div class="right   "  >2991</div><div class="clear"></div></li>
 <li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/luis-angel-mate">MATÉ Luis Ángel</a></div><div class="right   "  >1769</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></div><div class="right   "  >984</div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></div><div class="right   "  >996</div><div class="clear"></div></li>
 <li class="" ><div >4</div><div ><span class="flag es"></span> <a    href="rider/mikel-iturria">ITURRIA Mikel</a></div><div class="right   "  >416</div><div class="clear"></div></li>
 <li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/mikel-aristi">ARISTI Mikel</a></div><div class="right   "  >365</div><div class="clear"></div></li>
 <li class="" ><div >6</div><div ><span class="flag es"></span> <a    href="rider/gotzon-martin">MARTÍN Gotzon</a></div><div class="right   "  >278</div><div class="clear"></div></li>
 <li class="" ><div >7</div><div ><span class="flag es"></span> <a    href="rider/antonio-soto">SOTO Antonio Jesús</a></div><div class="right   "  >226</div><div class="clear"></div></li>
 <li class="" ><div >8</div><div ><span class="flag es"></span> <a    href="rider/antonio-angulo">ANGULO Antonio</a></div><div class="right   "  >128</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/joan-bou">BOU Joan</a></div><div class="right   "  >113</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag es"></span> <a    href="rider/txomin-juaristi">JUARISTI Txomin</a></div><div class="right   "  >92</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag es"></span> <a    href="rider/unai-cuadrado">CUADRADO Unai</a></div><div class="right   "  >92</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag es"></span> <a    href="rider/xabier-mikel-azparren-irurzun">AZPARREN Xabier Mikel</a></div><div class="right   "  >65</div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/txomin-juaristi">JUARISTI Txomin</a></div><div class="right   "  >118</div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag es"></span> <a    href="rider/joan-bou">BOU Joan</a></div><div class="right   "  >113</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag es"></span> <a    href="rider/unai-cuadrado">CUADRADO Unai</a></div><div class="right   "  >94</div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag es"></span> <a    href="rider/xabier-mikel-azparren-irurzun">AZPARREN Xabier Mikel</a></div><div class="right   "  >68</div><div class="clear"></div></li>
 <li class="" ><div >13</div><div ><span class="flag es"></span> <a    href="rider/carlos-canal">CANAL Carlos</a></div><div class="right   "  >64</div><div class="clear"></div></li>
 <li class="" ><div >14</div><div ><span class="flag es"></span> <a    href="rider/julen-irizar">IRIZAR Julen</a></div><div class="right   "  >27</div><div class="clear"></div></li>
 <li class="" ><div >15</div><div ><span class="flag es"></span> <a    href="rider/ibai-azurmendi-sagastibel">AZURMENDI Ibai</a></div><div class="right   "  >20</div><div class="clear"></div></li>
 <li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/unai-iribar-jauregi">IRIBAR Unai</a></div><div class="right   "  >9</div><div class="clear"></div></li>
 <li class="" ><div >17</div><div ><span class="flag es"></span> <a    href="rider/xabier-isasa-larranaga">ISASA Xabier</a></div><div class="right   "  >7</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/peio-goikoetxea">GOIKOETXEA Peio</a></div><div class="right   "  >5</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/asier-etxeberria">ETXEBERRIA Asier</a></div><div class="right   "  >1</div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/asier-etxeberria">ETXEBERRIA Asier</a></div><div class="right   "  >7</div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/peio-goikoetxea">GOIKOETXEA Peio</a></div><div class="right   "  >5</div><div class="clear"></div></li>
 <li class="" ><div >20</div><div ><span class="flag es"></span> <a    href="rider/iker-ballarin-manso">BALLARIN Iker</a></div><div class="right   "  >0</div><div class="clear"></div></li>
 <li class="" ><div >21</div><div ><span class="flag es"></span> <a    href="rider/iker-mintegui-claver">MINTEGUI Iker</a></div><div class="right   "  >0</div><div class="clear"></div></li>
 <li class="" ><div >22</div><div ><span class="flag es"></span> <a    href="rider/ailetz-lasa">LASA Ailetz</a></div><div class="right   "  >0</div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabe">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag es"></span> <a    href="rider/gotzon-martin">MARTÍN Gotzon</a></div><div class="right ar w12 fs11 clr555   "  >(144)</div><div class="right ac   "  >359</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></div><div class="right ar w12 fs11 clr555   "  >(140)</div><div class="right ac   "  >367</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/antonio-soto">SOTO Antonio Jesús</a></div><div class="right ar w12 fs11 clr555   "  >(97)</div><div class="right ac   "  >482</div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag es"></span> <a    href="rider/antonio-angulo">ANGULO Antonio</a></div><div class="right ar w12 fs11 clr555   "  >(74)</div><div class="right ac   "  >571</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/xabier-mikel-azparren-irurzun">AZPARREN Xabier Mikel</a></div><div class="right ar w12 fs11 clr555   "  >(66)</div><div class="right ac   "  >600</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag es"></span> <a    href="rider/joan-bou">BOU Joan</a></div><div class="right ar w12 fs11 clr555   "  >(54)</div><div class="right ac   "  >689</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag es"></span> <a    href="rider/juan-jose-lobato">LOBATO Juan José</a></div><div class="right ar w12 fs11 clr555   "  >(50)</div><div class="right ac   "  >713</div><div class="clear"></div></li>
+<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag es"></span> <a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></div><div class="right ar w12 fs11 clr555   "  >(152)</div><div class="right ac   "  >337</div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/gotzon-martin">MARTÍN Gotzon</a></div><div class="right ar w12 fs11 clr555   "  >(144)</div><div class="right ac   "  >356</div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/antonio-soto">SOTO Antonio Jesús</a></div><div class="right ar w12 fs11 clr555   "  >(89)</div><div class="right ac   "  >500</div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag es"></span> <a    href="rider/antonio-angulo">ANGULO Antonio</a></div><div class="right ar w12 fs11 clr555   "  >(71)</div><div class="right ac   "  >573</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/xabier-mikel-azparren-irurzun">AZPARREN Xabier Mikel</a></div><div class="right ar w12 fs11 clr555   "  >(66)</div><div class="right ac   "  >592</div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag es"></span> <a    href="rider/joan-bou">BOU Joan</a></div><div class="right ar w12 fs11 clr555   "  >(54)</div><div class="right ac   "  >678</div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag es"></span> <a    href="rider/juan-jose-lobato">LOBATO Juan José</a></div><div class="right ar w12 fs11 clr555   "  >(52)</div><div class="right ac   "  >686</div><div class="clear"></div></li>
 <li class="" ><div >8</div><div ><span class="flag es"></span> <a    href="rider/carlos-canal">CANAL Carlos</a></div><div class="right ar w12 fs11 clr555   "  >(44)</div><div class="right ac   "  >774</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/mikel-iturria">ITURRIA Mikel</a></div><div class="right ar w12 fs11 clr555   "  >(32)</div><div class="right ac   "  >919</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag es"></span> <a    href="rider/luis-angel-mate">MATÉ Luis Ángel</a></div><div class="right ar w12 fs11 clr555   "  >(23)</div><div class="right ac   "  >1065</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag es"></span> <a    href="rider/txomin-juaristi">JUARISTI Txomin</a></div><div class="right ar w12 fs11 clr555   "  >(14)</div><div class="right ac   "  >1339</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag es"></span> <a    href="rider/mikel-aristi">ARISTI Mikel</a></div><div class="right ar w12 fs11 clr555   "  >(10)</div><div class="right ac   "  >1457</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag es"></span> <a    href="rider/unai-iribar-jauregi">IRIBAR Unai</a></div><div class="right ar w12 fs11 clr555   "  >(9)</div><div class="right ac   "  >1542</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag es"></span> <a    href="rider/unai-cuadrado">CUADRADO Unai</a></div><div class="right ar w12 fs11 clr555   "  >(9)</div><div class="right ac   "  >1548</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag es"></span> <a    href="rider/xabier-isasa-larranaga">ISASA Xabier</a></div><div class="right ar w12 fs11 clr555   "  >(7)</div><div class="right ac   "  >1692</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/asier-etxeberria">ETXEBERRIA Asier</a></div><div class="right ar w12 fs11 clr555   "  >(1)</div><div class="right ac   "  >2303</div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/txomin-juaristi">JUARISTI Txomin</a></div><div class="right ar w12 fs11 clr555   "  >(40)</div><div class="right ac   "  >822</div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag es"></span> <a    href="rider/mikel-iturria">ITURRIA Mikel</a></div><div class="right ar w12 fs11 clr555   "  >(28)</div><div class="right ac   "  >980</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag es"></span> <a    href="rider/luis-angel-mate">MATÉ Luis Ángel</a></div><div class="right ar w12 fs11 clr555   "  >(23)</div><div class="right ac   "  >1070</div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag es"></span> <a    href="rider/unai-cuadrado">CUADRADO Unai</a></div><div class="right ar w12 fs11 clr555   "  >(11)</div><div class="right ac   "  >1428</div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag es"></span> <a    href="rider/mikel-aristi">ARISTI Mikel</a></div><div class="right ar w12 fs11 clr555   "  >(10)</div><div class="right ac   "  >1462</div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag es"></span> <a    href="rider/unai-iribar-jauregi">IRIBAR Unai</a></div><div class="right ar w12 fs11 clr555   "  >(9)</div><div class="right ac   "  >1548</div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag es"></span> <a    href="rider/asier-etxeberria">ETXEBERRIA Asier</a></div><div class="right ar w12 fs11 clr555   "  >(7)</div><div class="right ac   "  >1670</div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/xabier-isasa-larranaga">ISASA Xabier</a></div><div class="right ar w12 fs11 clr555   "  >(7)</div><div class="right ac   "  >1687</div><div class="clear"></div></li>
 <li class="" ><div >17</div><div ><span class="flag es"></span> <a    href="rider/julen-irizar">IRIZAR Julen</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
 <li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/iker-ballarin-manso">BALLARIN Iker</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
 <li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/peio-goikoetxea">GOIKOETXEA Peio</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
@@ -215,11 +220,11 @@
 <li class="" ><div >14</div><div ><span class="flag es"></span> <a    href="rider/xabier-isasa-larranaga">ISASA Xabier</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 <li class="" ><div >15</div><div ><span class="flag es"></span> <a    href="rider/mikel-iturria">ITURRIA Mikel</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 <li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/txomin-juaristi">JUARISTI Txomin</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag es"></span> <a    href="rider/ailetz-lasa">LASA Ailetz</a></div><div class="fs11 clr999   "  > (trainee as from 01-08)</div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag es"></span> <a    href="rider/ailetz-lasa">LASA Ailetz</a></div><div class="fs11 clr999   "  > (trainee as from 01/08)</div><div class="clear"></div></li>
 <li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/juan-jose-lobato">LOBATO Juan José</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 <li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/gotzon-martin">MARTÍN Gotzon</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 <li class="" ><div >20</div><div ><span class="flag es"></span> <a    href="rider/luis-angel-mate">MATÉ Luis Ángel</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag es"></span> <a    href="rider/iker-mintegui-claver">MINTEGUI Iker</a></div><div class="fs11 clr999   "  > (trainee as from 01-08)</div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag es"></span> <a    href="rider/iker-mintegui-claver">MINTEGUI Iker</a></div><div class="fs11 clr999   "  > (trainee as from 01/08)</div><div class="clear"></div></li>
 <li class="" ><div >22</div><div ><span class="flag es"></span> <a    href="rider/antonio-soto">SOTO Antonio Jesús</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabc">
@@ -247,30 +252,32 @@
 <li class="" ><div >22</div><div ><span class="flag es"></span> <a    href="rider/luis-angel-mate">MATÉ Luis Ángel</a></div><div class="right   "  >38</div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabd">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag es"></span> <a    href="rider/julen-irizar">IRIZAR Julen</a></div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/antonio-soto">SOTO Antonio Jesús</a></div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/carlos-canal">CANAL Carlos</a></div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag es"></span> <a    href="rider/juan-jose-lobato">LOBATO Juan José</a></div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/iker-ballarin-manso">BALLARIN Iker</a></div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag es"></span> <a    href="rider/txomin-juaristi">JUARISTI Txomin</a></div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag es"></span> <a    href="rider/luis-angel-mate">MATÉ Luis Ángel</a></div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag es"></span> <a    href="rider/antonio-angulo">ANGULO Antonio</a></div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/iker-mintegui-claver">MINTEGUI Iker</a></div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag es"></span> <a    href="rider/xabier-mikel-azparren-irurzun">AZPARREN Xabier Mikel</a></div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag es"></span> <a    href="rider/gotzon-martin">MARTÍN Gotzon</a></div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag es"></span> <a    href="rider/xabier-isasa-larranaga">ISASA Xabier</a></div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag es"></span> <a    href="rider/mikel-aristi">ARISTI Mikel</a></div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag es"></span> <a    href="rider/unai-cuadrado">CUADRADO Unai</a></div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag es"></span> <a    href="rider/mikel-iturria">ITURRIA Mikel</a></div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/peio-goikoetxea">GOIKOETXEA Peio</a></div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag es"></span> <a    href="rider/ailetz-lasa">LASA Ailetz</a></div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/joan-bou">BOU Joan</a></div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag es"></span> <a    href="rider/asier-etxeberria">ETXEBERRIA Asier</a></div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag es"></span> <a    href="rider/unai-iribar-jauregi">IRIBAR Unai</a></div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag es"></span> <a    href="rider/ibai-azurmendi-sagastibel">AZURMENDI Ibai</a></div><div class="clear"></div></li>
+<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag es"></span> <a    href="rider/juan-jose-lobato">LOBATO Juan José</a></div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/iker-ballarin-manso">BALLARIN Iker</a></div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/txomin-juaristi">JUARISTI Txomin</a></div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag es"></span> <a    href="rider/luis-angel-mate">MATÉ Luis Ángel</a></div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/antonio-angulo">ANGULO Antonio</a></div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag es"></span> <a    href="rider/iker-mintegui-claver">MINTEGUI Iker</a></div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag es"></span> <a    href="rider/xabier-mikel-azparren-irurzun">AZPARREN Xabier Mikel</a></div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag es"></span> <a    href="rider/gotzon-martin">MARTÍN Gotzon</a></div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/xabier-isasa-larranaga">ISASA Xabier</a></div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag es"></span> <a    href="rider/mikel-aristi">ARISTI Mikel</a></div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag es"></span> <a    href="rider/unai-cuadrado">CUADRADO Unai</a></div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag es"></span> <a    href="rider/mikel-iturria">ITURRIA Mikel</a></div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag es"></span> <a    href="rider/peio-goikoetxea">GOIKOETXEA Peio</a></div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag es"></span> <a    href="rider/ailetz-lasa">LASA Ailetz</a></div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag es"></span> <a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/joan-bou">BOU Joan</a></div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag es"></span> <a    href="rider/asier-etxeberria">ETXEBERRIA Asier</a></div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/unai-iribar-jauregi">IRIBAR Unai</a></div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/ibai-azurmendi-sagastibel">AZURMENDI Ibai</a></div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag es"></span> <a    href="rider/julen-irizar">IRIZAR Julen</a></div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag es"></span> <a    href="rider/antonio-soto">SOTO Antonio Jesús</a></div><div class="clear"></div></li>
+<li class="" ><div >22</div><div ><span class="flag es"></span> <a    href="rider/carlos-canal">CANAL Carlos</a></div><div class="clear"></div></li>
 </ul></div>
 <div class="fs10 clr999"><div class="">In historical seasons, age is taken at July 1.</div></div>
+<div class="mt20"><h3>Quick links</h3><ul class="list fs14"><li class="blue" ><a   class="blue" href="compare_teams.php?id=43917">Compare to other teams </a></li>
+</ul></div>
 <div class="mt20"><h3>Info</h3><ul class="infolist" style=""><li><div>Team status:</div> <div>PRT</div></li>
 <li><div>Abbreviation: </div> <div>EUS</div></li>
 <li><div>Bike:</div> <div><a    href="gear.php?id=0">Orbea</a></div></li>
@@ -280,6 +287,7 @@
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/euskaltelteam/">instagram</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://facebook.com/euskaltelteam">facebook</a></li>
 <li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/euskaltelteam">twitter</a></li>
+<li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/FundaCiclisEusk">twitter</a></li>
 </ul></div>
 <div class="mt20"><h3>Staff</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 50%; ">Name</th><th style="width: 50%; ">Functions</th></tr></thead><tbody>
@@ -292,7 +300,7 @@
 </tbody></table></div>
 <div class="mt30"><h3>Points per season</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 20%; ">year</th><th class="bar  "  style="width: 60%; ">points</th><th class="ac  "  style="width: 20%; ">position</th></tr></thead><tbody>
-<tr ><td>2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 31%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">338</span></div></td><td class="ac  " >38</td></tr>
+<tr ><td>2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 35.4%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">386</span></div></td><td class="ac  " >38</td></tr>
 <tr ><td>2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">872</span></div></td><td class="ac  " >33</td></tr>
 <tr ><td>2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 37.7%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">411</span></div></td><td class="ac  " >37</td></tr>
 <tr ><td>2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 32%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">349</span></div></td><td class="ac  " >73</td></tr>
@@ -300,10 +308,7 @@
 </tbody></table></div>
 </div><div class="w70 left mb_w100"><div class="mt10 mob-ad team-between-stats "></div><div class="mt20"><h3>Upcoming races for team</h3>
 <table class="basic"  style=""><thead><tr><th class="cu600  "  style="width: 13%; ">Date</th><th class="cs600 hide  "  style="width: 17.4%; ">Date</th><th style="width: 34.8%; ">Race</th><th class="cu600 fs10 clr555  "  style="width: 34.8%; ">Riders</th></tr></thead><tbody>
-<tr ><td class="cu600  " >02/08 - 06/08</td><td class="cs600 hide  " >02/08 - 06/08</td><td><span class="flag es"></span> <a    href="race/vuelta-a-burgos/2022">Vuelta a Burgos</a></td><td class="cu600 fs10 clr555  " >Azparren, Azurmendi, Bizkarra, Bou, Canal, Iturria, Martín</td></tr>
-<tr ><td class="cu600  " >04/08 - 15/08</td><td class="cs600 hide  " >04/08 - 15/08</td><td><span class="flag pt"></span> <a    href="race/volta-a-portugal/2022">Volta a Portugal em Bicicleta</a></td><td class="cu600 fs10 clr555  " >Lobato, Cuadrado, Juaristi, Goikoetxea, Etxeberria, Iribar, Isasa</td></tr>
-<tr ><td class="cu600  " >11/08 - 14/08</td><td class="cs600 hide  " >11/08 - 14/08</td><td><span class="flag no"></span> <a    href="race/arctic-race-of-norway/2022">Arctic Race of Norway</a></td><td class="cu600 fs10 clr555  " >Angulo, Aristi, Maté</td></tr>
-<tr ><td class="cu600  " >19/08 - 11/09</td><td class="cs600 hide  " >19/08 - 11/09</td><td><span class="flag es"></span> <a    href="race/vuelta-a-espana/2022">La Vuelta ciclista a España</a></td><td class="cu600 fs10 clr555  " >Angulo, Azparren, Azurmendi, Bizkarra, Bou, Canal, Cuadrado, Martín, Iribar, Iturria, Juaristi, Maté</td></tr>
+<tr ><td class="cu600  " >19/08 - 11/09</td><td class="cs600 hide  " >19/08 - 11/09</td><td><span class="flag es"></span> <a    href="race/vuelta-a-espana/2022">La Vuelta ciclista a España</a></td><td class="cu600 fs10 clr555  " >Azparren, Azurmendi, Bizkarra, Bou, Canal, Martín, Iturria, Maté</td></tr>
 <tr ><td class="cu600  " >23/08 - 26/08</td><td class="cs600 hide  " >23/08 - 26/08</td><td><span class="flag fr"></span> <a    href="race/tour-du-poitou-charentes-et-de-la-vienne/2022">Tour Poitou - Charentes en Nouvelle Aquitaine</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 </tbody></table></div>
 <div class="mt20"><h3>Last victories</h3>
@@ -315,24 +320,24 @@
 <table class="basic"  style=""><thead><tr><th style="width: 7.1%; ">Result</th><th style="width: 50%; ">Race</th><th style="width: 7.1%; ">Class</th><th style="width: 28.6%; ">Rider</th><th style="width: 7.1%; ">Points</th></tr></thead><tbody>
 <tr ><td>4</td><td><span class="flag es"></span> <a    href="race/vuelta-asturias/2022/gc">Vuelta Asturias Julio Alvarez Mendo</a></td><td>2.1</td><td><a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></td><td>36</td></tr>
 <tr ><td>6</td><td><span class="flag it"></span> <a    href="race/adriatica-ionica-race/2022/gc">Adriatica Ionica Race / Sulle Rotte della Serenissima</a></td><td>2.1</td><td><a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></td><td>24</td></tr>
+<tr ><td>8</td><td><span class="flag es"></span> <a    href="race/vuelta-asturias/2022/gc">Vuelta Asturias Julio Alvarez Mendo</a></td><td>2.1</td><td><a    href="rider/gotzon-martin">MARTÍN Gotzon</a></td><td>18</td></tr>
 <tr ><td>21</td><td><span class="flag es"></span> <a    href="race/itzulia-basque-country/2022/gc">Itzulia Basque Country</a></td><td>2.UWT</td><td><a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></td><td>18</td></tr>
 <tr ><td>2</td><td><span class="flag pt"></span> <a    href="race/volta-ao-alentejo/2022/gc">Volta ao Alentejo</a></td><td>2.2</td><td><a    href="rider/xabier-mikel-azparren-irurzun">AZPARREN Xabier Mikel</a></td><td>18</td></tr>
-<tr ><td>8</td><td><span class="flag es"></span> <a    href="race/vuelta-asturias/2022/gc">Vuelta Asturias Julio Alvarez Mendo</a></td><td>2.1</td><td><a    href="rider/gotzon-martin">MARTÍN Gotzon</a></td><td>18</td></tr>
 <tr ><td>2</td><td><span class="flag pt"></span> <a    href="race/gp-int-torres-vedras/2022/gc">GP Internacional Torres Vedras - Trofeu Joaquim Agostinho</a></td><td>2.2</td><td><a    href="rider/joan-bou">BOU Joan</a></td><td>18</td></tr>
 <tr ><td>16</td><td><span class="flag pt"></span> <a    href="race/volta-ao-algarve/2022/gc">Volta ao Algarve em Bicicleta</a></td><td>2.Pro</td><td><a    href="rider/xabier-mikel-azparren-irurzun">AZPARREN Xabier Mikel</a></td><td>16</td></tr>
+<tr ><td>10</td><td><span class="flag pt"></span> <a    href="race/volta-a-portugal/2022/gc">Volta a Portugal em Bicicleta</a></td><td>2.1</td><td><a    href="rider/txomin-juaristi">JUARISTI Txomin</a></td><td>14</td></tr>
 <tr ><td>17</td><td><span class="flag tr"></span> <a    href="race/tour-of-turkey/2022/gc">Presidential Cycling Tour of Türkiye</a></td><td>2.Pro</td><td><a    href="rider/txomin-juaristi">JUARISTI Txomin</a></td><td>14</td></tr>
-<tr ><td>3</td><td><span class="flag fr"></span> <a    href="race/boucles-de-la-mayenne/2022/stage-3">Boucles de la Mayenne - Crédit Mutuel | Stage 3</a></td><td>2.Pro</td><td><a    href="rider/juan-jose-lobato">LOBATO Juan José</a></td><td>12</td></tr>
 <tr ><td>11</td><td><span class="flag es"></span> <a    href="race/trofeo-alcudia/2022/result">Trofeo Alcúdia - Port d'Alcúdia</a></td><td>1.1</td><td><a    href="rider/antonio-soto">SOTO Antonio Jesús</a></td><td>12</td></tr>
+<tr class=" hide"  ><td>3</td><td><span class="flag fr"></span> <a    href="race/boucles-de-la-mayenne/2022/stage-3">Boucles de la Mayenne - Crédit Mutuel | Stage 3</a></td><td>2.Pro</td><td><a    href="rider/juan-jose-lobato">LOBATO Juan José</a></td><td>12</td></tr>
+<tr class=" hide"  ><td>18</td><td><span class="flag es"></span> <a    href="race/vuelta-a-burgos/2022/gc">Vuelta a Burgos</a></td><td>2.Pro</td><td><a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></td><td>12</td></tr>
 <tr class=" hide"  ><td>16</td><td><span class="flag fr"></span> <a    href="race/gp-de-plumelec/2022/result">Grand Prix du Morbihan</a></td><td>1.Pro</td><td><a    href="rider/carlos-canal">CANAL Carlos</a></td><td>10</td></tr>
-<tr class=" hide"  ><td>5</td><td><span class="flag fr"></span> <a    href="race/le-tour-de-bretagne/2022/gc">Le Tour de Bretagne Cycliste</a></td><td>2.2</td><td><a    href="rider/antonio-angulo">ANGULO Antonio</a></td><td>8</td></tr>
-<tr class=" hide"  ><td>13</td><td><span class="flag fr"></span> <a    href="race/route-adelie-de-vitre/2022/result">La Route Adélie de Vitré</a></td><td>1.1</td><td><a    href="rider/mikel-aristi">ARISTI Mikel</a></td><td>8</td></tr>
 <tr class=" hide"  ><td>13</td><td><span class="flag es"></span> <a    href="race/trofeo-andratx-mirador-d-es-colomer/2022/result">Trofeo Pollença - Port d'Andratx</a></td><td>1.1</td><td><a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></td><td>8</td></tr>
-<tr class=" hide"  ><td>6</td><td><span class="flag es"></span> <a    href="race/itzulia-basque-country/2022/stage-2">Itzulia Basque Country | Stage 2</a></td><td>2.UWT</td><td><a    href="rider/gotzon-martin">MARTÍN Gotzon</a></td><td>7</td></tr>
-<tr class=" hide"  ><td>4</td><td><span class="flag es"></span> <a    href="race/ruta-del-sol/2022/stage-1">Vuelta a Andalucia Ruta Ciclista Del Sol | Stage 1</a></td><td>2.Pro</td><td><a    href="rider/xabier-isasa-larranaga">ISASA Xabier</a></td><td>7</td></tr>
+<tr class=" hide"  ><td>13</td><td><span class="flag fr"></span> <a    href="race/route-adelie-de-vitre/2022/result">La Route Adélie de Vitré</a></td><td>1.1</td><td><a    href="rider/mikel-aristi">ARISTI Mikel</a></td><td>8</td></tr>
+<tr class=" hide"  ><td>5</td><td><span class="flag fr"></span> <a    href="race/le-tour-de-bretagne/2022/gc">Le Tour de Bretagne Cycliste</a></td><td>2.2</td><td><a    href="rider/antonio-angulo">ANGULO Antonio</a></td><td>8</td></tr>
 <tr class=" hide"  ><td>14</td><td><span class="flag es"></span> <a    href="race/trofeo-alcudia/2022/result">Trofeo Alcúdia - Port d'Alcúdia</a></td><td>1.1</td><td><a    href="rider/gotzon-martin">MARTÍN Gotzon</a></td><td>7</td></tr>
+<tr class=" hide"  ><td>6</td><td><span class="flag es"></span> <a    href="race/itzulia-basque-country/2022/stage-2">Itzulia Basque Country | Stage 2</a></td><td>2.UWT</td><td><a    href="rider/gotzon-martin">MARTÍN Gotzon</a></td><td>7</td></tr>
 <tr class=" hide"  ><td>19</td><td><span class="flag es"></span> <a    href="race/clasica-de-almeria/2022/result">Clasica de Almeria</a></td><td>1.Pro</td><td><a    href="rider/juan-jose-lobato">LOBATO Juan José</a></td><td>7</td></tr>
-<tr class=" hide"  ><td>21</td><td><span class="flag it"></span> <a    href="race/tour-of-the-alps/2022/gc">Tour of the Alps</a></td><td>2.Pro</td><td><a    href="rider/mikel-bizkarra">BIZKARRA Mikel</a></td><td>6</td></tr>
-<tr class=" hide"  ><td>21</td><td><span class="flag om"></span> <a    href="race/tour-of-oman/2022/gc">Tour of Oman</a></td><td>2.Pro</td><td><a    href="rider/carlos-canal">CANAL Carlos</a></td><td>6</td></tr>
+<tr class=" hide"  ><td>4</td><td><span class="flag es"></span> <a    href="race/ruta-del-sol/2022/stage-1">Vuelta a Andalucia Ruta Ciclista Del Sol | Stage 1</a></td><td>2.Pro</td><td><a    href="rider/xabier-isasa-larranaga">ISASA Xabier</a></td><td>7</td></tr>
 </tbody></table><a class="showFullList" href="">show more</a></div>
 </div>  <script>
   $(document).ready(function(){
@@ -388,7 +393,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1044 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1305kb) peak (1436kb)</span></li></ul></li>
+<li><span>0.0548 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1309kb) peak (1441kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="2101" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

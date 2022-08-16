@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
 
-<script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
 </head>
@@ -61,17 +61,15 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
 <li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
 <li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 <li><a href="team/movistar-team-2022">Movistar Team</a></li>
@@ -79,14 +77,16 @@
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
-<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,6 +95,11 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -139,10 +144,10 @@
 <li data-n="8"><a href="race/vuelta-a-espana/2022/stage-11/more/contribute-info">Contribute info</a></li>
 <li data-n="8"><a href="race/vuelta-a-espana/2022/stage-11/more/contribute-sites">Contribute site(s)</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><span class="hideIfMobile">2022</span><span class="hideIfMobile">&raquo;</span><font class="hideIfMobile">77th</font><h1 class="">La Vuelta ciclista a España</h1><font class="hideIfMobile">(2.UWT)</font></div><div class="sub"><span class="showIfMobile">2022</span><span class="showIfMobile">&raquo;</span><span class="blue">Stage 11</span><span class="hideIfMobile">&raquo;</span><span class="red">ElPozo Alimentación</span><span class="red">&rsaquo;</span><span class="red">Cabo de Gata</span><span class="red fw400">(193km)</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord race"></div><div class="mob-ad leaderbord race"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100" >
-<div class="w68 left mb_w100"><div class="result-filter-cont"><label for="age"><input type="checkbox" class="toggleAge" value="1" id="age">Age</label><label class="hide toggles toggleGC-label" for="gc"><input type="checkbox" class="toggleGC" value="1" id="gc">GC</label><label class="hide toggles toggleDeltaPoints-label" for="delta_pnts"><input type="checkbox" class="toggleDeltaPoints" value="1" id="delta_pnts">+Points</label><label class="hide toggles toggleWonLost-label" for="time_wonlost"><input type="checkbox" class="toggleWonLost" value="1" id="time_wonlost">Time won/lost</label><label for="h2h"><input type="checkbox" class="toggleH2H cbFalseOnLoad" value="1" id="h2h" >H2H</label><a class="clearFilter blue hide" style="padding: 0px 7px; " href="">clear filter</a><select class="TNFilter" data-type="team"><option value="0" selected>all teams</option><option value="1060" >AG2R Citroën Team</option><option value="1100" >Alpecin-Deceuninck</option><option value="1375" >Astana Qazaqstan Team</option><option value="3814" >Bahrain - Victorious</option><option value="1411" >BORA - hansgrohe</option><option value="1109" >Burgos-BH</option><option value="1136" >Cofidis</option><option value="4000" >EF Education-EasyPost</option><option value="7807" >Equipo Kern Pharma</option><option value="4831" >Euskaltel - Euskadi</option><option value="1187" >Groupama - FDJ</option><option value="1423" >INEOS Grenadiers</option><option value="1490" >Intermarché - Wanty - Gobert Matériaux</option><option value="2738" >Israel - Premier Tech</option><option value="1330" >Jumbo-Visma</option><option value="2088" >Lotto Soudal</option><option value="2040" >Movistar Team</option><option value="1328" >Quick-Step Alpha Vinyl Team</option><option value="1107" >Team Arkéa Samsic</option><option value="1207" >Team BikeExchange - Jayco</option><option value="1360" >Team DSM</option><option value="1258" >Trek - Segafredo</option><option value="1253" >UAE Team Emirates</option></select><select class="TNFilter" data-type="nation"><option value="0" selected>all nations</option><option value="au" >Australia</option><option value="be" >Belgium</option><option value="co" >Colombia</option><option value="cz" >Czech Republic</option><option value="dk" >Denmark</option><option value="ec" >Ecuador</option><option value="er" >Eritrea</option><option value="fr" >France</option><option value="de" >Germany</option><option value="gb" >Great Britain</option><option value="it" >Italy</option><option value="nl" >Netherlands</option><option value="pl" >Poland</option><option value="pt" >Portugal</option><option value="si" >Slovenia</option><option value="za" >South Africa</option><option value="es" >Spain</option><option value="ch" >Switzerland</option><option value="ua" >Ukraine</option><option value="us" >United States</option></select></div><div class="hide timeWonLostComment" style="text-align: right; color: #555; font-size: 10px; ">The time won/lost column displays the gains in time in the GC. Click on the time of any rider to view the relative gains on this rider.</div><div class="h2h hide " style="font-size: 11px; color: #555;   ">Select two riders to compare. </div><div class="result-cont " data-id="268452">
-<table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="gc hide" >GC</th><th class="gc hide" >Timelag</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th>Pnt</th><th class="bonis ar fs11 cu600" ></th><th class="time ar" >Time</th></tr></thead><tbody>
+<div class="w68 left mb_w100"><div class="result-filter-cont"><label for="age"><input type="checkbox" class="toggleAge" value="1" id="age">Age</label><label class="hide toggles toggleGC-label" for="gc"><input type="checkbox" class="toggleGC" value="1" id="gc">GC</label><label class="hide toggles toggleDeltaPoints-label" for="delta_pnts"><input type="checkbox" class="toggleDeltaPoints" value="1" id="delta_pnts">+Points</label><label class="hide toggles toggleWonLost-label" for="time_wonlost"><input type="checkbox" class="toggleWonLost" value="1" id="time_wonlost">Time won/lost</label><label for="h2h"><input type="checkbox" class="toggleH2H cbFalseOnLoad" value="1" id="h2h" >H2H</label><a class="clearFilter blue hide" style="padding: 0px 7px; " href="">clear filter</a><select class="TNFilter" data-type="team"><option value="0" selected>all teams</option><option value="1060" >AG2R Citroën Team</option><option value="1100" >Alpecin-Deceuninck</option><option value="1375" >Astana Qazaqstan Team</option><option value="3814" >Bahrain - Victorious</option><option value="1411" >BORA - hansgrohe</option><option value="1109" >Burgos-BH</option><option value="1136" >Cofidis</option><option value="4000" >EF Education-EasyPost</option><option value="7807" >Equipo Kern Pharma</option><option value="4831" >Euskaltel - Euskadi</option><option value="1187" >Groupama - FDJ</option><option value="1423" >INEOS Grenadiers</option><option value="1490" >Intermarché - Wanty - Gobert Matériaux</option><option value="2738" >Israel - Premier Tech</option><option value="1330" >Jumbo-Visma</option><option value="2088" >Lotto Soudal</option><option value="2040" >Movistar Team</option><option value="1328" >Quick-Step Alpha Vinyl Team</option><option value="1107" >Team Arkéa Samsic</option><option value="1207" >Team BikeExchange - Jayco</option><option value="1360" >Team DSM</option><option value="1258" >Trek - Segafredo</option><option value="1253" >UAE Team Emirates</option></select><select class="TNFilter" data-type="nation"><option value="0" selected>all nations</option><option value="au" >Australia</option><option value="at" >Austria</option><option value="be" >Belgium</option><option value="ca" >Canada</option><option value="co" >Colombia</option><option value="cz" >Czech Republic</option><option value="dk" >Denmark</option><option value="ec" >Ecuador</option><option value="ee" >Estonia</option><option value="fi" >Finland</option><option value="fr" >France</option><option value="de" >Germany</option><option value="gb" >Great Britain</option><option value="ie" >Ireland</option><option value="il" >Israel</option><option value="it" >Italy</option><option value="jp" >Japan</option><option value="kz" >Kazakhstan</option><option value="lu" >Luxembourg</option><option value="nl" >Netherlands</option><option value="nz" >New Zealand</option><option value="no" >Norway</option><option value="pl" >Poland</option><option value="pt" >Portugal</option><option value="si" >Slovenia</option><option value="za" >South Africa</option><option value="es" >Spain</option><option value="ch" >Switzerland</option><option value="ua" >Ukraine</option><option value="us" >United States</option></select></div><div class="hide timeWonLostComment" style="text-align: right; color: #555; font-size: 10px; ">The time won/lost column displays the gains in time in the GC. Click on the time of any rider to view the relative gains on this rider.</div><div class="h2h hide " style="font-size: 11px; color: #555;   ">Select two riders to compare. </div><div class="result-cont " data-id="268452">
+<div class="subTabs" data-subtab="1"><table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="gc hide" >GC</th><th class="gc hide" >Timelag</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th>Pnt</th><th class="bonis ar fs11 cu600" ></th><th class="time ar" >Time</th></tr></thead><tbody>
 </tbody></table>
-<div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result.  </div><div class="more-results-cont"></div></div></div><div class="w30 right mb_w100"><div class=""><h3>Race information</h3><div class=""></div></div>
+<div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result.  </div><div class="more-results-cont"></div></div><div class="subTabs hide" data-subtab="2"></div></div></div><div class="w30 right mb_w100"><div class=""><h3>Race information</h3><div class=""></div></div>
 <img class="left maxw100 mg_rp10" src="images/logo/bn/aq/vuelta-a-espana-2017.jpg" /><div class=""><ul class="infolist" style=""><li><div>Date:</div> <div>31 August 2022</div></li>
 <li><div>Start time:</div> <div>-</div></li>
 <li><div>Avg. speed winner:</div> <div>-</div></li>
@@ -150,12 +155,12 @@
 <li><div>Distance: </div> <div>193 km</div></li>
 <li><div>Points scale:</div> <div><a    href="info.php?s=point-scales&season=2022&category=1&scale=0"></a></div></li>
 <li><div>Parcours type: </div> <div><span class="icon profile p1"></span></div></li>
-<li><div>ProfileScore: </div> <div>40</div></li>
-<li><div>Vert. meters:</div> <div>1601</div></li>
+<li><div>ProfileScore: </div> <div>38</div></li>
+<li><div>Vert. meters:</div> <div>1592</div></li>
 <li><div>Departure:</div> <div><a    href="location/elpozo-alimentacion">ElPozo Alimentación</a></div></li>
 <li><div>Arrival:</div> <div><a    href="location/cabo-de-gata">Cabo de Gata</a></div></li>
-<li><div>Race ranking:</div> <div>31</div></li>
-<li><div>Startlist quality score:</div> <div><a    href="race/vuelta-a-espana/2022/stage-11/startlist/lineup-quality">584</a></div></li>
+<li><div>Race ranking:</div> <div>8</div></li>
+<li><div>Startlist quality score:</div> <div><a    href="race/vuelta-a-espana/2022/stage-11/startlist/lineup-quality">1044</a></div></li>
 <li><div>Won how: </div> <div><a    href="race/vuelta-a-espana/2022/stage-11/more/contribute-info">? - let us know!</a></div></li>
 <li><div></div> <div></div></li>
 </ul></div>
@@ -211,7 +216,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>4.4513 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1264kb) peak (1613kb)</span></li></ul></li>
+<li><span>0.0357 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1330kb) peak (1731kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

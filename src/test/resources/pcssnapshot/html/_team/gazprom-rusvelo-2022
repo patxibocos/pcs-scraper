@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="team.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
 
-<script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
 </head>
@@ -61,17 +61,15 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
 <li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
 <li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 <li><a href="team/movistar-team-2022">Movistar Team</a></li>
@@ -79,14 +77,16 @@
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
-<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,6 +95,11 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -142,7 +147,7 @@
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag ru w32"></span><span class="flag ru w24"></span><h1 class="">Gazprom - RusVelo (PRT)</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">2022</span></div><div class="sub"><span class="red showIfMobile">2022</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord team"></div><div class="mob-ad leaderbord team"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-team"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100" >
 <ul class="list horizontal teamkpi" style=""><li><div>wins</div> <div><a    href="team/gazprom-rusvelo-2022/wins">2</a></div></li>
 <li><div>ranking</div> <div><a    href="rankings/me/teams"></a></div></li>
-<li><div>incoming transfers</div> <div><a    href="team/gazprom-rusvelo-2022/transfers">7</a></div></li>
+<li><div>incoming transfers</div> <div><a    href="team/gazprom-rusvelo-2022/transfers">1</a></div></li>
 </ul>
 <div class="mt20"><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"></ul><div class="clear"></div></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a   class="taba" href="#">career points</a></li>
 <li class="tabb cur" ><a   class="tabb cur" href="#">name</a></li>
@@ -156,17 +161,17 @@
 <li class="" ><div >3</div><div ><span class="flag it"></span> <a    href="rider/marco-canola">CANOLA Marco</a></div><div class="right   "  >2282</div><div class="clear"></div></li>
 <li class="" ><div >4</div><div ><span class="flag ru"></span> <a    href="rider/ivan-rovny">ROVNY Ivan</a></div><div class="right   "  >1295</div><div class="clear"></div></li>
 <li class="" ><div >5</div><div ><span class="flag ru"></span> <a    href="rider/pavel-kochetkov">KOCHETKOV Pavel</a></div><div class="right   "  >816</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag ru"></span> <a    href="rider/dmitry-strakhov">STRAKHOV Dmitry</a></div><div class="right   "  >659</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/matteo-malucelli">MALUCELLI Matteo</a></div><div class="right   "  >606</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/nicola-conci">CONCI Nicola</a></div><div class="right   "  >565</div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/nicola-conci">CONCI Nicola</a></div><div class="right   "  >673</div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag ru"></span> <a    href="rider/dmitry-strakhov">STRAKHOV Dmitry</a></div><div class="right   "  >659</div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/matteo-malucelli">MALUCELLI Matteo</a></div><div class="right   "  >610</div><div class="clear"></div></li>
 <li class="" ><div >9</div><div ><span class="flag it"></span> <a    href="rider/giovanni-carboni">CARBONI Giovanni</a></div><div class="right   "  >522</div><div class="clear"></div></li>
 <li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right   "  >520</div><div class="clear"></div></li>
 <li class="" ><div >11</div><div ><span class="flag ru"></span> <a    href="rider/artem-nych">NYCH Artem</a></div><div class="right   "  >491</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag es"></span> <a    href="rider/jose-manuel-diaz-gallego">DÍAZ José Manuel</a></div><div class="right   "  >462</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag cz"></span> <a    href="rider/michael-kukrle">KUKRLE Michael</a></div><div class="right   "  >460</div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag cz"></span> <a    href="rider/michael-kukrle">KUKRLE Michael</a></div><div class="right   "  >479</div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag es"></span> <a    href="rider/jose-manuel-diaz-gallego">DÍAZ José Manuel</a></div><div class="right   "  >468</div><div class="clear"></div></li>
 <li class="" ><div >14</div><div ><span class="flag cr"></span> <a    href="rider/kevin-rivera">RIVERA Kevin</a></div><div class="right   "  >420</div><div class="clear"></div></li>
 <li class="" ><div >15</div><div ><span class="flag ru"></span> <a    href="rider/nikolay-cherkasov">CHERKASOV Nikolay</a></div><div class="right   "  >325</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag it"></span> <a    href="rider/christian-scaroni">SCARONI Christian</a></div><div class="right   "  >199</div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag it"></span> <a    href="rider/christian-scaroni">SCARONI Christian</a></div><div class="right   "  >204</div><div class="clear"></div></li>
 <li class="" ><div >17</div><div ><span class="flag it"></span> <a    href="rider/andrea-piccolo">PICCOLO Andrea</a></div><div class="right   "  >157</div><div class="clear"></div></li>
 <li class="" ><div >18</div><div ><span class="flag cz"></span> <a    href="rider/mathias-vacek">VACEK Mathias</a></div><div class="right   "  >139</div><div class="clear"></div></li>
 <li class="" ><div >19</div><div ><span class="flag ru"></span> <a    href="rider/denis-nekrasov">NEKRASOV Denis</a></div><div class="right   "  >91</div><div class="clear"></div></li>
@@ -174,24 +179,24 @@
 <li class="" ><div >21</div><div ><span class="flag no"></span> <a    href="rider/eirik-lunder">LUNDER Eirik</a></div><div class="right   "  >32</div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabe">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right ar w12 fs11 clr555   "  >(233)</div><div class="right ac   "  >244</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag it"></span> <a    href="rider/andrea-piccolo">PICCOLO Andrea</a></div><div class="right ar w12 fs11 clr555   "  >(157)</div><div class="right ac   "  >335</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag cz"></span> <a    href="rider/michael-kukrle">KUKRLE Michael</a></div><div class="right ar w12 fs11 clr555   "  >(153)</div><div class="right ac   "  >342</div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag it"></span> <a    href="rider/nicola-conci">CONCI Nicola</a></div><div class="right ar w12 fs11 clr555   "  >(141)</div><div class="right ac   "  >364</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag cz"></span> <a    href="rider/mathias-vacek">VACEK Mathias</a></div><div class="right ar w12 fs11 clr555   "  >(129)</div><div class="right ac   "  >392</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/christian-scaroni">SCARONI Christian</a></div><div class="right ar w12 fs11 clr555   "  >(100)</div><div class="right ac   "  >465</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/marco-canola">CANOLA Marco</a></div><div class="right ar w12 fs11 clr555   "  >(84)</div><div class="right ac   "  >528</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/matteo-malucelli">MALUCELLI Matteo</a></div><div class="right ar w12 fs11 clr555   "  >(78)</div><div class="right ac   "  >551</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/jose-manuel-diaz-gallego">DÍAZ José Manuel</a></div><div class="right ar w12 fs11 clr555   "  >(58)</div><div class="right ac   "  >657</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag ru"></span> <a    href="rider/dmitry-strakhov">STRAKHOV Dmitry</a></div><div class="right ar w12 fs11 clr555   "  >(45)</div><div class="right ac   "  >765</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/giovanni-carboni">CARBONI Giovanni</a></div><div class="right ar w12 fs11 clr555   "  >(38)</div><div class="right ac   "  >845</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag ru"></span> <a    href="rider/denis-nekrasov">NEKRASOV Denis</a></div><div class="right ar w12 fs11 clr555   "  >(33)</div><div class="right ac   "  >908</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag ru"></span> <a    href="rider/artem-nych">NYCH Artem</a></div><div class="right ar w12 fs11 clr555   "  >(26)</div><div class="right ac   "  >1008</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag ru"></span> <a    href="rider/sergei-chernetski">CHERNETSKI Sergei</a></div><div class="right ar w12 fs11 clr555   "  >(20)</div><div class="right ac   "  >1135</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag ru"></span> <a    href="rider/pavel-kochetkov">KOCHETKOV Pavel</a></div><div class="right ar w12 fs11 clr555   "  >(20)</div><div class="right ac   "  >1129</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag ru"></span> <a    href="rider/ilnur-zakarin">ZAKARIN Ilnur</a></div><div class="right ar w12 fs11 clr555   "  >(16)</div><div class="right ac   "  >1238</div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag ru"></span> <a    href="rider/petr-rikunov">RIKUNOV Petr</a></div><div class="right ar w12 fs11 clr555   "  >(10)</div><div class="right ac   "  >1469</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag ru"></span> <a    href="rider/ivan-rovny">ROVNY Ivan</a></div><div class="right ar w12 fs11 clr555   "  >(5)</div><div class="right ac   "  >1790</div><div class="clear"></div></li>
+<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/nicola-conci">CONCI Nicola</a></div><div class="right ar w12 fs11 clr555   "  >(249)</div><div class="right ac   "  >234</div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="right ar w12 fs11 clr555   "  >(233)</div><div class="right ac   "  >245</div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag it"></span> <a    href="rider/andrea-piccolo">PICCOLO Andrea</a></div><div class="right ar w12 fs11 clr555   "  >(157)</div><div class="right ac   "  >332</div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag cz"></span> <a    href="rider/mathias-vacek">VACEK Mathias</a></div><div class="right ar w12 fs11 clr555   "  >(129)</div><div class="right ac   "  >383</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag cz"></span> <a    href="rider/michael-kukrle">KUKRLE Michael</a></div><div class="right ar w12 fs11 clr555   "  >(119)</div><div class="right ac   "  >403</div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/christian-scaroni">SCARONI Christian</a></div><div class="right ar w12 fs11 clr555   "  >(105)</div><div class="right ac   "  >441</div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/matteo-malucelli">MALUCELLI Matteo</a></div><div class="right ar w12 fs11 clr555   "  >(82)</div><div class="right ac   "  >533</div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/marco-canola">CANOLA Marco</a></div><div class="right ar w12 fs11 clr555   "  >(79)</div><div class="right ac   "  >545</div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/jose-manuel-diaz-gallego">DÍAZ José Manuel</a></div><div class="right ar w12 fs11 clr555   "  >(48)</div><div class="right ac   "  >727</div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/giovanni-carboni">CARBONI Giovanni</a></div><div class="right ar w12 fs11 clr555   "  >(38)</div><div class="right ac   "  >841</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag ru"></span> <a    href="rider/dmitry-strakhov">STRAKHOV Dmitry</a></div><div class="right ar w12 fs11 clr555   "  >(33)</div><div class="right ac   "  >901</div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag ru"></span> <a    href="rider/denis-nekrasov">NEKRASOV Denis</a></div><div class="right ar w12 fs11 clr555   "  >(24)</div><div class="right ac   "  >1052</div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag ru"></span> <a    href="rider/artem-nych">NYCH Artem</a></div><div class="right ar w12 fs11 clr555   "  >(21)</div><div class="right ac   "  >1122</div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag ru"></span> <a    href="rider/sergei-chernetski">CHERNETSKI Sergei</a></div><div class="right ar w12 fs11 clr555   "  >(20)</div><div class="right ac   "  >1139</div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag ru"></span> <a    href="rider/pavel-kochetkov">KOCHETKOV Pavel</a></div><div class="right ar w12 fs11 clr555   "  >(15)</div><div class="right ac   "  >1263</div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag ru"></span> <a    href="rider/petr-rikunov">RIKUNOV Petr</a></div><div class="right ar w12 fs11 clr555   "  >(10)</div><div class="right ac   "  >1475</div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag ru"></span> <a    href="rider/ivan-rovny">ROVNY Ivan</a></div><div class="right ar w12 fs11 clr555   "  >(5)</div><div class="right ac   "  >1782</div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag ru"></span> <a    href="rider/ilnur-zakarin">ZAKARIN Ilnur</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
 <li class="" ><div >19</div><div ><span class="flag ru"></span> <a    href="rider/nikolay-cherkasov">CHERKASOV Nikolay</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
 <li class="" ><div >20</div><div ><span class="flag cr"></span> <a    href="rider/kevin-rivera">RIVERA Kevin</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
 <li class="" ><div >21</div><div ><span class="flag no"></span> <a    href="rider/eirik-lunder">LUNDER Eirik</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
@@ -244,28 +249,30 @@
 </ul></div>
 <div class="hide ttabs tabd">
 <ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag cr"></span> <a    href="rider/kevin-rivera">RIVERA Kevin</a></div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag cz"></span> <a    href="rider/michael-kukrle">KUKRLE Michael</a></div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag cz"></span> <a    href="rider/mathias-vacek">VACEK Mathias</a></div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag cz"></span> <a    href="rider/mathias-vacek">VACEK Mathias</a></div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag cz"></span> <a    href="rider/michael-kukrle">KUKRLE Michael</a></div><div class="clear"></div></li>
 <li class="" ><div >4</div><div ><span class="flag es"></span> <a    href="rider/jose-manuel-diaz-gallego">DÍAZ José Manuel</a></div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/marco-canola">CANOLA Marco</a></div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/matteo-malucelli">MALUCELLI Matteo</a></div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/christian-scaroni">SCARONI Christian</a></div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag it"></span> <a    href="rider/andrea-piccolo">PICCOLO Andrea</a></div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/giovanni-carboni">CARBONI Giovanni</a></div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/nicola-conci">CONCI Nicola</a></div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/nicola-conci">CONCI Nicola</a></div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/marco-canola">CANOLA Marco</a></div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/matteo-malucelli">MALUCELLI Matteo</a></div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/christian-scaroni">SCARONI Christian</a></div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fedeli">FEDELI Alessandro</a></div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/andrea-piccolo">PICCOLO Andrea</a></div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/giovanni-carboni">CARBONI Giovanni</a></div><div class="clear"></div></li>
 <li class="" ><div >12</div><div ><span class="flag no"></span> <a    href="rider/eirik-lunder">LUNDER Eirik</a></div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag ru"></span> <a    href="rider/ilnur-zakarin">ZAKARIN Ilnur</a></div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag ru"></span> <a    href="rider/artem-nych">NYCH Artem</a></div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag ru"></span> <a    href="rider/nikolay-cherkasov">CHERKASOV Nikolay</a></div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag ru"></span> <a    href="rider/pavel-kochetkov">KOCHETKOV Pavel</a></div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag ru"></span> <a    href="rider/dmitry-strakhov">STRAKHOV Dmitry</a></div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag ru"></span> <a    href="rider/sergei-chernetski">CHERNETSKI Sergei</a></div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag ru"></span> <a    href="rider/petr-rikunov">RIKUNOV Petr</a></div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag ru"></span> <a    href="rider/ivan-rovny">ROVNY Ivan</a></div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag ru"></span> <a    href="rider/denis-nekrasov">NEKRASOV Denis</a></div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag ru"></span> <a    href="rider/denis-nekrasov">NEKRASOV Denis</a></div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag ru"></span> <a    href="rider/ilnur-zakarin">ZAKARIN Ilnur</a></div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag ru"></span> <a    href="rider/artem-nych">NYCH Artem</a></div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag ru"></span> <a    href="rider/nikolay-cherkasov">CHERKASOV Nikolay</a></div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag ru"></span> <a    href="rider/pavel-kochetkov">KOCHETKOV Pavel</a></div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag ru"></span> <a    href="rider/dmitry-strakhov">STRAKHOV Dmitry</a></div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag ru"></span> <a    href="rider/sergei-chernetski">CHERNETSKI Sergei</a></div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag ru"></span> <a    href="rider/petr-rikunov">RIKUNOV Petr</a></div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag ru"></span> <a    href="rider/ivan-rovny">ROVNY Ivan</a></div><div class="clear"></div></li>
 </ul></div>
 <div class="fs10 clr999"><div class="">In historical seasons, age is taken at July 1.</div></div>
+<div class="mt20"><h3>Quick links</h3><ul class="list fs14"><li class="blue" ><a   class="blue" href="compare_teams.php?id=44323">Compare to other teams </a></li>
+</ul></div>
 <div class="mt20"><h3>Info</h3><ul class="infolist" style=""><li><div>Team status:</div> <div>PRT</div></li>
 <li><div>Abbreviation: </div> <div>GAZ</div></li>
 <li><div>Bike:</div> <div><a    href="gear.php?id="></a></div></li>
@@ -370,7 +377,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0715 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1281kb) peak (1414kb)</span></li></ul></li>
+<li><span>0.0496 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1279kb) peak (1420kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="2101" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

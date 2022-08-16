@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
 
-<script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
 </head>
@@ -61,17 +61,15 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
 <li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
 <li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 <li><a href="team/movistar-team-2022">Movistar Team</a></li>
@@ -79,14 +77,16 @@
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
-<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,6 +95,11 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -142,20 +147,21 @@
 <li data-n="5"><a href="rider/guillaume-boivin/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/guillaume-boivin/contribute/embed-rider-results">Embed rider results</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag ca w32"></span><span class="flag ca w24"></span><h1 class="">Guillaume  Boivin</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Israel - Premier Tech</span></div><div class="sub"><span class="red showIfMobile">Israel - Premier Tech</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="" >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/guillaume-boivin/statistics/overview"><img src="images/riders/bp/ab/guillaume-boivin-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 25<sup>th</sup> May 1989 (33)<br /><b>Nationality:</b> <span class="flag  ca"></span><a class="black" href="nation/canada">Canada</a><br /><span><b>Weight:</b> 78 kg &nbsp; <span><b>Height:</b> 1.80 m<br /><b>Place of birth:</b> <a href="location.php?id=5546">Montreal</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 67.672955974843%; height: 100%;  "></div></div><div class="pnt">1076</div><div class="title"><a href="rider/guillaume-boivin/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 26.22641509434%; height: 100%;  "></div></div><div class="pnt">417</div><div class="title"><a href="rider/guillaume-boivin/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 9.559748427673%; height: 100%;  "></div></div><div class="pnt">152</div><div class="title"><a href="rider/guillaume-boivin/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1590</div><div class="title"><a href="rider/guillaume-boivin/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 14.716981132075%; height: 100%;  "></div></div><div class="pnt">234</div><div class="title"><a href="rider/guillaume-boivin/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/the_bovino/">instagram</a></li>
+<div class="text-regular"><span>LIVE</span> <a class="blue" href="race/tour-of-denmark/2022/stage-1/live/livestats">PostNord Danmark Rundt - Tour of Denmark | Stage 1</a></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/guillaume-boivin/statistics/overview"><img src="images/riders/bp/ab/guillaume-boivin-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 25<sup>th</sup> May 1989 (33)<br /><b>Nationality:</b> <span class="flag  ca"></span><a class="black" href="nation/canada">Canada</a><br /><span><b>Weight:</b> 78 kg &nbsp; <span><b>Height:</b> 1.80 m<br /><b>Place of birth:</b> <a href="location.php?id=5546">Montreal</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 67.672955974843%; height: 100%;  "></div></div><div class="pnt">1076</div><div class="title"><a href="rider/guillaume-boivin/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 26.22641509434%; height: 100%;  "></div></div><div class="pnt">417</div><div class="title"><a href="rider/guillaume-boivin/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 9.559748427673%; height: 100%;  "></div></div><div class="pnt">152</div><div class="title"><a href="rider/guillaume-boivin/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1590</div><div class="title"><a href="rider/guillaume-boivin/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 14.716981132075%; height: 100%;  "></div></div><div class="pnt">234</div><div class="title"><a href="rider/guillaume-boivin/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><div class=""><span>LIVE</span> <a class="blue" href="race/tour-of-denmark/2022/stage-1/live/livestats">PostNord Danmark Rundt - Tour of Denmark | Stage 1</a></div></div>
+<div class=""></div>
+<div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/@Guillaumeboivin">twitter</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/616061">strava</a></li>
+<li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/the_bovino/">instagram</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/Guillaume-Boivin-998291843623217/">facebook</a></li>
-<li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/@Guillaumeboivin">twitter</a></li>
-<li><span class="icon Cyclo-cross left"></span><a  target="_blank"   class="" href="https://cx.procyclingstats.com/rider/guillaume-boivin">Cyclo-cross</a></li>
-<li><span class="icon ProCyclingGame left"></span><a  target="_blank"   class="" href="https://www.procyclinggame.com/rider/guillaume-boivin">ProCyclingGame</a></li>
+<li><span class="icon Cyclo-cross left"></span><a  target="_self"   class="" href="https://cx.procyclingstats.com/rider/guillaume-boivin">Cyclo-cross</a></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >371</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >387</div><div class="clear"></div></li>
+<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >373</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >414</div><div class="clear"></div></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;1250</span></div><div >  this week</div><div class="clear"></div></li>
+<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;6</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/famenne-ardenne-classic/2018/result">Famenne Ardenne Classic</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;</div><div><span class="blue"></span> <a href="race/nc-canada/2021/result">National Championships Canada - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21, '15, '09)</span></div></li>
@@ -186,7 +192,7 @@
 <li class=" main " ><div class="season   "  >2010</div><div class="name   "  ><a    href="team/spidertech-presented-by-planet-energy-2010">Spidertech presented by Planet Energy</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >07.08</div><div class="ellipsis   "  ><span class="flag be"></span> <a    href="race/gp-jef-scherens/2022/startlist">Tour of Leuven - Memorial Jef Scherens</a></div><div class="fs11   "  ><a    href="rider.php?race=1187&id=140334&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
+<ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >16.08</div><div class="ellipsis   "  ><span class="flag dk"></span> <a    href="race/tour-of-denmark/2022/startlist">PostNord Danmark Rundt - Tour of Denmark</a></div><div class="fs11   "  ><a    href="rider.php?race=1070&id=140334&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
 <li class="" ><div class="bold   "  >09.09</div><div class="ellipsis   "  ><span class="flag ca"></span> <a    href="race/gp-quebec/2022/startlist">Grand Prix Cycliste de Québec</a></div><div class="fs11   "  ><a    href="rider.php?race=1055&id=140334&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
 <li class="" ><div class="bold   "  >11.09</div><div class="ellipsis   "  ><span class="flag ca"></span> <a    href="race/gp-montreal/2022/startlist">Grand Prix Cycliste de Montréal</a></div><div class="fs11   "  ><a    href="rider.php?race=1057&id=140334&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
 </ul></div>
@@ -263,7 +269,7 @@
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 18.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">72</span></div></td><td class="ac  " >457</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 18.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">72</span></div></td><td class="ac  " >473</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 47.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">183</span></div></td><td class="ac  " >292</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 8.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">34</span></div></td><td class="ac  " >677</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 41.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">160</span></div></td><td class="ac  " >396</td></tr>
@@ -380,7 +386,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.2132 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1542kb) peak (2143kb)</span></li></ul></li>
+<li><span>0.3800 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1546kb) peak (2147kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

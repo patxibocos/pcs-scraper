@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
 
-<script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
 </head>
@@ -61,17 +61,15 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
 <li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
 <li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 <li><a href="team/movistar-team-2022">Movistar Team</a></li>
@@ -79,14 +77,16 @@
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
-<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,6 +95,11 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -142,18 +147,16 @@
 <li data-n="5"><a href="rider/andres-camilo-ardila/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/andres-camilo-ardila/contribute/embed-rider-results">Embed rider results</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag co w32"></span><span class="flag co w24"></span><h1 class="">Andrés Camilo  Ardila</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">UAE Team Emirates</span></div><div class="sub"><span class="red showIfMobile">UAE Team Emirates</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="" >
-<div class="text-regular"><span>LIVE</span> <a class="blue" href="race/vuelta-a-burgos/2022/stage-4/live/livestats">Vuelta a Burgos | Stage 4</a></div>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/andres-camilo-ardila/statistics/overview"><img src="images/riders/bp/eb/andres-camilo-ardila-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 2<sup>nd</sup> June 1999 (23)<br /><b>Nationality:</b> <span class="flag  co"></span><a class="black" href="nation/colombia">Colombia</a><br /><span><b>Weight:</b> 59 kg &nbsp; <span><b>Height:</b> 1.70 m<br /><b>Place of birth:</b> <a href="location.php?id=8256">Mariquita</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 4.8192771084337%; height: 100%;  "></div></div><div class="pnt">4</div><div class="title"><a href="rider/andres-camilo-ardila/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">83</div><div class="title"><a href="rider/andres-camilo-ardila/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 24.096385542169%; height: 100%;  "></div></div><div class="pnt">20</div><div class="title"><a href="rider/andres-camilo-ardila/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 3.6144578313253%; height: 100%;  "></div></div><div class="pnt">3</div><div class="title"><a href="rider/andres-camilo-ardila/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 71.084337349398%; height: 100%;  "></div></div><div class="pnt">59</div><div class="title"><a href="rider/andres-camilo-ardila/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><div class=""><span>LIVE</span> <a class="blue" href="race/vuelta-a-burgos/2022/stage-4/live/livestats">Vuelta a Burgos | Stage 4</a></div></div>
-<div class=""></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/andres-camilo-ardila/statistics/overview"><img src="images/riders/bp/eb/andres-camilo-ardila-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 2<sup>nd</sup> June 1999 (23)<br /><b>Nationality:</b> <span class="flag  co"></span><a class="black" href="nation/colombia">Colombia</a><br /><span><b>Weight:</b> 59 kg &nbsp; <span><b>Height:</b> 1.70 m<br /><b>Place of birth:</b> <a href="location.php?id=8256">Mariquita</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 4.8192771084337%; height: 100%;  "></div></div><div class="pnt">4</div><div class="title"><a href="rider/andres-camilo-ardila/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">83</div><div class="title"><a href="rider/andres-camilo-ardila/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 24.096385542169%; height: 100%;  "></div></div><div class="pnt">20</div><div class="title"><a href="rider/andres-camilo-ardila/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 3.6144578313253%; height: 100%;  "></div></div><div class="pnt">3</div><div class="title"><a href="rider/andres-camilo-ardila/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 71.084337349398%; height: 100%;  "></div></div><div class="pnt">59</div><div class="title"><a href="rider/andres-camilo-ardila/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/andres_camilo_ardila/">instagram</a></li>
-<li><span class="icon ProCyclingGame left"></span><a  target="_blank"   class="" href="https://www.procyclinggame.com/rider/andres-camilo-ardila">ProCyclingGame</a></li>
+<li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/CamiloArdila20J">twitter</a></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >2151</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >734</div><div class="clear"></div></li>
+<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >3175</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >1390</div><div class="clear"></div></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;716</span></div><div >  this week</div><div class="clear"></div></li>
+<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;270</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/giro-ciclistico-d-italia/2019/gc">Giro Ciclistico d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">11th&nbsp;</div><div><span class="blue">GC</span> <a href="race/vuelta-a-burgos/2021/gc">Vuelta a Burgos</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
@@ -175,10 +178,14 @@
 <li class=" main " ><div class="season   "  >2020</div><div class="name   "  ><a    href="team/uae-team-emirates-2020">UAE Team Emirates</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 </ul></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >09.08</div><div class="ellipsis   "  ><span class="flag fr"></span> <a    href="race/tour-de-l-ain/2022/startlist">Tour de l'Ain</a></div><div class="fs11   "  ><a    href="rider.php?race=1144&id=235290&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
-</ul></div>
+<ul class="list flex pad2 dashed"  style=" "></ul></div>
+<div class=""><div class="">No races on program.</div></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2022" class="cur"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li class="more hide "><span>more</span><ul><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600 " style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>09.08 &raquo; 11.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-ain/2022/stage-3">Tour de l'Ain <span>(2.1)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=235290&p=statistics&s=statistics-in-race&race=1144">more</a></td></tr>
+<tr data-main="0"><td>11.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-ain/2022/stage-3">Stage 3 - Plateau d'Hauteville &rsaquo; Lélex</a> </td><td class="cu600 ">131</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=235290&p=statistics&s=statistics-in-race&race=1144">more</a></td></tr>
+<tr data-main="0"><td>10.08</td><td>110</td><td class="gc cu600">104</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-ain/2022/stage-2">Stage 2 - Saint-Vulbas &rsaquo; Lagnieu</a> </td><td class="cu600 ">144</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=235290&p=statistics&s=statistics-in-race&race=1144">more</a></td></tr>
+<tr data-main="0"><td>09.08</td><td>83</td><td class="gc cu600">83</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-l-ain/2022/stage-1">Stage 1 - Châtillon-Sur-Chalaronne &rsaquo; Val-Revermont</a> </td><td class="cu600 ">152</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=235290&p=statistics&s=statistics-in-race&race=1144">more</a></td></tr>
 <tr data-main="1"><td>02.08 &raquo; 06.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2022/stage-1">Vuelta a Burgos <span>(2.Pro)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=235290&p=statistics&s=statistics-in-race&race=1086">more</a></td></tr>
 <tr data-main="0"><td>02.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2022/stage-1">Stage 1 - Burgos &rsaquo; Burgos</a> </td><td class="cu600 ">157</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=235290&p=statistics&s=statistics-in-race&race=1086">more</a></td></tr>
 <tr data-main="1"><td>31.07</td><td>83</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/circuito-de-getxo/2022/result">Circuito de Getxo - Memorial Hermanos Otxoa <span>(1.1)</span></a> </td><td class="cu600 ">196.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=235290&p=statistics&s=statistics-in-race&race=1126">more</a></td></tr>
@@ -227,14 +234,14 @@
 <tr data-main="1"><td>29.01</td><td>62</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-andratx-mirador-d-es-colomer/2022/result">Trofeo Pollença - Port d'Andratx <span>(1.1)</span></a> </td><td class="cu600 ">170.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=235290&p=statistics&s=statistics-in-race&race=2555">more</a></td></tr>
 <tr data-main="1"><td>28.01</td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/deia-trophy/2022/result">Trofeo Serra de Tramuntana <span>(1.1)</span></a> </td><td class="cu600 ">158.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=235290&p=statistics&s=statistics-in-race&race=1130">more</a></td></tr>
 <tr data-main="1"><td>26.01</td><td>87</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-calvia/2022/result">Trofeo Calvia <span>(1.1)</span></a> </td><td class="cu600 ">154.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=235290&p=statistics&s=statistics-in-race&race=3319">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>5544</b> km in <b>35</b> days | PCS points: <b>12</b> |  UCI points: <b>6</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>5905</b> km in <b>38</b> days | PCS points: <b>12</b> |  UCI points: <b>6</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/andres-camilo-ardila/statistics/wins">Wins</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/andres-camilo-ardila/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >1</div><div class="title   "  ><a    href="rider/andres-camilo-ardila/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(0)</div><div class="info fs11   "  >MSR(0)</div><div class="info fs11   "  >RVV(0)</div><div class="info fs11   "  >LBL(1)</div><div class="info fs11   "  >LOM(0)</div><div class="clear"></div></li>
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 20%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">12</span></div></td><td class="ac  " >1206</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 20%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">12</span></div></td><td class="ac  " >1250</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">48</span></div></td><td class="ac  " >708</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 10%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">6</span></div></td><td class="ac  " >1289</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 60%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">36</span></div></td><td class="ac  " >1044</td></tr>
@@ -341,7 +348,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1869 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1429kb) peak (1788kb)</span></li></ul></li>
+<li><span>0.1526 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1432kb) peak (1814kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

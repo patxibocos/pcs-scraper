@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
 
-<script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
 </head>
@@ -61,17 +61,15 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
 <li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
 <li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 <li><a href="team/movistar-team-2022">Movistar Team</a></li>
@@ -79,14 +77,16 @@
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
-<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,6 +95,11 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -145,12 +150,13 @@
 <div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont">&nbsp;</div><div class="rdr-info-cont"><b>Date of birth:</b> 2<sup>nd</sup> January 2001 (21)<br /><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br /><span><b>Weight:</b> 63 kg &nbsp; <span><b>Height:</b> 1.83 m<br /><b>Place of birth:</b> <a href="location.php?id=4586">Jaca</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/pablo-castrillo-zapater/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/pablo-castrillo-zapater/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/pablo-castrillo-zapater/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/pablo-castrillo-zapater/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1</div><div class="title"><a href="rider/pablo-castrillo-zapater/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/pablo__castrillo/">instagram</a></li>
 <li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/pablocastrillo_">twitter</a></li>
+<li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/19951619?hl=fr-FR">strava</a></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >1211</div><div class="clear"></div></li>
+<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >1219</div><div class="clear"></div></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;267</span></div><div >  this week</div><div class="clear"></div></li>
+<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;46</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/nc-spain-itt-u23/2022/result">National Championships Spain U23 - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">13th&nbsp;</div><div><span class="blue">stage</span> <a href="race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2022/stage-1">Giro Ciclistico della Valle d'Aosta - Mont Blanc</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
@@ -179,12 +185,12 @@
 <tr data-main="0"><td>13.07</td><td>13</td><td class="gc cu600">13</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2022/stage-1">Stage 1 - Saint Gervais Mont Blanc &rsaquo; Saint Gervais Mont Blanc</a> </td><td class="cu600 ">82.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=241705&p=statistics&s=statistics-in-race&race=1406">more</a></td></tr>
 <tr data-main="1"><td>25.06</td><td>5</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/nc-spain-u23/2022/result">National Championships Spain U23 - Road Race <span>(NC)</span></a> </td><td class="cu600 ">164.3</td><td class="cu600"></td><td class="cu600 ">10</td><td class="cu600"><a class="more" href="rider.php?id=241705&p=statistics&s=statistics-in-race&race=2128">more</a></td></tr>
 <tr data-main="1"><td>24.06</td><td>1</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag es"></span><a href="race/nc-spain-itt-u23/2022/result">National Championships Spain U23 - ITT <span>(NC)</span></a> </td><td class="cu600 ">21.5</td><td class="cu600"></td><td class="cu600 ">25</td><td class="cu600"><a class="more" href="rider.php?id=241705&p=statistics&s=statistics-in-race&race=2127">more</a></td></tr>
-<tr data-main="1"><td>10.04</td><td>1</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="national-race/memorial-valenciaga/2022/result">Memorial Valenciaga <span>(NAT)</span></a> </td><td class="cu600 ">153.5</td><td class="cu600"></td><td class="cu600 ">120</td><td class="cu600"><a class="more" href="rider.php?id=3119802&p=statistics&s=statistics-in-race&race=50">more</a></td></tr>
-<tr data-main="1"><td>03.04</td><td>11</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="national-race/clasica-ciudad-de-torredonjimeno/2022/result">Clásica Ciudad De Torredonjimeno <span>(NAT)</span></a> </td><td class="cu600 ">165</td><td class="cu600"></td><td class="cu600 ">32</td><td class="cu600"><a class="more" href="rider.php?id=3119802&p=statistics&s=statistics-in-race&race=37">more</a></td></tr>
-<tr data-main="1"><td>13.03</td><td>3</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="national-race/aiztondo-klasika/2022/result">Aiztondo Klasika-Memorial Patxi Alkorta <span>(NAT)</span></a> </td><td class="cu600 ">139.5</td><td class="cu600"></td><td class="cu600 ">85</td><td class="cu600"><a class="more" href="rider.php?id=3119802&p=statistics&s=statistics-in-race&race=8003">more</a></td></tr>
-<tr data-main="1"><td>06.03</td><td>15</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="national-race/trofeo-guerrita/2022/result">Trofeo Guerrita Memorial Juan Romero y Diego Sánchez <span>(NAT)</span></a> </td><td class="cu600 ">167</td><td class="cu600"></td><td class="cu600 ">26</td><td class="cu600"><a class="more" href="rider.php?id=3119802&p=statistics&s=statistics-in-race&race=30">more</a></td></tr>
+<tr data-main="1"><td>10.04</td><td>1</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="national-race/memorial-valenciaga/2022/result">Memorial Valenciaga <span>(NAT)</span></a> </td><td class="cu600 ">153.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=3119802&p=statistics&s=statistics-in-race&race=50">more</a></td></tr>
+<tr data-main="1"><td>03.04</td><td>11</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="national-race/clasica-ciudad-de-torredonjimeno/2022/result">Clásica Ciudad De Torredonjimeno <span>(NAT)</span></a> </td><td class="cu600 ">165</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=3119802&p=statistics&s=statistics-in-race&race=37">more</a></td></tr>
+<tr data-main="1"><td>13.03</td><td>3</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="national-race/aiztondo-klasika/2022/result">Aiztondo Klasika-Memorial Patxi Alkorta <span>(NAT)</span></a> </td><td class="cu600 ">139.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=3119802&p=statistics&s=statistics-in-race&race=8003">more</a></td></tr>
+<tr data-main="1"><td>06.03</td><td>15</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="national-race/trofeo-guerrita/2022/result">Trofeo Guerrita Memorial Juan Romero y Diego Sánchez <span>(NAT)</span></a> </td><td class="cu600 ">167</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=3119802&p=statistics&s=statistics-in-race&race=30">more</a></td></tr>
 <tr data-main="1"><td>27.02</td><td>54</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="national-race/circuito-del-guadiana/2022/result">Circuito Del Guadiana <span>(NAT)</span></a> </td><td class="cu600 ">171.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=3119802&p=statistics&s=statistics-in-race&race=8108">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>1621</b> km in <b>12</b> days | PCS points: <b>0</b> |  UCI points: <b>298</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>1621</b> km in <b>12</b> days | PCS points: <b>0</b> |  UCI points: <b>35</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/pablo-castrillo-zapater/statistics/wins">Wins</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/pablo-castrillo-zapater/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/pablo-castrillo-zapater/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
@@ -297,7 +303,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1142 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1302kb) peak (1658kb)</span></li></ul></li>
+<li><span>0.5369 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1303kb) peak (1664kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

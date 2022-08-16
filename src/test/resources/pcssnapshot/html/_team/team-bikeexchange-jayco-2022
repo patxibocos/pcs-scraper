@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="team.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
 
-<script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
 </head>
@@ -61,17 +61,15 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
 <li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
 <li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 <li><a href="team/movistar-team-2022">Movistar Team</a></li>
@@ -79,14 +77,16 @@
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
-<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,6 +95,11 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -140,11 +145,11 @@
 <li data-n="2"><a href="team/team-bikeexchange-jayco-2022/analysis/start">Analysis - Analysis</a></li><li data-n="3"><a href="team/team-bikeexchange-jayco-2022/wins/">Wins - Victories</a></li><li data-n="4"><a href="team/team-bikeexchange-jayco-2022/results/latest-results">Results - Latest results</a></li><li data-n="5"><a href="team/team-bikeexchange-jayco-2022/transfers/">Transfers - Transfers</a></li><li data-n="6"><a href="team/team-bikeexchange-jayco-2022/program/program">Program - Program</a></li><li data-n="7"><a href="team/team-bikeexchange-jayco-2022/more/report">More - Report</a></li><li data-n="7"><a href="team/team-bikeexchange-jayco-2022/more/gear">Gear</a></li>
 <li data-n="7"><a href="team/team-bikeexchange-jayco-2022/more/contribute-link">Contribute link</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag au w32"></span><span class="flag au w24"></span><h1 class="">Team BikeExchange - Jayco (WT)</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">2022</span></div><div class="sub"><span class="red showIfMobile">2022</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord team"></div><div class="mob-ad leaderbord team"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-team"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100" >
-<ul class="list horizontal teamkpi" style=""><li><div>wins</div> <div><a    href="team/team-bikeexchange-jayco-2022/wins">20</a></div></li>
-<li><div>ranking</div> <div><a    href="rankings/me/teams">18</a></div></li>
-<li><div>incoming transfers</div> <div><a    href="team/team-bikeexchange-jayco-2022/transfers">6</a></div></li>
+<ul class="list horizontal teamkpi" style=""><li><div>wins</div> <div><a    href="team/team-bikeexchange-jayco-2022/wins">21</a></div></li>
+<li><div>ranking</div> <div><a    href="rankings/me/teams"></a></div></li>
+<li><div>incoming transfers</div> <div><a    href="team/team-bikeexchange-jayco-2022/transfers">1</a></div></li>
 </ul>
-<div class="mt20"><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/bd/michael-matthews-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/michael-matthews"></a><span>MATTHEWS Michael</span></li><li><a style="background: url(images/riders/bp/bc/simon-yates-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/simon-yates"></a><span>YATES Simon</span></li><li><a style="background: url(images/riders/bp/ab/dylan-groenewegen-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/dylan-groenewegen"></a><span>GROENEWEGEN Dylan</span></li><li><a style="background: url(images/riders/bp/ff/tanel-kangert-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/tanel-kangert"></a><span>KANGERT Tanel</span></li><li><a style="background: url(images/riders/bp/dd/luka-mezgec-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/luka-mezgec"></a><span>MEZGEC Luka</span></li><li><a style="background: url(images/riders/bp/ce/luke-durbridge-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/luke-durbridge"></a><span>DURBRIDGE Luke</span></li><li><a style="background: url(images/riders/bp/aa/cameron-meyer-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/cameron-meyer"></a><span>MEYER Cameron</span></li><li><a style="background: url(images/riders/bp/da/dion-smith-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/dion-smith"></a><span>SMITH Dion</span></li><li><a style="background: url(images/riders/bp/ad/christopher-juul-jensen-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/christopher-juul-jensen"></a><span>JUUL-JENSEN Christopher</span></li><li><a style="background: url(images/riders/bp/ca/jack-bauer-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/jack-bauer"></a><span>BAUER Jack</span></li><li><a style="background: url(images/riders/bp/be/damien-howson-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/damien-howson"></a><span>HOWSON Damien</span></li><li><a style="background: url(images/riders/bp/dc/lucas-hamilton-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/lucas-hamilton"></a><span>HAMILTON Lucas</span></li><li><a style="background: url(images/riders/bp/ae/amund-grondahl-jansen-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/amund-grondahl-jansen"></a><span>JANSEN Amund Grøndahl</span></li><li><a style="background: url(images/riders/bp/ee/lawson-craddock-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/lawson-craddock"></a><span>CRADDOCK Lawson</span></li><li><a style="background: url(images/riders/bp/ff/tsgabu-gebremaryam-grmay-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/tsgabu-gebremaryam-grmay"></a><span>GRMAY Tsgabu</span></li><li><a style="background: url(images/riders/bp/ef/michael-hepburn-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/michael-hepburn"></a><span>HEPBURN Michael</span></li><li><a style="background: url(images/riders/bp/cb/nick-schultz-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/nick-schultz"></a><span>SCHULTZ Nick</span></li><li><a style="background: url(images/riders/bp/bb/kaden-groves-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/kaden-groves"></a><span>GROVES Kaden</span></li><li><a style="background: url(images/riders/bp/dd/alexander-edmondson-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alexander-edmondson"></a><span>EDMONDSON Alex</span></li><li><a style="background: url(images/riders/bp/ba/matteo-sobrero-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/matteo-sobrero"></a><span>SOBRERO Matteo</span></li><li><a style="background: url(images/riders/bp/de/sam-bewley-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/sam-bewley"></a><span>BEWLEY Sam</span></li><li><a style="background: url(images/riders/bp/bb/kevin-colleoni-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/kevin-colleoni"></a><span>COLLEONI Kevin</span></li><li><a style="background: url(images/riders/bp/ff/callum-scotson-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/callum-scotson"></a><span>SCOTSON Callum</span></li><li><a style="background: url(images/riders/bp/fe/jan-maas-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/jan-maas"></a><span>MAAS Jan</span></li><li><a style="background: url(images/riders/bp/be/alexander-konychev-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alexander-konychev"></a><span>KONYCHEV Alexander</span></li><li><a style="background: url(images/riders/bp/ca/campbell-stewart-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/campbell-stewart"></a><span>STEWART Campbell</span></li><li><a style="background: url(images/riders/bp/fb/kelland-brien-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/kelland-brien"></a><span>O'BRIEN Kelland</span></li><li><a style="background: url(images/riders/bp/ba/alexandre-balmer-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alexandre-balmer"></a><span>BALMER Alexandre</span></li><li><a style="background: url(images/riders/bp/eb/jesus-david-pena-jimenez-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/jesus-david-pena-jimenez"></a><span>PEÑA Jesús David</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a   class="taba" href="#">career points</a></li>
+<div class="mt20"><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/bd/michael-matthews-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/michael-matthews"></a><span>MATTHEWS Michael</span></li><li><a style="background: url(images/riders/bp/bc/simon-yates-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/simon-yates"></a><span>YATES Simon</span></li><li><a style="background: url(images/riders/bp/ab/dylan-groenewegen-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/dylan-groenewegen"></a><span>GROENEWEGEN Dylan</span></li><li><a style="background: url(images/riders/bp/ff/tanel-kangert-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/tanel-kangert"></a><span>KANGERT Tanel</span></li><li><a style="background: url(images/riders/bp/dd/luka-mezgec-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/luka-mezgec"></a><span>MEZGEC Luka</span></li><li><a style="background: url(images/riders/bp/ce/luke-durbridge-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/luke-durbridge"></a><span>DURBRIDGE Luke</span></li><li><a style="background: url(images/riders/bp/aa/cameron-meyer-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/cameron-meyer"></a><span>MEYER Cameron</span></li><li><a style="background: url(images/riders/bp/da/dion-smith-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/dion-smith"></a><span>SMITH Dion</span></li><li><a style="background: url(images/riders/bp/ad/christopher-juul-jensen-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/christopher-juul-jensen"></a><span>JUUL-JENSEN Christopher</span></li><li><a style="background: url(images/riders/bp/ca/jack-bauer-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/jack-bauer"></a><span>BAUER Jack</span></li><li><a style="background: url(images/riders/bp/be/damien-howson-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/damien-howson"></a><span>HOWSON Damien</span></li><li><a style="background: url(images/riders/bp/dc/lucas-hamilton-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/lucas-hamilton"></a><span>HAMILTON Lucas</span></li><li><a style="background: url(images/riders/bp/ae/amund-grondahl-jansen-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/amund-grondahl-jansen"></a><span>JANSEN Amund Grøndahl</span></li><li><a style="background: url(images/riders/bp/ee/lawson-craddock-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/lawson-craddock"></a><span>CRADDOCK Lawson</span></li><li><a style="background: url(images/riders/bp/ff/tsgabu-gebremaryam-grmay-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/tsgabu-gebremaryam-grmay"></a><span>GRMAY Tsgabu</span></li><li><a style="background: url(images/riders/bp/ef/michael-hepburn-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/michael-hepburn"></a><span>HEPBURN Michael</span></li><li><a style="background: url(images/riders/bp/cb/nick-schultz-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/nick-schultz"></a><span>SCHULTZ Nick</span></li><li><a style="background: url(images/riders/bp/bb/kaden-groves-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/kaden-groves"></a><span>GROVES Kaden</span></li><li><a style="background: url(images/riders/bp/ba/matteo-sobrero-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/matteo-sobrero"></a><span>SOBRERO Matteo</span></li><li><a style="background: url(images/riders/bp/dd/alexander-edmondson-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alexander-edmondson"></a><span>EDMONDSON Alex</span></li><li><a style="background: url(images/riders/bp/bc/elmar-reinders-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/elmar-reinders"></a><span>REINDERS Elmar</span></li><li><a style="background: url(images/riders/bp/de/sam-bewley-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/sam-bewley"></a><span>BEWLEY Sam</span></li><li><a style="background: url(images/riders/bp/bb/kevin-colleoni-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/kevin-colleoni"></a><span>COLLEONI Kevin</span></li><li><a style="background: url(images/riders/bp/ae/marceli-boguslawski-2022-n2.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/marceli-boguslawski"></a><span>BOGUSŁAWSKI Marceli</span></li><li><a style="background: url(images/riders/bp/ff/callum-scotson-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/callum-scotson"></a><span>SCOTSON Callum</span></li><li><a style="background: url(images/riders/bp/fe/jan-maas-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/jan-maas"></a><span>MAAS Jan</span></li><li><a style="background: url(images/riders/bp/be/alexander-konychev-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alexander-konychev"></a><span>KONYCHEV Alexander</span></li><li><a style="background: url(images/riders/bp/fb/kelland-brien-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/kelland-brien"></a><span>O'BRIEN Kelland</span></li><li><a style="background: url(images/riders/bp/ca/campbell-stewart-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/campbell-stewart"></a><span>STEWART Campbell</span></li><li><a style="background: url(images/riders/bp/ba/alexandre-balmer-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alexandre-balmer"></a><span>BALMER Alexandre</span></li><li><a style="background: url(images/riders/bp/eb/jesus-david-pena-jimenez-2022.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/jesus-david-pena-jimenez"></a><span>PEÑA Jesús David</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a   class="taba" href="#">career points</a></li>
 <li class="tabb cur" ><a   class="tabb cur" href="#">name</a></li>
 <li class="tabe" ><a   class="tabe" href="#">ranking</a></li>
 <li class="tabc" ><a   class="tabc" href="#">age</a></li>
@@ -153,7 +158,7 @@
 <div class="hide ttabs taba">
 <ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag au"></span> <a    href="rider/michael-matthews">MATTHEWS Michael</a></div><div class="right   "  >11664</div><div class="clear"></div></li>
 <li class="" ><div >2</div><div ><span class="flag gb"></span> <a    href="rider/simon-yates">YATES Simon</a></div><div class="right   "  >7419</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="right   "  >6329</div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="right   "  >6359</div><div class="clear"></div></li>
 <li class="" ><div >4</div><div ><span class="flag ee"></span> <a    href="rider/tanel-kangert">KANGERT Tanel</a></div><div class="right   "  >4040</div><div class="clear"></div></li>
 <li class="" ><div >5</div><div ><span class="flag si"></span> <a    href="rider/luka-mezgec">MEZGEC Luka</a></div><div class="right   "  >3956</div><div class="clear"></div></li>
 <li class="" ><div >6</div><div ><span class="flag au"></span> <a    href="rider/luke-durbridge">DURBRIDGE Luke</a></div><div class="right   "  >3194</div><div class="clear"></div></li>
@@ -162,117 +167,133 @@
 <li class="" ><div >9</div><div ><span class="flag dk"></span> <a    href="rider/christopher-juul-jensen">JUUL-JENSEN Christopher</a></div><div class="right   "  >1935</div><div class="clear"></div></li>
 <li class="" ><div >10</div><div ><span class="flag nz"></span> <a    href="rider/jack-bauer">BAUER Jack</a></div><div class="right   "  >1844</div><div class="clear"></div></li>
 <li class="" ><div >11</div><div ><span class="flag au"></span> <a    href="rider/damien-howson">HOWSON Damien</a></div><div class="right   "  >1780</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag au"></span> <a    href="rider/lucas-hamilton">HAMILTON Lucas</a></div><div class="right   "  >1581</div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag au"></span> <a    href="rider/lucas-hamilton">HAMILTON Lucas</a></div><div class="right   "  >1609</div><div class="clear"></div></li>
 <li class="" ><div >13</div><div ><span class="flag no"></span> <a    href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a></div><div class="right   "  >1514</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag us"></span> <a    href="rider/lawson-craddock">CRADDOCK Lawson</a></div><div class="right   "  >1446</div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag us"></span> <a    href="rider/lawson-craddock">CRADDOCK Lawson</a></div><div class="right   "  >1451</div><div class="clear"></div></li>
 <li class="" ><div >15</div><div ><span class="flag et"></span> <a    href="rider/tsgabu-gebremaryam-grmay">GRMAY Tsgabu</a></div><div class="right   "  >1219</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag au"></span> <a    href="rider/michael-hepburn">HEPBURN Michael</a></div><div class="right   "  >1110</div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag au"></span> <a    href="rider/nick-schultz">SCHULTZ Nick</a></div><div class="right   "  >1082</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag au"></span> <a    href="rider/kaden-groves">GROVES Kaden</a></div><div class="right   "  >841</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag au"></span> <a    href="rider/alexander-edmondson">EDMONDSON Alex</a></div><div class="right   "  >611</div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/matteo-sobrero">SOBRERO Matteo</a></div><div class="right   "  >552</div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag nz"></span> <a    href="rider/sam-bewley">BEWLEY Sam</a></div><div class="right   "  >528</div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag it"></span> <a    href="rider/kevin-colleoni">COLLEONI Kevin</a></div><div class="right   "  >257</div><div class="clear"></div></li>
-<li class="" ><div >23</div><div ><span class="flag au"></span> <a    href="rider/callum-scotson">SCOTSON Callum</a></div><div class="right   "  >189</div><div class="clear"></div></li>
-<li class="" ><div >24</div><div ><span class="flag nl"></span> <a    href="rider/jan-maas">MAAS Jan</a></div><div class="right   "  >181</div><div class="clear"></div></li>
-<li class="" ><div >25</div><div ><span class="flag it"></span> <a    href="rider/alexander-konychev">KONYCHEV Alexander</a></div><div class="right   "  >174</div><div class="clear"></div></li>
-<li class="" ><div >26</div><div ><span class="flag nz"></span> <a    href="rider/campbell-stewart">STEWART Campbell</a></div><div class="right   "  >105</div><div class="clear"></div></li>
-<li class="" ><div >27</div><div ><span class="flag au"></span> <a    href="rider/kelland-brien">O'BRIEN Kelland</a></div><div class="right   "  >102</div><div class="clear"></div></li>
-<li class="" ><div >28</div><div ><span class="flag ch"></span> <a    href="rider/alexandre-balmer">BALMER Alexandre</a></div><div class="right   "  >43</div><div class="clear"></div></li>
-<li class="" ><div >29</div><div ><span class="flag co"></span> <a    href="rider/jesus-david-pena-jimenez">PEÑA Jesús David</a></div><div class="right   "  >13</div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag au"></span> <a    href="rider/michael-hepburn">HEPBURN Michael</a></div><div class="right   "  >1115</div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag au"></span> <a    href="rider/nick-schultz">SCHULTZ Nick</a></div><div class="right   "  >1111</div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag au"></span> <a    href="rider/kaden-groves">GROVES Kaden</a></div><div class="right   "  >847</div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/matteo-sobrero">SOBRERO Matteo</a></div><div class="right   "  >692</div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag au"></span> <a    href="rider/alexander-edmondson">EDMONDSON Alex</a></div><div class="right   "  >611</div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag nl"></span> <a    href="rider/elmar-reinders">REINDERS Elmar</a></div><div class="right   "  >587</div><div class="clear"></div></li>
+<li class="" ><div >22</div><div ><span class="flag nz"></span> <a    href="rider/sam-bewley">BEWLEY Sam</a></div><div class="right   "  >528</div><div class="clear"></div></li>
+<li class="" ><div >23</div><div ><span class="flag it"></span> <a    href="rider/kevin-colleoni">COLLEONI Kevin</a></div><div class="right   "  >326</div><div class="clear"></div></li>
+<li class="" ><div >24</div><div ><span class="flag pl"></span> <a    href="rider/marceli-boguslawski">BOGUSŁAWSKI Marceli</a></div><div class="right   "  >259</div><div class="clear"></div></li>
+<li class="" ><div >25</div><div ><span class="flag au"></span> <a    href="rider/callum-scotson">SCOTSON Callum</a></div><div class="right   "  >189</div><div class="clear"></div></li>
+<li class="" ><div >26</div><div ><span class="flag nl"></span> <a    href="rider/jan-maas">MAAS Jan</a></div><div class="right   "  >181</div><div class="clear"></div></li>
+<li class="" ><div >27</div><div ><span class="flag it"></span> <a    href="rider/alexander-konychev">KONYCHEV Alexander</a></div><div class="right   "  >174</div><div class="clear"></div></li>
+<li class="" ><div >28</div><div ><span class="flag au"></span> <a    href="rider/kelland-brien">O'BRIEN Kelland</a></div><div class="right   "  >107</div><div class="clear"></div></li>
+<li class="" ><div >29</div><div ><span class="flag nz"></span> <a    href="rider/campbell-stewart">STEWART Campbell</a></div><div class="right   "  >105</div><div class="clear"></div></li>
+<li class="" ><div >30</div><div ><span class="flag it"></span> <a    href="rider/davide-de-pretto">DE PRETTO Davide</a></div><div class="right   "  >55</div><div class="clear"></div></li>
+<li class="" ><div >31</div><div ><span class="flag ch"></span> <a    href="rider/alexandre-balmer">BALMER Alexandre</a></div><div class="right   "  >43</div><div class="clear"></div></li>
+<li class="" ><div >32</div><div ><span class="flag dk"></span> <a    href="rider/anders-foldager">FOLDAGER Anders</a></div><div class="right   "  >23</div><div class="clear"></div></li>
+<li class="" ><div >33</div><div ><span class="flag co"></span> <a    href="rider/jesus-david-pena-jimenez">PEÑA Jesús David</a></div><div class="right   "  >13</div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabe">
 <ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag au"></span> <a    href="rider/michael-matthews">MATTHEWS Michael</a></div><div class="right ar w12 fs11 clr555   "  >(971)</div><div class="right ac   "  >33</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag gb"></span> <a    href="rider/simon-yates">YATES Simon</a></div><div class="right ar w12 fs11 clr555   "  >(910)</div><div class="right ac   "  >37</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="right ar w12 fs11 clr555   "  >(756)</div><div class="right ac   "  >55</div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag au"></span> <a    href="rider/kaden-groves">GROVES Kaden</a></div><div class="right ar w12 fs11 clr555   "  >(393)</div><div class="right ac   "  >146</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag au"></span> <a    href="rider/nick-schultz">SCHULTZ Nick</a></div><div class="right ar w12 fs11 clr555   "  >(296)</div><div class="right ac   "  >203</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag si"></span> <a    href="rider/luka-mezgec">MEZGEC Luka</a></div><div class="right ar w12 fs11 clr555   "  >(231)</div><div class="right ac   "  >246</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag nz"></span> <a    href="rider/dion-smith">SMITH Dion</a></div><div class="right ar w12 fs11 clr555   "  >(224)</div><div class="right ac   "  >254</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/matteo-sobrero">SOBRERO Matteo</a></div><div class="right ar w12 fs11 clr555   "  >(220)</div><div class="right ac   "  >260</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag au"></span> <a    href="rider/luke-durbridge">DURBRIDGE Luke</a></div><div class="right ar w12 fs11 clr555   "  >(197)</div><div class="right ac   "  >285</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag au"></span> <a    href="rider/lucas-hamilton">HAMILTON Lucas</a></div><div class="right ar w12 fs11 clr555   "  >(175)</div><div class="right ac   "  >312</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag us"></span> <a    href="rider/lawson-craddock">CRADDOCK Lawson</a></div><div class="right ar w12 fs11 clr555   "  >(141)</div><div class="right ac   "  >362</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag it"></span> <a    href="rider/kevin-colleoni">COLLEONI Kevin</a></div><div class="right ar w12 fs11 clr555   "  >(139)</div><div class="right ac   "  >371</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag nz"></span> <a    href="rider/campbell-stewart">STEWART Campbell</a></div><div class="right ar w12 fs11 clr555   "  >(84)</div><div class="right ac   "  >530</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag ee"></span> <a    href="rider/tanel-kangert">KANGERT Tanel</a></div><div class="right ar w12 fs11 clr555   "  >(82)</div><div class="right ac   "  >536</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag au"></span> <a    href="rider/damien-howson">HOWSON Damien</a></div><div class="right ar w12 fs11 clr555   "  >(79)</div><div class="right ac   "  >547</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag au"></span> <a    href="rider/kelland-brien">O'BRIEN Kelland</a></div><div class="right ar w12 fs11 clr555   "  >(76)</div><div class="right ac   "  >560</div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag dk"></span> <a    href="rider/christopher-juul-jensen">JUUL-JENSEN Christopher</a></div><div class="right ar w12 fs11 clr555   "  >(65)</div><div class="right ac   "  >605</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag au"></span> <a    href="rider/alexander-edmondson">EDMONDSON Alex</a></div><div class="right ar w12 fs11 clr555   "  >(64)</div><div class="right ac   "  >610</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag nl"></span> <a    href="rider/jan-maas">MAAS Jan</a></div><div class="right ar w12 fs11 clr555   "  >(52)</div><div class="right ac   "  >701</div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag nz"></span> <a    href="rider/jack-bauer">BAUER Jack</a></div><div class="right ar w12 fs11 clr555   "  >(50)</div><div class="right ac   "  >717</div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag et"></span> <a    href="rider/tsgabu-gebremaryam-grmay">GRMAY Tsgabu</a></div><div class="right ar w12 fs11 clr555   "  >(40)</div><div class="right ac   "  >811</div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag no"></span> <a    href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a></div><div class="right ar w12 fs11 clr555   "  >(35)</div><div class="right ac   "  >880</div><div class="clear"></div></li>
-<li class="" ><div >23</div><div ><span class="flag it"></span> <a    href="rider/alexander-konychev">KONYCHEV Alexander</a></div><div class="right ar w12 fs11 clr555   "  >(32)</div><div class="right ac   "  >921</div><div class="clear"></div></li>
-<li class="" ><div >24</div><div ><span class="flag ch"></span> <a    href="rider/alexandre-balmer">BALMER Alexandre</a></div><div class="right ar w12 fs11 clr555   "  >(30)</div><div class="right ac   "  >948</div><div class="clear"></div></li>
-<li class="" ><div >25</div><div ><span class="flag au"></span> <a    href="rider/michael-hepburn">HEPBURN Michael</a></div><div class="right ar w12 fs11 clr555   "  >(28)</div><div class="right ac   "  >974</div><div class="clear"></div></li>
-<li class="" ><div >26</div><div ><span class="flag au"></span> <a    href="rider/callum-scotson">SCOTSON Callum</a></div><div class="right ar w12 fs11 clr555   "  >(27)</div><div class="right ac   "  >995</div><div class="clear"></div></li>
-<li class="" ><div >27</div><div ><span class="flag nz"></span> <a    href="rider/sam-bewley">BEWLEY Sam</a></div><div class="right ar w12 fs11 clr555   "  >(10)</div><div class="right ac   "  >1448</div><div class="clear"></div></li>
-<li class="" ><div >28</div><div ><span class="flag au"></span> <a    href="rider/cameron-meyer">MEYER Cameron</a></div><div class="right ar w12 fs11 clr555   "  >(5)</div><div class="right ac   "  >1791</div><div class="clear"></div></li>
-<li class="" ><div >29</div><div ><span class="flag co"></span> <a    href="rider/jesus-david-pena-jimenez">PEÑA Jesús David</a></div><div class="right ar w12 fs11 clr555   "  >(5)</div><div class="right ac   "  >1866</div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag gb"></span> <a    href="rider/simon-yates">YATES Simon</a></div><div class="right ar w12 fs11 clr555   "  >(860)</div><div class="right ac   "  >41</div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="right ar w12 fs11 clr555   "  >(786)</div><div class="right ac   "  >48</div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag au"></span> <a    href="rider/kaden-groves">GROVES Kaden</a></div><div class="right ar w12 fs11 clr555   "  >(399)</div><div class="right ac   "  >143</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/matteo-sobrero">SOBRERO Matteo</a></div><div class="right ar w12 fs11 clr555   "  >(355)</div><div class="right ac   "  >159</div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag au"></span> <a    href="rider/nick-schultz">SCHULTZ Nick</a></div><div class="right ar w12 fs11 clr555   "  >(284)</div><div class="right ac   "  >201</div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag si"></span> <a    href="rider/luka-mezgec">MEZGEC Luka</a></div><div class="right ar w12 fs11 clr555   "  >(255)</div><div class="right ac   "  >227</div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/kevin-colleoni">COLLEONI Kevin</a></div><div class="right ar w12 fs11 clr555   "  >(204)</div><div class="right ac   "  >277</div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag au"></span> <a    href="rider/lucas-hamilton">HAMILTON Lucas</a></div><div class="right ar w12 fs11 clr555   "  >(188)</div><div class="right ac   "  >295</div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag au"></span> <a    href="rider/luke-durbridge">DURBRIDGE Luke</a></div><div class="right ar w12 fs11 clr555   "  >(182)</div><div class="right ac   "  >300</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag pl"></span> <a    href="rider/marceli-boguslawski">BOGUSŁAWSKI Marceli</a></div><div class="right ar w12 fs11 clr555   "  >(175.4299999475479)</div><div class="right ac   "  >307</div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag nz"></span> <a    href="rider/dion-smith">SMITH Dion</a></div><div class="right ar w12 fs11 clr555   "  >(174)</div><div class="right ac   "  >308</div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag us"></span> <a    href="rider/lawson-craddock">CRADDOCK Lawson</a></div><div class="right ar w12 fs11 clr555   "  >(121)</div><div class="right ac   "  >393</div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag nl"></span> <a    href="rider/elmar-reinders">REINDERS Elmar</a></div><div class="right ar w12 fs11 clr555   "  >(105)</div><div class="right ac   "  >438</div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag nz"></span> <a    href="rider/campbell-stewart">STEWART Campbell</a></div><div class="right ar w12 fs11 clr555   "  >(84)</div><div class="right ac   "  >524</div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag au"></span> <a    href="rider/kelland-brien">O'BRIEN Kelland</a></div><div class="right ar w12 fs11 clr555   "  >(81)</div><div class="right ac   "  >539</div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag au"></span> <a    href="rider/damien-howson">HOWSON Damien</a></div><div class="right ar w12 fs11 clr555   "  >(79)</div><div class="right ac   "  >544</div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag dk"></span> <a    href="rider/christopher-juul-jensen">JUUL-JENSEN Christopher</a></div><div class="right ar w12 fs11 clr555   "  >(65)</div><div class="right ac   "  >596</div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag au"></span> <a    href="rider/alexander-edmondson">EDMONDSON Alex</a></div><div class="right ar w12 fs11 clr555   "  >(64)</div><div class="right ac   "  >600</div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/davide-de-pretto">DE PRETTO Davide</a></div><div class="right ar w12 fs11 clr555   "  >(55)</div><div class="right ac   "  >672</div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag nz"></span> <a    href="rider/jack-bauer">BAUER Jack</a></div><div class="right ar w12 fs11 clr555   "  >(50)</div><div class="right ac   "  >708</div><div class="clear"></div></li>
+<li class="" ><div >22</div><div ><span class="flag et"></span> <a    href="rider/tsgabu-gebremaryam-grmay">GRMAY Tsgabu</a></div><div class="right ar w12 fs11 clr555   "  >(35)</div><div class="right ac   "  >867</div><div class="clear"></div></li>
+<li class="" ><div >23</div><div ><span class="flag no"></span> <a    href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a></div><div class="right ar w12 fs11 clr555   "  >(35)</div><div class="right ac   "  >873</div><div class="clear"></div></li>
+<li class="" ><div >24</div><div ><span class="flag nl"></span> <a    href="rider/jan-maas">MAAS Jan</a></div><div class="right ar w12 fs11 clr555   "  >(33)</div><div class="right ac   "  >900</div><div class="clear"></div></li>
+<li class="" ><div >25</div><div ><span class="flag au"></span> <a    href="rider/michael-hepburn">HEPBURN Michael</a></div><div class="right ar w12 fs11 clr555   "  >(33)</div><div class="right ac   "  >899</div><div class="clear"></div></li>
+<li class="" ><div >26</div><div ><span class="flag ch"></span> <a    href="rider/alexandre-balmer">BALMER Alexandre</a></div><div class="right ar w12 fs11 clr555   "  >(30)</div><div class="right ac   "  >950</div><div class="clear"></div></li>
+<li class="" ><div >27</div><div ><span class="flag au"></span> <a    href="rider/callum-scotson">SCOTSON Callum</a></div><div class="right ar w12 fs11 clr555   "  >(27)</div><div class="right ac   "  >996</div><div class="clear"></div></li>
+<li class="" ><div >28</div><div ><span class="flag it"></span> <a    href="rider/alexander-konychev">KONYCHEV Alexander</a></div><div class="right ar w12 fs11 clr555   "  >(27)</div><div class="right ac   "  >1001</div><div class="clear"></div></li>
+<li class="" ><div >29</div><div ><span class="flag dk"></span> <a    href="rider/anders-foldager">FOLDAGER Anders</a></div><div class="right ar w12 fs11 clr555   "  >(23)</div><div class="right ac   "  >1084</div><div class="clear"></div></li>
+<li class="" ><div >30</div><div ><span class="flag ee"></span> <a    href="rider/tanel-kangert">KANGERT Tanel</a></div><div class="right ar w12 fs11 clr555   "  >(17)</div><div class="right ac   "  >1211</div><div class="clear"></div></li>
+<li class="" ><div >31</div><div ><span class="flag nz"></span> <a    href="rider/sam-bewley">BEWLEY Sam</a></div><div class="right ar w12 fs11 clr555   "  >(10)</div><div class="right ac   "  >1452</div><div class="clear"></div></li>
+<li class="" ><div >32</div><div ><span class="flag au"></span> <a    href="rider/cameron-meyer">MEYER Cameron</a></div><div class="right ar w12 fs11 clr555   "  >(5)</div><div class="right ac   "  >1785</div><div class="clear"></div></li>
+<li class="" ><div >33</div><div ><span class="flag co"></span> <a    href="rider/jesus-david-pena-jimenez">PEÑA Jesús David</a></div><div class="right ar w12 fs11 clr555   "  >(5)</div><div class="right ac   "  >1852</div><div class="clear"></div></li>
 </ul></div>
 <div class="ttabs tabb">
 <ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag ch"></span> <a    href="rider/alexandre-balmer">BALMER Alexandre</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 <li class="" ><div >2</div><div ><span class="flag nz"></span> <a    href="rider/jack-bauer">BAUER Jack</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 <li class="" ><div >3</div><div ><span class="flag nz"></span> <a    href="rider/sam-bewley">BEWLEY Sam</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag it"></span> <a    href="rider/kevin-colleoni">COLLEONI Kevin</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag us"></span> <a    href="rider/lawson-craddock">CRADDOCK Lawson</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag au"></span> <a    href="rider/luke-durbridge">DURBRIDGE Luke</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag au"></span> <a    href="rider/alexander-edmondson">EDMONDSON Alex</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag et"></span> <a    href="rider/tsgabu-gebremaryam-grmay">GRMAY Tsgabu</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag au"></span> <a    href="rider/kaden-groves">GROVES Kaden</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag au"></span> <a    href="rider/lucas-hamilton">HAMILTON Lucas</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag au"></span> <a    href="rider/michael-hepburn">HEPBURN Michael</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag au"></span> <a    href="rider/damien-howson">HOWSON Damien</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag no"></span> <a    href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag dk"></span> <a    href="rider/christopher-juul-jensen">JUUL-JENSEN Christopher</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag ee"></span> <a    href="rider/tanel-kangert">KANGERT Tanel</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag it"></span> <a    href="rider/alexander-konychev">KONYCHEV Alexander</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag nl"></span> <a    href="rider/jan-maas">MAAS Jan</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag au"></span> <a    href="rider/michael-matthews">MATTHEWS Michael</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag au"></span> <a    href="rider/cameron-meyer">MEYER Cameron</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag si"></span> <a    href="rider/luka-mezgec">MEZGEC Luka</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag au"></span> <a    href="rider/kelland-brien">O'BRIEN Kelland</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >23</div><div ><span class="flag co"></span> <a    href="rider/jesus-david-pena-jimenez">PEÑA Jesús David</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >24</div><div ><span class="flag au"></span> <a    href="rider/nick-schultz">SCHULTZ Nick</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >25</div><div ><span class="flag au"></span> <a    href="rider/callum-scotson">SCOTSON Callum</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >26</div><div ><span class="flag nz"></span> <a    href="rider/dion-smith">SMITH Dion</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >27</div><div ><span class="flag it"></span> <a    href="rider/matteo-sobrero">SOBRERO Matteo</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >28</div><div ><span class="flag nz"></span> <a    href="rider/campbell-stewart">STEWART Campbell</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div >29</div><div ><span class="flag gb"></span> <a    href="rider/simon-yates">YATES Simon</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag pl"></span> <a    href="rider/marceli-boguslawski">BOGUSŁAWSKI Marceli</a></div><div class="fs11 clr999   "  > (trainee as from 01/08)</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/kevin-colleoni">COLLEONI Kevin</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag us"></span> <a    href="rider/lawson-craddock">CRADDOCK Lawson</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/davide-de-pretto">DE PRETTO Davide</a></div><div class="fs11 clr999   "  > (trainee as from 01/08)</div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag au"></span> <a    href="rider/luke-durbridge">DURBRIDGE Luke</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag au"></span> <a    href="rider/alexander-edmondson">EDMONDSON Alex</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag dk"></span> <a    href="rider/anders-foldager">FOLDAGER Anders</a></div><div class="fs11 clr999   "  > (trainee as from 01/08)</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag et"></span> <a    href="rider/tsgabu-gebremaryam-grmay">GRMAY Tsgabu</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag au"></span> <a    href="rider/kaden-groves">GROVES Kaden</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag au"></span> <a    href="rider/lucas-hamilton">HAMILTON Lucas</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag au"></span> <a    href="rider/michael-hepburn">HEPBURN Michael</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag au"></span> <a    href="rider/damien-howson">HOWSON Damien</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag no"></span> <a    href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag dk"></span> <a    href="rider/christopher-juul-jensen">JUUL-JENSEN Christopher</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag ee"></span> <a    href="rider/tanel-kangert">KANGERT Tanel</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/alexander-konychev">KONYCHEV Alexander</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag nl"></span> <a    href="rider/jan-maas">MAAS Jan</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >22</div><div ><span class="flag au"></span> <a    href="rider/michael-matthews">MATTHEWS Michael</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >23</div><div ><span class="flag au"></span> <a    href="rider/cameron-meyer">MEYER Cameron</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >24</div><div ><span class="flag si"></span> <a    href="rider/luka-mezgec">MEZGEC Luka</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >25</div><div ><span class="flag au"></span> <a    href="rider/kelland-brien">O'BRIEN Kelland</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >26</div><div ><span class="flag co"></span> <a    href="rider/jesus-david-pena-jimenez">PEÑA Jesús David</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >27</div><div ><span class="flag nl"></span> <a    href="rider/elmar-reinders">REINDERS Elmar</a></div><div class="fs11 clr999   "  > (as from 23/08)</div><div class="clear"></div></li>
+<li class="" ><div >28</div><div ><span class="flag au"></span> <a    href="rider/nick-schultz">SCHULTZ Nick</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >29</div><div ><span class="flag au"></span> <a    href="rider/callum-scotson">SCOTSON Callum</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >30</div><div ><span class="flag nz"></span> <a    href="rider/dion-smith">SMITH Dion</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >31</div><div ><span class="flag it"></span> <a    href="rider/matteo-sobrero">SOBRERO Matteo</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >32</div><div ><span class="flag nz"></span> <a    href="rider/campbell-stewart">STEWART Campbell</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
+<li class="" ><div >33</div><div ><span class="flag gb"></span> <a    href="rider/simon-yates">YATES Simon</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabc">
-<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag co"></span> <a    href="rider/jesus-david-pena-jimenez">PEÑA Jesús David</a></div><div class="right   "  >22</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag ch"></span> <a    href="rider/alexandre-balmer">BALMER Alexandre</a></div><div class="right   "  >22</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag it"></span> <a    href="rider/kevin-colleoni">COLLEONI Kevin</a></div><div class="right   "  >22</div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag au"></span> <a    href="rider/kaden-groves">GROVES Kaden</a></div><div class="right   "  >23</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/alexander-konychev">KONYCHEV Alexander</a></div><div class="right   "  >24</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag au"></span> <a    href="rider/kelland-brien">O'BRIEN Kelland</a></div><div class="right   "  >24</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag nz"></span> <a    href="rider/campbell-stewart">STEWART Campbell</a></div><div class="right   "  >24</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/matteo-sobrero">SOBRERO Matteo</a></div><div class="right   "  >25</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag au"></span> <a    href="rider/callum-scotson">SCOTSON Callum</a></div><div class="right   "  >25</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag nl"></span> <a    href="rider/jan-maas">MAAS Jan</a></div><div class="right   "  >26</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag au"></span> <a    href="rider/lucas-hamilton">HAMILTON Lucas</a></div><div class="right   "  >26</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag au"></span> <a    href="rider/nick-schultz">SCHULTZ Nick</a></div><div class="right   "  >27</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag no"></span> <a    href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a></div><div class="right   "  >28</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag au"></span> <a    href="rider/alexander-edmondson">EDMONDSON Alex</a></div><div class="right   "  >28</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="right   "  >29</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag nz"></span> <a    href="rider/dion-smith">SMITH Dion</a></div><div class="right   "  >29</div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag au"></span> <a    href="rider/damien-howson">HOWSON Damien</a></div><div class="right   "  >29</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag gb"></span> <a    href="rider/simon-yates">YATES Simon</a></div><div class="right   "  >29</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag us"></span> <a    href="rider/lawson-craddock">CRADDOCK Lawson</a></div><div class="right   "  >30</div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag et"></span> <a    href="rider/tsgabu-gebremaryam-grmay">GRMAY Tsgabu</a></div><div class="right   "  >30</div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag au"></span> <a    href="rider/michael-hepburn">HEPBURN Michael</a></div><div class="right   "  >30</div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag au"></span> <a    href="rider/luke-durbridge">DURBRIDGE Luke</a></div><div class="right   "  >31</div><div class="clear"></div></li>
-<li class="" ><div >23</div><div ><span class="flag au"></span> <a    href="rider/michael-matthews">MATTHEWS Michael</a></div><div class="right   "  >31</div><div class="clear"></div></li>
-<li class="" ><div >24</div><div ><span class="flag dk"></span> <a    href="rider/christopher-juul-jensen">JUUL-JENSEN Christopher</a></div><div class="right   "  >33</div><div class="clear"></div></li>
-<li class="" ><div >25</div><div ><span class="flag si"></span> <a    href="rider/luka-mezgec">MEZGEC Luka</a></div><div class="right   "  >34</div><div class="clear"></div></li>
-<li class="" ><div >26</div><div ><span class="flag au"></span> <a    href="rider/cameron-meyer">MEYER Cameron</a></div><div class="right   "  >34</div><div class="clear"></div></li>
-<li class="" ><div >27</div><div ><span class="flag nz"></span> <a    href="rider/sam-bewley">BEWLEY Sam</a></div><div class="right   "  >35</div><div class="clear"></div></li>
-<li class="" ><div >28</div><div ><span class="flag ee"></span> <a    href="rider/tanel-kangert">KANGERT Tanel</a></div><div class="right   "  >35</div><div class="clear"></div></li>
-<li class="" ><div >29</div><div ><span class="flag nz"></span> <a    href="rider/jack-bauer">BAUER Jack</a></div><div class="right   "  >37</div><div class="clear"></div></li>
+<ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/davide-de-pretto">DE PRETTO Davide</a></div><div class="right   "  >20</div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag dk"></span> <a    href="rider/anders-foldager">FOLDAGER Anders</a></div><div class="right   "  >21</div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag co"></span> <a    href="rider/jesus-david-pena-jimenez">PEÑA Jesús David</a></div><div class="right   "  >22</div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag ch"></span> <a    href="rider/alexandre-balmer">BALMER Alexandre</a></div><div class="right   "  >22</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/kevin-colleoni">COLLEONI Kevin</a></div><div class="right   "  >22</div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag au"></span> <a    href="rider/kaden-groves">GROVES Kaden</a></div><div class="right   "  >23</div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/alexander-konychev">KONYCHEV Alexander</a></div><div class="right   "  >24</div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag au"></span> <a    href="rider/kelland-brien">O'BRIEN Kelland</a></div><div class="right   "  >24</div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag nz"></span> <a    href="rider/campbell-stewart">STEWART Campbell</a></div><div class="right   "  >24</div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag pl"></span> <a    href="rider/marceli-boguslawski">BOGUSŁAWSKI Marceli</a></div><div class="right   "  >24</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/matteo-sobrero">SOBRERO Matteo</a></div><div class="right   "  >25</div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag au"></span> <a    href="rider/callum-scotson">SCOTSON Callum</a></div><div class="right   "  >26</div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag nl"></span> <a    href="rider/jan-maas">MAAS Jan</a></div><div class="right   "  >26</div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag au"></span> <a    href="rider/lucas-hamilton">HAMILTON Lucas</a></div><div class="right   "  >26</div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag au"></span> <a    href="rider/nick-schultz">SCHULTZ Nick</a></div><div class="right   "  >27</div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag no"></span> <a    href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a></div><div class="right   "  >28</div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag au"></span> <a    href="rider/alexander-edmondson">EDMONDSON Alex</a></div><div class="right   "  >28</div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="right   "  >29</div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag nz"></span> <a    href="rider/dion-smith">SMITH Dion</a></div><div class="right   "  >29</div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag au"></span> <a    href="rider/damien-howson">HOWSON Damien</a></div><div class="right   "  >30</div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag gb"></span> <a    href="rider/simon-yates">YATES Simon</a></div><div class="right   "  >30</div><div class="clear"></div></li>
+<li class="" ><div >22</div><div ><span class="flag nl"></span> <a    href="rider/elmar-reinders">REINDERS Elmar</a></div><div class="right   "  >30</div><div class="clear"></div></li>
+<li class="" ><div >23</div><div ><span class="flag us"></span> <a    href="rider/lawson-craddock">CRADDOCK Lawson</a></div><div class="right   "  >30</div><div class="clear"></div></li>
+<li class="" ><div >24</div><div ><span class="flag et"></span> <a    href="rider/tsgabu-gebremaryam-grmay">GRMAY Tsgabu</a></div><div class="right   "  >30</div><div class="clear"></div></li>
+<li class="" ><div >25</div><div ><span class="flag au"></span> <a    href="rider/michael-hepburn">HEPBURN Michael</a></div><div class="right   "  >30</div><div class="clear"></div></li>
+<li class="" ><div >26</div><div ><span class="flag au"></span> <a    href="rider/luke-durbridge">DURBRIDGE Luke</a></div><div class="right   "  >31</div><div class="clear"></div></li>
+<li class="" ><div >27</div><div ><span class="flag au"></span> <a    href="rider/michael-matthews">MATTHEWS Michael</a></div><div class="right   "  >31</div><div class="clear"></div></li>
+<li class="" ><div >28</div><div ><span class="flag dk"></span> <a    href="rider/christopher-juul-jensen">JUUL-JENSEN Christopher</a></div><div class="right   "  >33</div><div class="clear"></div></li>
+<li class="" ><div >29</div><div ><span class="flag si"></span> <a    href="rider/luka-mezgec">MEZGEC Luka</a></div><div class="right   "  >34</div><div class="clear"></div></li>
+<li class="" ><div >30</div><div ><span class="flag au"></span> <a    href="rider/cameron-meyer">MEYER Cameron</a></div><div class="right   "  >34</div><div class="clear"></div></li>
+<li class="" ><div >31</div><div ><span class="flag nz"></span> <a    href="rider/sam-bewley">BEWLEY Sam</a></div><div class="right   "  >35</div><div class="clear"></div></li>
+<li class="" ><div >32</div><div ><span class="flag ee"></span> <a    href="rider/tanel-kangert">KANGERT Tanel</a></div><div class="right   "  >35</div><div class="clear"></div></li>
+<li class="" ><div >33</div><div ><span class="flag nz"></span> <a    href="rider/jack-bauer">BAUER Jack</a></div><div class="right   "  >37</div><div class="clear"></div></li>
 </ul></div>
 <div class="hide ttabs tabd">
 <ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag au"></span> <a    href="rider/michael-matthews">MATTHEWS Michael</a></div><div class="clear"></div></li>
@@ -288,24 +309,30 @@
 <li class="" ><div >11</div><div ><span class="flag au"></span> <a    href="rider/alexander-edmondson">EDMONDSON Alex</a></div><div class="clear"></div></li>
 <li class="" ><div >12</div><div ><span class="flag ch"></span> <a    href="rider/alexandre-balmer">BALMER Alexandre</a></div><div class="clear"></div></li>
 <li class="" ><div >13</div><div ><span class="flag co"></span> <a    href="rider/jesus-david-pena-jimenez">PEÑA Jesús David</a></div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag dk"></span> <a    href="rider/christopher-juul-jensen">JUUL-JENSEN Christopher</a></div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag ee"></span> <a    href="rider/tanel-kangert">KANGERT Tanel</a></div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag et"></span> <a    href="rider/tsgabu-gebremaryam-grmay">GRMAY Tsgabu</a></div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag gb"></span> <a    href="rider/simon-yates">YATES Simon</a></div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag it"></span> <a    href="rider/alexander-konychev">KONYCHEV Alexander</a></div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag dk"></span> <a    href="rider/anders-foldager">FOLDAGER Anders</a></div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag dk"></span> <a    href="rider/christopher-juul-jensen">JUUL-JENSEN Christopher</a></div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag ee"></span> <a    href="rider/tanel-kangert">KANGERT Tanel</a></div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag et"></span> <a    href="rider/tsgabu-gebremaryam-grmay">GRMAY Tsgabu</a></div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag gb"></span> <a    href="rider/simon-yates">YATES Simon</a></div><div class="clear"></div></li>
 <li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/kevin-colleoni">COLLEONI Kevin</a></div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/matteo-sobrero">SOBRERO Matteo</a></div><div class="clear"></div></li>
-<li class="" ><div >21</div><div ><span class="flag nl"></span> <a    href="rider/jan-maas">MAAS Jan</a></div><div class="clear"></div></li>
-<li class="" ><div >22</div><div ><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="clear"></div></li>
-<li class="" ><div >23</div><div ><span class="flag no"></span> <a    href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a></div><div class="clear"></div></li>
-<li class="" ><div >24</div><div ><span class="flag nz"></span> <a    href="rider/dion-smith">SMITH Dion</a></div><div class="clear"></div></li>
-<li class="" ><div >25</div><div ><span class="flag nz"></span> <a    href="rider/jack-bauer">BAUER Jack</a></div><div class="clear"></div></li>
-<li class="" ><div >26</div><div ><span class="flag nz"></span> <a    href="rider/sam-bewley">BEWLEY Sam</a></div><div class="clear"></div></li>
-<li class="" ><div >27</div><div ><span class="flag nz"></span> <a    href="rider/campbell-stewart">STEWART Campbell</a></div><div class="clear"></div></li>
-<li class="" ><div >28</div><div ><span class="flag si"></span> <a    href="rider/luka-mezgec">MEZGEC Luka</a></div><div class="clear"></div></li>
-<li class="" ><div >29</div><div ><span class="flag us"></span> <a    href="rider/lawson-craddock">CRADDOCK Lawson</a></div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/davide-de-pretto">DE PRETTO Davide</a></div><div class="clear"></div></li>
+<li class="" ><div >21</div><div ><span class="flag it"></span> <a    href="rider/matteo-sobrero">SOBRERO Matteo</a></div><div class="clear"></div></li>
+<li class="" ><div >22</div><div ><span class="flag it"></span> <a    href="rider/alexander-konychev">KONYCHEV Alexander</a></div><div class="clear"></div></li>
+<li class="" ><div >23</div><div ><span class="flag nl"></span> <a    href="rider/jan-maas">MAAS Jan</a></div><div class="clear"></div></li>
+<li class="" ><div >24</div><div ><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="clear"></div></li>
+<li class="" ><div >25</div><div ><span class="flag nl"></span> <a    href="rider/elmar-reinders">REINDERS Elmar</a></div><div class="clear"></div></li>
+<li class="" ><div >26</div><div ><span class="flag no"></span> <a    href="rider/amund-grondahl-jansen">JANSEN Amund Grøndahl</a></div><div class="clear"></div></li>
+<li class="" ><div >27</div><div ><span class="flag nz"></span> <a    href="rider/jack-bauer">BAUER Jack</a></div><div class="clear"></div></li>
+<li class="" ><div >28</div><div ><span class="flag nz"></span> <a    href="rider/sam-bewley">BEWLEY Sam</a></div><div class="clear"></div></li>
+<li class="" ><div >29</div><div ><span class="flag nz"></span> <a    href="rider/campbell-stewart">STEWART Campbell</a></div><div class="clear"></div></li>
+<li class="" ><div >30</div><div ><span class="flag nz"></span> <a    href="rider/dion-smith">SMITH Dion</a></div><div class="clear"></div></li>
+<li class="" ><div >31</div><div ><span class="flag pl"></span> <a    href="rider/marceli-boguslawski">BOGUSŁAWSKI Marceli</a></div><div class="clear"></div></li>
+<li class="" ><div >32</div><div ><span class="flag si"></span> <a    href="rider/luka-mezgec">MEZGEC Luka</a></div><div class="clear"></div></li>
+<li class="" ><div >33</div><div ><span class="flag us"></span> <a    href="rider/lawson-craddock">CRADDOCK Lawson</a></div><div class="clear"></div></li>
 </ul></div>
 <div class="fs10 clr999"><div class="">In historical seasons, age is taken at July 1.</div></div>
+<div class="mt20"><h3>Quick links</h3><ul class="list fs14"><li class="blue" ><a   class="blue" href="compare_teams.php?id=44079">Compare to other teams </a></li>
+</ul></div>
 <div class="mt20"><h3>Info</h3><ul class="infolist" style=""><li><div>Team status:</div> <div>WT</div></li>
 <li><div>Abbreviation: </div> <div>BEX</div></li>
 <li><div>Bike:</div> <div><a    href="gear.php?id=0">Giant</a></div></li>
@@ -332,7 +359,7 @@
 </tbody></table></div>
 <div class="mt30"><h3>Points per season</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 20%; ">year</th><th class="bar  "  style="width: 60%; ">points</th><th class="ac  "  style="width: 20%; ">position</th></tr></thead><tbody>
-<tr ><td>2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 44.3%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">3616</span></div></td><td class="ac  " >14</td></tr>
+<tr ><td>2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 45.4%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">3700</span></div></td><td class="ac  " >14</td></tr>
 <tr ><td>2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 48.4%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">3947</span></div></td><td class="ac  " >16</td></tr>
 <tr ><td>2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 53.9%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">4398</span></div></td><td class="ac  " >9</td></tr>
 <tr ><td>2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 71.8%;  height: 14px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 14px; ">5862</span></div></td><td class="ac  " >10</td></tr>
@@ -340,18 +367,16 @@
 </tbody></table></div>
 </div><div class="w70 left mb_w100"><div class="mt10 mob-ad team-between-stats "></div><div class="mt20"><h3>Upcoming races for team</h3>
 <table class="basic"  style=""><thead><tr><th class="cu600  "  style="width: 13%; ">Date</th><th class="cs600 hide  "  style="width: 17.4%; ">Date</th><th style="width: 34.8%; ">Race</th><th class="cu600 fs10 clr555  "  style="width: 34.8%; ">Riders</th></tr></thead><tbody>
-<tr ><td class="cu600  " >30/07 - 05/08</td><td class="cs600 hide  " >30/07 - 05/08</td><td><span class="flag pl"></span> <a    href="race/tour-de-pologne/2022">Tour de Pologne</a></td><td class="cu600 fs10 clr555  " >Sobrero, Edmondson, Groves, Hepburn, Hamilton, Craddock, O'Brien</td></tr>
-<tr ><td class="cu600  " >04/08 - 07/08</td><td class="cs600 hide  " >04/08 - 07/08</td><td><span class="flag cz"></span> <a    href="race/sazka-tour/2022">Sazka Tour</a></td><td class="cu600 fs10 clr555  " >Kangert, Grmay, Howson, Maas, Peña, Colleoni, Meyer</td></tr>
-<tr ><td class="cu600  " >11/08 - 14/08</td><td class="cs600 hide  " >11/08 - 14/08</td><td><span class="flag no"></span> <a    href="race/arctic-race-of-norway/2022">Arctic Race of Norway</a></td><td class="cu600 fs10 clr555  " >Schultz, Groenewegen, Jansen</td></tr>
-<tr ><td class="cu600  " >19/08 - 11/09</td><td class="cs600 hide  " >19/08 - 11/09</td><td><span class="flag es"></span> <a    href="race/vuelta-a-espana/2022">La Vuelta ciclista a España</a></td><td class="cu600 fs10 clr555  " >Konychev, Hamilton, Yates, Groves</td></tr>
-<tr ><td class="cu600  " >21/08</td><td class="cs600 hide  " >21/08</td><td><span class="flag de"></span> <a    href="race/cyclassics-hamburg/2022">BEMER Cyclassics</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >23/08</td><td class="cs600 hide  " >23/08</td><td><span class="flag be"></span> <a    href="race/gp-stad-zottegem/2022">Egmont Cycling Race</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >28/08</td><td class="cs600 hide  " >28/08</td><td><span class="flag fr"></span> <a    href="race/bretagne-classic/2022">Bretagne Classic - Ouest-France</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >04/09</td><td class="cs600 hide  " >04/09</td><td><span class="flag us"></span> <a    href="race/maryland-cycling-classic/2022">Maryland Cycling Classic, presented by UnitedHealthcare</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >19/08 - 11/09</td><td class="cs600 hide  " >19/08 - 11/09</td><td><span class="flag es"></span> <a    href="race/vuelta-a-espana/2022">La Vuelta ciclista a España</a></td><td class="cu600 fs10 clr555  " >Craddock, Durbridge, Groves, Hamilton, Hepburn, O'Brien, Scotson, Yates</td></tr>
+<tr ><td class="cu600  " >21/08</td><td class="cs600 hide  " >21/08</td><td><span class="flag de"></span> <a    href="race/cyclassics-hamburg/2022">BEMER Cyclassics</a></td><td class="cu600 fs10 clr555  " >Groenewegen</td></tr>
+<tr ><td class="cu600  " >23/08</td><td class="cs600 hide  " >23/08</td><td><span class="flag be"></span> <a    href="race/gp-stad-zottegem/2022">Egmont Cycling Race</a></td><td class="cu600 fs10 clr555  " >Groenewegen</td></tr>
+<tr ><td class="cu600  " >24/08</td><td class="cs600 hide  " >24/08</td><td><span class="flag be"></span> <a    href="race/druivenkoers-overijse/2022">Druivenkoers - Overijse</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >28/08</td><td class="cs600 hide  " >28/08</td><td><span class="flag fr"></span> <a    href="race/bretagne-classic/2022">Bretagne Classic - Ouest-France</a></td><td class="cu600 fs10 clr555  " >Jansen, Juul-Jensen</td></tr>
+<tr class=" hide"  ><td class="cu600  " >04/09</td><td class="cs600 hide  " >04/09</td><td><span class="flag us"></span> <a    href="race/maryland-cycling-classic/2022">Maryland Cycling Classic, presented by UnitedHealthcare</a></td><td class="cu600 fs10 clr555  " >Groenewegen</td></tr>
 <tr class=" hide"  ><td class="cu600  " >09/09</td><td class="cs600 hide  " >09/09</td><td><span class="flag ca"></span> <a    href="race/gp-quebec/2022">Grand Prix Cycliste de Québec</a></td><td class="cu600 fs10 clr555  " >Matthews, Schultz</td></tr>
 <tr class=" hide"  ><td class="cu600  " >11/09</td><td class="cs600 hide  " >11/09</td><td><span class="flag ca"></span> <a    href="race/gp-montreal/2022">Grand Prix Cycliste de Montréal</a></td><td class="cu600 fs10 clr555  " >Matthews, Schultz</td></tr>
-<tr class=" hide"  ><td class="cu600  " >18/09</td><td class="cs600 hide  " >18/09</td><td><span class="flag be"></span> <a    href="race/gooikse-pijl/2022">Gooikse Pijl</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >21/09</td><td class="cs600 hide  " >21/09</td><td><span class="flag be"></span> <a    href="race/omloop-van-het-houtland-lichtervelde/2022">Omloop van het Houtland Middelkerke-Lichtervelde</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr class=" hide"  ><td class="cu600  " >18/09</td><td class="cs600 hide  " >18/09</td><td><span class="flag be"></span> <a    href="race/gooikse-pijl/2022">Gooikse Pijl</a></td><td class="cu600 fs10 clr555  " >Groenewegen</td></tr>
+<tr class=" hide"  ><td class="cu600  " >21/09</td><td class="cs600 hide  " >21/09</td><td><span class="flag be"></span> <a    href="race/omloop-van-het-houtland-lichtervelde/2022">Omloop van het Houtland Middelkerke-Lichtervelde</a></td><td class="cu600 fs10 clr555  " >Groenewegen</td></tr>
 <tr class=" hide"  ><td class="cu600  " >27/09 - 02/10</td><td class="cs600 hide  " >27/09 - 02/10</td><td><span class="flag hr"></span> <a    href="race/tour-of-croatia/2022">Cro Race</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 <tr class=" hide"  ><td class="cu600  " >01/10</td><td class="cs600 hide  " >01/10</td><td><span class="flag it"></span> <a    href="race/giro-dell-emilia/2022">Giro dell'Emilia</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 <tr class=" hide"  ><td class="cu600  " >02/10</td><td class="cs600 hide  " >02/10</td><td><span class="flag it"></span> <a    href="race/gp-bruno-beghelli/2022">Gran Premio Bruno Beghelli</a></td><td class="cu600 fs10 clr555  " ></td></tr>
@@ -362,6 +387,7 @@
 </tbody></table><a class="showFullList" href="">show more</a></div>
 <div class="mt20"><h3>Last victories</h3>
 <table class="basic"  style=""><thead><tr><th style="width: 7.7%; ">#</th><th style="width: 53.8%; ">Race</th><th style="width: 7.7%; ">Class</th><th style="width: 30.8%; ">Winner</th></tr></thead><tbody>
+<tr ><td>21</td><td><span class="flag no"></span> <a    href="race/arctic-race-of-norway/2022/stage-2">Arctic Race of Norway | Stage 2</a></td><td>2.Pro</td><td>GROENEWEGEN Dylan</td></tr>
 <tr ><td>20</td><td><span class="flag es"></span> <a    href="race/vuelta-a-castilla-y-leon/2022/gc">Vuelta a Castilla y Leon</a></td><td>2.1</td><td>YATES Simon</td></tr>
 <tr ><td>19</td><td><span class="flag es"></span> <a    href="race/vuelta-a-castilla-y-leon/2022/stage-2">Vuelta a Castilla y Leon | Stage 2</a></td><td>2.1</td><td>YATES Simon</td></tr>
 <tr ><td>18</td><td><span class="flag es"></span> <a    href="race/prueba-villafranca/2022/result">Prueba Villafranca - Ordiziako Klasika</a></td><td>1.1</td><td>YATES Simon</td></tr>
@@ -371,7 +397,7 @@
 <tr ><td>14</td><td><span class="flag si"></span> <a    href="race/tour-of-slovenia/2022/stage-2">Tour of Slovenia | Stage 2</a></td><td>2.Pro</td><td>GROENEWEGEN Dylan</td></tr>
 <tr ><td>13</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/stage-21">Giro d'Italia | Stage 21 (ITT)</a></td><td>2.UWT</td><td>SOBRERO Matteo</td></tr>
 <tr ><td>12</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/stage-14">Giro d'Italia | Stage 14</a></td><td>2.UWT</td><td>YATES Simon</td></tr>
-<tr ><td>11</td><td><span class="flag nl"></span> <a    href="race/veenendaal-veenendaal/2022/result">Veenendaal-Veenendaal Classic</a></td><td>1.1</td><td>GROENEWEGEN Dylan</td></tr>
+<tr class=" hide"  ><td>11</td><td><span class="flag nl"></span> <a    href="race/veenendaal-veenendaal/2022/result">Veenendaal-Veenendaal Classic</a></td><td>1.1</td><td>GROENEWEGEN Dylan</td></tr>
 <tr class=" hide"  ><td>10</td><td><span class="flag hu"></span> <a    href="race/tour-de-hongrie/2022/stage-4">Tour de Hongrie | Stage 4</a></td><td>2.1</td><td>GROENEWEGEN Dylan</td></tr>
 <tr class=" hide"  ><td>9</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/stage-2">Giro d'Italia | Stage 2 (ITT)</a></td><td>2.UWT</td><td>YATES Simon</td></tr>
 <tr class=" hide"  ><td>8</td><td><span class="flag es"></span> <a    href="race/vuelta-asturias/2022/stage-3">Vuelta Asturias Julio Alvarez Mendo | Stage 3</a></td><td>2.1</td><td>YATES Simon</td></tr>
@@ -390,21 +416,21 @@
 <tr ><td>4</td><td><span class="flag pl"></span> <a    href="race/tour-de-pologne/2022/gc">Tour de Pologne</a></td><td>2.UWT</td><td><a    href="rider/matteo-sobrero">SOBRERO Matteo</a></td><td>140</td></tr>
 <tr ><td>4</td><td><span class="flag it"></span> <a    href="race/milano-sanremo/2022/result">Milano-Sanremo</a></td><td>1.UWT</td><td><a    href="rider/michael-matthews">MATTHEWS Michael</a></td><td>120</td></tr>
 <tr ><td>13</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/gc">Giro d'Italia</a></td><td>2.UWT</td><td><a    href="rider/lucas-hamilton">HAMILTON Lucas</a></td><td>120</td></tr>
-<tr ><td>1</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2022/stage-3">Tour de France | Stage 3</a></td><td>2.UWT</td><td><a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></td><td>100</td></tr>
 <tr ><td>1</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2022/stage-14">Tour de France | Stage 14</a></td><td>2.UWT</td><td><a    href="rider/michael-matthews">MATTHEWS Michael</a></td><td>100</td></tr>
+<tr ><td>1</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2022/stage-3">Tour de France | Stage 3</a></td><td>2.UWT</td><td><a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></td><td>100</td></tr>
 <tr ><td>1</td><td><span class="flag es"></span> <a    href="race/vuelta-a-castilla-y-leon/2022/gc">Vuelta a Castilla y Leon</a></td><td>2.1</td><td><a    href="rider/simon-yates">YATES Simon</a></td><td>100</td></tr>
 <tr ><td>23</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2022/gc">Tour de France</a></td><td>2.UWT</td><td><a    href="rider/nick-schultz">SCHULTZ Nick</a></td><td>85</td></tr>
-<tr ><td>1</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/stage-2">Giro d'Italia | Stage 2 (ITT)</a></td><td>2.UWT</td><td><a    href="rider/simon-yates">YATES Simon</a></td><td>80</td></tr>
-<tr class=" hide"  ><td>1</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/stage-21">Giro d'Italia | Stage 21 (ITT)</a></td><td>2.UWT</td><td><a    href="rider/matteo-sobrero">SOBRERO Matteo</a></td><td>80</td></tr>
+<tr ><td>1</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/stage-21">Giro d'Italia | Stage 21 (ITT)</a></td><td>2.UWT</td><td><a    href="rider/matteo-sobrero">SOBRERO Matteo</a></td><td>80</td></tr>
+<tr class=" hide"  ><td>1</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/stage-2">Giro d'Italia | Stage 2 (ITT)</a></td><td>2.UWT</td><td><a    href="rider/simon-yates">YATES Simon</a></td><td>80</td></tr>
 <tr class=" hide"  ><td>1</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2022/stage-14">Giro d'Italia | Stage 14</a></td><td>2.UWT</td><td><a    href="rider/simon-yates">YATES Simon</a></td><td>80</td></tr>
 <tr class=" hide"  ><td>1</td><td><span class="flag es"></span> <a    href="race/prueba-villafranca/2022/result">Prueba Villafranca - Ordiziako Klasika</a></td><td>1.1</td><td><a    href="rider/simon-yates">YATES Simon</a></td><td>75</td></tr>
 <tr class=" hide"  ><td>1</td><td><span class="flag nl"></span> <a    href="race/veenendaal-veenendaal/2022/result">Veenendaal-Veenendaal Classic</a></td><td>1.1</td><td><a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></td><td>75</td></tr>
+<tr class=" hide"  ><td>5</td><td><span class="flag es"></span> <a    href="race/ruta-del-sol/2022/gc">Vuelta a Andalucia Ruta Ciclista Del Sol</a></td><td>2.Pro</td><td><a    href="rider/simon-yates">YATES Simon</a></td><td>70</td></tr>
+<tr class=" hide"  ><td>6</td><td><span class="flag es"></span> <a    href="race/san-sebastian/2022/result">Donostia San Sebastian Klasikoa</a></td><td>1.UWT</td><td><a    href="rider/simon-yates">YATES Simon</a></td><td>70</td></tr>
 <tr class=" hide"  ><td>2</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2022/stage-10">Tour de France | Stage 10</a></td><td>2.UWT</td><td><a    href="rider/nick-schultz">SCHULTZ Nick</a></td><td>70</td></tr>
+<tr class=" hide"  ><td>2</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2022/stage-8">Tour de France | Stage 8</a></td><td>2.UWT</td><td><a    href="rider/michael-matthews">MATTHEWS Michael</a></td><td>70</td></tr>
 <tr class=" hide"  ><td>2</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2022/stage-6">Tour de France | Stage 6</a></td><td>2.UWT</td><td><a    href="rider/michael-matthews">MATTHEWS Michael</a></td><td>70</td></tr>
 <tr class=" hide"  ><td>2</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2022/stage-21">Tour de France | Stage 21</a></td><td>2.UWT</td><td><a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></td><td>70</td></tr>
-<tr class=" hide"  ><td>5</td><td><span class="flag es"></span> <a    href="race/ruta-del-sol/2022/gc">Vuelta a Andalucia Ruta Ciclista Del Sol</a></td><td>2.Pro</td><td><a    href="rider/simon-yates">YATES Simon</a></td><td>70</td></tr>
-<tr class=" hide"  ><td>2</td><td><span class="flag fr"></span> <a    href="race/tour-de-france/2022/stage-8">Tour de France | Stage 8</a></td><td>2.UWT</td><td><a    href="rider/michael-matthews">MATTHEWS Michael</a></td><td>70</td></tr>
-<tr class=" hide"  ><td>6</td><td><span class="flag es"></span> <a    href="race/san-sebastian/2022/result">Donostia San Sebastian Klasikoa</a></td><td>1.UWT</td><td><a    href="rider/simon-yates">YATES Simon</a></td><td>70</td></tr>
 </tbody></table><a class="showFullList" href="">show more</a></div>
 </div>  <script>
   $(document).ready(function(){
@@ -460,7 +486,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0344 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1378kb) peak (1499kb)</span></li></ul></li>
+<li><span>0.1173 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1401kb) peak (1523kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="2101" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

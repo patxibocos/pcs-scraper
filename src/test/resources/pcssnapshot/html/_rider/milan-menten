@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
 
-<script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
 </head>
@@ -61,17 +61,15 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
 <li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
 <li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 <li><a href="team/movistar-team-2022">Movistar Team</a></li>
@@ -79,14 +77,16 @@
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
-<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,6 +95,11 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -142,24 +147,24 @@
 <li data-n="5"><a href="rider/milan-menten/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/milan-menten/contribute/embed-rider-results">Embed rider results</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag be w32"></span><span class="flag be w24"></span><h1 class="">Milan  Menten</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Bingoal Pauwels Sauces WB</span></div><div class="sub"><span class="red showIfMobile">Bingoal Pauwels Sauces WB</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="" >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/milan-menten/statistics/overview"><img src="images/riders/bp/de/milan-menten-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 31<sup>st</sup> October 1996 (25)<br /><b>Nationality:</b> <span class="flag  be"></span><a class="black" href="nation/belgium">Belgium</a><br /><span><b>Weight:</b> 68 kg &nbsp; <span><b>Height:</b> 1.74 m<br /><b>Place of birth:</b> <a href="location.php?id=3966">Bilzen</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 74.005305039788%; height: 100%;  "></div></div><div class="pnt">558</div><div class="title"><a href="rider/milan-menten/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 20.026525198939%; height: 100%;  "></div></div><div class="pnt">151</div><div class="title"><a href="rider/milan-menten/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 2.2546419098143%; height: 100%;  "></div></div><div class="pnt">17</div><div class="title"><a href="rider/milan-menten/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 100%; height: 100%;  "></div></div><div class="pnt">754</div><div class="title"><a href="rider/milan-menten/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 26.790450928382%; height: 100%;  "></div></div><div class="pnt">202</div><div class="title"><a href="rider/milan-menten/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/MilanMentenOfficial">facebook</a></li>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/milan-menten/statistics/overview"><img src="images/riders/bp/de/milan-menten-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 31<sup>st</sup> October 1996 (25)<br /><b>Nationality:</b> <span class="flag  be"></span><a class="black" href="nation/belgium">Belgium</a><br /><span><b>Weight:</b> 68 kg &nbsp; <span><b>Height:</b> 1.74 m<br /><b>Place of birth:</b> <a href="location.php?id=3966">Bilzen</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 78.249336870027%; height: 100%;  "></div></div><div class="pnt">590</div><div class="title"><a href="rider/milan-menten/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 20.026525198939%; height: 100%;  "></div></div><div class="pnt">151</div><div class="title"><a href="rider/milan-menten/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 2.2546419098143%; height: 100%;  "></div></div><div class="pnt">17</div><div class="title"><a href="rider/milan-menten/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 100%; height: 100%;  "></div></div><div class="pnt">754</div><div class="title"><a href="rider/milan-menten/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 29.177718832891%; height: 100%;  "></div></div><div class="pnt">220</div><div class="title"><a href="rider/milan-menten/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/milan61973388">twitter</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/milanmenten/?hl=nl">instagram</a></li>
-<li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/milan61973388">twitter</a></li>
+<li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/MilanMentenOfficial">facebook</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/pros/2219780">strava</a></li>
-<li><span class="icon ProCyclingGame left"></span><a  target="_blank"   class="" href="https://www.procyclinggame.com/rider/milan-menten">ProCyclingGame</a></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >190</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >236</div><div class="clear"></div></li>
+<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >171</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >209</div><div class="clear"></div></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;1022</span></div><div >  this week</div><div class="clear"></div></li>
+<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;423</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-of-croatia/2021/stage-3">Cro Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/gp-de-la-ville-de-lillers/2022/result">Grand Prix de la Ville de Lillers Souvenir Bruno Comini</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue"></span> <a href="race/ronde-van-limburg/2022/result">Ronde van Limburg</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-wallonie/2021/gc">Tour de Wallonie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">8th&nbsp;</div><div><span class="blue"></span> <a href="race/circuit-franco-belge/2022/result">Circuit Franco-Belge</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">11th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-denmark/2021/gc">PostNord Danmark Rundt - Tour of Denmark</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue"></span> <a href="race/famenne-ardenne-classic/2018/result">Famenne Ardenne Classic</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue"></span> <a href="race/paris-bourges/2018/result">Paris-Bourges</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
@@ -167,7 +172,6 @@
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-wallonie/2021/stage-5">Tour de Wallonie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;19th&nbsp;</div><div><span class="blue"></span> <a href="race/kuurne-brussel-kuurne/2022/result">Kuurne-Bruxelles-Kuurne</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22, '19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">19th&nbsp;</div><div><span class="blue"></span> <a href="race/oxyclean-classic-brugge-de-panne/2019/result">Driedaagse Brugge-De Panne ME</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">15th&nbsp;</div><div><span class="blue"></span> <a href="race/brabantse-pijl/2021/result">De Brabantse Pijl - La Flèche Brabançonne</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
 <ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/bingoal-pauwels-sauzen-wb-2022">Bingoal Pauwels Sauces WB</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
@@ -177,11 +181,14 @@
 <li class=" main " ><div class="season   "  >2018</div><div class="name   "  ><a    href="team/sport-vlaanderen-baloise-2018">Sport Vlaanderen - Baloise</a></div><div > (PCT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 </ul></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >07.08</div><div class="ellipsis   "  ><span class="flag be"></span> <a    href="race/gp-jef-scherens/2022/startlist">Tour of Leuven - Memorial Jef Scherens</a></div><div class="fs11   "  ><a    href="rider.php?race=1187&id=177670&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
-<li class="" ><div class="bold   "  >10.08</div><div class="ellipsis   "  ><span class="flag be"></span> <a    href="race/circuit-franco-belge/2022/startlist">Eurométropole Tour</a></div><div class="fs11   "  ><a    href="rider.php?race=1102&id=177670&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
+<ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >16.08</div><div class="ellipsis   "  ><span class="flag fr"></span> <a    href="race/tour-du-limousin/2022/startlist">Tour du Limousin - Nouvelle Aquitaine</a></div><div class="fs11   "  ><a    href="rider.php?race=1153&id=177670&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
+<li class="" ><div class="bold   "  >21.08</div><div class="ellipsis   "  ><span class="flag be"></span> <a    href="race/schaal-schels/2022/startlist">Schaal Sels Merksem/ Johan Museeuw Classic</a></div><div class="fs11   "  ><a    href="rider.php?race=1162&id=177670&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
 </ul></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2022" class="cur"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=""><a class="seasonResults" data-season="2013" href="">2013</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" "><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600 " style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>14.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/la-poly-normande/2022/result">La Polynormande <span>(1.1)</span></a> </td><td class="cu600 ">168.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=177670&p=statistics&s=statistics-in-race&race=1113">more</a></td></tr>
+<tr data-main="1"><td>10.08</td><td>8</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/circuit-franco-belge/2022/result">Circuit Franco-Belge <span>(1.Pro)</span></a> </td><td class="cu600 ">175.2</td><td class="cu600">30</td><td class="cu600 ">50</td><td class="cu600"><a class="more" href="rider.php?id=177670&p=statistics&s=statistics-in-race&race=1102">more</a></td></tr>
+<tr data-main="1"><td>07.08</td><td>19</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/gp-jef-scherens/2022/result">Tour of Leuven - Memorial Jef Scherens <span>(1.1)</span></a> </td><td class="cu600 ">199.3</td><td class="cu600">2</td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider.php?id=177670&p=statistics&s=statistics-in-race&race=1187">more</a></td></tr>
 <tr data-main="1"><td>23.07 &raquo; 27.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/tour-de-wallonie/2022/stage-5-points">Ethias-Tour de Wallonie <span>(2.Pro)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=177670&p=statistics&s=statistics-in-race&race=1076">more</a></td></tr>
 <tr data-main="0"><td></td><td>13</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag be"></span><a href="race/tour-de-wallonie/2022/stage-5-points">Points classification</a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=177670&p=statistics&s=statistics-in-race&race=1076">more</a></td></tr>
 <tr data-main="0"><td></td><td>24</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag be"></span><a href="race/tour-de-wallonie/2022/gc">General classification</a> </td><td class="cu600 "></td><td class="cu600">2</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider.php?id=177670&p=statistics&s=statistics-in-race&race=1076">more</a></td></tr>
@@ -248,14 +255,14 @@
 <tr data-main="0"><td>03.02</td><td>8</td><td class="gc cu600">72</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2022/stage-2">Stage 2 - Saint-Christol-lèz-Alès &rsaquo; Rousson</a> </td><td class="cu600 ">156.21</td><td class="cu600">1</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=177670&p=statistics&s=statistics-in-race&race=1245">more</a></td></tr>
 <tr data-main="0"><td>02.02</td><td>93</td><td class="gc cu600">93</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2022/stage-1">Stage 1 - Bellegarde &rsaquo; Bellegarde</a> </td><td class="cu600 ">160.86</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=177670&p=statistics&s=statistics-in-race&race=1245">more</a></td></tr>
 <tr data-main="1"><td>30.01</td><td>76</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/gp-d-ouverture/2022/result">Grand Prix Cycliste de Marseille La Marseillaise <span>(1.1)</span></a> </td><td class="cu600 ">174.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=177670&p=statistics&s=statistics-in-race&race=1157">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>8443</b> km in <b>52</b> days | PCS points: <b>135</b> |  UCI points: <b>236</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>8902</b> km in <b>55</b> days | PCS points: <b>167</b> |  UCI points: <b>289</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >1</div><div class="title   "  ><a    href="rider/milan-menten/statistics/wins">Wins</a></div><div class="info fs11   "  >GC (0)</div><div class="info fs11   "  >Oneday races (0)</div><div class="info fs11   "  >ITT (0)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/milan-menten/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >2</div><div class="title   "  ><a    href="rider/milan-menten/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(1)</div><div class="info fs11   "  >MSR(0)</div><div class="info fs11   "  >RVV(1)</div><div class="info fs11   "  >LBL(0)</div><div class="info fs11   "  >LOM(0)</div><div class="clear"></div></li>
 </ul></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 40.3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">135</span></div></td><td class="ac  " >285</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 49.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">167</span></div></td><td class="ac  " >263</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">268</span></div></td><td class="ac  " >205</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 9.3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">31</span></div></td><td class="ac  " >710</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 44.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">149</span></div></td><td class="ac  " >422</td></tr>
@@ -366,7 +373,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1615 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1491kb) peak (1951kb)</span></li></ul></li>
+<li><span>0.1487 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1502kb) peak (1982kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 

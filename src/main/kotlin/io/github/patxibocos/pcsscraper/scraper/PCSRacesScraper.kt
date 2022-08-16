@@ -3,6 +3,7 @@ package io.github.patxibocos.pcsscraper.scraper
 import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.entity.Race
 import it.skrape.selects.Doc
+import it.skrape.selects.DocElement
 import it.skrape.selects.html5.a
 import it.skrape.selects.html5.span
 import it.skrape.selects.html5.td
@@ -135,28 +136,22 @@ class PCSRacesScraper(
         val timeTrial = stageDoc.findFirst(".sub > span:nth-child(3)").text.contains("ITT")
         val departure = infoList.findByIndex(9, "li").findFirst("a").text.ifEmpty { null }
         val arrival = infoList.findByIndex(10, "li").findFirst("a").text.ifEmpty { null }
-        val stageGcResultUrl = stageDoc.findFirst(".restabs").findSecond("a").attribute("href")
         val result: List<PCSRiderResult>
         val gcResult: List<PCSRiderResult>
         when (isSingleDayRace) {
             // Single day races will never have a gcResult, so we manually set it
             true -> {
-                result = getResult(stageDoc)
+                result = getResult(stageDoc.findFirst(".result-cont"))
                 gcResult = result
             }
 
             false -> {
-                // Url may be empty because the element is not present until stage is active
-                gcResult = if (stageGcResultUrl.isNotEmpty()) {
-                    getStageGcResult(stageGcResultUrl)
-                } else {
-                    emptyList()
-                }
+                gcResult = getResult(stageDoc.findSecond(".result-cont"))
                 // We skip stage result if GC result is not available, just for consistency
                 result = if (gcResult.isEmpty()) {
                     gcResult
                 } else {
-                    getResult(stageDoc)
+                    getResult(stageDoc.findFirst(".result-cont"))
                 }
             }
         }
@@ -174,13 +169,8 @@ class PCSRacesScraper(
         )
     }
 
-    private suspend fun getStageGcResult(stageGcResultUrl: String): List<PCSRiderResult> {
-        val raceResultDoc = docFetcher.getDoc(buildURL(stageGcResultUrl)) { relaxed = true }
-        return getResult(raceResultDoc)
-    }
-
-    private fun getResult(doc: Doc): List<PCSRiderResult> {
-        val resultsTable = doc.findFirst("div:not(.hide) > table.results")
+    private fun getResult(resultsTable: DocElement): List<PCSRiderResult> {
+//        val resultsTable = doc.findFirst("div:not(.hide) > table.results")
         val resultColumns = resultsTable.thead { tr { findAll("th") } }
         val positionColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rnk" }
         val riderColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rider" }

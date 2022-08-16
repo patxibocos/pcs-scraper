@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a132.css" />
+<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
 
-<script src="https://www.procyclingstats.com/pcs_s56.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
 </head>
@@ -61,17 +61,15 @@
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
 <li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
 <li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
 <li><a href="team/movistar-team-2022">Movistar Team</a></li>
@@ -79,14 +77,16 @@
 <li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
 <li><a href="team/team-dsm-2022">Team DSM</a></li>
 <li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
-<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
+<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
 <li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
+<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2022">Cofidis</a></li>
 <li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,6 +95,11 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
+<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
+<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
@@ -155,46 +160,46 @@
 <li><a  target="_blank"   class="" href="https://twitter.com/GrandPrixPlouay">twitter.com/GrandPrixPlouay</a></li>
 </ul></div>
 <div class="mt20"><h3>Event map</h3>
-<ul class="basic"  style=" "></ul></div>
-<div class="fs14"><div class="text-regular">No event map available.</div></div>
+<ul class="basic"  style=" "><li class="" ><div ><a    href="race/bretagne-classic/2022/result/today/overview-profiles"><img src="images/profiles/ca/cc/bretagne-classic-2022-result-map.jpg" style="max-height: 400px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
+</ul></div>
 </div>
 <div class="w47 right mb_w100" >
 <div class="mt20"><h3>Top competitors</h3>
 <ul class="list fs14"  style=" "><li class="" ><div ><span class="flag si"></span> <a    href="rider/tadej-pogacar">POGAČAR Tadej</a></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag be"></span> <a    href="rider/wout-van-aert">VAN AERT Wout</a></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag dk"></span> <a    href="rider/jonas-vingegaard-rasmussen">VINGEGAARD Jonas</a></div><div class="clear"></div></li>
-<li class="" ><div ><span class="flag fr"></span> <a    href="rider/julian-alaphilippe">ALAPHILIPPE Julian</a></div><div class="clear"></div></li>
-<li class="" ><div ><span class="flag fr"></span> <a    href="rider/benoit-cosnefroy">COSNEFROY Benoît</a></div><div class="clear"></div></li>
+<li class="" ><div ><span class="flag ru"></span> <a    href="rider/aleksandr-vlasov">VLASOV Aleksandr</a></div><div class="clear"></div></li>
+<li class="" ><div ><span class="flag ch"></span> <a    href="rider/stefan-kung">KÜNG Stefan</a></div><div class="clear"></div></li>
+<li class="" ><div ><span class="flag fr"></span> <a    href="rider/arnaud-demare">DÉMARE Arnaud</a></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag fr"></span> <a    href="rider/romain-bardet">BARDET Romain</a></div><div class="clear"></div></li>
-<li class="" ><div ><span class="flag fr"></span> <a    href="rider/david-gaudu">GAUDU David</a></div><div class="clear"></div></li>
-<li class="" ><div ><span class="flag er"></span> <a    href="rider/biniam-girmay">GIRMAY Biniam</a></div><div class="clear"></div></li>
-<li class="" ><div ><span class="flag be"></span> <a    href="rider/arnaud-de-lie">DE LIE Arnaud</a></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag fr"></span> <a    href="rider/guillaume-martin">MARTIN Guillaume</a></div><div class="clear"></div></li>
+<li class="" ><div ><span class="flag fr"></span> <a    href="rider/benoit-cosnefroy">COSNEFROY Benoît</a></div><div class="clear"></div></li>
+<li class="" ><div ><span class="flag be"></span> <a    href="rider/arnaud-de-lie">DE LIE Arnaud</a></div><div class="clear"></div></li>
 </ul></div>
 <div class="text-regular"><a class="goto3" href="race/bretagne-classic/2022/result/startlist/riders-ranked">full statistic</a></div>
 <div class="mt20"><h3>Competing teams</h3>
-<ul class="list fs14"  style=" "><li class="" ><div class="mg_rp5   "  ><span class="flag it"></span> <a    href="team/bardiani-csf-faizane-2022">Bardiani-CSF-Faizanè</a></div><div class=" clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag de"></span> <a    href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></div><div class=" clr999   "  > (Haller, Haller)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag nl"></span> <a    href="team/team-jumbo-visma-2022">Jumbo-Visma</a></div><div class=" clr999   "  > (van Aert, Dumoulin)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag be"></span> <a    href="team/bingoal-pauwels-sauzen-wb-2022">Bingoal Pauwels Sauces WB</a></div><div class=" clr999   "  > (Paquot, Paquot)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag no"></span> <a    href="team/uno-x-pro-cycling-team-2022">Uno-X Pro Cycling Team</a></div><div class=" clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></div><div class=" clr999   "  > (Paret-Peintre, Cosnefroy)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/cofidis-2022">Cofidis</a></div><div class=" clr999   "  > (Perez, Martin)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/groupama-fdj-2022">Groupama - FDJ</a></div><div class=" clr999   "  > (Roux, Gaudu)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag nl"></span> <a    href="team/team-dsm-2022">Team DSM</a></div><div class=" clr999   "  > (Combaud, Bardet)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag ae"></span> <a    href="team/uae-team-emirates-2022">UAE Team Emirates</a></div><div class=" clr999   "  > (Pogačar, Oliveira)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag kz"></span> <a    href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></div><div class=" clr999   "  > (Nibali, Nibali)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag es"></span> <a    href="team/movistar-team-2022">Movistar Team</a></div><div class=" clr999   "  > (Oliveira, García Cortina)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag bh"></span> <a    href="team/bahrain-victorious-2022">Bahrain - Victorious</a></div><div class=" clr999   "  > (Caruso, Buitrago)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag gb"></span> <a    href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></div><div class=" clr999   "  > (Wurf, Geoghegan Hart)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag be"></span> <a    href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></div><div class=" clr999   "  > (Bagioli, Alaphilippe)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag au"></span> <a    href="team/team-bikeexchange-jayco-2022">Team BikeExchange - Jayco</a></div><div class=" clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag us"></span> <a    href="team/ef-education-easypost-2022">EF Education-EasyPost</a></div><div class=" clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag us"></span> <a    href="team/trek-segafredo-2022">Trek - Segafredo</a></div><div class=" clr999   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag il"></span> <a    href="team/israel-premier-tech-2022">Israel - Premier Tech</a></div><div class=" clr999   "  > (Vanmarcke, Vanmarcke)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag be"></span> <a    href="team/lotto-soudal-2022">Lotto Soudal</a></div><div class=" clr999   "  > (Wellens, Campenaerts)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag be"></span> <a    href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></div><div class=" clr999   "  > (Girmay, Girmay)</div><div class="clear"></div></li>
-<li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/team-totalenergies-2022">TotalEnergies</a></div><div class=" clr999   "  > (Sagan, Latour)</div><div class="clear"></div></li>
+<ul class="list fs14"  style=" "><li class="" ><div class="mg_rp5   "  ><span class="flag it"></span> <a    href="team/bardiani-csf-faizane-2022">Bardiani-CSF-Faizanè</a></div><div class=" clr999   "  > (Zoccarato, Zana)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag de"></span> <a    href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></div><div class=" clr999   "  > (Vlasov, Schachmann)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag be"></span> <a    href="team/bingoal-pauwels-sauzen-wb-2022">Bingoal Pauwels Sauces WB</a></div><div class=" clr999   "  > (Viviani, Paquot)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag nl"></span> <a    href="team/team-jumbo-visma-2022">Jumbo-Visma</a></div><div class=" clr999   "  > (Vingegaard, van Aert)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></div><div class=" clr999   "  > (Van Avermaet, Cosnefroy)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag no"></span> <a    href="team/uno-x-pro-cycling-team-2022">Uno-X Pro Cycling Team</a></div><div class=" clr999   "  > (Tiller, Charmig)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/cofidis-2022">Cofidis</a></div><div class=" clr999   "  > (Martin, Geschke)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/groupama-fdj-2022">Groupama - FDJ</a></div><div class=" clr999   "  > (Küng, Démare)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag nl"></span> <a    href="team/team-dsm-2022">Team DSM</a></div><div class=" clr999   "  > (Kragh Andersen, Bardet)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag ae"></span> <a    href="team/uae-team-emirates-2022">UAE Team Emirates</a></div><div class=" clr999   "  > (Ulissi, Pogačar)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag kz"></span> <a    href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></div><div class=" clr999   "  > (Nibali, Dombrowski)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag es"></span> <a    href="team/movistar-team-2022">Movistar Team</a></div><div class=" clr999   "  > (Oliveira, Aranburu)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag bh"></span> <a    href="team/bahrain-victorious-2022">Bahrain - Victorious</a></div><div class=" clr999   "  > (Sánchez, Caruso)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag gb"></span> <a    href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></div><div class=" clr999   "  > (Thomas, Geoghegan Hart)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag be"></span> <a    href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></div><div class=" clr999   "  > (Štybar, Bagioli)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag au"></span> <a    href="team/team-bikeexchange-jayco-2022">Team BikeExchange - Jayco</a></div><div class=" clr999   "  > (Juul-Jensen, Jansen)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag us"></span> <a    href="team/ef-education-easypost-2022">EF Education-EasyPost</a></div><div class=" clr999   "  > (Cort, Bettiol)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag us"></span> <a    href="team/trek-segafredo-2022">Trek - Segafredo</a></div><div class=" clr999   "  > (Stuyven, Mollema)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag il"></span> <a    href="team/israel-premier-tech-2022">Israel - Premier Tech</a></div><div class=" clr999   "  > (Vanmarcke, Nizzolo)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag be"></span> <a    href="team/lotto-soudal-2022">Lotto Soudal</a></div><div class=" clr999   "  > (Wellens, Gilbert)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag be"></span> <a    href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></div><div class=" clr999   "  > (Vliegen, Claeys)</div><div class="clear"></div></li>
+<li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/team-totalenergies-2022">TotalEnergies</a></div><div class=" clr999   "  > (Sagan, Boasson Hagen)</div><div class="clear"></div></li>
 <li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/b-b-hotels-ktm-2022">B&B Hotels - KTM</a></div><div class=" clr999   "  > (Rolland, Bonnamour)</div><div class="clear"></div></li>
 <li class="" ><div class="mg_rp5   "  ><span class="flag fr"></span> <a    href="team/team-arkea-samsic-2022">Team Arkéa Samsic</a></div><div class=" clr999   "  > (Bouet, Barguil)</div><div class="clear"></div></li>
 </ul></div>
@@ -251,7 +256,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.0912 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1245kb) peak (1384kb)</span></li></ul></li>
+<li><span>0.0660 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1238kb) peak (1386kb)</span></li></ul></li>
 </ul><input type="hidden" id="pageid" value="1193" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
