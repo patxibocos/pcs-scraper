@@ -133,7 +133,9 @@ class PCSRacesScraper(
         }
         val distance = infoList.findByIndex(4, "li > div:nth-child(2)").ownText
         val type = infoList.findByIndex(6, "li").findFirst("span").classNames.last()
-        val timeTrial = stageDoc.findFirst(".sub > span:nth-child(3)").text.contains("ITT")
+        val stageTitle = stageDoc.findFirst(".sub > span:nth-child(3)").text
+        val isIndividualTimeTrial = stageTitle.contains("ITT")
+        val isTeamTimeTrial = stageTitle.contains("TTT")
         val departure = infoList.findByIndex(9, "li").findFirst("a").text.ifEmpty { null }
         val arrival = infoList.findByIndex(10, "li").findFirst("a").text.ifEmpty { null }
         val result: List<PCSRiderResult>
@@ -148,10 +150,15 @@ class PCSRacesScraper(
             false -> {
                 gcResult = getResult(stageDoc.findSecond(".result-cont"))
                 // We skip stage result if GC result is not available, just for consistency
-                result = if (gcResult.isEmpty()) {
-                    gcResult
+                result = if (!isTeamTimeTrial) {
+                    if (gcResult.isEmpty()) {
+                        gcResult
+                    } else {
+                        getResult(stageDoc.findFirst(".result-cont"))
+                    }
                 } else {
-                    getResult(stageDoc.findFirst(".result-cont"))
+                    // Ignore result scraping for team time trials
+                    emptyList()
                 }
             }
         }
@@ -161,7 +168,7 @@ class PCSRacesScraper(
             startTimeCET = startTimeCET,
             distance = distance,
             type = type,
-            timeTrial = timeTrial,
+            timeTrial = isIndividualTimeTrial || isTeamTimeTrial,
             departure = departure,
             arrival = arrival,
             result = result,
@@ -170,7 +177,6 @@ class PCSRacesScraper(
     }
 
     private fun getResult(resultsTable: DocElement): List<PCSRiderResult> {
-//        val resultsTable = doc.findFirst("div:not(.hide) > table.results")
         val resultColumns = resultsTable.thead { tr { findAll("th") } }
         val positionColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rnk" }
         val riderColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rider" }
