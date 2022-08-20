@@ -121,14 +121,14 @@ internal class SQLiteExporter(destination: File) : Exporter {
     }
 
     private object DbRaceRiderResult :
-        DbTable<Race.RiderResult>(name = "race_rider_result") {
+        DbTable<Race.ParticipantResult>(name = "race_rider_result") {
         val raceId = text("race_id") references DbRace.id
         private val riderId = text("rider_id") references DbRider.id
         private val position = integer("position")
         private val time = long("time")
 
-        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.RiderResult) {
-            insertStatement[riderId] = t.rider
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.ParticipantResult) {
+            insertStatement[riderId] = t.participant
             insertStatement[position] = t.position
             insertStatement[time] = t.time
         }
@@ -169,29 +169,29 @@ internal class SQLiteExporter(destination: File) : Exporter {
         }
     }
 
-    private object DbStageRiderResult :
-        DbTable<Race.RiderResult>(name = "stage_rider_result") {
+    private object DbStageParticipantResult :
+        DbTable<Race.ParticipantResult>(name = "stage_rider_result") {
         val stageId = text("stage_id") references DbStage.id
-        private val riderId = text("rider_id") references DbRider.id
+        private val participantId = text("participant_id") // It can be either a rider or a team (for team time trials)
         private val position = integer("position")
         private val time = long("time")
 
-        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.RiderResult) {
-            insertStatement[riderId] = t.rider
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.ParticipantResult) {
+            insertStatement[participantId] = t.participant
             insertStatement[position] = t.position
             insertStatement[time] = t.time
         }
     }
 
     private object DbStageGcRiderResult :
-        DbTable<Race.RiderResult>(name = "stage_gc_rider_gc_result") {
+        DbTable<Race.ParticipantResult>(name = "stage_gc_rider_gc_result") {
         val stageId = text("stage_id") references DbStage.id
         private val riderId = text("rider_id") references DbRider.id
         private val position = integer("position")
         private val time = long("time")
 
-        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.RiderResult) {
-            insertStatement[riderId] = t.rider
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.ParticipantResult) {
+            insertStatement[riderId] = t.participant
             insertStatement[position] = t.position
             insertStatement[time] = t.time
         }
@@ -215,8 +215,8 @@ internal class SQLiteExporter(destination: File) : Exporter {
                 }
             }
             race.stages.forEach { stage ->
-                connectToDbAndInsert(DbStageRiderResult, stage.result) {
-                    it[DbStageRiderResult.stageId] = stage.id
+                connectToDbAndInsert(DbStageParticipantResult, stage.result) {
+                    it[DbStageParticipantResult.stageId] = stage.id
                 }
                 connectToDbAndInsert(DbStageGcRiderResult, stage.gcResult) {
                     it[DbStageGcRiderResult.stageId] = stage.id

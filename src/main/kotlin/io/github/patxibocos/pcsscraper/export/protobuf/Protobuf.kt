@@ -102,20 +102,20 @@ private fun buildRacesProtobufMessage(_races: List<Race>): List<RaceOuterClass.R
                         stage.departure?.let { departure = it }
                         stage.arrival?.let { arrival = it }
                         addAllResult(
-                            stage.result.map { riderResult ->
-                                RaceOuterClass.RiderResult.newBuilder().apply {
-                                    position = riderResult.position
-                                    riderId = riderResult.rider
-                                    time = riderResult.time
+                            stage.result.map { participantResult ->
+                                RaceOuterClass.ParticipantResult.newBuilder().apply {
+                                    position = participantResult.position
+                                    participantId = participantResult.participant
+                                    time = participantResult.time
                                 }.build()
                             }
                         )
                         addAllGcResult(
-                            stage.gcResult.map { riderResult ->
-                                RaceOuterClass.RiderResult.newBuilder().apply {
-                                    position = riderResult.position
-                                    riderId = riderResult.rider
-                                    time = riderResult.time
+                            stage.gcResult.map { participantResult ->
+                                RaceOuterClass.ParticipantResult.newBuilder().apply {
+                                    position = participantResult.position
+                                    participantId = participantResult.participant
+                                    time = participantResult.time
                                 }.build()
                             }
                         )
@@ -138,11 +138,11 @@ private fun buildRacesProtobufMessage(_races: List<Race>): List<RaceOuterClass.R
                 }
             )
             addAllResult(
-                race.result.map { riderResult ->
-                    RaceOuterClass.RiderResult.newBuilder().apply {
-                        position = riderResult.position
-                        riderId = riderResult.rider
-                        time = riderResult.time
+                race.result.map { participantResult ->
+                    RaceOuterClass.ParticipantResult.newBuilder().apply {
+                        position = participantResult.position
+                        participantId = participantResult.participant
+                        time = participantResult.time
                     }.build()
                 }
             )

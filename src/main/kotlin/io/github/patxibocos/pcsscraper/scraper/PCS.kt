@@ -47,7 +47,7 @@ data class PCSRace(
     val website: String?,
     val stages: List<PCSStage>,
     val startList: List<PCSTeamParticipation>,
-    val result: List<PCSRiderResult>,
+    val result: List<PCSParticipantResult>,
 )
 
 data class PCSTeamParticipation(
@@ -69,12 +69,12 @@ data class PCSStage(
     val timeTrial: Boolean,
     val departure: String?,
     val arrival: String?,
-    val result: List<PCSRiderResult>,
-    val gcResult: List<PCSRiderResult>,
+    val result: List<PCSParticipantResult>,
+    val gcResult: List<PCSParticipantResult>,
 )
 
-class PCSRiderResult(
+class PCSParticipantResult(
     val position: String,
-    val rider: String,
+    val participant: String,
     val time: String,
 )

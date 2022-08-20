@@ -17,19 +17,19 @@ message Race {
   repeated Stage stages = 6;
   repeated TeamParticipation teams = 7;
   optional string website = 8;
-  repeated RiderResult result = 9;
+  repeated ParticipantResult result = 9;
 }
 
 message Stage {
   string id = 1;
   google.protobuf.Timestamp start_date_time = 2;
   float distance = 3;
-  repeated RiderResult result = 4;
+  repeated ParticipantResult result = 4;
   Type type = 5;
   optional string departure = 6;
   optional string arrival = 7;
   bool time_trial = 8;
-  repeated RiderResult gcResult = 9;
+  repeated ParticipantResult gcResult = 9;
 
   enum Type {
     TYPE_UNSPECIFIED = 0;
@@ -46,9 +46,9 @@ message TeamParticipation {
   repeated RiderParticipation riders = 2;
 }
 
-message RiderResult {
+message ParticipantResult {
   uint32 position = 1;
-  string rider_id = 2;
+  string participant_id = 2;
   int64 time = 3;
 }
 

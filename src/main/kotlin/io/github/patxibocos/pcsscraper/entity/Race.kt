@@ -15,7 +15,7 @@ data class Race(
     val website: String?,
     val stages: List<Stage>,
     val startList: List<TeamParticipation>,
-    val result: List<RiderResult>,
+    val result: List<ParticipantResult>,
 ) {
     @Serializable
     data class Stage(
@@ -26,8 +26,8 @@ data class Race(
         val timeTrial: Boolean,
         val departure: String?,
         val arrival: String?,
-        val result: List<RiderResult>,
-        val gcResult: List<RiderResult>,
+        val result: List<ParticipantResult>,
+        val gcResult: List<ParticipantResult>,
     ) {
         enum class Type {
             FLAT,
@@ -39,9 +39,9 @@ data class Race(
     }
 
     @Serializable
-    data class RiderResult(
+    data class ParticipantResult(
         val position: Int,
-        val rider: String,
+        val participant: String,
         val time: Long,
     )
 
