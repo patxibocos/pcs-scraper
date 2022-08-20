@@ -22,19 +22,25 @@ data class Race(
         val id: String,
         @Contextual val startDateTime: Instant,
         val distance: Float,
-        val type: Type?,
-        val timeTrial: Boolean,
+        val profileType: ProfileType?,
         val departure: String?,
         val arrival: String?,
+        val stageType: StageType,
         val result: List<ParticipantResult>,
         val gcResult: List<ParticipantResult>,
     ) {
-        enum class Type {
+        enum class ProfileType {
             FLAT,
             HILLS_FLAT_FINISH,
             HILLS_UPHILL_FINISH,
             MOUNTAINS_FLAT_FINISH,
             MOUNTAINS_UPHILL_FINISH,
+        }
+
+        enum class StageType {
+            REGULAR,
+            INDIVIDUAL_TIME_TRIAL,
+            TEAM_TIME_TRIAL,
         }
     }
 

@@ -90,17 +90,21 @@ private fun buildRacesProtobufMessage(_races: List<Race>): List<RaceOuterClass.R
                             .setSeconds(stage.startDateTime.epochSecond)
                             .build()
                         distance = stage.distance
-                        type = when (stage.type) {
-                            Race.Stage.Type.FLAT -> RaceOuterClass.Stage.Type.TYPE_FLAT
-                            Race.Stage.Type.HILLS_FLAT_FINISH -> RaceOuterClass.Stage.Type.TYPE_HILLS_FLAT_FINISH
-                            Race.Stage.Type.HILLS_UPHILL_FINISH -> RaceOuterClass.Stage.Type.TYPE_HILLS_UPHILL_FINISH
-                            Race.Stage.Type.MOUNTAINS_FLAT_FINISH -> RaceOuterClass.Stage.Type.TYPE_MOUNTAINS_FLAT_FINISH
-                            Race.Stage.Type.MOUNTAINS_UPHILL_FINISH -> RaceOuterClass.Stage.Type.TYPE_MOUNTAINS_UPHILL_FINISH
-                            null -> RaceOuterClass.Stage.Type.TYPE_UNSPECIFIED
+                        profileType = when (stage.profileType) {
+                            Race.Stage.ProfileType.FLAT -> RaceOuterClass.Stage.ProfileType.PROFILE_TYPE_FLAT
+                            Race.Stage.ProfileType.HILLS_FLAT_FINISH -> RaceOuterClass.Stage.ProfileType.PROFILE_TYPE_HILLS_FLAT_FINISH
+                            Race.Stage.ProfileType.HILLS_UPHILL_FINISH -> RaceOuterClass.Stage.ProfileType.PROFILE_TYPE_HILLS_UPHILL_FINISH
+                            Race.Stage.ProfileType.MOUNTAINS_FLAT_FINISH -> RaceOuterClass.Stage.ProfileType.PROFILE_TYPE_MOUNTAINS_FLAT_FINISH
+                            Race.Stage.ProfileType.MOUNTAINS_UPHILL_FINISH -> RaceOuterClass.Stage.ProfileType.PROFILE_TYPE_MOUNTAINS_UPHILL_FINISH
+                            null -> RaceOuterClass.Stage.ProfileType.PROFILE_TYPE_UNSPECIFIED
                         }
-                        timeTrial = stage.timeTrial
                         stage.departure?.let { departure = it }
                         stage.arrival?.let { arrival = it }
+                        stageType = when (stage.stageType) {
+                            Race.Stage.StageType.REGULAR -> RaceOuterClass.Stage.StageType.STAGE_TYPE_REGULAR
+                            Race.Stage.StageType.INDIVIDUAL_TIME_TRIAL -> RaceOuterClass.Stage.StageType.STAGE_TYPE_INDIVIDUAL_TIME_TRIAL
+                            Race.Stage.StageType.TEAM_TIME_TRIAL -> RaceOuterClass.Stage.StageType.STAGE_TYPE_TEAM_TIME_TRIAL
+                        }
                         addAllResult(
                             stage.result.map { participantResult ->
                                 RaceOuterClass.ParticipantResult.newBuilder().apply {

@@ -167,7 +167,8 @@ class PCSRacesScraper(
             startTimeCET = startTimeCET,
             distance = distance,
             type = type,
-            timeTrial = isIndividualTimeTrial || isTeamTimeTrial,
+            individualTimeTrial = isIndividualTimeTrial,
+            teamTimeTrial = isTeamTimeTrial,
             departure = departure,
             arrival = arrival,
             result = result,
@@ -298,10 +299,14 @@ class PCSRacesScraper(
             id = stageId,
             startDateTime = startDateTime,
             distance = pcsStage.distance.split(" ").first().toFloat(),
-            type = pcsTypeIndex?.let { Race.Stage.Type.values()[pcsTypeIndex] },
-            timeTrial = pcsStage.timeTrial,
+            profileType = pcsTypeIndex?.let { Race.Stage.ProfileType.values()[pcsTypeIndex] },
             departure = pcsStage.departure,
             arrival = pcsStage.arrival,
+            stageType = when {
+                pcsStage.individualTimeTrial -> Race.Stage.StageType.INDIVIDUAL_TIME_TRIAL
+                pcsStage.teamTimeTrial -> Race.Stage.StageType.TEAM_TIME_TRIAL
+                else -> Race.Stage.StageType.REGULAR
+            },
             result = result,
             gcResult = gcResult,
         )

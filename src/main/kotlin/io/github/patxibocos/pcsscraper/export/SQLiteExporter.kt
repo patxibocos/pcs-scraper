@@ -138,9 +138,10 @@ internal class SQLiteExporter(destination: File) : Exporter {
         val id = text("id")
         private val startDateTime = text("start_date_time")
         private val distance = float("distance")
-        private val type = text("type").nullable()
+        private val profile_type = text("profile_type").nullable()
         private val departure = text("departure").nullable()
         private val arrival = text("arrival").nullable()
+        private val stage_type = text("stage_type")
         val raceId = text("race_id") references DbRace.id
 
         override val primaryKey: PrimaryKey
@@ -150,9 +151,10 @@ internal class SQLiteExporter(destination: File) : Exporter {
             insertStatement[id] = t.id
             insertStatement[startDateTime] = t.startDateTime.toString()
             insertStatement[distance] = t.distance
-            insertStatement[type] = t.type?.name
+            insertStatement[profile_type] = t.profileType?.name
             insertStatement[departure] = t.departure
             insertStatement[arrival] = t.arrival
+            insertStatement[stage_type] = t.stageType.name
         }
     }
 

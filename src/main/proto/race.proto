@@ -25,19 +25,26 @@ message Stage {
   google.protobuf.Timestamp start_date_time = 2;
   float distance = 3;
   repeated ParticipantResult result = 4;
-  Type type = 5;
+  ProfileType profile_type = 5;
   optional string departure = 6;
   optional string arrival = 7;
-  bool time_trial = 8;
+  StageType stage_type = 8;
   repeated ParticipantResult gcResult = 9;
 
-  enum Type {
-    TYPE_UNSPECIFIED = 0;
-    TYPE_FLAT = 1;
-    TYPE_HILLS_FLAT_FINISH = 2;
-    TYPE_HILLS_UPHILL_FINISH = 3;
-    TYPE_MOUNTAINS_FLAT_FINISH = 4;
-    TYPE_MOUNTAINS_UPHILL_FINISH = 5;
+  enum ProfileType {
+    PROFILE_TYPE_UNSPECIFIED = 0;
+    PROFILE_TYPE_FLAT = 1;
+    PROFILE_TYPE_HILLS_FLAT_FINISH = 2;
+    PROFILE_TYPE_HILLS_UPHILL_FINISH = 3;
+    PROFILE_TYPE_MOUNTAINS_FLAT_FINISH = 4;
+    PROFILE_TYPE_MOUNTAINS_UPHILL_FINISH = 5;
+  }
+
+  enum StageType {
+    STAGE_TYPE_UNSPECIFIED = 0;
+    STAGE_TYPE_REGULAR = 1;
+    STAGE_TYPE_INDIVIDUAL_TIME_TRIAL = 2;
+    STAGE_TYPE_TEAM_TIME_TRIAL = 3;
   }
 }
 
