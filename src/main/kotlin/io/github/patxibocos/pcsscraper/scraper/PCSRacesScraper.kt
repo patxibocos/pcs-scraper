@@ -229,11 +229,24 @@ class PCSRacesScraper(
             website = pcsRace.website,
             stages = pcsRace.stages.map { pcsStageToStage(it) },
             startList = pcsRace.startList.map { pcsTeamParticipationToTeamParticipation(it) },
-            result = pcsParticipantResultToParticipantResult(pcsRace.result)
+            result = pcsParticipantResultToRiderResult(pcsRace.result)
         )
     }
 
-    private fun pcsParticipantResultToParticipantResult(pcsParticipantResults: List<PCSParticipantResult>): List<Race.ParticipantResult> {
+    private fun pcsParticipantResultToTeamResult(pcsParticipantResults: List<PCSParticipantResult>): List<Race.ParticipantResult> {
+        if (pcsParticipantResults.isEmpty()) {
+            return emptyList()
+        }
+        return pcsParticipantResults.take(10).map {
+            val position = it.position.toInt()
+            val team = it.participant.split("/").last()
+            val (minutes, seconds) = it.time.split(":").map(String::toInt)
+            val time = (minutes.minutes + seconds.seconds).inWholeSeconds
+            Race.ParticipantResult(position, team, time)
+        }
+    }
+
+    private fun pcsParticipantResultToRiderResult(pcsParticipantResults: List<PCSParticipantResult>): List<Race.ParticipantResult> {
         if (pcsParticipantResults.isEmpty()) {
             return emptyList()
         }
@@ -293,8 +306,12 @@ class PCSRacesScraper(
             .joinToString("/")
             .replace("/", "-")
             .replace("result", "stage-1") // For single day races where stage info is on the result page
-        val result = pcsParticipantResultToParticipantResult(pcsStage.result)
-        val gcResult = pcsParticipantResultToParticipantResult(pcsStage.gcResult)
+        val result = if (pcsStage.teamTimeTrial) {
+            pcsParticipantResultToTeamResult(pcsStage.result)
+        } else {
+            pcsParticipantResultToRiderResult(pcsStage.result)
+        }
+        val gcResult = pcsParticipantResultToRiderResult(pcsStage.gcResult)
         return Race.Stage(
             id = stageId,
             startDateTime = startDateTime,
