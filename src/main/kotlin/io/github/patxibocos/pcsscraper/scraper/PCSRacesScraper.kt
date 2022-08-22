@@ -132,7 +132,7 @@ class PCSRacesScraper(
             null
         }
         val distance = infoList.findByIndex(4, "li > div:nth-child(2)").ownText
-        val type = infoList.findByIndex(6, "li").findFirst("span").classNames.last()
+        val type = infoList.findByIndex(7, "li").findFirst("span").classNames.last()
         val stageTitle = stageDoc.findFirst(".sub > span:nth-child(3)").text
         val isIndividualTimeTrial = stageTitle.contains("ITT")
         val isTeamTimeTrial = stageTitle.contains("TTT")
