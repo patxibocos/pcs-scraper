@@ -122,22 +122,22 @@ class PCSRacesScraper(
     private suspend fun getStage(stageUrl: String, isSingleDayRace: Boolean): PCSStage = coroutineScope {
         val stageURL = buildURL(stageUrl)
         val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
-        val infoList = stageDoc.findFirst("ul.infolist")
-        val startDate = infoList.findFirst("li > div:nth-child(2)").ownText
-        val startTime = infoList.findSecond("li > div:nth-child(2)").ownText
+        val infoList = stageDoc.findAll("ul.infolist > li > div:first-child")
+        val startDate = siblingOfMatchingElement(infoList, "Date").ownText
+        val startTime = siblingOfMatchingElement(infoList, "Start time").ownText
         val startTimeCET = if (startTime.isNotBlank() && startTime != "-") {
             val cetTimePart = startTime.substring(startTime.indexOf('(') + 1)
             cetTimePart.substring(0, 5)
         } else {
             null
         }
-        val distance = infoList.findByIndex(4, "li > div:nth-child(2)").ownText
-        val type = infoList.findByIndex(7, "li").findFirst("span").classNames.last()
+        val distance = siblingOfMatchingElement(infoList, "Distance").ownText
+        val type = siblingOfMatchingElement(infoList, "Parcours type").findFirst("span").classNames.last()
         val stageTitle = stageDoc.findFirst(".sub > span:nth-child(3)").text
         val isIndividualTimeTrial = stageTitle.contains("ITT")
         val isTeamTimeTrial = stageTitle.contains("TTT")
-        val departure = infoList.findByIndex(9, "li").findFirst("a").text.ifEmpty { null }
-        val arrival = infoList.findByIndex(10, "li").findFirst("a").text.ifEmpty { null }
+        val departure = siblingOfMatchingElement(infoList, "Departure").findFirst("a").text.ifEmpty { null }
+        val arrival = siblingOfMatchingElement(infoList, "Arrival").findFirst("a").text.ifEmpty { null }
         val result: List<PCSParticipantResult>
         val gcResult: List<PCSParticipantResult>
         when (isSingleDayRace) {
@@ -175,6 +175,9 @@ class PCSRacesScraper(
             gcResult = gcResult,
         )
     }
+
+    private fun siblingOfMatchingElement(docElements: List<DocElement>, selector: String): DocElement =
+        docElements.find { it.text.startsWith(selector) }!!.siblings.first()
 
     private fun getResult(resultsTable: DocElement): List<PCSParticipantResult> {
         val resultColumns = resultsTable.thead { tr { findAll("th") } }
