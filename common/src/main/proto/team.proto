@@ -2,10 +2,6 @@ syntax = "proto3";
 package io.github.patxibocos.pcsscraper.protobuf;
 option go_package = "github.com/patxibocos/pcsscraper";
 
-message Teams {
-  repeated Team teams = 1;
-}
-
 message Team {
   string id = 1;
   string name = 2;
