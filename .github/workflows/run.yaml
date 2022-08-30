@@ -47,12 +47,14 @@ jobs:
           gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.FIREBASE_SERVICE_ACCOUNT_PASSPHRASE }}" --output firebase.service-account.json firebase.service-account.json.asc
           echo "GOOGLE_APPLICATION_CREDENTIALS=$(echo $(pwd)/firebase.service-account.json)" >> $GITHUB_ENV
       - name: Run scraper
-        run: java -jar build/libs/pcs-scraper.jar -s 2022 -c cache -d out ${{ inputs.formats }} -st 20m -rd 1s
+        run: java -jar scraper/build/libs/scraper.jar -s 2022 -c cache -d out ${{ inputs.formats }} -st 20m -rd 1s
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_S3_OBJECT_KEY: ${{ secrets.AWS_S3_OBJECT_KEY }}
+      - name: Run diff publisher
+        run: java -jar diff-publisher/build/libs/diff-publisher.jar
       - name: Upload output
         uses: actions/upload-artifact@v3
         if: ${{ inputs.upload-artifact }}
