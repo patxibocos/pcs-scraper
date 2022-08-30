@@ -6,6 +6,7 @@ import com.google.firebase.FirebaseOptions
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.google.firebase.remoteconfig.ParameterValue
 import io.github.patxibocos.pcsscraper.protobuf.CyclingDataOuterClass
+import io.github.patxibocos.pcsscraper.protobuf.RaceOuterClass.ParticipantResult
 import mu.KotlinLogging
 import org.slf4j.Logger
 import java.io.ByteArrayInputStream
@@ -13,8 +14,6 @@ import java.util.Base64
 import java.util.zip.GZIPInputStream
 
 fun main() {
-    val logger: Logger = KotlinLogging.logger {}
-    logger.info("POLLA")
     val options = FirebaseOptions.builder()
         .setCredentials(GoogleCredentials.getApplicationDefault())
         .build()
@@ -36,6 +35,8 @@ fun main() {
     val lastCyclingData = CyclingDataOuterClass.CyclingData.parseFrom(decodeBase64ThenUnzip(lastVersionData))
     val previousCyclingData =
         CyclingDataOuterClass.CyclingData.parseFrom(decodeBase64ThenUnzip(previousVersionData))
+
+    checkNewStagesWithResults(lastCyclingData, previousCyclingData)
 }
 
 private fun decodeBase64ThenUnzip(gzipBase64: String) =
@@ -44,3 +45,20 @@ private fun decodeBase64ThenUnzip(gzipBase64: String) =
             inputStream
         ).use { it.readBytes() }
     }
+
+private fun checkNewStagesWithResults(
+    lastData: CyclingDataOuterClass.CyclingData,
+    previousData: CyclingDataOuterClass.CyclingData
+) {
+    val logger: Logger = KotlinLogging.logger {}
+    val lastStageResults = lastData.racesList.flatMap { it.stagesList }.associate { it.id to it.resultList }
+    val previousStageResults = previousData.racesList.flatMap { it.stagesList }.associate { it.id to it.resultList }
+    val newStageResults: MutableList<Pair<String, List<ParticipantResult>>> = mutableListOf()
+    lastStageResults.forEach { (stageId, stageResults) ->
+        val previousResults = previousStageResults[stageId]
+        if (previousResults != null && previousResults.isEmpty() && stageResults.isNotEmpty()) {
+            logger.info("Results available for $stageId")
+            newStageResults.add(stageId to stageResults)
+        }
+    }
+}
