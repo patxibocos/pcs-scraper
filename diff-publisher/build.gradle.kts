@@ -3,7 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     application
     idea
-    kotlin("jvm") version "1.7.0"
+    kotlin("jvm") version "1.7.20"
 }
 
 group = "io.github.patxibocos"
