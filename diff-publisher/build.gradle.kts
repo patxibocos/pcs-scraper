@@ -2,8 +2,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     application
-    idea
-    kotlin("jvm") version "1.7.20"
+    kotlin("jvm")
 }
 
 group = "io.github.patxibocos"
@@ -21,9 +20,9 @@ repositories {
 dependencies {
     implementation(libs.firebase.admin)
     implementation(libs.kotlin.logging)
-    implementation(libs.log4j.api)
+    implementation(libs.log4j.api.kotlin)
     implementation(libs.log4j.core)
-    implementation(libs.log4j.slf4j.impl)
+    implementation(libs.log4j.slf4j2.impl)
 
     implementation(project(":common"))
 }

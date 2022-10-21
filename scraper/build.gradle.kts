@@ -3,7 +3,7 @@ import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 plugins {
     application
     idea
-    kotlin("jvm") version "1.7.20"
+    kotlin("jvm")
     kotlin("plugin.serialization") version "1.7.20"
 }
 
@@ -27,14 +27,12 @@ dependencies {
     implementation(libs.kotlin.cli)
     implementation(libs.kotlin.logging)
     implementation(libs.kotlin.serialization.json)
-    implementation(libs.log4j.api)
+    implementation(libs.log4j.api.kotlin)
     implementation(libs.log4j.core)
-    implementation(libs.log4j.slf4j.impl)
+    implementation(libs.log4j.slf4j2.impl)
     implementation(libs.ktor.client.core)
     implementation(libs.ktor.client.cio)
-    implementation(libs.skrapeit) {
-        exclude(group = "ch.qos.logback", module = "logback-classic")
-    }
+    implementation(libs.skrapeit)
     implementation(libs.sqlite.jdbc)
 
     implementation(project(":common"))

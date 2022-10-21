@@ -1,5 +1,7 @@
 plugins {
     id("com.diffplug.spotless") version "6.4.1"
+    kotlin("jvm") version "1.7.20" apply false
+    idea
 }
 
 subprojects {
