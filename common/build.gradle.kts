@@ -2,6 +2,7 @@ import com.google.protobuf.gradle.protobuf
 import com.google.protobuf.gradle.protoc
 
 plugins {
+    idea
     kotlin("jvm")
     id("com.google.protobuf") version "0.8.18"
 }
