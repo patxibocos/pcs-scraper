@@ -1,6 +1,5 @@
 import com.google.protobuf.gradle.protobuf
 import com.google.protobuf.gradle.protoc
-import org.jetbrains.kotlin.gradle.tasks.KotlinCompile
 
 plugins {
     kotlin("jvm")
@@ -13,14 +12,14 @@ protobuf {
     }
 }
 
+kotlin {
+    jvmToolchain(11)
+}
+
 repositories {
     mavenCentral()
 }
 
 dependencies {
     implementation(libs.protobuf.kotlin)
-}
-
-tasks.withType<KotlinCompile> {
-    kotlinOptions.jvmTarget = "17"
 }

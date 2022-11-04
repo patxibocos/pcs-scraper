@@ -9,7 +9,7 @@ end up building different model entities that will be serialized and exported.
 
 ## Setup ⚙️
 
-The single requirement to run this application is **Java 8**.
+The single requirement to run this application is **Java 11**.
 
 Once installed, the app must be built using the included Gradle wrapper:
 
