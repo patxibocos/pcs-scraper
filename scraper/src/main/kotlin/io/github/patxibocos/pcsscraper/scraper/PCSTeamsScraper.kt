@@ -24,7 +24,7 @@ class PCSTeamsScraper(
         logger.info("Scraping teams for $season season")
         getTeamsUrls(season).map { teamUrl ->
             async { getTeam(teamUrl, season) }
-        }.awaitAll().map(::pcsTeamToTeam).sortedBy { it.name }
+        }.awaitAll().mapNotNull(::pcsTeamToTeam).sortedBy { it.name }
     }
 
     private suspend fun getTeamsUrls(season: Int): List<String> {
@@ -73,11 +73,16 @@ class PCSTeamsScraper(
     private fun getTeamRiders(teamDoc: Doc): List<String> =
         teamDoc.findAll(".ttabs.tabb a").map { it.attribute("href") }
 
-    private fun pcsTeamToTeam(pcsTeam: PCSTeam): Team =
-        Team(
+    private fun pcsTeamToTeam(pcsTeam: PCSTeam): Team? {
+        val teamStatus = try {
+            Team.Status.valueOf(pcsTeam.status)
+        } catch (_: Exception) {
+            return null
+        }
+        return Team(
             id = pcsTeam.url.split("/").last(),
             name = pcsTeam.name,
-            status = Team.Status.valueOf(pcsTeam.status),
+            status = teamStatus,
             abbreviation = pcsTeam.abbreviation,
             country = pcsTeam.country.uppercase(),
             bike = pcsTeam.bike,
@@ -86,6 +91,7 @@ class PCSTeamsScraper(
             year = pcsTeam.year,
             riders = pcsTeam.riders.map { it.split("/").last() },
         )
+    }
 
     private fun Doc.getWebsite(): String? =
         findFirst(".sites .website").takeIf {
