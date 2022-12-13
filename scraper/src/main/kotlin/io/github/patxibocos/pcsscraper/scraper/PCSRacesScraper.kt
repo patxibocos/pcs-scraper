@@ -54,18 +54,18 @@ class PCSRacesScraper(
         val infoList = raceDoc.ul { withClass = "infolist"; this }
         val header = raceDoc.findAll(".page-topnav > ul > li")
         val participantsIndex = header.indexOfFirst { it.text == "Startlist" }
-        val resultsIndex = header.indexOfFirst { it.text == "Results" }
-        val stagesIndex = header.indexOfFirst { it.text.startsWith("Stages") }
         val raceParticipantsUrl = header[participantsIndex].a { findFirst { attribute("href") } }
-        val raceResultUrl = header[resultsIndex].a { findFirst { attribute("href") } }
-        val stagesUrl = header[stagesIndex].a { findFirst { attribute("href") } }
         val startDate = infoList.findFirst("li").findSecond("div").ownText
         val endDate = infoList.findSecond("li").findSecond("div").ownText
         val name = raceDoc.findFirst(".main > h1").text
         val stages = if (startDate == endDate) {
+            val resultsIndex = header.indexOfFirst { it.text == "Results" }
+            val raceResultUrl = header[resultsIndex].a { findFirst { attribute("href") } }
             listOf(getStage(raceResultUrl, true))
         } else {
             logger.info("Scraping stages for race $name")
+            val stagesIndex = header.indexOfFirst { it.text.startsWith("Stages") }
+            val stagesUrl = header[stagesIndex].a { findFirst { attribute("href") } }
             getStages(stagesUrl)
         }
         val country = raceDoc.getCountry()

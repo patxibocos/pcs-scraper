@@ -24,7 +24,7 @@ This will place a runnable Java jar under **build/libs** directory.
 The app can be executed from the command line:
 
 ```shell
-java -jar pcs-scraper.jar
+java -jar scraper/build/libs/scraper.jar -h
 ```
 
 ```shell
