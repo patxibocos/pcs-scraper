@@ -25,7 +25,7 @@
 <title>Senne  Leysen </title>
 <base href="https://www.procyclingstats.com/rider.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/rider/senne-leysen" />
-<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Senne Leysen (born 1996-03-18) is a professional road racing cyclist from Belgium, currently riding for Alpecin-Deceuninck.">
+<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Senne Leysen (born 1996-03-18 in Tielen) is a professional road racing cyclist from Belgium, currently riding for Alpecin-Deceuninck. His best results are 24th place in KOM Paris - Nice and 44th place in stage Giro d'Italia.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="utf-8"> 
@@ -34,20 +34,23 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a133.css" />
-
-<script src="https://www.procyclingstats.com/pcs_s58.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a160.css" />
+	
+<script src="https://www.procyclingstats.com/pcs_s65.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
-<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-icon.ico" />
+<link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon.ico" />
+ 
 </head>
 <body>
 <div class="wrapper">
-  <header class="  ">
+  <header class="">
     <div class="cont">
-    	<a class="logo4" href="index.php"><ul><li class="r">P</li><li class="r">C</li><li class="z">S</li></ul></a>
-
+    	<a  class="logo" href="index.php"></a>  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
-    		<input type="text" name="term" id="search" data-nav="rider/-id-" data-page="rider" class="search4"  placeholder="search"  /></form> 
+    		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
       	<a class="mobMenu" href="">Menu&#x25BC;</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
@@ -55,8 +58,8 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
@@ -69,24 +72,24 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-wanty-gobert-materiaux-2022">Intermarché - Wanty - Gobert Matériaux</a></li>
-<li><a href="team/israel-premier-tech-2022">Israel - Premier Tech</a></li>
-<li><a href="team/lotto-soudal-2022">Lotto Soudal</a></li>
-<li><a href="team/movistar-team-2022">Movistar Team</a></li>
-<li><a href="team/quick-step-alpha-vinyl-2022">Quick-Step Alpha Vinyl Team</a></li>
-<li><a href="team/team-bikeexchange-jayco-2022">Team BikeExchange Jayco </a></li>
-<li><a href="team/team-dsm-2022">Team DSM</a></li>
-<li><a href="team/team-jumbo-visma-2022">Team Jumbo-Visma</a></li>
-<li><a href="team/trek-segafredo-2022">Trek - Segafredo</a></li>
-<li><a href="team/ag2r-citroen-team-2022">AG2R Citroën Team</a></li>
-<li><a href="team/uae-team-emirates-2022">UAE-Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2022">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2022">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2022">Cofidis</a></li>
-<li><a href="team/ef-education-easypost-2022">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2022">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2022">INEOS Grenadiers</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -95,13 +98,7 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 red"><a class="reg" href="race/vuelta-a-espana/2022/overview">Vuelta</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/vuelta-a-espana/2022/startlist">Startlist</a></li>
-<li><a href="race/vuelta-a-espana/2022/history">Palmares</a></li>
-<li><a href="race/vuelta-a-espana/2022/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/vuelta-a-espana/2022/stages/all-stage-profiles">Stage profiles</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
-<li><a href="livestats">LiveStats</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
@@ -118,13 +115,14 @@
 			 </div>
 			 <a class="user4" data-logged="0" href="login.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
-<div class="content  "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/senne-leysen">Overview</a></li>
+<div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/senne-leysen">Overview</a></li>
 <li class="reg "><a class="" href="rider/senne-leysen/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/senne-leysen/statistics/overview">Overview</a></li>
-<li><a href="rider/senne-leysen/statistics/wins">Wins</a></li>
 <li><a href="rider/senne-leysen/statistics/season-statistics">Statistics by season</a></li>
-<li><a href="rider/senne-leysen/statistics/most-starts-by-race">Most starts by race</a></li>
 <li><a href="rider/senne-leysen/statistics/world-map-of-rider-races">World map of rider races</a></li>
-<li><a href="rider/senne-leysen/statistics/grand-tour-starts">Grand tour starts</a></li>
+<li><a href="rider/senne-leysen/statistics/wins">Wins</a></li>
+<li><a href="rider/senne-leysen/statistics/most-starts-by-race">Most starts by race</a></li>
+<li><a href="rider/senne-leysen/statistics/grand-tour-starts">Starts and results</a></li>
+<li><a href="rider/senne-leysen/statistics/injury-history">Injury history</a></li>
 </ul></li>
 <li class="reg "><a class="" href="rider/senne-leysen/results">Results</a></li>
 <li class="reg "><a class="" href="rider/senne-leysen/head-to-head">Head to head</a></li>
@@ -136,139 +134,85 @@
 <li><a href="rider/senne-leysen/contribute/contribute-family">Family</a></li>
 <li><a href="rider/senne-leysen/contribute/embed-rider-results">Embed rider results</a></li>
 </ul></li>
-<li class="more"><a href="rider/senne-leysen">More</a><ul><li data-n="0"><a href="rider/senne-leysen/overview/start">Overview - Start</a></li><li data-n="1"><a href="rider/senne-leysen/statistics/overview">Statistics - Overview</a></li><li data-n="1"><a href="rider/senne-leysen/statistics/wins">Wins</a></li>
+<li class="more"><a href="rider/senne-leysen">More</a><ul><li data-n="0"><a href="rider/senne-leysen/overview/overview">Overview - Overview</a></li><li data-n="1"><a href="rider/senne-leysen/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/senne-leysen/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="rider/senne-leysen/statistics/season-statistics">Statistics by season</a></li>
-<li data-n="1"><a href="rider/senne-leysen/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/senne-leysen/statistics/world-map-of-rider-races">World map of rider races</a></li>
-<li data-n="1"><a href="rider/senne-leysen/statistics/grand-tour-starts">Grand tour starts</a></li>
-<li data-n="2"><a href="rider/senne-leysen/results/all">Results - All results</a></li><li data-n="3"><a href="rider/senne-leysen/head-to-head/start">Head to head - Head-to-head</a></li><li data-n="4"><a href="rider/senne-leysen/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/senne-leysen/contribute/contribute-info">More - Contribute info</a></li><li data-n="5"><a href="rider/senne-leysen/contribute/submit-program">Submit program</a></li>
+<li data-n="1"><a href="rider/senne-leysen/statistics/wins">Wins</a></li>
+<li data-n="1"><a href="rider/senne-leysen/statistics/most-starts-by-race">Most starts by race</a></li>
+<li data-n="1"><a href="rider/senne-leysen/statistics/grand-tour-starts">Starts and results</a></li>
+<li data-n="1"><a href="rider/senne-leysen/statistics/injury-history">Injury history</a></li>
+<li data-n="2"><a href="rider/senne-leysen/results/results">Results - Results</a></li><li data-n="3"><a href="rider/senne-leysen/head-to-head/head-to-head">Head to head - Head to head</a></li><li data-n="4"><a href="rider/senne-leysen/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/senne-leysen/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/senne-leysen/contribute/contribute-info">Contribute info</a></li>
+<li data-n="5"><a href="rider/senne-leysen/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/senne-leysen/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/senne-leysen/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/senne-leysen/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/senne-leysen/contribute/embed-rider-results">Embed rider results</a></li>
-</ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag be w32"></span><span class="flag be w24"></span><h1 class="">Senne  Leysen</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Alpecin-Deceuninck</span></div><div class="sub"><span class="red showIfMobile">Alpecin-Deceuninck</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="" >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/senne-leysen/statistics/overview"><img src="images/riders/bp/cc/senne-leysen-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 18<sup>th</sup> March 1996 (26)<br /><b>Nationality:</b> <span class="flag  be"></span><a class="black" href="nation/belgium">Belgium</a><br /><span><b>Weight:</b> 78 kg &nbsp; <span><b>Height:</b> 1.90 m<br /><b>Place of birth:</b> <a href="location.php?id=5640">Tielen</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 55.639097744361%; height: 100%;  "></div></div><div class="pnt">74</div><div class="title"><a href="rider/senne-leysen/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 78.947368421053%; height: 100%;  "></div></div><div class="pnt">105</div><div class="title"><a href="rider/senne-leysen/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 100%; height: 100%;  "></div></div><div class="pnt">133</div><div class="title"><a href="rider/senne-leysen/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 32.330827067669%; height: 100%;  "></div></div><div class="pnt">43</div><div class="title"><a href="rider/senne-leysen/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 12.03007518797%; height: 100%;  "></div></div><div class="pnt">16</div><div class="title"><a href="rider/senne-leysen/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+</ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag be w32"></span><span class="flag be w24"></span><h1 class="">Senne  Leysen</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Alpecin-Deceuninck</span></div><div class="sub"><span class="red showIfMobile">Alpecin-Deceuninck</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
+<div class="text-regular"><span>LIVE</span> <a class="blue" href="race/tour-down-under/2023/stage-2/live/livestats">Santos Tour Down Under | Stage 2</a></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/senne-leysen/statistics/overview"><img alt="Profile photo of Senne  Leysen" src="images/riders/bp/cc/senne-leysen-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 18<sup>th</sup> March 1996 (26)<br /><b>Nationality:</b> <span class="flag  be"></span><a class="black" href="nation/belgium">Belgium</a><br /><span><b>Weight:</b> 78 kg &nbsp; <span><b>Height:</b> 1.90 m<br /><b>Place of birth:</b> <a href="location/tielen">Tielen</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 55.639097744361%; height: 100%;  "></div></div><div class="pnt">74</div><div class="title"><a href="rider/senne-leysen/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 78.947368421053%; height: 100%;  "></div></div><div class="pnt">105</div><div class="title"><a href="rider/senne-leysen/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 100%; height: 100%;  "></div></div><div class="pnt">133</div><div class="title"><a href="rider/senne-leysen/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 30.827067669173%; height: 100%;  "></div></div><div class="pnt">41</div><div class="title"><a href="rider/senne-leysen/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 12.781954887218%; height: 100%;  "></div></div><div class="pnt">17</div><div class="title"><a href="rider/senne-leysen/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><div class=""><span>LIVE</span> <a class="blue" href="race/tour-down-under/2023/stage-2/live/livestats">Santos Tour Down Under | Stage 2</a></div></div>
+<div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/2922866">strava</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/senneleysen/?hl=nl">instagram</a></li>
 <li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/LeysenSenne">twitter</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/senne.leysen.3">facebook</a></li>
 </ul></div>
 <div class="">
-<ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World Ranking</a></div><div class="rnk   "  >2100</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >820</div><div class="clear"></div></li>
-</ul></div>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >2360</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >897</div><div class="clear"></div></li>
+</ul></span></div>
 <div class="">
-<ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;31</span></div><div >  this week</div><div class="clear"></div></li>
-</ul></div>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;279</span></div><div >  this week</div><div class="clear"></div></li>
+</ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="4" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">24th&nbsp;</div><div><span class="blue">KOM</span> <a href="race/paris-nice/2022/stage-8-kom">Paris - Nice</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">44th&nbsp;</div><div><span class="blue">stage</span> <a href="race/giro-d-italia/2021/stage-21">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">45th&nbsp;</div><div><span class="blue">stage</span> <a href="race/giro-d-italia/2021/stage-16">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">45th&nbsp;</div><div><span class="blue">stage</span> <a href="race/volta-ao-algarve/2020/stage-5">Volta ao Algarve em Bicicleta</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-bitwa-warszawska-1920/2020/gc">Tour Bitwa Warszawska 1920</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">45th&nbsp;</div><div><span class="blue">stage</span> <a href="race/volta-ao-algarve/2020/stage-5">Volta ao Algarve em Bicicleta</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">22nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/benelux-tour/2021/stage-2">Benelux Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">39th&nbsp;</div><div><span class="blue">GC</span> <a href="race/benelux-tour/2020/gc">BinckBank Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">31st&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-britain/2017/stage-7">OVO Energy Tour of Britain</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">39th&nbsp;</div><div><span class="blue">GC</span> <a href="race/benelux-tour/2020/gc">BinckBank Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-bitwa-warszawska-1920/2020/stage-3">Tour Bitwa Warszawska 1920</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">39th&nbsp;</div><div><span class="blue">stage</span> <a href="race/benelux-tour/2019/stage-3">BinckBank Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">45th&nbsp;</div><div><span class="blue">stage</span> <a href="race/benelux-tour/2020/stage-5">BinckBank Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">47th&nbsp;</div><div><span class="blue">stage</span> <a href="race/benelux-tour/2020/stage-4">BinckBank Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">50th&nbsp;</div><div><span class="blue">stage</span> <a href="race/benelux-tour/2020/stage-3">BinckBank Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">39th&nbsp;</div><div><span class="blue">stage</span> <a href="race/benelux-tour/2019/stage-3">BinckBank Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/alpecin-deceuninck-2022">Alpecin-Deceuninck</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/alpecin-fenix-2022">Alpecin-Fenix</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2021</div><div class="name   "  ><a    href="team/alpecin-fenix-2021">Alpecin-Fenix</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2020</div><div class="name   "  ><a    href="team/alpecin-fenix-2020">Alpecin-Fenix</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2019</div><div class="name   "  ><a    href="team/roompot-charles-2019">Roompot - Charles</a></div><div > (PCT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2018</div><div class="name   "  ><a    href="team/verandas-willems-crelan-2018">Vérandas Willems-Crelan </a></div><div > (PCT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2017</div><div class="name   "  ><a    href="team/lotto-soudal-2017">Lotto Soudal</a></div><div > (WT)</div><div class="fs10   "  > trainee as from 01/08</div><div class="clear"></div></li>
-</ul><a class="showFullList hide showIfMobile" href="">show more</a></div>
+</ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >23.08</div><div class="ellipsis   "  ><span class="flag be"></span> <a    href="race/gp-stad-zottegem/2022/startlist">Egmont Cycling Race</a></div><div class="fs11   "  ><a    href="rider.php?race=1679&id=176913&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
-<li class="" ><div class="bold   "  >24.08</div><div class="ellipsis   "  ><span class="flag be"></span> <a    href="race/druivenkoers-overijse/2022/startlist">Druivenkoers - Overijse</a></div><div class="fs11   "  ><a    href="rider.php?race=1164&id=176913&p=statistics&s=statistics-in-race">more</a></div><div class="clear"></div></li>
-</ul></div>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
+<div class=""><div class="">No races on program.</div></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
-</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2022" class="cur"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=""><a class="seasonResults" data-season="2013" href="">2013</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" "><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600 " style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>21.08</td><td>60</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/schaal-schels/2022/result">Schaal Sels Merksem/ Johan Museeuw Classic <span>(1.1)</span></a> </td><td class="cu600 ">114.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1162">more</a></td></tr>
-<tr data-main="1"><td>10.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/circuit-franco-belge/2022/result">Circuit Franco-Belge <span>(1.Pro)</span></a> </td><td class="cu600 ">175.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1102">more</a></td></tr>
-<tr data-main="1"><td>07.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/gp-jef-scherens/2022/result">Tour of Leuven - Memorial Jef Scherens <span>(1.1)</span></a> </td><td class="cu600 ">199.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1187">more</a></td></tr>
-<tr data-main="1"><td>30.07 &raquo; 05.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2022/stage-4">Tour de Pologne <span>(2.UWT)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
-<tr data-main="0"><td>02.08</td><td>DNS</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2022/stage-4">Stage 4 - Lesko &rsaquo; Sanok</a> </td><td class="cu600 ">179.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
-<tr data-main="0"><td>01.08</td><td>84</td><td class="gc cu600">88</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2022/stage-3">Stage 3 - Kraśnik &rsaquo; Przemyśl</a> </td><td class="cu600 ">237.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
-<tr data-main="0"><td>31.07</td><td>111</td><td class="gc cu600">100</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2022/stage-2">Stage 2 - Chełm &rsaquo; Zamość</a> </td><td class="cu600 ">205.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
-<tr data-main="0"><td>30.07</td><td>84</td><td class="gc cu600">85</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2022/stage-1">Stage 1 - Kielce &rsaquo; Lublin</a> </td><td class="cu600 ">218.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1041">more</a></td></tr>
-<tr data-main="1"><td>26.06</td><td>78</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/nc-belgium/2022/result">National Championships Belgium - Road Race <span>(NC)</span></a> </td><td class="cu600 ">208.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1658">more</a></td></tr>
-<tr data-main="1"><td>08.06 &raquo; 12.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag nl"></span><a href="race/zlm-tour/2022/gc">ZLM Tour <span>(2.Pro)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1208">more</a></td></tr>
-<tr data-main="0"><td></td><td>35</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag nl"></span><a href="race/zlm-tour/2022/gc">General classification</a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1208">more</a></td></tr>
-<tr data-main="0"><td>12.06</td><td>50</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag nl"></span><a href="race/zlm-tour/2022/stage-5">Stage 5 - Made &rsaquo; Rijsbergen</a> </td><td class="cu600 ">160.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1208">more</a></td></tr>
-<tr data-main="0"><td>11.06</td><td>57</td><td class="gc cu600">35</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag nl"></span><a href="race/zlm-tour/2022/stage-4">Stage 4 - Sint Willebrord &rsaquo; Mierlo</a> </td><td class="cu600 ">196.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1208">more</a></td></tr>
-<tr data-main="0"><td>10.06</td><td>40</td><td class="gc cu600">36</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag nl"></span><a href="race/zlm-tour/2022/stage-3">Stage 3 - Heythuysen &rsaquo; Buchten</a> </td><td class="cu600 ">192.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1208">more</a></td></tr>
-<tr data-main="0"><td>09.06</td><td>37</td><td class="gc cu600">41</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag nl"></span><a href="race/zlm-tour/2022/stage-2">Stage 2 - Veere &rsaquo; Goes</a> </td><td class="cu600 ">183.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1208">more</a></td></tr>
-<tr data-main="0"><td>08.06</td><td>76</td><td class="gc cu600">77</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag nl"></span><a href="race/zlm-tour/2022/stage-1">Stage 1 - Kapelle &rsaquo; Kapelle</a> </td><td class="cu600 ">100.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1208">more</a></td></tr>
-<tr data-main="1"><td>05.06</td><td>66</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/brussels-cycling-classic/2022/result">Brussels Cycling Classic <span>(1.Pro)</span></a> </td><td class="cu600 ">203.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1064">more</a></td></tr>
-<tr data-main="1"><td>06.05 &raquo; 29.05</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/gc">Giro d'Italia <span>(2.UWT)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td></td><td>118</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/gc">General classification</a> </td><td class="cu600 "></td><td class="cu600">20</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>29.05</td><td>77</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-21">Stage 21 (ITT) - Verona &rsaquo; Verona</a> </td><td class="cu600 ">17.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>28.05</td><td>114</td><td class="gc cu600">119</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-20">Stage 20 - Belluno &rsaquo; Marmolada (Passo Fedaia)</a> </td><td class="cu600 ">168</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>27.05</td><td>123</td><td class="gc cu600">117</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-19">Stage 19 - Marano Lagunare &rsaquo; Santuario di Castelmonte</a> </td><td class="cu600 ">178</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>26.05</td><td>111</td><td class="gc cu600">118</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-18">Stage 18 - Borgo Valsugana &rsaquo; Treviso</a> </td><td class="cu600 ">156</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>25.05</td><td>109</td><td class="gc cu600">119</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-17">Stage 17 - Ponte di Legno &rsaquo; Lavarone</a> </td><td class="cu600 ">168</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>24.05</td><td>90</td><td class="gc cu600">117</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-16">Stage 16 - Salò &rsaquo; Aprica</a> </td><td class="cu600 ">202</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>22.05</td><td>98</td><td class="gc cu600">124</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-15">Stage 15 - Rivarolo Canavese &rsaquo; Cogne</a> </td><td class="cu600 ">177</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>21.05</td><td>102</td><td class="gc cu600">123</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-14">Stage 14 - Santena &rsaquo; Torino</a> </td><td class="cu600 ">147</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>20.05</td><td>122</td><td class="gc cu600">128</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-13">Stage 13 - Sanremo &rsaquo; Cuneo</a> </td><td class="cu600 ">150</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>19.05</td><td>87</td><td class="gc cu600">123</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-12">Stage 12 - Parma &rsaquo; Genova</a> </td><td class="cu600 ">204</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>18.05</td><td>101</td><td class="gc cu600">130</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-11">Stage 11 - Santarcangelo di Romagna &rsaquo; Reggio Emilia</a> </td><td class="cu600 ">203</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>17.05</td><td>136</td><td class="gc cu600">131</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-10">Stage 10 - Pescara &rsaquo; Jesi</a> </td><td class="cu600 ">196</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>15.05</td><td>107</td><td class="gc cu600">120</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-9">Stage 9 - Isernia &rsaquo; Blockhaus</a> </td><td class="cu600 ">191</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>14.05</td><td>97</td><td class="gc cu600">119</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-8">Stage 8 - Napoli &rsaquo; Napoli</a> </td><td class="cu600 ">153</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>13.05</td><td>110</td><td class="gc cu600">127</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-7">Stage 7 - Diamante &rsaquo; Potenza</a> </td><td class="cu600 ">196</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>12.05</td><td>118</td><td class="gc cu600">118</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-6">Stage 6 - Palmi &rsaquo; Scalea</a> </td><td class="cu600 ">192</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>11.05</td><td>113</td><td class="gc cu600">119</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-5">Stage 5 - Catania &rsaquo; Messina</a> </td><td class="cu600 ">174</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>10.05</td><td>101</td><td class="gc cu600">120</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-4">Stage 4 - Avola &rsaquo; Etna</a> </td><td class="cu600 ">172</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>08.05</td><td>125</td><td class="gc cu600">133</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-3">Stage 3 - Kaposvár &rsaquo; Balatonfüred</a> </td><td class="cu600 ">201</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>07.05</td><td>84</td><td class="gc cu600">134</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-2">Stage 2 (ITT) - Budapest &rsaquo; Budapest</a> </td><td class="cu600 ">9.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="0"><td>06.05</td><td>138</td><td class="gc cu600">138</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2022/stage-1">Stage 1 - Budapest &rsaquo; Visegrád</a> </td><td class="cu600 ">195</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1039">more</a></td></tr>
-<tr data-main="1"><td>17.04</td><td>68</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-roubaix/2022/result">Paris-Roubaix <span>(1.UWT)</span></a> </td><td class="cu600 ">257.2</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1036">more</a></td></tr>
-<tr data-main="1"><td>12.04</td><td>75</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-camembert/2022/result">Paris - Camembert <span>(1.1)</span></a> </td><td class="cu600 ">213.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1170">more</a></td></tr>
-<tr data-main="1"><td>06.04</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/scheldeprijs/2022/result">Scheldeprijs <span>(1.Pro)</span></a> </td><td class="cu600 ">198.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1084">more</a></td></tr>
-<tr data-main="1"><td>06.03 &raquo; 13.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2022/stage-8-kom">Paris - Nice <span>(2.UWT)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1058">more</a></td></tr>
-<tr data-main="0"><td></td><td>24</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st7"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2022/stage-8-kom">Mountains classification</a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1058">more</a></td></tr>
-<tr data-main="0"><td></td><td>57</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2022/gc">General classification</a> </td><td class="cu600 "></td><td class="cu600">5</td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1058">more</a></td></tr>
-<tr data-main="0"><td>13.03</td><td>53</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2022/stage-8">Stage 8 - Nice &rsaquo; Nice</a> </td><td class="cu600 ">115.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1058">more</a></td></tr>
-<tr data-main="0"><td>12.03</td><td>54</td><td class="gc cu600">90</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2022/stage-7">Stage 7 - Nice &rsaquo; Col de Turini</a> </td><td class="cu600 ">155.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1058">more</a></td></tr>
-<tr data-main="0"><td>11.03</td><td>88</td><td class="gc cu600">106</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2022/stage-6">Stage 6 - Courthézon &rsaquo; Aubagne</a> </td><td class="cu600 ">213.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1058">more</a></td></tr>
-<tr data-main="0"><td>10.03</td><td>91</td><td class="gc cu600">118</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2022/stage-5">Stage 5 - Saint-Just-Saint-Rambert &rsaquo; Saint-Sauveur-de-Montagut</a> </td><td class="cu600 ">188.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1058">more</a></td></tr>
-<tr data-main="0"><td>09.03</td><td>87</td><td class="gc cu600">136</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2022/stage-4">Stage 4 (ITT) - Domérat &rsaquo; Montluçon</a> </td><td class="cu600 ">13.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1058">more</a></td></tr>
-<tr data-main="0"><td>08.03</td><td>143</td><td class="gc cu600">137</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2022/stage-3">Stage 3 - Vierzon &rsaquo; Dun-le-Palestel</a> </td><td class="cu600 ">190.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1058">more</a></td></tr>
-<tr data-main="0"><td>07.03</td><td>102</td><td class="gc cu600">126</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2022/stage-2">Stage 2 - Auffargis &rsaquo; Orléans</a> </td><td class="cu600 ">159.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1058">more</a></td></tr>
-<tr data-main="0"><td>06.03</td><td>120</td><td class="gc cu600">120</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2022/stage-1">Stage 1 - Mantes-la-Ville &rsaquo; Mantes-la-Ville</a> </td><td class="cu600 ">159.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1058">more</a></td></tr>
-<tr data-main="1"><td>01.03</td><td>93</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/gp-samyn/2022/result">Le Samyn <span>(1.1)</span></a> </td><td class="cu600 ">209</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1096">more</a></td></tr>
-<tr data-main="1"><td>26.02</td><td>94</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/omloop-het-nieuwsblad/2022/result">Omloop Het Nieuwsblad ME <span>(1.UWT)</span></a> </td><td class="cu600 ">204.2</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1024">more</a></td></tr>
-<tr data-main="1"><td>16.02 &raquo; 20.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2022/gc">Vuelta a Andalucia Ruta Ciclista Del Sol <span>(2.Pro)</span></a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1191">more</a></td></tr>
-<tr data-main="0"><td></td><td>94</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2022/gc">General classification</a> </td><td class="cu600 "></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1191">more</a></td></tr>
-<tr data-main="0"><td>20.02</td><td>70</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2022/stage-5">Stage 5 - Huesa &rsaquo; Chiclana de Segura</a> </td><td class="cu600 ">146.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1191">more</a></td></tr>
-<tr data-main="0"><td>19.02</td><td>70</td><td class="gc cu600">98</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2022/stage-4">Stage 4 - Cúllar Vega &rsaquo; Baza</a> </td><td class="cu600 ">167.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1191">more</a></td></tr>
-<tr data-main="0"><td>18.02</td><td>113</td><td class="gc cu600">100</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2022/stage-3">Stage 3 - Lucena &rsaquo; Otura</a> </td><td class="cu600 ">153.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1191">more</a></td></tr>
-<tr data-main="0"><td>17.02</td><td>78</td><td class="gc cu600">96</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2022/stage-2">Stage 2 - Archidona &rsaquo; Alcalá la Real</a> </td><td class="cu600 ">150.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1191">more</a></td></tr>
-<tr data-main="0"><td>16.02</td><td>115</td><td class="gc cu600">115</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2022/stage-1">Stage 1 - Ubrique &rsaquo; Iznájar</a> </td><td class="cu600 ">200.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider.php?id=176913&p=statistics&s=statistics-in-race&race=1191">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>8658</b> km in <b>53</b> days | PCS points: <b>35</b> |  UCI points: <b>6</b></div></div></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
-<ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/senne-leysen/statistics/wins">Wins</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
+</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2023" class=" "><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" "><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>17.01 &raquo; 22.01</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="race/tour-down-under/2023/stage-2">Santos Tour Down Under <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/senne-leysen/tour-down-under">more</a></td></tr>
+<tr data-main="0"><td>19.01</td><td>106</td><td class="gc cu600">113</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="race/tour-down-under/2023/stage-2">Stage 2 - Brighton &rsaquo; Victor Harbor</a> </td><td class="cu600">154.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/senne-leysen/tour-down-under">more</a></td></tr>
+<tr data-main="0"><td>18.01</td><td>58</td><td class="gc cu600">76</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="race/tour-down-under/2023/stage-1">Stage 1 - Tanunda &rsaquo; Tanunda</a> </td><td class="cu600">149.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/senne-leysen/tour-down-under">more</a></td></tr>
+<tr data-main="0"><td>17.01</td><td>87</td><td class="gc cu600">87</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag au"></span><a href="race/tour-down-under/2023/prologue">Prologue - Adelaide  &rsaquo; Adelaide </a> </td><td class="cu600">5.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/senne-leysen/tour-down-under">more</a></td></tr>
+<tr data-main="1"><td>14.01</td><td>63</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="national-race/schwalbe-classic/2023/result">Schwalbe Classic <span>(NAT)</span></a> </td><td class="cu600">52.65</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/senne-leysen/schwalbe-classic">more</a></td></tr>
+</tbody></table><div class="rdrResultsSum" ><div>363</b> km in <b>4</b> days | PCS points: <b>0</b> |  UCI points: <b>0</b></div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/senne-leysen/statistics/wins">Wins</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >2</div><div class="title   "  ><a    href="rider/senne-leysen/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (0) giro (2) vuelta(0)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >7</div><div class="title   "  ><a    href="rider/senne-leysen/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(4)</div><div class="info fs11   "  >MSR(2)</div><div class="info fs11   "  >RVV(1)</div><div class="info fs11   "  >LBL(0)</div><div class="info fs11   "  >LOM(0)</div><div class="clear"></div></li>
-</ul></div>
+</ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
-<table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 56%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">35</span></div></td><td class="ac  " >776</td></tr>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">50</span></div></td><td class="ac  " >691</td></tr>
-<tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 72%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">45</span></div></td><td class="ac  " >571</td></tr>
-<tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 60.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">38</span></div></td><td class="ac  " >1019</td></tr>
-<tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 12.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">8</span></div></td><td class="ac  " >1868</td></tr>
-<tr ><td class="season  " >2017</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 9.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">6</span></div></td><td class="ac  " >2002</td></tr>
-<tr ><td class="season  " >2015</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 17.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">11</span></div></td><td class="ac  " >1597</td></tr>
-</tbody></table></div>
+<span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 56%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">35</span></div></td><td class="ac  " >887</td></tr>
+<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">50</span></div></td><td class="ac  " >682</td></tr>
+<tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 72%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">45</span></div></td><td class="ac  " >569</td></tr>
+<tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 60.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">38</span></div></td><td class="ac  " >1015</td></tr>
+<tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 12.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">8</span></div></td><td class="ac  " >1871</td></tr>
+<tr ><td class="season  " >2017</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 9.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">6</span></div></td><td class="ac  " >2024</td></tr>
+<tr ><td class="season  " >2015</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 17.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">11</span></div></td><td class="ac  " >1601</td></tr>
+</tbody></table></span></div>
 <div class="mt30"><h3>Family</h3>
-<ul class="list"  style=" "><li class="" ><div ><a    href="rider/bart-leysen">Bart  Leysen</a></div><div > (Father)</div><div class="clear"></div></li>
-</ul></div>
+<span class="table-cont"><ul class="list"  style=" "><li class="" ><div ><a    href="rider/bart-leysen">Bart  Leysen</a></div><div > (Father)</div><div class="clear"></div></li>
+</ul></span></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
   var id = 176913; 
@@ -284,7 +228,7 @@ $(document).ready(function(){
     e.preventDefault();        
     discipline = $(this).attr('data-discipline');
     id = $(this).attr('data-rid');
-    //console.log('dis: '+discipline+', id: '+$(this).attr('data-rid')+', season: '+$(this).attr('data-season'));
+    console.log('dis: '+discipline+', id: '+$(this).attr('data-rid')+', season: '+$(this).attr('data-season'));
     $('.rdrSeasonNav').hide();
     $('.rdrSeasonNav[data-discipline="'+discipline+'"]').show(); 
     $(".rdrSeasonNav li").removeClass('cur');
@@ -340,42 +284,70 @@ $(document).ready(function(){
   <div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
-</ul></li>
-<li class="group"><h3>One day races</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
-<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
-<li><a href="race/il-lombardia">Il Lombardia</a></li>
-<li><a href="race/world-championship">World Championships</a></li>
-</ul></li>
-<li class="group"><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+</ul><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
 <li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
 <li><a href="race/tour-de-suisse">Tour de Suisse</a></li>
-<li><a href="race/binckbank-tour">Binckbank Tour</a></li>
+<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a href="race/itzulia-basque-country">Itzulia Basque Country</a></li>
 </ul></li>
-<li class="group"><h3>Rankings & Statistics</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
-<li><a href="statistics/start/points-per-age">Points per age</a></li>
-<li><a href="statistics/start/injuries">Injuries</a></li>
-<li><a href="rankings/me/world-ranking/individual">UCI World Ranking</a></li>
+<li class="group"><h3>Monuments</h3><ul><li><a href="race/milano-sanremo">Milano-SanRemo</a></li>
+<li><a href="race/ronde-van-vlaanderen">Ronde van Vlaanderen</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
+</ul><h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+<li><a href="race/uec-road-european-championships">European championships</a></li>
+</ul></li>
+<li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
+<li><a href="race/strade-bianche">Strade Bianche</a></li>
+<li><a href="race/e3-harelbeke">E3 Classic</a></li>
+<li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a href="race/san-sebastian">San Sebastian</a></li>
+<li><a href="race/bretagne-classic">Bretagne Classic</a></li>
+<li><a href="race/gp-quebec">GP Québec</a></li>
+<li><a href="race/gp-montreal">GP Montréal</a></li>
+</ul></li>
+<li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
+<li><a href="rider/wout-van-aert">Wout van Aert</a></li>
+<li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
+<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
+<li><a href="rider/biniam-girmay">Biniam Girmay</a></li>
+<li><a href="rider/peter-sagan">Peter Sagan</a></li>
+<li><a href="rider/annemiek-van-vleuten">Annemiek van Vleuten</a></li>
+<li><a href="rider/elisa-longo-borghini">Elisa Longo Borghini</a></li>
+<li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+</ul></li>
+<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
+</ul><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
+<li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
+<li><a href="statistics/grandtours">Grand tour statistics</a></li>
+<li><a href="statistics/monuments">Monument classics</a></li>
+<li><a href="teams/transfers">Latest transfers</a></li>
+<li><a href="favorite500">Favorite 500</a></li>
 </ul></li>
 <li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
 <li><a href="info/procyclinggame">ProCyclingGame</a></li>
-</ul></li>
-<li class="group"><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+</ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>0.1512 seconds</span></li><li><span style="font-size: 10px; color: #485B79;">now (1524kb) peak (1967kb)</span></li></ul></li>
+<li><span>Pageload 0.0868s</span></li>
+</ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list3.js"></script>
-  
+<script src="search_list5.js"></script>  

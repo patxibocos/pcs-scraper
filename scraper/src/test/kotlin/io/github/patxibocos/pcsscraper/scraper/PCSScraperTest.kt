@@ -27,7 +27,7 @@ class PCSScraperTest : BehaviorSpec({
         val teamsScraper = PCSTeamsScraper(docFetcher)
 
         `when`("scrapping teams") {
-            val scrapedTeams = (teamsScraper.scrapeTeams(2022))
+            val scrapedTeams = (teamsScraper.scrapeTeams(2023))
             val serializedJson = json.encodeToString(scrapedTeams)
             then("it should be equal to the snapshot") {
                 val expectedJson = this.javaClass.getResource("/pcssnapshot/json/teams.json")!!.readText()
@@ -36,7 +36,7 @@ class PCSScraperTest : BehaviorSpec({
         }
 
         `when`("scrapping riders") {
-            val scrapedRaces = (ridersScraper.scrapeRiders(2022))
+            val scrapedRaces = (ridersScraper.scrapeRiders(2023))
             val serializedJson = json.encodeToString(scrapedRaces)
             then("it should be equal to the snapshot") {
                 val expectedJson = this.javaClass.getResource("/pcssnapshot/json/riders.json")!!.readText()
@@ -45,7 +45,7 @@ class PCSScraperTest : BehaviorSpec({
         }
 
         `when`("scrapping races") {
-            val scrapedRaces = (racesScraper.scrapeRaces(2022))
+            val scrapedRaces = (racesScraper.scrapeRaces(2023))
             val serializedJson = json.encodeToString(scrapedRaces)
             then("it should be equal to the snapshot") {
                 val expectedJson = this.javaClass.getResource("/pcssnapshot/json/races.json")!!.readText()
