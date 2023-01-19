@@ -21,7 +21,7 @@ internal class SQLiteExporter(destination: File) : Exporter {
     private fun <T> connectToDbAndInsert(
         table: DbTable<T>,
         data: List<T>,
-        enricher: (InsertStatement<Number>) -> Unit = {}
+        enricher: (InsertStatement<Number>) -> Unit = {},
     ) {
         Database.connect("jdbc:sqlite:${destinationFile.absolutePath}", "org.sqlite.JDBC")
         transaction {

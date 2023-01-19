@@ -1,7 +1,7 @@
 plugins {
     application
     idea
-    kotlin("jvm")
+    alias(libs.plugins.kotlin.jvm)
 }
 
 group = "io.github.patxibocos"

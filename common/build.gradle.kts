@@ -1,15 +1,12 @@
-import com.google.protobuf.gradle.protobuf
-import com.google.protobuf.gradle.protoc
-
 plugins {
     idea
-    kotlin("jvm")
-    id("com.google.protobuf") version "0.8.18"
+    alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.google.protobuf)
 }
 
 protobuf {
     protoc {
-        artifact = "com.google.protobuf:protoc:3.20.0"
+        artifact = "com.google.protobuf:protoc:3.21.12"
     }
 }
 

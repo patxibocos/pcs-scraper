@@ -1,8 +1,8 @@
 plugins {
     application
     idea
-    kotlin("jvm")
-    kotlin("plugin.serialization") version "1.7.20"
+    alias(libs.plugins.kotlin.jvm)
+    alias(libs.plugins.kotlin.serialization)
 }
 
 group = "io.github.patxibocos"

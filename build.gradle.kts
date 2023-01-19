@@ -1,21 +1,23 @@
+import com.diffplug.gradle.spotless.SpotlessPlugin
+
 plugins {
-    id("com.diffplug.spotless") version "6.4.1"
-    kotlin("jvm") version "1.7.20" apply false
+    alias(libs.plugins.spotless)
+    alias(libs.plugins.kotlin.jvm) apply false
     idea
 }
 
 subprojects {
-    plugins.apply("com.diffplug.spotless")
+    plugins.apply(SpotlessPlugin::class.java)
     spotless {
         kotlin {
             target("**/*.kt")
             targetExclude("$buildDir/**/*.kt", "bin/**/*.kt", "**/protobuf/**/*.kt")
-            ktlint("0.45.1")
+            ktlint(libs.versions.ktlint.get())
         }
 
         kotlinGradle {
             target("*.gradle.kts")
-            ktlint("0.45.1")
+            ktlint(libs.versions.ktlint.get())
         }
     }
 }

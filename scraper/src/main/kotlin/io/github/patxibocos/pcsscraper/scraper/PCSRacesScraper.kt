@@ -99,7 +99,7 @@ class PCSRacesScraper(
             val riders = it.findAll("ul > li").map { riderDocElement ->
                 PCSRiderParticipation(
                     rider = riderDocElement.a { findFirst { attribute("href") } },
-                    number = riderDocElement.ownText
+                    number = riderDocElement.ownText,
                 )
             }
             PCSTeamParticipation(
@@ -232,7 +232,7 @@ class PCSRacesScraper(
             website = pcsRace.website,
             stages = pcsRace.stages.map { pcsStageToStage(it) },
             startList = pcsRace.startList.map { pcsTeamParticipationToTeamParticipation(it) },
-            result = pcsParticipantResultToRiderResult(pcsRace.result)
+            result = pcsParticipantResultToRiderResult(pcsRace.result),
         )
     }
 
@@ -333,7 +333,7 @@ class PCSRacesScraper(
     }
 
     private fun pcsTeamParticipationToTeamParticipation(
-        pcsTeamParticipation: PCSTeamParticipation
+        pcsTeamParticipation: PCSTeamParticipation,
     ): Race.TeamParticipation {
         val teamId = pcsTeamParticipation.team.split("/").last()
         return Race.TeamParticipation(

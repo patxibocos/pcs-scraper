@@ -43,13 +43,13 @@ fun main() {
 private fun decodeBase64ThenUnzip(gzipBase64: String) =
     ByteArrayInputStream(Base64.getDecoder().decode(gzipBase64)).use { inputStream ->
         GZIPInputStream(
-            inputStream
+            inputStream,
         ).use { it.readBytes() }
     }
 
 private fun checkNewStagesWithResults(
     lastData: CyclingDataOuterClass.CyclingData,
-    previousData: CyclingDataOuterClass.CyclingData
+    previousData: CyclingDataOuterClass.CyclingData,
 ) {
     val logger: Logger = KotlinLogging.logger {}
     val lastResults =

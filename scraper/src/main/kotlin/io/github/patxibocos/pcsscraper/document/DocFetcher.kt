@@ -35,9 +35,13 @@ class DocFetcher(
     private fun cacheKeyForURL(url: URL): String {
         val path = url.file.dropWhile { it == '/' }
         val splits = path.split("/")
-        val normalizeParentPath = if (splits.size > 1) splits.dropLast(1).joinToString(separator = "/", postfix = "/") {
-            "_$it"
-        } else ""
+        val normalizeParentPath = if (splits.size > 1) {
+            splits.dropLast(1).joinToString(separator = "/", postfix = "/") {
+                "_$it"
+            }
+        } else {
+            ""
+        }
         return "$normalizeParentPath${splits.last()}"
     }
 
