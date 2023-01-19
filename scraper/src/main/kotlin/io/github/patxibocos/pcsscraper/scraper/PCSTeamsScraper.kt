@@ -48,7 +48,7 @@ class PCSTeamsScraper(
                 "PRT" -> "PRT"
                 else -> ""
             }
-            return "https://ucibws.uci.ch/api/WebResources/ModulesData/Teams/$season/ROA/Jerseys/$uciCategory/ROA-${uciCategory}_${abbreviation}_$season.jpg"
+            return "https://api.uci.ch/v1/ucibws/WebResources/ModulesData/Teams/$season/ROA/Jerseys/$uciCategory/ROA-${uciCategory}_${abbreviation}_$season.jpg"
         }
 
         val jersey = getJerseyImageFromUci()
