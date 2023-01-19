@@ -30,22 +30,26 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+
       - name: Set up JDK 19
         uses: actions/setup-java@v3
         with:
           distribution: 'temurin'
           java-version: '19'
-      - name: Build pcs-scraper
-        uses: burrunan/gradle-cache-action@v1
-        with:
-          arguments: build
-          gradle-version: wrapper
+
+      - name: Setup Gradle
+        uses: gradle/gradle-build-action@v2
+
+      - name: Build
+        run: ./gradlew shadowJar
+
       - name: Set GOOGLE_APPLICATION_CREDENTIALS environment variable
         run: |
           gpg --version
           echo "${{ secrets.FIREBASE_SERVICE_ACCOUNT }}" > firebase.service-account.json.asc
           gpg --quiet --batch --yes --decrypt --passphrase="${{ secrets.FIREBASE_SERVICE_ACCOUNT_PASSPHRASE }}" --output firebase.service-account.json firebase.service-account.json.asc
           echo "GOOGLE_APPLICATION_CREDENTIALS=$(echo $(pwd)/firebase.service-account.json)" >> $GITHUB_ENV
+
       - name: Run scraper
         run: java -jar scraper/build/libs/scraper.jar -s 2023 -c cache -d out ${{ inputs.formats }} -st 20m -rd 1s
         env:
@@ -53,8 +57,10 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
           AWS_S3_BUCKET: ${{ secrets.AWS_S3_BUCKET }}
           AWS_S3_OBJECT_KEY: ${{ secrets.AWS_S3_OBJECT_KEY }}
+
       - name: Run diff publisher
         run: java -jar diff-publisher/build/libs/diff-publisher.jar
+
       - name: Upload output
         uses: actions/upload-artifact@v3
         if: ${{ inputs.upload-artifact }}

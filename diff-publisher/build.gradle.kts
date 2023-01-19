@@ -31,12 +31,8 @@ kotlin {
 }
 
 tasks.withType<Jar> {
-    duplicatesStrategy = DuplicatesStrategy.EXCLUDE
     manifest {
         attributes["Main-Class"] = application.mainClass
         archiveFileName.set("${project.name}.jar")
     }
-    from(configurations.compileClasspath.get().map { if (it.isDirectory) it else zipTree(it) })
-    exclude("META-INF/*.SF")
-    exclude("META-INF/*.DSA")
 }
