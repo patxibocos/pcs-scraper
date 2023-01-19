@@ -28,8 +28,8 @@ internal suspend fun buildCyclingDataProtobuf(
         }.build()
     }
 
-private fun buildTeamsProtobufMessage(_teams: List<Team>): List<TeamOuterClass.Team> =
-    _teams.map { team ->
+private fun buildTeamsProtobufMessage(teams: List<Team>): List<TeamOuterClass.Team> =
+    teams.map { team ->
         TeamOuterClass.Team.newBuilder().apply {
             id = team.id
             name = team.name
@@ -47,8 +47,8 @@ private fun buildTeamsProtobufMessage(_teams: List<Team>): List<TeamOuterClass.T
         }.build()
     }
 
-private fun buildRidersProtobufMessage(_riders: List<Rider>): List<RiderOuterClass.Rider> =
-    _riders.map { rider ->
+private fun buildRidersProtobufMessage(riders: List<Rider>): List<RiderOuterClass.Rider> =
+    riders.map { rider ->
         RiderOuterClass.Rider.newBuilder().apply {
             id = rider.id
             firstName = rider.firstName
@@ -68,8 +68,8 @@ private fun buildRidersProtobufMessage(_riders: List<Rider>): List<RiderOuterCla
         }.build()
     }
 
-private fun buildRacesProtobufMessage(_races: List<Race>): List<RaceOuterClass.Race> =
-    _races.map { race ->
+private fun buildRacesProtobufMessage(races: List<Race>): List<RaceOuterClass.Race> =
+    races.map { race ->
         RaceOuterClass.Race.newBuilder().apply {
             id = race.id
             name = race.name
