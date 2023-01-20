@@ -43,12 +43,15 @@ class PCSTeamsScraper(
         val website = teamDoc.getWebsite()
 
         fun getJerseyImageFromUci(): String {
-            val uciCategory = when (status) {
-                "WT" -> "WTT"
-                "PRT" -> "PRT"
+            val mensToFemaleTeamFix = mapOf("TJV" to "JVW", "HPM" to "HPW")
+            val fixedAbbreviation = mensToFemaleTeamFix[abbreviation] ?: abbreviation
+            val uciCategory = when {
+                mensToFemaleTeamFix.values.contains(fixedAbbreviation) -> "WTW"
+                status == "WT" -> "WTT"
+                status == "PRT" -> "PRT"
                 else -> ""
             }
-            return "https://api.uci.ch/v1/ucibws/WebResources/ModulesData/Teams/$season/ROA/Jerseys/$uciCategory/ROA-${uciCategory}_${abbreviation}_$season.jpg"
+            return "https://api.uci.ch/v1/ucibws/WebResources/ModulesData/Teams/$season/ROA/Jerseys/$uciCategory/ROA-${uciCategory}_${fixedAbbreviation}_$season.jpg"
         }
 
         val jersey = getJerseyImageFromUci()
