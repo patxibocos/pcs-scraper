@@ -37,12 +37,6 @@ jobs:
           distribution: 'temurin'
           java-version: '19'
 
-      - name: Setup Gradle
-        uses: gradle/gradle-build-action@v2
-
-      - name: Build
-        run: ./gradlew shadowJar
-
       - name: Set GOOGLE_APPLICATION_CREDENTIALS environment variable
         run: |
           gpg --version
@@ -51,7 +45,7 @@ jobs:
           echo "GOOGLE_APPLICATION_CREDENTIALS=$(echo $(pwd)/firebase.service-account.json)" >> $GITHUB_ENV
 
       - name: Run scraper
-        run: java -jar scraper/build/libs/scraper.jar -s 2023 -c cache -d out ${{ inputs.formats }} -st 20m -rd 1s
+        run: java -jar release/scraper.jar -s 2023 -c cache -d out ${{ inputs.formats }} -st 20m -rd 1s
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
@@ -59,7 +53,7 @@ jobs:
           AWS_S3_OBJECT_KEY: ${{ secrets.AWS_S3_OBJECT_KEY }}
 
       - name: Run diff publisher
-        run: java -jar diff-publisher/build/libs/diff-publisher.jar
+        run: java -jar release/diff-publisher.jar
 
       - name: Upload output
         uses: actions/upload-artifact@v3

@@ -24,10 +24,10 @@ jobs:
       - name: Build
         run: ./gradlew shadowJar
 
-      - name: Copy binary
+      - name: Copy binaries
         run: mkdir -p release && mv -f scraper/build/libs/scraper.jar release && mv -f diff-publisher/build/libs/diff-publisher.jar release
 
-      - name: Commit binary
+      - name: Commit binaries
         uses: EndBug/add-and-commit@v9
         with:
           add: 'release'
