@@ -1,16 +1,10 @@
+import com.github.jengelman.gradle.plugins.shadow.tasks.ShadowJar
+
 plugins {
-    application
     idea
     alias(libs.plugins.kotlin.jvm)
     alias(libs.plugins.kotlin.serialization)
-}
-
-group = "io.github.patxibocos"
-version = "1.0-SNAPSHOT"
-
-application {
-    mainClass.set("io.github.patxibocos.pcsscraper.MainKt")
-    applicationName = rootProject.name
+    alias(libs.plugins.shadow)
 }
 
 repositories {
@@ -50,7 +44,17 @@ kotlin {
 
 tasks.withType<Jar> {
     manifest {
-        attributes["Main-Class"] = application.mainClass
+        attributes["Main-Class"] = "io.github.patxibocos.pcsscraper.MainKt"
         archiveFileName.set("${project.name}.jar")
+    }
+}
+
+tasks.withType<ShadowJar> {
+    minimize {
+        exclude(dependency(libs.exposed.jdbc.get()))
+        exclude(dependency(libs.log4j.slf4j2.impl.get()))
+        exclude(dependency(libs.log4j.core.get()))
+        exclude(dependency(libs.aws.s3.get()))
+        exclude(dependency(libs.sqlite.jdbc.get()))
     }
 }
