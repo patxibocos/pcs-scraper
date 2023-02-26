@@ -74,13 +74,6 @@ private fun buildRacesProtobufMessage(races: List<Race>): List<RaceOuterClass.Ra
             id = race.id
             name = race.name
             country = race.country
-            startDate =
-                Timestamp.newBuilder()
-                    .setSeconds(race.startDate.atStartOfDay().toEpochSecond(ZoneOffset.UTC))
-                    .build()
-            endDate =
-                Timestamp.newBuilder().setSeconds(race.endDate.atStartOfDay().toEpochSecond(ZoneOffset.UTC))
-                    .build()
             race.website?.let { website = it }
             addAllStages(
                 race.stages.map { stage ->

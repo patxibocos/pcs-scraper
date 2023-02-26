@@ -3,15 +3,12 @@ package io.github.patxibocos.pcsscraper.entity
 import kotlinx.serialization.Contextual
 import kotlinx.serialization.Serializable
 import java.time.Instant
-import java.time.LocalDate
 
 @Serializable
 data class Race(
     val id: String,
     val name: String,
     val country: String,
-    @Contextual val startDate: LocalDate,
-    @Contextual val endDate: LocalDate,
     val website: String?,
     val stages: List<Stage>,
     val startList: List<TeamParticipation>,

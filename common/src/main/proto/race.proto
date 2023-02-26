@@ -8,12 +8,10 @@ message Race {
   string id = 1;
   string name = 2;
   string country = 3;
-  google.protobuf.Timestamp start_date = 4;
-  google.protobuf.Timestamp end_date = 5;
-  repeated Stage stages = 6;
-  repeated TeamParticipation teams = 7;
-  optional string website = 8;
-  repeated ParticipantResult result = 9;
+  repeated Stage stages = 4;
+  repeated TeamParticipation teams = 5;
+  optional string website = 6;
+  repeated ParticipantResult result = 7;
 }
 
 message Stage {

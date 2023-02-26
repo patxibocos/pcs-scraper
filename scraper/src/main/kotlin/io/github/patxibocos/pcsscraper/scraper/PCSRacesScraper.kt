@@ -38,7 +38,7 @@ class PCSRacesScraper(
     override suspend fun scrapeRaces(season: Int): List<Race> = coroutineScope {
         logger.info("Scraping races for $season season")
         val pcsRaces = getRacesUrls(season).map { raceUrl -> async { getRace(raceUrl) } }.awaitAll()
-        pcsRaces.map(::pcsRaceToRace).sortedBy { it.startDate }
+        pcsRaces.map(::pcsRaceToRace).sortedBy { it.stages.first().startDateTime }
     }
 
     private suspend fun getRacesUrls(season: Int): List<String> {
@@ -82,8 +82,6 @@ class PCSRacesScraper(
             url = raceUrl,
             name = name,
             country = country,
-            startDate = startDate,
-            endDate = endDate,
             website = website,
             stages = stages,
             startList = startList,
@@ -227,8 +225,6 @@ class PCSRacesScraper(
             id = raceId,
             name = pcsRace.name,
             country = pcsRace.country.uppercase(),
-            startDate = LocalDate.parse(pcsRace.startDate, DateTimeFormatter.ISO_LOCAL_DATE),
-            endDate = LocalDate.parse(pcsRace.endDate, DateTimeFormatter.ISO_LOCAL_DATE),
             website = pcsRace.website,
             stages = pcsRace.stages.map { pcsStageToStage(it) },
             startList = pcsRace.startList.map { pcsTeamParticipationToTeamParticipation(it) },

@@ -42,8 +42,6 @@ data class PCSRace(
     val url: String,
     val name: String,
     val country: String,
-    val startDate: String,
-    val endDate: String,
     val website: String?,
     val stages: List<PCSStage>,
     val startList: List<PCSTeamParticipation>,

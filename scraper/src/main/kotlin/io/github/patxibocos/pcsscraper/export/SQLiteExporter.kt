@@ -103,8 +103,6 @@ internal class SQLiteExporter(destination: File) : Exporter {
         val id = text("id")
         private val name = text("name")
         private val country = text("country")
-        private val startDate = text("start_date")
-        private val endDate = text("end_date")
         private val website = text("website").nullable()
 
         override val primaryKey: PrimaryKey
@@ -114,8 +112,6 @@ internal class SQLiteExporter(destination: File) : Exporter {
             insertStatement[id] = t.id
             insertStatement[name] = t.name
             insertStatement[country] = t.country
-            insertStatement[startDate] = t.startDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
-            insertStatement[endDate] = t.endDate.format(DateTimeFormatter.ISO_LOCAL_DATE)
             insertStatement[website] = t.website
         }
     }

@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="races.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a160.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a168.css" />
 	
-<script src="https://www.procyclingstats.com/pcs_s65.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s66.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -113,9 +113,9 @@
  
 				 </ul> 
 			 </div>
-			 <a class="user4" data-logged="0" href="login.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
+			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><div class="clear"></div></div><div class="page-title " ><a class="mobileMenuLink showIfMobile menu-toggle"  href="">menu</a><div class="main"><h1 class="">Calendar</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div><div class="page-content page-object default " data-no_menu="0" ><div class=" "   >
+<div class="content   "> <div class="page-topnav "><div class="clear"></div></div><div class="page-title " ><a class="mobileMenuLink showIfMobile menu-toggle"  href="">menu</a><div class="main"><h1 class="">Calendar</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div><div class="page-content page-object default wideNav" data-no_menu="0" ><div class=" "   >
 <div class="text-regular">Year calendar of races. </div>
 <ul class="right fs14 list horizontal"><li class="blue" ><a   class="blue" href="races.php?popular=pro_me&s=upcoming-races">upcoming pro-races</a></li>
 </ul>
@@ -125,10 +125,10 @@
 </ul><input type="submit" name="filter" value="Filter" /></form></div>
 
 <span class="table-cont"><table class="basic"  style=""><thead><tr><th class="cu500  "  style="width: 11.6%; ">Date</th><th class="hide cs500  "  style="width: 5.8%; ">Date</th><th style="width: 46.5%; ">Race</th><th class="cu500  "  style="width: 29.1%; ">Winner</th><th style="width: 7%; ">Class</th></tr></thead><tbody>
-<tr ><td class="cu500  " >17.01 - 22.01</td><td class="hide cs500  " >17.01</td><td><span class="flag au"></span> <a    href="race/tour-down-under/2023/startlist/preview">Santos Tour Down Under</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>2.UWT</td></tr>
-<tr ><td class="cu500  " >29.01</td><td class="hide cs500  " >29.01</td><td><span class="flag au"></span> <a    href="race/great-ocean-race/2023/startlist/preview">Cadel Evans Great Ocean Road Race</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>1.UWT</td></tr>
-<tr ><td class="cu500  " >20.02 - 26.02</td><td class="hide cs500  " >20.02</td><td><span class="flag ae"></span> <a    href="race/uae-tour/2023/startlist/preview">UAE Tour</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>2.UWT</td></tr>
-<tr ><td class="cu500  " >25.02</td><td class="hide cs500  " >25.02</td><td><span class="flag be"></span> <a    href="race/omloop-het-nieuwsblad/2023/startlist/preview">Omloop Het Nieuwsblad Elite</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>1.UWT</td></tr>
+<tr ><td class="cu500  " >17.01 - 22.01</td><td class="hide cs500  " >17.01</td><td><span class="flag au"></span> <a    href="race/tour-down-under/2023">Santos Tour Down Under</a></td><td class="cu500  " ><a    href="rider/jay-vine">VINE Jay</a></td><td>2.UWT</td></tr>
+<tr ><td class="cu500  " >29.01</td><td class="hide cs500  " >29.01</td><td><span class="flag au"></span> <a    href="race/great-ocean-race/2023">Cadel Evans Great Ocean Road Race</a></td><td class="cu500  " ><a    href="rider/marius-mayrhofer">MAYRHOFER Marius</a></td><td>1.UWT</td></tr>
+<tr ><td class="cu500  " >20.02 - 26.02</td><td class="hide cs500  " >20.02</td><td><span class="flag ae"></span> <a    href="race/uae-tour/2023">UAE Tour</a></td><td class="cu500  " ><a    href="rider/remco-evenepoel">EVENEPOEL Remco</a></td><td>2.UWT</td></tr>
+<tr ><td class="cu500  " >25.02</td><td class="hide cs500  " >25.02</td><td><span class="flag be"></span> <a    href="race/omloop-het-nieuwsblad/2023">Omloop Het Nieuwsblad ME</a></td><td class="cu500  " ><a    href="rider/dylan-van-baarle">VAN BAARLE Dylan</a></td><td>1.UWT</td></tr>
 <tr ><td class="cu500  " >04.03</td><td class="hide cs500  " >04.03</td><td><span class="flag it"></span> <a    href="race/strade-bianche/2023/startlist/preview">Strade Bianche</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>1.UWT</td></tr>
 <tr ><td class="cu500  " >05.03 - 12.03</td><td class="hide cs500  " >05.03</td><td><span class="flag fr"></span> <a    href="race/paris-nice/2023/startlist/preview">Paris-Nice</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>2.UWT</td></tr>
 <tr ><td class="cu500  " >06.03 - 12.03</td><td class="hide cs500  " >06.03</td><td><span class="flag it"></span> <a    href="race/tirreno-adriatico/2023/startlist/preview">Tirreno-Adriatico</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>2.UWT</td></tr>
@@ -145,7 +145,7 @@
 <tr ><td class="cu500  " >19.04</td><td class="hide cs500  " >19.04</td><td><span class="flag be"></span> <a    href="race/la-fleche-wallone/2023/startlist/preview">La Flèche Wallonne</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>1.UWT</td></tr>
 <tr ><td class="cu500  " >23.04</td><td class="hide cs500  " >23.04</td><td><span class="flag be"></span> <a    href="race/liege-bastogne-liege/2023/startlist/preview">Liège-Bastogne-Liège</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>1.UWT</td></tr>
 <tr ><td class="cu500  " >25.04 - 30.04</td><td class="hide cs500  " >25.04</td><td><span class="flag ch"></span> <a    href="race/tour-de-romandie/2023/startlist/preview">Tour de Romandie</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>2.UWT</td></tr>
-<tr ><td class="cu500  " >01.05</td><td class="hide cs500  " >01.05</td><td><span class="flag de"></span> <a    href="race/Eschborn-Frankfurt/2023/startlist/preview">Eschborn-Frankfurt</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>1.UWT</td></tr>
+<tr ><td class="cu500  " >01.05</td><td class="hide cs500  " >01.05</td><td><span class="flag de"></span> <a    href="race/eschborn-frankfurt/2023/startlist/preview">Eschborn-Frankfurt</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>1.UWT</td></tr>
 <tr ><td class="cu500  " >06.05 - 28.05</td><td class="hide cs500  " >06.05</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2023/startlist/preview">Giro d'Italia</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>2.UWT</td></tr>
 <tr ><td class="cu500  " >04.06 - 11.06</td><td class="hide cs500  " >04.06</td><td><span class="flag fr"></span> <a    href="race/dauphine/2023/startlist/preview">Critérium du Dauphiné</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>2.UWT</td></tr>
 <tr ><td class="cu500  " >11.06 - 18.06</td><td class="hide cs500  " >11.06</td><td><span class="flag ch"></span> <a    href="race/tour-de-suisse/2023/startlist/preview">Tour de Suisse</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>2.UWT</td></tr>
@@ -162,7 +162,7 @@
 <tr ><td class="cu500  " >12.10 - 17.10</td><td class="hide cs500  " >12.10</td><td><span class="flag cn"></span> <a    href="race/tour-of-guangxi/2023/startlist/preview">Gree-Tour of Guangxi</a></td><td class="cu500  " ><a    href="rider/"></a></td><td>2.UWT</td></tr>
 </tbody></table></span>
 </div>
-<div class="desktop-ad below-content general"></div><div class="mob-ad below-content general"></div></div><div class="page-nav default " ><ul class="menu-tree  "><li><span>Menu</span><ul><li class="cur " data-premium="0" style=" "><a href="calendar/year-calendar">Calendar</a></li><li class=" " data-premium="0" style=" "><a href="calendar/wt-calendar-chart">WT Calendar</a></li><li class=" " data-premium="0" style=" "><a href="calendar/start-finish-schedule">Start/finish schedule</a></li><li class=" " data-premium="0" style=" "><a href="calendar/upcoming-races">Upcoming races</a></li><li class=" " data-premium="0" style=" "><a href="calendar/latest-results">Latest results</a></li><li class=" " data-premium="0" style=" "><a href="calendar/races-database">Races database</a></li><li class=" " data-premium="0" style=" "><a href="calendar/stages-database">Races/stages database</a></li><li class=" " data-premium="0" style=" "><a href="calendar/calendar-changes">Calendar changes</a></li><li class=" " data-premium="0" style=" "><a href="calendar/upcoming-tts">Upcoming TTs</a></li><li class=" " data-premium="0" style=" "><a href="calendar/cancelled-races">Cancelled races</a></li><li class=" " data-premium="0" style=" "><a href="calendar/cancelled-rescheduled-races">Cancelled rescheduled races</a></li><li class=" " data-premium="0" style=" "><a href="calendar/rescheduled-races">Rescheduled races</a></li></ul></li><li><span>Startlists</span><ul><li class=" " data-premium="0" style=" "><a href="calendar/top-100-riders-startlist-changes">Top-100 riders program changes</a></li><li class=" " data-premium="0" style=" "><a href="calendar/startlist-changes-all-races">Startlist changes</a></li><li class=" " data-premium="0" style=" "><a href="calendar/startlist-quality">Startlist quality</a></li></ul></li><li><span>Live</span><ul><li class=" " data-premium="0" style=" "><a href="calendar/livestats">LiveStats schedule</a></li></ul></li><li><span>Worlds</span><ul><li class=" " data-premium="0" style=" "><a href="calendar/worlds-program">Program</a></li></ul></li><li><span>National</span><ul><li class=" " data-premium="0" style=" "><a href="calendar/latest-national">Latest</a></li><li class=" " data-premium="0" style=" "><a href="calendar/topcompetition-netherlands">Topcompetition Netherlands</a></li><li class=" " data-premium="0" style=" "><a href="calendar/copa-espana">Copa de España</a></li><li class=" " data-premium="0" style=" "><a href="calendar/upcoming-national">Upcoming</a></li></ul></li></ul></div><div style="clear: both; "></div>  
+<div class="desktop-ad below-content general"></div><div class="mob-ad below-content general"></div></div><div class="page-nav default wideNav" ><ul class="menu-tree  wideNav"><li><span>Menu</span><ul><li class="cur " data-premium="0" style=" "><a href="calendar/year-calendar">Calendar</a></li><li class=" " data-premium="0" style=" "><a href="calendar/wt-calendar-chart">WT Calendar</a></li><li class=" " data-premium="0" style=" "><a href="calendar/start-finish-schedule">Start/finish schedule</a></li><li class=" " data-premium="0" style=" "><a href="calendar/upcoming-races">Upcoming races</a></li><li class=" " data-premium="0" style=" "><a href="calendar/latest-results">Latest results</a></li><li class=" " data-premium="0" style=" "><a href="calendar/races-database">Races database</a></li><li class=" " data-premium="0" style=" "><a href="calendar/stages-database">Races/stages database</a></li><li class=" " data-premium="0" style=" "><a href="calendar/calendar-changes">Calendar changes</a></li><li class=" " data-premium="0" style=" "><a href="calendar/upcoming-tts">Upcoming TTs</a></li><li class=" " data-premium="0" style=" "><a href="calendar/cancelled-races">Cancelled races</a></li><li class=" " data-premium="0" style=" "><a href="calendar/cancelled-rescheduled-races">Cancelled rescheduled races</a></li><li class=" " data-premium="0" style=" "><a href="calendar/rescheduled-races">Rescheduled races</a></li></ul></li><li><span>Startlists</span><ul><li class=" " data-premium="0" style=" "><a href="calendar/top-100-riders-startlist-changes">Top-100 riders program changes</a></li><li class=" " data-premium="0" style=" "><a href="calendar/startlist-changes-all-races">Startlist changes</a></li><li class=" " data-premium="0" style=" "><a href="calendar/startlist-quality">Startlist quality</a></li></ul></li><li><span>Live</span><ul><li class=" " data-premium="0" style=" "><a href="calendar/livestats">LiveStats schedule</a></li></ul></li><li><span>Worlds</span><ul><li class=" " data-premium="0" style=" "><a href="calendar/worlds-program">Program</a></li></ul></li><li><span>National</span><ul><li class=" " data-premium="0" style=" "><a href="calendar/latest-national">Latest</a></li><li class=" " data-premium="0" style=" "><a href="calendar/coupe-france">Coupe de France (France)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/coupe-de-france-n1">Coupe de France N1 (France)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/ciclismo-cup">Ciclismo Cup (Italy)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/topcompetition-netherlands">Topcompetitie (Netherlands)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/u23-road-series">U23 Road Series (NL/BE)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/clubcompetitie-netherlands">Clubcompetitie (Netherlands)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/copa-espana">Copa de España (Spain)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/beker-belgie">Beker van België (Belgium)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/rad-bundesliga">Rad-Bundesliga (Germany)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/bnrs">British National Road Series (GB)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/nul-usa">NCL Cup Series (USA)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/acc">American Criterium Cup (USA)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/taca-portugal">Taça de Portugal (Portugal)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/nfs-aus">Australian National Road Series (Australian)</a></li><li class=" " data-premium="0" style=" "><a href="calendar/upcoming-national">Upcoming</a></li></ul></li></ul></div><div style="clear: both; "></div>  
   </div>
   </center>
   <div class="push"></div>
@@ -191,6 +191,8 @@
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
 <li><a href="race/e3-harelbeke">E3 Classic</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door vlaanderen</a></li>
+<li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/san-sebastian">San Sebastian</a></li>
@@ -209,16 +211,16 @@
 <li><a href="rider/elisa-longo-borghini">Elisa Longo Borghini</a></li>
 <li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
 </ul></li>
-<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
-<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
-<li><a href="rankings/me/all-time">Alltime</a></li>
-</ul><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li class="group"><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
 <li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
 <li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
 <li><a href="statistics/grandtours">Grand tour statistics</a></li>
 <li><a href="statistics/monuments">Monument classics</a></li>
 <li><a href="teams/transfers">Latest transfers</a></li>
 <li><a href="favorite500">Favorite 500</a></li>
+</ul><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
 </ul></li>
 <li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
 <li><a href="info/profile-score-explained">Profile scores</a></li>
@@ -230,7 +232,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0334s</span></li>
+<li><span>Pageload 0.0266s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="2000" /><input type="hidden" id="userid" value="0" />
 	</div>
