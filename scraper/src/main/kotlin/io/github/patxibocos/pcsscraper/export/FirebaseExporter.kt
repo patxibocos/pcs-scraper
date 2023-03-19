@@ -7,19 +7,16 @@ import com.google.firebase.remoteconfig.FirebaseRemoteConfig
 import com.google.firebase.remoteconfig.FirebaseRemoteConfigException
 import com.google.firebase.remoteconfig.Parameter
 import com.google.firebase.remoteconfig.ParameterValue
-import com.google.firebase.remoteconfig.Template
 import com.google.protobuf.MessageLite
 import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
 import io.github.patxibocos.pcsscraper.export.protobuf.buildCyclingDataProtobuf
-import mu.KotlinLogging
-import org.slf4j.Logger
 import java.io.ByteArrayOutputStream
-import java.util.Base64
+import java.util.*
 import java.util.zip.GZIPOutputStream
 
-internal class FirebaseExporter(private val logger: Logger = KotlinLogging.logger {}) : Exporter {
+internal class FirebaseExporter : Exporter {
 
     override suspend fun export(teams: List<Team>, riders: List<Rider>, races: List<Race>) {
         val options = FirebaseOptions.builder()
@@ -32,22 +29,10 @@ internal class FirebaseExporter(private val logger: Logger = KotlinLogging.logge
         val cyclingDataGzipBase64 = gzipThenBase64(cyclingData)
 
         val firebaseRemoteConfig = FirebaseRemoteConfig.getInstance()
-        val templateBeforeUpdate: Template = firebaseRemoteConfig.template
+        val templateBeforeUpdate = retryForFirebaseException { firebaseRemoteConfig.template }
         templateBeforeUpdate.parameters["cycling_data"] =
             Parameter().setDefaultValue(ParameterValue.of(cyclingDataGzipBase64))
-        try {
-            firebaseRemoteConfig.publishTemplate(templateBeforeUpdate)
-        } catch (e: FirebaseRemoteConfigException) {
-            logger.error("Firebase threw an exception", e)
-            val templateAfterUpdate = firebaseRemoteConfig.template
-            val previousVersionNumber = templateBeforeUpdate.version.versionNumber
-            val currentVersionNumber = templateAfterUpdate.version.versionNumber
-            if (templateBeforeUpdate.version == templateAfterUpdate.version) {
-                logger.error("Version hasn't increased")
-                throw e
-            }
-            logger.info("Previous version was $previousVersionNumber and the current is $currentVersionNumber")
-        }
+        retryForFirebaseException { firebaseRemoteConfig.publishTemplate(templateBeforeUpdate) }
     }
 
     private fun gzipThenBase64(message: MessageLite): String =
@@ -57,4 +42,15 @@ internal class FirebaseExporter(private val logger: Logger = KotlinLogging.logge
                 originalStream
             }
         }.toByteArray().let(Base64.getEncoder()::encodeToString)
+
+    private fun <T> retryForFirebaseException(retries: Int = 3, f: () -> T): T {
+        return try {
+            f()
+        } catch (e: FirebaseRemoteConfigException) {
+            if (retries == 0) {
+                throw e
+            }
+            retryForFirebaseException(retries - 1, f)
+        }
+    }
 }
