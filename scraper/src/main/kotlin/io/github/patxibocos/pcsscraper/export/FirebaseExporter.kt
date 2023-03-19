@@ -29,10 +29,13 @@ internal class FirebaseExporter : Exporter {
         val cyclingDataGzipBase64 = gzipThenBase64(cyclingData)
 
         val firebaseRemoteConfig = FirebaseRemoteConfig.getInstance()
-        val templateBeforeUpdate = retryForFirebaseException { firebaseRemoteConfig.template }
-        templateBeforeUpdate.parameters["cycling_data"] =
-            Parameter().setDefaultValue(ParameterValue.of(cyclingDataGzipBase64))
-        retryForFirebaseException { firebaseRemoteConfig.publishTemplate(templateBeforeUpdate) }
+
+        retryForFirebaseException {
+            val template = firebaseRemoteConfig.template
+            template.parameters["cycling_data"] =
+                Parameter().setDefaultValue(ParameterValue.of(cyclingDataGzipBase64))
+            firebaseRemoteConfig.publishTemplate(template)
+        }
     }
 
     private fun gzipThenBase64(message: MessageLite): String =
