@@ -7,7 +7,7 @@ on:
 
 jobs:
   scrap:
-    uses: ./.github/workflows/run.yaml
+    uses: ./.github/workflows/run.yml
     with:
       formats: -f firebase -f s3
     secrets:
