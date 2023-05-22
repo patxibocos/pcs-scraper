@@ -28,7 +28,7 @@ log4j-core = { module = "org.apache.logging.log4j:log4j-core", version.ref = "lo
 log4j-slf4j2-impl = { module = "org.apache.logging.log4j:log4j-slf4j2-impl", version.ref = "log4j" }
 protobuf-kotlin = "com.google.protobuf:protobuf-kotlin:3.23.1"
 skrapeit = "it.skrape:skrapeit:1.2.2"
-sqlite-jdbc = "org.xerial:sqlite-jdbc:3.41.2.2"
+sqlite-jdbc = "org.xerial:sqlite-jdbc:3.42.0.0"
 
 test-kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
 test-kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
