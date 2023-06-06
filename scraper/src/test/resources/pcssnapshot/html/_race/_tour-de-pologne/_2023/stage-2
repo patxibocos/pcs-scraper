@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a168.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
 	
-<script src="https://www.procyclingstats.com/pcs_s66.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s71.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -58,8 +58,8 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
@@ -72,7 +72,14 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
+<li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2023">Cofidis </a></li>
 <li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
 <li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
@@ -83,13 +90,6 @@
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
-<li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -116,51 +116,34 @@
 			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
 <div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/tour-de-pologne/2022" >2022</a><div ><form style="  "><select style="" onChange="window.location.href=this.value; "><option value="race/tour-de-pologne/2023" selected>2023</option><option value="race/tour-de-pologne/2022" >2022</option><option value="race/tour-de-pologne/2021" >2021</option><option value="race/tour-de-pologne/2020" >2020</option><option value="race/tour-de-pologne/2019" >2019</option><option value="race/tour-de-pologne/2018" >2018</option><option value="race/tour-de-pologne/2017" >2017</option><option value="race/tour-de-pologne/2016" >2016</option><option value="race/tour-de-pologne/2015" >2015</option><option value="race/tour-de-pologne/2014" >2014</option><option value="race/tour-de-pologne/2013" >2013</option><option value="race/tour-de-pologne/2012" >2012</option><option value="race/tour-de-pologne/2011" >2011</option><option value="race/tour-de-pologne/2010" >2010</option><option value="race/tour-de-pologne/2009" >2009</option><option value="race/tour-de-pologne/2008" >2008</option><option value="race/tour-de-pologne/2007" >2007</option><option value="race/tour-de-pologne/2006" >2006</option><option value="race/tour-de-pologne/2005" >2005</option><option value="race/tour-de-pologne/2004" >2004</option><option value="race/tour-de-pologne/2003" >2003</option><option value="race/tour-de-pologne/2002" >2002</option><option value="race/tour-de-pologne/2001" >2001</option><option value="race/tour-de-pologne/2000" >2000</option><option value="race/tour-de-pologne/1999" >1999</option><option value="race/tour-de-pologne/1998" >1998</option><option value="race/tour-de-pologne/1997" >1997</option><option value="race/tour-de-pologne/1996" >1996</option><option value="race/tour-de-pologne/1995" >1995</option><option value="race/tour-de-pologne/1994" >1994</option><option value="race/tour-de-pologne/1993" >1993</option><option value="race/tour-de-pologne/1992" >1992</option><option value="race/tour-de-pologne/1991" >1991</option><option value="race/tour-de-pologne/1990" >1990</option><option value="race/tour-de-pologne/1989" >1989</option><option value="race/tour-de-pologne/1988" >1988</option><option value="race/tour-de-pologne/1987" >1987</option><option value="race/tour-de-pologne/1986" >1986</option><option value="race/tour-de-pologne/1985" >1985</option><option value="race/tour-de-pologne/1984" >1984</option><option value="race/tour-de-pologne/1983" >1983</option><option value="race/tour-de-pologne/1982" >1982</option><option value="race/tour-de-pologne/1981" >1981</option><option value="race/tour-de-pologne/1980" >1980</option><option value="race/tour-de-pologne/1979" >1979</option><option value="race/tour-de-pologne/1978" >1978</option><option value="race/tour-de-pologne/1977" >1977</option><option value="race/tour-de-pologne/1976" >1976</option><option value="race/tour-de-pologne/1975" >1975</option><option value="race/tour-de-pologne/1974" >1974</option><option value="race/tour-de-pologne/1973" >1973</option><option value="race/tour-de-pologne/1972" >1972</option><option value="race/tour-de-pologne/1971" >1971</option><option value="race/tour-de-pologne/1970" >1970</option><option value="race/tour-de-pologne/1969" >1969</option><option value="race/tour-de-pologne/1968" >1968</option><option value="race/tour-de-pologne/1967" >1967</option><option value="race/tour-de-pologne/1966" >1966</option><option value="race/tour-de-pologne/1965" >1965</option><option value="race/tour-de-pologne/1964" >1964</option><option value="race/tour-de-pologne/1963" >1963</option><option value="race/tour-de-pologne/1962" >1962</option><option value="race/tour-de-pologne/1961" >1961</option><option value="race/tour-de-pologne/1960" >1960</option><option value="race/tour-de-pologne/1959" >1959</option><option value="race/tour-de-pologne/1958" >1958</option><option value="race/tour-de-pologne/1957" >1957</option><option value="race/tour-de-pologne/1956" >1956</option><option value="race/tour-de-pologne/1955" >1955</option><option value="race/tour-de-pologne/1954" >1954</option><option value="race/tour-de-pologne/1953" >1953</option><option value="race/tour-de-pologne/1952" >1952</option><option value="race/tour-de-pologne/1949" >1949</option><option value="race/tour-de-pologne/1948" >1948</option><option value="race/tour-de-pologne/1947" >1947</option><option value="race/tour-de-pologne/1939" >1939</option><option value="race/tour-de-pologne/1937" >1937</option><option value="race/tour-de-pologne/1936" >1933</option><option value="race/tour-de-pologne/1929" >1929</option><option value="race/tour-de-pologne/1928" >1928</option></select></form></div><a ></a></div><div class="pageSelectNav " ><a   href="race/tour-de-pologne/2023/stage-1" >&laquo;</a><div ><form style="  max-width: 250px; width: 100%;  "><select style="" onChange="window.location.href=this.value; "><option value="race/tour-de-pologne/2023/stage-1" >Stage 1 | Poznań-Poznań</option><option value="race/tour-de-pologne/2023/stage-2" selected>Stage 2 | -</option><option value="race/tour-de-pologne/2023/stage-3" >Stage 3 | -</option><option value="race/tour-de-pologne/2023/stage-4" >Stage 4 | -</option><option value="race/tour-de-pologne/2023/stage-5" >Stage 5 | -</option><option value="race/tour-de-pologne/2023/stage-6" >Stage 6 | -</option><option value="race/tour-de-pologne/2023/stage-7" >Stage 7 | -Kraków</option><option value="race/tour-de-pologne/2023/gc" >Final GC</option></select></form></div><a  href="race/tour-de-pologne/2023/stage-3" >&raquo;</a></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/tour-de-pologne/2023/stage-2">Results</a></li>
-<li class="reg "><a class="" href="race/tour-de-pologne/2023/stage-2/overview">Preview</a></li>
-<li class="reg "><a class="" href="race/tour-de-pologne/2023/stage-2/startlist">Startlist</a></li>
-<li class="reg "><a class="" href="race/tour-de-pologne/2023/stage-2/history">History&#x25BC;</a><ul><li><a href="race/tour-de-pologne/2023/stage-2/history/palmares">Top-3 per edition</a></li>
-<li><a href="race/tour-de-pologne/2023/stage-2/history/most-wins">Most wins</a></li>
-<li><a href="race/tour-de-pologne/2023/stage-2/history/longest-race">Fastest editions</a></li>
-<li><a href="race/tour-de-pologne/2023/stage-2/history/most-leader-jerseys">Leader jerseys</a></li>
-</ul></li>
-<li class="reg "><a class="" href="race/tour-de-pologne/2023/stage-2/stages">Stages&#x25BC;</a><ul><li><a href="race/tour-de-pologne/2023/stage-2/stages/winners">Winners and leaders</a></li>
-<li><a href="race/tour-de-pologne/2023/stage-2/stages/all-stage-profiles">All stage profiles</a></li>
-<li><a href="race/tour-de-pologne/2023/stage-2/stages/average-speed-per-stage">Average speed per stage</a></li>
-</ul></li>
-<li class="reg "><a class="" href="race/tour-de-pologne/2023/stage-2/today">STAGE&#x25BC;</a><ul><li><a href="race/tour-de-pologne/2023/stage-2/today/profiles">Profiles by stage</a></li>
-<li><a href="race/tour-de-pologne/2023/stage-2/today/photos">Finish photo</a></li>
+<li class="reg "><a class="" href="race/tour-de-pologne/2023/stage-2/live">Live&#x25BC;</a><ul><li><a href="race/tour-de-pologne/2023/stage-2/live/livestats">LiveStats</a></li>
+<li><a href="race/tour-de-pologne/2023/stage-2/live/time-splits">Time splits table</a></li>
 </ul></li>
 <li class="reg "><a class="" href="race/tour-de-pologne/2023/stage-2/game">Game</a></li>
-<li class="reg "><a class="" href="race/tour-de-pologne/2023/stage-2/live">Live&#x25BC;</a><ul><li><a href="race/tour-de-pologne/2023/stage-2/live/livestats">LiveStats</a></li>
-<li><a href="race/tour-de-pologne/2023/stage-2/live/complementary-results">Complementary results</a></li>
-<li><a href="race/tour-de-pologne/2023/stage-2/live/time-splits">Time splits table</a></li>
+<li class="reg "><a class="" href="race/tour-de-pologne/2023/stage-2/statistics">Statistics&#x25BC;</a><ul><li><a href="race/tour-de-pologne/2023/stage-2/statistics/photos">Finish photo</a></li>
+<li><a href="race/tour-de-pologne/2023/stage-2/statistics/complementary-results">Complementary results</a></li>
+</ul></li>
+<li class="reg "><a class="" href="race/tour-de-pologne/2023/stage-2/route">Route&#x25BC;</a><ul><li><a href="race/tour-de-pologne/2023/stage-2/route/profiles">Profiles</a></li>
 </ul></li>
 <li class="reg "><a class="" href="race/tour-de-pologne/2023/stage-2/more">More&#x25BC;</a><ul><li><a href="race/tour-de-pologne/2023/stage-2/more/report">Report</a></li>
 <li><a href="race/tour-de-pologne/2023/stage-2/more/embed-results">Embed</a></li>
 <li><a href="race/tour-de-pologne/2023/stage-2/more/contribute-info">Contribute info</a></li>
 <li><a href="race/tour-de-pologne/2023/stage-2/more/contribute-sites">Contribute site(s)</a></li>
 </ul></li>
-<li class="more"><a href="race/tour-de-pologne/2023/stage-2">More</a><ul><li data-n="0"><a href="race/tour-de-pologne/2023/stage-2/result/result">Results - Results</a></li><li data-n="1"><a href="race/tour-de-pologne/2023/stage-2/overview/overview">Preview - Preview</a></li><li data-n="2"><a href="race/tour-de-pologne/2023/stage-2/startlist/startlist">Startlist - Startlist</a></li><li data-n="3"><a href="race/tour-de-pologne/2023/stage-2/history/history">History - History</a></li><li data-n="3"><a href="race/tour-de-pologne/2023/stage-2/history/palmares">Top-3 per edition</a></li>
-<li data-n="3"><a href="race/tour-de-pologne/2023/stage-2/history/most-wins">Most wins</a></li>
-<li data-n="3"><a href="race/tour-de-pologne/2023/stage-2/history/longest-race">Fastest editions</a></li>
-<li data-n="3"><a href="race/tour-de-pologne/2023/stage-2/history/most-leader-jerseys">Leader jerseys</a></li>
-<li data-n="4"><a href="race/tour-de-pologne/2023/stage-2/stages/stages">Stages - Stages</a></li><li data-n="4"><a href="race/tour-de-pologne/2023/stage-2/stages/winners">Winners and leaders</a></li>
-<li data-n="4"><a href="race/tour-de-pologne/2023/stage-2/stages/all-stage-profiles">All stage profiles</a></li>
-<li data-n="4"><a href="race/tour-de-pologne/2023/stage-2/stages/average-speed-per-stage">Average speed per stage</a></li>
-<li data-n="5"><a href="race/tour-de-pologne/2023/stage-2/today/today">Race - Race</a></li><li data-n="5"><a href="race/tour-de-pologne/2023/stage-2/today/profiles">Profiles by stage</a></li>
-<li data-n="5"><a href="race/tour-de-pologne/2023/stage-2/today/photos">Finish photo</a></li>
-<li data-n="6"><a href="race/tour-de-pologne/2023/stage-2/game/game">Game - Game</a></li><li data-n="7"><a href="race/tour-de-pologne/2023/stage-2/live/live">Live - Live</a></li><li data-n="7"><a href="race/tour-de-pologne/2023/stage-2/live/livestats">LiveStats</a></li>
-<li data-n="7"><a href="race/tour-de-pologne/2023/stage-2/live/complementary-results">Complementary results</a></li>
-<li data-n="7"><a href="race/tour-de-pologne/2023/stage-2/live/time-splits">Time splits table</a></li>
-<li data-n="8"><a href="race/tour-de-pologne/2023/stage-2/more/more">More - More</a></li><li data-n="8"><a href="race/tour-de-pologne/2023/stage-2/more/report">Report</a></li>
-<li data-n="8"><a href="race/tour-de-pologne/2023/stage-2/more/embed-results">Embed</a></li>
-<li data-n="8"><a href="race/tour-de-pologne/2023/stage-2/more/contribute-info">Contribute info</a></li>
-<li data-n="8"><a href="race/tour-de-pologne/2023/stage-2/more/contribute-sites">Contribute site(s)</a></li>
-</ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag pl w32"></span><span class="flag pl w24"></span><span class="hideIfMobile">2023</span><span class="hideIfMobile">&raquo;</span><h1 class="">Tour de Pologne</h1><font class="hideIfMobile">(2.UWT)</font></div><div class="sub"><span class="showIfMobile">2023</span><span class="showIfMobile">&raquo;</span><span class="blue">Stage 2</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord race"></div><div class="mob-ad leaderbord race"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100 "   >
-<div class="w68 left mb_w100"><div class="result-filter-cont"><label for="age"><input type="checkbox" class="toggleAge" value="1" id="age">Age</label><label class="hide toggles toggleGC-label" for="gc"><input type="checkbox" class="toggleGC" value="1" id="gc">GC</label><label class="hide toggles toggleDeltaPoints-label" for="delta_pnts"><input type="checkbox" class="toggleDeltaPoints" value="1" id="delta_pnts">+Points</label><label class="hide toggles toggleWonLost-label" for="time_wonlost"><input type="checkbox" class="toggleWonLost" value="1" id="time_wonlost">Time won/lost</label><label for="h2h"><input type="checkbox" class="toggleH2H cbFalseOnLoad" value="1" id="h2h" >H2H</label><a class="clearFilter blue hide" style="padding: 0px 7px; " href="">clear filter</a><select class="TNFilter" data-type="team"><option value="0" selected >all teams</option><option value="1060"  >AG2R Citroën Team</option><option value="1100"  >Alpecin-Deceuninck</option><option value="1375"  >Astana Qazaqstan Team</option><option value="3814"  >Bahrain - Victorious</option><option value="1411"  >BORA - hansgrohe</option><option value="1136"  >Cofidis</option><option value="4000"  >EF Education-EasyPost</option><option value="1187"  >Groupama - FDJ</option><option value="1423"  >INEOS Grenadiers</option><option value="1490"  >Intermarché - Circus - Wanty</option><option value="1330"  >Jumbo-Visma</option><option value="2088"  >Lotto Dstny</option><option value="2040"  >Movistar Team</option><option value="1293"  >Q36.5 Pro Cycling Team</option><option value="1328"  >Soudal - Quick Step</option><option value="1107"  >Team Arkéa Samsic</option><option value="1360"  >Team DSM</option><option value="1207"  >Team Jayco AlUla</option><option value="1258"  >Trek - Segafredo</option><option value="1253"  >UAE Team Emirates</option></select><select class="TNFilter" data-type="nation"><option value="0" selected >all nations</option><option value="co"  >Colombia</option><option value="fr"  >France</option><option value="pl"  >Poland</option><option value="si"  >Slovenia</option></select></div><div class="hide timeWonLostComment" style="text-align: right; color: #555; font-size: 10px; ">The time won/lost column displays the gains in time in the GC. Click on the time of any rider to view the relative gains on this rider.</div><div class="h2h hide " style="font-size: 11px; color: #555;   ">Select two riders to compare. </div><div class="result-cont " data-id="279305">
+<li class="more"><a href="race/tour-de-pologne/2023/stage-2">More</a><ul><li data-n="0"><a href="race/tour-de-pologne/2023/stage-2/result/result">Results - Results</a></li><li data-n="1"><a href="race/tour-de-pologne/2023/stage-2/live/live">Live - Live</a></li><li data-n="1"><a href="race/tour-de-pologne/2023/stage-2/live/livestats">LiveStats</a></li>
+<li data-n="1"><a href="race/tour-de-pologne/2023/stage-2/live/time-splits">Time splits table</a></li>
+<li data-n="2"><a href="race/tour-de-pologne/2023/stage-2/game/game">Game - Game</a></li><li data-n="3"><a href="race/tour-de-pologne/2023/stage-2/statistics/statistics">Statistics - Statistics</a></li><li data-n="3"><a href="race/tour-de-pologne/2023/stage-2/statistics/photos">Finish photo</a></li>
+<li data-n="3"><a href="race/tour-de-pologne/2023/stage-2/statistics/complementary-results">Complementary results</a></li>
+<li data-n="4"><a href="race/tour-de-pologne/2023/stage-2/route/route">Route - Route</a></li><li data-n="4"><a href="race/tour-de-pologne/2023/stage-2/route/profiles">Profiles</a></li>
+<li data-n="5"><a href="race/tour-de-pologne/2023/stage-2/more/more">More - More</a></li><li data-n="5"><a href="race/tour-de-pologne/2023/stage-2/more/report">Report</a></li>
+<li data-n="5"><a href="race/tour-de-pologne/2023/stage-2/more/embed-results">Embed</a></li>
+<li data-n="5"><a href="race/tour-de-pologne/2023/stage-2/more/contribute-info">Contribute info</a></li>
+<li data-n="5"><a href="race/tour-de-pologne/2023/stage-2/more/contribute-sites">Contribute site(s)</a></li>
+</ul></li></ul><div class="clear"></div></div><ul class="thumbnails" ><li><a href="race/tour-de-pologne">Tour de Pologne</a></li><li>&nbsp; &raquo; &nbsp;</li><li><a href="race/tour-de-pologne/2023">2023</a></li><li>&nbsp; &raquo; &nbsp;</li><li><a href="race/tour-de-pologne/2023/stage-2">Stage 2</a></li><li>&nbsp; &raquo; &nbsp;</li><li><a href="race/tour-de-pologne/2023/stage-2/result">Results</a></li></ul><div class="page-title " ><div class="main"><span class="flag pl w32"></span><span class="flag pl w24"></span><span class="hideIfMobile">2023</span><span class="hideIfMobile">&raquo;</span><font class="hideIfMobile">80th</font><h1 class="">Tour de Pologne</h1><font class="hideIfMobile">(2.UWT)</font></div><div class="sub"><span class="showIfMobile">2023</span><span class="showIfMobile">&raquo;</span><span class="blue">Stage 2</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord race"></div><div class="mob-ad leaderbord race"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100 "   >
+<div class="w68 left mb_w100"><div class="result-filter-cont"><label for="age"><input type="checkbox" class="toggleAge" value="1" id="age">Age</label><label class="hide toggles toggleGC-label" for="gc"><input type="checkbox" class="toggleGC" value="1" id="gc">GC</label><label class="hide toggles toggleDeltaPoints-label" for="delta_pnts"><input type="checkbox" class="toggleDeltaPoints" value="1" id="delta_pnts">+Points</label><label class="hide toggles toggleWonLost-label" for="time_wonlost"><input type="checkbox" class="toggleWonLost" value="1" id="time_wonlost">Time won/lost</label><label for="h2h"><input type="checkbox" class="toggleH2H cbFalseOnLoad" value="1" id="h2h" >H2H</label><a class="clearFilter blue hide" style="padding: 0px 7px; " href="">clear filter</a><select class="TNFilter" data-type="team"><option value="0" selected >all teams</option><option value="1060"  >AG2R Citroën Team</option><option value="1100"  >Alpecin-Deceuninck</option><option value="1375"  >Astana Qazaqstan Team</option><option value="3814"  >Bahrain - Victorious</option><option value="1411"  >BORA - hansgrohe</option><option value="1136"  >Cofidis</option><option value="4000"  >EF Education-EasyPost</option><option value="1187"  >Groupama - FDJ</option><option value="1235"  >Human Powered Health</option><option value="1423"  >INEOS Grenadiers</option><option value="1490"  >Intermarché - Circus - Wanty</option><option value="1330"  >Jumbo-Visma</option><option value="1258"  >Lidl - Trek</option><option value="2088"  >Lotto Dstny</option><option value="2040"  >Movistar Team</option><option value="2158"  >Poland</option><option value="1293"  >Q36.5 Pro Cycling Team</option><option value="1328"  >Soudal - Quick Step</option><option value="1107"  >Team Arkéa Samsic</option><option value="1360"  >Team DSM</option><option value="1207"  >Team Jayco AlUla</option><option value="1430"  >Team Novo Nordisk</option><option value="5649"  >Tudor Pro Cycling Team</option><option value="1253"  >UAE Team Emirates</option></select><select class="TNFilter" data-type="nation"><option value="0" selected >all nations</option><option value="co"  >Colombia</option><option value="fr"  >France</option><option value="nl"  >Netherlands</option><option value="pl"  >Poland</option><option value="pt"  >Portugal</option><option value="es"  >Spain</option></select></div><div class="hide timeWonLostComment" style="text-align: right; color: #555; font-size: 10px; ">The time won/lost column displays the gains in time in the GC. Click on the time of any rider to view the relative gains on this rider.</div><div class="h2h hide " style="font-size: 11px; color: #555;   ">Select two riders to compare. </div><div class="result-cont " data-id="279305">
 <div class="subTabs" data-subtab="1"><table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="gc hide" >GC</th><th class="gc hide" >Timelag</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th>Pnt</th><th class="bonis ar fs11 cu600" ></th><th class="time ar" >Time</th></tr></thead><tbody>
 </tbody></table>
-<div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result / NR = Did race, no result <svg viewBox="0 0 24 24" style="width: 14px; margin: 0 0 -4px 3px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#dec650" d="M21 3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-2.001L19 20a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1l-.001-8.001L3 12a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h6a3 3 0 0 0 6 0h6z"/></g></svg> Rider wearing the jersey  </div><div class="more-results-cont"></div></div><div class="subTabs hide" data-subtab="2"></div></div></div><div class="w30 right mb_w100"><div class=""></div>
+<div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result. <svg viewBox="0 0 24 24" style="width: 14px; margin: 0 0 -4px 3px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#dec650" d="M21 3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-2.001L19 20a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1l-.001-8.001L3 12a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h6a3 3 0 0 0 6 0h6z"/></g></svg> Rider wearing the jersey<span   style=" margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>>50% of race distance in group before peloton</span><div class="clear"></div>  </div><div class="more-results-cont"></div></div><div class="subTabs hide" data-subtab="2"></div></div></div><div class="w30 right mb_w100"><div class=""></div>
 <div class=""><h3>Race information</h3><div class=""></div></div>
 <img class="left maxw100 mg_rp10" src="images/logo/bn/dm/tour-de-pologne.png" /><div class=""><ul class="infolist" style=""><li><div>Date:</div> <div>30 July 2023</div></li>
 <li><div>Start time:</div> <div>-</div></li>
@@ -175,11 +158,12 @@
 <li><div>Departure:</div> <div><a    href="location/"></a></div></li>
 <li><div>Arrival:</div> <div><a    href="location/"></a></div></li>
 <li><div>Race ranking:</div> <div><a    href="race/tour-de-pologne/2023/stage-2/overview/race-ranking">0</a></div></li>
-<li><div>Startlist quality score:</div> <div><a    href="race/tour-de-pologne/2023/stage-2/startlist/lineup-quality">13</a></div></li>
+<li><div>Startlist quality score:</div> <div><a    href="race/tour-de-pologne/2023/stage-2/startlist/lineup-quality">67</a></div></li>
 <li><div>Won how: </div> <div><a    href="race/tour-de-pologne/2023/stage-2/more/contribute-info">? - let us know!</a></div></li>
 <li><div>Avg. temperature:</div> <div><a    href="race/tour-de-pologne/2023/stage-2/stages/hottest-stages"></a></div></li>
 </ul></div>
-<div class=""><ul class="list"><li class="goto" ><a   class="goto" href="race/tour-de-pologne/2023/stage-2/live">LiveStats</a></li>
+<div class=""><ul class="list horizontal"><li class="goto mr10" ><a   class="goto mr10" href="race/tour-de-pologne/2023/stage-2/live">LiveStats</a></li>
+<li class="goto" ><a   class="goto" href="race/tour-de-pologne/2023/startlist">Startlist</a></li>
 </ul></div>
 <div class="mt10"><h3>Race profile</h3>
 <span class="table-cont"><ul class="list"  style=" "></ul></span></div>
@@ -260,11 +244,11 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0579s</span></li>
+<li><span>Pageload 0.0422s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list5.js"></script>  
+<script src="search_list6.js"></script>  

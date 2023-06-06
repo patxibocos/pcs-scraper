@@ -45,7 +45,6 @@ class PCSRacesScraper(
         val calendarUrl = buildURL("races.php?year=$season&circuit=1")
         val calendarDoc = docFetcher.getDoc(calendarUrl)
         return calendarDoc.findAll("table tr:not(.striked) > td:nth-child(3) > a").map { it.attribute("href") }
-            .map { it.removeSuffix("/preview").removeSuffix("/startlist") + "/overview" }
     }
 
     private suspend fun getRace(raceUrl: String): PCSRace = coroutineScope {
@@ -53,20 +52,16 @@ class PCSRacesScraper(
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
         val infoList = raceDoc.ul { withClass = "infolist"; this }
         val header = raceDoc.findAll(".page-topnav > ul > li")
-        val participantsIndex = header.indexOfFirst { it.text == "Startlist" }
+        val participantsIndex = header.indexOfFirst { it.text.startsWith("Startlist") }
         val raceParticipantsUrl = header[participantsIndex].a { findFirst { attribute("href") } }
         val startDate = infoList.findFirst("li").findSecond("div").ownText
         val endDate = infoList.findSecond("li").findSecond("div").ownText
         val name = raceDoc.findFirst(".main > h1").text
         val stages = if (startDate == endDate) {
-            val resultsIndex = header.indexOfFirst { it.text == "Results" }
-            val raceResultUrl = header[resultsIndex].a { findFirst { attribute("href") } }
-            listOf(getStage(raceResultUrl, true))
+            listOf(getStage("$raceUrl/result", true))
         } else {
             logger.info("Scraping stages for race $name")
-            val stagesIndex = header.indexOfFirst { it.text.startsWith("Stages") }
-            val stagesUrl = header[stagesIndex].a { findFirst { attribute("href") } }
-            getStages(stagesUrl)
+            getStages(raceDoc.findFirst(".w48.left.mb_w100 > div:first-child > span > table"))
         }
         val country = raceDoc.getCountry()
         val websites = raceDoc.findAll("ul.list.circle.bluelink.fs14 a").map { it.attribute("href") }
@@ -108,12 +103,10 @@ class PCSRacesScraper(
         return startList
     }
 
-    private suspend fun getStages(stagesUrl: String): List<PCSStage> = coroutineScope {
-        val stagesURI = buildURL(stagesUrl)
-        val stagesDoc = docFetcher.getDoc(stagesURI) { relaxed = true }
-        val stagesUrls = stagesDoc.findFirst("table.basic > tbody").findAll("tr").map {
-            it.findThird("td").findFirst("a").attribute("href")
-        }
+    private suspend fun getStages(stagesTable: DocElement): List<PCSStage> = coroutineScope {
+        val stagesUrls =
+            stagesTable.findAll("tbody > tr").map { it.findThird("td").findFirst("a") }.filter { it.text != "Restday" }
+                .map { it.attribute("href") }
         stagesUrls.map { stageUrl -> async { getStage(stageUrl, false) } }.awaitAll()
     }
 

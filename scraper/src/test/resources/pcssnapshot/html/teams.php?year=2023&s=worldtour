@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="teams.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a168.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
 	
-<script src="https://www.procyclingstats.com/pcs_s66.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s71.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -58,8 +58,8 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
@@ -72,7 +72,14 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
+<li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
 <li><a href="team/cofidis-2023">Cofidis </a></li>
 <li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
 <li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
@@ -83,13 +90,6 @@
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
-<li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -117,13 +117,13 @@
   </header>  
 <div class="content   "> <div class="page-topnav "><div class="clear"></div></div><div class="page-title " ><a class="mobileMenuLink showIfMobile menu-toggle"  href="">menu</a><div class="main"><h1 class="">World & ProTeams</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div><div class="page-content page-object default " data-no_menu="0" ><div class=" "   >
 <input id="AjaxSearch" type="text" class=" fs14" placeholder="quick search.." data-code="pcs-ajax-search-team" />
-<form action="teams.php"><ul class="filter"><li><div class="label"></div><div><select class="" name="year"><option value="2023" selected >2023</option><option value="2022"  >2022</option><option value="2021"  >2021</option><option value="2020"  >2020</option><option value="2019"  >2019</option><option value="2018"  >2018</option><option value="2017"  >2017</option><option value="2016"  >2016</option><option value="2015"  >2015</option><option value="2014"  >2014</option><option value="2013"  >2013</option><option value="2012"  >2012</option><option value="2011"  >2011</option><option value="2010"  >2010</option><option value="2009"  >2009</option><option value="2008"  >2008</option><option value="2007"  >2007</option><option value="2006"  >2006</option><option value="2005"  >2005</option><option value="2004"  >2004</option><option value="2003"  >2003</option><option value="2002"  >2002</option><option value="2001"  >2001</option><option value="2000"  >2000</option><option value="1999"  >1999</option><option value="1998"  >1998</option><option value="1997"  >1997</option><option value="1996"  >1996</option><option value="1995"  >1995</option><option value="1994"  >1994</option><option value="1993"  >1993</option><option value="1992"  >1992</option><option value="1991"  >1991</option><option value="1990"  >1990</option><option value="1989"  >1989</option><option value="1988"  >1988</option><option value="1987"  >1987</option><option value="1986"  >1986</option><option value="1985"  >1985</option><option value="1984"  >1984</option><option value="1983"  >1983</option><option value="1982"  >1982</option><option value="1981"  >1981</option><option value="1980"  >1980</option></select></div></li>
-</ul><input type="submit" name="filter" value="Filter" /><input type="hidden" name="s" value="worldtour" /></form>
+<form action="teams.php"><ul class="filter "><li><div class="label"></div><div><select class="" name="year"  style=""><option value="2023" selected >2023</option><option value="2022"  >2022</option><option value="2021"  >2021</option><option value="2020"  >2020</option><option value="2019"  >2019</option><option value="2018"  >2018</option><option value="2017"  >2017</option><option value="2016"  >2016</option><option value="2015"  >2015</option><option value="2014"  >2014</option><option value="2013"  >2013</option><option value="2012"  >2012</option><option value="2011"  >2011</option><option value="2010"  >2010</option><option value="2009"  >2009</option><option value="2008"  >2008</option><option value="2007"  >2007</option><option value="2006"  >2006</option><option value="2005"  >2005</option><option value="2004"  >2004</option><option value="2003"  >2003</option><option value="2002"  >2002</option><option value="2001"  >2001</option><option value="2000"  >2000</option><option value="1999"  >1999</option><option value="1998"  >1998</option><option value="1997"  >1997</option><option value="1996"  >1996</option><option value="1995"  >1995</option><option value="1994"  >1994</option><option value="1993"  >1993</option><option value="1992"  >1992</option><option value="1991"  >1991</option><option value="1990"  >1990</option><option value="1989"  >1989</option><option value="1988"  >1988</option><option value="1987"  >1987</option><option value="1986"  >1986</option><option value="1985"  >1985</option><option value="1984"  >1984</option><option value="1983"  >1983</option><option value="1982"  >1982</option><option value="1981"  >1981</option><option value="1980"  >1980</option></select></div></li>
+<li><div><input type="submit" name="filter" value="Filter" /></div></li></ul><input type="hidden" name="s" value="worldtour" /></form>
 <div class="mt20"><h3>UCI WorldTeams</h3>
-<span class="table-cont"><ul class="list fs14 columns2 mob_columns1"  style=" "><li class="" ><div ><span class="flag fr"></span> <a    href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></div><div > (29)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list fs14 columns2 mob_columns1"  style=" "><li class="" ><div ><span class="flag fr"></span> <a    href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag be"></span> <a    href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag kz"></span> <a    href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class="" ><div ><span class="flag bh"></span> <a    href="team/bahrain-victorious-2023">Bahrain - Victorious</a></div><div > (28)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class="" ><div ><span class="flag bh"></span> <a    href="team/bahrain-victorious-2023">Bahrain - Victorious</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag de"></span> <a    href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag fr"></span> <a    href="team/cofidis-2023">Cofidis</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag us"></span> <a    href="team/ef-education-easypost-2023">EF Education-EasyPost</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
@@ -131,12 +131,12 @@
 <li class="" ><div ><span class="flag gb"></span> <a    href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag be"></span> <a    href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty</a></div><div > (29)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag nl"></span> <a    href="team/team-jumbo-visma-2023">Jumbo-Visma</a></div><div > (29)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class="" ><div ><span class="flag us"></span> <a    href="team/lidl-trek-2023">Lidl - Trek</a></div><div > (29)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag es"></span> <a    href="team/movistar-team-2023">Movistar Team</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag be"></span> <a    href="team/soudal-quick-step-2023">Soudal - Quick Step</a></div><div > (29)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag fr"></span> <a    href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag nl"></span> <a    href="team/team-dsm-2023">Team DSM</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag au"></span> <a    href="team/team-jayco-alula-2023">Team Jayco AlUla</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class="" ><div ><span class="flag us"></span> <a    href="team/trek-segafredo-2023">Trek - Segafredo</a></div><div > (29)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag ae"></span> <a    href="team/uae-team-emirates-2023">UAE Team Emirates</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt20">
@@ -162,17 +162,17 @@
 <div class="mt20"><h3>UCI ProTeams</h3>
 <span class="table-cont"><ul class="list fs14 columns2 mob_columns1"  style=" "><li class="" ><div ><span class="flag be"></span> <a    href="team/bingoal-wb-2023">Bingoal WB</a></div><div > (20)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag nz"></span> <a    href="team/bolton-equities-black-spoke-2023">Bolton Equities Black Spoke</a></div><div > (20)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class="" ><div ><span class="flag es"></span> <a    href="team/burgos-bh-2023">Burgos-BH</a></div><div > (21)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class="" ><div ><span class="flag es"></span> <a    href="team/burgos-bh-2023">Burgos-BH</a></div><div > (22)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag es"></span> <a    href="team/caja-rural-seguros-rga-2023">Caja Rural - Seguros RGA</a></div><div > (21)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag it"></span> <a    href="team/eolo-kometa-2023">EOLO-Kometa</a></div><div > (20)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag es"></span> <a    href="team/equipo-kern-pharma-2023">Equipo Kern Pharma</a></div><div > (22)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag es"></span> <a    href="team/euskaltel-euskadi-2023">Euskaltel - Euskadi</a></div><div > (20)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class="" ><div ><span class="flag it"></span> <a    href="team/green-project-bardiani-csf-faizane-2023">Green Project-Bardiani CSF-Faizanè</a></div><div > (26)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class="" ><div ><span class="flag it"></span> <a    href="team/green-project-bardiani-csf-faizane-2023">Green Project-Bardiani CSF-Faizanè</a></div><div > (27)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag us"></span> <a    href="team/human-powered-health-2023">Human Powered Health</a></div><div > (23)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class="" ><div ><span class="flag il"></span> <a    href="team/israel-premier-tech-2023">Israel - Premier Tech</a></div><div > (29)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class="" ><div ><span class="flag il"></span> <a    href="team/israel-premier-tech-2023">Israel - Premier Tech</a></div><div > (30)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag be"></span> <a    href="team/lotto-dstny-2023">Lotto Dstny</a></div><div > (28)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag ch"></span> <a    href="team/q365-pro-cycing-team">Q36.5 Pro Cycling Team</a></div><div > (24)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class="" ><div ><span class="flag it"></span> <a    href="team/team-corratec-2023">Team Corratec</a></div><div > (20)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class="" ><div ><span class="flag it"></span> <a    href="team/team-corratec-selle-italia-2023">Team Corratec - Selle Italia</a></div><div > (20)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag be"></span> <a    href="team/team-flanders--baloise-2023">Team Flanders - Baloise</a></div><div > (20)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag us"></span> <a    href="team/team-novo-nordisk-2023">Team Novo Nordisk</a></div><div > (18)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class="" ><div ><span class="flag fr"></span> <a    href="team/team-totalenergies-2023">TotalEnergies</a></div><div > (25)</div><div class="fs10   "  ></div><div class="clear"></div></li>
@@ -192,7 +192,7 @@
 <li class="" ><div ><a    href="team/israel-premier-tech-2023"><img src="images/shirts/bx/eb/israel-premier-tech-2023.png" style="max-height: 100px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
 <li class="" ><div ><a    href="team/lotto-dstny-2023"><img src="images/shirts/bx/eb/lotto-dstny-2023.png" style="max-height: 100px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
 <li class="" ><div ><a    href="team/q365-pro-cycing-team"><img src="images/shirts/bx/eb/q365-pro-cycing-team.png" style="max-height: 100px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
-<li class="" ><div ><a    href="team/team-corratec-2023"><img src="images/shirts/bx/eb/team-corratec-2023.png" style="max-height: 100px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
+<li class="" ><div ><a    href="team/team-corratec-selle-italia-2023"><img src="images/shirts/bx/eb/team-corratec-selle-italia-2023.png" style="max-height: 100px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
 <li class="" ><div ><a    href="team/team-flanders--baloise-2023"><img src="images/shirts/bx/eb/team-flanders-baloise-2023-n2.png" style="max-height: 100px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
 <li class="" ><div ><a    href="team/team-novo-nordisk-2023"><img src="images/shirts/bx/eb/team-novo-nordisk-2023.png" style="max-height: 100px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
 <li class="" ><div ><a    href="team/team-totalenergies-2023"><img src="images/shirts/bx/eb/team-totalenergies-2023.png" style="max-height: 100px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
@@ -200,7 +200,7 @@
 <li class="" ><div ><a    href="team/uno-x-pro-cycling-team-2023"><img src="images/shirts/bx/eb/uno-x-pro-cycling-team-2023.png" style="max-height: 100px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
 </ul></span></div>
 </div>
-<div class="desktop-ad below-content general"></div><div class="mob-ad below-content general"></div></div><div class="page-nav default " ><ul class="menu-tree  "><li><span>Teams</span><ul><li class="cur " data-premium="0" style=" "><a href="teams/worldtour">World & ProTeams</a></li><li class=" " data-premium="0" style=" "><a href="teams/women">Women's World & Continental teams</a></li><li class=" " data-premium="0" style=" "><a href="teams/continental">Continental teams</a></li></ul></li><li><span>Info</span><ul><li class=" " data-premium="0" style=" "><a href="teams/transfers">Latest transfers</a></li><li class=" " data-premium="0" style=" "><a href="teams/uci-team-debutants">UCI team debutants</a></li><li class=" " data-premium="0" style=" "><a href="teams/next-season-transfers">Next season transfers</a></li><li class=" " data-premium="0" style=" "><a href="teams/transfers-per-season">Transfers per season</a></li><li class=" " data-premium="0" style=" "><a href="teams/contract-extensions">Contract extensions</a></li><li class=" " data-premium="0" style=" "><a href="teams/new-on-pro-level">New on pro-level</a></li><li class=" " data-premium="0" style=" "><a href="teams/no-team-next-year">No next season contract</a></li><li class=" " data-premium="0" style=" "><a href="teams/retiring">Retiring riders</a></li><li class=" " data-premium="0" style=" "><a href="teams/trainees">Trainees</a></li><li class=" " data-premium="0" style=" "><a href="teams/alphabetical">Alphabetical</a></li><li class=" " data-premium="0" style=" "><a href="teams/worldtour-debutants">WorldTour debutants</a></li><li class=" " data-premium="0" style=" "><a href="teams/teams-riders-inout">Riders in/out per team</a></li></ul></li><li><span>Rankings and statistics</span><ul><li class=" " data-premium="0" style=" "><a href="teams/points-teams-over-time">Points teams over time</a></li><li class=" " data-premium="0" style=" "><a href="teams/transfer-value-won-lost">Transfer value won/loss</a></li><li class=" " data-premium="0" style=" "><a href="teams/wins">Wins</a></li><li class=" " data-premium="0" style=" "><a href="teams/youngest-riders">Youngest riders</a></li></ul></li><li><span>Staff</span><ul><li class=" " data-premium="0" style=" "><a href="teams/general-managers">General managers</a></li><li class=" " data-premium="0" style=" "><a href="teams/rider-to-staff">Riders transfering to staff function</a></li><li class=" " data-premium="0" style=" "><a href="teams/staff-transfers">Staff transfers</a></li></ul></li></ul></div><div style="clear: both; "></div>  
+<div class="desktop-ad below-content general"></div><div class="mob-ad below-content general"></div></div><div class="page-nav default " ><ul class="menu-tree  "><li><span>Teams</span><ul><li class="cur " data-pro="0" style=" "><a href="teams/worldtour">World & ProTeams</a></li><li class=" " data-pro="0" style=" "><a href="teams/women">Women's World & Continental teams</a></li><li class=" " data-pro="0" style=" "><a href="teams/continental">Continental teams</a></li></ul></li><li><span>Info</span><ul><li class=" " data-pro="0" style=" "><a href="teams/transfers">Latest transfers</a></li><li class=" " data-pro="0" style=" "><a href="teams/uci-team-debutants">UCI team debutants</a></li><li class=" " data-pro="0" style=" "><a href="teams/next-season-transfers">Next season transfers</a></li><li class=" " data-pro="0" style=" "><a href="teams/transfers-per-season">Transfers per season</a></li><li class=" " data-pro="0" style=" "><a href="teams/contract-extensions">Contract extensions</a></li><li class=" " data-pro="0" style=" "><a href="teams/new-on-pro-level">New on pro-level</a></li><li class=" " data-pro="0" style=" "><a href="teams/no-team-next-year">No next season contract</a></li><li class=" " data-pro="0" style=" "><a href="teams/retiring">Retiring riders</a></li><li class=" " data-pro="0" style=" "><a href="teams/trainees">Trainees</a></li><li class=" " data-pro="0" style=" "><a href="teams/alphabetical">Alphabetical</a></li><li class=" " data-pro="0" style=" "><a href="teams/worldtour-debutants">WorldTour debutants</a></li><li class=" " data-pro="0" style=" "><a href="teams/teams-riders-inout">Riders in/out per team</a></li></ul></li><li><span>Rankings and statistics</span><ul><li class=" " data-pro="0" style=" "><a href="teams/points-teams-over-time">Points teams over time</a></li><li class=" " data-pro="0" style=" "><a href="teams/transfer-value-won-lost">Transfer value won/loss</a></li><li class=" " data-pro="0" style=" "><a href="teams/wins">Wins</a></li><li class=" " data-pro="0" style=" "><a href="teams/youngest-riders">Youngest riders</a></li></ul></li><li><span>Staff</span><ul><li class=" " data-pro="0" style=" "><a href="teams/general-managers">General managers</a></li><li class=" " data-pro="0" style=" "><a href="teams/rider-to-staff">Riders transfering to staff function</a></li><li class=" " data-pro="0" style=" "><a href="teams/staff-transfers">Staff transfers</a></li></ul></li></ul></div><div style="clear: both; "></div>  
   </div>
   </center>
   <div class="push"></div>
@@ -270,11 +270,11 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0580s</span></li>
+<li><span>Pageload 0.0520s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="2188" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list5.js"></script>  
+<script src="search_list6.js"></script>  
