@@ -45,6 +45,7 @@ class PCSRacesScraper(
         val calendarUrl = buildURL("races.php?year=$season&circuit=1")
         val calendarDoc = docFetcher.getDoc(calendarUrl)
         return calendarDoc.findAll("table tr:not(.striked) > td:nth-child(3) > a").map { it.attribute("href") }
+            .map { it.substring(0, it.lastIndexOf("/$season")) + "/$season" }
     }
 
     private suspend fun getRace(raceUrl: String): PCSRace = coroutineScope {
@@ -87,12 +88,12 @@ class PCSRacesScraper(
     private suspend fun getRaceStartList(raceStartListUrl: String): List<PCSTeamParticipation> {
         val raceParticipantsUrl = buildURL(raceStartListUrl)
         val raceStartListDoc = docFetcher.getDoc(raceParticipantsUrl) { relaxed = true }
-        val startList = raceStartListDoc.findAll("ul.startlist_v3 > li.team").map {
+        val startList = raceStartListDoc.findAll("ul.startlist_v4 > li").map {
             val team = it.findFirst("a").attribute("href")
             val riders = it.findAll("ul > li").map { riderDocElement ->
                 PCSRiderParticipation(
                     rider = riderDocElement.a { findFirst { attribute("href") } },
-                    number = riderDocElement.ownText,
+                    number = riderDocElement.findFirst("span").text,
                 )
             }
             PCSTeamParticipation(
