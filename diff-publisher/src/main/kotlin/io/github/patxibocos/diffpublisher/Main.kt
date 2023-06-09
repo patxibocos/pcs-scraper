@@ -15,6 +15,8 @@ import java.io.ByteArrayInputStream
 import java.util.*
 import java.util.zip.GZIPInputStream
 
+private val logger: Logger = KotlinLogging.logger {}
+
 fun main() {
     val options = FirebaseOptions.builder()
         .setCredentials(GoogleCredentials.getApplicationDefault())
@@ -40,6 +42,7 @@ fun main() {
     val previousCyclingData =
         CyclingDataOuterClass.CyclingData.parseFrom(decodeBase64ThenUnzip(previousVersionData))
 
+    logger.info("Comparing version $lastVersionNumber with $previousVersionNumber")
     checkNewStagesWithResults(lastCyclingData, previousCyclingData)
 }
 
@@ -65,7 +68,6 @@ private fun checkNewStagesWithResults(
     lastData: CyclingDataOuterClass.CyclingData,
     previousData: CyclingDataOuterClass.CyclingData,
 ) {
-    val logger: Logger = KotlinLogging.logger {}
     val lastResults =
         lastData.racesList.associate { race -> race.id to race.stagesList.associate { stage -> stage.id to stage.resultList } }
     val previousResults =
