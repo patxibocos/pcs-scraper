@@ -214,7 +214,7 @@ class PCSRacesScraper(
     }
 
     private fun pcsRaceToRace(pcsRace: PCSRace): Race {
-        val raceId = pcsRace.url.split("/").dropLast(1).takeLast(2).joinToString("-")
+        val raceId = pcsRace.url.split("/").takeLast(2).joinToString("-")
         return Race(
             id = raceId,
             name = pcsRace.name,
