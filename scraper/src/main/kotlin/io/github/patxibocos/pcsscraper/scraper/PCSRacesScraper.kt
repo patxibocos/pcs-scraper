@@ -35,7 +35,7 @@ class PCSRacesScraper(
 ) :
     RacesScraper {
 
-    override suspend fun scrapeRaces(season: Int, teamIdMapper: (String) -> String): List<Race> = coroutineScope {
+    override suspend fun scrapeRaces(season: Int, teamIdMapper: (String) -> String?): List<Race> = coroutineScope {
         logger.info("Scraping races for $season season")
         val pcsRaces = getRacesUrls(season).map { raceUrl -> async { getRace(raceUrl) } }.awaitAll()
         pcsRaces.map { pcsRaceToRace(it, teamIdMapper) }.sortedBy { it.stages.first().startDateTime }
@@ -213,7 +213,7 @@ class PCSRacesScraper(
         } ?: emptyList()
     }
 
-    private fun pcsRaceToRace(pcsRace: PCSRace, teamIdMapper: (String) -> String): Race {
+    private fun pcsRaceToRace(pcsRace: PCSRace, teamIdMapper: (String) -> String?): Race {
         val raceId = pcsRace.url.split("/").takeLast(2).joinToString("-")
         return Race(
             id = raceId,
@@ -221,18 +221,21 @@ class PCSRacesScraper(
             country = pcsRace.country.uppercase(),
             website = pcsRace.website,
             stages = pcsRace.stages.map { pcsStageToStage(it, teamIdMapper) },
-            startList = pcsRace.startList.map { pcsTeamParticipationToTeamParticipation(it, teamIdMapper) },
+            startList = pcsRace.startList.mapNotNull { pcsTeamParticipationToTeamParticipation(it, teamIdMapper) },
             result = pcsParticipantResultToRiderResult(pcsRace.result),
         )
     }
 
-    private fun pcsParticipantResultToTeamResult(pcsParticipantResults: List<PCSParticipantResult>, teamIdMapper: (String) -> String): List<Race.ParticipantResult> {
+    private fun pcsParticipantResultToTeamResult(
+        pcsParticipantResults: List<PCSParticipantResult>,
+        teamIdMapper: (String) -> String?,
+    ): List<Race.ParticipantResult> {
         if (pcsParticipantResults.isEmpty()) {
             return emptyList()
         }
-        return pcsParticipantResults.take(10).map {
+        return pcsParticipantResults.take(10).mapNotNull {
             val position = it.position.toInt()
-            val team = teamIdMapper(it.participant.split("/").last())
+            val team = teamIdMapper(it.participant.split("/").last()) ?: return@mapNotNull null
             val (minutes, seconds) = it.time.split(":").map(String::toInt)
             val time = (minutes.minutes + seconds.seconds).inWholeSeconds
             Race.ParticipantResult(position, team, time)
@@ -279,7 +282,7 @@ class PCSRacesScraper(
         }
     }
 
-    private fun pcsStageToStage(pcsStage: PCSStage, teamIdMapper: (String) -> String): Race.Stage {
+    private fun pcsStageToStage(pcsStage: PCSStage, teamIdMapper: (String) -> String?): Race.Stage {
         // Some dates include time, so for now we just ignore the time part
         val startDateString = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
         val localDate = LocalDate.parse(startDateString, DateTimeFormatter.ofPattern("dd MMMM yyyy"))
@@ -324,9 +327,9 @@ class PCSRacesScraper(
 
     private fun pcsTeamParticipationToTeamParticipation(
         pcsTeamParticipation: PCSTeamParticipation,
-        teamIdMapper: (String) -> String,
-    ): Race.TeamParticipation {
-        val teamId = teamIdMapper(pcsTeamParticipation.team.split("/").last())
+        teamIdMapper: (String) -> String?,
+    ): Race.TeamParticipation? {
+        val teamId = teamIdMapper(pcsTeamParticipation.team.split("/").last()) ?: return null
         return Race.TeamParticipation(
             team = teamId,
             riders = pcsTeamParticipation.riders.map {
