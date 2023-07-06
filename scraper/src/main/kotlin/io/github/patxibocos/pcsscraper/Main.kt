@@ -44,7 +44,14 @@ fun main(args: Array<String>) {
         val data = async {
             val teams = teamsScraper.scrapeTeams(season = season)
             val riders = ridersScraper.scrapeRiders(season = season)
-            val races = racesScraper.scrapeRaces(season = season)
+            val teamIdMapper = { teamId: String ->
+                when {
+                    teams.map { it.id }.contains(teamId) -> teamId
+                    teamId == "team-dsm-2023" -> "team-dsm-firmenich-2023"
+                    else -> throw IllegalArgumentException("Unexpected team id: $teamId")
+                }
+            }
+            val races = racesScraper.scrapeRaces(season = season, teamIdMapper = teamIdMapper)
             Triple(teams, riders, races)
         }
 
