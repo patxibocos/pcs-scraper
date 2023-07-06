@@ -49,6 +49,7 @@ fun main(args: Array<String>) {
                     teams.map { it.id }.contains(teamId) -> teamId
                     teamId == "team-dsm-2023" -> "team-dsm-firmenich-2023"
                     teamId == "trek-segafredo-2023" -> "lidl-trek-2023"
+                    teamId == "team-corratec-2023" -> "team-corratec-selle-italia-2023"
                     teamId == "unisa-australia-2023" -> null
                     else -> throw IllegalArgumentException("Unexpected team id: $teamId")
                 }
