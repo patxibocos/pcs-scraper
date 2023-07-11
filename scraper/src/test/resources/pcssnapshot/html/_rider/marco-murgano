@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
-	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b152.css" />
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -118,6 +126,7 @@
 <div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/marco-murgano">Overview</a></li>
 <li class="reg "><a class="" href="rider/marco-murgano/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/marco-murgano/statistics/overview">Overview</a></li>
 <li><a href="rider/marco-murgano/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/marco-murgano/statistics/key-events">Key events</a></li>
 <li><a href="rider/marco-murgano/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/marco-murgano/statistics/wins">Wins</a></li>
 <li><a href="rider/marco-murgano/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -137,31 +146,38 @@
 <li class="reg "><a class="" href="rider/marco-murgano/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/marco-murgano/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/marco-murgano/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/marco-murgano">More</a><ul><li data-n="0"><a href="rider/marco-murgano/overview/overview">Overview - Overview</a></li><li data-n="1"><a href="rider/marco-murgano/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/marco-murgano/statistics/overview">Overview</a></li>
+<li class="more"><a href="rider/marco-murgano">More</a><ul><li data-n="1"><a href="rider/marco-murgano/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/marco-murgano/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/marco-murgano/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="rider/marco-murgano/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/marco-murgano/statistics/key-events">Key events</a></li>
 <li data-n="1"><a href="rider/marco-murgano/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li data-n="1"><a href="rider/marco-murgano/statistics/wins">Wins</a></li>
 <li data-n="1"><a href="rider/marco-murgano/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/marco-murgano/statistics/grand-tour-starts">Starts and results</a></li>
 <li data-n="1"><a href="rider/marco-murgano/statistics/injury-history">Injury history</a></li>
-<li data-n="2"><a href="rider/marco-murgano/results/results">Results - Results</a></li><li data-n="3"><a href="rider/marco-murgano/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="4"><a href="rider/marco-murgano/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/marco-murgano/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/marco-murgano/contribute/contribute-info">Contribute info</a></li>
+<li data-n="3"><a href="rider/marco-murgano/results/results">Results - Results</a></li><li data-n="4"><a href="rider/marco-murgano/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/marco-murgano/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/marco-murgano/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/marco-murgano/contribute/contribute-info">Contribute info</a></li>
 <li data-n="5"><a href="rider/marco-murgano/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/marco-murgano/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/marco-murgano/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/marco-murgano/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/marco-murgano/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="6"><a href="rider/marco-murgano/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/marco-murgano/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="7"><a href="rider/marco-murgano/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/marco-murgano/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/marco-murgano/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag it w32"></span><span class="flag it w24"></span><h1 class="">Marco  Murgano</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Team Corratec - Selle Italia</span></div><div class="sub"><span class="red showIfMobile">Team Corratec - Selle Italia</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/marco-murgano/statistics/overview"><img alt="Profile photo of Marco  Murgano" src="images/riders/bp/df/marco-murgano-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 29<sup>th</sup> March 1998 (25)<br /><b>Nationality:</b> <span class="flag  it"></span><a class="black" href="nation/italy">Italy</a><br /><b>Place of birth:</b> <a href="location/lavagna">Lavagna</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 75%; height: 100%;  "></div></div><div class="pnt">21</div><div class="title"><a href="rider/marco-murgano/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 92.857142857143%; height: 100%;  "></div></div><div class="pnt">26</div><div class="title"><a href="rider/marco-murgano/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 64.285714285714%; height: 100%;  "></div></div><div class="pnt">18</div><div class="title"><a href="rider/marco-murgano/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 17.857142857143%; height: 100%;  "></div></div><div class="pnt">5</div><div class="title"><a href="rider/marco-murgano/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">28</div><div class="title"><a href="rider/marco-murgano/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="race/tour-of-qinghai-lake/2023/stage-3/live">LiveStats Tour of Qinghai Lake</a></li>
+<li><a   class="" href="rider-in-race/marco-murgano/tour-of-qinghai-lake">Rider statistics in Tour of Qinghai Lake</a></li>
+</ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/marco-murgano/statistics/overview"><img alt="Profile photo of Marco  Murgano" src="images/riders/bp/df/marco-murgano-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 29<sup>th</sup> March 1998 (25)<br /><b>Nationality:</b> <span class="flag  it"></span><a class="black" href="nation/italy">Italy</a><br /><b>Place of birth:</b> <a href="location/lavagna">Lavagna</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 61.764705882353%; height: 100%;  "></div></div><div class="pnt">21</div><div class="title"><a href="rider/marco-murgano/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 76.470588235294%; height: 100%;  "></div></div><div class="pnt">26</div><div class="title"><a href="rider/marco-murgano/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 52.941176470588%; height: 100%;  "></div></div><div class="pnt">18</div><div class="title"><a href="rider/marco-murgano/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 14.705882352941%; height: 100%;  "></div></div><div class="pnt">5</div><div class="title"><a href="rider/marco-murgano/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">34</div><div class="title"><a href="rider/marco-murgano/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="race/tour-of-qinghai-lake/2023/stage-3/live">LiveStats Tour of Qinghai Lake</a></li>
+<li><a   class="" href="rider-in-race/marco-murgano/tour-of-qinghai-lake">Rider statistics in Tour of Qinghai Lake</a></li>
+</ul></div>
+<div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/marco.murgano">facebook</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/marcomurgano/">instagram</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >2949</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >2906</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;59</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;125</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/gp-industria-e-commercio2/2019/result">Trofeo Città di San Vendemiano</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/gp-capodarco/2019/result">GP Capodarco Comunita Di Capodarco</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
@@ -171,10 +187,10 @@
 <li class="main"><div class="ar" style="width: 55px; ">9th&nbsp;</div><div><span class="blue"></span> <a href="race/coppa-della-pace-trofeo-flli-anelli/2019/result">Coppa della Pace - Trofeo F.lli Anelli</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue">stage</span> <a href="race/vuelta-ciclista-a-venezuela/2022/stage-7">Vuelta Ciclista a Venezuela</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">11th&nbsp;</div><div><span class="blue">stage</span> <a href="race/sibiu-cycling-tour/2022/stage-3a">Sibiu Cycling Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">13th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-qinghai-lake/2023/stage-3">Tour of Qinghai Lake</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">14th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-qinghai-lake/2023/stage-2">Tour of Qinghai Lake</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">14th&nbsp;</div><div><span class="blue"></span> <a href="race/popolarissima/2019/result">Popolarissima</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">16th&nbsp;</div><div><span class="blue">stage</span> <a href="race/adriatica-ionica-race/2022/stage-1">Adriatica Ionica Race / Sulle Rotte della Sereniss</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">17th&nbsp;</div><div><span class="blue"></span> <a href="race/grand-prix-velo-alanya/2022/result">Grand Prix Velo Alanya ME</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">19th&nbsp;</div><div><span class="blue">stage</span> <a href="race/toscana-terra-di-ciclismo/2018/stage-1">Toscana Terra di Ciclismo Eroica</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
 <span class="table-cont"><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/team-corratec-selle-italia-2024">Team Corratec - Selle Italia</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
@@ -184,10 +200,21 @@
 <li class=" main " ><div class="season   "  >2017</div><div class="name   "  ><a    href="team/viris-maserati-sisal-chiaravalli-2017">Viris Maserati - Sisal</a></div><div > (CLUB)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >14.06</div><div class="ellipsis   "  ><span class="flag si"></span> <a    href="race/tour-of-slovenia/2023/startlist">Tour of Slovenia</a></div><div class="fs10 blue   "  ><a    href="rider-in-race/marco-murgano/tour-of-slovenia">more</a></div><div class="clear"></div></li>
-</ul></span></div>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
+<div class=""><div class="">No races on program.</div></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li class="more hide show_if"><span>more</span><ul><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" hide"><a class="seasonResults" data-season="2015" href="">2015</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>09.07 &raquo; 16.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/stage-3">Tour of Qinghai Lake <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/tour-of-qinghai-lake">more</a></td></tr>
+<tr data-main="0"><td>11.07</td><td>13</td><td class="gc cu600">15</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/stage-3">Stage 3 - Guide &rsaquo; Huzhu</a> </td><td class="cu600">201.12</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/tour-of-qinghai-lake">more</a></td></tr>
+<tr data-main="0"><td>10.07</td><td>14</td><td class="gc cu600">20</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/stage-2">Stage 2 - Duoba &rsaquo; Guide</a> </td><td class="cu600">132.35</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/tour-of-qinghai-lake">more</a></td></tr>
+<tr data-main="0"><td>09.07</td><td>79</td><td class="gc cu600">82</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/stage-1">Stage 1 - Xining &rsaquo; Xining</a> </td><td class="cu600">108.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/tour-of-qinghai-lake">more</a></td></tr>
+<tr data-main="1"><td>24.06</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/nc-italy/2023/result">National Championships Italy ME - Road Race <span>(NC)</span></a> </td><td class="cu600">227</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/nc-italy">more</a></td></tr>
+<tr data-main="1"><td>14.06 &raquo; 18.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag si"></span><a href="race/tour-of-slovenia/2023/stage-5">Tour of Slovenia <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/tour-of-slovenia">more</a></td></tr>
+<tr data-main="0"><td>18.06</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag si"></span><a href="race/tour-of-slovenia/2023/stage-5">Stage 5 - Vrhnika &rsaquo; Novo mesto</a> </td><td class="cu600">142.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/tour-of-slovenia">more</a></td></tr>
+<tr data-main="0"><td>17.06</td><td>93</td><td class="gc cu600">69</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag si"></span><a href="race/tour-of-slovenia/2023/stage-4">Stage 4 - Ljubljana &rsaquo; Kobarid</a> </td><td class="cu600">167</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/tour-of-slovenia">more</a></td></tr>
+<tr data-main="0"><td>16.06</td><td>24</td><td class="gc cu600">32</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag si"></span><a href="race/tour-of-slovenia/2023/stage-3">Stage 3 - Grosuplje &rsaquo; Postojna</a> </td><td class="cu600">173.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/tour-of-slovenia">more</a></td></tr>
+<tr data-main="0"><td>15.06</td><td>32</td><td class="gc cu600">46</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag si"></span><a href="race/tour-of-slovenia/2023/stage-2">Stage 2 - Žalec &rsaquo; Ormož</a> </td><td class="cu600">163.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/tour-of-slovenia">more</a></td></tr>
+<tr data-main="0"><td>14.06</td><td>74</td><td class="gc cu600">75</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag si"></span><a href="race/tour-of-slovenia/2023/stage-1">Stage 1 - Celje &rsaquo; Rogaška Slatina</a> </td><td class="cu600">189.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/tour-of-slovenia">more</a></td></tr>
 <tr data-main="1"><td>09.06</td><td>88</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ch"></span><a href="race/gp-du-canton-d-argovie/2023/result">Grosser Preis des Kantons Aargau <span>(1.1)</span></a> </td><td class="cu600">173.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/gp-du-canton-d-argovie">more</a></td></tr>
 <tr data-main="1"><td>02.06</td><td>25</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-del-appennino/2023/result">Giro dell'Appennino <span>(1.1)</span></a> </td><td class="cu600">198.5</td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/giro-del-appennino">more</a></td></tr>
 <tr data-main="1"><td>02.05 &raquo; 06.05</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag gr"></span><a href="race/international-tour-of-hellas/2023/gc">International Tour of Hellas <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/international-tour-of-hellas">more</a></td></tr>
@@ -222,7 +249,7 @@
 <tr data-main="0"><td>25.02</td><td>37</td><td class="gc cu600">38</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/gran-camino/2023/stage-3">Stage 3 - Esgos &rsaquo; Rubiá (Alto do Castelo)</a> </td><td class="cu600">123.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/gran-camino">more</a></td></tr>
 <tr data-main="0"><td>24.02</td><td>49</td><td class="gc cu600">49</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/gran-camino/2023/stage-2">Stage 2 - Tui &rsaquo; A Guarda (Monte Trega)</a> </td><td class="cu600">184.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/gran-camino">more</a></td></tr>
 <tr data-main="0"><td>23.02</td><td>NR</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/gran-camino/2023/stage-1">Stage 1 - Muralla de Lugo &rsaquo; Sarria</a> </td><td class="cu600"><s>188</s> 172</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/marco-murgano/gran-camino">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>3465</b> km in <b>25</b> days | PCS points: <b>0</b> |  UCI points: <b>3</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>4786</b> km in <b>34</b> days | PCS points: <b>0</b> |  UCI points: <b>3</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/marco-murgano/statistics/wins">Wins</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/marco-murgano/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/marco-murgano/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
@@ -363,7 +390,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0881s</span></li>
+<li><span>Pageload 0.1808s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>

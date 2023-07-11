@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
-	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b152.css" />
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -118,6 +126,7 @@
 <div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/alejandro-franco-gonzalez">Overview</a></li>
 <li class="reg "><a class="" href="rider/alejandro-franco-gonzalez/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/alejandro-franco-gonzalez/statistics/overview">Overview</a></li>
 <li><a href="rider/alejandro-franco-gonzalez/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/alejandro-franco-gonzalez/statistics/key-events">Key events</a></li>
 <li><a href="rider/alejandro-franco-gonzalez/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/alejandro-franco-gonzalez/statistics/wins">Wins</a></li>
 <li><a href="rider/alejandro-franco-gonzalez/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -137,31 +146,34 @@
 <li class="reg "><a class="" href="rider/alejandro-franco-gonzalez/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/alejandro-franco-gonzalez/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/alejandro-franco-gonzalez/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/alejandro-franco-gonzalez">More</a><ul><li data-n="0"><a href="rider/alejandro-franco-gonzalez/overview/overview">Overview - Overview</a></li><li data-n="1"><a href="rider/alejandro-franco-gonzalez/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/alejandro-franco-gonzalez/statistics/overview">Overview</a></li>
+<li class="more"><a href="rider/alejandro-franco-gonzalez">More</a><ul><li data-n="1"><a href="rider/alejandro-franco-gonzalez/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/alejandro-franco-gonzalez/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/alejandro-franco-gonzalez/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="rider/alejandro-franco-gonzalez/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/alejandro-franco-gonzalez/statistics/key-events">Key events</a></li>
 <li data-n="1"><a href="rider/alejandro-franco-gonzalez/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li data-n="1"><a href="rider/alejandro-franco-gonzalez/statistics/wins">Wins</a></li>
 <li data-n="1"><a href="rider/alejandro-franco-gonzalez/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/alejandro-franco-gonzalez/statistics/grand-tour-starts">Starts and results</a></li>
 <li data-n="1"><a href="rider/alejandro-franco-gonzalez/statistics/injury-history">Injury history</a></li>
-<li data-n="2"><a href="rider/alejandro-franco-gonzalez/results/results">Results - Results</a></li><li data-n="3"><a href="rider/alejandro-franco-gonzalez/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="4"><a href="rider/alejandro-franco-gonzalez/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/alejandro-franco-gonzalez/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/alejandro-franco-gonzalez/contribute/contribute-info">Contribute info</a></li>
+<li data-n="3"><a href="rider/alejandro-franco-gonzalez/results/results">Results - Results</a></li><li data-n="4"><a href="rider/alejandro-franco-gonzalez/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/alejandro-franco-gonzalez/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/alejandro-franco-gonzalez/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/alejandro-franco-gonzalez/contribute/contribute-info">Contribute info</a></li>
 <li data-n="5"><a href="rider/alejandro-franco-gonzalez/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/alejandro-franco-gonzalez/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/alejandro-franco-gonzalez/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/alejandro-franco-gonzalez/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/alejandro-franco-gonzalez/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="6"><a href="rider/alejandro-franco-gonzalez/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/alejandro-franco-gonzalez/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="7"><a href="rider/alejandro-franco-gonzalez/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/alejandro-franco-gonzalez/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/alejandro-franco-gonzalez/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">Alejandro  Franco</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Burgos-BH</span></div><div class="sub"><span class="red showIfMobile">Burgos-BH</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/alejandro-franco-gonzalez/statistics/overview"><img alt="Profile photo of Alejandro  Franco" src="images/riders/bp/fc/alejandro-franco-gonzalez-2023.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 26<sup>th</sup> September 2001 (21)<br /><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br /><span><b>Weight:</b> 58 kg &nbsp; <span><b>Height:</b> 1.75 m<br /><b>Place of birth:</b> <a href="location/valladolid">Valladolid</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/alejandro-franco-gonzalez/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 80%; height: 100%;  "></div></div><div class="pnt">8</div><div class="title"><a href="rider/alejandro-franco-gonzalez/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/alejandro-franco-gonzalez/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/alejandro-franco-gonzalez/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">10</div><div class="title"><a href="rider/alejandro-franco-gonzalez/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/alejandro-franco-gonzalez/statistics/overview"><img alt="Profile photo of Alejandro  Franco" src="images/riders/bp/fc/alejandro-franco-gonzalez-2023.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 26<sup>th</sup> September 2001 (21)<br /><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br /><span><b>Weight:</b> 58 kg &nbsp; <span><b>Height:</b> 1.75 m<br /><b>Place of birth:</b> <a href="location/valladolid">Valladolid</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/alejandro-franco-gonzalez/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 80%; height: 100%;  "></div></div><div class="pnt">8</div><div class="title"><a href="rider/alejandro-franco-gonzalez/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/alejandro-franco-gonzalez/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/alejandro-franco-gonzalez/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">10</div><div class="title"><a href="rider/alejandro-franco-gonzalez/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><ul class="list horizontal fs14 circle bluelink"></ul></div>
+<div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/alejandrofranco_2001/">instagram</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/22177576">strava</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >1255</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >2419</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;239</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;27</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/course-de-la-paix-u23/2022/stage-2">Course de la Paix Grand Prix Jeseníky</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue">GC</span> <a href="race/course-de-la-paix-u23/2022/gc">Course de la Paix Grand Prix Jeseníky</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
@@ -187,7 +199,9 @@
 <div class=""><div class="">No races on program.</div></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li class="more hide "><span>more</span><ul><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>08.06 &raquo; 11.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="race/course-de-la-paix-u23/2023/stage-2">Course de la Paix Grand Prix Jeseníky <span>(2.Ncup)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/alejandro-franco-gonzalez/course-de-la-paix-u23">more</a></td></tr>
+<tr data-main="1"><td>25.06</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/nc-spain/2023/result">National Championships Spain ME - Road Race <span>(NC)</span></a> </td><td class="cu600">186.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/alejandro-franco-gonzalez/nc-spain">more</a></td></tr>
+<tr data-main="1"><td>08.06 &raquo; 11.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="race/course-de-la-paix-u23/2023/stage-3">Course de la Paix Grand Prix Jeseníky <span>(2.Ncup)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/alejandro-franco-gonzalez/course-de-la-paix-u23">more</a></td></tr>
+<tr data-main="0"><td>11.06</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="race/course-de-la-paix-u23/2023/stage-3">Stage 3 - Jeseník &rsaquo; Jeseník</a> </td><td class="cu600">166.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/alejandro-franco-gonzalez/course-de-la-paix-u23">more</a></td></tr>
 <tr data-main="0"><td>10.06</td><td>68</td><td class="gc cu600">56</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="race/course-de-la-paix-u23/2023/stage-2">Stage 2 - Bruntál &rsaquo; Červenohorské sedlo</a> </td><td class="cu600">129.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/alejandro-franco-gonzalez/course-de-la-paix-u23">more</a></td></tr>
 <tr data-main="0"><td>09.06</td><td>45</td><td class="gc cu600">57</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="race/course-de-la-paix-u23/2023/stage-1">Stage 1 - Jeseník &rsaquo; Rýmařov</a> </td><td class="cu600">121.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/alejandro-franco-gonzalez/course-de-la-paix-u23">more</a></td></tr>
 <tr data-main="0"><td>08.06</td><td>85</td><td class="gc cu600">85</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag cz"></span><a href="race/course-de-la-paix-u23/2023/prologue">Prologue - Jeseník &rsaquo; Jeseník</a> </td><td class="cu600">3.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/alejandro-franco-gonzalez/course-de-la-paix-u23">more</a></td></tr>
@@ -224,14 +238,14 @@
 <tr data-main="1"><td>26.01</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-alcudia/2023/result">Trofeo Ses Salines - Alcudia <span>(1.1)</span></a> </td><td class="cu600">158.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/alejandro-franco-gonzalez/trofeo-alcudia">more</a></td></tr>
 <tr data-main="1"><td>25.01</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-calvia/2023/result">Trofeo Calvia <span>(1.1)</span></a> </td><td class="cu600">150.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/alejandro-franco-gonzalez/trofeo-calvia">more</a></td></tr>
 <tr data-main="1"><td>22.01</td><td>79</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/gp-de-valence/2023/result">Clàssica Comunitat Valenciana 1969 - Gran Premi València <span>(1.1)</span></a> </td><td class="cu600">190</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/alejandro-franco-gonzalez/gp-de-valence">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>3342</b> km in <b>26</b> days | PCS points: <b>0</b> |  UCI points: <b>0</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>3518</b> km in <b>28</b> days | PCS points: <b>0</b> |  UCI points: <b>0</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/alejandro-franco-gonzalez/statistics/wins">Wins</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/alejandro-franco-gonzalez/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/alejandro-franco-gonzalez/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">10</span></div></td><td class="ac  " >1470</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">10</span></div></td><td class="ac  " >1533</td></tr>
 </tbody></table></span></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
@@ -365,7 +379,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0837s</span></li>
+<li><span>Pageload 0.1534s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>

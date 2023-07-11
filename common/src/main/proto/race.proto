@@ -11,19 +11,28 @@ message Race {
   repeated Stage stages = 4;
   repeated TeamParticipation teams = 5;
   optional string website = 6;
-  repeated ParticipantResult result = 7;
+}
+
+message TeamParticipation {
+  string team_id = 1;
+  repeated RiderParticipation riders = 2;
+}
+
+message RiderParticipation {
+  string rider_id = 1;
+  optional uint32 number = 2;
 }
 
 message Stage {
   string id = 1;
   google.protobuf.Timestamp start_date_time = 2;
   float distance = 3;
-  repeated ParticipantResult result = 4;
-  ProfileType profile_type = 5;
-  optional string departure = 6;
-  optional string arrival = 7;
-  StageType stage_type = 8;
-  repeated ParticipantResult gcResult = 9;
+  ProfileType profile_type = 4;
+  optional string departure = 5;
+  optional string arrival = 6;
+  StageType stage_type = 7;
+  StageResults stage_results = 8;
+  GeneralResults general_results = 9;
 
   enum ProfileType {
     PROFILE_TYPE_UNSPECIFIED = 0;
@@ -42,18 +51,41 @@ message Stage {
   }
 }
 
-message TeamParticipation {
-  string team_id = 1;
-  repeated RiderParticipation riders = 2;
+message StageResults {
+  repeated ParticipantResultTime time = 1;
+  repeated ParticipantResultTime youth = 2;
+  repeated ParticipantResultTime teams = 3;
+  repeated PlacePoints kom = 4;
+  repeated PlacePoints points = 5;
 }
 
-message ParticipantResult {
+
+message GeneralResults {
+  repeated ParticipantResultTime time = 1;
+  repeated ParticipantResultTime youth = 2;
+  repeated ParticipantResultTime teams = 3;
+  repeated ParticipantResultPoints kom = 4;
+  repeated ParticipantResultPoints points = 5;
+}
+
+message ParticipantResultTime {
   uint32 position = 1;
   string participant_id = 2;
   int64 time = 3;
 }
 
-message RiderParticipation {
-  string rider_id = 1;
-  optional uint32 number = 2;
+message ParticipantResultPoints {
+  uint32 position = 1;
+  string participant_id = 2;
+  uint32 points = 3;
+}
+
+message PlacePoints {
+  Place place = 1;
+  repeated ParticipantResultPoints points = 2;
+}
+
+message Place {
+  string name = 1;
+  float distance = 2;
 }

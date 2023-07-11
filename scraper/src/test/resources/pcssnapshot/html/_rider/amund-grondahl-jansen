@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
-	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b152.css" />
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -118,6 +126,7 @@
 <div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/amund-grondahl-jansen">Overview</a></li>
 <li class="reg "><a class="" href="rider/amund-grondahl-jansen/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/amund-grondahl-jansen/statistics/overview">Overview</a></li>
 <li><a href="rider/amund-grondahl-jansen/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/amund-grondahl-jansen/statistics/key-events">Key events</a></li>
 <li><a href="rider/amund-grondahl-jansen/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/amund-grondahl-jansen/statistics/wins">Wins</a></li>
 <li><a href="rider/amund-grondahl-jansen/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -137,33 +146,36 @@
 <li class="reg "><a class="" href="rider/amund-grondahl-jansen/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/amund-grondahl-jansen/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/amund-grondahl-jansen/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/amund-grondahl-jansen">More</a><ul><li data-n="0"><a href="rider/amund-grondahl-jansen/overview/overview">Overview - Overview</a></li><li data-n="1"><a href="rider/amund-grondahl-jansen/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/amund-grondahl-jansen/statistics/overview">Overview</a></li>
+<li class="more"><a href="rider/amund-grondahl-jansen">More</a><ul><li data-n="1"><a href="rider/amund-grondahl-jansen/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/amund-grondahl-jansen/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/amund-grondahl-jansen/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="rider/amund-grondahl-jansen/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/amund-grondahl-jansen/statistics/key-events">Key events</a></li>
 <li data-n="1"><a href="rider/amund-grondahl-jansen/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li data-n="1"><a href="rider/amund-grondahl-jansen/statistics/wins">Wins</a></li>
 <li data-n="1"><a href="rider/amund-grondahl-jansen/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/amund-grondahl-jansen/statistics/grand-tour-starts">Starts and results</a></li>
 <li data-n="1"><a href="rider/amund-grondahl-jansen/statistics/injury-history">Injury history</a></li>
-<li data-n="2"><a href="rider/amund-grondahl-jansen/results/results">Results - Results</a></li><li data-n="3"><a href="rider/amund-grondahl-jansen/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="4"><a href="rider/amund-grondahl-jansen/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/amund-grondahl-jansen/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/amund-grondahl-jansen/contribute/contribute-info">Contribute info</a></li>
+<li data-n="3"><a href="rider/amund-grondahl-jansen/results/results">Results - Results</a></li><li data-n="4"><a href="rider/amund-grondahl-jansen/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/amund-grondahl-jansen/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/amund-grondahl-jansen/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/amund-grondahl-jansen/contribute/contribute-info">Contribute info</a></li>
 <li data-n="5"><a href="rider/amund-grondahl-jansen/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/amund-grondahl-jansen/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/amund-grondahl-jansen/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/amund-grondahl-jansen/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/amund-grondahl-jansen/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="6"><a href="rider/amund-grondahl-jansen/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/amund-grondahl-jansen/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="7"><a href="rider/amund-grondahl-jansen/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/amund-grondahl-jansen/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/amund-grondahl-jansen/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag no w32"></span><span class="flag no w24"></span><h1 class="">Amund Grøndahl  Jansen</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Team Jayco AlUla</span></div><div class="sub"><span class="red showIfMobile">Team Jayco AlUla</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/amund-grondahl-jansen/statistics/overview"><img alt="Profile photo of Amund Grøndahl  Jansen" src="images/riders/bp/ae/amund-grondahl-jansen-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 11<sup>th</sup> February 1994 (29)<br /><b>Nationality:</b> <span class="flag  no"></span><a class="black" href="nation/norway">Norway</a><br /><span><b>Weight:</b> 83 kg &nbsp; <span><b>Height:</b> 1.87 m<br /><b>Place of birth:</b> <a href="location/nes">Nes</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 100%; height: 100%;  "></div></div><div class="pnt">816</div><div class="title"><a href="rider/amund-grondahl-jansen/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 62.132352941176%; height: 100%;  "></div></div><div class="pnt">507</div><div class="title"><a href="rider/amund-grondahl-jansen/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 5.3921568627451%; height: 100%;  "></div></div><div class="pnt">44</div><div class="title"><a href="rider/amund-grondahl-jansen/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 60.049019607843%; height: 100%;  "></div></div><div class="pnt">490</div><div class="title"><a href="rider/amund-grondahl-jansen/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 32.230392156863%; height: 100%;  "></div></div><div class="pnt">263</div><div class="title"><a href="rider/amund-grondahl-jansen/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/amund-grondahl-jansen/statistics/overview"><img alt="Profile photo of Amund Grøndahl  Jansen" src="images/riders/bp/ae/amund-grondahl-jansen-2022.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 11<sup>th</sup> February 1994 (29)<br /><b>Nationality:</b> <span class="flag  no"></span><a class="black" href="nation/norway">Norway</a><br /><span><b>Weight:</b> 83 kg &nbsp; <span><b>Height:</b> 1.87 m<br /><b>Place of birth:</b> <a href="location/nes">Nes</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 100%; height: 100%;  "></div></div><div class="pnt">816</div><div class="title"><a href="rider/amund-grondahl-jansen/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 62.132352941176%; height: 100%;  "></div></div><div class="pnt">507</div><div class="title"><a href="rider/amund-grondahl-jansen/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 5.3921568627451%; height: 100%;  "></div></div><div class="pnt">44</div><div class="title"><a href="rider/amund-grondahl-jansen/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 44.852941176471%; height: 100%;  "></div></div><div class="pnt">366</div><div class="title"><a href="rider/amund-grondahl-jansen/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 45.588235294118%; height: 100%;  "></div></div><div class="pnt">372</div><div class="title"><a href="rider/amund-grondahl-jansen/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><ul class="list horizontal fs14 circle bluelink"></ul></div>
+<div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/GroendahlJansen">twitter</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/groendahljansen">instagram</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/4203551">strava</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/Amund-Gr%C3%B8ndahl-Jansen-794404020716576/">facebook</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >1087</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >1078</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;18</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;178</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/4-jours-de-dunkerque/2019/gc">4 Jours de Dunkerque / Grand Prix des Hauts de Fra</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-de-gironde/2016/gc">Tour de Gironde Cycliste International</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16)</span></div></li>
@@ -227,7 +239,7 @@
 <tr data-main="0"><td>03.07</td><td>85</td><td class="gc cu600">68</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2022/stage-3">Stage 3 - Vejle &rsaquo; Sønderborg</a> </td><td class="cu600">182</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/amund-grondahl-jansen/tour-de-france">more</a></td></tr>
 <tr data-main="0"><td>02.07</td><td>55</td><td class="gc cu600">75</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2022/stage-2">Stage 2 - Roskilde &rsaquo; Nyborg</a> </td><td class="cu600">202.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/amund-grondahl-jansen/tour-de-france">more</a></td></tr>
 <tr data-main="0"><td>01.07</td><td>75</td><td class="gc cu600">76</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2022/stage-1">Stage 1 (ITT) - Copenhagen &rsaquo; Copenhagen</a> </td><td class="cu600">13.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/amund-grondahl-jansen/tour-de-france">more</a></td></tr>
-<tr data-main="1"><td>26.06</td><td>30</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag no"></span><a href="race/nc-norway/2022/result">National Championships Norway - Road Race <span>(NC)</span></a> </td><td class="cu600">193.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/amund-grondahl-jansen/nc-norway">more</a></td></tr>
+<tr data-main="1"><td>26.06</td><td>30</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag no"></span><a href="race/nc-norway/2022/result">National Championships Norway ME - Road Race <span>(NC)</span></a> </td><td class="cu600">193.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/amund-grondahl-jansen/nc-norway">more</a></td></tr>
 <tr data-main="1"><td>05.06 &raquo; 12.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2022/gc">Critérium du Dauphiné <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/amund-grondahl-jansen/dauphine">more</a></td></tr>
 <tr data-main="0"><td></td><td>116</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2022/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/amund-grondahl-jansen/dauphine">more</a></td></tr>
 <tr data-main="0"><td>12.06</td><td>114</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2022/stage-8">Stage 8 - Saint-Alban-Leysse &rsaquo; Plateau de Salaison</a> </td><td class="cu600">138.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/amund-grondahl-jansen/dauphine">more</a></td></tr>
@@ -264,7 +276,7 @@
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 3.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">35</span></div></td><td class="ac  " >904</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 3.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">35</span></div></td><td class="ac  " >896</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 4.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">41</span></div></td><td class="ac  " >765</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 4.4%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">40</span></div></td><td class="ac  " >604</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">727</span></div></td><td class="ac  " >69</td></tr>
@@ -406,7 +418,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1393s</span></li>
+<li><span>Pageload 0.2452s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>

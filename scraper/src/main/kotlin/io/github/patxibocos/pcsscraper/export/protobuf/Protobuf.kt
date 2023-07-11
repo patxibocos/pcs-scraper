@@ -98,24 +98,20 @@ private fun buildRacesProtobufMessage(races: List<Race>): List<RaceOuterClass.Ra
                             Race.Stage.StageType.INDIVIDUAL_TIME_TRIAL -> RaceOuterClass.Stage.StageType.STAGE_TYPE_INDIVIDUAL_TIME_TRIAL
                             Race.Stage.StageType.TEAM_TIME_TRIAL -> RaceOuterClass.Stage.StageType.STAGE_TYPE_TEAM_TIME_TRIAL
                         }
-                        addAllResult(
-                            stage.result.map { participantResult ->
-                                RaceOuterClass.ParticipantResult.newBuilder().apply {
-                                    position = participantResult.position
-                                    participantId = participantResult.participant
-                                    time = participantResult.time
-                                }.build()
-                            }
-                        )
-                        addAllGcResult(
-                            stage.gcResult.map { participantResult ->
-                                RaceOuterClass.ParticipantResult.newBuilder().apply {
-                                    position = participantResult.position
-                                    participantId = participantResult.participant
-                                    time = participantResult.time
-                                }.build()
-                            }
-                        )
+                        stageResults = RaceOuterClass.StageResults.newBuilder()
+                            .addAllTime(stage.stageResults.time.toParticipantResultTime())
+                            .addAllYouth(stage.stageResults.youth.toParticipantResultTime())
+                            .addAllTeams(stage.stageResults.teams.toParticipantResultTime())
+                            .addAllKom(stage.stageResults.kom.toPlacePoints())
+                            .addAllPoints(stage.stageResults.points.toPlacePoints())
+                            .build()
+                        generalResults = RaceOuterClass.GeneralResults.newBuilder()
+                            .addAllTime(stage.generalResults.time.toParticipantResultTime())
+                            .addAllYouth(stage.generalResults.youth.toParticipantResultTime())
+                            .addAllTeams(stage.generalResults.teams.toParticipantResultTime())
+                            .addAllKom(stage.generalResults.kom.toParticipantResultPoints())
+                            .addAllPoints(stage.generalResults.points.toParticipantResultPoints())
+                            .build()
                     }.build()
                 }
             )
@@ -134,14 +130,35 @@ private fun buildRacesProtobufMessage(races: List<Race>): List<RaceOuterClass.Ra
                     }.build()
                 }
             )
-            addAllResult(
-                race.result.map { participantResult ->
-                    RaceOuterClass.ParticipantResult.newBuilder().apply {
-                        position = participantResult.position
-                        participantId = participantResult.participant
-                        time = participantResult.time
-                    }.build()
-                }
-            )
         }.build()
     }
+
+private fun List<Race.ParticipantResultTime>.toParticipantResultTime(): List<RaceOuterClass.ParticipantResultTime> {
+    return this.map { participantResult ->
+        RaceOuterClass.ParticipantResultTime.newBuilder().apply {
+            position = participantResult.position
+            participantId = participantResult.participant
+            time = participantResult.time
+        }.build()
+    }
+}
+
+private fun List<Race.ParticipantResultPoints>.toParticipantResultPoints(): List<RaceOuterClass.ParticipantResultPoints> {
+    return this.map { participantResult ->
+        RaceOuterClass.ParticipantResultPoints.newBuilder().apply {
+            position = participantResult.position
+            participantId = participantResult.participant
+            points = participantResult.points
+        }.build()
+    }
+}
+
+private fun List<Race.PlaceResult>.toPlacePoints(): List<RaceOuterClass.PlacePoints> {
+    return this.map { placeResult ->
+        RaceOuterClass.PlacePoints.newBuilder().apply {
+            place = RaceOuterClass.Place.newBuilder().setName(placeResult.place.name)
+                .setDistance(placeResult.place.distance).build()
+            addAllPoints(placeResult.points.toParticipantResultPoints())
+        }.build()
+    }
+}

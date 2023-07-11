@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
-	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b152.css" />
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -118,6 +126,7 @@
 <div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/rudy-porter">Overview</a></li>
 <li class="reg "><a class="" href="rider/rudy-porter/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/rudy-porter/statistics/overview">Overview</a></li>
 <li><a href="rider/rudy-porter/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/rudy-porter/statistics/key-events">Key events</a></li>
 <li><a href="rider/rudy-porter/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/rudy-porter/statistics/wins">Wins</a></li>
 <li><a href="rider/rudy-porter/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -137,48 +146,50 @@
 <li class="reg "><a class="" href="rider/rudy-porter/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/rudy-porter/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/rudy-porter/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/rudy-porter">More</a><ul><li data-n="0"><a href="rider/rudy-porter/overview/overview">Overview - Overview</a></li><li data-n="1"><a href="rider/rudy-porter/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/rudy-porter/statistics/overview">Overview</a></li>
+<li class="more"><a href="rider/rudy-porter">More</a><ul><li data-n="1"><a href="rider/rudy-porter/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/rudy-porter/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/rudy-porter/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="rider/rudy-porter/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/rudy-porter/statistics/key-events">Key events</a></li>
 <li data-n="1"><a href="rider/rudy-porter/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li data-n="1"><a href="rider/rudy-porter/statistics/wins">Wins</a></li>
 <li data-n="1"><a href="rider/rudy-porter/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/rudy-porter/statistics/grand-tour-starts">Starts and results</a></li>
 <li data-n="1"><a href="rider/rudy-porter/statistics/injury-history">Injury history</a></li>
-<li data-n="2"><a href="rider/rudy-porter/results/results">Results - Results</a></li><li data-n="3"><a href="rider/rudy-porter/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="4"><a href="rider/rudy-porter/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/rudy-porter/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/rudy-porter/contribute/contribute-info">Contribute info</a></li>
+<li data-n="3"><a href="rider/rudy-porter/results/results">Results - Results</a></li><li data-n="4"><a href="rider/rudy-porter/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/rudy-porter/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/rudy-porter/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/rudy-porter/contribute/contribute-info">Contribute info</a></li>
 <li data-n="5"><a href="rider/rudy-porter/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/rudy-porter/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/rudy-porter/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/rudy-porter/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/rudy-porter/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="6"><a href="rider/rudy-porter/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/rudy-porter/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="7"><a href="rider/rudy-porter/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/rudy-porter/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/rudy-porter/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag au w32"></span><span class="flag au w24"></span><h1 class="">Rudy  Porter</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Team Jayco AlUla</span></div><div class="sub"><span class="red showIfMobile">Team Jayco AlUla</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<div class="text-regular"><span>LIVE</span> <a class="blue" href="race/dauphine/2023/stage-8/live/livestats">Critérium du Dauphiné | Stage 8</a></div>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont">&nbsp;</div><div class="rdr-info-cont"><b>Date of birth:</b> 15<sup>th</sup> December 2000 (22)<br /><b>Nationality:</b> <span class="flag  au"></span><a class="black" href="nation/australia">Australia</a><br /><span><b>Weight:</b> 66 kg &nbsp; <span><b>Height:</b> 1.79 m<br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 7.5757575757576%; height: 100%;  "></div></div><div class="pnt">5</div><div class="title"><a href="rider/rudy-porter/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">66</div><div class="title"><a href="rider/rudy-porter/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 1.5151515151515%; height: 100%;  "></div></div><div class="pnt">1</div><div class="title"><a href="rider/rudy-porter/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 3.030303030303%; height: 100%;  "></div></div><div class="pnt">2</div><div class="title"><a href="rider/rudy-porter/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 75.757575757576%; height: 100%;  "></div></div><div class="pnt">50</div><div class="title"><a href="rider/rudy-porter/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont">&nbsp;</div><div class="rdr-info-cont"><b>Date of birth:</b> 15<sup>th</sup> December 2000 (22)<br /><b>Nationality:</b> <span class="flag  au"></span><a class="black" href="nation/australia">Australia</a><br /><span><b>Weight:</b> 66 kg &nbsp; <span><b>Height:</b> 1.79 m<br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 6.7567567567568%; height: 100%;  "></div></div><div class="pnt">5</div><div class="title"><a href="rider/rudy-porter/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">74</div><div class="title"><a href="rider/rudy-porter/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 1.3513513513514%; height: 100%;  "></div></div><div class="pnt">1</div><div class="title"><a href="rider/rudy-porter/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 2.7027027027027%; height: 100%;  "></div></div><div class="pnt">2</div><div class="title"><a href="rider/rudy-porter/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 79.72972972973%; height: 100%;  "></div></div><div class="pnt">59</div><div class="title"><a href="rider/rudy-porter/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><ul class="list horizontal fs14 circle bluelink"></ul></div>
+<div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/4394333">strava</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/rudy_porter_/?hl=en">instagram</a></li>
 <li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/RudyPorter_">twitter</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/rudyporter_/?hl=en">instagram</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >856</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >1206</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >1906</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >1026</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;726</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;219</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/course-de-la-paix-u23/2022/gc">Course de la Paix Grand Prix Jeseníky</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/rhone-alpes-isere-tour/2022/gc">Alpes Isère Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">9th&nbsp;</div><div><span class="blue">GC</span> <a href="race/herald-sun-tour/2020/gc">Herald Sun Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">stage</span> <a href="race/course-de-la-paix-u23/2022/stage-2">Course de la Paix Grand Prix Jeseníky</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">15th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-hongrie/2023/gc">Tour de Hongrie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">13th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-austria/2023/gc">Int. Österreich-Rundfahrt - Tour of Austria</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-alsace/2021/gc">Tour Alsace</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue"></span> <a href="race/nc-australia-u23/2021/result">National Championships Australia MU23 - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-australia-u23-itt/2022/result">National championships Australia MU23 - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue">stage</span> <a href="race/rhone-alpes-isere-tour/2022/stage-5">Alpes Isère Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;6th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-australia-u23/2022/result">National Championships Australia MU23 - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22, '20)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;6th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-australia-u23/2020/result">National Championships Australia MU23 - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22, '20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">8th&nbsp;</div><div><span class="blue">stage</span> <a href="race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2022/stage-1">Giro Ciclistico della Valle d'Aosta - Mont Blanc</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">8th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-australia-u23-itt/2020/result">National championships Australia MU23 - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
 <span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/team-jayco-alula-2024">Team Jayco AlUla</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
@@ -194,6 +205,14 @@
 <div class=""><div class="">No races on program.</div></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li class="more hide show_if"><span>more</span><ul><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>02.07 &raquo; 06.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag at"></span><a href="race/tour-of-austria/2023/stage-5-youth">Int. Österreich-Rundfahrt - Tour of Austria <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td></td><td>4</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag at"></span><a href="race/tour-of-austria/2023/stage-5-youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td></td><td>13</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag at"></span><a href="race/tour-of-austria/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">8</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td>06.07</td><td>12</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag at"></span><a href="race/tour-of-austria/2023/stage-5">Stage 5 - Ybbs an der Donau &rsaquo; Sonntagberg</a> </td><td class="cu600">155.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td>05.07</td><td>14</td><td class="gc cu600">14</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag at"></span><a href="race/tour-of-austria/2023/stage-4">Stage 4 - St. Johann Alpendorf &rsaquo; Steyr</a> </td><td class="cu600">197</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td>04.07</td><td>16</td><td class="gc cu600">15</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag at"></span><a href="race/tour-of-austria/2023/stage-3">Stage 3 - Sillian &rsaquo; St. Johann Alpendorf</a> </td><td class="cu600">148.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td>03.07</td><td>28</td><td class="gc cu600">21</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag at"></span><a href="race/tour-of-austria/2023/stage-2">Stage 2 - St. Anton am Arlberg &rsaquo; Innsbruck</a> </td><td class="cu600">158.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td>02.07</td><td>22</td><td class="gc cu600">22</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag at"></span><a href="race/tour-of-austria/2023/stage-1">Stage 1 - Dornbirn &rsaquo; Dornbirn</a> </td><td class="cu600">147.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/tour-of-austria">more</a></td></tr>
 <tr data-main="1"><td>04.06 &raquo; 11.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-6">Critérium du Dauphiné <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/dauphine">more</a></td></tr>
 <tr data-main="0"><td>09.06</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-6">Stage 6 - Nantua &rsaquo; Crest-Voland</a> </td><td class="cu600">170.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/dauphine">more</a></td></tr>
 <tr data-main="0"><td>08.06</td><td>93</td><td class="gc cu600">69</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-5">Stage 5 - Cormoranche-sur-Saône &rsaquo; Salins-les-Bains</a> </td><td class="cu600">191.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/dauphine">more</a></td></tr>
@@ -228,15 +247,15 @@
 <tr data-main="0"><td>15.02</td><td>56</td><td class="gc cu600">56</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2023/stage-1">Stage 1 - Puente de Génave &rsaquo; Santiago de la Espada</a> </td><td class="cu600">179</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/ruta-del-sol">more</a></td></tr>
 <tr data-main="1"><td>08.01</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="race/nc-australia/2023/result">National Championships Australia - Road Race <span>(NC)</span></a> </td><td class="cu600">185.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/nc-australia">more</a></td></tr>
 <tr data-main="1"><td>06.01</td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="national-race/national-championships-australia-criterium/2023/result">National Championships Australia - Criterium <span>(NAT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/rudy-porter/national-championships-australia-criterium">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>3621</b> km in <b>25</b> days | PCS points: <b>20</b> |  UCI points: <b>10</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>4429</b> km in <b>30</b> days | PCS points: <b>28</b> |  UCI points: <b>15</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/rudy-porter/statistics/wins">Wins</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/rudy-porter/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/rudy-porter/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 53.3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">20</span></div></td><td class="ac  " >914</td></tr>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">30</span></div></td><td class="ac  " >981</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 74.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">28</span></div></td><td class="ac  " >821</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">30</span></div></td><td class="ac  " >966</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 2.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1</span></div></td><td class="ac  " >2135</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 56%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">21</span></div></td><td class="ac  " >864</td></tr>
 </tbody></table></span></div>
@@ -372,7 +391,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1001s</span></li>
+<li><span>Pageload 0.1549s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>

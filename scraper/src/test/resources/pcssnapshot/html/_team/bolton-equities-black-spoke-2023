@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="team.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
 	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -137,33 +145,35 @@
 <li><a href="team/bolton-equities-black-spoke-2023/more/submit-program">Contribute program</a></li>
 <li><a href="team/bolton-equities-black-spoke-2023/more/gear">Gear</a></li>
 </ul></li>
-<li class="more"><a href="team/bolton-equities-black-spoke-2023">More</a><ul><li data-n="0"><a href="team/bolton-equities-black-spoke-2023/overview/overview">Start - Start</a></li><li data-n="1"><a href="team/bolton-equities-black-spoke-2023/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="team/bolton-equities-black-spoke-2023/statistics/overview">Overview</a></li>
+<li class="more"><a href="team/bolton-equities-black-spoke-2023">More</a><ul><li data-n="1"><a href="team/bolton-equities-black-spoke-2023/overview/overview">Start - Start</a></li><li data-n="2"><a href="team/bolton-equities-black-spoke-2023/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="team/bolton-equities-black-spoke-2023/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="team/bolton-equities-black-spoke-2023/statistics/most-successful-rider">Most successful rider</a></li>
-<li data-n="2"><a href="team/bolton-equities-black-spoke-2023/season/season">Season - Season</a></li><li data-n="2"><a href="team/bolton-equities-black-spoke-2023/season/overview">Overview</a></li>
+<li data-n="3"><a href="team/bolton-equities-black-spoke-2023/season/season">Season - Season</a></li><li data-n="2"><a href="team/bolton-equities-black-spoke-2023/season/overview">Overview</a></li>
 <li data-n="2"><a href="team/bolton-equities-black-spoke-2023/season/analysis">Analysis</a></li>
 <li data-n="2"><a href="team/bolton-equities-black-spoke-2023/season/points-per-rider">Points per rider</a></li>
 <li data-n="2"><a href="team/bolton-equities-black-spoke-2023/season/most-racedays">Most racedays</a></li>
 <li data-n="2"><a href="team/bolton-equities-black-spoke-2023/season/races-per-nation">Races per nation</a></li>
 <li data-n="2"><a href="team/bolton-equities-black-spoke-2023/season/riders-per-country">Riders per country</a></li>
-<li data-n="3"><a href="team/bolton-equities-black-spoke-2023/wins/wins">Wins - Wins</a></li><li data-n="3"><a href="team/bolton-equities-black-spoke-2023/wins/victories">Victories</a></li>
+<li data-n="4"><a href="team/bolton-equities-black-spoke-2023/wins/wins">Wins - Wins</a></li><li data-n="3"><a href="team/bolton-equities-black-spoke-2023/wins/victories">Victories</a></li>
 <li data-n="3"><a href="team/bolton-equities-black-spoke-2023/wins/wins-per-season">Wins per season</a></li>
-<li data-n="4"><a href="team/bolton-equities-black-spoke-2023/results/results">Results - Results</a></li><li data-n="5"><a href="team/bolton-equities-black-spoke-2023/transfers/transfers">Transfers - Transfers</a></li><li data-n="6"><a href="team/bolton-equities-black-spoke-2023/program/program">Program - Program</a></li><li data-n="7"><a href="team/bolton-equities-black-spoke-2023/more/more">More - More</a></li><li data-n="7"><a href="team/bolton-equities-black-spoke-2023/more/report">Report</a></li>
+<li data-n="5"><a href="team/bolton-equities-black-spoke-2023/results/results">Results - Results</a></li><li data-n="6"><a href="team/bolton-equities-black-spoke-2023/transfers/transfers">Transfers - Transfers</a></li><li data-n="7"><a href="team/bolton-equities-black-spoke-2023/program/program">Program - Program</a></li><li data-n="8"><a href="team/bolton-equities-black-spoke-2023/more/more">More - More</a></li><li data-n="7"><a href="team/bolton-equities-black-spoke-2023/more/report">Report</a></li>
 <li data-n="7"><a href="team/bolton-equities-black-spoke-2023/more/contribute-link">Contribute socials</a></li>
 <li data-n="7"><a href="team/bolton-equities-black-spoke-2023/more/submit-program">Contribute program</a></li>
 <li data-n="7"><a href="team/bolton-equities-black-spoke-2023/more/gear">Gear</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag nz w32"></span><span class="flag nz w24"></span><h1 class="">Bolton Equities Black Spoke (PRT)</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">2023</span></div><div class="sub"><span class="red showIfMobile">2023</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord team"></div><div class="mob-ad leaderbord team"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-team"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100 "   >
-<div class="mt20"><ul class="team-kpi"><li class="title"><a href="team/bolton-equities-black-spoke-2023/wins">Victories</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/bolton-equities-black-spoke-2023/wins">9</a></span></li><li class="title"><a href="team/bolton-equities-black-spoke-2023/season/points-per-rider">Points</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/bolton-equities-black-spoke-2023/season/points-per-rider">769</a></span></li><li class="title"><a href="rankings/me/season-teams">PCS#</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="rankings/me/season-teams">27</a></span></li><li class="title"><a href="rankings/me/uci-teams">UCI#</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="rankings/me/uci-teams">24</a></span></li><li class="title"><a href="team/bolton-equities-black-spoke-2023/transfers/this-year">Transfers in</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/bolton-equities-black-spoke-2023/transfers/this-year">7</a></span></li><li class="title"><a href="team/bolton-equities-black-spoke-2023/transfers/this-year">Transfers out</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/bolton-equities-black-spoke-2023/transfers/this-year">2</a></span></li></ul><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/cf/aaron-gate-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/aaron-gate"></a><span>GATE Aaron</span></li><li><a style="background: url(images/riders/bp/ff/rory-townsend-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/rory-townsend"></a><span>TOWNSEND Rory</span></li><li><a style="background: url(images/riders/bp/ac/james-oram-2023-n2.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/james-oram"></a><span>ORAM James</span></li><li><a style="background: url(images/riders/bp/eb/mark-stewart-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mark-stewart"></a><span>STEWART Mark</span></li><li><a style="background: url(images/riders/bp/ec/luke-mudgway-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/luke-mudgway"></a><span>MUDGWAY Luke</span></li><li><a style="background: url(images/riders/bp/ef/james-fouche-2023-n2.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/james-fouche"></a><span>FOUCHÉ James</span></li><li><a style="background: url(images/riders/bp/dc/tom-sexton-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/tom-sexton"></a><span>SEXTON Tom</span></li><li><a style="background: url(images/riders/bp/ca/ryan-christensen-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/ryan-christensen"></a><span>CHRISTENSEN Ryan</span></li><li><a style="background: url(images/riders/bp/cb/matthew-bostock-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/matthew-bostock"></a><span>BOSTOCK Matthew</span></li><li><a style="background: url(images/riders/bp/ee/logan-currie-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/logan-currie"></a><span>CURRIE Logan</span></li><li><a style="background: url(images/riders/bp/da/jacob-scott-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/jacob-scott"></a><span>SCOTT Jacob</span></li><li><a style="background: url(images/riders/bp/ab/regan-gough-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/regan-gough"></a><span>GOUGH Regan</span></li><li><a style="background: url(images/riders/bp/da/josh-burnett-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/josh-burnett"></a><span>BURNETT Josh</span></li><li><a style="background: url(images/riders/bp/fe/george-jackson-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/george-jackson"></a><span>JACKSON George</span></li><li><a style="background: url(images/riders/bp/aa/ollie-jones-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/ollie-jones"></a><span>JONES Ollie</span></li><li><a style="background: url(images/riders/bp/bf/josh-kench-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/josh-kench"></a><span>KENCH Josh</span></li><li><a style="background: url(images/riders/bp/de/paul-wright-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/paul-wright"></a><span>WRIGHT Paul</span></li><li><a style="background: url(images/riders/bp/fd/mitchel-fitzsimons-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mitchel-fitzsimons"></a><span>FITZSIMONS Mitchel</span></li><li><a style="background: url(images/riders/bp/fd/bailey-o-donnell-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/bailey-o-donnell"></a><span>O'DONNELL Bailey</span></li><li><a style="background: url(images/riders/bp/fc/ethan-batt-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/ethan-batt"></a><span>BATT Ethan</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a   class="taba" href="#">career points</a></li>
+<ul class="list circle bluelink horizontal fs14"><li><a   class="" href="team-in-race/bolton-equities-black-spoke-2023/tour-of-qinghai-lake">Tour of Qinghai Lake</a></li>
+</ul>
+<div class="mt20"><ul class="team-kpi"><li class="title"><a href="team/bolton-equities-black-spoke-2023/wins">Victories</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/bolton-equities-black-spoke-2023/wins">9</a></span></li><li class="title"><a href="team/bolton-equities-black-spoke-2023/season/points-per-rider">Points</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/bolton-equities-black-spoke-2023/season/points-per-rider">815</a></span></li><li class="title"><a href="rankings/me/season-teams">PCS#</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="rankings/me/season-teams">27</a></span></li><li class="title"><a href="rankings/me/uci-teams">UCI#</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="rankings/me/uci-teams">26</a></span></li><li class="title"><a href="team/bolton-equities-black-spoke-2023/transfers/this-year">Transfers in</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/bolton-equities-black-spoke-2023/transfers/this-year">7</a></span></li><li class="title"><a href="team/bolton-equities-black-spoke-2023/transfers/this-year">Transfers out</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/bolton-equities-black-spoke-2023/transfers/this-year">2</a></span></li></ul><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/cf/aaron-gate-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/aaron-gate"></a><span>GATE Aaron</span></li><li><a style="background: url(images/riders/bp/ff/rory-townsend-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/rory-townsend"></a><span>TOWNSEND Rory</span></li><li><a style="background: url(images/riders/bp/ac/james-oram-2023-n2.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/james-oram"></a><span>ORAM James</span></li><li><a style="background: url(images/riders/bp/eb/mark-stewart-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mark-stewart"></a><span>STEWART Mark</span></li><li><a style="background: url(images/riders/bp/ec/luke-mudgway-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/luke-mudgway"></a><span>MUDGWAY Luke</span></li><li><a style="background: url(images/riders/bp/ef/james-fouche-2023-n2.jpg) no-repeat -10px 0; background-size: 110px; "  href="rider/james-fouche"></a><span>FOUCHÉ James</span></li><li><a style="background: url(images/riders/bp/dc/tom-sexton-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/tom-sexton"></a><span>SEXTON Tom</span></li><li><a style="background: url(images/riders/bp/ca/ryan-christensen-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/ryan-christensen"></a><span>CHRISTENSEN Ryan</span></li><li><a style="background: url(images/riders/bp/cb/matthew-bostock-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/matthew-bostock"></a><span>BOSTOCK Matthew</span></li><li><a style="background: url(images/riders/bp/ee/logan-currie-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/logan-currie"></a><span>CURRIE Logan</span></li><li><a style="background: url(images/riders/bp/da/jacob-scott-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/jacob-scott"></a><span>SCOTT Jacob</span></li><li><a style="background: url(images/riders/bp/ab/regan-gough-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/regan-gough"></a><span>GOUGH Regan</span></li><li><a style="background: url(images/riders/bp/fe/george-jackson-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/george-jackson"></a><span>JACKSON George</span></li><li><a style="background: url(images/riders/bp/da/josh-burnett-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/josh-burnett"></a><span>BURNETT Josh</span></li><li><a style="background: url(images/riders/bp/aa/ollie-jones-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/ollie-jones"></a><span>JONES Ollie</span></li><li><a style="background: url(images/riders/bp/bf/josh-kench-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/josh-kench"></a><span>KENCH Josh</span></li><li><a style="background: url(images/riders/bp/de/paul-wright-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/paul-wright"></a><span>WRIGHT Paul</span></li><li><a style="background: url(images/riders/bp/fd/mitchel-fitzsimons-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mitchel-fitzsimons"></a><span>FITZSIMONS Mitchel</span></li><li><a style="background: url(images/riders/bp/fd/bailey-o-donnell-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/bailey-o-donnell"></a><span>O'DONNELL Bailey</span></li><li><a style="background: url(images/riders/bp/fc/ethan-batt-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/ethan-batt"></a><span>BATT Ethan</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a   class="taba" href="#">career points</a></li>
 <li class="tabb cur" ><a   class="tabb cur" href="#">name</a></li>
 <li class="tabe" ><a   class="tabe" href="#">ranking</a></li>
 <li class="tabc" ><a   class="tabc" href="#">age</a></li>
 <li class="tabd" ><a   class="tabd" href="#">country</a></li>
 </ul></div>
 <div class="hide ttabs taba">
-<span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag nz"></span> <a    href="rider/aaron-gate">GATE Aaron</a></div><div class="right   "  >872</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag ie"></span> <a    href="rider/rory-townsend">TOWNSEND Rory</a></div><div class="right   "  >483</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag nz"></span> <a    href="rider/aaron-gate">GATE Aaron</a></div><div class="right   "  >874</div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag ie"></span> <a    href="rider/rory-townsend">TOWNSEND Rory</a></div><div class="right   "  >519</div><div class="clear"></div></li>
 <li class="" ><div >3</div><div ><span class="flag nz"></span> <a    href="rider/james-oram">ORAM James</a></div><div class="right   "  >427</div><div class="clear"></div></li>
 <li class="" ><div >4</div><div ><span class="flag gb"></span> <a    href="rider/mark-stewart">STEWART Mark</a></div><div class="right   "  >369</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag nz"></span> <a    href="rider/luke-mudgway">MUDGWAY Luke</a></div><div class="right   "  >227</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag nz"></span> <a    href="rider/luke-mudgway">MUDGWAY Luke</a></div><div class="right   "  >235</div><div class="clear"></div></li>
 <li class="" ><div >6</div><div ><span class="flag nz"></span> <a    href="rider/james-fouche">FOUCHÉ James</a></div><div class="right   "  >223</div><div class="clear"></div></li>
 <li class="" ><div >7</div><div ><span class="flag nz"></span> <a    href="rider/tom-sexton">SEXTON Tom</a></div><div class="right   "  >163</div><div class="clear"></div></li>
 <li class="" ><div >8</div><div ><span class="flag nz"></span> <a    href="rider/ryan-christensen">CHRISTENSEN Ryan</a></div><div class="right   "  >157</div><div class="clear"></div></li>
@@ -181,21 +191,21 @@
 <li class="" ><div >20</div><div ><span class="flag nz"></span> <a    href="rider/ethan-batt">BATT Ethan</a></div><div class="right   "  >0</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="hide ttabs tabe">
-<span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag nz"></span> <a    href="rider/aaron-gate">GATE Aaron</a></div><div class="right ar w12 fs11 clr555   "  >(288)</div><div class="right ac   "  >214</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag gb"></span> <a    href="rider/mark-stewart">STEWART Mark</a></div><div class="right ar w12 fs11 clr555   "  >(279)</div><div class="right ac   "  >223</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag ie"></span> <a    href="rider/rory-townsend">TOWNSEND Rory</a></div><div class="right ar w12 fs11 clr555   "  >(232)</div><div class="right ac   "  >265</div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag nz"></span> <a    href="rider/tom-sexton">SEXTON Tom</a></div><div class="right ar w12 fs11 clr555   "  >(97)</div><div class="right ac   "  >499</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag nz"></span> <a    href="rider/logan-currie">CURRIE Logan</a></div><div class="right ar w12 fs11 clr555   "  >(89)</div><div class="right ac   "  >540</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag nz"></span> <a    href="rider/luke-mudgway">MUDGWAY Luke</a></div><div class="right ar w12 fs11 clr555   "  >(62)</div><div class="right ac   "  >667</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag nz"></span> <a    href="rider/james-oram">ORAM James</a></div><div class="right ar w12 fs11 clr555   "  >(56)</div><div class="right ac   "  >716</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag nz"></span> <a    href="rider/ryan-christensen">CHRISTENSEN Ryan</a></div><div class="right ar w12 fs11 clr555   "  >(43)</div><div class="right ac   "  >814</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag nz"></span> <a    href="rider/james-fouche">FOUCHÉ James</a></div><div class="right ar w12 fs11 clr555   "  >(43)</div><div class="right ac   "  >815</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag nz"></span> <a    href="rider/george-jackson">JACKSON George</a></div><div class="right ar w12 fs11 clr555   "  >(28)</div><div class="right ac   "  >1041</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag nz"></span> <a    href="rider/josh-burnett">BURNETT Josh</a></div><div class="right ar w12 fs11 clr555   "  >(25)</div><div class="right ac   "  >1100</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag gb"></span> <a    href="rider/jacob-scott">SCOTT Jacob</a></div><div class="right ar w12 fs11 clr555   "  >(23)</div><div class="right ac   "  >1128</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag gb"></span> <a    href="rider/matthew-bostock">BOSTOCK Matthew</a></div><div class="right ar w12 fs11 clr555   "  >(12)</div><div class="right ac   "  >1460</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag nz"></span> <a    href="rider/paul-wright">WRIGHT Paul</a></div><div class="right ar w12 fs11 clr555   "  >(11)</div><div class="right ac   "  >1500</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag nz"></span> <a    href="rider/josh-kench">KENCH Josh</a></div><div class="right ar w12 fs11 clr555   "  >(10)</div><div class="right ac   "  >1572</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag gb"></span> <a    href="rider/mark-stewart">STEWART Mark</a></div><div class="right ar w12 fs11 clr555   "  >(279)</div><div class="right ac   "  >224</div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag nz"></span> <a    href="rider/aaron-gate">GATE Aaron</a></div><div class="right ar w12 fs11 clr555   "  >(248)</div><div class="right ac   "  >247</div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag ie"></span> <a    href="rider/rory-townsend">TOWNSEND Rory</a></div><div class="right ar w12 fs11 clr555   "  >(245)</div><div class="right ac   "  >252</div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag nz"></span> <a    href="rider/tom-sexton">SEXTON Tom</a></div><div class="right ar w12 fs11 clr555   "  >(97)</div><div class="right ac   "  >516</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag nz"></span> <a    href="rider/logan-currie">CURRIE Logan</a></div><div class="right ar w12 fs11 clr555   "  >(87)</div><div class="right ac   "  >552</div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag nz"></span> <a    href="rider/luke-mudgway">MUDGWAY Luke</a></div><div class="right ar w12 fs11 clr555   "  >(69)</div><div class="right ac   "  >635</div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag nz"></span> <a    href="rider/james-oram">ORAM James</a></div><div class="right ar w12 fs11 clr555   "  >(56)</div><div class="right ac   "  >712</div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag nz"></span> <a    href="rider/james-fouche">FOUCHÉ James</a></div><div class="right ar w12 fs11 clr555   "  >(43)</div><div class="right ac   "  >822</div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag nz"></span> <a    href="rider/ryan-christensen">CHRISTENSEN Ryan</a></div><div class="right ar w12 fs11 clr555   "  >(30)</div><div class="right ac   "  >989</div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag nz"></span> <a    href="rider/george-jackson">JACKSON George</a></div><div class="right ar w12 fs11 clr555   "  >(28)</div><div class="right ac   "  >1030</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag nz"></span> <a    href="rider/josh-burnett">BURNETT Josh</a></div><div class="right ar w12 fs11 clr555   "  >(25)</div><div class="right ac   "  >1097</div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag gb"></span> <a    href="rider/jacob-scott">SCOTT Jacob</a></div><div class="right ar w12 fs11 clr555   "  >(23)</div><div class="right ac   "  >1127</div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag nz"></span> <a    href="rider/josh-kench">KENCH Josh</a></div><div class="right ar w12 fs11 clr555   "  >(10)</div><div class="right ac   "  >1562</div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag gb"></span> <a    href="rider/matthew-bostock">BOSTOCK Matthew</a></div><div class="right ar w12 fs11 clr555   "  >(10)</div><div class="right ac   "  >1537</div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag nz"></span> <a    href="rider/paul-wright">WRIGHT Paul</a></div><div class="right ar w12 fs11 clr555   "  >(7)</div><div class="right ac   "  >1721</div><div class="clear"></div></li>
 <li class="" ><div >16</div><div ><span class="flag nz"></span> <a    href="rider/bailey-o-donnell">O'DONNELL Bailey</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
 <li class="" ><div >17</div><div ><span class="flag nz"></span> <a    href="rider/mitchel-fitzsimons">FITZSIMONS Mitchel</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
 <li class="" ><div >18</div><div ><span class="flag nz"></span> <a    href="rider/regan-gough">GOUGH Regan</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
@@ -226,7 +236,7 @@
 </ul></span></div>
 <div class="hide ttabs tabc">
 <span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag nz"></span> <a    href="rider/mitchel-fitzsimons">FITZSIMONS Mitchel</a></div><div class="right   "  >20</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag nz"></span> <a    href="rider/logan-currie">CURRIE Logan</a></div><div class="right   "  >21</div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag nz"></span> <a    href="rider/logan-currie">CURRIE Logan</a></div><div class="right   "  >22</div><div class="clear"></div></li>
 <li class="" ><div >3</div><div ><span class="flag nz"></span> <a    href="rider/josh-kench">KENCH Josh</a></div><div class="right   "  >22</div><div class="clear"></div></li>
 <li class="" ><div >4</div><div ><span class="flag nz"></span> <a    href="rider/josh-burnett">BURNETT Josh</a></div><div class="right   "  >22</div><div class="clear"></div></li>
 <li class="" ><div >5</div><div ><span class="flag nz"></span> <a    href="rider/bailey-o-donnell">O'DONNELL Bailey</a></div><div class="right   "  >22</div><div class="clear"></div></li>
@@ -238,12 +248,12 @@
 <li class="" ><div >11</div><div ><span class="flag gb"></span> <a    href="rider/matthew-bostock">BOSTOCK Matthew</a></div><div class="right   "  >25</div><div class="clear"></div></li>
 <li class="" ><div >12</div><div ><span class="flag nz"></span> <a    href="rider/regan-gough">GOUGH Regan</a></div><div class="right   "  >26</div><div class="clear"></div></li>
 <li class="" ><div >13</div><div ><span class="flag nz"></span> <a    href="rider/ryan-christensen">CHRISTENSEN Ryan</a></div><div class="right   "  >26</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag nz"></span> <a    href="rider/luke-mudgway">MUDGWAY Luke</a></div><div class="right   "  >26</div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag nz"></span> <a    href="rider/luke-mudgway">MUDGWAY Luke</a></div><div class="right   "  >27</div><div class="clear"></div></li>
 <li class="" ><div >15</div><div ><span class="flag nz"></span> <a    href="rider/ollie-jones">JONES Ollie</a></div><div class="right   "  >27</div><div class="clear"></div></li>
 <li class="" ><div >16</div><div ><span class="flag gb"></span> <a    href="rider/mark-stewart">STEWART Mark</a></div><div class="right   "  >27</div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag ie"></span> <a    href="rider/rory-townsend">TOWNSEND Rory</a></div><div class="right   "  >27</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag gb"></span> <a    href="rider/jacob-scott">SCOTT Jacob</a></div><div class="right   "  >27</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag nz"></span> <a    href="rider/james-oram">ORAM James</a></div><div class="right   "  >29</div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag ie"></span> <a    href="rider/rory-townsend">TOWNSEND Rory</a></div><div class="right   "  >28</div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag gb"></span> <a    href="rider/jacob-scott">SCOTT Jacob</a></div><div class="right   "  >28</div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag nz"></span> <a    href="rider/james-oram">ORAM James</a></div><div class="right   "  >30</div><div class="clear"></div></li>
 <li class="" ><div >20</div><div ><span class="flag nz"></span> <a    href="rider/aaron-gate">GATE Aaron</a></div><div class="right   "  >32</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="hide ttabs tabd">
@@ -251,22 +261,22 @@
 <li class="" ><div >2</div><div ><span class="flag gb"></span> <a    href="rider/matthew-bostock">BOSTOCK Matthew</a></div><div class="clear"></div></li>
 <li class="" ><div >3</div><div ><span class="flag gb"></span> <a    href="rider/mark-stewart">STEWART Mark</a></div><div class="clear"></div></li>
 <li class="" ><div >4</div><div ><span class="flag ie"></span> <a    href="rider/rory-townsend">TOWNSEND Rory</a></div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag nz"></span> <a    href="rider/james-oram">ORAM James</a></div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag nz"></span> <a    href="rider/bailey-o-donnell">O'DONNELL Bailey</a></div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag nz"></span> <a    href="rider/mitchel-fitzsimons">FITZSIMONS Mitchel</a></div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag nz"></span> <a    href="rider/ethan-batt">BATT Ethan</a></div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag nz"></span> <a    href="rider/ryan-christensen">CHRISTENSEN Ryan</a></div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag nz"></span> <a    href="rider/tom-sexton">SEXTON Tom</a></div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag nz"></span> <a    href="rider/josh-burnett">BURNETT Josh</a></div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag nz"></span> <a    href="rider/regan-gough">GOUGH Regan</a></div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag nz"></span> <a    href="rider/george-jackson">JACKSON George</a></div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag nz"></span> <a    href="rider/josh-kench">KENCH Josh</a></div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag nz"></span> <a    href="rider/luke-mudgway">MUDGWAY Luke</a></div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag nz"></span> <a    href="rider/ollie-jones">JONES Ollie</a></div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag nz"></span> <a    href="rider/aaron-gate">GATE Aaron</a></div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag nz"></span> <a    href="rider/paul-wright">WRIGHT Paul</a></div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag nz"></span> <a    href="rider/james-fouche">FOUCHÉ James</a></div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag nz"></span> <a    href="rider/logan-currie">CURRIE Logan</a></div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag nz"></span> <a    href="rider/mitchel-fitzsimons">FITZSIMONS Mitchel</a></div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag nz"></span> <a    href="rider/ethan-batt">BATT Ethan</a></div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag nz"></span> <a    href="rider/ryan-christensen">CHRISTENSEN Ryan</a></div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag nz"></span> <a    href="rider/tom-sexton">SEXTON Tom</a></div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag nz"></span> <a    href="rider/josh-burnett">BURNETT Josh</a></div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag nz"></span> <a    href="rider/regan-gough">GOUGH Regan</a></div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag nz"></span> <a    href="rider/george-jackson">JACKSON George</a></div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag nz"></span> <a    href="rider/josh-kench">KENCH Josh</a></div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag nz"></span> <a    href="rider/luke-mudgway">MUDGWAY Luke</a></div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag nz"></span> <a    href="rider/ollie-jones">JONES Ollie</a></div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag nz"></span> <a    href="rider/aaron-gate">GATE Aaron</a></div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag nz"></span> <a    href="rider/paul-wright">WRIGHT Paul</a></div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag nz"></span> <a    href="rider/james-fouche">FOUCHÉ James</a></div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag nz"></span> <a    href="rider/logan-currie">CURRIE Logan</a></div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag nz"></span> <a    href="rider/james-oram">ORAM James</a></div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag nz"></span> <a    href="rider/bailey-o-donnell">O'DONNELL Bailey</a></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="fs10 clr999"><div class="">In historical seasons, age is taken at July 1.</div></div>
 <div class="mt20"><h3>Quick links</h3><ul class="list fs14"><li class="blue" ><a   class="blue" href="compare_teams.php?id=49699">Compare to other teams </a></li>
@@ -274,7 +284,7 @@
 <div class="mt20"><h3>Info</h3><ul class="infolist" style=""><li><div>Team status:</div> <div>PRT</div></li>
 <li><div>Abbreviation: </div> <div>BEB</div></li>
 <li><div>Bike:</div> <div><a    href="brand/"></a></div></li>
-<li><div>Shirt:</div> <div><img src="images/shirts/bx/eb/bolton-equities-black-spoke-pro-cycling-2023.png" style="max-height: 250px; max-width: 100%;  " /></div></li>
+<li><div>Jersey:</div> <div><img src="images/shirts/bx/eb/bolton-equities-black-spoke-pro-cycling-2023.png" style="max-height: 250px; max-width: 100%;  " /></div></li>
 </ul></div>
 <div class=""><ul class="list horizontal sites"><li><span class="icon website left"></span><a  target="_blank"   class="" href="https://blackspoke.co.nz/">site</a></li>
 <li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/blackspokenz">twitter</a></li>
@@ -316,22 +326,17 @@
 </ul></div>
 </div><div class="w70 left mb_w100"><div class="mt10 mob-ad team-between-stats "></div><div class="mt20"><h3>Upcoming races for team</h3>
 <span class="table-cont"><table class="basic"  style=""><thead><tr><th class="cu600  "  style="width: 13%; ">Date</th><th class="cs600 hide  "  style="width: 17.4%; ">Date</th><th style="width: 34.8%; ">Race</th><th class="cu600 fs10 clr555  "  style="width: 34.8%; ">Riders</th></tr></thead><tbody>
-<tr ><td class="cu600  " >09/06 - 11/06</td><td class="cs600 hide  " >09/06 - 11/06</td><td><span class="flag fr"></span> <a    href="race/tour-d-eure-et-loir/2023">Tour d'Eure-et-Loir</a></td><td class="cu600 fs10 clr555  " >Oram, Bostock, Fitzsimons, Gough, Jackson, O'Donnell</td></tr>
-<tr ><td class="cu600  " >11/06</td><td class="cs600 hide  " >11/06</td><td><span class="flag be"></span> <a    href="race/circuit-des-xi-villes/2023">Elfstedenronde Brugge</a></td><td class="cu600 fs10 clr555  " >Burnett, Gate, Mudgway, Scott, Sexton, Townsend, Wright</td></tr>
-<tr ><td class="cu600  " >14/06 - 18/06</td><td class="cs600 hide  " >14/06 - 18/06</td><td><span class="flag be"></span> <a    href="race/tour-of-belgium/2023">Baloise Belgium Tour</a></td><td class="cu600 fs10 clr555  " >Christensen, Currie, Fouché, Gate, Jones, Scott, Townsend</td></tr>
-<tr ><td class="cu600  " >28/06</td><td class="cs600 hide  " >28/06</td><td><span class="flag be"></span> <a    href="race/circuit-franco-belge/2023">Circuit Franco-Belge</a></td><td class="cu600 fs10 clr555  " >Christensen</td></tr>
-<tr ><td class="cu600  " >28/06 - 01/07</td><td class="cs600 hide  " >28/06 - 01/07</td><td><span class="flag pl"></span> <a    href="race/course-cycliste-de-solidarnosc/2023">Course Cycliste de Solidarnosc et des Champions Olympiques</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >02/07</td><td class="cs600 hide  " >02/07</td><td><span class="flag nl"></span> <a    href="race/midden-brabant-poort-omloop/2023">Midden-Brabant Poort Omloop</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >09/07 - 16/07</td><td class="cs600 hide  " >09/07 - 16/07</td><td><span class="flag cn"></span> <a    href="race/tour-of-qinghai-lake/2023">Tour of Qinghai Lake</a></td><td class="cu600 fs10 clr555  " >Fouché</td></tr>
-<tr class=" hide"  ><td class="cu600  " >14/07 - 16/07</td><td class="cs600 hide  " >14/07 - 16/07</td><td><span class="flag hu"></span> <a    href="race/gp-cycliste-de-gemenc/2023">Gemenc GP</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >27/07 - 30/07</td><td class="cs600 hide  " >27/07 - 30/07</td><td><span class="flag cz"></span> <a    href="race/czech-tour/2023">Czech Tour</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >13/08</td><td class="cs600 hide  " >13/08</td><td><span class="flag fr"></span> <a    href="race/la-poly-normande/2023">La Polynormande</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >15/08 - 19/08</td><td class="cs600 hide  " >15/08 - 19/08</td><td><span class="flag dk"></span> <a    href="race/tour-of-denmark/2023">PostNord Danmark Rundt - Tour of Denmark</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >09/07 - 16/07</td><td class="cs600 hide  " >09/07 - 16/07</td><td><span class="flag cn"></span> <a    href="race/tour-of-qinghai-lake/2023">Tour of Qinghai Lake</a></td><td class="cu600 fs10 clr555  " >Oram, Christensen, Mudgway, Kench, Currie, Burnett, Wright</td></tr>
+<tr ><td class="cu600  " >14/07 - 16/07</td><td class="cs600 hide  " >14/07 - 16/07</td><td><span class="flag hu"></span> <a    href="race/gp-cycliste-de-gemenc/2023">Gemenc GP</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >27/07 - 30/07</td><td class="cs600 hide  " >27/07 - 30/07</td><td><span class="flag cz"></span> <a    href="race/czech-tour/2023">Czech Tour</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >13/08</td><td class="cs600 hide  " >13/08</td><td><span class="flag fr"></span> <a    href="race/la-poly-normande/2023">La Polynormande</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >15/08 - 19/08</td><td class="cs600 hide  " >15/08 - 19/08</td><td><span class="flag dk"></span> <a    href="race/tour-of-denmark/2023">PostNord Danmark Rundt - Tour of Denmark</a></td><td class="cu600 fs10 clr555  " >Batt</td></tr>
+<tr class=" hide"  ><td class="cu600  " >15/08</td><td class="cs600 hide  " >15/08</td><td><span class="flag be"></span> <a    href="race/gp-jef-scherens/2023">Tour of Leuven - Memorial Jef Scherens</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 <tr class=" hide"  ><td class="cu600  " >20/08</td><td class="cs600 hide  " >20/08</td><td><span class="flag be"></span> <a    href="race/gp-stad-zottegem/2023">Egmont Cycling Race</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >03/09</td><td class="cs600 hide  " >03/09</td><td><span class="flag be"></span> <a    href="race/gp-jef-scherens/2023">Tour of Leuven - Memorial Jef Scherens</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >05/09 - 10/09</td><td class="cs600 hide  " >05/09 - 10/09</td><td><span class="flag ro"></span> <a    href="race/romanian-cycling-tour/2023">Turul Romaniei</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >14/09 - 17/09</td><td class="cs600 hide  " >14/09 - 17/09</td><td><span class="flag cn"></span> <a    href="race/tour-of-taihu-lake/2023">Tour of Taihu Lake</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr class=" hide"  ><td class="cu600  " >04/09 - 10/09</td><td class="cs600 hide  " >04/09 - 10/09</td><td><span class="flag ro"></span> <a    href="race/romanian-cycling-tour/2023">Turul Romaniei</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr class=" hide"  ><td class="cu600  " >14/09 - 17/09</td><td class="cs600 hide  " >14/09 - 17/09</td><td><span class="flag cn"></span> <a    href="race/tour-of-taihu-lake/2023">Tour of Taihu Lake</a></td><td class="cu600 fs10 clr555  " >Batt</td></tr>
 <tr class=" hide"  ><td class="cu600  " >17/09</td><td class="cs600 hide  " >17/09</td><td><span class="flag fr"></span> <a    href="race/gp-d-isbergues/2023">Grand Prix d'Isbergues - Pas de Calais</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr class=" hide"  ><td class="cu600  " >23/09 - 30/09</td><td class="cs600 hide  " >23/09 - 30/09</td><td><span class="flag my"></span> <a    href="race/tour-de-langkawi/2023">Le Tour de Langkawi</a></td><td class="cu600 fs10 clr555  " >Batt</td></tr>
 <tr class=" hide"  ><td class="cu600  " >24/09</td><td class="cs600 hide  " >24/09</td><td><span class="flag fr"></span> <a    href="race/paris-chauny-classique/2023">Classique Paris-Chauny</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 <tr class=" hide"  ><td class="cu600  " >01/10</td><td class="cs600 hide  " >01/10</td><td><span class="flag be"></span> <a    href="race/famenne-ardenne-classic/2023">Lotto Famenne Ardenne Classic</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 </tbody></table><a class="showFullList showmorelink" href="">show more</a></span></div>
@@ -358,17 +363,17 @@
 <tr ><td>12</td><td><span class="flag fr"></span> <a    href="race/4-jours-de-dunkerque/2023/gc">4 Jours de Dunkerque / Grand Prix des Hauts de France</a></td><td>2.Pro</td><td><a    href="rider/logan-currie">CURRIE Logan</a></td><td>32</td></tr>
 <tr ><td>1</td><td><span class="flag nz"></span> <a    href="race/tour-of-wellington/2023/gc">New Zealand Cycle Classic</a></td><td>2.2</td><td><a    href="rider/james-oram">ORAM James</a></td><td>25</td></tr>
 <tr ><td>6</td><td><span class="flag be"></span> <a    href="race/circuit-de-wallonie/2023/result">Circuit de Charleroi Wallonie</a></td><td>1.1</td><td><a    href="rider/rory-townsend">TOWNSEND Rory</a></td><td>24</td></tr>
-<tr ><td>1</td><td><span class="flag gr"></span> <a    href="race/international-tour-of-hellas/2023/prologue">International Tour of Hellas | Prologue</a></td><td>2.1</td><td><a    href="rider/aaron-gate">GATE Aaron</a></td><td>20</td></tr>
-<tr class=" hide"  ><td>7</td><td><span class="flag gr"></span> <a    href="race/international-tour-of-hellas/2023/gc">International Tour of Hellas</a></td><td>2.1</td><td><a    href="rider/logan-currie">CURRIE Logan</a></td><td>20</td></tr>
+<tr ><td>7</td><td><span class="flag gr"></span> <a    href="race/international-tour-of-hellas/2023/gc">International Tour of Hellas</a></td><td>2.1</td><td><a    href="rider/logan-currie">CURRIE Logan</a></td><td>20</td></tr>
+<tr class=" hide"  ><td>1</td><td><span class="flag gr"></span> <a    href="race/international-tour-of-hellas/2023/prologue">International Tour of Hellas | Prologue</a></td><td>2.1</td><td><a    href="rider/aaron-gate">GATE Aaron</a></td><td>20</td></tr>
 <tr class=" hide"  ><td>2</td><td><span class="flag nz"></span> <a    href="race/tour-of-wellington/2023/gc">New Zealand Cycle Classic</a></td><td>2.2</td><td><a    href="rider/josh-burnett">BURNETT Josh</a></td><td>18</td></tr>
+<tr class=" hide"  ><td>16</td><td><span class="flag be"></span> <a    href="race/tour-of-belgium/2023/gc">Baloise Belgium Tour</a></td><td>2.Pro</td><td><a    href="rider/rory-townsend">TOWNSEND Rory</a></td><td>16</td></tr>
 <tr class=" hide"  ><td>1</td><td><span class="flag nz"></span> <a    href="race/nc-new-zealand/2023/result">National Championships New Zealand  - Road Race</a></td><td>NC</td><td><a    href="rider/james-oram">ORAM James</a></td><td>15</td></tr>
 <tr class=" hide"  ><td>20</td><td><span class="flag au"></span> <a    href="race/great-ocean-race/2023/result">Cadel Evans Great Ocean Road Race</a></td><td>1.UWT</td><td><a    href="rider/james-fouche">FOUCHÉ James</a></td><td>15</td></tr>
 <tr class=" hide"  ><td>1</td><td><span class="flag nz"></span> <a    href="race/nc-new-zealand-itt/2023/result">National Championships New Zealand  - ITT</a></td><td>NC</td><td><a    href="rider/aaron-gate">GATE Aaron</a></td><td>15</td></tr>
-<tr class=" hide"  ><td>2</td><td><span class="flag rw"></span> <a    href="race/tour-of-rwanda/2023/stage-7">Tour du Rwanda | Stage 7</a></td><td>2.1</td><td><a    href="rider/mark-stewart">STEWART Mark</a></td><td>12</td></tr>
 <tr class=" hide"  ><td>2</td><td><span class="flag gr"></span> <a    href="race/international-tour-of-hellas/2023/prologue">International Tour of Hellas | Prologue</a></td><td>2.1</td><td><a    href="rider/rory-townsend">TOWNSEND Rory</a></td><td>12</td></tr>
-<tr class=" hide"  ><td>11</td><td><span class="flag be"></span> <a    href="race/grote-prijs-marcel-kint/2023/result">Van Merksteijn Fences Classic</a></td><td>1.1</td><td><a    href="rider/rory-townsend">TOWNSEND Rory</a></td><td>12</td></tr>
-<tr class=" hide"  ><td>11</td><td><span class="flag nl"></span> <a    href="race/volta-limburg-classic/2023/result">Volta Limburg Classic</a></td><td>1.1</td><td><a    href="rider/mark-stewart">STEWART Mark</a></td><td>12</td></tr>
+<tr class=" hide"  ><td>2</td><td><span class="flag rw"></span> <a    href="race/tour-of-rwanda/2023/stage-7">Tour du Rwanda | Stage 7</a></td><td>2.1</td><td><a    href="rider/mark-stewart">STEWART Mark</a></td><td>12</td></tr>
 <tr class=" hide"  ><td>2</td><td><span class="flag rw"></span> <a    href="race/tour-of-rwanda/2023/stage-4">Tour du Rwanda | Stage 4</a></td><td>2.1</td><td><a    href="rider/mark-stewart">STEWART Mark</a></td><td>12</td></tr>
+<tr class=" hide"  ><td>11</td><td><span class="flag nl"></span> <a    href="race/volta-limburg-classic/2023/result">Volta Limburg Classic</a></td><td>1.1</td><td><a    href="rider/mark-stewart">STEWART Mark</a></td><td>12</td></tr>
 </tbody></table><a class="showFullList showmorelink" href="">show more</a></span></div>
 </div>  <script>
   $(document).ready(function(){
@@ -454,7 +459,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1318s</span></li>
+<li><span>Pageload 0.4337s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="2101" /><input type="hidden" id="userid" value="0" />
 	</div>

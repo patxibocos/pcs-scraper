@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
-	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b152.css" />
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -118,6 +126,7 @@
 <div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/max-poole">Overview</a></li>
 <li class="reg "><a class="" href="rider/max-poole/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/max-poole/statistics/overview">Overview</a></li>
 <li><a href="rider/max-poole/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/max-poole/statistics/key-events">Key events</a></li>
 <li><a href="rider/max-poole/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/max-poole/statistics/wins">Wins</a></li>
 <li><a href="rider/max-poole/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -137,52 +146,57 @@
 <li class="reg "><a class="" href="rider/max-poole/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/max-poole/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/max-poole/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/max-poole">More</a><ul><li data-n="0"><a href="rider/max-poole/overview/overview">Overview - Overview</a></li><li data-n="1"><a href="rider/max-poole/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/max-poole/statistics/overview">Overview</a></li>
+<li class="more"><a href="rider/max-poole">More</a><ul><li data-n="1"><a href="rider/max-poole/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/max-poole/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/max-poole/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="rider/max-poole/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/max-poole/statistics/key-events">Key events</a></li>
 <li data-n="1"><a href="rider/max-poole/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li data-n="1"><a href="rider/max-poole/statistics/wins">Wins</a></li>
 <li data-n="1"><a href="rider/max-poole/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/max-poole/statistics/grand-tour-starts">Starts and results</a></li>
 <li data-n="1"><a href="rider/max-poole/statistics/injury-history">Injury history</a></li>
-<li data-n="2"><a href="rider/max-poole/results/results">Results - Results</a></li><li data-n="3"><a href="rider/max-poole/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="4"><a href="rider/max-poole/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/max-poole/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/max-poole/contribute/contribute-info">Contribute info</a></li>
+<li data-n="3"><a href="rider/max-poole/results/results">Results - Results</a></li><li data-n="4"><a href="rider/max-poole/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/max-poole/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/max-poole/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/max-poole/contribute/contribute-info">Contribute info</a></li>
 <li data-n="5"><a href="rider/max-poole/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/max-poole/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/max-poole/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/max-poole/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/max-poole/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="6"><a href="rider/max-poole/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/max-poole/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="7"><a href="rider/max-poole/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/max-poole/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/max-poole/specialties/fastest-tt">Fastest TT</a></li>
-</ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag gb w32"></span><span class="flag gb w24"></span><h1 class="">Max  Poole</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Team DSM</span></div><div class="sub"><span class="red showIfMobile">Team DSM</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<div class="text-regular"><span>LIVE</span> <a class="blue" href="race/dauphine/2023/stage-8/live/livestats">Critérium du Dauphiné | Stage 8</a></div>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/max-poole/statistics/overview"><img alt="Profile photo of Max  Poole" src="images/riders/bp/ca/max-poole-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 1<sup>st</sup> March 2003 (20)<br /><b>Nationality:</b> <span class="flag  gb"></span><a class="black" href="nation/great-britain">Great Britain</a><br /><span><b>Height:</b> 1.85 m<br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/max-poole/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">331</div><div class="title"><a href="rider/max-poole/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 12.38670694864%; height: 100%;  "></div></div><div class="pnt">41</div><div class="title"><a href="rider/max-poole/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 1.5105740181269%; height: 100%;  "></div></div><div class="pnt">5</div><div class="title"><a href="rider/max-poole/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 85.196374622357%; height: 100%;  "></div></div><div class="pnt">282</div><div class="title"><a href="rider/max-poole/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+</ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag gb w32"></span><span class="flag gb w24"></span><h1 class="">Max  Poole</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Team dsm - firmenich</span></div><div class="sub"><span class="red showIfMobile">Team dsm - firmenich</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/max-poole/statistics/overview"><img alt="Profile photo of Max  Poole" src="images/riders/bp/ca/max-poole-2023-n2-n3.png"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 1<sup>st</sup> March 2003 (20)<br /><b>Nationality:</b> <span class="flag  gb"></span><a class="black" href="nation/great-britain">Great Britain</a><br /><span><b>Height:</b> 1.85 m<br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/max-poole/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">381</div><div class="title"><a href="rider/max-poole/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 10.761154855643%; height: 100%;  "></div></div><div class="pnt">41</div><div class="title"><a href="rider/max-poole/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 1.3123359580052%; height: 100%;  "></div></div><div class="pnt">5</div><div class="title"><a href="rider/max-poole/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 76.115485564304%; height: 100%;  "></div></div><div class="pnt">290</div><div class="title"><a href="rider/max-poole/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><ul class="list horizontal fs14 circle bluelink"></ul></div>
+<div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/max_poole/">instagram</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/pros/max-poole-48649611">strava</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >145</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >136</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >135</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >135</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;10915</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;2091</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-romandie/2023/gc">Tour de Romandie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-hongrie/2023/gc">Tour de Hongrie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-hongrie/2023/stage-3">Tour de Hongrie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">7th&nbsp;</div><div><span class="blue">GC</span> <a href="race/arctic-race-of-norway/2022/gc">Arctic Race of Norway</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-romandie/2023/stage-4">Tour de Romandie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue">stage</span> <a href="race/dauphine/2023/stage-5">Critérium du Dauphiné</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;5th&nbsp;</div><div><span class="blue">stage</span> <a href="race/dauphine/2023/stage-7">Critérium du Dauphiné</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/arctic-race-of-norway/2022/stage-4">Arctic Race of Norway</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">13th&nbsp;</div><div><span class="blue">GC</span> <a href="race/dauphine/2023/gc">Critérium du Dauphiné</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">11th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-the-alps/2023/gc">Tour of the Alps</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue">stage</span> <a href="race/czech-tour/2022/stage-4">Czech Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">6th&nbsp;</div><div><span class="blue">GC</span> <a href="race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2022/gc">Giro Ciclistico della Valle d'Aosta - Mont Blanc</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue">GC</span> <a href="race/czech-tour/2022/gc">Czech Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">6th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-hongrie/2023/stage-4">Tour de Hongrie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/team-dsm-2024">Team DSM</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2027</div><div class="name   "  ><a    href="team/team-dsm-firmenich-2027">Team dsm - firmenich</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2026</div><div class="name   "  ><a    href="team/team-dsm-firmenich-2026">Team dsm - firmenich</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2025</div><div class="name   "  ><a    href="team/team-dsm-firmenich-2025">Team dsm - firmenich</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/team-dsm-firmenich-2024">Team dsm - firmenich</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/team-dsm-2023">Team DSM</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/development-team-dsm-2022">Development Team DSM</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-</ul></span></div>
+</ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
 <span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
 <div class=""><div class="">No races on program.</div></div>
@@ -193,7 +207,7 @@
 <tr data-main="0"><td></td><td>30</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st7"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-8-kom">Mountains classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-poole/dauphine">more</a></td></tr>
 <tr data-main="0"><td></td><td>12</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-8-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-poole/dauphine">more</a></td></tr>
 <tr data-main="0"><td></td><td>13</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">50</td><td class="cu600 ">50</td><td class="cu600"><a class="more" href="rider-in-race/max-poole/dauphine">more</a></td></tr>
-<tr data-main="0"><td>11.06</td><td>19</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-8">Stage 8 - Le Pont-de-Claix &rsaquo; La Bastille – Grenoble Alpes Métropole</a> </td><td class="cu600"><s>152.8</s> 152.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-poole/dauphine">more</a></td></tr>
+<tr data-main="0"><td>11.06</td><td>19</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-8">Stage 8 - Le Pont-de-Claix &rsaquo; La Bastille – Grenoble Alpes Métropole</a> </td><td class="cu600">152.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-poole/dauphine">more</a></td></tr>
 <tr data-main="0"><td>10.06</td><td>5</td><td class="gc cu600">12</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-7">Stage 7 - Porte-de-Savoie &rsaquo; Col de la Croix de Fer</a> </td><td class="cu600">147.9</td><td class="cu600">10</td><td class="cu600 ">20</td><td class="cu600"><a class="more" href="rider-in-race/max-poole/dauphine">more</a></td></tr>
 <tr data-main="0"><td>09.06</td><td>22</td><td class="gc cu600">18</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-6">Stage 6 - Nantua &rsaquo; Crest-Voland</a> </td><td class="cu600">170.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-poole/dauphine">more</a></td></tr>
 <tr data-main="0"><td>08.06</td><td>5</td><td class="gc cu600">22</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-5">Stage 5 - Cormoranche-sur-Saône &rsaquo; Salins-les-Bains</a> </td><td class="cu600">191.1</td><td class="cu600">10</td><td class="cu600 ">20</td><td class="cu600"><a class="more" href="rider-in-race/max-poole/dauphine">more</a></td></tr>
@@ -243,8 +257,8 @@
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">355</span></div></td><td class="ac  " >77</td></tr>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 19.4%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">86</span></div></td><td class="ac  " >522</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">355</span></div></td><td class="ac  " >93</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 19.4%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">86</span></div></td><td class="ac  " >526</td></tr>
 </tbody></table></span></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
@@ -378,7 +392,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1143s</span></li>
+<li><span>Pageload 0.1606s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>

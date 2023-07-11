@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
-	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b152.css" />
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -118,6 +126,7 @@
 <div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/santiago-buitrago-sanchez">Overview</a></li>
 <li class="reg "><a class="" href="rider/santiago-buitrago-sanchez/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/santiago-buitrago-sanchez/statistics/overview">Overview</a></li>
 <li><a href="rider/santiago-buitrago-sanchez/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/santiago-buitrago-sanchez/statistics/key-events">Key events</a></li>
 <li><a href="rider/santiago-buitrago-sanchez/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/santiago-buitrago-sanchez/statistics/wins">Wins</a></li>
 <li><a href="rider/santiago-buitrago-sanchez/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -137,23 +146,26 @@
 <li class="reg "><a class="" href="rider/santiago-buitrago-sanchez/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/santiago-buitrago-sanchez/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/santiago-buitrago-sanchez/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/santiago-buitrago-sanchez">More</a><ul><li data-n="0"><a href="rider/santiago-buitrago-sanchez/overview/overview">Overview - Overview</a></li><li data-n="1"><a href="rider/santiago-buitrago-sanchez/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/santiago-buitrago-sanchez/statistics/overview">Overview</a></li>
+<li class="more"><a href="rider/santiago-buitrago-sanchez">More</a><ul><li data-n="1"><a href="rider/santiago-buitrago-sanchez/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/santiago-buitrago-sanchez/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/santiago-buitrago-sanchez/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="rider/santiago-buitrago-sanchez/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/santiago-buitrago-sanchez/statistics/key-events">Key events</a></li>
 <li data-n="1"><a href="rider/santiago-buitrago-sanchez/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li data-n="1"><a href="rider/santiago-buitrago-sanchez/statistics/wins">Wins</a></li>
 <li data-n="1"><a href="rider/santiago-buitrago-sanchez/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/santiago-buitrago-sanchez/statistics/grand-tour-starts">Starts and results</a></li>
 <li data-n="1"><a href="rider/santiago-buitrago-sanchez/statistics/injury-history">Injury history</a></li>
-<li data-n="2"><a href="rider/santiago-buitrago-sanchez/results/results">Results - Results</a></li><li data-n="3"><a href="rider/santiago-buitrago-sanchez/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="4"><a href="rider/santiago-buitrago-sanchez/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/santiago-buitrago-sanchez/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/santiago-buitrago-sanchez/contribute/contribute-info">Contribute info</a></li>
+<li data-n="3"><a href="rider/santiago-buitrago-sanchez/results/results">Results - Results</a></li><li data-n="4"><a href="rider/santiago-buitrago-sanchez/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/santiago-buitrago-sanchez/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/santiago-buitrago-sanchez/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/santiago-buitrago-sanchez/contribute/contribute-info">Contribute info</a></li>
 <li data-n="5"><a href="rider/santiago-buitrago-sanchez/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/santiago-buitrago-sanchez/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/santiago-buitrago-sanchez/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/santiago-buitrago-sanchez/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/santiago-buitrago-sanchez/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="6"><a href="rider/santiago-buitrago-sanchez/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/santiago-buitrago-sanchez/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="7"><a href="rider/santiago-buitrago-sanchez/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/santiago-buitrago-sanchez/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/santiago-buitrago-sanchez/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag co w32"></span><span class="flag co w24"></span><h1 class="">Santiago  Buitrago</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Bahrain - Victorious</span></div><div class="sub"><span class="red showIfMobile">Bahrain - Victorious</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/santiago-buitrago-sanchez/statistics/overview"><img alt="Profile photo of Santiago  Buitrago" src="images/riders/bp/ed/santiago-buitrago-2023.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 26<sup>th</sup> September 1999 (23)<br /><b>Nationality:</b> <span class="flag  co"></span><a class="black" href="nation/colombia">Colombia</a><br /><span><b>Weight:</b> 59 kg &nbsp; <span><b>Height:</b> 1.74 m<br /><b>Place of birth:</b> <a href="location/bogota">Bogotá</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 23.092998955068%; height: 100%;  "></div></div><div class="pnt">221</div><div class="title"><a href="rider/santiago-buitrago-sanchez/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 82.863113897597%; height: 100%;  "></div></div><div class="pnt">793</div><div class="title"><a href="rider/santiago-buitrago-sanchez/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 3.1347962382445%; height: 100%;  "></div></div><div class="pnt">30</div><div class="title"><a href="rider/santiago-buitrago-sanchez/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 4.4932079414838%; height: 100%;  "></div></div><div class="pnt">43</div><div class="title"><a href="rider/santiago-buitrago-sanchez/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">957</div><div class="title"><a href="rider/santiago-buitrago-sanchez/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/santiago-buitrago-sanchez/statistics/overview"><img alt="Profile photo of Santiago  Buitrago" src="images/riders/bp/ed/santiago-buitrago-2023.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 26<sup>th</sup> September 1999 (23)<br /><b>Nationality:</b> <span class="flag  co"></span><a class="black" href="nation/colombia">Colombia</a><br /><span><b>Weight:</b> 59 kg &nbsp; <span><b>Height:</b> 1.74 m<br /><b>Place of birth:</b> <a href="location/bogota">Bogotá</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 23.092998955068%; height: 100%;  "></div></div><div class="pnt">221</div><div class="title"><a href="rider/santiago-buitrago-sanchez/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 82.863113897597%; height: 100%;  "></div></div><div class="pnt">793</div><div class="title"><a href="rider/santiago-buitrago-sanchez/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 3.1347962382445%; height: 100%;  "></div></div><div class="pnt">30</div><div class="title"><a href="rider/santiago-buitrago-sanchez/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 4.4932079414838%; height: 100%;  "></div></div><div class="pnt">43</div><div class="title"><a href="rider/santiago-buitrago-sanchez/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">957</div><div class="title"><a href="rider/santiago-buitrago-sanchez/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><ul class="list horizontal fs14 circle bluelink"></ul></div>
+<div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/SantiagoBS26">twitter</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/Santiago-Buitrago-351431635358776/">facebook</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/santiago0926/">instagram</a></li>
@@ -161,11 +173,11 @@
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/santiagobuitrago09/?hl=es">instagram</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >46</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >62</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >44</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >65</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;1836</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;523</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/giro-d-italia/2023/stage-19">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23, '22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/vuelta-a-burgos/2022/stage-1">Vuelta a Burgos</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
@@ -262,7 +274,7 @@
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">596</span></div></td><td class="ac  " >28</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">596</span></div></td><td class="ac  " >34</td></tr>
 <tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 68.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">510</span></div></td><td class="ac  " >103</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 23.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">178</span></div></td><td class="ac  " >297</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 9.3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">69</span></div></td><td class="ac  " >428</td></tr>
@@ -407,7 +419,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0781s</span></li>
+<li><span>Pageload 0.2860s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
