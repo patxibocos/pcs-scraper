@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b141.css" />
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b152.css" />
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -115,7 +123,7 @@
 			 </div>
 			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/uae-tour/2022/statistics/start" >2022</a><div ><form style="  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/uae-tour/2023/statistics/start" selected>2023</option><option value="race/uae-tour/2022/statistics/start" >2022</option><option value="race/uae-tour/2021/statistics/start" >2021</option><option value="race/uae-tour/2020/statistics/start" >2020</option><option value="race/uae-tour/2019/statistics/start" >2019</option></select></form></div><a ></a></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/uae-tour/2023">Statistics</a></li>
+<div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/uae-tour/2022/statistics/start" >2022</a><div ><form style="  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/uae-tour/2024/statistics/start" >2024</option><option value="race/uae-tour/2023/statistics/start" selected>2023</option><option value="race/uae-tour/2022/statistics/start" >2022</option><option value="race/uae-tour/2021/statistics/start" >2021</option><option value="race/uae-tour/2020/statistics/start" >2020</option><option value="race/uae-tour/2019/statistics/start" >2019</option></select></form></div><a  href="race/uae-tour/2024/statistics/start" >2024</a></div><div class="pageSelectNav 1" ><div ><form style="  max-width: 220px; width: 100%;  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/uae-tour/2023/" >- stage -</option><option value="race/uae-tour/2023/stage-1" >Stage 1 | Al Dhafra Castle - Al Mirfa</option><option value="race/uae-tour/2023/stage-2" >Stage 2 (TTT) | Khalifa Port - Khalifa Port</option><option value="race/uae-tour/2023/stage-3" >Stage 3 | Umbrella Beach Al Fujairah - Jebel Jais</option><option value="race/uae-tour/2023/stage-4" >Stage 4 | Al Shindagha - Dubai Harbour</option><option value="race/uae-tour/2023/stage-5" >Stage 5 | Al Marjan Island - Umm al Quwain</option><option value="race/uae-tour/2023/stage-6" >Stage 6 | Warner Bros. World Abu Dhabi - Abu Dhabi Breakwater</option><option value="race/uae-tour/2023/stage-7" >Stage 7 | Hazza Bin Zayed Stadium - Jebel Hafeet</option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/uae-tour/2023">Statistics</a></li>
 <li class="reg "><a style=" " href="/race/uae-tour/2023">GO TO</a><ul><li><a href="race/uae-tour/2023/stage-7">Stage 7 results</a></li><li><a href="race/uae-tour/2023/gc">Actual GC</a></li></ul></li><li class="reg "><a class="" href="race/uae-tour/2023/startlist">Startlist&#x25BC;</a><ul><li><a href="race/uae-tour/2023/startlist/startlist">Startlist</a></li>
 <li><a href="race/uae-tour/2023/startlist/top-competitors">Top competitors</a></li>
 <li><a href="race/uae-tour/2023/startlist/startlist-quality">Startlist quality</a></li>
@@ -139,17 +147,17 @@
 <li><a href="race/uae-tour/2023/results/dropouts">Dropouts</a></li>
 <li><a href="race/uae-tour/2023/results/fastest-stage">Fastest stages</a></li>
 </ul></li>
-<li class="more"><a href="race/uae-tour/2023">More</a><ul><li data-n="0"><a href="race/uae-tour/2023/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="race/uae-tour/2023/startlist/startlist">Startlist - Startlist</a></li><li data-n="1"><a href="race/uae-tour/2023/startlist/top-competitors">Top competitors</a></li>
+<li class="more"><a href="race/uae-tour/2023">More</a><ul><li data-n="1"><a href="race/uae-tour/2023/statistics/statistics">Statistics - Statistics</a></li><li data-n="2"><a href="race/uae-tour/2023/startlist/startlist">Startlist - Startlist</a></li><li data-n="1"><a href="race/uae-tour/2023/startlist/top-competitors">Top competitors</a></li>
 <li data-n="1"><a href="race/uae-tour/2023/startlist/startlist-quality">Startlist quality</a></li>
 <li data-n="1"><a href="race/uae-tour/2023/startlist/debutants">Debutants</a></li>
-<li data-n="2"><a href="race/uae-tour/2023/more/more">More - More</a></li><li data-n="3"><a href="race/uae-tour/2023/teams/teams">Teams - Teams</a></li><li data-n="3"><a href="race/uae-tour/2023/teams/top-teams">Top teams</a></li>
+<li data-n="3"><a href="race/uae-tour/2023/more/more">More - More</a></li><li data-n="4"><a href="race/uae-tour/2023/teams/teams">Teams - Teams</a></li><li data-n="3"><a href="race/uae-tour/2023/teams/top-teams">Top teams</a></li>
 <li data-n="3"><a href="race/uae-tour/2023/teams/dropouts">Dropouts</a></li>
 <li data-n="3"><a href="race/uae-tour/2023/teams/prizemoney">Prizemoney</a></li>
-<li data-n="4"><a href="race/uae-tour/2023/nations/nations">Nations - Nations</a></li><li data-n="5"><a href="race/uae-tour/2023/route/route">Route - Route</a></li><li data-n="5"><a href="race/uae-tour/2023/route/stages">Stages</a></li>
+<li data-n="5"><a href="race/uae-tour/2023/nations/nations">Nations - Nations</a></li><li data-n="6"><a href="race/uae-tour/2023/route/route">Route - Route</a></li><li data-n="5"><a href="race/uae-tour/2023/route/stages">Stages</a></li>
 <li data-n="5"><a href="race/uae-tour/2023/route/stage-profiles">All stage profiles</a></li>
 <li data-n="5"><a href="race/uae-tour/2023/route/hardest-stages">Hardest stages</a></li>
 <li data-n="5"><a href="race/uae-tour/2023/route/climbs">Climbs</a></li>
-<li data-n="6"><a href="race/uae-tour/2023/results/results">Results - Results</a></li><li data-n="6"><a href="race/uae-tour/2023/results/start">Winners and leaders</a></li>
+<li data-n="7"><a href="race/uae-tour/2023/results/results">Results - Results</a></li><li data-n="6"><a href="race/uae-tour/2023/results/start">Winners and leaders</a></li>
 <li data-n="6"><a href="race/uae-tour/2023/results/won-how">Won how</a></li>
 <li data-n="6"><a href="race/uae-tour/2023/results/prizemoney-ranking">Prizemoney ranking</a></li>
 <li data-n="6"><a href="race/uae-tour/2023/results/dropouts">Dropouts</a></li>
@@ -168,7 +176,7 @@
 <tr ><td>6</td><td><span class="flag nl"></span> <a    href="rider/wout-poels">POELS Wout</a></td><td>2:18</td></tr>
 <tr ><td>7</td><td><span class="flag it"></span> <a    href="rider/antonio-tiberi">TIBERI Antonio</a></td><td>2:33</td></tr>
 <tr ><td>8</td><td><span class="flag de"></span> <a    href="rider/ben-zwiehoff">ZWIEHOFF Ben</a></td><td>2:38</td></tr>
-<tr ><td>9</td><td><span class="flag de"></span> <a    href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td></td></tr>
+<tr ><td>9</td><td><span class="flag de"></span> <a    href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td>2:38</td></tr>
 <tr ><td>10</td><td><span class="flag be"></span> <a    href="rider/harm-vanhoucke">VANHOUCKE Harm</a></td><td>2:40</td></tr>
 </tbody></table></span></div>
 <ul class="list horizontal"><li class="goto2 mr10" ><a   class="goto2 mr10" href="race/uae-tour/2023/gc">Full results</a></li>
@@ -222,13 +230,13 @@
 <div class="w48 left mb_w100 "   >
 <div class="mt20"><h3>Stages</h3>
 <span class="table-cont"><table class="basic"  style="max-width: 700px; "><thead><tr><th style="width: 9.7%; ">Date</th><th style="width: 2.9%; "></th><th style="width: 58.3%; ">Stage</th><th style="width: 29.1%; ">Winner</th></tr></thead><tbody>
-<tr ><td>20/02</td><td><span class="icon profile p1"></span></td><td><a    href="race/uae-tour/2023/stage-1">Stage 1 to Al Mirfa</a></td><td><span class="flag be"></span> <a    href="rider/tim-merlier">MERLIER</a></td></tr>
-<tr ><td>21/02</td><td><span class="icon profile p1"></span></td><td><a    href="race/uae-tour/2023/stage-2">Stage 2 (TTT) to Khalifa Port</a></td><td><a    href="rider/"></a></td></tr>
-<tr ><td>22/02</td><td><span class="icon profile p5"></span></td><td><a    href="race/uae-tour/2023/stage-3">Stage 3 to Jebel Jais</a></td><td><span class="flag co"></span> <a    href="rider/einer-augusto-rubio-reyes">RUBIO</a></td></tr>
-<tr ><td>23/02</td><td><span class="icon profile p1"></span></td><td><a    href="race/uae-tour/2023/stage-4">Stage 4 to Dubai Harbour</a></td><td><span class="flag co"></span> <a    href="rider/juan-sebastian-molano">MOLANO</a></td></tr>
-<tr ><td>24/02</td><td><span class="icon profile p1"></span></td><td><a    href="race/uae-tour/2023/stage-5">Stage 5 to Umm al Quwain</a></td><td><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN</a></td></tr>
-<tr ><td>25/02</td><td><span class="icon profile p1"></span></td><td><a    href="race/uae-tour/2023/stage-6">Stage 6 to Abu Dhabi Breakwater</a></td><td><span class="flag be"></span> <a    href="rider/tim-merlier">MERLIER</a></td></tr>
-<tr ><td>26/02</td><td><span class="icon profile p5"></span></td><td><a    href="race/uae-tour/2023/stage-7">Stage 7 to Jebel Hafeet</a></td><td><span class="flag gb"></span> <a    href="rider/adam-yates">YATES</a></td></tr>
+<tr ><td>20/02</td><td><span class="icon profile p1"></span></td><td><a    href="race/uae-tour/2023/stage-1">Stage 1 | Al Dhafra Castle - Al Mirfa</a></td><td><span class="flag be"></span> <a    href="rider/tim-merlier">MERLIER</a></td></tr>
+<tr ><td>21/02</td><td><span class="icon profile p1"></span></td><td><a    href="race/uae-tour/2023/stage-2">Stage 2 (TTT) | Khalifa Port - Khalifa Port</a></td><td><a    href="rider/"></a></td></tr>
+<tr ><td>22/02</td><td><span class="icon profile p5"></span></td><td><a    href="race/uae-tour/2023/stage-3">Stage 3 | Umbrella Beach Al Fujairah - Jebel Jais</a></td><td><span class="flag co"></span> <a    href="rider/einer-augusto-rubio-reyes">RUBIO</a></td></tr>
+<tr ><td>23/02</td><td><span class="icon profile p1"></span></td><td><a    href="race/uae-tour/2023/stage-4">Stage 4 | Al Shindagha - Dubai Harbour</a></td><td><span class="flag co"></span> <a    href="rider/juan-sebastian-molano">MOLANO</a></td></tr>
+<tr ><td>24/02</td><td><span class="icon profile p1"></span></td><td><a    href="race/uae-tour/2023/stage-5">Stage 5 | Al Marjan Island - Umm al Quwain</a></td><td><span class="flag nl"></span> <a    href="rider/dylan-groenewegen">GROENEWEGEN</a></td></tr>
+<tr ><td>25/02</td><td><span class="icon profile p1"></span></td><td><a    href="race/uae-tour/2023/stage-6">Stage 6 | Warner Bros. World Abu Dhabi - Abu Dhabi Breakwater</a></td><td><span class="flag be"></span> <a    href="rider/tim-merlier">MERLIER</a></td></tr>
+<tr ><td>26/02</td><td><span class="icon profile p5"></span></td><td><a    href="race/uae-tour/2023/stage-7">Stage 7 | Hazza Bin Zayed Stadium - Jebel Hafeet</a></td><td><span class="flag gb"></span> <a    href="rider/adam-yates">YATES</a></td></tr>
 </tbody></table></span></div>
 <div class="mt30"><h3>Sites</h3><ul class="list circle bluelink fs14"><li><a  target="_blank"   class="" href="https://www.theuaetour.com">www.theuaetour.com</a></li>
 <li><a  target="_blank"   class="" href="https://www.facebook.com/uaetourofficial/">www.facebook.com/uaetourofficial/</a></li>
@@ -309,7 +317,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.2385s</span></li>
+<li><span>Pageload 0.2881s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="5223" /><input type="hidden" id="userid" value="0" />
 	</div>

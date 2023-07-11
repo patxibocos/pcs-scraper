@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
 	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -115,37 +123,33 @@
 			 </div>
 			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/gp-quebec/2022/result" >2022</a><div ><form style="  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/gp-quebec/2023/result" selected>2023</option><option value="race/gp-quebec/2022/result" >2022</option><option value="race/gp-quebec/2021/result" >2021</option><option value="race/gp-quebec/2020/result" >2020</option><option value="race/gp-quebec/2019/result" >2019</option><option value="race/gp-quebec/2018/result" >2018</option><option value="race/gp-quebec/2017/result" >2017</option><option value="race/gp-quebec/2016/result" >2016</option><option value="race/gp-quebec/2015/result" >2015</option><option value="race/gp-quebec/2014/result" >2014</option><option value="race/gp-quebec/2013/result" >2013</option><option value="race/gp-quebec/2012/result" >2012</option><option value="race/gp-quebec/2011/result" >2011</option><option value="race/gp-quebec/2010/result" >2010</option></select></form></div><a ></a></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/gp-quebec/2023/result">Results</a></li>
-<li class="reg "><a style=" " href="race/gp-quebec/2023/startlist">Startlist</a><ul><li><a href="race/gp-quebec/2023/startlist">Startlist</a></li><li><a href="race/gp-quebec/2023/route/stage-profiles">All stage profiles</a></li><li><a href="race/gp-quebec/results">Race palmares</a></li></ul></li><li class="reg "><a class="" href="race/gp-quebec/2023/result/live">Live&#x25BC;</a><ul><li><a href="race/gp-quebec/2023/result/live/livestats">LiveStats</a></li>
-<li><a href="race/gp-quebec/2023/result/live/time-splits">Time splits table</a></li>
+<div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/gp-quebec/2022/result" >2022</a><div ><form style="  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/gp-quebec/2024/result" >2024</option><option value="race/gp-quebec/2023/result" selected>2023</option><option value="race/gp-quebec/2022/result" >2022</option><option value="race/gp-quebec/2021/result" >2021</option><option value="race/gp-quebec/2020/result" >2020</option><option value="race/gp-quebec/2019/result" >2019</option><option value="race/gp-quebec/2018/result" >2018</option><option value="race/gp-quebec/2017/result" >2017</option><option value="race/gp-quebec/2016/result" >2016</option><option value="race/gp-quebec/2015/result" >2015</option><option value="race/gp-quebec/2014/result" >2014</option><option value="race/gp-quebec/2013/result" >2013</option><option value="race/gp-quebec/2012/result" >2012</option><option value="race/gp-quebec/2011/result" >2011</option><option value="race/gp-quebec/2010/result" >2010</option></select></form></div><a  href="race/gp-quebec/2024/result" >2024</a></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/gp-quebec/2023/result">Results</a></li>
+<li class="reg "><a style=" " href="race/gp-quebec/2023/startlist">Startlist</a><ul><li><a href="race/gp-quebec/2023/startlist">Startlist</a></li><li><a href="race/gp-quebec/results">Race palmares</a></li></ul></li><li class="reg "><a class="" href="race/gp-quebec/2023/result/info">Info&#x25BC;</a><ul><li><a href="race/gp-quebec/2023/result/info/complementary-results">Complementary results</a></li>
+<li><a href="race/gp-quebec/2023/result/info/photos">Finish photo</a></li>
+<li><a href="race/gp-quebec/2023/result/info/profiles">Profiles</a></li>
+<li><a href="race/gp-quebec/2023/result/info/time-table">Time table</a></li>
 </ul></li>
+<li class="reg "><a class="" href="race/gp-quebec/2023/result/live">Live</a></li>
 <li class="reg "><a class="" href="race/gp-quebec/2023/result/game">Game</a></li>
-<li class="reg "><a class="" href="race/gp-quebec/2023/result/statistics">Statistics&#x25BC;</a><ul><li><a href="race/gp-quebec/2023/result/statistics/photos">Finish photo</a></li>
-<li><a href="race/gp-quebec/2023/result/statistics/complementary-results">Complementary results</a></li>
-</ul></li>
-<li class="reg "><a class="" href="race/gp-quebec/2023/result/route">Route&#x25BC;</a><ul><li><a href="race/gp-quebec/2023/result/route/profiles">Profiles</a></li>
-<li><a href="race/gp-quebec/2023/result/route/time-table">Time table</a></li>
-</ul></li>
+<li class="reg "><a class="" href="race/gp-quebec/2023/result/statistics">Stats</a></li>
 <li class="reg "><a class="" href="race/gp-quebec/2023/result/more">More&#x25BC;</a><ul><li><a href="race/gp-quebec/2023/result/more/report">Report</a></li>
 <li><a href="race/gp-quebec/2023/result/more/embed-results">Embed</a></li>
 <li><a href="race/gp-quebec/2023/result/more/contribute-info">Contribute info</a></li>
 <li><a href="race/gp-quebec/2023/result/more/contribute-sites">Contribute site(s)</a></li>
 </ul></li>
-<li class="more"><a href="race/gp-quebec/2023/result">More</a><ul><li data-n="0"><a href="race/gp-quebec/2023/result/result/result">Results - Results</a></li><li data-n="1"><a href="race/gp-quebec/2023/result/live/live">Live - Live</a></li><li data-n="1"><a href="race/gp-quebec/2023/result/live/livestats">LiveStats</a></li>
-<li data-n="1"><a href="race/gp-quebec/2023/result/live/time-splits">Time splits table</a></li>
-<li data-n="2"><a href="race/gp-quebec/2023/result/game/game">Game - Game</a></li><li data-n="3"><a href="race/gp-quebec/2023/result/statistics/statistics">Statistics - Statistics</a></li><li data-n="3"><a href="race/gp-quebec/2023/result/statistics/photos">Finish photo</a></li>
-<li data-n="3"><a href="race/gp-quebec/2023/result/statistics/complementary-results">Complementary results</a></li>
-<li data-n="4"><a href="race/gp-quebec/2023/result/route/route">Route - Route</a></li><li data-n="4"><a href="race/gp-quebec/2023/result/route/profiles">Profiles</a></li>
-<li data-n="4"><a href="race/gp-quebec/2023/result/route/time-table">Time table</a></li>
-<li data-n="5"><a href="race/gp-quebec/2023/result/more/more">More - More</a></li><li data-n="5"><a href="race/gp-quebec/2023/result/more/report">Report</a></li>
+<li class="more"><a href="race/gp-quebec/2023/result">More</a><ul><li data-n="1"><a href="race/gp-quebec/2023/result/result/result">Results - Results</a></li><li data-n="2"><a href="race/gp-quebec/2023/result/info/info">Info - Info</a></li><li data-n="1"><a href="race/gp-quebec/2023/result/info/complementary-results">Complementary results</a></li>
+<li data-n="1"><a href="race/gp-quebec/2023/result/info/photos">Finish photo</a></li>
+<li data-n="1"><a href="race/gp-quebec/2023/result/info/profiles">Profiles</a></li>
+<li data-n="1"><a href="race/gp-quebec/2023/result/info/time-table">Time table</a></li>
+<li data-n="3"><a href="race/gp-quebec/2023/result/live/live">Live - Live</a></li><li data-n="4"><a href="race/gp-quebec/2023/result/game/game">Game - Game</a></li><li data-n="5"><a href="race/gp-quebec/2023/result/statistics/statistics">Stats - Stats</a></li><li data-n="6"><a href="race/gp-quebec/2023/result/more/more">More - More</a></li><li data-n="5"><a href="race/gp-quebec/2023/result/more/report">Report</a></li>
 <li data-n="5"><a href="race/gp-quebec/2023/result/more/embed-results">Embed</a></li>
 <li data-n="5"><a href="race/gp-quebec/2023/result/more/contribute-info">Contribute info</a></li>
 <li data-n="5"><a href="race/gp-quebec/2023/result/more/contribute-sites">Contribute site(s)</a></li>
 </ul></li></ul><div class="clear"></div></div><ul class="thumbnails" ><li><a href="race/gp-quebec">Grand Prix Cycliste de Québec</a></li><li>&nbsp; &raquo; &nbsp;</li><li><a href="race/gp-quebec/2023">2023</a></li><li>&nbsp; &raquo; &nbsp;</li><li><a href="race/gp-quebec/2023/result">One day race</a></li><li>&nbsp; &raquo; &nbsp;</li><li><a href="race/gp-quebec/2023/result/result">Results</a></li></ul><div class="page-title " ><div class="main"><span class="flag ca w32"></span><span class="flag ca w24"></span><span class="hideIfMobile">2023</span><span class="hideIfMobile">&raquo;</span><font class="hideIfMobile">12th</font><h1 class="">Grand Prix Cycliste de Québec</h1><font class="hideIfMobile">(1.UWT)</font></div><div class="sub"><span class="showIfMobile">2023</span><span class="showIfMobile">&raquo;</span><span class="blue">One day race</span><span class="hideIfMobile">&raquo;</span><span class="red">Québec</span><span class="red">&rsaquo;</span><span class="red">Québec</span><span class="red fw400">(201.6km)</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord race"></div><div class="mob-ad leaderbord race"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100 "   >
-<div class="w68 left mb_w100"><div class="result-filter-cont"><label for="age"><input type="checkbox" class="toggleAge" value="1" id="age">Age</label><label for="h2h"><input type="checkbox" class="toggleH2H cbFalseOnLoad" value="1" id="h2h" >H2H</label><a class="clearFilter blue hide" style="padding: 0px 7px; " href="">clear filter</a><select class="TNFilter" data-type="team"><option value="0" selected >all teams</option><option value="1060"  >AG2R Citroën Team</option><option value="1100"  >Alpecin-Deceuninck</option><option value="1375"  >Astana Qazaqstan Team</option><option value="3814"  >Bahrain - Victorious</option><option value="1411"  >BORA - hansgrohe</option><option value="1136"  >Cofidis</option><option value="4000"  >EF Education-EasyPost</option><option value="1187"  >Groupama - FDJ</option><option value="1423"  >INEOS Grenadiers</option><option value="1490"  >Intermarché - Circus - Wanty</option><option value="2738"  >Israel - Premier Tech</option><option value="1330"  >Jumbo-Visma</option><option value="1258"  >Lidl - Trek</option><option value="2088"  >Lotto Dstny</option><option value="2040"  >Movistar Team</option><option value="1328"  >Soudal - Quick Step</option><option value="1107"  >Team Arkéa Samsic</option><option value="1360"  >Team DSM</option><option value="1207"  >Team Jayco AlUla</option><option value="1253"  >UAE Team Emirates</option></select><select class="TNFilter" data-type="nation"><option value="0" selected >all nations</option><option value="be"  >Belgium</option><option value="it"  >Italy</option><option value="ch"  >Switzerland</option></select></div><div class="hide timeWonLostComment" style="text-align: right; color: #555; font-size: 10px; ">The time won/lost column displays the gains in time in the GC. Click on the time of any rider to view the relative gains on this rider.</div><div class="h2h hide " style="font-size: 11px; color: #555;   ">Select two riders to compare. </div><div class="result-cont " data-id="279365">
-<div class="subTabs" data-subtab="1"><table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th>Pnt</th><th class="time ar" >Time</th></tr></thead><tbody>
+<div class="w68 left mb_w100"><div class="result-filter-cont"><label for="age"><input type="checkbox" class="toggleAge" value="1" id="age">Age</label><label for="h2h"><input type="checkbox" class="toggleH2H cbFalseOnLoad" value="1" id="h2h" >H2H</label><span class="hideIfMobile"><label for="specialty"><input type="checkbox" class="toggleSpecialty " value="1" id="specialty">Specialty</label></span><a class="clearFilter blue hide" style="padding: 0px 7px; " href="">clear filter</a><select class="TNFilter" data-type="team"><option value="0" selected >all teams</option><option value="1060"  >AG2R Citroën Team</option><option value="1100"  >Alpecin-Deceuninck</option><option value="1375"  >Astana Qazaqstan Team</option><option value="3814"  >Bahrain - Victorious</option><option value="1411"  >BORA - hansgrohe</option><option value="1136"  >Cofidis</option><option value="4000"  >EF Education-EasyPost</option><option value="1187"  >Groupama - FDJ</option><option value="1423"  >INEOS Grenadiers</option><option value="1490"  >Intermarché - Circus - Wanty</option><option value="2738"  >Israel - Premier Tech</option><option value="1330"  >Jumbo-Visma</option><option value="1258"  >Lidl - Trek</option><option value="2088"  >Lotto Dstny</option><option value="2040"  >Movistar Team</option><option value="1328"  >Soudal - Quick Step</option><option value="1107"  >Team Arkéa Samsic</option><option value="1360"  >Team dsm - firmenich</option><option value="1207"  >Team Jayco AlUla</option><option value="1253"  >UAE Team Emirates</option></select><select class="TNFilter" data-type="nation"><option value="0" selected >all nations</option><option value="be"  >Belgium</option><option value="cz"  >Czech Republic</option><option value="ie"  >Ireland</option><option value="it"  >Italy</option><option value="ch"  >Switzerland</option></select></div><div class="hide timeWonLostComment" style="text-align: right; color: #555; font-size: 10px; ">The time won/lost column displays the gains in time in the GC. Click on the time of any rider to view the relative gains on this rider.</div><div class="h2h hide " style="font-size: 11px; color: #555;   ">Select two riders to compare. </div><div class="result-cont " data-id="279365">
+<div class="subTabs" data-subtab="1"><table class="results basic moblist10"><thead><tr><th>Rnk</th><th class="bibs hide" >BIB</th><th class="h2h hide" >H2H</th><th class="specialty hide" >Specialty</th><th>Rider</th><th class="age hide" >Age</th><th class="cu600" >Team</th><th>UCI</th><th>Pnt</th><th class="time ar" >Time</th></tr></thead><tbody>
 </tbody></table>
-<div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result. <svg viewBox="0 0 24 24" style="width: 14px; margin: 0 0 -4px 3px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#dec650" d="M21 3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-2.001L19 20a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1l-.001-8.001L3 12a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h6a3 3 0 0 0 6 0h6z"/></g></svg> Rider wearing the jersey<span   style=" margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>>50% of race distance in group before peloton</span><div class="clear"></div>  </div><div class="more-results-cont"></div></div><div class="subTabs hide" data-subtab="2"></div></div></div><div class="w30 right mb_w100"><div class=""></div>
+<div style="color: #bbb; font-size: 10px; text-align: right; ">DNF=Did not finish / DNS=Did not start / OTL = Outside time limit / DF=Did finish, no result / NR=No result<svg viewBox="0 0 24 24" style="width: 14px; margin: 0 0 -4px 3px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#dec650" d="M21 3a1 1 0 0 1 1 1v7a1 1 0 0 1-1 1h-2.001L19 20a1 1 0 0 1-1 1H6a1 1 0 0 1-1-1l-.001-8.001L3 12a1 1 0 0 1-1-1V4a1 1 0 0 1 1-1h6a3 3 0 0 0 6 0h6z"/></g></svg> Rider wearing the jersey<span   style=" margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>>50% of race distance in group before peloton</span><div class="clear"></div>  </div><div class="more-results-cont"></div></div><div class="subTabs hide" data-subtab="2"></div></div></div><div class="w30 right mb_w100"><div class=""></div>
 <div class=""><h3>Race information</h3><div class=""></div></div>
 <img class="left maxw100 mg_rp10" src="images/logo/bn/bw/gp-quebec.jpg" /><div class=""><ul class="infolist" style=""><li><div>Date:</div> <div>08 September 2023</div></li>
 <li><div>Start time:</div> <div>-</div></li>
@@ -160,7 +164,7 @@
 <li><div>Departure:</div> <div><a    href="location/quebec">Québec</a></div></li>
 <li><div>Arrival:</div> <div><a    href="location/quebec">Québec</a></div></li>
 <li><div>Race ranking:</div> <div><a    href="race/gp-quebec/2023/result/overview/race-ranking">0</a></div></li>
-<li><div>Startlist quality score:</div> <div><a    href="race/gp-quebec/2023/result/startlist/lineup-quality">35</a></div></li>
+<li><div>Startlist quality score:</div> <div><a    href="race/gp-quebec/2023/result/startlist/lineup-quality">87</a></div></li>
 <li><div>Won how: </div> <div><a    href="race/gp-quebec/2023/result/more/contribute-info">? - let us know!</a></div></li>
 <li><div>Avg. temperature:</div> <div><a    href="race/gp-quebec/2023/result/stages/hottest-stages"></a></div></li>
 </ul></div>
@@ -246,7 +250,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0647s</span></li>
+<li><span>Pageload 0.0451s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1190" /><input type="hidden" id="userid" value="0" />
 	</div>

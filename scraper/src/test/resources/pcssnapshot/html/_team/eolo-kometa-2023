@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="team.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
 	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -137,22 +145,23 @@
 <li><a href="team/eolo-kometa-2023/more/submit-program">Contribute program</a></li>
 <li><a href="team/eolo-kometa-2023/more/gear">Gear</a></li>
 </ul></li>
-<li class="more"><a href="team/eolo-kometa-2023">More</a><ul><li data-n="0"><a href="team/eolo-kometa-2023/overview/overview">Start - Start</a></li><li data-n="1"><a href="team/eolo-kometa-2023/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="team/eolo-kometa-2023/statistics/overview">Overview</a></li>
+<li class="more"><a href="team/eolo-kometa-2023">More</a><ul><li data-n="1"><a href="team/eolo-kometa-2023/overview/overview">Start - Start</a></li><li data-n="2"><a href="team/eolo-kometa-2023/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="team/eolo-kometa-2023/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="team/eolo-kometa-2023/statistics/most-successful-rider">Most successful rider</a></li>
-<li data-n="2"><a href="team/eolo-kometa-2023/season/season">Season - Season</a></li><li data-n="2"><a href="team/eolo-kometa-2023/season/overview">Overview</a></li>
+<li data-n="3"><a href="team/eolo-kometa-2023/season/season">Season - Season</a></li><li data-n="2"><a href="team/eolo-kometa-2023/season/overview">Overview</a></li>
 <li data-n="2"><a href="team/eolo-kometa-2023/season/analysis">Analysis</a></li>
 <li data-n="2"><a href="team/eolo-kometa-2023/season/points-per-rider">Points per rider</a></li>
 <li data-n="2"><a href="team/eolo-kometa-2023/season/most-racedays">Most racedays</a></li>
 <li data-n="2"><a href="team/eolo-kometa-2023/season/races-per-nation">Races per nation</a></li>
 <li data-n="2"><a href="team/eolo-kometa-2023/season/riders-per-country">Riders per country</a></li>
-<li data-n="3"><a href="team/eolo-kometa-2023/wins/wins">Wins - Wins</a></li><li data-n="3"><a href="team/eolo-kometa-2023/wins/victories">Victories</a></li>
+<li data-n="4"><a href="team/eolo-kometa-2023/wins/wins">Wins - Wins</a></li><li data-n="3"><a href="team/eolo-kometa-2023/wins/victories">Victories</a></li>
 <li data-n="3"><a href="team/eolo-kometa-2023/wins/wins-per-season">Wins per season</a></li>
-<li data-n="4"><a href="team/eolo-kometa-2023/results/results">Results - Results</a></li><li data-n="5"><a href="team/eolo-kometa-2023/transfers/transfers">Transfers - Transfers</a></li><li data-n="6"><a href="team/eolo-kometa-2023/program/program">Program - Program</a></li><li data-n="7"><a href="team/eolo-kometa-2023/more/more">More - More</a></li><li data-n="7"><a href="team/eolo-kometa-2023/more/report">Report</a></li>
+<li data-n="5"><a href="team/eolo-kometa-2023/results/results">Results - Results</a></li><li data-n="6"><a href="team/eolo-kometa-2023/transfers/transfers">Transfers - Transfers</a></li><li data-n="7"><a href="team/eolo-kometa-2023/program/program">Program - Program</a></li><li data-n="8"><a href="team/eolo-kometa-2023/more/more">More - More</a></li><li data-n="7"><a href="team/eolo-kometa-2023/more/report">Report</a></li>
 <li data-n="7"><a href="team/eolo-kometa-2023/more/contribute-link">Contribute socials</a></li>
 <li data-n="7"><a href="team/eolo-kometa-2023/more/submit-program">Contribute program</a></li>
 <li data-n="7"><a href="team/eolo-kometa-2023/more/gear">Gear</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag it w32"></span><span class="flag it w24"></span><h1 class="">EOLO-Kometa (PRT)</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">2023</span></div><div class="sub"><span class="red showIfMobile">2023</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord team"></div><div class="mob-ad leaderbord team"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-team"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100 "   >
-<div class="mt20"><ul class="team-kpi"><li class="title"><a href="team/eolo-kometa-2023/wins">Victories</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/eolo-kometa-2023/wins">3</a></span></li><li class="title"><a href="team/eolo-kometa-2023/season/points-per-rider">Points</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/eolo-kometa-2023/season/points-per-rider">1052</a></span></li><li class="title"><a href="rankings/me/season-teams">PCS#</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="rankings/me/season-teams">26</a></span></li><li class="title"><a href="rankings/me/uci-teams">UCI#</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="rankings/me/uci-teams">27</a></span></li><li class="title"><a href="team/eolo-kometa-2023/transfers/this-year">Transfers in</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/eolo-kometa-2023/transfers/this-year">7</a></span></li><li class="title"><a href="team/eolo-kometa-2023/transfers/this-year">Transfers out</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/eolo-kometa-2023/transfers/this-year">9</a></span></li></ul><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/ff/francesco-gavazzi-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/francesco-gavazzi"></a><span>GAVAZZI Francesco</span></li><li><a style="background: url(images/riders/bp/ab/vincenzo-albanese-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/vincenzo-albanese"></a><span>ALBANESE Vincenzo</span></li><li><a style="background: url(images/riders/bp/ec/lorenzo-fortunato-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/lorenzo-fortunato"></a><span>FORTUNATO Lorenzo</span></li><li><a style="background: url(images/riders/bp/ae/mirco-maestri-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mirco-maestri"></a><span>MAESTRI Mirco</span></li><li><a style="background: url(images/riders/bp/bc/giovanni-lonardi-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/giovanni-lonardi"></a><span>LONARDI Giovanni</span></li><li><a style="background: url(images/riders/bp/bb/mattia-bais-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mattia-bais"></a><span>BAIS Mattia</span></li><li><a style="background: url(images/riders/bp/cd/davide-bais-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/davide-bais"></a><span>BAIS Davide</span></li><li><a style="background: url(images/riders/bp/ef/andrea-garosio-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/andrea-garosio"></a><span>GAROSIO Andrea</span></li><li><a style="background: url(images/riders/bp/db/erik-fetter-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/erik-fetter"></a><span>FETTER Erik</span></li><li><a style="background: url(images/riders/bp/da/davide-piganzoli-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/davide-piganzoli"></a><span>PIGANZOLI Davide</span></li><li><a style="background: url(images/riders/bp/fb/samuele-rivi-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/samuele-rivi"></a><span>RIVI Samuele</span></li><li><a style="background: url(images/riders/bp/bc/alessandro-fancellu-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alessandro-fancellu"></a><span>FANCELLU Alessandro</span></li><li><a style="background: url(images/riders/bp/ac/diego-pablo-sevilla-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/diego-pablo-sevilla"></a><span>SEVILLA Diego Pablo</span></li><li><a style="background: url(images/riders/bp/ee/simone-bevilacqua-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/simone-bevilacqua"></a><span>BEVILACQUA Simone</span></li><li><a style="background: url(images/riders/bp/bc/alex-martin-gutierrez-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alex-martin-gutierrez"></a><span>MARTÍN Alex</span></li><li><a style="background: url(images/riders/bp/bc/simone-raccani-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/simone-raccani"></a><span>RACCANI Simone</span></li><li><a style="background: url(images/riders/bp/dc/fernando-tercero-lopez-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/fernando-tercero-lopez"></a><span>TERCERO Fernando</span></li><li><a style="background: url(images/riders/bp/da/david-martin-romero-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/david-martin-romero"></a><span>MARTIN David</span></li><li><a style="background: url(images/riders/bp/ec/javier-serrano-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/javier-serrano"></a><span>SERRANO Javier</span></li><li><a style="background: url(images/riders/bp/bc/andrea-pietrobon-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/andrea-pietrobon"></a><span>PIETROBON Andrea</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a   class="taba" href="#">career points</a></li>
+<ul class="list circle bluelink horizontal fs14"></ul>
+<div class="mt20"><ul class="team-kpi"><li class="title"><a href="team/eolo-kometa-2023/wins">Victories</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/eolo-kometa-2023/wins">3</a></span></li><li class="title"><a href="team/eolo-kometa-2023/season/points-per-rider">Points</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/eolo-kometa-2023/season/points-per-rider">1181</a></span></li><li class="title"><a href="rankings/me/season-teams">PCS#</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="rankings/me/season-teams">26</a></span></li><li class="title"><a href="rankings/me/uci-teams">UCI#</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="rankings/me/uci-teams">27</a></span></li><li class="title"><a href="team/eolo-kometa-2023/transfers/this-year">Transfers in</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/eolo-kometa-2023/transfers/this-year">7</a></span></li><li class="title"><a href="team/eolo-kometa-2023/transfers/this-year">Transfers out</a></li><li class="nr"><span class="bg"></span><span class="val"><a href="team/eolo-kometa-2023/transfers/this-year">9</a></span></li></ul><div class="w70 left mb_w100"><ul class="photos"  data-listcode="riderphotos"><li><a style="background: url(images/riders/bp/ff/francesco-gavazzi-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/francesco-gavazzi"></a><span>GAVAZZI Francesco</span></li><li><a style="background: url(images/riders/bp/ab/vincenzo-albanese-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/vincenzo-albanese"></a><span>ALBANESE Vincenzo</span></li><li><a style="background: url(images/riders/bp/ec/lorenzo-fortunato-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/lorenzo-fortunato"></a><span>FORTUNATO Lorenzo</span></li><li><a style="background: url(images/riders/bp/ae/mirco-maestri-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mirco-maestri"></a><span>MAESTRI Mirco</span></li><li><a style="background: url(images/riders/bp/bc/giovanni-lonardi-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/giovanni-lonardi"></a><span>LONARDI Giovanni</span></li><li><a style="background: url(images/riders/bp/bb/mattia-bais-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/mattia-bais"></a><span>BAIS Mattia</span></li><li><a style="background: url(images/riders/bp/cd/davide-bais-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/davide-bais"></a><span>BAIS Davide</span></li><li><a style="background: url(images/riders/bp/db/erik-fetter-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/erik-fetter"></a><span>FETTER Erik</span></li><li><a style="background: url(images/riders/bp/ef/andrea-garosio-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/andrea-garosio"></a><span>GAROSIO Andrea</span></li><li><a style="background: url(images/riders/bp/fb/samuele-rivi-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/samuele-rivi"></a><span>RIVI Samuele</span></li><li><a style="background: url(images/riders/bp/da/davide-piganzoli-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/davide-piganzoli"></a><span>PIGANZOLI Davide</span></li><li><a style="background: url(images/riders/bp/bc/alessandro-fancellu-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alessandro-fancellu"></a><span>FANCELLU Alessandro</span></li><li><a style="background: url(images/riders/bp/ac/diego-pablo-sevilla-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/diego-pablo-sevilla"></a><span>SEVILLA Diego Pablo</span></li><li><a style="background: url(images/riders/bp/bc/simone-raccani-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/simone-raccani"></a><span>RACCANI Simone</span></li><li><a style="background: url(images/riders/bp/ee/simone-bevilacqua-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/simone-bevilacqua"></a><span>BEVILACQUA Simone</span></li><li><a style="background: url(images/riders/bp/bc/alex-martin-gutierrez-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/alex-martin-gutierrez"></a><span>MARTÍN Alex</span></li><li><a style="background: url(images/riders/bp/dc/fernando-tercero-lopez-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/fernando-tercero-lopez"></a><span>TERCERO Fernando</span></li><li><a style="background: url(images/riders/bp/da/david-martin-romero-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/david-martin-romero"></a><span>MARTIN David</span></li><li><a style="background: url(images/riders/bp/ec/javier-serrano-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/javier-serrano"></a><span>SERRANO Javier</span></li><li><a style="background: url(images/riders/bp/bc/andrea-pietrobon-2023.jpeg) no-repeat -10px 0; background-size: 110px; "  href="rider/andrea-pietrobon"></a><span>PIETROBON Andrea</span></li></ul><div class="clear"></div><a class="expand-list mob-more-button" data-listcode="latest-result" href="">show more</a></div><div class="w28 right mb_w100" style="min-height: 300px; "><div class=""><ul class="sortriders list horizontal"><li class="taba" ><a   class="taba" href="#">career points</a></li>
 <li class="tabb cur" ><a   class="tabb cur" href="#">name</a></li>
 <li class="tabe" ><a   class="tabe" href="#">ranking</a></li>
 <li class="tabc" ><a   class="tabc" href="#">age</a></li>
@@ -160,46 +169,46 @@
 </ul></div>
 <div class="hide ttabs taba">
 <span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="right   "  >5923</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="right   "  >1290</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="right   "  >1151</div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="right   "  >1292</div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="right   "  >1218</div><div class="clear"></div></li>
 <li class="" ><div >4</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="right   "  >517</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="right   "  >415</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="right   "  >436</div><div class="clear"></div></li>
 <li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/mattia-bais">BAIS Mattia</a></div><div class="right   "  >323</div><div class="clear"></div></li>
 <li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="right   "  >244</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/andrea-garosio">GAROSIO Andrea</a></div><div class="right   "  >211</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="right   "  >204</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="right   "  >100</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/davide-piganzoli">PIGANZOLI Davide</a></div><div class="right   "  >100</div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="right   "  >227</div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag it"></span> <a    href="rider/andrea-garosio">GAROSIO Andrea</a></div><div class="right   "  >211</div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/davide-piganzoli">PIGANZOLI Davide</a></div><div class="right   "  >100</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="right   "  >100</div><div class="clear"></div></li>
 <li class="" ><div >12</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="right   "  >90</div><div class="clear"></div></li>
 <li class="" ><div >13</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="right   "  >72</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right   "  >66</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTÍN Alex</a></div><div class="right   "  >64</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag it"></span> <a    href="rider/simone-raccani">RACCANI Simone</a></div><div class="right   "  >58</div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/simone-raccani">RACCANI Simone</a></div><div class="right   "  >71</div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right   "  >66</div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTÍN Alex</a></div><div class="right   "  >64</div><div class="clear"></div></li>
 <li class="" ><div >17</div><div ><span class="flag es"></span> <a    href="rider/fernando-tercero-lopez">TERCERO Fernando</a></div><div class="right   "  >50</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="right   "  >18</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/javier-serrano">SERRANO Javier</a></div><div class="right   "  >14</div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="right   "  >22</div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag es"></span> <a    href="rider/javier-serrano">SERRANO Javier</a></div><div class="right   "  >21</div><div class="clear"></div></li>
 <li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/andrea-pietrobon">PIETROBON Andrea</a></div><div class="right   "  >7</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="hide ttabs tabe">
-<span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="right ar w12 fs11 clr555   "  >(455)</div><div class="right ac   "  >129</div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="right ar w12 fs11 clr555   "  >(361)</div><div class="right ac   "  >167</div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="right ar w12 fs11 clr555   "  >(175)</div><div class="right ac   "  >327</div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="right ar w12 fs11 clr555   "  >(145)</div><div class="right ac   "  >374</div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag it"></span> <a    href="rider/davide-piganzoli">PIGANZOLI Davide</a></div><div class="right ar w12 fs11 clr555   "  >(95)</div><div class="right ac   "  >508</div><div class="clear"></div></li>
-<li class="" ><div >6</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="right ar w12 fs11 clr555   "  >(91)</div><div class="right ac   "  >529</div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTÍN Alex</a></div><div class="right ar w12 fs11 clr555   "  >(58)</div><div class="right ac   "  >706</div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/mattia-bais">BAIS Mattia</a></div><div class="right ar w12 fs11 clr555   "  >(56)</div><div class="right ac   "  >720</div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="right ar w12 fs11 clr555   "  >(38)</div><div class="right ac   "  >875</div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="right ar w12 fs11 clr555   "  >(36)</div><div class="right ac   "  >891</div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="right ar w12 fs11 clr555   "  >(35)</div><div class="right ac   "  >922</div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="right ar w12 fs11 clr555   "  >(34)</div><div class="right ac   "  >935</div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag es"></span> <a    href="rider/fernando-tercero-lopez">TERCERO Fernando</a></div><div class="right ar w12 fs11 clr555   "  >(30)</div><div class="right ac   "  >1005</div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/simone-raccani">RACCANI Simone</a></div><div class="right ar w12 fs11 clr555   "  >(30)</div><div class="right ac   "  >1002</div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag it"></span> <a    href="rider/andrea-garosio">GAROSIO Andrea</a></div><div class="right ar w12 fs11 clr555   "  >(21)</div><div class="right ac   "  >1172</div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="right ar w12 fs11 clr555   "  >(15)</div><div class="right ac   "  >1333</div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="right ar w12 fs11 clr555   "  >(14)</div><div class="right ac   "  >1399</div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag es"></span> <a    href="rider/javier-serrano">SERRANO Javier</a></div><div class="right ar w12 fs11 clr555   "  >(14)</div><div class="right ac   "  >1401</div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right ar w12 fs11 clr555   "  >(5)</div><div class="right ac   "  >1888</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="right ar w12 fs11 clr555   "  >(406)</div><div class="right ac   "  >150</div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="right ar w12 fs11 clr555   "  >(359)</div><div class="right ac   "  >168</div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="right ar w12 fs11 clr555   "  >(175)</div><div class="right ac   "  >328</div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="right ar w12 fs11 clr555   "  >(145)</div><div class="right ac   "  >383</div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="right ar w12 fs11 clr555   "  >(99)</div><div class="right ac   "  >507</div><div class="clear"></div></li>
+<li class="" ><div >6</div><div ><span class="flag it"></span> <a    href="rider/davide-piganzoli">PIGANZOLI Davide</a></div><div class="right ar w12 fs11 clr555   "  >(94)</div><div class="right ac   "  >524</div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTÍN Alex</a></div><div class="right ar w12 fs11 clr555   "  >(57)</div><div class="right ac   "  >710</div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/mattia-bais">BAIS Mattia</a></div><div class="right ar w12 fs11 clr555   "  >(56)</div><div class="right ac   "  >715</div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="right ar w12 fs11 clr555   "  >(36)</div><div class="right ac   "  >904</div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="right ar w12 fs11 clr555   "  >(35)</div><div class="right ac   "  >927</div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="right ar w12 fs11 clr555   "  >(34)</div><div class="right ac   "  >938</div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag it"></span> <a    href="rider/simone-raccani">RACCANI Simone</a></div><div class="right ar w12 fs11 clr555   "  >(28)</div><div class="right ac   "  >1029</div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag es"></span> <a    href="rider/fernando-tercero-lopez">TERCERO Fernando</a></div><div class="right ar w12 fs11 clr555   "  >(27)</div><div class="right ac   "  >1048</div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="right ar w12 fs11 clr555   "  >(25)</div><div class="right ac   "  >1090</div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag es"></span> <a    href="rider/javier-serrano">SERRANO Javier</a></div><div class="right ar w12 fs11 clr555   "  >(21)</div><div class="right ac   "  >1188</div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="right ar w12 fs11 clr555   "  >(18)</div><div class="right ac   "  >1263</div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="right ar w12 fs11 clr555   "  >(15)</div><div class="right ac   "  >1339</div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag it"></span> <a    href="rider/andrea-garosio">GAROSIO Andrea</a></div><div class="right ar w12 fs11 clr555   "  >(12)</div><div class="right ac   "  >1452</div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="right ar w12 fs11 clr555   "  >(5)</div><div class="right ac   "  >1891</div><div class="clear"></div></li>
 <li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/andrea-pietrobon">PIETROBON Andrea</a></div><div class="right ar w12 fs11 clr555   "  >(0)</div><div class="right ac   "  >-</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="ttabs tabb">
@@ -225,7 +234,7 @@
 <li class="" ><div >20</div><div ><span class="flag es"></span> <a    href="rider/fernando-tercero-lopez">TERCERO Fernando</a></div><div class="fs11 clr999   "  ></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="hide ttabs tabc">
-<span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/davide-piganzoli">PIGANZOLI Davide</a></div><div class="right   "  >20</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag it"></span> <a    href="rider/davide-piganzoli">PIGANZOLI Davide</a></div><div class="right   "  >21</div><div class="clear"></div></li>
 <li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/fernando-tercero-lopez">TERCERO Fernando</a></div><div class="right   "  >21</div><div class="clear"></div></li>
 <li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/javier-serrano">SERRANO Javier</a></div><div class="right   "  >22</div><div class="clear"></div></li>
 <li class="" ><div >4</div><div ><span class="flag it"></span> <a    href="rider/simone-raccani">RACCANI Simone</a></div><div class="right   "  >22</div><div class="clear"></div></li>
@@ -247,26 +256,26 @@
 <li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="right   "  >38</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="hide ttabs tabd">
-<span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag es"></span> <a    href="rider/javier-serrano">SERRANO Javier</a></div><div class="clear"></div></li>
-<li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTÍN Alex</a></div><div class="clear"></div></li>
-<li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/fernando-tercero-lopez">TERCERO Fernando</a></div><div class="clear"></div></li>
-<li class="" ><div >4</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="clear"></div></li>
-<li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list pad2"  style=" "><li class="" ><div >1</div><div ><span class="flag es"></span> <a    href="rider/diego-pablo-sevilla">SEVILLA Diego Pablo</a></div><div class="clear"></div></li>
+<li class="" ><div >2</div><div ><span class="flag es"></span> <a    href="rider/david-martin-romero">MARTIN David</a></div><div class="clear"></div></li>
+<li class="" ><div >3</div><div ><span class="flag es"></span> <a    href="rider/javier-serrano">SERRANO Javier</a></div><div class="clear"></div></li>
+<li class="" ><div >4</div><div ><span class="flag es"></span> <a    href="rider/alex-martin-gutierrez">MARTÍN Alex</a></div><div class="clear"></div></li>
+<li class="" ><div >5</div><div ><span class="flag es"></span> <a    href="rider/fernando-tercero-lopez">TERCERO Fernando</a></div><div class="clear"></div></li>
 <li class="" ><div >6</div><div ><span class="flag hu"></span> <a    href="rider/erik-fetter">FETTER Erik</a></div><div class="clear"></div></li>
-<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="clear"></div></li>
-<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="clear"></div></li>
-<li class="" ><div >9</div><div ><span class="flag it"></span> <a    href="rider/mattia-bais">BAIS Mattia</a></div><div class="clear"></div></li>
-<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="clear"></div></li>
-<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="clear"></div></li>
-<li class="" ><div >12</div><div ><span class="flag it"></span> <a    href="rider/andrea-pietrobon">PIETROBON Andrea</a></div><div class="clear"></div></li>
-<li class="" ><div >13</div><div ><span class="flag it"></span> <a    href="rider/davide-piganzoli">PIGANZOLI Davide</a></div><div class="clear"></div></li>
-<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="clear"></div></li>
-<li class="" ><div >15</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="clear"></div></li>
-<li class="" ><div >16</div><div ><span class="flag it"></span> <a    href="rider/andrea-garosio">GAROSIO Andrea</a></div><div class="clear"></div></li>
-<li class="" ><div >17</div><div ><span class="flag it"></span> <a    href="rider/simone-raccani">RACCANI Simone</a></div><div class="clear"></div></li>
-<li class="" ><div >18</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="clear"></div></li>
-<li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="clear"></div></li>
-<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="clear"></div></li>
+<li class="" ><div >7</div><div ><span class="flag it"></span> <a    href="rider/andrea-pietrobon">PIETROBON Andrea</a></div><div class="clear"></div></li>
+<li class="" ><div >8</div><div ><span class="flag it"></span> <a    href="rider/davide-piganzoli">PIGANZOLI Davide</a></div><div class="clear"></div></li>
+<li class="" ><div >9</div><div ><span class="flag it"></span> <a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></div><div class="clear"></div></li>
+<li class="" ><div >10</div><div ><span class="flag it"></span> <a    href="rider/alessandro-fancellu">FANCELLU Alessandro</a></div><div class="clear"></div></li>
+<li class="" ><div >11</div><div ><span class="flag it"></span> <a    href="rider/andrea-garosio">GAROSIO Andrea</a></div><div class="clear"></div></li>
+<li class="" ><div >12</div><div ><span class="flag it"></span> <a    href="rider/simone-raccani">RACCANI Simone</a></div><div class="clear"></div></li>
+<li class="" ><div >13</div><div ><span class="flag it"></span> <a    href="rider/simone-bevilacqua">BEVILACQUA Simone</a></div><div class="clear"></div></li>
+<li class="" ><div >14</div><div ><span class="flag it"></span> <a    href="rider/francesco-gavazzi">GAVAZZI Francesco</a></div><div class="clear"></div></li>
+<li class="" ><div >15</div><div ><span class="flag it"></span> <a    href="rider/mirco-maestri">MAESTRI Mirco</a></div><div class="clear"></div></li>
+<li class="" ><div >16</div><div ><span class="flag it"></span> <a    href="rider/davide-bais">BAIS Davide</a></div><div class="clear"></div></li>
+<li class="" ><div >17</div><div ><span class="flag it"></span> <a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></div><div class="clear"></div></li>
+<li class="" ><div >18</div><div ><span class="flag it"></span> <a    href="rider/mattia-bais">BAIS Mattia</a></div><div class="clear"></div></li>
+<li class="" ><div >19</div><div ><span class="flag it"></span> <a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div><div class="clear"></div></li>
+<li class="" ><div >20</div><div ><span class="flag it"></span> <a    href="rider/samuele-rivi">RIVI Samuele</a></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="fs10 clr999"><div class="">In historical seasons, age is taken at July 1.</div></div>
 <div class="mt20"><h3>Quick links</h3><ul class="list fs14"><li class="blue" ><a   class="blue" href="compare_teams.php?id=46950">Compare to other teams </a></li>
@@ -278,7 +287,7 @@
 <div class="mt20"><h3>Info</h3><ul class="infolist" style=""><li><div>Team status:</div> <div>PRT</div></li>
 <li><div>Abbreviation: </div> <div>EOK</div></li>
 <li><div>Bike:</div> <div><a    href="brand/"></a></div></li>
-<li><div>Shirt:</div> <div><img src="images/shirts/bx/eb/eolo-kometa-2023.png" style="max-height: 250px; max-width: 100%;  " /></div></li>
+<li><div>Jersey:</div> <div><img src="images/shirts/bx/eb/eolo-kometa-2023.png" style="max-height: 250px; max-width: 100%;  " /></div></li>
 </ul></div>
 <div class=""><ul class="list horizontal sites"><li><span class="icon website left"></span><a  target="_blank"   class="" href="https://eolokometacyclingteam.com/">site</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/eolokometa/">facebook</a></li>
@@ -311,6 +320,8 @@
 <tr ><td>Saddle</td><td><a    href="brand/prologo">Prologo</a></td></tr>
 <tr ><td>Tyres</td><td><a    href="brand/vittoria">Vittoria</a></td></tr>
 <tr ><td>Pedals</td><td><a    href="brand/look">LOOK</a></td></tr>
+<tr ><td>Sunglasses</td><td><a    href="brand/koo">Koo</a></td></tr>
+<tr ><td>Helmets</td><td><a    href="brand/kask">Kask</a></td></tr>
 <tr ><td>Shoes</td><td><a    href="brand/sidi">Sidi</a></td></tr>
 <tr ><td>Kit</td><td><a    href="brand/gobik">GOBIK</a></td></tr>
 </tbody></table></span></div>
@@ -318,19 +329,14 @@
 </ul></div>
 </div><div class="w70 left mb_w100"><div class="mt10 mob-ad team-between-stats "></div><div class="mt20"><h3>Upcoming races for team</h3>
 <span class="table-cont"><table class="basic"  style=""><thead><tr><th class="cu600  "  style="width: 13%; ">Date</th><th class="cs600 hide  "  style="width: 17.4%; ">Date</th><th style="width: 34.8%; ">Race</th><th class="cu600 fs10 clr555  "  style="width: 34.8%; ">Riders</th></tr></thead><tbody>
-<tr ><td class="cu600  " >07/06 - 11/06</td><td class="cs600 hide  " >07/06 - 11/06</td><td><span class="flag nl"></span> <a    href="race/zlm-tour/2023">ZLM Tour</a></td><td class="cu600 fs10 clr555  " >Bais, Bevilacqua, Lonardi, Martin, Pietrobon, Rivi, Serrano</td></tr>
-<tr ><td class="cu600  " >14/06 - 18/06</td><td class="cs600 hide  " >14/06 - 18/06</td><td><span class="flag si"></span> <a    href="race/tour-of-slovenia/2023">Tour of Slovenia</a></td><td class="cu600 fs10 clr555  " >Bais, Fancellu, Fortunato, Garosio, Martín, Piganzoli, Tercero</td></tr>
-<tr ><td class="cu600  " >14/06 - 18/06</td><td class="cs600 hide  " >14/06 - 18/06</td><td><span class="flag be"></span> <a    href="race/tour-of-belgium/2023">Baloise Belgium Tour</a></td><td class="cu600 fs10 clr555  " >Albanese, Fetter, Lonardi, Maestri, Martín, Pietrobon, Serrano</td></tr>
-<tr ><td class="cu600  " >02/07 - 06/07</td><td class="cs600 hide  " >02/07 - 06/07</td><td><span class="flag at"></span> <a    href="race/tour-of-austria/2023">Int. Österreich-Rundfahrt - Tour of Austria</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 <tr ><td class="cu600  " >25/07</td><td class="cs600 hide  " >25/07</td><td><span class="flag es"></span> <a    href="race/prueba-villafranca/2023">Prueba Villafranca - Ordiziako Klasika</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >26/07 - 27/07</td><td class="cs600 hide  " >26/07 - 27/07</td><td><span class="flag es"></span> <a    href="race/vuelta-a-castilla-y-leon/2023">Vuelta a Castilla y Leon</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >27/07 - 30/07</td><td class="cs600 hide  " >27/07 - 30/07</td><td><span class="flag cz"></span> <a    href="race/czech-tour/2023">Czech Tour</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >30/07</td><td class="cs600 hide  " >30/07</td><td><span class="flag es"></span> <a    href="race/circuito-de-getxo/2023">Circuito de Getxo - Memorial Hermanos Otxoa</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >09/08 - 20/08</td><td class="cs600 hide  " >09/08 - 20/08</td><td><span class="flag pt"></span> <a    href="race/volta-a-portugal/2023">Volta a Portugal em Bicicleta</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >15/08 - 19/08</td><td class="cs600 hide  " >15/08 - 19/08</td><td><span class="flag es"></span> <a    href="race/vuelta-a-burgos/2023">Vuelta a Burgos</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >26/07 - 27/07</td><td class="cs600 hide  " >26/07 - 27/07</td><td><span class="flag es"></span> <a    href="race/vuelta-a-castilla-y-leon/2023">Vuelta a Castilla y Leon</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >27/07 - 30/07</td><td class="cs600 hide  " >27/07 - 30/07</td><td><span class="flag cz"></span> <a    href="race/czech-tour/2023">Czech Tour</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >30/07</td><td class="cs600 hide  " >30/07</td><td><span class="flag es"></span> <a    href="race/circuito-de-getxo/2023">Circuito de Getxo - Memorial Hermanos Otxoa</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr ><td class="cu600  " >15/08 - 19/08</td><td class="cs600 hide  " >15/08 - 19/08</td><td><span class="flag es"></span> <a    href="race/vuelta-a-burgos/2023">Vuelta a Burgos</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 <tr class=" hide"  ><td class="cu600  " >15/08 - 18/08</td><td class="cs600 hide  " >15/08 - 18/08</td><td><span class="flag fr"></span> <a    href="race/tour-du-limousin/2023">Tour du Limousin-Périgord - Nouvelle Aquitaine</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 <tr class=" hide"  ><td class="cu600  " >22/08 - 25/08</td><td class="cs600 hide  " >22/08 - 25/08</td><td><span class="flag fr"></span> <a    href="race/tour-du-poitou-charentes-et-de-la-vienne/2023">Tour Poitou - Charentes en Nouvelle Aquitaine</a></td><td class="cu600 fs10 clr555  " ></td></tr>
-<tr class=" hide"  ><td class="cu600  " >05/09 - 10/09</td><td class="cs600 hide  " >05/09 - 10/09</td><td><span class="flag ro"></span> <a    href="race/romanian-cycling-tour/2023">Turul Romaniei</a></td><td class="cu600 fs10 clr555  " ></td></tr>
+<tr class=" hide"  ><td class="cu600  " >04/09 - 10/09</td><td class="cs600 hide  " >04/09 - 10/09</td><td><span class="flag ro"></span> <a    href="race/romanian-cycling-tour/2023">Turul Romaniei</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 <tr class=" hide"  ><td class="cu600  " >13/09</td><td class="cs600 hide  " >13/09</td><td><span class="flag it"></span> <a    href="race/giro-di-toscana/2023">Giro della Toscana - Memorial Alfredo Martini</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 <tr class=" hide"  ><td class="cu600  " >13/09 - 17/09</td><td class="cs600 hide  " >13/09 - 17/09</td><td><span class="flag sk"></span> <a    href="race/okolo-slovenska/2023">Okolo Slovenska / Tour de Slovaquie</a></td><td class="cu600 fs10 clr555  " ></td></tr>
 <tr class=" hide"  ><td class="cu600  " >14/09</td><td class="cs600 hide  " >14/09</td><td><span class="flag it"></span> <a    href="race/gp-citta-di-peccioli/2023">Gran Premio città di Peccioli - Coppa Sabatini</a></td><td class="cu600 fs10 clr555  " ></td></tr>
@@ -358,22 +364,22 @@
 <tr ><td>1</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2023/stage-7">Giro d'Italia | Stage 7</a></td><td>2.UWT</td><td><a    href="rider/davide-bais">BAIS Davide</a></td><td>80</td></tr>
 <tr ><td>5</td><td><span class="flag it"></span> <a    href="race/tour-of-the-alps/2023/gc">Tour of the Alps</a></td><td>2.Pro</td><td><a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></td><td>70</td></tr>
 <tr ><td>21</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2023/gc">Giro d'Italia</a></td><td>2.UWT</td><td><a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></td><td>65</td></tr>
+<tr ><td>6</td><td><span class="flag si"></span> <a    href="race/tour-of-slovenia/2023/gc">Tour of Slovenia</a></td><td>2.Pro</td><td><a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></td><td>60</td></tr>
 <tr ><td>3</td><td><span class="flag it"></span> <a    href="race/giro-di-sicilia/2023/gc">Giro di Sicilia</a></td><td>2.1</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>50</td></tr>
 <tr ><td>9</td><td><span class="flag hu"></span> <a    href="race/tour-de-hongrie/2023/gc">Tour de Hongrie</a></td><td>2.Pro</td><td><a    href="rider/davide-piganzoli">PIGANZOLI Davide</a></td><td>45</td></tr>
 <tr ><td>3</td><td><span class="flag it"></span> <a    href="race/giro-di-reggio-calabria/2023/result">Giro della Città Metropolitana di Reggio Calabria</a></td><td>1.1</td><td><a    href="rider/mirco-maestri">MAESTRI Mirco</a></td><td>40</td></tr>
 <tr ><td>12</td><td><span class="flag hu"></span> <a    href="race/tour-de-hongrie/2023/gc">Tour de Hongrie</a></td><td>2.Pro</td><td><a    href="rider/alex-martin-gutierrez">MARTÍN Alex</a></td><td>32</td></tr>
 <tr ><td>4</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2023/stage-4">Giro d'Italia | Stage 4</a></td><td>2.UWT</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>25</td></tr>
-<tr ><td>4</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2023/stage-3">Giro d'Italia | Stage 3</a></td><td>2.UWT</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>25</td></tr>
-<tr class=" hide"  ><td>15</td><td><span class="flag nl"></span> <a    href="race/zlm-tour/2023/gc">ZLM Tour</a></td><td>2.Pro</td><td><a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></td><td>20</td></tr>
+<tr class=" hide"  ><td>4</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2023/stage-3">Giro d'Italia | Stage 3</a></td><td>2.UWT</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>25</td></tr>
 <tr class=" hide"  ><td>1</td><td><span class="flag es"></span> <a    href="race/vuelta-asturias/2023/stage-2">Vuelta Asturias Julio Alvarez Mendo | Stage 2</a></td><td>2.1</td><td><a    href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></td><td>20</td></tr>
+<tr class=" hide"  ><td>15</td><td><span class="flag nl"></span> <a    href="race/zlm-tour/2023/gc">ZLM Tour</a></td><td>2.Pro</td><td><a    href="rider/giovanni-lonardi">LONARDI Giovanni</a></td><td>20</td></tr>
 <tr class=" hide"  ><td>9</td><td><span class="flag it"></span> <a    href="race/per-sempre-alfredo/2023/result">Per Sempre Alfredo</a></td><td>1.1</td><td><a    href="rider/alex-martin-gutierrez">MARTÍN Alex</a></td><td>16</td></tr>
 <tr class=" hide"  ><td>13</td><td><span class="flag it"></span> <a    href="race/milano-torino/2023/result">Milano - Torino</a></td><td>1.Pro</td><td><a    href="rider/mirco-maestri">MAESTRI Mirco</a></td><td>16</td></tr>
 <tr class=" hide"  ><td>6</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2023/stage-11">Giro d'Italia | Stage 11</a></td><td>2.UWT</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>15</td></tr>
-<tr class=" hide"  ><td>6</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2023/stage-5">Giro d'Italia | Stage 5</a></td><td>2.UWT</td><td><a    href="rider/mirco-maestri">MAESTRI Mirco</a></td><td>15</td></tr>
 <tr class=" hide"  ><td>6</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2023/stage-8">Giro d'Italia | Stage 8</a></td><td>2.UWT</td><td><a    href="rider/mattia-bais">BAIS Mattia</a></td><td>15</td></tr>
+<tr class=" hide"  ><td>6</td><td><span class="flag it"></span> <a    href="race/giro-d-italia/2023/stage-5">Giro d'Italia | Stage 5</a></td><td>2.UWT</td><td><a    href="rider/mirco-maestri">MAESTRI Mirco</a></td><td>15</td></tr>
 <tr class=" hide"  ><td>14</td><td><span class="flag it"></span> <a    href="race/milano-torino/2023/result">Milano - Torino</a></td><td>1.Pro</td><td><a    href="rider/javier-serrano">SERRANO Javier</a></td><td>14</td></tr>
-<tr class=" hide"  ><td>10</td><td><span class="flag es"></span> <a    href="race/vuelta-asturias/2023/gc">Vuelta Asturias Julio Alvarez Mendo</a></td><td>2.1</td><td><a    href="rider/fernando-tercero-lopez">TERCERO Fernando</a></td><td>14</td></tr>
-<tr class=" hide"  ><td>2</td><td><span class="flag es"></span> <a    href="race/vuelta-asturias/2023/stage-3">Vuelta Asturias Julio Alvarez Mendo | Stage 3</a></td><td>2.1</td><td><a    href="rider/vincenzo-albanese">ALBANESE Vincenzo</a></td><td>12</td></tr>
+<tr class=" hide"  ><td>17</td><td><span class="flag be"></span> <a    href="race/tour-of-belgium/2023/gc">Baloise Belgium Tour</a></td><td>2.Pro</td><td><a    href="rider/erik-fetter">FETTER Erik</a></td><td>14</td></tr>
 </tbody></table><a class="showFullList showmorelink" href="">show more</a></span></div>
 </div>  <script>
   $(document).ready(function(){
@@ -459,7 +465,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.2368s</span></li>
+<li><span>Pageload 0.4377s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="2101" /><input type="hidden" id="userid" value="0" />
 	</div>

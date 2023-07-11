@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b141.css" />
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b152.css" />
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -115,7 +123,7 @@
 			 </div>
 			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/gp-montreal/2022/statistics/start" >2022</a><div ><form style="  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/gp-montreal/2023/statistics/start" selected>2023</option><option value="race/gp-montreal/2022/statistics/start" >2022</option><option value="race/gp-montreal/2021/statistics/start" >2021</option><option value="race/gp-montreal/2020/statistics/start" >2020</option><option value="race/gp-montreal/2019/statistics/start" >2019</option><option value="race/gp-montreal/2018/statistics/start" >2018</option><option value="race/gp-montreal/2017/statistics/start" >2017</option><option value="race/gp-montreal/2016/statistics/start" >2016</option><option value="race/gp-montreal/2015/statistics/start" >2015</option><option value="race/gp-montreal/2014/statistics/start" >2014</option><option value="race/gp-montreal/2013/statistics/start" >2013</option><option value="race/gp-montreal/2012/statistics/start" >2012</option><option value="race/gp-montreal/2011/statistics/start" >2011</option><option value="race/gp-montreal/2010/statistics/start" >2010</option></select></form></div><a ></a></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/gp-montreal/2023">Statistics</a></li>
+<div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/gp-montreal/2022/statistics/start" >2022</a><div ><form style="  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/gp-montreal/2024/statistics/start" >2024</option><option value="race/gp-montreal/2023/statistics/start" selected>2023</option><option value="race/gp-montreal/2022/statistics/start" >2022</option><option value="race/gp-montreal/2021/statistics/start" >2021</option><option value="race/gp-montreal/2020/statistics/start" >2020</option><option value="race/gp-montreal/2019/statistics/start" >2019</option><option value="race/gp-montreal/2018/statistics/start" >2018</option><option value="race/gp-montreal/2017/statistics/start" >2017</option><option value="race/gp-montreal/2016/statistics/start" >2016</option><option value="race/gp-montreal/2015/statistics/start" >2015</option><option value="race/gp-montreal/2014/statistics/start" >2014</option><option value="race/gp-montreal/2013/statistics/start" >2013</option><option value="race/gp-montreal/2012/statistics/start" >2012</option><option value="race/gp-montreal/2011/statistics/start" >2011</option><option value="race/gp-montreal/2010/statistics/start" >2010</option></select></form></div><a  href="race/gp-montreal/2024/statistics/start" >2024</a></div><div class="pageSelectNav 1" ><div ><form style="  max-width: 220px; width: 100%;  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/gp-montreal/2023/" >- stage -</option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/gp-montreal/2023">Statistics</a></li>
 <li class="reg "><a class="" href="race/gp-montreal/2023/startlist">Startlist&#x25BC;</a><ul><li><a href="race/gp-montreal/2023/startlist/startlist">Startlist</a></li>
 <li><a href="race/gp-montreal/2023/startlist/top-competitors">Top competitors</a></li>
 <li><a href="race/gp-montreal/2023/startlist/startlist-quality">Startlist quality</a></li>
@@ -133,17 +141,17 @@
 <li><a href="race/gp-montreal/2023/route/hardest-stages">Hardest stages</a></li>
 <li><a href="race/gp-montreal/2023/route/climbs">Climbs</a></li>
 </ul></li>
-<li class="more"><a href="race/gp-montreal/2023">More</a><ul><li data-n="0"><a href="race/gp-montreal/2023/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="race/gp-montreal/2023/startlist/startlist">Startlist - Startlist</a></li><li data-n="1"><a href="race/gp-montreal/2023/startlist/top-competitors">Top competitors</a></li>
+<li class="more"><a href="race/gp-montreal/2023">More</a><ul><li data-n="1"><a href="race/gp-montreal/2023/statistics/statistics">Statistics - Statistics</a></li><li data-n="2"><a href="race/gp-montreal/2023/startlist/startlist">Startlist - Startlist</a></li><li data-n="1"><a href="race/gp-montreal/2023/startlist/top-competitors">Top competitors</a></li>
 <li data-n="1"><a href="race/gp-montreal/2023/startlist/startlist-quality">Startlist quality</a></li>
 <li data-n="1"><a href="race/gp-montreal/2023/startlist/debutants">Debutants</a></li>
-<li data-n="2"><a href="race/gp-montreal/2023/more/more">More - More</a></li><li data-n="3"><a href="race/gp-montreal/2023/teams/teams">Teams - Teams</a></li><li data-n="3"><a href="race/gp-montreal/2023/teams/top-teams">Top teams</a></li>
+<li data-n="3"><a href="race/gp-montreal/2023/more/more">More - More</a></li><li data-n="4"><a href="race/gp-montreal/2023/teams/teams">Teams - Teams</a></li><li data-n="3"><a href="race/gp-montreal/2023/teams/top-teams">Top teams</a></li>
 <li data-n="3"><a href="race/gp-montreal/2023/teams/dropouts">Dropouts</a></li>
 <li data-n="3"><a href="race/gp-montreal/2023/teams/prizemoney">Prizemoney</a></li>
-<li data-n="4"><a href="race/gp-montreal/2023/nations/nations">Nations - Nations</a></li><li data-n="5"><a href="race/gp-montreal/2023/route/route">Route - Route</a></li><li data-n="5"><a href="race/gp-montreal/2023/route/stages">Stages</a></li>
+<li data-n="5"><a href="race/gp-montreal/2023/nations/nations">Nations - Nations</a></li><li data-n="6"><a href="race/gp-montreal/2023/route/route">Route - Route</a></li><li data-n="5"><a href="race/gp-montreal/2023/route/stages">Stages</a></li>
 <li data-n="5"><a href="race/gp-montreal/2023/route/stage-profiles">All stage profiles</a></li>
 <li data-n="5"><a href="race/gp-montreal/2023/route/hardest-stages">Hardest stages</a></li>
 <li data-n="5"><a href="race/gp-montreal/2023/route/climbs">Climbs</a></li>
-<li data-n="6"><a href="race/gp-montreal/2023/results/results">Results - Results</a></li><li data-n="6"><a href="race/gp-montreal/2023/results/start">Winners and leaders</a></li>
+<li data-n="7"><a href="race/gp-montreal/2023/results/results">Results - Results</a></li><li data-n="6"><a href="race/gp-montreal/2023/results/start">Winners and leaders</a></li>
 <li data-n="6"><a href="race/gp-montreal/2023/results/won-how">Won how</a></li>
 <li data-n="6"><a href="race/gp-montreal/2023/results/prizemoney-ranking">Prizemoney ranking</a></li>
 <li data-n="6"><a href="race/gp-montreal/2023/results/dropouts">Dropouts</a></li>
@@ -160,15 +168,18 @@
 <li><div>Logo</div> <div><img src="images/logo/bn/ct/gp-montreal.jpg" style="max-height: 100px; max-width: 100%;  " /></div></li>
 </ul></div>
 <div class="mt20"><h3>Top competitors</h3>
-<span class="table-cont"><ul class="list"  style="max-width: 550px;  "><li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/maxim-van-gils">VAN GILS Maxim</a></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list"  style="max-width: 550px;  "><li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 cz"></span> </div><div ><a    href="rider/pavel-bittner">BITTNER Pavel</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/maxim-van-gils">VAN GILS Maxim</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 ie"></span> </div><div ><a    href="rider/ben-healy">HEALY Ben</a></div><div class="clear"></div></li>
 <li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 ch"></span> </div><div ><a    href="rider/marc-hirschi">HIRSCHI Marc</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/arnaud-de-lie">DE LIE Arnaud</a></div><div class="clear"></div></li>
 <li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 it"></span> </div><div ><a    href="rider/giacomo-nizzolo">NIZZOLO Giacomo</a></div><div class="clear"></div></li>
 </ul></span></div>
 <ul class="list horizontal"><li class="goto2 pr5" ><a   class="goto2 pr5" href="race/gp-montreal/2023/startlist">Startlist</a></li>
 <li class="goto2 pr5" ><a   class="goto2 pr5" href="race/gp-montreal/2023/startlist/top-competitors">Top riders</a></li>
 </ul>
 <div class="mt40"><h3>Teams</h3>
-<span class="table-cont"><ul class="list "  style="max-width: 400px;  "><li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2088"></span></div><div class="fs14 pr5   "  ><a    href="team/lotto-dstny-2023">Lotto Dstny</a></div><div class=" clr999 fs14   "  > (Van Gils, Van Gils)</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list "  style="max-width: 400px;  "><li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2088"></span></div><div class="fs14 pr5   "  ><a    href="team/lotto-dstny-2023">Lotto Dstny</a></div><div class=" clr999 fs14   "  > (Van Gils, De Lie)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2738"></span></div><div class="fs14 pr5   "  ><a    href="team/israel-premier-tech-2023">Israel - Premier Tech</a></div><div class=" clr999 fs14   "  > (Nizzolo, Nizzolo)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1060"></span></div><div class="fs14 pr5   "  ><a    href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1100"></span></div><div class="fs14 pr5   "  ><a    href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
@@ -176,7 +187,7 @@
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team3814"></span></div><div class="fs14 pr5   "  ><a    href="team/bahrain-victorious-2023">Bahrain - Victorious</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1411"></span></div><div class="fs14 pr5   "  ><a    href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1136"></span></div><div class="fs14 pr5   "  ><a    href="team/cofidis-2023">Cofidis</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team4000"></span></div><div class="fs14 pr5   "  ><a    href="team/ef-education-easypost-2023">EF Education-EasyPost</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team4000"></span></div><div class="fs14 pr5   "  ><a    href="team/ef-education-easypost-2023">EF Education-EasyPost</a></div><div class=" clr999 fs14   "  > (Healy, Healy)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1187"></span></div><div class="fs14 pr5   "  ><a    href="team/groupama-fdj-2023">Groupama - FDJ</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1423"></span></div><div class="fs14 pr5   "  ><a    href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1490"></span></div><div class="fs14 pr5   "  ><a    href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
@@ -185,7 +196,7 @@
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1328"></span></div><div class="fs14 pr5   "  ><a    href="team/soudal-quick-step-2023">Soudal - Quick Step</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1107"></span></div><div class="fs14 pr5   "  ><a    href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1207"></span></div><div class="fs14 pr5   "  ><a    href="team/team-jayco-alula-2023">Team Jayco AlUla</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1360"></span></div><div class="fs14 pr5   "  ><a    href="team/team-dsm-2023">Team DSM</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1360"></span></div><div class="fs14 pr5   "  ><a    href="team/team-dsm-firmenich-2023">Team dsm - firmenich</a></div><div class=" clr999 fs14   "  > (Bittner, Bittner)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1258"></span></div><div class="fs14 pr5   "  ><a    href="team/lidl-trek-2023">Lidl - Trek</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1253"></span></div><div class="fs14 pr5   "  ><a    href="team/uae-team-emirates-2023">UAE Team Emirates</a></div><div class=" clr999 fs14   "  > (Hirschi, Hirschi)</div><div class="clear"></div></li>
 </ul></span></div>
@@ -270,7 +281,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0704s</span></li>
+<li><span>Pageload 0.0940s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="5223" /><input type="hidden" id="userid" value="0" />
 	</div>

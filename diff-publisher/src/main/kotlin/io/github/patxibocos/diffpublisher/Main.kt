@@ -2,11 +2,11 @@ package io.github.patxibocos.diffpublisher
 
 import com.google.auth.oauth2.GoogleCredentials
 import com.google.firebase.FirebaseApp
+import com.google.firebase.FirebaseException
 import com.google.firebase.FirebaseOptions
 import com.google.firebase.messaging.FirebaseMessaging
 import com.google.firebase.messaging.Message
 import com.google.firebase.remoteconfig.FirebaseRemoteConfig
-import com.google.firebase.remoteconfig.FirebaseRemoteConfigException
 import com.google.firebase.remoteconfig.ParameterValue
 import io.github.patxibocos.pcsscraper.protobuf.CyclingDataOuterClass
 import mu.KotlinLogging
@@ -49,7 +49,7 @@ fun main() {
 private fun <T> retryForFirebaseException(retries: Int = 3, f: () -> T): T {
     return try {
         f()
-    } catch (e: FirebaseRemoteConfigException) {
+    } catch (e: FirebaseException) {
         if (retries == 0) {
             throw e
         }
@@ -69,9 +69,9 @@ private fun checkNewStagesWithResults(
     previousData: CyclingDataOuterClass.CyclingData,
 ) {
     val lastResults =
-        lastData.racesList.associate { race -> race.id to race.stagesList.associate { stage -> stage.id to stage.resultList } }
+        lastData.racesList.associate { race -> race.id to race.stagesList.associate { stage -> stage.id to stage.stageResults.timeList } }
     val previousResults =
-        previousData.racesList.associate { race -> race.id to race.stagesList.associate { stage -> stage.id to stage.resultList } }
+        previousData.racesList.associate { race -> race.id to race.stagesList.associate { stage -> stage.id to stage.stageResults.timeList } }
     lastResults.forEach races@{ (raceId, stagesResults) ->
         val previousStagesResults = previousResults[raceId] ?: return@races
         stagesResults.forEach stages@{ (stageId, stageResults) ->
@@ -84,7 +84,7 @@ private fun checkNewStagesWithResults(
                     .putData("stage-id", stageId)
                     .build()
                 val firebaseMessaging = FirebaseMessaging.getInstance()
-                firebaseMessaging.send(message)
+                retryForFirebaseException { firebaseMessaging.send(message) }
             }
         }
     }

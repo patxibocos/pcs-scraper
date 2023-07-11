@@ -8,7 +8,6 @@ import it.skrape.selects.html5.a
 import it.skrape.selects.html5.span
 import it.skrape.selects.html5.td
 import it.skrape.selects.html5.thead
-import it.skrape.selects.html5.tr
 import it.skrape.selects.html5.ul
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -35,10 +34,14 @@ class PCSRacesScraper(
 ) :
     RacesScraper {
 
-    override suspend fun scrapeRaces(season: Int, teamIdMapper: (String) -> String?): List<Race> = coroutineScope {
+    override suspend fun scrapeRaces(
+        season: Int,
+        teamIdMapper: (String) -> String?,
+        riderIdMapper: (String) -> String?,
+    ): List<Race> = coroutineScope {
         logger.info("Scraping races for $season season")
         val pcsRaces = getRacesUrls(season).map { raceUrl -> async { getRace(raceUrl) } }.awaitAll()
-        pcsRaces.map { pcsRaceToRace(it, teamIdMapper) }.sortedBy { it.stages.first().startDateTime }
+        pcsRaces.map { pcsRaceToRace(it, teamIdMapper, riderIdMapper) }.sortedBy { it.stages.first().startDateTime }
     }
 
     private suspend fun getRacesUrls(season: Int): List<String> {
@@ -71,9 +74,6 @@ class PCSRacesScraper(
                 .isNotEmpty()
         }
         val startList = getRaceStartList(raceParticipantsUrl)
-        val result = stages.findLast {
-            it.gcResult.isNotEmpty()
-        }?.gcResult ?: emptyList()
         PCSRace(
             url = raceUrl,
             name = name,
@@ -81,7 +81,6 @@ class PCSRacesScraper(
             website = website,
             stages = stages,
             startList = startList,
-            result = result,
         )
     }
 
@@ -130,25 +129,57 @@ class PCSRacesScraper(
         val isTeamTimeTrial = stageTitle.contains("TTT")
         val departure = siblingOfMatchingElement(infoList, "Departure").findFirst("a").text.ifEmpty { null }
         val arrival = siblingOfMatchingElement(infoList, "Arrival").findFirst("a").text.ifEmpty { null }
-        val result: List<PCSParticipantResult>
-        val gcResult: List<PCSParticipantResult>
+        var stageTimeResult: List<PCSParticipantResult> = emptyList()
+        var stageYouthResult: List<PCSParticipantResult> = emptyList()
+        var stageTeamsResult: List<PCSParticipantResult> = emptyList()
+        var stageKomResult: List<PCSPlaceResult> = emptyList()
+        var stagePointsResult: List<PCSPlaceResult> = emptyList()
+        var generalTimeResult: List<PCSParticipantResult> = emptyList()
+        var generalYouthResult: List<PCSParticipantResult> = emptyList()
+        var generalTeamsResult: List<PCSParticipantResult> = emptyList()
+        var generalKomResult: List<PCSParticipantResult> = emptyList()
+        var generalPointsResult: List<PCSParticipantResult> = emptyList()
+        val results = stageDoc.findAll(".result-cont")
         when (isSingleDayRace) {
-            // Single day races will never have a gcResult, so we manually set it
+            // Single day races will only have stage result
             true -> {
-                result = getResult(stageDoc.findFirst(".result-cont"))
-                gcResult = result
+                stageTimeResult = getRiderResult(results.first().findFirst("table"))
+                generalTimeResult = stageTimeResult
             }
 
             false -> {
-                gcResult = getResult(stageDoc.findSecond(".result-cont"))
-                // We skip stage result if GC result is not available, just for consistency
-                result = if (gcResult.isEmpty()) {
-                    gcResult
-                } else {
-                    if (isTeamTimeTrial) {
-                        getTTTResult(stageDoc.findFirst(".results-ttt"))
-                    } else {
-                        getResult(stageDoc.findFirst(".result-cont"))
+                stageDoc.findAll("ul.restabs > li").map { it.text }.forEachIndexed { index, ranking ->
+                    when (ranking.lowercase()) {
+                        "prol.", "stage", "" ->
+                            stageTimeResult =
+                                getRiderResult(table = results[index].findFirst("table"), isTTT = isTeamTimeTrial)
+
+                        "gc" -> generalTimeResult = getRiderResult(results[index].findFirst("table"))
+                        "points" -> {
+                            try {
+                                stagePointsResult = getPointsPerPlaceResult(results[index].findSecond(".subTabs"))
+                            } catch (e: Exception) {
+                                println("Failed $stageUrl")
+                                throw e
+                            }
+                            generalPointsResult = getRiderResult(results[index].findFirst("table"))
+                        }
+
+                        "kom" -> {
+                            stageKomResult =
+                                getPointsPerPlaceResult(results[index].findSecond(".subTabs"))
+                            generalKomResult = getRiderResult(results[index].findFirst("table"))
+                        }
+
+                        "youth" -> {
+                            stageYouthResult = getRiderResult(results[index].findSecond("table"))
+                            generalYouthResult = getRiderResult(results[index].findFirst("table"))
+                        }
+
+                        "teams" -> {
+                            stageTeamsResult = getRiderResult(results[index].findSecond("table"))
+                            generalTeamsResult = getRiderResult(results[index].findFirst("table"))
+                        }
                     }
                 }
             }
@@ -163,29 +194,61 @@ class PCSRacesScraper(
             teamTimeTrial = isTeamTimeTrial,
             departure = departure,
             arrival = arrival,
-            result = result,
-            gcResult = gcResult,
+            stageTimeResult = stageTimeResult,
+            stageYouthResult = stageYouthResult,
+            stageTeamsResult = stageTeamsResult,
+            stageKomResult = stageKomResult,
+            stagePointsResult = stagePointsResult,
+            generalTimeResult = generalTimeResult,
+            generalYouthResult = generalYouthResult,
+            generalTeamsResult = generalTeamsResult,
+            generalKomResult = generalKomResult,
+            generalPointsResult = generalPointsResult,
         )
     }
 
     private fun siblingOfMatchingElement(docElements: List<DocElement>, selector: String): DocElement =
         docElements.find { it.text.startsWith(selector) }!!.siblings.first()
 
-    private fun getResult(resultsTable: DocElement): List<PCSParticipantResult> {
-        val resultColumns = resultsTable.thead { tr { findAll("th") } }
-        val positionColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rnk" }
-        val riderColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rider" }
-        val timeColumnIndex = resultColumns.indexOfFirst { it.ownText == "Time" }
-        val result = resultsTable.findAll("tbody > tr").map {
+    private fun getPointsPerPlaceResult(results: DocElement): List<PCSPlaceResult> {
+        val placeNames = results.findAll("h3")
+        return placeNames.mapIndexed { index, element ->
+            PCSPlaceResult(
+                place = PointsPlace(title = element.text),
+                result = getRiderResult(results.findByIndex(index, "table")),
+            )
+        }
+    }
+
+    private fun getRiderResult(
+        table: DocElement,
+        isTTT: Boolean = false,
+    ): List<PCSParticipantResult> {
+        if (table.text.isEmpty()) {
+            return emptyList()
+        }
+        val resultColumns = table.thead { findAll("th") }
+        val positionColumnIndex =
+            resultColumns.indexOfFirst { it.ownText == "Pos." || it.ownText == "Rnk" || it.ownText == "#" }
+        val riderColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rider" || it.ownText == "Team" }
+        val timeOrPointsColumnIndex = resultColumns.indexOfFirst { it.ownText == "Time" || it.ownText == "Points" }
+        if (timeOrPointsColumnIndex == -1) {
+            // Some results sometimes miss points/time, so we just skip them
+            return emptyList()
+        }
+        val result = table.findAll("tbody > tr".plus(if (isTTT) ".team" else "")).map {
             val position = it.td { findByIndex(positionColumnIndex) }.ownText
             val rider = it.td { findByIndex(riderColumnIndex) }.a { findFirst { attribute("href") } }
-            val time = it.td { findByIndex(timeColumnIndex) }.ownText.ifEmpty {
-                it.td { findByIndex(timeColumnIndex) }.span { findFirst { ownText } }
+            val timeOrPoints = it.td { findByIndex(timeOrPointsColumnIndex) }.ownText.ifEmpty {
+                it.td { findByIndex(timeOrPointsColumnIndex) }.span { findFirst { ownText } }
+            }.ifEmpty {
+                // This gets the points instead of the time
+                it.td { findByIndex(timeOrPointsColumnIndex) }.text
             }
             PCSParticipantResult(
                 position = position,
                 participant = rider,
-                time = time,
+                result = timeOrPoints,
             )
         }
         return result.takeIf {
@@ -193,68 +256,81 @@ class PCSRacesScraper(
         } ?: emptyList()
     }
 
-    private fun getTTTResult(resultsTable: DocElement): List<PCSParticipantResult> {
-        val resultColumns = resultsTable.thead { tr { findAll("th") } }
-        val positionColumnIndex = resultColumns.indexOfFirst { it.ownText == "Pos." }
-        val teamColumnIndex = resultColumns.indexOfFirst { it.ownText == "Team" }
-        val timeColumnIndex = resultColumns.indexOfFirst { it.ownText == "Time" }
-        val result = resultsTable.findAll("tbody > tr.team").map {
-            val position = it.td { findByIndex(positionColumnIndex) }.ownText
-            val team = it.td { findByIndex(teamColumnIndex) }.a { findFirst { attribute("href") } }
-            val time = it.td { findByIndex(timeColumnIndex) }.ownText
-            PCSParticipantResult(
-                position = position,
-                participant = team,
-                time = time,
-            )
-        }
-        return result.takeIf {
-            it.size >= 3
-        } ?: emptyList()
-    }
-
-    private fun pcsRaceToRace(pcsRace: PCSRace, teamIdMapper: (String) -> String?): Race {
+    private fun pcsRaceToRace(
+        pcsRace: PCSRace,
+        teamIdMapper: (String) -> String?,
+        riderIdMapper: (String) -> String?,
+    ): Race {
         val raceId = pcsRace.url.split("/").takeLast(2).joinToString("-")
+        // TODO clear stageResults if generalResults.time is not available
         return Race(
             id = raceId,
             name = pcsRace.name,
             country = pcsRace.country.uppercase(),
             website = pcsRace.website,
-            stages = pcsRace.stages.map { pcsStageToStage(it, teamIdMapper) },
-            startList = pcsRace.startList.mapNotNull { pcsTeamParticipationToTeamParticipation(it, teamIdMapper) },
-            result = pcsParticipantResultToRiderResult(pcsRace.result),
+            stages = pcsRace.stages.map { pcsStageToStage(it, teamIdMapper, riderIdMapper) },
+            startList = pcsRace.startList.mapNotNull {
+                pcsTeamParticipationToTeamParticipation(
+                    it,
+                    teamIdMapper,
+                    riderIdMapper,
+                )
+            },
         )
     }
 
     private fun pcsParticipantResultToTeamResult(
         pcsParticipantResults: List<PCSParticipantResult>,
         teamIdMapper: (String) -> String?,
-    ): List<Race.ParticipantResult> {
+    ): List<Race.ParticipantResultTime> {
         if (pcsParticipantResults.isEmpty()) {
             return emptyList()
         }
         return pcsParticipantResults.take(10).mapNotNull {
             val position = it.position.toInt()
             val team = teamIdMapper(it.participant.split("/").last()) ?: return@mapNotNull null
-            val (minutes, seconds) = it.time.split(":").map(String::toInt)
+            val (minutes, seconds) = it.result.split(":").map(String::toInt)
             val time = (minutes.minutes + seconds.seconds).inWholeSeconds
-            Race.ParticipantResult(position, team, time)
+            Race.ParticipantResultTime(position, team, time)
         }
     }
 
-    private fun pcsParticipantResultToRiderResult(pcsParticipantResults: List<PCSParticipantResult>): List<Race.ParticipantResult> {
+    private fun pcsParticipantResultToRiderResultPoints(
+        pcsParticipantResults: List<PCSParticipantResult>,
+        riderIdMapper: (String) -> String?,
+    ): List<Race.ParticipantResultPoints> {
+        if (pcsParticipantResults.isEmpty()) {
+            return emptyList()
+        }
+        return pcsParticipantResults.take(10).mapNotNull {
+            val rider = riderIdMapper(it.participant.split("/").last()) ?: return@mapNotNull null
+            if (it.position.toIntOrNull() == null) { // Riders that didn't finish have a position which is not a number
+                return@mapNotNull null
+            }
+            // result, which happens for TTT where there may have no points
+            if (it.result.isEmpty()) {
+                return@mapNotNull null
+            }
+            Race.ParticipantResultPoints(it.position.toInt(), rider, it.result.toInt())
+        }
+    }
+
+    private fun pcsParticipantResultToRiderResultTime(
+        pcsParticipantResults: List<PCSParticipantResult>,
+        nameMapper: (String) -> String?,
+    ): List<Race.ParticipantResultTime> {
         if (pcsParticipantResults.isEmpty()) {
             return emptyList()
         }
         var firstRiderTime = 0L
         var previousDiff = 0L
         return pcsParticipantResults.take(10).mapNotNull {
-            val rider = it.participant.split("/").last()
+            val participant = nameMapper(it.participant.split("/").last()) ?: return@mapNotNull null
             if (it.position.toIntOrNull() == null) { // Riders that didn't finish have a position which is not a number
                 return@mapNotNull null
             }
-            if (it.time != ",,") { // Time being ,, means that it has the same time as the previous rider
-                val splits = it.time.split(":")
+            if (it.result != ",,") { // Time being ,, means that it has the same time as the previous rider
+                val splits = it.result.split(":")
                 if (splits.any { s -> s.toIntOrNull() == null }) {
                     return@mapNotNull null
                 }
@@ -270,7 +346,7 @@ class PCSRacesScraper(
                         (minutes.minutes + seconds.seconds).inWholeSeconds
                     }
 
-                    else -> throw RuntimeException("Unexpected time value: ${it.time}")
+                    else -> throw RuntimeException("Unexpected time value: ${it.result}")
                 }
                 if (firstRiderTime == 0L) {
                     firstRiderTime = timeInSeconds
@@ -278,11 +354,44 @@ class PCSRacesScraper(
                     previousDiff = timeInSeconds
                 }
             }
-            Race.ParticipantResult(it.position.toInt(), rider, firstRiderTime + previousDiff)
+            Race.ParticipantResultTime(it.position.toInt(), participant, firstRiderTime + previousDiff)
         }
     }
 
-    private fun pcsStageToStage(pcsStage: PCSStage, teamIdMapper: (String) -> String?): Race.Stage {
+    private fun pcsPlaceResultToPlaceResult(
+        pcsPlaceResults: List<PCSPlaceResult>,
+        stageDistance: Float,
+        riderIdMapper: (String) -> String?,
+    ): List<Race.PlaceResult> {
+        return pcsPlaceResults.map {
+            val placeName = it.place.title
+            val name = when {
+                placeName.contains("|") -> placeName.substring(placeName.indexOf("|") + 2, placeName.lastIndexOf("("))
+                placeName.indexOf("(") == -1 -> "Finish"
+                placeName.indexOf("(") == placeName.lastIndexOf("(") -> placeName.substring(0, placeName.indexOf("("))
+                else -> placeName.substring(placeName.indexOf(")") + 2, placeName.lastIndexOf("(") - 1)
+            }
+            val distance = if (placeName.endsWith(")")) {
+                var index = placeName.lastIndexOf(") km)")
+                if (index == -1) {
+                    index = placeName.lastIndexOf("km)")
+                }
+                placeName.substring(placeName.lastIndexOf("(") + 1, index).trim().toFloat()
+            } else {
+                stageDistance
+            }
+            Race.PlaceResult(
+                place = Race.Place(name = name.trim(), distance = distance),
+                points = pcsParticipantResultToRiderResultPoints(it.result, riderIdMapper),
+            )
+        }
+    }
+
+    private fun pcsStageToStage(
+        pcsStage: PCSStage,
+        teamIdMapper: (String) -> String?,
+        riderIdMapper: (String) -> String?,
+    ): Race.Stage {
         // Some dates include time, so for now we just ignore the time part
         val startDateString = pcsStage.startDate.replace(",", "").split(" ").take(3).joinToString(" ")
         val localDate = LocalDate.parse(startDateString, DateTimeFormatter.ofPattern("dd MMMM yyyy"))
@@ -302,17 +411,26 @@ class PCSRacesScraper(
             .joinToString("/")
             .replace("/", "-")
             .replace("result", "stage-1") // For single day races where stage info is on the result page
-        val result = if (pcsStage.teamTimeTrial) {
-            pcsParticipantResultToTeamResult(pcsStage.result, teamIdMapper)
+        val stageTimeResult = if (pcsStage.teamTimeTrial) {
+            pcsParticipantResultToTeamResult(pcsStage.stageTimeResult, teamIdMapper)
         } else {
-            pcsParticipantResultToRiderResult(pcsStage.result)
+            pcsParticipantResultToRiderResultTime(pcsStage.stageTimeResult, riderIdMapper)
         }
-        val gcResult = pcsParticipantResultToRiderResult(pcsStage.gcResult)
+        val distance = pcsStage.distance.split(" ").first().toFloat()
+        val stageYouthResult = pcsParticipantResultToRiderResultTime(pcsStage.stageYouthResult, riderIdMapper)
+        val stageTeamsResult = pcsParticipantResultToRiderResultTime(pcsStage.stageTeamsResult, teamIdMapper)
+        val stageKomResult = pcsPlaceResultToPlaceResult(pcsStage.stageKomResult, distance, riderIdMapper)
+        val stagePointsResult = pcsPlaceResultToPlaceResult(pcsStage.stagePointsResult, distance, riderIdMapper)
+        val generalTimeResult = pcsParticipantResultToRiderResultTime(pcsStage.generalTimeResult, riderIdMapper)
+        val generalYouthResult = pcsParticipantResultToRiderResultTime(pcsStage.generalYouthResult, riderIdMapper)
+        val generalTeamsResult = pcsParticipantResultToRiderResultTime(pcsStage.generalTeamsResult, teamIdMapper)
+        val generalKomResult = pcsParticipantResultToRiderResultPoints(pcsStage.generalKomResult, riderIdMapper)
+        val generalPointsResult = pcsParticipantResultToRiderResultPoints(pcsStage.generalPointsResult, riderIdMapper)
         return Race.Stage(
             id = stageId,
             startDateTime = startDateTime,
-            distance = pcsStage.distance.split(" ").first().toFloat(),
-            profileType = pcsTypeIndex?.let { Race.Stage.ProfileType.values()[pcsTypeIndex] },
+            distance = distance,
+            profileType = pcsTypeIndex?.let { Race.Stage.ProfileType.entries[pcsTypeIndex] },
             departure = pcsStage.departure,
             arrival = pcsStage.arrival,
             stageType = when {
@@ -320,21 +438,34 @@ class PCSRacesScraper(
                 pcsStage.teamTimeTrial -> Race.Stage.StageType.TEAM_TIME_TRIAL
                 else -> Race.Stage.StageType.REGULAR
             },
-            result = result,
-            gcResult = gcResult,
+            stageResults = Race.StageResults(
+                time = stageTimeResult,
+                youth = stageYouthResult,
+                teams = stageTeamsResult,
+                kom = stageKomResult,
+                points = stagePointsResult,
+            ),
+            generalResults = Race.GeneralResults(
+                time = generalTimeResult,
+                youth = generalYouthResult,
+                teams = generalTeamsResult,
+                kom = generalKomResult,
+                points = generalPointsResult,
+            ),
         )
     }
 
     private fun pcsTeamParticipationToTeamParticipation(
         pcsTeamParticipation: PCSTeamParticipation,
         teamIdMapper: (String) -> String?,
+        riderIdMapper: (String) -> String?,
     ): Race.TeamParticipation? {
         val teamId = teamIdMapper(pcsTeamParticipation.team.split("/").last()) ?: return null
         return Race.TeamParticipation(
             team = teamId,
-            riders = pcsTeamParticipation.riders.map {
+            riders = pcsTeamParticipation.riders.mapNotNull {
                 Race.RiderParticipation(
-                    rider = it.rider.split("/").last(),
+                    rider = riderIdMapper(it.rider.split("/").last()) ?: return@mapNotNull null,
                     number = it.number.toIntOrNull(),
                 )
             },

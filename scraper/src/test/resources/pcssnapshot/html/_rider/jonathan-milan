@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
-	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b152.css" />
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -118,6 +126,7 @@
 <div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/jonathan-milan">Overview</a></li>
 <li class="reg "><a class="" href="rider/jonathan-milan/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/jonathan-milan/statistics/overview">Overview</a></li>
 <li><a href="rider/jonathan-milan/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/jonathan-milan/statistics/key-events">Key events</a></li>
 <li><a href="rider/jonathan-milan/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/jonathan-milan/statistics/wins">Wins</a></li>
 <li><a href="rider/jonathan-milan/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -137,32 +146,36 @@
 <li class="reg "><a class="" href="rider/jonathan-milan/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/jonathan-milan/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/jonathan-milan/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/jonathan-milan">More</a><ul><li data-n="0"><a href="rider/jonathan-milan/overview/overview">Overview - Overview</a></li><li data-n="1"><a href="rider/jonathan-milan/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/jonathan-milan/statistics/overview">Overview</a></li>
+<li class="more"><a href="rider/jonathan-milan">More</a><ul><li data-n="1"><a href="rider/jonathan-milan/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/jonathan-milan/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/jonathan-milan/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="rider/jonathan-milan/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/jonathan-milan/statistics/key-events">Key events</a></li>
 <li data-n="1"><a href="rider/jonathan-milan/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li data-n="1"><a href="rider/jonathan-milan/statistics/wins">Wins</a></li>
 <li data-n="1"><a href="rider/jonathan-milan/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/jonathan-milan/statistics/grand-tour-starts">Starts and results</a></li>
 <li data-n="1"><a href="rider/jonathan-milan/statistics/injury-history">Injury history</a></li>
-<li data-n="2"><a href="rider/jonathan-milan/results/results">Results - Results</a></li><li data-n="3"><a href="rider/jonathan-milan/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="4"><a href="rider/jonathan-milan/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/jonathan-milan/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/jonathan-milan/contribute/contribute-info">Contribute info</a></li>
+<li data-n="3"><a href="rider/jonathan-milan/results/results">Results - Results</a></li><li data-n="4"><a href="rider/jonathan-milan/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/jonathan-milan/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/jonathan-milan/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/jonathan-milan/contribute/contribute-info">Contribute info</a></li>
 <li data-n="5"><a href="rider/jonathan-milan/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/jonathan-milan/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/jonathan-milan/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/jonathan-milan/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/jonathan-milan/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="6"><a href="rider/jonathan-milan/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/jonathan-milan/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="7"><a href="rider/jonathan-milan/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/jonathan-milan/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/jonathan-milan/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag it w32"></span><span class="flag it w24"></span><h1 class="">Jonathan  Milan</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Bahrain - Victorious</span></div><div class="sub"><span class="red showIfMobile">Bahrain - Victorious</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/jonathan-milan/statistics/overview"><img alt="Profile photo of Jonathan  Milan" src="images/riders/bp/df/jonathan-milan-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 1<sup>st</sup> October 2000 (22)<br /><b>Nationality:</b> <span class="flag  it"></span><a class="black" href="nation/italy">Italy</a><br /><span><b>Weight:</b> 84 kg &nbsp; <span><b>Height:</b> 1.93 m<br /><b>Place of birth:</b> <a href="location/tolmezzo">Tolmezzo</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 15.508021390374%; height: 100%;  "></div></div><div class="pnt">58</div><div class="title"><a href="rider/jonathan-milan/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 18.716577540107%; height: 100%;  "></div></div><div class="pnt">70</div><div class="title"><a href="rider/jonathan-milan/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 19.51871657754%; height: 100%;  "></div></div><div class="pnt">73</div><div class="title"><a href="rider/jonathan-milan/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 78.609625668449%; height: 100%;  "></div></div><div class="pnt">294</div><div class="title"><a href="rider/jonathan-milan/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">374</div><div class="title"><a href="rider/jonathan-milan/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/jonathan-milan/statistics/overview"><img alt="Profile photo of Jonathan  Milan" src="images/riders/bp/df/jonathan-milan-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 1<sup>st</sup> October 2000 (22)<br /><b>Nationality:</b> <span class="flag  it"></span><a class="black" href="nation/italy">Italy</a><br /><span><b>Weight:</b> 84 kg &nbsp; <span><b>Height:</b> 1.93 m<br /><b>Place of birth:</b> <a href="location/tolmezzo">Tolmezzo</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 15.508021390374%; height: 100%;  "></div></div><div class="pnt">58</div><div class="title"><a href="rider/jonathan-milan/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 18.716577540107%; height: 100%;  "></div></div><div class="pnt">70</div><div class="title"><a href="rider/jonathan-milan/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 19.51871657754%; height: 100%;  "></div></div><div class="pnt">73</div><div class="title"><a href="rider/jonathan-milan/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 78.609625668449%; height: 100%;  "></div></div><div class="pnt">294</div><div class="title"><a href="rider/jonathan-milan/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">374</div><div class="title"><a href="rider/jonathan-milan/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><ul class="list horizontal fs14 circle bluelink"></ul></div>
+<div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/_jonathanmilan_/">instagram</a></li>
 <li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/MilanJonathan_">twitter</a></li>
+<li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/39026315">strava</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >51</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >74</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >55</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >77</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;4380</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;208</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/giro-d-italia/2023/stage-2">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st5 w14"></span></div><div><span class="blue">Points GC</span> <a href="race/giro-d-italia/2023/stage-21-points">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
@@ -220,7 +233,7 @@
 <tr data-main="1"><td>26.03</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/gent-wevelgem/2023/result">Gent-Wevelgem in Flanders Fields ME <span>(1.UWT)</span></a> </td><td class="cu600">260.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonathan-milan/gent-wevelgem">more</a></td></tr>
 <tr data-main="1"><td>22.03</td><td>70</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/oxyclean-classic-brugge-de-panne/2023/result">Classic Brugge-De Panne <span>(1.UWT)</span></a> </td><td class="cu600">211</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonathan-milan/oxyclean-classic-brugge-de-panne">more</a></td></tr>
 <tr data-main="1"><td>18.03</td><td>128</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/milano-sanremo/2023/result">Milano-Sanremo <span>(1.UWT)</span></a> </td><td class="cu600">294</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonathan-milan/milano-sanremo">more</a></td></tr>
-<tr data-main="1"><td>05.03 &raquo; 12.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/stage-4">Paris-Nice <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonathan-milan/paris-nice">more</a></td></tr>
+<tr data-main="1"><td>05.03 &raquo; 12.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/stage-4">Paris - Nice <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonathan-milan/paris-nice">more</a></td></tr>
 <tr data-main="0"><td>08.03</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/stage-4">Stage 4 - Saint-Amand-Montrond &rsaquo; La Loge des Gardes</a> </td><td class="cu600">164.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonathan-milan/paris-nice">more</a></td></tr>
 <tr data-main="0"><td>07.03</td><td>9</td><td class="gc cu600">95</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/stage-3">Stage 3 (TTT) - Dampierre-en-Burly &rsaquo; Dampierre-en-Burly</a> </td><td class="cu600">32.2</td><td class="cu600"></td><td class="cu600 ">0.71</td><td class="cu600"><a class="more" href="rider-in-race/jonathan-milan/paris-nice">more</a></td></tr>
 <tr data-main="0"><td>06.03</td><td>46</td><td class="gc cu600">115</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/stage-2">Stage 2 - Bazainville &rsaquo; Fontainebleau</a> </td><td class="cu600">163.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonathan-milan/paris-nice">more</a></td></tr>
@@ -243,8 +256,8 @@
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">487</span></div></td><td class="ac  " >39</td></tr>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 25.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">153</span></div></td><td class="ac  " >341</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">487</span></div></td><td class="ac  " >49</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 25.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">153</span></div></td><td class="ac  " >343</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 4.4%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">27</span></div></td><td class="ac  " >929</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 1.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">11</span></div></td><td class="ac  " >1092</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 3.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">22</span></div></td><td class="ac  " >1297</td></tr>
@@ -252,6 +265,11 @@
 <div class="mt30"><h3>Family</h3>
 <span class="table-cont"><ul class="list"  style=" "><li class="" ><div ><a    href="rider/flavio-milan">Flavio  Milan</a></div><div > (Father)</div><div class="clear"></div></li>
 <li class="" ><div ><a    href="rider/matteo-milan">Matteo  Milan</a></div><div > (Brother)</div><div class="clear"></div></li>
+</ul></span></div>
+<div class="mt30"><h3>H2H Suggestions</h3>
+<span class="table-cont"><ul class="list"  style=" "><li class="" ><div ><a    href="rider-vs-rider/jonathan-milan/pascal-ackermann">ACKERMANN Pascal</a></div><div class="clear"></div></li>
+<li class="" ><div ><a    href="rider-vs-rider/jonathan-milan/mark-cavendish">CAVENDISH Mark</a></div><div class="clear"></div></li>
+<li class="" ><div ><a    href="rider-vs-rider/jonathan-milan/marcel-kittel">KITTEL Marcel</a></div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
@@ -385,7 +403,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1265s</span></li>
+<li><span>Pageload 0.1236s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>

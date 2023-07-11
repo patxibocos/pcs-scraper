@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
-	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b152.css" />
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -118,6 +126,7 @@
 <div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/ben-swift">Overview</a></li>
 <li class="reg "><a class="" href="rider/ben-swift/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/ben-swift/statistics/overview">Overview</a></li>
 <li><a href="rider/ben-swift/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/ben-swift/statistics/key-events">Key events</a></li>
 <li><a href="rider/ben-swift/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/ben-swift/statistics/wins">Wins</a></li>
 <li><a href="rider/ben-swift/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -137,23 +146,26 @@
 <li class="reg "><a class="" href="rider/ben-swift/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/ben-swift/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/ben-swift/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/ben-swift">More</a><ul><li data-n="0"><a href="rider/ben-swift/overview/overview">Overview - Overview</a></li><li data-n="1"><a href="rider/ben-swift/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/ben-swift/statistics/overview">Overview</a></li>
+<li class="more"><a href="rider/ben-swift">More</a><ul><li data-n="1"><a href="rider/ben-swift/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/ben-swift/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/ben-swift/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="rider/ben-swift/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/ben-swift/statistics/key-events">Key events</a></li>
 <li data-n="1"><a href="rider/ben-swift/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li data-n="1"><a href="rider/ben-swift/statistics/wins">Wins</a></li>
 <li data-n="1"><a href="rider/ben-swift/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/ben-swift/statistics/grand-tour-starts">Starts and results</a></li>
 <li data-n="1"><a href="rider/ben-swift/statistics/injury-history">Injury history</a></li>
-<li data-n="2"><a href="rider/ben-swift/results/results">Results - Results</a></li><li data-n="3"><a href="rider/ben-swift/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="4"><a href="rider/ben-swift/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/ben-swift/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/ben-swift/contribute/contribute-info">Contribute info</a></li>
+<li data-n="3"><a href="rider/ben-swift/results/results">Results - Results</a></li><li data-n="4"><a href="rider/ben-swift/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/ben-swift/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/ben-swift/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/ben-swift/contribute/contribute-info">Contribute info</a></li>
 <li data-n="5"><a href="rider/ben-swift/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/ben-swift/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/ben-swift/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/ben-swift/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/ben-swift/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="6"><a href="rider/ben-swift/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/ben-swift/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="7"><a href="rider/ben-swift/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/ben-swift/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/ben-swift/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag gb w32"></span><span class="flag gb w24"></span><h1 class="">Ben  Swift</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">INEOS Grenadiers</span></div><div class="sub"><span class="red showIfMobile">INEOS Grenadiers</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/ben-swift/statistics/overview"><img alt="Profile photo of Ben  Swift" src="images/riders/bp/ca/ben-swift-2023-n2.png"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 5<sup>th</sup> November 1987 (35)<br /><b>Nationality:</b> <span class="flag  gb"></span><a class="black" href="nation/great-britain">Great Britain</a><br /><span><b>Weight:</b> 69 kg &nbsp; <span><b>Height:</b> 1.80 m<br /><b>Place of birth:</b> <a href="location/rotherham">Rotherham</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 67.053701015965%; height: 100%;  "></div></div><div class="pnt">1848</div><div class="title"><a href="rider/ben-swift/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 32.547169811321%; height: 100%;  "></div></div><div class="pnt">897</div><div class="title"><a href="rider/ben-swift/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 3.1567489114659%; height: 100%;  "></div></div><div class="pnt">87</div><div class="title"><a href="rider/ben-swift/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 100%; height: 100%;  "></div></div><div class="pnt">2756</div><div class="title"><a href="rider/ben-swift/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 60.232220609579%; height: 100%;  "></div></div><div class="pnt">1660</div><div class="title"><a href="rider/ben-swift/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/ben-swift/statistics/overview"><img alt="Profile photo of Ben  Swift" src="images/riders/bp/ca/ben-swift-2023-n2.png"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 5<sup>th</sup> November 1987 (35)<br /><b>Nationality:</b> <span class="flag  gb"></span><a class="black" href="nation/great-britain">Great Britain</a><br /><span><b>Weight:</b> 69 kg &nbsp; <span><b>Height:</b> 1.80 m<br /><b>Place of birth:</b> <a href="location/rotherham">Rotherham</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 67.053701015965%; height: 100%;  "></div></div><div class="pnt">1848</div><div class="title"><a href="rider/ben-swift/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 32.547169811321%; height: 100%;  "></div></div><div class="pnt">897</div><div class="title"><a href="rider/ben-swift/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 3.1567489114659%; height: 100%;  "></div></div><div class="pnt">87</div><div class="title"><a href="rider/ben-swift/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 100%; height: 100%;  "></div></div><div class="pnt">2756</div><div class="title"><a href="rider/ben-swift/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 60.232220609579%; height: 100%;  "></div></div><div class="pnt">1660</div><div class="title"><a href="rider/ben-swift/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><ul class="list horizontal fs14 circle bluelink"></ul></div>
+<div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/swiftybswift">twitter</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/swiftybswift">instagram</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/ben_swift">strava</a></li>
@@ -163,20 +175,20 @@
 </ul></div>
 <div class="">
 <span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/all-time">All time</a></div><div class="rnk   "  >785</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >1987</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >541</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >1994</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >544</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;437</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;121</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/60th-tour-de-picardie/2010/gc">Tour de Picardie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('10)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-pologne/2012/stage-5">Tour de Pologne</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('12)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-down-under/2011/stage-2">Tour Down Under</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('11)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-pologne/2012/stage-2">Tour de Pologne</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('12)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-down-under/2011/stage-6">Tour Down Under</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('11)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue"></span> <a href="race/milano-sanremo/2016/result">Milano-Sanremo</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/itzulia-basque-country/2014/stage-5">Vuelta Ciclista al País Vasco</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('14)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-de-romandie/2011/stage-5">Tour de Romandie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('11)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-of-california/2011/stage-2">Amgen Tour of California</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('11)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/settimana-internazionale-coppi-e-bartali/2015/stage-2">Settimana Internazionale Coppi e Bartali</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('15, '14)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/settimana-internazionale-coppi-e-bartali/2014/stage-1a">Settimana Internazionale Coppi e Bartali</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('15, '14)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/milano-sanremo/2014/result">Milano-Sanremo</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('14)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue"></span> <a href="race/ncgreat-britain/2021/result">National Championships Great Britain  - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21, '19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue"></span> <a href="race/ride-london-classic/2014/result">Prudential RideLondon-Surrey Classic</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('14)</span></div></li>
@@ -205,6 +217,7 @@
 <div class=""><div class="">No races on program.</div></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="tabsV3" style=" "><li class="cur"><a class="toggleDiscipline" data-discipline="road" data-rid="140501" data-season="2023" href="">road</a><span></span></li><li class=""><a class="toggleDiscipline" data-discipline="cx" data-rid="1032198" data-season="2004" href="">cross</a><span></span></li></ul><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2023" class=" "><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" "><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li><li data-season="2012" class=" "><a class="seasonResults" data-season="2012" href="">2012</a></li><li data-season="2011" class=" "><a class="seasonResults" data-season="2011" href="">2011</a></li><li data-season="2010" class=" "><a class="seasonResults" data-season="2010" href="">2010</a></li><li data-season="2009" class=" "><a class="seasonResults" data-season="2009" href="">2009</a></li><li data-season="2008" class=" "><a class="seasonResults" data-season="2008" href="">2008</a></li><li data-season="2007" class=" "><a class="seasonResults" data-season="2007" href="">2007</a></li><li data-season="2006" class=" "><a class="seasonResults" data-season="2006" href="">2006</a></li><li data-season="2005" class=" "><a class="seasonResults" data-season="2005" href="">2005</a></li></ul></li></ul><ul class="rdrSeasonNav hide" data-discipline="cx"><li data-season="2004" class=""><a class="seasonResults" data-season="2004" href="">03/04</a></li><li class="more hide "><span>more</span><ul><li data-season="2004" class=" hide"><a class="seasonResults" data-season="2004" href="">03/04</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>21.06</td><td>DNS</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag gb"></span><a href="race/nc-great-britain-itt/2023/result">National Championships Great Britain ME - ITT <span>(NC)</span></a> </td><td class="cu600">41.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/nc-great-britain-itt">more</a></td></tr>
 <tr data-main="1"><td>06.05 &raquo; 28.05</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2023/gc">Giro d'Italia <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/giro-d-italia">more</a></td></tr>
 <tr data-main="0"><td></td><td>61</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">20</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/giro-d-italia">more</a></td></tr>
 <tr data-main="0"><td>28.05</td><td>124</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-d-italia/2023/stage-21">Stage 21 - Roma &rsaquo; Roma</a> </td><td class="cu600">126</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/giro-d-italia">more</a></td></tr>
@@ -236,7 +249,7 @@
 <tr data-main="0"><td>18.04</td><td>104</td><td class="gc cu600">102</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/tour-of-the-alps/2023/stage-2">Stage 2 - Reith im Alpbachtal &rsaquo; Ritten</a> </td><td class="cu600">165.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/tour-of-the-alps">more</a></td></tr>
 <tr data-main="0"><td>17.04</td><td>102</td><td class="gc cu600">102</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/tour-of-the-alps/2023/stage-1">Stage 1 - Rattenberg &rsaquo; Alpbach</a> </td><td class="cu600">127.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/tour-of-the-alps">more</a></td></tr>
 <tr data-main="1"><td>18.03</td><td>73</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/milano-sanremo/2023/result">Milano-Sanremo <span>(1.UWT)</span></a> </td><td class="cu600">294</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/milano-sanremo">more</a></td></tr>
-<tr data-main="1"><td>05.03 &raquo; 12.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/gc">Paris-Nice <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/paris-nice">more</a></td></tr>
+<tr data-main="1"><td>05.03 &raquo; 12.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/gc">Paris - Nice <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/paris-nice">more</a></td></tr>
 <tr data-main="0"><td></td><td>59</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/paris-nice">more</a></td></tr>
 <tr data-main="0"><td>12.03</td><td>55</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/stage-8">Stage 8 - Nice &rsaquo; Nice</a> </td><td class="cu600">117.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/paris-nice">more</a></td></tr>
 <tr data-main="0"><td>11.03</td><td>45</td><td class="gc cu600">66</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/stage-7">Stage 7 - Nice &rsaquo; Col de la Couillole</a> </td><td class="cu600">142.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/ben-swift/paris-nice">more</a></td></tr>
@@ -273,8 +286,8 @@
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 6.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">58</span></div></td><td class="ac  " >476</td></tr>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 12%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">112</span></div></td><td class="ac  " >425</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 6.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">58</span></div></td><td class="ac  " >514</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 12%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">112</span></div></td><td class="ac  " >427</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 11.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">108</span></div></td><td class="ac  " >439</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 25.3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">236</span></div></td><td class="ac  " >144</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 22.4%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">209</span></div></td><td class="ac  " >306</td></tr>
@@ -426,7 +439,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1835s</span></li>
+<li><span>Pageload 0.2202s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>

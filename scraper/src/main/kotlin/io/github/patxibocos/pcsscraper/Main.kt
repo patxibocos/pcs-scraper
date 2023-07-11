@@ -10,6 +10,8 @@ import io.github.patxibocos.pcsscraper.scraper.PCSTeamsScraper
 import io.github.patxibocos.pcsscraper.scraper.RacesScraper
 import io.github.patxibocos.pcsscraper.scraper.RidersScraper
 import io.github.patxibocos.pcsscraper.scraper.TeamsScraper
+import io.github.patxibocos.pcsscraper.scraper.riderIdMapper
+import io.github.patxibocos.pcsscraper.scraper.teamIdMapper
 import kotlinx.cli.ArgParser
 import kotlinx.cli.ArgType
 import kotlinx.cli.default
@@ -44,19 +46,12 @@ fun main(args: Array<String>) {
         val data = async {
             val teams = teamsScraper.scrapeTeams(season = season)
             val riders = ridersScraper.scrapeRiders(season = season)
-            val teamIdMapper = { teamId: String ->
-                when {
-                    teams.map { it.id }.contains(teamId) -> teamId
-                    teamId == "team-dsm-2023" -> "team-dsm-firmenich-2023"
-                    teamId == "trek-segafredo-2023" -> "lidl-trek-2023"
-                    teamId == "team-corratec-2023" -> "team-corratec-selle-italia-2023"
-                    teamId == "unisa-australia-2023" -> null
-                    teamId == "switzerland-2023" -> null
-                    teamId == "poland-2023" -> null
-                    else -> throw IllegalArgumentException("Unexpected team id: $teamId")
-                }
-            }
-            val races = racesScraper.scrapeRaces(season = season, teamIdMapper = teamIdMapper)
+            val races =
+                racesScraper.scrapeRaces(
+                    season = season,
+                    teamIdMapper = teamIdMapper(teams),
+                    riderIdMapper = riderIdMapper(riders),
+                )
             Triple(teams, riders, races)
         }
 
@@ -88,7 +83,7 @@ private fun getAppArgs(args: Array<String>): AppArgs {
     val cachePath by parser.option(ArgType.String, shortName = "c", description = "Cache path")
     val destination by parser.option(ArgType.String, shortName = "d", description = "Destination path").default("out")
     val formats by parser.option(
-        ArgType.Choice(Format.values().map { it.name.lowercase() }, { it }),
+        ArgType.Choice(Format.entries.map { it.name.lowercase() }, { it }),
         shortName = "f",
         description = "Output file format",
     ).required().multiple()

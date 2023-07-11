@@ -116,20 +116,6 @@ internal class SQLiteExporter(destination: File) : Exporter {
         }
     }
 
-    private object DbRaceRiderResult :
-        DbTable<Race.ParticipantResult>(name = "race_rider_result") {
-        val raceId = text("race_id") references DbRace.id
-        private val riderId = text("rider_id") references DbRider.id
-        private val position = integer("position")
-        private val time = long("time")
-
-        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.ParticipantResult) {
-            insertStatement[riderId] = t.participant
-            insertStatement[position] = t.position
-            insertStatement[time] = t.time
-        }
-    }
-
     private object DbStage : DbTable<Race.Stage>(name = "stage") {
         val id = text("id")
         private val startDateTime = text("start_date_time")
@@ -167,29 +153,16 @@ internal class SQLiteExporter(destination: File) : Exporter {
         }
     }
 
-    private object DbStageParticipantResult :
-        DbTable<Race.ParticipantResult>(name = "stage_rider_result") {
+    private object DbStageResult :
+        DbTable<Race.ParticipantResultTime>(name = "stage_result") {
+        val phase = text("phase")
         val stageId = text("stage_id") references DbStage.id
         private val participantId = text("participant_id") // It can be either a rider or a team (for team time trials)
         private val position = integer("position")
         private val time = long("time")
 
-        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.ParticipantResult) {
+        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.ParticipantResultTime) {
             insertStatement[participantId] = t.participant
-            insertStatement[position] = t.position
-            insertStatement[time] = t.time
-        }
-    }
-
-    private object DbStageGcRiderResult :
-        DbTable<Race.ParticipantResult>(name = "stage_gc_rider_gc_result") {
-        val stageId = text("stage_id") references DbStage.id
-        private val riderId = text("rider_id") references DbRider.id
-        private val position = integer("position")
-        private val time = long("time")
-
-        override fun fillInsertStatement(insertStatement: InsertStatement<Number>, t: Race.ParticipantResult) {
-            insertStatement[riderId] = t.participant
             insertStatement[position] = t.position
             insertStatement[time] = t.time
         }
@@ -200,9 +173,6 @@ internal class SQLiteExporter(destination: File) : Exporter {
         connectToDbAndInsert(DbTeam, teams)
         connectToDbAndInsert(DbRace, races)
         races.forEach { race ->
-            connectToDbAndInsert(DbRaceRiderResult, race.result) {
-                it[DbRaceRiderResult.raceId] = race.id
-            }
             connectToDbAndInsert(DbStage, race.stages) {
                 it[DbStage.raceId] = race.id
             }
@@ -213,12 +183,30 @@ internal class SQLiteExporter(destination: File) : Exporter {
                 }
             }
             race.stages.forEach { stage ->
-                connectToDbAndInsert(DbStageParticipantResult, stage.result) {
-                    it[DbStageParticipantResult.stageId] = stage.id
+                connectToDbAndInsert(DbStageResult, stage.stageResults.time) {
+                    it[DbStageResult.stageId] = stage.id
+                    it[DbStageResult.phase] = "stage"
                 }
-                connectToDbAndInsert(DbStageGcRiderResult, stage.gcResult) {
-                    it[DbStageGcRiderResult.stageId] = stage.id
+//                connectToDbAndInsert(DbStageResult, stage.stageResults.generalTime) {
+//                    it[DbStageResult.stageId] = stage.id
+//                    it[DbStageResult.phase] = "gc"
+//                }
+                connectToDbAndInsert(DbStageResult, stage.stageResults.youth) {
+                    it[DbStageResult.stageId] = stage.id
+                    it[DbStageResult.phase] = "youth"
                 }
+                connectToDbAndInsert(DbStageResult, stage.stageResults.teams) {
+                    it[DbStageResult.stageId] = stage.id
+                    it[DbStageResult.phase] = "teams"
+                }
+//                connectToDbAndInsert(DbStageResult, stage.results.kom) {
+//                    it[DbStageResult.stageId] = stage.id
+//                    it[DbStageResult.phase] = "kom"
+//                }
+//                connectToDbAndInsert(DbStageResult, stage.results.points) {
+//                    it[DbStageResult.stageId] = stage.id
+//                    it[DbStageResult.phase] = "points"
+//                }
             }
         }
     }

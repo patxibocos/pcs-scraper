@@ -45,7 +45,6 @@ data class PCSRace(
     val website: String?,
     val stages: List<PCSStage>,
     val startList: List<PCSTeamParticipation>,
-    val result: List<PCSParticipantResult>,
 )
 
 data class PCSTeamParticipation(
@@ -68,12 +67,29 @@ data class PCSStage(
     val teamTimeTrial: Boolean,
     val departure: String?,
     val arrival: String?,
-    val result: List<PCSParticipantResult>,
-    val gcResult: List<PCSParticipantResult>,
+    val stageTimeResult: List<PCSParticipantResult>,
+    val stageYouthResult: List<PCSParticipantResult>,
+    val stageTeamsResult: List<PCSParticipantResult>,
+    val stageKomResult: List<PCSPlaceResult>,
+    val stagePointsResult: List<PCSPlaceResult>,
+    val generalTimeResult: List<PCSParticipantResult>,
+    val generalYouthResult: List<PCSParticipantResult>,
+    val generalTeamsResult: List<PCSParticipantResult>,
+    val generalKomResult: List<PCSParticipantResult>,
+    val generalPointsResult: List<PCSParticipantResult>,
 )
 
-class PCSParticipantResult(
+data class PCSParticipantResult(
     val position: String,
     val participant: String,
-    val time: String,
+    val result: String,
+)
+
+data class PCSPlaceResult(
+    val place: PointsPlace,
+    val result: List<PCSParticipantResult>,
+)
+
+data class PointsPlace(
+    val title: String,
 )

@@ -34,9 +34,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a182.css" />
-	
-<script src="https://www.procyclingstats.com/pcs_s72.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b152.css" />
+<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -72,11 +72,15 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/team-dsm-2023">Team DSM</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
+<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
+<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
+<li><a href="team/team-dsm-2023">Team DSM</a></li>
 <li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
 <li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
 <li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
 <li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
@@ -86,10 +90,6 @@
 <li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
 <li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,6 +98,14 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
+<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
+<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
+<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
+<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
+<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
+</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
@@ -118,6 +126,7 @@
 <div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/harry-sweeny">Overview</a></li>
 <li class="reg "><a class="" href="rider/harry-sweeny/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/harry-sweeny/statistics/overview">Overview</a></li>
 <li><a href="rider/harry-sweeny/statistics/season-statistics">Statistics by season</a></li>
+<li><a href="rider/harry-sweeny/statistics/key-events">Key events</a></li>
 <li><a href="rider/harry-sweeny/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/harry-sweeny/statistics/wins">Wins</a></li>
 <li><a href="rider/harry-sweeny/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -137,35 +146,37 @@
 <li class="reg "><a class="" href="rider/harry-sweeny/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/harry-sweeny/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/harry-sweeny/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/harry-sweeny">More</a><ul><li data-n="0"><a href="rider/harry-sweeny/overview/overview">Overview - Overview</a></li><li data-n="1"><a href="rider/harry-sweeny/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/harry-sweeny/statistics/overview">Overview</a></li>
+<li class="more"><a href="rider/harry-sweeny">More</a><ul><li data-n="1"><a href="rider/harry-sweeny/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/harry-sweeny/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/harry-sweeny/statistics/overview">Overview</a></li>
 <li data-n="1"><a href="rider/harry-sweeny/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/harry-sweeny/statistics/key-events">Key events</a></li>
 <li data-n="1"><a href="rider/harry-sweeny/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li data-n="1"><a href="rider/harry-sweeny/statistics/wins">Wins</a></li>
 <li data-n="1"><a href="rider/harry-sweeny/statistics/most-starts-by-race">Most starts by race</a></li>
 <li data-n="1"><a href="rider/harry-sweeny/statistics/grand-tour-starts">Starts and results</a></li>
 <li data-n="1"><a href="rider/harry-sweeny/statistics/injury-history">Injury history</a></li>
-<li data-n="2"><a href="rider/harry-sweeny/results/results">Results - Results</a></li><li data-n="3"><a href="rider/harry-sweeny/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="4"><a href="rider/harry-sweeny/calendar/calendar">Calendar - Calendar</a></li><li data-n="5"><a href="rider/harry-sweeny/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/harry-sweeny/contribute/contribute-info">Contribute info</a></li>
+<li data-n="3"><a href="rider/harry-sweeny/results/results">Results - Results</a></li><li data-n="4"><a href="rider/harry-sweeny/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/harry-sweeny/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/harry-sweeny/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/harry-sweeny/contribute/contribute-info">Contribute info</a></li>
 <li data-n="5"><a href="rider/harry-sweeny/contribute/submit-program">Submit program</a></li>
 <li data-n="5"><a href="rider/harry-sweeny/contribute/report">Report</a></li>
 <li data-n="5"><a href="rider/harry-sweeny/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
 <li data-n="5"><a href="rider/harry-sweeny/contribute/contribute-family">Family</a></li>
 <li data-n="5"><a href="rider/harry-sweeny/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="6"><a href="rider/harry-sweeny/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/harry-sweeny/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="7"><a href="rider/harry-sweeny/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/harry-sweeny/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/harry-sweeny/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag au w32"></span><span class="flag au w24"></span><h1 class="">Harry  Sweeny</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Lotto Dstny</span></div><div class="sub"><span class="red showIfMobile">Lotto Dstny</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<div class="text-regular"><span>LIVE</span> <a class="blue" href="race/dauphine/2023/stage-8/live/livestats">Critérium du Dauphiné | Stage 8</a></div>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/harry-sweeny/statistics/overview"><img alt="Profile photo of Harry  Sweeny" src="images/riders/bp/ae/harry-sweeny-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 9<sup>th</sup> July 1998 (24)<br /><b>Nationality:</b> <span class="flag  au"></span><a class="black" href="nation/australia">Australia</a><br /><span><b>Weight:</b> 75 kg &nbsp; <span><b>Height:</b> 1.86 m<br /><b>Place of birth:</b> <a href="location/warwick3">Warwick</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 42.995169082126%; height: 100%;  "></div></div><div class="pnt">89</div><div class="title"><a href="rider/harry-sweeny/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 46.859903381643%; height: 100%;  "></div></div><div class="pnt">97</div><div class="title"><a href="rider/harry-sweeny/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 33.333333333333%; height: 100%;  "></div></div><div class="pnt">69</div><div class="title"><a href="rider/harry-sweeny/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 30.434782608696%; height: 100%;  "></div></div><div class="pnt">63</div><div class="title"><a href="rider/harry-sweeny/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">207</div><div class="title"><a href="rider/harry-sweeny/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/harry-sweeny/statistics/overview"><img alt="Profile photo of Harry  Sweeny" src="images/riders/bp/ae/harry-sweeny-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 9<sup>th</sup> July 1998 (25)<br /><b>Nationality:</b> <span class="flag  au"></span><a class="black" href="nation/australia">Australia</a><br /><span><b>Weight:</b> 75 kg &nbsp; <span><b>Height:</b> 1.86 m<br /><b>Place of birth:</b> <a href="location/warwick3">Warwick</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 42.995169082126%; height: 100%;  "></div></div><div class="pnt">89</div><div class="title"><a href="rider/harry-sweeny/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 49.275362318841%; height: 100%;  "></div></div><div class="pnt">102</div><div class="title"><a href="rider/harry-sweeny/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 33.333333333333%; height: 100%;  "></div></div><div class="pnt">69</div><div class="title"><a href="rider/harry-sweeny/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 30.434782608696%; height: 100%;  "></div></div><div class="pnt">63</div><div class="title"><a href="rider/harry-sweeny/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">207</div><div class="title"><a href="rider/harry-sweeny/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""><ul class="list horizontal fs14 circle bluelink"></ul></div>
+<div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="http://www.twitter.com/harry_sweeny ">twitter</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/743112">strava</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/harry.sweeny/">instagram</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/harry.sweeny">facebook</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >734</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >507</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >685</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >520</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;887</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;69</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/piccolo-giro-di-lombardia/2020/result">Il Piccolo Lombardia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-france/2021/stage-12">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
@@ -173,8 +184,8 @@
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-l-ain/2022/stage-3">Tour de l'Ain</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue">stage</span> <a href="race/vuelta-a-espana/2022/stage-7">La Vuelta ciclista a España</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/giro-della-regione-friuli-venezia-giulia/2020/stage-4">Giro della Regione Friuli Venezia Giulia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-langkawi/2018/stage-3">Le Tour de Langkawi</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-langkawi/2018/gc">Le Tour de Langkawi</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-langkawi/2018/stage-3">Tour de Langkawi</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-langkawi/2018/gc">Tour de Langkawi</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">6th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-romandie/2023/stage-2">Tour de Romandie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue"></span> <a href="race/deia-trophy/2023/result">Trofeo Serra de Tramuntana (Lloseta - Deia)</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">6th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-hainan/2018/stage-9">Tour of Hainan</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
@@ -198,7 +209,7 @@
 <tr data-main="0"><td></td><td>9</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-8-youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/dauphine">more</a></td></tr>
 <tr data-main="0"><td></td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st7"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-8-kom">Mountains classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/dauphine">more</a></td></tr>
 <tr data-main="0"><td></td><td>46</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 ">10</td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/dauphine">more</a></td></tr>
-<tr data-main="0"><td>11.06</td><td>41</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-8">Stage 8 - Le Pont-de-Claix &rsaquo; La Bastille – Grenoble Alpes Métropole</a> </td><td class="cu600"><s>152.8</s> 152.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/dauphine">more</a></td></tr>
+<tr data-main="0"><td>11.06</td><td>41</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-8">Stage 8 - Le Pont-de-Claix &rsaquo; La Bastille – Grenoble Alpes Métropole</a> </td><td class="cu600">152.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/dauphine">more</a></td></tr>
 <tr data-main="0"><td>10.06</td><td>87</td><td class="gc cu600">55</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-7">Stage 7 - Porte-de-Savoie &rsaquo; Col de la Croix de Fer</a> </td><td class="cu600">147.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/dauphine">more</a></td></tr>
 <tr data-main="0"><td>09.06</td><td>65</td><td class="gc cu600">44</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-6">Stage 6 - Nantua &rsaquo; Crest-Voland</a> </td><td class="cu600">170.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/dauphine">more</a></td></tr>
 <tr data-main="0"><td>08.06</td><td>40</td><td class="gc cu600">36</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-5">Stage 5 - Cormoranche-sur-Saône &rsaquo; Salins-les-Bains</a> </td><td class="cu600">191.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/dauphine">more</a></td></tr>
@@ -225,7 +236,7 @@
 <tr data-main="1"><td>19.04</td><td>123</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/la-fleche-wallone/2023/result">La Flèche Wallonne <span>(1.UWT)</span></a> </td><td class="cu600">194.3</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/la-fleche-wallone">more</a></td></tr>
 <tr data-main="1"><td>16.04</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag nl"></span><a href="race/amstel-gold-race/2023/result">Amstel Gold Race <span>(1.UWT)</span></a> </td><td class="cu600">253.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/amstel-gold-race">more</a></td></tr>
 <tr data-main="1"><td>01.04</td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/gp-miguel-indurain/2023/result">Gran Premio Miguel Indurain <span>(1.Pro)</span></a> </td><td class="cu600">203.2</td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/gp-miguel-indurain">more</a></td></tr>
-<tr data-main="1"><td>05.03 &raquo; 12.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/stage-8-youth">Paris-Nice <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/paris-nice">more</a></td></tr>
+<tr data-main="1"><td>05.03 &raquo; 12.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/stage-8-youth">Paris - Nice <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/paris-nice">more</a></td></tr>
 <tr data-main="0"><td></td><td>12</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/stage-8-youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/paris-nice">more</a></td></tr>
 <tr data-main="0"><td></td><td>62</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/paris-nice">more</a></td></tr>
 <tr data-main="0"><td>12.03</td><td>66</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-nice/2023/stage-8">Stage 8 - Nice &rsaquo; Nice</a> </td><td class="cu600">117.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/harry-sweeny/paris-nice">more</a></td></tr>
@@ -250,8 +261,8 @@
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 46.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">60</span></div></td><td class="ac  " >470</td></tr>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 42.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">55</span></div></td><td class="ac  " >691</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 46.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">60</span></div></td><td class="ac  " >508</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 42.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">55</span></div></td><td class="ac  " >686</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">103</span></div></td><td class="ac  " >451</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 13.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">17</span></div></td><td class="ac  " >932</td></tr>
 <tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 10.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">13</span></div></td><td class="ac  " >1583</td></tr>
@@ -389,7 +400,7 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1045s</span></li>
+<li><span>Pageload 0.1097s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
