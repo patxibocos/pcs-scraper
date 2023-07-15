@@ -236,7 +236,7 @@ class PCSRacesScraper(
             // Some results sometimes miss points/time, so we just skip them
             return emptyList()
         }
-        val result = table.findAll("tbody > tr".plus(if (isTTT) ".team" else "")).map {
+        return table.findAll("tbody > tr".plus(if (isTTT) ".team" else "")).map {
             val position = it.td { findByIndex(positionColumnIndex) }.ownText
             val rider = it.td { findByIndex(riderColumnIndex) }.a { findFirst { attribute("href") } }
             val timeOrPoints = it.td { findByIndex(timeOrPointsColumnIndex) }.ownText.ifEmpty {
@@ -251,9 +251,6 @@ class PCSRacesScraper(
                 result = timeOrPoints,
             )
         }
-        return result.takeIf {
-            it.size >= 3
-        } ?: emptyList()
     }
 
     private fun pcsRaceToRace(
@@ -415,13 +412,15 @@ class PCSRacesScraper(
             pcsParticipantResultToTeamResult(pcsStage.stageTimeResult, teamIdMapper)
         } else {
             pcsParticipantResultToRiderResultTime(pcsStage.stageTimeResult, riderIdMapper)
-        }
+        }.takeIf { it.size >= 3 }.orEmpty()
         val distance = pcsStage.distance.split(" ").first().toFloat()
         val stageYouthResult = pcsParticipantResultToRiderResultTime(pcsStage.stageYouthResult, riderIdMapper)
         val stageTeamsResult = pcsParticipantResultToRiderResultTime(pcsStage.stageTeamsResult, teamIdMapper)
         val stageKomResult = pcsPlaceResultToPlaceResult(pcsStage.stageKomResult, distance, riderIdMapper)
         val stagePointsResult = pcsPlaceResultToPlaceResult(pcsStage.stagePointsResult, distance, riderIdMapper)
-        val generalTimeResult = pcsParticipantResultToRiderResultTime(pcsStage.generalTimeResult, riderIdMapper)
+        val generalTimeResult =
+            pcsParticipantResultToRiderResultTime(pcsStage.generalTimeResult, riderIdMapper).takeIf { it.size >= 3 }
+                .orEmpty()
         val generalYouthResult = pcsParticipantResultToRiderResultTime(pcsStage.generalYouthResult, riderIdMapper)
         val generalTeamsResult = pcsParticipantResultToRiderResultTime(pcsStage.generalTeamsResult, teamIdMapper)
         val generalKomResult = pcsParticipantResultToRiderResultPoints(pcsStage.generalKomResult, riderIdMapper)
