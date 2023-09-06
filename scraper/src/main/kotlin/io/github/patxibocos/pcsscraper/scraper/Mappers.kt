@@ -3,7 +3,7 @@ package io.github.patxibocos.pcsscraper.scraper
 import io.github.patxibocos.pcsscraper.entity.Rider
 import io.github.patxibocos.pcsscraper.entity.Team
 
-fun teamIdMapper(teams: List<Team>) = { teamId: String ->
+fun teamIdMapper(teams: List<Team>): (String) -> String? = { teamId: String ->
     when {
         teams.map { it.id }.contains(teamId) -> teamId
         teamId == "team-dsm-2023" -> "team-dsm-firmenich-2023"
@@ -12,10 +12,11 @@ fun teamIdMapper(teams: List<Team>) = { teamId: String ->
         teamId == "unisa-australia-2023" -> null
         teamId == "switzerland-2023" -> null
         teamId == "poland-2023" -> null
+        teamId == "canada-2023" -> null
         else -> throw IllegalArgumentException("Unexpected team id: $teamId")
     }
 }
 
-fun riderIdMapper(riders: List<Rider>) = { riderId: String ->
+fun riderIdMapper(riders: List<Rider>): (String) -> String? = { riderId: String ->
     riderId.takeIf { riders.map { rider -> rider.id }.contains(it) }
 }
