@@ -13,6 +13,7 @@ fun teamIdMapper(teams: List<Team>): (String) -> String? = { teamId: String ->
         teamId == "switzerland-2023" -> null
         teamId == "poland-2023" -> null
         teamId == "canada-2023" -> null
+        teamId == "china-2023" -> null
         else -> throw IllegalArgumentException("Unexpected team id: $teamId")
     }
 }
