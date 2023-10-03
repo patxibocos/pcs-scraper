@@ -25,6 +25,12 @@
 <title>Natnael  Tesfatsion </title>
 <base href="https://www.procyclingstats.com/rider.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/rider/natnael-tesfatsion" />
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Natnael Tesfatsion (born 1999-05-23 in Asmara) is a professional road racing cyclist from Eritrea, currently riding for Trek - Segafredo. His best results are 2 wins in GC Tour du Rwanda and winning a stage in Adriatica Ionica Race / Sulle Rotte della Sereniss.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b156.css" />
-<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
+<script src="https://www.procyclingstats.com/pcs_s79.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -48,7 +54,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
+    	<a  class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
@@ -58,38 +65,38 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,21 +105,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
-<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -163,19 +162,21 @@
 <li data-n="7"><a href="rider/natnael-tesfatsion/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/natnael-tesfatsion/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/natnael-tesfatsion/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag er w32"></span><span class="flag er w24"></span><h1 class="">Natnael  Tesfatsion</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Lidl - Trek</span></div><div class="sub"><span class="red showIfMobile">Lidl - Trek</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"></ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/natnael-tesfatsion/statistics/overview"><img alt="Profile photo of Natnael  Tesfatsion" src="images/riders/bp/cc/natnael-tesfatsion-2023.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 23<sup>rd</sup> May 1999 (24)<br /><b>Nationality:</b> <span class="flag  er"></span><a class="black" href="nation/eritrea">Eritrea</a><br /><span><b>Weight:</b> 60 kg &nbsp; <span><b>Height:</b> 1.75 m<br /><b>Place of birth:</b> <a href="location/asmara">Asmara</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 44.609164420485%; height: 100%;  "></div></div><div class="pnt">331</div><div class="title"><a href="rider/natnael-tesfatsion/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 65.498652291105%; height: 100%;  "></div></div><div class="pnt">486</div><div class="title"><a href="rider/natnael-tesfatsion/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0.67385444743935%; height: 100%;  "></div></div><div class="pnt">5</div><div class="title"><a href="rider/natnael-tesfatsion/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 25.876010781671%; height: 100%;  "></div></div><div class="pnt">192</div><div class="title"><a href="rider/natnael-tesfatsion/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">742</div><div class="title"><a href="rider/natnael-tesfatsion/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="race/tre-valli-varesine/2023/result/live">LiveStats Tre Valli Varesine</a></li>
+<li><a   class="" href="rider-in-race/natnael-tesfatsion/tre-valli-varesine">Rider statistics in Tre Valli Varesine</a></li>
+</ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/natnael-tesfatsion/statistics/overview"><img alt="Profile photo of Natnael  Tesfatsion" src="images/riders/bp/cc/natnael-tesfatsion-2023-n2.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 23<sup>rd</sup> May 1999 (24)<br /><b>Nationality:</b> <span class="flag  er"></span><a class="black" href="nation/eritrea">Eritrea</a><br /><span><b>Weight:</b> 60 kg &nbsp; <span><b>Height:</b> 1.75 m<br /><b>Place of birth:</b> <a href="location/asmara">Asmara</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 43.324607329843%; height: 100%;  "></div></div><div class="pnt">331</div><div class="title"><a href="rider/natnael-tesfatsion/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 63.612565445026%; height: 100%;  "></div></div><div class="pnt">486</div><div class="title"><a href="rider/natnael-tesfatsion/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0.6544502617801%; height: 100%;  "></div></div><div class="pnt">5</div><div class="title"><a href="rider/natnael-tesfatsion/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 26.30890052356%; height: 100%;  "></div></div><div class="pnt">201</div><div class="title"><a href="rider/natnael-tesfatsion/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">764</div><div class="title"><a href="rider/natnael-tesfatsion/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/NATNAELTESFATS1">twitter</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/natnael_tesfazion/">instagram</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/natnael.tesfatsion.5">facebook</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://analytics.strava.com/pros/natnael-tesfatsion-90995462">strava</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >192</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >256</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >263</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >290</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;31</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;808</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;<span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-of-rwanda/2022/gc">Tour du Rwanda</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22, '20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/adriatica-ionica-race/2022/stage-2">Adriatica Ionica Race / Sulle Rotte della Sereniss</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
@@ -199,10 +200,32 @@
 <li class=" main " ><div class="season   "  >2019</div><div class="name   "  ><a    href="team/dimension-data-for-qhubeka-2019">Dimension Data for Qhubeka</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
-<div class=""><div class="">No races on program.</div></div>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >03.10</div><div class="ellipsis   "  ><span class="flag it"></span> <a    href="race/tre-valli-varesine/2023/startlist">Tre Valli Varesine</a></div><div class="fs10 blue   "  ><a    href="rider-in-race/natnael-tesfatsion/tre-valli-varesine">more</a></div><div class="clear"></div></li>
+</ul></span></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li class="more hide "><span>more</span><ul><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>03.10</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/tre-valli-varesine/2023/result">Tre Valli Varesine <span>(1.Pro)</span></a> </td><td class="cu600">196.54</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tre-valli-varesine">more</a></td></tr>
+<tr data-main="1"><td>02.10</td><td>46</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/coppa-bernocchi/2023/result">Coppa Bernocchi - GP Banco BPM <span>(1.Pro)</span></a> </td><td class="cu600">186.65</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/coppa-bernocchi">more</a></td></tr>
+<tr data-main="1"><td>30.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-dell-emilia/2023/result">Giro dell'Emilia <span>(1.Pro)</span></a> </td><td class="cu600">204.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/giro-dell-emilia">more</a></td></tr>
+<tr data-main="1"><td>20.09 &raquo; 24.09</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag lu"></span><a href="race/tour-de-luxembourg/2023/stage-5-youth">Škoda Tour Luxembourg <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tour-de-luxembourg">more</a></td></tr>
+<tr data-main="0"><td></td><td>16</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag lu"></span><a href="race/tour-de-luxembourg/2023/stage-5-youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tour-de-luxembourg">more</a></td></tr>
+<tr data-main="0"><td></td><td>36</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag lu"></span><a href="race/tour-de-luxembourg/2023/stage-5-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tour-de-luxembourg">more</a></td></tr>
+<tr data-main="0"><td></td><td>41</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag lu"></span><a href="race/tour-de-luxembourg/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tour-de-luxembourg">more</a></td></tr>
+<tr data-main="0"><td>24.09</td><td>7</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag lu"></span><a href="race/tour-de-luxembourg/2023/stage-5">Stage 5 - Mersch &rsaquo; Luxembourg</a> </td><td class="cu600">177.2</td><td class="cu600">2</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tour-de-luxembourg">more</a></td></tr>
+<tr data-main="0"><td>23.09</td><td>65</td><td class="gc cu600">48</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag lu"></span><a href="race/tour-de-luxembourg/2023/stage-4">Stage 4 (ITT) - Pétange &rsaquo; Pétange</a> </td><td class="cu600">23.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tour-de-luxembourg">more</a></td></tr>
+<tr data-main="0"><td>22.09</td><td>58</td><td class="gc cu600">47</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag lu"></span><a href="race/tour-de-luxembourg/2023/stage-3">Stage 3 - Mertert &rsaquo; Vianden</a> </td><td class="cu600">168.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tour-de-luxembourg">more</a></td></tr>
+<tr data-main="0"><td>21.09</td><td>64</td><td class="gc cu600">49</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag lu"></span><a href="race/tour-de-luxembourg/2023/stage-2">Stage 2 - Mondorf-les-Bains &rsaquo; Mamer</a> </td><td class="cu600">183.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tour-de-luxembourg">more</a></td></tr>
+<tr data-main="0"><td>20.09</td><td>50</td><td class="gc cu600">50</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag lu"></span><a href="race/tour-de-luxembourg/2023/stage-1">Stage 1 - Luxembourg &rsaquo; Luxembourg</a> </td><td class="cu600">156.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tour-de-luxembourg">more</a></td></tr>
+<tr data-main="1"><td>03.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/bretagne-classic/2023/result">Bretagne Classic - Ouest-France <span>(1.UWT)</span></a> </td><td class="cu600">258</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/bretagne-classic">more</a></td></tr>
+<tr data-main="1"><td>23.08 &raquo; 27.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2023/stage-4-youth">Deutschland Tour <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/deutschland-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>11</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2023/stage-4-youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/deutschland-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>44</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2023/stage-4-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/deutschland-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>30</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/deutschland-tour">more</a></td></tr>
+<tr data-main="0"><td>27.08</td><td>10</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2023/stage-4">Stage 4 - Hannover &rsaquo; Bremen</a> </td><td class="cu600">175.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/deutschland-tour">more</a></td></tr>
+<tr data-main="0"><td>26.08</td><td>51</td><td class="gc cu600">30</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2023/stage-3">Stage 3 - Arnsberg &rsaquo; Essen</a> </td><td class="cu600">173.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/deutschland-tour">more</a></td></tr>
+<tr data-main="0"><td>25.08</td><td>38</td><td class="gc cu600">35</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2023/stage-2">Stage 2 - Kassel &rsaquo; Winterberg</a> </td><td class="cu600">201.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/deutschland-tour">more</a></td></tr>
+<tr data-main="0"><td>24.08</td><td>22</td><td class="gc cu600">43</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2023/stage-1">Stage 1 - Sankt Wendel &rsaquo; Merzig</a> </td><td class="cu600">179</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/deutschland-tour">more</a></td></tr>
+<tr data-main="0"><td>23.08</td><td>91</td><td class="gc cu600">91</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag de"></span><a href="race/deutschland-tour/2023/prologue">Prologue - Sankt Wendel &rsaquo; Sankt Wendel</a> </td><td class="cu600">2.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/deutschland-tour">more</a></td></tr>
 <tr data-main="1"><td>25.06</td><td>7</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag er"></span><a href="race/nc-eritrea/2023/result">National Championships Eritrea ME - Road Race <span>(NC)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 ">20</td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/nc-eritrea">more</a></td></tr>
 <tr data-main="1"><td>04.06 &raquo; 11.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-6">Critérium du Dauphiné <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/dauphine">more</a></td></tr>
 <tr data-main="0"><td>09.06</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-6">Stage 6 - Nantua &rsaquo; Crest-Voland</a> </td><td class="cu600">170.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/dauphine">more</a></td></tr>
@@ -264,14 +287,14 @@
 <tr data-main="0"><td>18.01</td><td>42</td><td class="gc cu600">48</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="race/tour-down-under/2023/stage-1">Stage 1 - Tanunda &rsaquo; Tanunda</a> </td><td class="cu600">149.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tour-down-under">more</a></td></tr>
 <tr data-main="0"><td>17.01</td><td>52</td><td class="gc cu600">52</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag au"></span><a href="race/tour-down-under/2023/prologue">Prologue - Adelaide  &rsaquo; Adelaide </a> </td><td class="cu600">5.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/tour-down-under">more</a></td></tr>
 <tr data-main="1"><td>14.01</td><td>32</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="national-race/schwalbe-classic/2023/result">Schwalbe Classic <span>(NAT)</span></a> </td><td class="cu600">52.65</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/natnael-tesfatsion/schwalbe-classic">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>6658</b> km in <b>47</b> days | PCS points: <b>194</b> |  UCI points: <b>298</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>8616</b> km in <b>61</b> days | PCS points: <b>196</b> |  UCI points: <b>303</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >5</div><div class="title   "  ><a    href="rider/natnael-tesfatsion/statistics/wins">Wins</a></div><div class="info fs11   "  >GC (2)</div><div class="info fs11   "  >Oneday races (0)</div><div class="info fs11   "  >ITT (0)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >3</div><div class="title   "  ><a    href="rider/natnael-tesfatsion/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (0) giro (3) vuelta(0)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >1</div><div class="title   "  ><a    href="rider/natnael-tesfatsion/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(0)</div><div class="info fs11   "  >MSR(0)</div><div class="info fs11   "  >RVV(0)</div><div class="info fs11   "  >LBL(0)</div><div class="info fs11   "  >LOM(1)</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 34.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">194</span></div></td><td class="ac  " >207</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 34.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">196</span></div></td><td class="ac  " >293</td></tr>
 <tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">455</span></div></td><td class="ac  " >127</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 21.3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">121</span></div></td><td class="ac  " >397</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 41.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">234</span></div></td><td class="ac  " >146</td></tr>
@@ -410,15 +433,19 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0964s</span></li>
+<li><span>Pageload 0.0545s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list6.js"></script>  
+<script src="search_list7.js"></script>  
+
 		<script>
+
 		var riderid = 215383;		$(document).ready(function() { 	RVC(riderid);  	  });
+
 		</script>
+
 		

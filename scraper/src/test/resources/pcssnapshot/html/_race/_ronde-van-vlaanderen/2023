@@ -25,6 +25,12 @@
 <title>Ronde van Vlaanderen 2023</title>
 <base href="https://www.procyclingstats.com/race.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/race/ronde-van-vlaanderen/2023" />
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b156.css" />
-<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
+<script src="https://www.procyclingstats.com/pcs_s79.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -48,7 +54,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
+    	<a  class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
     		<input type="text" name="term" id="search" data-nav="/start" data-nav2="" data-page="race_event" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
@@ -58,38 +65,38 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,21 +105,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
-<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -124,7 +123,7 @@
 			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
 <div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/ronde-van-vlaanderen/2022/statistics/start" >2022</a><div ><form style="  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/ronde-van-vlaanderen/2024/statistics/start" >2024</option><option value="race/ronde-van-vlaanderen/2023/statistics/start" selected>2023</option><option value="race/ronde-van-vlaanderen/2022/statistics/start" >2022</option><option value="race/ronde-van-vlaanderen/2021/statistics/start" >2021</option><option value="race/ronde-van-vlaanderen/2020/statistics/start" >2020</option><option value="race/ronde-van-vlaanderen/2019/statistics/start" >2019</option><option value="race/ronde-van-vlaanderen/2018/statistics/start" >2018</option><option value="race/ronde-van-vlaanderen/2017/statistics/start" >2017</option><option value="race/ronde-van-vlaanderen/2016/statistics/start" >2016</option><option value="race/ronde-van-vlaanderen/2015/statistics/start" >2015</option><option value="race/ronde-van-vlaanderen/2014/statistics/start" >2014</option><option value="race/ronde-van-vlaanderen/2013/statistics/start" >2013</option><option value="race/ronde-van-vlaanderen/2012/statistics/start" >2012</option><option value="race/ronde-van-vlaanderen/2011/statistics/start" >2011</option><option value="race/ronde-van-vlaanderen/2010/statistics/start" >2010</option><option value="race/ronde-van-vlaanderen/2009/statistics/start" >2009</option><option value="race/ronde-van-vlaanderen/2008/statistics/start" >2008</option><option value="race/ronde-van-vlaanderen/2007/statistics/start" >2007</option><option value="race/ronde-van-vlaanderen/2006/statistics/start" >2006</option><option value="race/ronde-van-vlaanderen/2005/statistics/start" >2005</option><option value="race/ronde-van-vlaanderen/2004/statistics/start" >2004</option><option value="race/ronde-van-vlaanderen/2003/statistics/start" >2003</option><option value="race/ronde-van-vlaanderen/2002/statistics/start" >2002</option><option value="race/ronde-van-vlaanderen/2001/statistics/start" >2001</option><option value="race/ronde-van-vlaanderen/2000/statistics/start" >2000</option><option value="race/ronde-van-vlaanderen/1999/statistics/start" >1999</option><option value="race/ronde-van-vlaanderen/1998/statistics/start" >1998</option><option value="race/ronde-van-vlaanderen/1997/statistics/start" >1997</option><option value="race/ronde-van-vlaanderen/1996/statistics/start" >1996</option><option value="race/ronde-van-vlaanderen/1995/statistics/start" >1995</option><option value="race/ronde-van-vlaanderen/1994/statistics/start" >1994</option><option value="race/ronde-van-vlaanderen/1993/statistics/start" >1993</option><option value="race/ronde-van-vlaanderen/1992/statistics/start" >1992</option><option value="race/ronde-van-vlaanderen/1991/statistics/start" >1991</option><option value="race/ronde-van-vlaanderen/1990/statistics/start" >1990</option><option value="race/ronde-van-vlaanderen/1989/statistics/start" >1989</option><option value="race/ronde-van-vlaanderen/1988/statistics/start" >1988</option><option value="race/ronde-van-vlaanderen/1987/statistics/start" >1987</option><option value="race/ronde-van-vlaanderen/1986/statistics/start" >1986</option><option value="race/ronde-van-vlaanderen/1985/statistics/start" >1985</option><option value="race/ronde-van-vlaanderen/1984/statistics/start" >1984</option><option value="race/ronde-van-vlaanderen/1983/statistics/start" >1983</option><option value="race/ronde-van-vlaanderen/1982/statistics/start" >1982</option><option value="race/ronde-van-vlaanderen/1981/statistics/start" >1981</option><option value="race/ronde-van-vlaanderen/1980/statistics/start" >1980</option><option value="race/ronde-van-vlaanderen/1979/statistics/start" >1979</option><option value="race/ronde-van-vlaanderen/1978/statistics/start" >1978</option><option value="race/ronde-van-vlaanderen/1977/statistics/start" >1977</option><option value="race/ronde-van-vlaanderen/1976/statistics/start" >1976</option><option value="race/ronde-van-vlaanderen/1975/statistics/start" >1975</option><option value="race/ronde-van-vlaanderen/1974/statistics/start" >1974</option><option value="race/ronde-van-vlaanderen/1973/statistics/start" >1973</option><option value="race/ronde-van-vlaanderen/1972/statistics/start" >1972</option><option value="race/ronde-van-vlaanderen/1971/statistics/start" >1971</option><option value="race/ronde-van-vlaanderen/1970/statistics/start" >1970</option><option value="race/ronde-van-vlaanderen/1969/statistics/start" >1969</option><option value="race/ronde-van-vlaanderen/1968/statistics/start" >1968</option><option value="race/ronde-van-vlaanderen/1967/statistics/start" >1967</option><option value="race/ronde-van-vlaanderen/1966/statistics/start" >1966</option><option value="race/ronde-van-vlaanderen/1965/statistics/start" >1965</option><option value="race/ronde-van-vlaanderen/1964/statistics/start" >1964</option><option value="race/ronde-van-vlaanderen/1963/statistics/start" >1963</option><option value="race/ronde-van-vlaanderen/1962/statistics/start" >1962</option><option value="race/ronde-van-vlaanderen/1961/statistics/start" >1961</option><option value="race/ronde-van-vlaanderen/1960/statistics/start" >1960</option><option value="race/ronde-van-vlaanderen/1959/statistics/start" >1959</option><option value="race/ronde-van-vlaanderen/1958/statistics/start" >1958</option><option value="race/ronde-van-vlaanderen/1957/statistics/start" >1957</option><option value="race/ronde-van-vlaanderen/1956/statistics/start" >1956</option><option value="race/ronde-van-vlaanderen/1955/statistics/start" >1955</option><option value="race/ronde-van-vlaanderen/1954/statistics/start" >1954</option><option value="race/ronde-van-vlaanderen/1953/statistics/start" >1953</option><option value="race/ronde-van-vlaanderen/1952/statistics/start" >1952</option><option value="race/ronde-van-vlaanderen/1951/statistics/start" >1951</option><option value="race/ronde-van-vlaanderen/1950/statistics/start" >1950</option><option value="race/ronde-van-vlaanderen/1949/statistics/start" >1949</option><option value="race/ronde-van-vlaanderen/1948/statistics/start" >1948</option><option value="race/ronde-van-vlaanderen/1947/statistics/start" >1947</option><option value="race/ronde-van-vlaanderen/1946/statistics/start" >1946</option><option value="race/ronde-van-vlaanderen/1945/statistics/start" >1945</option><option value="race/ronde-van-vlaanderen/1944/statistics/start" >1944</option><option value="race/ronde-van-vlaanderen/1943/statistics/start" >1943</option><option value="race/ronde-van-vlaanderen/1942/statistics/start" >1942</option><option value="race/ronde-van-vlaanderen/1941/statistics/start" >1941</option><option value="race/ronde-van-vlaanderen/1940/statistics/start" >1940</option><option value="race/ronde-van-vlaanderen/1939/statistics/start" >1939</option><option value="race/ronde-van-vlaanderen/1938/statistics/start" >1938</option><option value="race/ronde-van-vlaanderen/1937/statistics/start" >1937</option><option value="race/ronde-van-vlaanderen/1936/statistics/start" >1936</option><option value="race/ronde-van-vlaanderen/1935/statistics/start" >1935</option><option value="race/ronde-van-vlaanderen/1934/statistics/start" >1934</option><option value="race/ronde-van-vlaanderen/1933/statistics/start" >1933</option><option value="race/ronde-van-vlaanderen/1932/statistics/start" >1932</option><option value="race/ronde-van-vlaanderen/1931/statistics/start" >1931</option><option value="race/ronde-van-vlaanderen/1930/statistics/start" >1930</option><option value="race/ronde-van-vlaanderen/1929/statistics/start" >1929</option><option value="race/ronde-van-vlaanderen/1928/statistics/start" >1928</option><option value="race/ronde-van-vlaanderen/1927/statistics/start" >1927</option><option value="race/ronde-van-vlaanderen/1926/statistics/start" >1926</option><option value="race/ronde-van-vlaanderen/1925/statistics/start" >1925</option><option value="race/ronde-van-vlaanderen/1924/statistics/start" >1924</option><option value="race/ronde-van-vlaanderen/1923/statistics/start" >1923</option><option value="race/ronde-van-vlaanderen/1922/statistics/start" >1922</option><option value="race/ronde-van-vlaanderen/1921/statistics/start" >1921</option><option value="race/ronde-van-vlaanderen/1920/statistics/start" >1920</option><option value="race/ronde-van-vlaanderen/1919/statistics/start" >1919</option><option value="race/ronde-van-vlaanderen/1914/statistics/start" >1914</option><option value="race/ronde-van-vlaanderen/1913/statistics/start" >1913</option></select></form></div><a  href="race/ronde-van-vlaanderen/2024/statistics/start" >2024</a></div><div class="pageSelectNav 1" ><div ><form style="  max-width: 220px; width: 100%;  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/ronde-van-vlaanderen/2023/" >- stage -</option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/ronde-van-vlaanderen/2023">Statistics</a></li>
-<li class="reg "><a style=" " href="/race/ronde-van-vlaanderen/2023">GO TO</a><ul><li><a href="race/ronde-van-vlaanderen/2023/result"> results</a></li></ul></li><li class="reg "><a class="" href="race/ronde-van-vlaanderen/2023/startlist">Startlist&#x25BC;</a><ul><li><a href="race/ronde-van-vlaanderen/2023/startlist/startlist">Startlist</a></li>
+<li class="reg "><a style=" " href="/race/ronde-van-vlaanderen/2023">GO TO</a><ul><li><a href="race/ronde-van-vlaanderen/2023/result"> results</a></li><li><a href="race/ronde-van-vlaanderen/2023/result">Results</a></li><li><a href="race/ronde-van-vlaanderen/2023/result/live">Live data</a></li></ul></li><li class="reg "><a class="" href="race/ronde-van-vlaanderen/2023/startlist">Startlist&#x25BC;</a><ul><li><a href="race/ronde-van-vlaanderen/2023/startlist/startlist">Startlist</a></li>
 <li><a href="race/ronde-van-vlaanderen/2023/startlist/top-competitors">Top competitors</a></li>
 <li><a href="race/ronde-van-vlaanderen/2023/startlist/startlist-quality">Startlist quality</a></li>
 <li><a href="race/ronde-van-vlaanderen/2023/startlist/debutants">Debutants</a></li>
@@ -185,15 +184,15 @@
 </ul></div>
 <div class="mt20"><h3>Top competitors</h3>
 <span class="table-cont"><ul class="list"  style="max-width: 550px;  "><li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 si"></span> </div><div ><a    href="rider/tadej-pogacar">POGAČAR Tadej</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/wout-van-aert">VAN AERT Wout</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 no"></span> </div><div ><a    href="rider/alexander-kristoff">KRISTOFF Alexander</a></div><div class="clear"></div></li>
 <li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 dk"></span> </div><div ><a    href="rider/mads-pedersen">PEDERSEN Mads</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 fr"></span> </div><div ><a    href="rider/christophe-laporte">LAPORTE Christophe</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 ch"></span> </div><div ><a    href="rider/stefan-kung">KÜNG Stefan</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/wout-van-aert">VAN AERT Wout</a></div><div class="clear"></div></li>
 <li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 nl"></span> </div><div ><a    href="rider/mathieu-van-der-poel">VAN DER POEL Mathieu</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 au"></span> </div><div ><a    href="rider/michael-matthews">MATTHEWS Michael</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 er"></span> </div><div ><a    href="rider/biniam-girmay">GIRMAY Biniam</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 si"></span> </div><div ><a    href="rider/matej-mohoric">MOHORIČ Matej</a></div><div class="clear"></div></li>
 <li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 us"></span> </div><div ><a    href="rider/neilson-powless">POWLESS Neilson</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 fr"></span> </div><div ><a    href="rider/christophe-laporte">LAPORTE Christophe</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 gb"></span> </div><div ><a    href="rider/thomas-pidcock">PIDCOCK Thomas</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/tim-merlier">MERLIER Tim</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 ch"></span> </div><div ><a    href="rider/stefan-kung">KÜNG Stefan</a></div><div class="clear"></div></li>
 </ul></span></div>
 <ul class="list horizontal"><li class="goto2 pr5" ><a   class="goto2 pr5" href="race/ronde-van-vlaanderen/2023/startlist">Startlist</a></li>
 <li class="goto2 pr5" ><a   class="goto2 pr5" href="race/ronde-van-vlaanderen/2023/startlist/top-competitors">Top riders</a></li>
@@ -214,7 +213,7 @@
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1360"></span></div><div class="fs14 pr5   "  ><a    href="team/team-dsm-2023">Team DSM</a></div><div class=" clr999 fs14   "  > (Eekhoff, Degenkolb)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1411"></span></div><div class="fs14 pr5   "  ><a    href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></div><div class=" clr999 fs14   "  > (van Poppel, Politt)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1375"></span></div><div class="fs14 pr5   "  ><a    href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></div><div class=" clr999 fs14   "  > (Gruzdev, Gidich)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1136"></span></div><div class="fs14 pr5   "  ><a    href="team/cofidis-2023">Cofidis</a></div><div class=" clr999 fs14   "  > (Walscheid, Allegaert)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1136"></span></div><div class="fs14 pr5   "  ><a    href="team/cofidis-2023">Cofidis</a></div><div class=" clr999 fs14   "  > (Zingle, Walscheid)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2738"></span></div><div class="fs14 pr5   "  ><a    href="team/israel-premier-tech-2023">Israel - Premier Tech</a></div><div class=" clr999 fs14   "  > (Vanmarcke, Teuns)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1293"></span></div><div class="fs14 pr5   "  ><a    href="team/q365-pro-cycing-team">Q36.5 Pro Cycling Team</a></div><div class=" clr999 fs14   "  > (Fedeli, Bauer)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1107"></span></div><div class="fs14 pr5   "  ><a    href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></div><div class=" clr999 fs14   "  > (McLay, Hofstetter)</div><div class="clear"></div></li>
@@ -222,8 +221,8 @@
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2040"></span></div><div class="fs14 pr5   "  ><a    href="team/movistar-team-2023">Movistar Team</a></div><div class=" clr999 fs14   "  > (Jorgenson, García Cortina)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1175"></span></div><div class="fs14 pr5   "  ><a    href="team/team-totalenergies-2023">TotalEnergies</a></div><div class=" clr999 fs14   "  > (Sagan, Boasson Hagen)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1482"></span></div><div class="fs14 pr5   "  ><a    href="team/bingoal-wb-2023">Bingoal WB</a></div><div class=" clr999 fs14   "  > (Van Keirsbulck, De Tier)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1453"></span></div><div class="fs14 pr5   "  ><a    href="team/team-flanders--baloise-2023">Team Flanders - Baloise</a></div><div class=" clr999 fs14   "  > (De Vylder, Braet)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1420"></span></div><div class="fs14 pr5   "  ><a    href="team/uno-x-pro-cycling-team-2023">Uno-X Pro Cycling Team</a></div><div class=" clr999 fs14   "  > (Kristoff, Halvorsen)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1453"></span></div><div class="fs14 pr5   "  ><a    href="team/team-flanders--baloise-2023">Team Flanders - Baloise</a></div><div class=" clr999 fs14   "  > (De Pestel, Braet)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1420"></span></div><div class="fs14 pr5   "  ><a    href="team/uno-x-pro-cycling-team-2023">Uno-X Pro Cycling Team</a></div><div class=" clr999 fs14   "  > (Tiller, Kristoff)</div><div class="clear"></div></li>
 </ul></span></div>
 </div>
 <div class="w48 left mb_w100 "   >
@@ -235,6 +234,7 @@
 <div class="mt20"><h3>Maps/profiles</h3>
 <span class="table-cont"><ul class="list"  style=" "><li class="" ><div ><a    href="race/ronde-van-vlaanderen/2023/result/route/profiles"><img src="images/profiles/ca/ae/ronde-van-vlaanderen-2023-result-profile.jpg" style="max-height: 400px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
 <li class="" ><div ><a    href="race/ronde-van-vlaanderen/2023/result/route/profiles"><img src="images/profiles/ap/ae/ronde-van-vlaanderen-2023-result-map-158ca417ef.jpeg" style="max-height: 400px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
+<li class="" ><div ><a    href="race/ronde-van-vlaanderen/2023/result/route/profiles"><img src="images/profiles/ca/ae/ronde-van-vlaanderen-2023-result-map-n2.jpg" style="max-height: 400px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
 </ul></span></div>
 </div>
 <div class="desktop-ad below-content race"></div><div class="mob-ad below-content race"></div></div><div style="clear: both; "></div>  
@@ -307,11 +307,11 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.2888s</span></li>
+<li><span>Pageload 0.0306s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="5223" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list6.js"></script>  
+<script src="search_list7.js"></script>  

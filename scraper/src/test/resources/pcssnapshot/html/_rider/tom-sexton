@@ -25,6 +25,12 @@
 <title>Tom  Sexton </title>
 <base href="https://www.procyclingstats.com/rider.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/rider/tom-sexton" />
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Tom Sexton (born 1998-11-19 in Invercargill) is a professional road racing cyclist from New Zealand, currently riding for Bolton Equities Black Spoke. His best results are winning a stage in Turul Romaniei and winning Oceania Continental Championships - ITT.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b156.css" />
-<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
+<script src="https://www.procyclingstats.com/pcs_s79.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -48,7 +54,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
+    	<a  class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
@@ -58,38 +65,38 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,21 +105,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
-<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -163,19 +162,18 @@
 <li data-n="7"><a href="rider/tom-sexton/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/tom-sexton/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/tom-sexton/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag nz w32"></span><span class="flag nz w24"></span><h1 class="">Tom  Sexton</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Bolton Equities Black Spoke</span></div><div class="sub"><span class="red showIfMobile">Bolton Equities Black Spoke</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="rider-in-race/tom-sexton/gp-cycliste-de-gemenc">Rider statistics in Gemenc GP</a></li>
-</ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/tom-sexton/statistics/overview"><img alt="Profile photo of Tom  Sexton" src="images/riders/bp/dc/tom-sexton-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 19<sup>th</sup> November 1998 (24)<br /><b>Nationality:</b> <span class="flag  nz"></span><a class="black" href="nation/new-zealand">New Zealand</a><br /><span><b>Weight:</b> 71 kg &nbsp; <span><b>Height:</b> 1.83 m<br /><b>Place of birth:</b> <a href="location/invercargill">Invercargill</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 71.851851851852%; height: 100%;  "></div></div><div class="pnt">97</div><div class="title"><a href="rider/tom-sexton/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 7.4074074074074%; height: 100%;  "></div></div><div class="pnt">10</div><div class="title"><a href="rider/tom-sexton/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 100%; height: 100%;  "></div></div><div class="pnt">135</div><div class="title"><a href="rider/tom-sexton/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 11.851851851852%; height: 100%;  "></div></div><div class="pnt">16</div><div class="title"><a href="rider/tom-sexton/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 2.2222222222222%; height: 100%;  "></div></div><div class="pnt">3</div><div class="title"><a href="rider/tom-sexton/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/tom-sexton/statistics/overview"><img alt="Profile photo of Tom  Sexton" src="images/riders/bp/dc/tom-sexton-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 19<sup>th</sup> November 1998 (24)<br /><b>Nationality:</b> <span class="flag  nz"></span><a class="black" href="nation/new-zealand">New Zealand</a><br /><span><b>Weight:</b> 71 kg &nbsp; <span><b>Height:</b> 1.83 m<br /><b>Place of birth:</b> <a href="location/invercargill">Invercargill</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 63.522012578616%; height: 100%;  "></div></div><div class="pnt">101</div><div class="title"><a href="rider/tom-sexton/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 16.352201257862%; height: 100%;  "></div></div><div class="pnt">26</div><div class="title"><a href="rider/tom-sexton/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 100%; height: 100%;  "></div></div><div class="pnt">159</div><div class="title"><a href="rider/tom-sexton/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 12.578616352201%; height: 100%;  "></div></div><div class="pnt">20</div><div class="title"><a href="rider/tom-sexton/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 1.8867924528302%; height: 100%;  "></div></div><div class="pnt">3</div><div class="title"><a href="rider/tom-sexton/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/Tom-sexton-350382448759063/">facebook</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/22533391?hl=fr-FR">strava</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/tom__sexton/">instagram</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >272</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >517</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >275</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >529</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;230</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;27</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/romanian-cycling-tour/2022/prologue">Turul Romaniei</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/oceania-continental-championships-itt/2023/result">Oceania Continental Championships - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
@@ -186,22 +184,40 @@
 <li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-new-zealand/2023/result">National championships New Zealand  - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">12th&nbsp;</div><div><span class="blue">GC</span> <a href="race/romanian-cycling-tour/2022/gc">Turul Romaniei</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-new-zealand-itt/2023/result">National Championships New Zealand  - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/gp-cycliste-de-gemenc/2023/stage-0">Gemenc Grand Prix</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">7th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-du-loir-et-cher/2023/stage-3">Tour du Loir et Cher</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">8th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-wellington/2021/stage-3">New Zealand Cycle Classic</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">9th&nbsp;</div><div><span class="blue">stage</span> <a href="race/international-tour-of-hellas/2023/prologue">International Tour of Hellas</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/bolton-equities-black-spoke-2024">Bolton Equities Black Spoke</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/bolton-equities-black-spoke-2024">Bolton Equities Black Spoke</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/bolton-equities-black-spoke-2023">Bolton Equities Black Spoke</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/bolton-equities-black-spoke-pro-cycling-2022">Bolton Equities Black Spoke Pro Cycling</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2021</div><div class="name   "  ><a    href="team/black-spoke-pro-cycling-academy-2021">Black Spoke Pro Cycling Academy</a></div><div > (CT)</div><div class="fs10   "  > as from 24/01</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
-<div class=""><div class="">No races on program.</div></div>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >05.10</div><div class="ellipsis   "  ><span class="flag cn"></span> <a    href="race/tour-of-hainan/2023/startlist">Tour of Hainan</a></div><div class="fs10 blue   "  ><a    href="rider-in-race/tom-sexton/tour-of-hainan">more</a></div><div class="clear"></div></li>
+</ul></span></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li class="more hide "><span>more</span><ul><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>14.07 &raquo; 16.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag hu"></span><a href="race/gp-cycliste-de-gemenc/2023/stage-1">Gemenc GP <span>(2.2)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/gp-cycliste-de-gemenc">more</a></td></tr>
+<tr data-main="1"><td>24.09</td><td>21</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/paris-chauny-classique/2023/result">Paris-Chauny <span>(1.1)</span></a> </td><td class="cu600">203.5</td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/paris-chauny-classique">more</a></td></tr>
+<tr data-main="1"><td>22.09</td><td>78</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="national-race/zwevezele-koers65/2023/result">Zwevezele Koers <span>(NAT)</span></a> </td><td class="cu600">153.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/zwevezele-koers65">more</a></td></tr>
+<tr data-main="1"><td>20.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/omloop-van-het-houtland-lichtervelde/2023/result">Omloop van het Houtland <span>(1.1)</span></a> </td><td class="cu600">195.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/omloop-van-het-houtland-lichtervelde">more</a></td></tr>
+<tr data-main="1"><td>17.09</td><td>36</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/gp-d-isbergues/2023/result">Grand Prix d'Isbergues - Pas de Calais <span>(1.1)</span></a> </td><td class="cu600">197.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/gp-d-isbergues">more</a></td></tr>
+<tr data-main="1"><td>15.09</td><td>17</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/kampioenschap-van-vlaanderen/2023/result">Kampioenschap van Vlaanderen <span>(1.1)</span></a> </td><td class="cu600">165.1</td><td class="cu600">4</td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/kampioenschap-van-vlaanderen">more</a></td></tr>
+<tr data-main="1"><td>12.09</td><td>7</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="national-race/memorial-briek-schotte/2023/result">Memorial Briek Schotte <span>(NAT)</span></a> </td><td class="cu600">155</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/memorial-briek-schotte">more</a></td></tr>
+<tr data-main="1"><td>22.08 &raquo; 25.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-4-points">Tour Poitou - Charentes en Nouvelle Aquitaine <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td></td><td>39</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-4-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td></td><td>9</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">16</td><td class="cu600 ">25</td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>25.08</td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-4">Stage 4 - Moncoutant &rsaquo; Poitiers</a> </td><td class="cu600">170.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>24.08</td><td>9</td><td class="gc cu600">10</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-3b">Stage 3b (ITT) - La Roche-Posay &rsaquo; La Roche-Posay</a> </td><td class="cu600">22.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>24.08</td><td>29</td><td class="gc cu600">36</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-3a">Stage 3a - Coussay-les-Bois &rsaquo; La Roche-Posay</a> </td><td class="cu600">94.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>23.08</td><td>39</td><td class="gc cu600">39</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-2">Stage 2 - Aulnay de Saintonge &rsaquo; Bressuire</a> </td><td class="cu600">187.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>22.08</td><td>70</td><td class="gc cu600">70</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-1">Stage 1 - Confolens &rsaquo; Matha</a> </td><td class="cu600">195.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="1"><td>19.08</td><td>27</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/druivenkoers-overijse/2023/result">Druivenkoers - Overijse <span>(1.1)</span></a> </td><td class="cu600">185.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/druivenkoers-overijse">more</a></td></tr>
+<tr data-main="1"><td>11.08</td><td>29</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag gb"></span><a href="race/world-championship-itt/2023/result">World Championships ME - ITT <span>(WC)</span></a> </td><td class="cu600">47.8</td><td class="cu600">10</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/world-championship-itt">more</a></td></tr>
+<tr data-main="1"><td>14.07 &raquo; 16.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag hu"></span><a href="race/gp-cycliste-de-gemenc/2023/gc">Gemenc GP <span>(2.2)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/gp-cycliste-de-gemenc">more</a></td></tr>
+<tr data-main="0"><td></td><td>101</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag hu"></span><a href="race/gp-cycliste-de-gemenc/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/gp-cycliste-de-gemenc">more</a></td></tr>
+<tr data-main="0"><td>16.07</td><td>112</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag hu"></span><a href="race/gp-cycliste-de-gemenc/2023/stage-2">Stage 2 - Szekszárd &rsaquo; Szekszárd</a> </td><td class="cu600">144.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/gp-cycliste-de-gemenc">more</a></td></tr>
 <tr data-main="0"><td>15.07</td><td>77</td><td class="gc cu600">4</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag hu"></span><a href="race/gp-cycliste-de-gemenc/2023/stage-1">Stage 1 - Szekszárd &rsaquo; Szekszárd</a> </td><td class="cu600">177.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/gp-cycliste-de-gemenc">more</a></td></tr>
 <tr data-main="0"><td>14.07</td><td>4</td><td class="gc cu600">4</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag hu"></span><a href="race/gp-cycliste-de-gemenc/2023/stage-0">Prologue - Szekszárd &rsaquo; Szerkszárd</a> </td><td class="cu600">2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/gp-cycliste-de-gemenc">more</a></td></tr>
 <tr data-main="1"><td>11.06</td><td>79</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/circuit-des-xi-villes/2023/result">Elfstedenronde Brugge <span>(1.1)</span></a> </td><td class="cu600">190.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/circuit-des-xi-villes">more</a></td></tr>
@@ -238,15 +254,15 @@
 <tr data-main="1"><td>12.02</td><td>5</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag nz"></span><a href="race/nc-new-zealand/2023/result">National Championships New Zealand  - Road Race <span>(NC)</span></a> </td><td class="cu600">178.2</td><td class="cu600">2</td><td class="cu600 ">40</td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/nc-new-zealand">more</a></td></tr>
 <tr data-main="1"><td>10.02</td><td>4</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag nz"></span><a href="race/nc-new-zealand-itt/2023/result">National Championships New Zealand  - ITT <span>(NC)</span></a> </td><td class="cu600">33.5</td><td class="cu600"></td><td class="cu600 ">15</td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/nc-new-zealand-itt">more</a></td></tr>
 <tr data-main="1"><td>29.01</td><td>68</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="race/great-ocean-race/2023/result">Cadel Evans Great Ocean Road Race <span>(1.UWT)</span></a> </td><td class="cu600">174.3</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/tom-sexton/great-ocean-race">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>3563</b> km in <b>26</b> days | PCS points: <b>67</b> |  UCI points: <b>278</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>5583</b> km in <b>39</b> days | PCS points: <b>97</b> |  UCI points: <b>309</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >2</div><div class="title   "  ><a    href="rider/tom-sexton/statistics/wins">Wins</a></div><div class="info fs11   "  >GC (0)</div><div class="info fs11   "  >Oneday races (1)</div><div class="info fs11   "  >ITT (2)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/tom-sexton/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/tom-sexton/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 55.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">67</span></div></td><td class="ac  " >474</td></tr>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">96</span></div></td><td class="ac  " >484</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">97</span></div></td><td class="ac  " >513</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 79.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">96</span></div></td><td class="ac  " >484</td></tr>
 </tbody></table></span></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
@@ -380,15 +396,19 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0967s</span></li>
+<li><span>Pageload 0.0476s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list6.js"></script>  
+<script src="search_list7.js"></script>  
+
 		<script>
+
 		var riderid = 211695;		$(document).ready(function() { 	RVC(riderid);  	  });
+
 		</script>
+
 		

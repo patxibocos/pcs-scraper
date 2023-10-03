@@ -25,6 +25,12 @@
 <title>Kristoffer  Halvorsen </title>
 <base href="https://www.procyclingstats.com/rider.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/rider/kristoffer-halvorsen" />
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Kristoffer Halvorsen (born 1996-04-13 in Kristiansand) is a professional road racing cyclist from Norway, currently riding for Uno-X Pro Cycling Team. His best results are winning Bredene Koksijde Classic and winning Grand Prix d'Isbergues - Pas de Calais.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b156.css" />
-<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
+<script src="https://www.procyclingstats.com/pcs_s79.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -48,7 +54,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
+    	<a  class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
@@ -58,38 +65,38 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,21 +105,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
-<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -171,16 +170,16 @@
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/2689594">strava</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >508</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/all-time">All time</a></div><div class="rnk   "  >1928</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >498</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >550</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >516</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/all-time">All time</a></div><div class="rnk   "  >1937</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;46</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;34</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/bredene-koksijde-classic/2017/result">Bredene Koksijde Classic</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/gp-d-isbergues/2016/result">Grand Prix d'Isbergues - Pas de Calais</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt wc w14"></span></div><div><span class="blue"></span> <a href="race/world-championships-u23/2016/result">World Championships U23 - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt wc w14"></span></div><div><span class="blue"></span> <a href="race/world-championships-u23/2016/result">World Championships MU - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;2nd&nbsp;</div><div><span class="blue"></span> <a href="race/bredene-koksijde-classic/2019/result">Bredene Koksijde Classic</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19, '18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-of-norway/2019/stage-6">Tour of Norway</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-norway/2019/gc">Tour of Norway</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
@@ -192,7 +191,8 @@
 <li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/olympias-tour/2016/stage-4">Olympia's Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/uno-x-pro-cycling-team-2023">Uno-X Pro Cycling Team</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  ></div><div class="name   "  ><a    href="team/"></a></div><div >Will retire on 2023-12-31</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/uno-x-pro-cycling-team-2023">Uno-X Pro Cycling Team</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/uno-x-pro-cycling-team-2022">Uno-X Pro Cycling Team</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2021</div><div class="name   "  ><a    href="team/uno-x-pro-cycling-team-2021">Uno-X Pro Cycling Team</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2020</div><div class="name   "  ><a    href="team/ef-pro-cycling-2020">EF Pro Cycling</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
@@ -241,7 +241,7 @@
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 16.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">100</span></div></td><td class="ac  " >360</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 16.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">100</span></div></td><td class="ac  " >502</td></tr>
 <tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 4.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">28</span></div></td><td class="ac  " >1004</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 48.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">300</span></div></td><td class="ac  " >178</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 11.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">70</span></div></td><td class="ac  " >417</td></tr>
@@ -386,15 +386,19 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1152s</span></li>
+<li><span>Pageload 0.0594s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list6.js"></script>  
+<script src="search_list7.js"></script>  
+
 		<script>
+
 		var riderid = 176686;		$(document).ready(function() { 	RVC(riderid);  	  });
+
 		</script>
+
 		

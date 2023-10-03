@@ -25,6 +25,12 @@
 <title>Donostia San Sebastian Klasikoa 2023</title>
 <base href="https://www.procyclingstats.com/race.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/race/san-sebastian/2023" />
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b156.css" />
-<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
+<script src="https://www.procyclingstats.com/pcs_s79.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -48,7 +54,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
+    	<a  class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
     		<input type="text" name="term" id="search" data-nav="/start" data-nav2="" data-page="race_event" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
@@ -58,38 +65,38 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,21 +105,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
-<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -124,7 +123,7 @@
 			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
 <div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/san-sebastian/2022/statistics/start" >2022</a><div ><form style="  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/san-sebastian/2024/statistics/start" >2024</option><option value="race/san-sebastian/2023/statistics/start" selected>2023</option><option value="race/san-sebastian/2022/statistics/start" >2022</option><option value="race/san-sebastian/2021/statistics/start" >2021</option><option value="race/san-sebastian/2020/statistics/start" >2020</option><option value="race/san-sebastian/2019/statistics/start" >2019</option><option value="race/san-sebastian/2018/statistics/start" >2018</option><option value="race/san-sebastian/2017/statistics/start" >2017</option><option value="race/san-sebastian/2016/statistics/start" >2016</option><option value="race/san-sebastian/2015/statistics/start" >2015</option><option value="race/san-sebastian/2014/statistics/start" >2014</option><option value="race/san-sebastian/2013/statistics/start" >2013</option><option value="race/san-sebastian/2012/statistics/start" >2012</option><option value="race/san-sebastian/2011/statistics/start" >2011</option><option value="race/san-sebastian/2010/statistics/start" >2010</option><option value="race/san-sebastian/2009/statistics/start" >2009</option><option value="race/san-sebastian/2008/statistics/start" >2008</option><option value="race/san-sebastian/2007/statistics/start" >2007</option><option value="race/san-sebastian/2006/statistics/start" >2006</option><option value="race/san-sebastian/2005/statistics/start" >2005</option><option value="race/san-sebastian/2004/statistics/start" >2004</option><option value="race/san-sebastian/2003/statistics/start" >2003</option><option value="race/san-sebastian/2002/statistics/start" >2002</option><option value="race/san-sebastian/2001/statistics/start" >2001</option><option value="race/san-sebastian/2000/statistics/start" >2000</option><option value="race/san-sebastian/1999/statistics/start" >1999</option><option value="race/san-sebastian/1998/statistics/start" >1998</option><option value="race/san-sebastian/1997/statistics/start" >1997</option><option value="race/san-sebastian/1996/statistics/start" >1996</option><option value="race/san-sebastian/1995/statistics/start" >1995</option><option value="race/san-sebastian/1994/statistics/start" >1994</option><option value="race/san-sebastian/1993/statistics/start" >1993</option><option value="race/san-sebastian/1992/statistics/start" >1992</option><option value="race/san-sebastian/1991/statistics/start" >1991</option><option value="race/san-sebastian/1990/statistics/start" >1990</option><option value="race/san-sebastian/1989/statistics/start" >1989</option><option value="race/san-sebastian/1988/statistics/start" >1988</option><option value="race/san-sebastian/1987/statistics/start" >1987</option><option value="race/san-sebastian/1986/statistics/start" >1986</option><option value="race/san-sebastian/1985/statistics/start" >1985</option><option value="race/san-sebastian/1984/statistics/start" >1984</option><option value="race/san-sebastian/1983/statistics/start" >1983</option><option value="race/san-sebastian/1982/statistics/start" >1982</option><option value="race/san-sebastian/1981/statistics/start" >1981</option></select></form></div><a  href="race/san-sebastian/2024/statistics/start" >2024</a></div><div class="pageSelectNav 1" ><div ><form style="  max-width: 220px; width: 100%;  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/san-sebastian/2023/" >- stage -</option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/san-sebastian/2023">Statistics</a></li>
-<li class="reg "><a class="" href="race/san-sebastian/2023/startlist">Startlist&#x25BC;</a><ul><li><a href="race/san-sebastian/2023/startlist/startlist">Startlist</a></li>
+<li class="reg "><a style=" " href="/race/san-sebastian/2023">GO TO</a><ul><li><a href="race/san-sebastian/2023/result"> results</a></li><li><a href="race/san-sebastian/2023/result">Results</a></li><li><a href="race/san-sebastian/2023/result/live">Live data</a></li></ul></li><li class="reg "><a class="" href="race/san-sebastian/2023/startlist">Startlist&#x25BC;</a><ul><li><a href="race/san-sebastian/2023/startlist/startlist">Startlist</a></li>
 <li><a href="race/san-sebastian/2023/startlist/top-competitors">Top competitors</a></li>
 <li><a href="race/san-sebastian/2023/startlist/startlist-quality">Startlist quality</a></li>
 <li><a href="race/san-sebastian/2023/startlist/debutants">Debutants</a></li>
@@ -160,6 +159,22 @@
 <div class="text-regular">Statistics on Donostia San Sebastian Klasikoa 2023.</div>
 </div>
 <div class="w50 left mb_w100 mg_r2 "   >
+<div class="mt20"><h3>Result 2023</h3>
+<span class="table-cont"><table class="basic"  style="max-width: 450px; "><thead><tr><th style="width: 16.7%; ">#</th><th style="width: 66.7%; ">Rider</th><th style="width: 16.7%; ">Time</th></tr></thead><tbody>
+<tr ><td>1</td><td><span class="flag be"></span> <a    href="rider/remco-evenepoel">EVENEPOEL Remco</a></td><td>0:00</td></tr>
+<tr ><td>2</td><td><span class="flag es"></span> <a    href="rider/pello-bilbao">BILBAO Pello</a></td><td>0:00</td></tr>
+<tr ><td>3</td><td><span class="flag ru"></span> <a    href="rider/aleksandr-vlasov">VLASOV Aleksandr</a></td><td>0:28</td></tr>
+<tr ><td>4</td><td><span class="flag us"></span> <a    href="rider/neilson-powless">POWLESS Neilson</a></td><td>2:50</td></tr>
+<tr ><td>5</td><td><span class="flag es"></span> <a    href="rider/ion-izagirre">IZAGIRRE Ion</a></td><td>2:57</td></tr>
+<tr ><td>6</td><td><span class="flag lv"></span> <a    href="rider/toms-skujins">SKUJIŅŠ Toms</a></td><td>3:02</td></tr>
+<tr ><td>7</td><td><span class="flag es"></span> <a    href="rider/alex-aranburu">ARANBURU Alex</a></td><td>3:02</td></tr>
+<tr ><td>8</td><td><span class="flag pt"></span> <a    href="rider/rui-costa">COSTA Rui</a></td><td>3:02</td></tr>
+<tr ><td>9</td><td><span class="flag it"></span> <a    href="rider/andrea-bagioli">BAGIOLI Andrea</a></td><td>3:02</td></tr>
+<tr ><td>10</td><td><span class="flag be"></span> <a    href="rider/tiesj-benoot">BENOOT Tiesj</a></td><td>3:02</td></tr>
+</tbody></table></span></div>
+<ul class="list horizontal"><li class="goto2 mr10" ><a   class="goto2 mr10" href="race/san-sebastian/2023/result">Full results</a></li>
+<li class="goto2" ><a   class="goto2" href="race/san-sebastian/2023/result/live">LiveStats</a></li>
+</ul>
 <div class="mt20"><h3>Info</h3><ul class="infolist fs13" style=""><li><div>Startdate:</div> <div>2023-07-29</div></li>
 <li><div>Enddate:</div> <div>2023-07-29</div></li>
 <li><div>Category:</div> <div>Men Elite</div></li>
@@ -169,44 +184,45 @@
 </ul></div>
 <div class="mt20"><h3>Top competitors</h3>
 <span class="table-cont"><ul class="list"  style="max-width: 550px;  "><li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/remco-evenepoel">EVENEPOEL Remco</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 ch"></span> </div><div ><a    href="rider/marc-hirschi">HIRSCHI Marc</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 es"></span> </div><div ><a    href="rider/mikel-landa">LANDA Mikel</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 es"></span> </div><div ><a    href="rider/pello-bilbao">BILBAO Pello</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 us"></span> </div><div ><a    href="rider/neilson-powless">POWLESS Neilson</a></div><div class="clear"></div></li>
 <li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 ie"></span> </div><div ><a    href="rider/ben-healy">HEALY Ben</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 nl"></span> </div><div ><a    href="rider/bauke-mollema">MOLLEMA Bauke</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/maxim-van-gils">VAN GILS Maxim</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 es"></span> </div><div ><a    href="rider/jon-barrenetxea-golzarri">BARRENETXEA Jon</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 es"></span> </div><div ><a    href="rider/joel-nicolau">NICOLAU Joel</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 ec"></span> </div><div ><a    href="rider/jefferson-cepeda-hernandez">CEPEDA Jefferson Alveiro</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 nl"></span> </div><div ><a    href="rider/jan-maas">MAAS Jan</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 es"></span> </div><div ><a    href="rider/eduard-prades">PRADES Eduard</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 es"></span> </div><div ><a    href="rider/julen-amezqueta">AMEZQUETA Julen</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 at"></span> </div><div ><a    href="rider/felix-gall">GALL Felix</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 fr"></span> </div><div ><a    href="rider/guillaume-martin">MARTIN Guillaume</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/tiesj-benoot">BENOOT Tiesj</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 es"></span> </div><div ><a    href="rider/carlos-rodriguez-cano">RODRÍGUEZ Carlos</a></div><div class="clear"></div></li>
 </ul></span></div>
 <ul class="list horizontal"><li class="goto2 pr5" ><a   class="goto2 pr5" href="race/san-sebastian/2023/startlist">Startlist</a></li>
 <li class="goto2 pr5" ><a   class="goto2 pr5" href="race/san-sebastian/2023/startlist/top-competitors">Top riders</a></li>
 </ul>
 <div class="mt40"><h3>Teams</h3>
-<span class="table-cont"><ul class="list "  style="max-width: 400px;  "><li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1109"></span></div><div class="fs14 pr5   "  ><a    href="team/burgos-bh-2023">Burgos-BH</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team4831"></span></div><div class="fs14 pr5   "  ><a    href="team/euskaltel-euskadi-2023">Euskaltel - Euskadi</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1111"></span></div><div class="fs14 pr5   "  ><a    href="team/caja-rural-seguros-rga-2023">Caja Rural - Seguros RGA</a></div><div class=" clr999 fs14   "  > (Prades, Amezqueta)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2738"></span></div><div class="fs14 pr5   "  ><a    href="team/israel-premier-tech-2023">Israel - Premier Tech</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team7807"></span></div><div class="fs14 pr5   "  ><a    href="team/equipo-kern-pharma-2023">Equipo Kern Pharma</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2088"></span></div><div class="fs14 pr5   "  ><a    href="team/lotto-dstny-2023">Lotto Dstny</a></div><div class=" clr999 fs14   "  > (Van Gils, Van Gils)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1060"></span></div><div class="fs14 pr5   "  ><a    href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1100"></span></div><div class="fs14 pr5   "  ><a    href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1375"></span></div><div class="fs14 pr5   "  ><a    href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team3814"></span></div><div class="fs14 pr5   "  ><a    href="team/bahrain-victorious-2023">Bahrain - Victorious</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1411"></span></div><div class="fs14 pr5   "  ><a    href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1136"></span></div><div class="fs14 pr5   "  ><a    href="team/cofidis-2023">Cofidis</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team4000"></span></div><div class="fs14 pr5   "  ><a    href="team/ef-education-easypost-2023">EF Education-EasyPost</a></div><div class=" clr999 fs14   "  > (Healy, Healy)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1187"></span></div><div class="fs14 pr5   "  ><a    href="team/groupama-fdj-2023">Groupama - FDJ</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1423"></span></div><div class="fs14 pr5   "  ><a    href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1490"></span></div><div class="fs14 pr5   "  ><a    href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1330"></span></div><div class="fs14 pr5   "  ><a    href="team/team-jumbo-visma-2023">Jumbo-Visma</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2040"></span></div><div class="fs14 pr5   "  ><a    href="team/movistar-team-2023">Movistar Team</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1328"></span></div><div class="fs14 pr5   "  ><a    href="team/soudal-quick-step-2023">Soudal - Quick Step</a></div><div class=" clr999 fs14   "  > (Evenepoel, Evenepoel)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1107"></span></div><div class="fs14 pr5   "  ><a    href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1207"></span></div><div class="fs14 pr5   "  ><a    href="team/team-jayco-alula-2023">Team Jayco AlUla</a></div><div class=" clr999 fs14   "  > (Maas, Maas)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1360"></span></div><div class="fs14 pr5   "  ><a    href="team/team-dsm-firmenich-2023">Team dsm - firmenich</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1258"></span></div><div class="fs14 pr5   "  ><a    href="team/lidl-trek-2023">Lidl - Trek</a></div><div class=" clr999 fs14   "  > (Mollema, Mollema)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1253"></span></div><div class="fs14 pr5   "  ><a    href="team/uae-team-emirates-2023">UAE Team Emirates</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list "  style="max-width: 400px;  "><li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1328"></span></div><div class="fs14 pr5   "  ><a    href="team/soudal-quick-step-2023">Soudal - Quick Step</a></div><div class=" clr999 fs14   "  > (Evenepoel, Alaphilippe)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1060"></span></div><div class="fs14 pr5   "  ><a    href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></div><div class=" clr999 fs14   "  > (O'Connor, Gall)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1100"></span></div><div class="fs14 pr5   "  ><a    href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></div><div class=" clr999 fs14   "  > (Sbaragli, Meurisse)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1107"></span></div><div class="fs14 pr5   "  ><a    href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></div><div class=" clr999 fs14   "  > (Gesbert, Delaplace)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1375"></span></div><div class="fs14 pr5   "  ><a    href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></div><div class=" clr999 fs14   "  > (Lutsenko, Felline)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1411"></span></div><div class="fs14 pr5   "  ><a    href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></div><div class=" clr999 fs14   "  > (Vlasov, Jungels)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1136"></span></div><div class="fs14 pr5   "  ><a    href="team/cofidis-2023">Cofidis</a></div><div class=" clr999 fs14   "  > (Martin, Izagirre)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1360"></span></div><div class="fs14 pr5   "  ><a    href="team/team-dsm-firmenich-2023">Team dsm - firmenich</a></div><div class=" clr999 fs14   "  > (Leknessund, Bardet)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team4000"></span></div><div class="fs14 pr5   "  ><a    href="team/ef-education-easypost-2023">EF Education-EasyPost</a></div><div class=" clr999 fs14   "  > (Urán, Powless)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1187"></span></div><div class="fs14 pr5   "  ><a    href="team/groupama-fdj-2023">Groupama - FDJ</a></div><div class=" clr999 fs14   "  > (Molard, Ladagnous)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1490"></span></div><div class="fs14 pr5   "  ><a    href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty</a></div><div class=" clr999 fs14   "  > (Rota, Costa)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1423"></span></div><div class="fs14 pr5   "  ><a    href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></div><div class=" clr999 fs14   "  > (Rodríguez, Fraile)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2040"></span></div><div class="fs14 pr5   "  ><a    href="team/movistar-team-2023">Movistar Team</a></div><div class=" clr999 fs14   "  > (Rojas, Izagirre)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1207"></span></div><div class="fs14 pr5   "  ><a    href="team/team-jayco-alula-2023">Team Jayco AlUla</a></div><div class=" clr999 fs14   "  > (Matthews, De Marchi)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team3814"></span></div><div class="fs14 pr5   "  ><a    href="team/bahrain-victorious-2023">Bahrain - Victorious</a></div><div class=" clr999 fs14   "  > (Landa, Bilbao)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1258"></span></div><div class="fs14 pr5   "  ><a    href="team/lidl-trek-2023">Lidl - Trek</a></div><div class=" clr999 fs14   "  > (Mollema, Gallopin)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1330"></span></div><div class="fs14 pr5   "  ><a    href="team/team-jumbo-visma-2023">Jumbo-Visma</a></div><div class=" clr999 fs14   "  > (Roosen, Benoot)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1253"></span></div><div class="fs14 pr5   "  ><a    href="team/uae-team-emirates-2023">UAE Team Emirates</a></div><div class=" clr999 fs14   "  > (Ulissi, Bennett)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1109"></span></div><div class="fs14 pr5   "  ><a    href="team/burgos-bh-2023">Burgos-BH</a></div><div class=" clr999 fs14   "  > (Fagundez, Díaz)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1111"></span></div><div class="fs14 pr5   "  ><a    href="team/caja-rural-seguros-rga-2023">Caja Rural - Seguros RGA</a></div><div class=" clr999 fs14   "  > (Schlegel, Barceló)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team7807"></span></div><div class="fs14 pr5   "  ><a    href="team/equipo-kern-pharma-2023">Equipo Kern Pharma</a></div><div class=" clr999 fs14   "  > (Berrade, Adrià)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team4831"></span></div><div class="fs14 pr5   "  ><a    href="team/euskaltel-euskadi-2023">Euskaltel - Euskadi</a></div><div class=" clr999 fs14   "  > (Iturria, Bou)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1175"></span></div><div class="fs14 pr5   "  ><a    href="team/team-totalenergies-2023">TotalEnergies</a></div><div class=" clr999 fs14   "  > (Latour, de la Parte)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2088"></span></div><div class="fs14 pr5   "  ><a    href="team/lotto-dstny-2023">Lotto Dstny</a></div><div class=" clr999 fs14   "  > (Sepúlveda, Livyns)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2738"></span></div><div class="fs14 pr5   "  ><a    href="team/israel-premier-tech-2023">Israel - Premier Tech</a></div><div class=" clr999 fs14   "  > (Teuns, Fuglsang)</div><div class="clear"></div></li>
 </ul></span></div>
 </div>
 <div class="w48 left mb_w100 "   >
@@ -289,11 +305,11 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1029s</span></li>
+<li><span>Pageload 0.0345s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="5223" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list6.js"></script>  
+<script src="search_list7.js"></script>  

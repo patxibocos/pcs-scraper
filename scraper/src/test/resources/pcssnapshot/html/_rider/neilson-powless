@@ -25,6 +25,12 @@
 <title>Neilson  Powless </title>
 <base href="https://www.procyclingstats.com/rider.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/rider/neilson-powless" />
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Neilson Powless (born 1996-09-03 in Eglin) is a professional road racing cyclist from United States, currently riding for EF Education-EasyPost. His best results are winning Donostia San Sebastian Klasikoa and winning Japan Cup Cycle Road Race.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b156.css" />
-<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
+<script src="https://www.procyclingstats.com/pcs_s79.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -48,7 +54,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
+    	<a  class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
@@ -58,38 +65,38 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,21 +105,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
-<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -163,35 +162,33 @@
 <li data-n="7"><a href="rider/neilson-powless/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/neilson-powless/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/neilson-powless/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag us w32"></span><span class="flag us w24"></span><h1 class="">Neilson  Powless</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">EF Education-EasyPost</span></div><div class="sub"><span class="red showIfMobile">EF Education-EasyPost</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="race/tour-de-france/2023/stage-15/live">LiveStats Tour de France</a></li>
-<li><a   class="" href="rider-in-race/neilson-powless/tour-de-france">Rider statistics in Tour de France</a></li>
-</ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/neilson-powless/statistics/overview"><img alt="Profile photo of Neilson  Powless" src="images/riders/bp/ee/neilson-powless-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 3<sup>rd</sup> September 1996 (26)<br /><b>Nationality:</b> <span class="flag  us"></span><a class="black" href="nation/united-states">United States</a><br /><span><b>Weight:</b> 67 kg &nbsp; <span><b>Height:</b> 1.83 m<br /><b>Place of birth:</b> <a href="location/eglin">Eglin</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 69.589977220957%; height: 100%;  "></div></div><div class="pnt">1222</div><div class="title"><a href="rider/neilson-powless/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 82.801822323462%; height: 100%;  "></div></div><div class="pnt">1454</div><div class="title"><a href="rider/neilson-powless/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 41.343963553531%; height: 100%;  "></div></div><div class="pnt">726</div><div class="title"><a href="rider/neilson-powless/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 14.236902050114%; height: 100%;  "></div></div><div class="pnt">250</div><div class="title"><a href="rider/neilson-powless/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1756</div><div class="title"><a href="rider/neilson-powless/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/neilson-powless/statistics/overview"><img alt="Profile photo of Neilson  Powless" src="images/riders/bp/ee/neilson-powless-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 3<sup>rd</sup> September 1996 (27)<br /><b>Nationality:</b> <span class="flag  us"></span><a class="black" href="nation/united-states">United States</a><br /><span><b>Weight:</b> 67 kg &nbsp; <span><b>Height:</b> 1.83 m<br /><b>Place of birth:</b> <a href="location/eglin">Eglin</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 79.763186221744%; height: 100%;  "></div></div><div class="pnt">1482</div><div class="title"><a href="rider/neilson-powless/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 79.601722282024%; height: 100%;  "></div></div><div class="pnt">1479</div><div class="title"><a href="rider/neilson-powless/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 39.074273412271%; height: 100%;  "></div></div><div class="pnt">726</div><div class="title"><a href="rider/neilson-powless/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 15.069967707212%; height: 100%;  "></div></div><div class="pnt">280</div><div class="title"><a href="rider/neilson-powless/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1858</div><div class="title"><a href="rider/neilson-powless/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="http://www.twitter.com/NPowless">twitter</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/neilsonpowless/">instagram</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/npowless">strava</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/NHPowless/">facebook</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >19</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/all-time">All time</a></div><div class="rnk   "  >1280</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >16</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >21</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >20</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/all-time">All time</a></div><div class="rnk   "  >1216</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;11370</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;256</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/san-sebastian/2021/result">Donostia San Sebastian Klasikoa</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/japan-cup/2022/result">Japan Cup Cycle Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/etoile-de-besseges/2023/gc">Etoile de Bessèges - Tour du Gard</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/gp-d-ouverture/2023/result">Grand Prix Cycliste la Marseillaise</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/joe-martin-stage-race-me/2016/gc">Joe Martin Stage Race ME</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue"></span> <a href="race/maryland-cycling-classic/2023/result">Maryland Cycling Classic, presented by UnitedHealt</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/dwars-door-vlaanderen/2023/result">Dwars door Vlaanderen - A travers la Flandre ME</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/gp-palio-del-recioto/2017/result">G.P. Palio del Recioto - Trofeo C&F Resinatura Blo</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-suisse/2022/gc">Tour de Suisse</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-suisse/2022/stage-5">Tour de Suisse</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-france/2022/stage-12">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22, '20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-pologne/2019/stage-7">Tour de Pologne</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue"></span> <a href="race/world-championship/2021/result">World Championships - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
 <span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/ef-education-easypost-2024">EF Education-EasyPost</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
@@ -206,11 +203,27 @@
 <li class=" main " ><div class="season   "  >2015</div><div class="name   "  ><a    href="team/hagens-berman-u23-cycling-team-2015">Hagens Berman U23 Cycling Team</a></div><div > (CLUB)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >06.08</div><div class="ellipsis   "  ><span class="flag gb"></span> <a    href="race/world-championship/2023/startlist">World Championships ME - Road Race</a></div><div class="fs10 blue   "  ><a    href="rider-in-race/neilson-powless/world-championship">more</a></div><div class="clear"></div></li>
-</ul></span></div>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
+<div class=""><div class="">No races on program.</div></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2023" class=" "><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" "><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>01.07 &raquo; 23.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-14">Tour de France <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
+<tr data-main="1"><td>10.09</td><td>33</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ca"></span><a href="race/gp-montreal/2023/result">Grand Prix Cycliste de Montréal <span>(1.UWT)</span></a> </td><td class="cu600">221.4</td><td class="cu600">5</td><td class="cu600 ">10</td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/gp-montreal">more</a></td></tr>
+<tr data-main="1"><td>08.09</td><td>20</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ca"></span><a href="race/gp-quebec/2023/result">Grand Prix Cycliste de Québec <span>(1.UWT)</span></a> </td><td class="cu600">201.6</td><td class="cu600">15</td><td class="cu600 ">30</td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/gp-quebec">more</a></td></tr>
+<tr data-main="1"><td>03.09</td><td>2</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag us"></span><a href="race/maryland-cycling-classic/2023/result">Maryland Cycling Classic, presented by UnitedHealthcare <span>(1.Pro)</span></a> <span title="110 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>110k</span></td><td class="cu600">196.9</td><td class="cu600">85</td><td class="cu600 ">150</td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/maryland-cycling-classic">more</a></td></tr>
+<tr data-main="1"><td>08.08</td><td>8</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag gb"></span><a href="race/world-championships-mixed-relay-ttt/2023/result">World Championships - Mixed Relay TTT <span>(WC)</span></a> </td><td class="cu600">40.3</td><td class="cu600"></td><td class="cu600 ">25</td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/world-championships-mixed-relay-ttt">more</a></td></tr>
+<tr data-main="1"><td>06.08</td><td>11</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag gb"></span><a href="race/world-championship/2023/result">World Championships ME - Road Race <span>(WC)</span></a> </td><td class="cu600">271.1</td><td class="cu600">65</td><td class="cu600 ">130</td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/world-championship">more</a></td></tr>
+<tr data-main="1"><td>29.07</td><td>4</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/san-sebastian/2023/result">Donostia San Sebastian Klasikoa <span>(1.UWT)</span></a> </td><td class="cu600">230.3</td><td class="cu600">90</td><td class="cu600 ">220</td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/san-sebastian">more</a></td></tr>
+<tr data-main="1"><td>01.07 &raquo; 23.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-21-kom">Tour de France <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td></td><td>4</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st7"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-21-kom">Mountains classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td></td><td>23</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-21-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td></td><td>66</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">25</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>23.07</td><td>70</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-21">Stage 21 - Saint-Quentin-en-Yvelines &rsaquo; Paris</a> </td><td class="cu600">115.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>22.07</td><td>100</td><td class="gc cu600">66</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-20">Stage 20 - Belfort &rsaquo; Le Markstein</a> </td><td class="cu600">133.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>21.07</td><td>32</td><td class="gc cu600">62</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-19">Stage 19 - Moirans-en-Montagne &rsaquo; Poligny</a> <span title="75 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>75k</span></td><td class="cu600">172.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>20.07</td><td>88</td><td class="gc cu600">62</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-18">Stage 18 - Moûtiers &rsaquo; Bourg-en-Bresse</a> </td><td class="cu600">184.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>19.07</td><td>85</td><td class="gc cu600">63</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-17">Stage 17 - Saint-Gervais Mont-Blanc &rsaquo; Courchevel</a> </td><td class="cu600">165.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>18.07</td><td>108</td><td class="gc cu600">60</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-16">Stage 16 (ITT) - Passy &rsaquo; Combloux</a> </td><td class="cu600">22.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>16.07</td><td>49</td><td class="gc cu600">61</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-15">Stage 15 - Les Gets les Portes du Soleil &rsaquo; Saint-Gervais Mont-Blanc</a> <span title="107 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>107k</span></td><td class="cu600">179</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
 <tr data-main="0"><td>15.07</td><td>74</td><td class="gc cu600">62</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-14">Stage 14 - Annemasse &rsaquo; Morzine les Portes du Soleil</a> </td><td class="cu600">151.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
 <tr data-main="0"><td>14.07</td><td>114</td><td class="gc cu600">65</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-13">Stage 13 - Châtillon-Sur-Chalaronne &rsaquo; Grand Colombier</a> </td><td class="cu600">137.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
 <tr data-main="0"><td>13.07</td><td>111</td><td class="gc cu600">59</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-12">Stage 12 - Roanne &rsaquo; Belleville-en-Beaujolais</a> </td><td class="cu600">168.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/tour-de-france">more</a></td></tr>
@@ -272,21 +285,21 @@
 <tr data-main="1"><td>29.01</td><td>1</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/gp-d-ouverture/2023/result">Grand Prix Cycliste de Marseille La Marseillaise <span>(1.1)</span></a> </td><td class="cu600">167.8</td><td class="cu600">75</td><td class="cu600 ">125</td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/gp-d-ouverture">more</a></td></tr>
 <tr data-main="1"><td>26.01</td><td>42</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-alcudia/2023/result">Trofeo Ses Salines - Alcudia <span>(1.1)</span></a> </td><td class="cu600">158.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/trofeo-alcudia">more</a></td></tr>
 <tr data-main="1"><td>25.01</td><td>38</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-calvia/2023/result">Trofeo Calvia <span>(1.1)</span></a> </td><td class="cu600">150.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/neilson-powless/trofeo-calvia">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>7201</b> km in <b>46</b> days | PCS points: <b>757</b> |  UCI points: <b>1477.71</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>9315</b> km in <b>59</b> days | PCS points: <b>1042</b> |  UCI points: <b>2042.71</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >4</div><div class="title   "  ><a    href="rider/neilson-powless/statistics/wins">Wins</a></div><div class="info fs11   "  >GC (1)</div><div class="info fs11   "  >Oneday races (3)</div><div class="info fs11   "  >ITT (0)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >5</div><div class="title   "  ><a    href="rider/neilson-powless/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (4) giro (0) vuelta(1)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >9</div><div class="title   "  ><a    href="rider/neilson-powless/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(0)</div><div class="info fs11   "  >MSR(2)</div><div class="info fs11   "  >RVV(1)</div><div class="info fs11   "  >LBL(3)</div><div class="info fs11   "  >LOM(3)</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 67.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">757</span></div></td><td class="ac  " >22</td></tr>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">897</span></div></td><td class="ac  " >41</td></tr>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 55.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">626</span></div></td><td class="ac  " >69</td></tr>
-<tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 18%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">202</span></div></td><td class="ac  " >166</td></tr>
-<tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 18.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">203</span></div></td><td class="ac  " >316</td></tr>
-<tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 19.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">214</span></div></td><td class="ac  " >304</td></tr>
-<tr ><td class="season  " >2017</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 13.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">156</span></div></td><td class="ac  " >410</td></tr>
-<tr ><td class="season  " >2016</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 9.3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">104</span></div></td><td class="ac  " >551</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1042</span></div></td><td class="ac  " >24</td></tr>
+<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 68.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">897</span></div></td><td class="ac  " >41</td></tr>
+<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 48.1%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">626</span></div></td><td class="ac  " >69</td></tr>
+<tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 15.5%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">202</span></div></td><td class="ac  " >166</td></tr>
+<tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 15.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">203</span></div></td><td class="ac  " >316</td></tr>
+<tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 16.4%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">214</span></div></td><td class="ac  " >304</td></tr>
+<tr ><td class="season  " >2017</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 12%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">156</span></div></td><td class="ac  " >410</td></tr>
+<tr ><td class="season  " >2016</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">104</span></div></td><td class="ac  " >551</td></tr>
 </tbody></table></span></div>
 <div class="mt30"><h3>Family</h3>
 <span class="table-cont"><ul class="list"  style=" "><li class="" ><div ><a    href="rider/shayna-powless">Shayna  Powless</a></div><div > (Sister)</div><div class="clear"></div></li>
@@ -429,15 +442,19 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1668s</span></li>
+<li><span>Pageload 0.0696s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list6.js"></script>  
+<script src="search_list7.js"></script>  
+
 		<script>
+
 		var riderid = 185580;		$(document).ready(function() { 	RVC(riderid);  	  });
+
 		</script>
+
 		

@@ -25,6 +25,12 @@
 <title>Luke  Durbridge </title>
 <base href="https://www.procyclingstats.com/rider.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/rider/luke-durbridge" />
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Luke Durbridge (born 1991-04-09 in Greenmount) is a professional road racing cyclist from Australia, currently riding for Team Jayco AlUla. His best results are winning GC Tour Poitou - Charentes en Nouvelle Aquitaine and winning GC Circuit cycliste Sarthe - Pays de la Loire.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b156.css" />
-<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
+<script src="https://www.procyclingstats.com/pcs_s79.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -48,7 +54,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
+    	<a  class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
@@ -58,38 +65,38 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,21 +105,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
-<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -163,29 +162,29 @@
 <li data-n="7"><a href="rider/luke-durbridge/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/luke-durbridge/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/luke-durbridge/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag au w32"></span><span class="flag au w24"></span><h1 class="">Luke  Durbridge</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Team Jayco AlUla</span></div><div class="sub"><span class="red showIfMobile">Team Jayco AlUla</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="race/tour-de-france/2023/stage-15/live">LiveStats Tour de France</a></li>
-<li><a   class="" href="rider-in-race/luke-durbridge/tour-de-france">Rider statistics in Tour de France</a></li>
+<ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="race/munsterland-giro/2023/result/live">LiveStats Sparkassen Münsterland Giro</a></li>
+<li><a   class="" href="rider-in-race/luke-durbridge/munsterland-giro">Rider statistics in Sparkassen Münsterland Giro</a></li>
 </ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/luke-durbridge/statistics/overview"><img alt="Profile photo of Luke  Durbridge" src="images/riders/bp/ce/luke-durbridge-2023.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 9<sup>th</sup> April 1991 (32)<br /><b>Nationality:</b> <span class="flag  au"></span><a class="black" href="nation/australia">Australia</a><br /><span><b>Weight:</b> 78 kg &nbsp; <span><b>Height:</b> 1.87 m<br /><b>Place of birth:</b> <a href="location/greenmount">Greenmount</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 34.417582417582%; height: 100%;  "></div></div><div class="pnt">783</div><div class="title"><a href="rider/luke-durbridge/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 53.318681318681%; height: 100%;  "></div></div><div class="pnt">1213</div><div class="title"><a href="rider/luke-durbridge/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 100%; height: 100%;  "></div></div><div class="pnt">2275</div><div class="title"><a href="rider/luke-durbridge/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 9.0549450549451%; height: 100%;  "></div></div><div class="pnt">206</div><div class="title"><a href="rider/luke-durbridge/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 12.703296703297%; height: 100%;  "></div></div><div class="pnt">289</div><div class="title"><a href="rider/luke-durbridge/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/luke-durbridge/statistics/overview"><img alt="Profile photo of Luke  Durbridge" src="images/riders/bp/ce/luke-durbridge-2023.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 9<sup>th</sup> April 1991 (32)<br /><b>Nationality:</b> <span class="flag  au"></span><a class="black" href="nation/australia">Australia</a><br /><span><b>Weight:</b> 78 kg &nbsp; <span><b>Height:</b> 1.87 m<br /><b>Place of birth:</b> <a href="location/greenmount">Greenmount</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 34.186550976139%; height: 100%;  "></div></div><div class="pnt">788</div><div class="title"><a href="rider/luke-durbridge/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 53.926247288503%; height: 100%;  "></div></div><div class="pnt">1243</div><div class="title"><a href="rider/luke-durbridge/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 100%; height: 100%;  "></div></div><div class="pnt">2305</div><div class="title"><a href="rider/luke-durbridge/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 8.9370932754881%; height: 100%;  "></div></div><div class="pnt">206</div><div class="title"><a href="rider/luke-durbridge/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 12.581344902386%; height: 100%;  "></div></div><div class="pnt">290</div><div class="title"><a href="rider/luke-durbridge/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/luke_durbridge1">twitter</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/lukedurbridge">instagram</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/1698342">strava</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/luke.durbridge.3">facebook</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >697</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/all-time">All time</a></div><div class="rnk   "  >966</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >465</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >928</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >526</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/all-time">All time</a></div><div class="rnk   "  >972</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;389</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;13</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-du-poitou-charentes-et-de-la-vienne/2012/gc">Tour Poitou - Charentes en Nouvelle Aquitaine</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('12)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/region-pays-de-la-loire/2012/gc">Circuit cycliste Sarthe - Pays de la Loire</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('12)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/oceania-championships/2014/result">Oceania Continental Championships - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('14)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/dauphine/2012/prologue">Critérium du Dauphiné</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('12)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>4x</b>&nbsp;</div><div><span class="blue"></span> <a href="race/australian-open-road-championships-itt/2020/result">National championships Australia  - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20, '19, '13, '12)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/region-pays-de-la-loire/2013/stage-3">Circuit Cycliste Sarthe - Pays de la Loire</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('13, '12)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>4x</b>&nbsp;</div><div><span class="blue"></span> <a href="race/australian-open-road-championships-itt/2012/result">National championships Australia  - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20, '19, '13, '12)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/region-pays-de-la-loire/2012/stage-3">Circuit cycliste Sarthe - Pays de la Loire</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('13, '12)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/oxyclean-classic-brugge-de-panne/2017/stage-3b">Oxyclean Classic Brugge-De Panne</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/oxyclean-classic-brugge-de-panne/2014/gc">Oxyclean Classic Brugge-De Panne</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('14)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-du-poitou-charentes-et-de-la-vienne/2012/stage-4">Tour Poitou - Charentes en Nouvelle Aquitaine</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('12)</span></div></li>
@@ -211,11 +210,36 @@
 <li class=" main " ><div class="season   "  >2010</div><div class="name   "  ><a    href="team/team-jayco-skins-2010">Team Jayco Skins</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
-<div class=""><div class="">No races on program.</div></div>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >03.10</div><div class="ellipsis   "  ><span class="flag de"></span> <a    href="race/munsterland-giro/2023/startlist">Sparkassen Münsterland Giro</a></div><div class="fs10 blue   "  ><a    href="rider-in-race/luke-durbridge/munsterland-giro">more</a></div><div class="clear"></div></li>
+<li class="" ><div class="bold   "  >04.10</div><div class="ellipsis   "  ><span class="flag nl"></span> <a    href="race/elfsteden-race/2023/startlist">Visit Friesland Elfstedenrace</a></div><div class="fs10 blue   "  ><a    href="rider-in-race/luke-durbridge/elfsteden-race">more</a></div><div class="clear"></div></li>
+</ul></span></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2023" class=" "><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" "><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li><li data-season="2012" class=" "><a class="seasonResults" data-season="2012" href="">2012</a></li><li data-season="2011" class=" "><a class="seasonResults" data-season="2011" href="">2011</a></li><li data-season="2010" class=" "><a class="seasonResults" data-season="2010" href="">2010</a></li><li data-season="2009" class=" "><a class="seasonResults" data-season="2009" href="">2009</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>01.07 &raquo; 23.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-14">Tour de France <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
+<tr data-main="1"><td>03.10</td><td>48</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/munsterland-giro/2023/result">Sparkassen Münsterland Giro <span>(1.Pro)</span></a> </td><td class="cu600">194.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/munsterland-giro">more</a></td></tr>
+<tr data-main="1"><td>17.09</td><td>45</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/gooikse-pijl/2023/result">Ixina Gooikse Pijl p/b Lotto <span>(1.1)</span></a> </td><td class="cu600">199</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/gooikse-pijl">more</a></td></tr>
+<tr data-main="1"><td>15.09</td><td>109</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/kampioenschap-van-vlaanderen/2023/result">Kampioenschap van Vlaanderen <span>(1.1)</span></a> </td><td class="cu600">165.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/kampioenschap-van-vlaanderen">more</a></td></tr>
+<tr data-main="1"><td>13.09</td><td>94</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/gp-de-wallonie/2023/result">Grand Prix de Wallonie <span>(1.Pro)</span></a> </td><td class="cu600">201.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/gp-de-wallonie">more</a></td></tr>
+<tr data-main="1"><td>10.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/gp-de-fourmies/2023/result">GP de Fourmies / La Voix du Nord <span>(1.Pro)</span></a> </td><td class="cu600">197.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/gp-de-fourmies">more</a></td></tr>
+<tr data-main="1"><td>23.08 &raquo; 27.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/renewi-tour/2023/gc">Renewi Tour <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/renewi-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>47</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag be"></span><a href="race/renewi-tour/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 ">8</td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/renewi-tour">more</a></td></tr>
+<tr data-main="0"><td>27.08</td><td>73</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/renewi-tour/2023/stage-5">Stage 5 - Riemst &rsaquo; Bilzen</a> </td><td class="cu600">187.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/renewi-tour">more</a></td></tr>
+<tr data-main="0"><td>26.08</td><td>112</td><td class="gc cu600">43</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/renewi-tour/2023/stage-4">Stage 4 - Beringen &rsaquo; Peer</a> </td><td class="cu600">179.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/renewi-tour">more</a></td></tr>
+<tr data-main="0"><td>25.08</td><td>30</td><td class="gc cu600">16</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/renewi-tour/2023/stage-3">Stage 3 - Aalter &rsaquo; Geraardsbergen</a> </td><td class="cu600">171.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/renewi-tour">more</a></td></tr>
+<tr data-main="0"><td>24.08</td><td>12</td><td class="gc cu600">12</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag be"></span><a href="race/renewi-tour/2023/stage-2">Stage 2 (ITT) - Sluis &rsaquo; Sluis</a> </td><td class="cu600">13.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/renewi-tour">more</a></td></tr>
+<tr data-main="0"><td>23.08</td><td>87</td><td class="gc cu600">88</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/renewi-tour/2023/stage-1">Stage 1 - Blankenberge &rsaquo; Ardooie</a> </td><td class="cu600">182.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/renewi-tour">more</a></td></tr>
+<tr data-main="1"><td>20.08</td><td>135</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/cyclassics-hamburg/2023/result">BEMER Cyclassics <span>(1.UWT)</span></a> </td><td class="cu600">205.6</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/cyclassics-hamburg">more</a></td></tr>
+<tr data-main="1"><td>08.08</td><td>6</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag gb"></span><a href="race/world-championships-mixed-relay-ttt/2023/result">World Championships - Mixed Relay TTT <span>(WC)</span></a> </td><td class="cu600">40.3</td><td class="cu600"></td><td class="cu600 ">33.33</td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/world-championships-mixed-relay-ttt">more</a></td></tr>
+<tr data-main="1"><td>06.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag gb"></span><a href="race/world-championship/2023/result">World Championships ME - Road Race <span>(WC)</span></a> </td><td class="cu600">271.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/world-championship">more</a></td></tr>
+<tr data-main="1"><td>01.07 &raquo; 23.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-21-points">Tour de France <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td></td><td>121</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-21-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td></td><td>130</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">25</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>23.07</td><td>109</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-21">Stage 21 - Saint-Quentin-en-Yvelines &rsaquo; Paris</a> </td><td class="cu600">115.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>22.07</td><td>98</td><td class="gc cu600">130</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-20">Stage 20 - Belfort &rsaquo; Le Markstein</a> </td><td class="cu600">133.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>21.07</td><td>33</td><td class="gc cu600">132</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-19">Stage 19 - Moirans-en-Montagne &rsaquo; Poligny</a> <span title="73 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>73k</span></td><td class="cu600">172.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>20.07</td><td>144</td><td class="gc cu600">133</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-18">Stage 18 - Moûtiers &rsaquo; Bourg-en-Bresse</a> </td><td class="cu600">184.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>19.07</td><td>131</td><td class="gc cu600">130</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-17">Stage 17 - Saint-Gervais Mont-Blanc &rsaquo; Courchevel</a> </td><td class="cu600">165.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>18.07</td><td>66</td><td class="gc cu600">128</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-16">Stage 16 (ITT) - Passy &rsaquo; Combloux</a> </td><td class="cu600">22.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
+<tr data-main="0"><td>16.07</td><td>84</td><td class="gc cu600">129</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-15">Stage 15 - Les Gets les Portes du Soleil &rsaquo; Saint-Gervais Mont-Blanc</a> </td><td class="cu600">179</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
 <tr data-main="0"><td>15.07</td><td>137</td><td class="gc cu600">132</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-14">Stage 14 - Annemasse &rsaquo; Morzine les Portes du Soleil</a> </td><td class="cu600">151.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
 <tr data-main="0"><td>14.07</td><td>89</td><td class="gc cu600">137</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-13">Stage 13 - Châtillon-Sur-Chalaronne &rsaquo; Grand Colombier</a> </td><td class="cu600">137.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
 <tr data-main="0"><td>13.07</td><td>117</td><td class="gc cu600">141</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-de-france/2023/stage-12">Stage 12 - Roanne &rsaquo; Belleville-en-Beaujolais</a> </td><td class="cu600">168.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/tour-de-france">more</a></td></tr>
@@ -272,14 +296,14 @@
 <tr data-main="1"><td>14.01</td><td>124</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="national-race/schwalbe-classic/2023/result">Schwalbe Classic <span>(NAT)</span></a> </td><td class="cu600">52.65</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/schwalbe-classic">more</a></td></tr>
 <tr data-main="1"><td>10.01</td><td>2</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag au"></span><a href="race/australian-open-road-championships-itt/2023/result">National Championships Australia - ITT <span>(NC)</span></a> </td><td class="cu600">37.5</td><td class="cu600">7</td><td class="cu600 ">30</td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/australian-open-road-championships-itt">more</a></td></tr>
 <tr data-main="1"><td>08.01</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="race/nc-australia/2023/result">National Championships Australia - Road Race <span>(NC)</span></a> </td><td class="cu600">185.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/luke-durbridge/nc-australia">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>7328</b> km in <b>48</b> days | PCS points: <b>62</b> |  UCI points: <b>50.29</b>  | Penalties: <b>25</b></div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>10255</b> km in <b>68</b> days | PCS points: <b>97</b> |  UCI points: <b>91.62</b>  | Penalties: <b>25</b></div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >13</div><div class="title   "  ><a    href="rider/luke-durbridge/statistics/wins">Wins</a></div><div class="info fs11   "  >GC (2)</div><div class="info fs11   "  >Oneday races (6)</div><div class="info fs11   "  >ITT (9)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >14</div><div class="title   "  ><a    href="rider/luke-durbridge/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (9) giro (4) vuelta(1)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >24</div><div class="title   "  ><a    href="rider/luke-durbridge/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(9)</div><div class="info fs11   "  >MSR(4)</div><div class="info fs11   "  >RVV(9)</div><div class="info fs11   "  >LBL(1)</div><div class="info fs11   "  >LOM(1)</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 7.4%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">62</span></div></td><td class="ac  " >494</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 11.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">97</span></div></td><td class="ac  " >512</td></tr>
 <tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 11.9%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">100</span></div></td><td class="ac  " >465</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 28.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">240</span></div></td><td class="ac  " >230</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">67</span></div></td><td class="ac  " >435</td></tr>
@@ -426,15 +450,19 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.2135s</span></li>
+<li><span>Pageload 0.0956s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list6.js"></script>  
+<script src="search_list7.js"></script>  
+
 		<script>
+
 		var riderid = 140241;		$(document).ready(function() { 	RVC(riderid);  	  });
+
 		</script>
+
 		

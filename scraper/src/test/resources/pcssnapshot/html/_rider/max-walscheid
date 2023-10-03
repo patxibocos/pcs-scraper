@@ -25,6 +25,12 @@
 <title>Max  Walscheid </title>
 <base href="https://www.procyclingstats.com/rider.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/rider/max-walscheid" />
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Max Walscheid (born 1993-06-13 in Neuwied) is a professional road racing cyclist from Germany, currently riding for Cofidis. His best results are winning Sparkassen Münsterland Giro and winning Grand Prix de Denain - Porte du Hainaut.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b156.css" />
-<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
+<script src="https://www.procyclingstats.com/pcs_s79.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -48,7 +54,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
+    	<a  class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
@@ -58,38 +65,38 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,21 +105,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
-<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -163,24 +162,26 @@
 <li data-n="7"><a href="rider/max-walscheid/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/max-walscheid/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/max-walscheid/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag de w32"></span><span class="flag de w24"></span><h1 class="">Max  Walscheid</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Cofidis</span></div><div class="sub"><span class="red showIfMobile">Cofidis</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"></ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/max-walscheid/statistics/overview"><img alt="Profile photo of Max  Walscheid" src="images/riders/bp/dd/max-walscheid-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 13<sup>th</sup> June 1993 (30)<br /><b>Nationality:</b> <span class="flag  de"></span><a class="black" href="nation/germany">Germany</a><br /><span><b>Weight:</b> 90 kg &nbsp; <span><b>Height:</b> 1.98 m<br /><b>Place of birth:</b> <a href="location/neuwied">Neuwied</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 65.357967667436%; height: 100%;  "></div></div><div class="pnt">1415</div><div class="title"><a href="rider/max-walscheid/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 10.207852193995%; height: 100%;  "></div></div><div class="pnt">221</div><div class="title"><a href="rider/max-walscheid/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 31.316397228637%; height: 100%;  "></div></div><div class="pnt">678</div><div class="title"><a href="rider/max-walscheid/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 100%; height: 100%;  "></div></div><div class="pnt">2165</div><div class="title"><a href="rider/max-walscheid/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 10.900692840647%; height: 100%;  "></div></div><div class="pnt">236</div><div class="title"><a href="rider/max-walscheid/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="race/munsterland-giro/2023/result/live">LiveStats Sparkassen Münsterland Giro</a></li>
+<li><a   class="" href="rider-in-race/max-walscheid/munsterland-giro">Rider statistics in Sparkassen Münsterland Giro</a></li>
+</ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/max-walscheid/statistics/overview"><img alt="Profile photo of Max  Walscheid" src="images/riders/bp/dd/max-walscheid-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 13<sup>th</sup> June 1993 (30)<br /><b>Nationality:</b> <span class="flag  de"></span><a class="black" href="nation/germany">Germany</a><br /><span><b>Weight:</b> 90 kg &nbsp; <span><b>Height:</b> 1.99 m<br /><b>Place of birth:</b> <a href="location/neuwied">Neuwied</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 64.100268576544%; height: 100%;  "></div></div><div class="pnt">1432</div><div class="title"><a href="rider/max-walscheid/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 11.190689346464%; height: 100%;  "></div></div><div class="pnt">250</div><div class="title"><a href="rider/max-walscheid/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 32.408236347359%; height: 100%;  "></div></div><div class="pnt">724</div><div class="title"><a href="rider/max-walscheid/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 100%; height: 100%;  "></div></div><div class="pnt">2234</div><div class="title"><a href="rider/max-walscheid/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 10.564010743062%; height: 100%;  "></div></div><div class="pnt">236</div><div class="title"><a href="rider/max-walscheid/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/MaxWalscheid">twitter</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/maxwalscheid">instagram</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/pros/mwalscheid">strava</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >139</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/all-time">All time</a></div><div class="rnk   "  >1196</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >190</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >122</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >187</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/all-time">All time</a></div><div class="rnk   "  >1192</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;19</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;1800</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/munsterland-giro/2018/result">Sparkassen Münsterland Giro</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/gp-de-denain/2022/result">Grand Prix de Denain - Porte du Hainaut</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>5x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-hainan/2016/stage-9">Tour of Hainan</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/omloop-van-het-houtland-lichtervelde/2019/result">Omloop van het Houtland Middelkerke-Lichtervelde</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/omloop-van-het-houtland-lichtervelde/2019/result">Omloop van het Houtland</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-langkawi/2020/stage-8">Tour de Langkawi</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-of-denmark/2017/stage-5">Danmark Rundt - Tour of Denmark</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('17)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue"></span> <a href="race/scheldeprijs/2019/result">Scheldeprijs</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
@@ -191,7 +192,9 @@
 <li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-berlin/2015/stage-4">Tour de Berlin</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('15, '14)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/cofidis-2023">Cofidis</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2025</div><div class="name   "  ><a    href="team/team-jayco-alula-2025">Team Jayco AlUla</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/team-jayco-alula-2024">Team Jayco AlUla</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/cofidis-2023">Cofidis</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/cofidis-2022">Cofidis</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2021</div><div class="name   "  ><a    href="team/team-qhubeka-assos-2021">Team Qhubeka ASSOS</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 <li class=" main " ><div class="season   "  >2020</div><div class="name   "  ><a    href="team/ntt-pro-cycling-2020">NTT Pro Cycling</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
@@ -206,10 +209,37 @@
 <li class=" main " ><div class="season   "  >2012</div><div class="name   "  ><a    href="team/team-raiko-stolting-2012">Team Raiko - Stölting</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
-<div class=""><div class="">No races on program.</div></div>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >03.10</div><div class="ellipsis   "  ><span class="flag de"></span> <a    href="race/munsterland-giro/2023/startlist">Sparkassen Münsterland Giro</a></div><div class="fs10 blue   "  ><a    href="rider-in-race/max-walscheid/munsterland-giro">more</a></div><div class="clear"></div></li>
+</ul></span></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2023" class=" "><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" "><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li><li data-season="2012" class=" "><a class="seasonResults" data-season="2012" href="">2012</a></li><li data-season="2011" class=" "><a class="seasonResults" data-season="2011" href="">2011</a></li><li data-season="2010" class=" "><a class="seasonResults" data-season="2010" href="">2010</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>03.10</td><td>21</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/munsterland-giro/2023/result">Sparkassen Münsterland Giro <span>(1.Pro)</span></a> <span title="95 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>95k</span></td><td class="cu600">194.2</td><td class="cu600">5</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/munsterland-giro">more</a></td></tr>
+<tr data-main="1"><td>24.09</td><td>33</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag nl"></span><a href="race/uec-road-european-championships/2023/result">European Continental Championships ME - Road Race <span>(CC)</span></a> </td><td class="cu600">199.8</td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/uec-road-european-championships">more</a></td></tr>
+<tr data-main="1"><td>21.09</td><td>3</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag nl"></span><a href="race/european-continental-championships-mixed-relay-ttt/2023/result">European Continental Championships - Mixed Relay TTT <span>(CC)</span></a> </td><td class="cu600">38.4</td><td class="cu600">5</td><td class="cu600 ">13.33</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/european-continental-championships-mixed-relay-ttt">more</a></td></tr>
+<tr data-main="1"><td>20.09</td><td>15</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag nl"></span><a href="race/uec-road-european-championships-itt/2023/result">European Continental Championships ME - ITT <span>(CC)</span></a> </td><td class="cu600">28.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/uec-road-european-championships-itt">more</a></td></tr>
+<tr data-main="1"><td>17.09</td><td>17</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/gp-d-isbergues/2023/result">Grand Prix d'Isbergues - Pas de Calais <span>(1.1)</span></a> </td><td class="cu600">197.6</td><td class="cu600">4</td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/gp-d-isbergues">more</a></td></tr>
+<tr data-main="1"><td>15.09</td><td>107</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/kampioenschap-van-vlaanderen/2023/result">Kampioenschap van Vlaanderen <span>(1.1)</span></a> </td><td class="cu600">165.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/kampioenschap-van-vlaanderen">more</a></td></tr>
+<tr data-main="1"><td>10.09</td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/gp-de-fourmies/2023/result">GP de Fourmies / La Voix du Nord <span>(1.Pro)</span></a> </td><td class="cu600">197.6</td><td class="cu600">8</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/gp-de-fourmies">more</a></td></tr>
+<tr data-main="1"><td>22.08 &raquo; 25.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-4-points">Tour Poitou - Charentes en Nouvelle Aquitaine <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td></td><td>4</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-4-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td></td><td>6</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">24</td><td class="cu600 ">40</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>25.08</td><td>6</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-4">Stage 4 - Moncoutant &rsaquo; Poitiers</a> </td><td class="cu600">170.4</td><td class="cu600">3</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>24.08</td><td>3</td><td class="gc cu600">7</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-3b">Stage 3b (ITT) - La Roche-Posay &rsaquo; La Roche-Posay</a> </td><td class="cu600">22.1</td><td class="cu600">7</td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>24.08</td><td>5</td><td class="gc cu600">35</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-3a">Stage 3a - Coussay-les-Bois &rsaquo; La Roche-Posay</a> </td><td class="cu600">94.1</td><td class="cu600">4</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>23.08</td><td>40</td><td class="gc cu600">38</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-2">Stage 2 - Aulnay de Saintonge &rsaquo; Bressuire</a> </td><td class="cu600">187.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>22.08</td><td>9</td><td class="gc cu600">12</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-1">Stage 1 - Confolens &rsaquo; Matha</a> </td><td class="cu600">195.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="1"><td>20.08</td><td>85</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/cyclassics-hamburg/2023/result">BEMER Cyclassics <span>(1.UWT)</span></a> </td><td class="cu600">205.6</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/cyclassics-hamburg">more</a></td></tr>
+<tr data-main="1"><td>08.08</td><td>3</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag gb"></span><a href="race/world-championships-mixed-relay-ttt/2023/result">World Championships - Mixed Relay TTT <span>(WC)</span></a> </td><td class="cu600">40.3</td><td class="cu600">10</td><td class="cu600 ">66.67</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/world-championships-mixed-relay-ttt">more</a></td></tr>
+<tr data-main="1"><td>29.07 &raquo; 04.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2023/stage-7-points">Tour de Pologne <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-pologne">more</a></td></tr>
+<tr data-main="0"><td></td><td>14</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2023/stage-7-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-pologne">more</a></td></tr>
+<tr data-main="0"><td></td><td>132</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-pologne">more</a></td></tr>
+<tr data-main="0"><td>04.08</td><td>43</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2023/stage-7">Stage 7 - Zabrze &rsaquo; Kraków</a> </td><td class="cu600">166.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-pologne">more</a></td></tr>
+<tr data-main="0"><td>03.08</td><td>41</td><td class="gc cu600">136</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2023/stage-6">Stage 6 (ITT) - Katowice &rsaquo; Katowice</a> </td><td class="cu600">16.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-pologne">more</a></td></tr>
+<tr data-main="0"><td>02.08</td><td>152</td><td class="gc cu600">146</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2023/stage-5">Stage 5 - Pszczyna &rsaquo; Bielsko-Biala</a> </td><td class="cu600">198.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-pologne">more</a></td></tr>
+<tr data-main="0"><td>01.08</td><td>4</td><td class="gc cu600">140</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2023/stage-4">Stage 4 - Strzelin &rsaquo; Opole</a> </td><td class="cu600">199.1</td><td class="cu600">13</td><td class="cu600 ">20</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-pologne">more</a></td></tr>
+<tr data-main="0"><td>31.07</td><td>156</td><td class="gc cu600">144</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2023/stage-3">Stage 3 - Wałbrzych &rsaquo; Duszniki-Zdrój</a> </td><td class="cu600">162.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-pologne">more</a></td></tr>
+<tr data-main="0"><td>30.07</td><td>116</td><td class="gc cu600">116</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2023/stage-2">Stage 2 - Leszno &rsaquo; Karpacz</a> </td><td class="cu600">202.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-pologne">more</a></td></tr>
+<tr data-main="0"><td>29.07</td><td>5</td><td class="gc cu600">5</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag pl"></span><a href="race/tour-de-pologne/2023/stage-1">Stage 1 - Poznań &rsaquo; Poznań</a> </td><td class="cu600">183.7</td><td class="cu600">10</td><td class="cu600 ">15</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-pologne">more</a></td></tr>
 <tr data-main="1"><td>25.06</td><td>33</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="race/nc-germany/2023/result">National Championships Germany ME - Road Race <span>(NC)</span></a> </td><td class="cu600">215</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/nc-germany">more</a></td></tr>
 <tr data-main="1"><td>23.06</td><td>10</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag de"></span><a href="race/nc-germany-itt/2023/result">National Championships Germany ME - ITT <span>(NC)</span></a> </td><td class="cu600">32.2</td><td class="cu600"></td><td class="cu600 ">1</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/nc-germany-itt">more</a></td></tr>
 <tr data-main="1"><td>11.06</td><td>6</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="race/circuit-des-xi-villes/2023/result">Elfstedenronde Brugge <span>(1.1)</span></a> </td><td class="cu600">190.3</td><td class="cu600">24</td><td class="cu600 ">40</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/circuit-des-xi-villes">more</a></td></tr>
@@ -256,14 +286,14 @@
 <tr data-main="0"><td>01.02</td><td>53</td><td class="gc cu600">35</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag sa"></span><a href="race/tour-de-saudi-arabia/2023/stage-3">Stage 3 - Al Manshiyah Train Station &rsaquo; Abu Rakah</a> </td><td class="cu600">159.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-saudi-arabia">more</a></td></tr>
 <tr data-main="0"><td>31.01</td><td>6</td><td class="gc cu600">3</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag sa"></span><a href="race/tour-de-saudi-arabia/2023/stage-2">Stage 2 - Winter Park &rsaquo; Shalal Sijlyat Rocks</a> </td><td class="cu600">184</td><td class="cu600">3</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-saudi-arabia">more</a></td></tr>
 <tr data-main="0"><td>30.01</td><td>3</td><td class="gc cu600">3</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag sa"></span><a href="race/tour-de-saudi-arabia/2023/stage-1">Stage 1 - AlUla International Airport &rsaquo; Khaybar</a> </td><td class="cu600">180.5</td><td class="cu600">7</td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/max-walscheid/tour-de-saudi-arabia">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>6206</b> km in <b>36</b> days | PCS points: <b>224</b> |  UCI points: <b>410</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>9233</b> km in <b>56</b> days | PCS points: <b>327</b> |  UCI points: <b>584</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >12</div><div class="title   "  ><a    href="rider/max-walscheid/statistics/wins">Wins</a></div><div class="info fs11   "  >GC (0)</div><div class="info fs11   "  >Oneday races (3)</div><div class="info fs11   "  >ITT (0)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >6</div><div class="title   "  ><a    href="rider/max-walscheid/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (3) giro (1) vuelta(2)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >8</div><div class="title   "  ><a    href="rider/max-walscheid/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(4)</div><div class="info fs11   "  >MSR(1)</div><div class="info fs11   "  >RVV(3)</div><div class="info fs11   "  >LBL(0)</div><div class="info fs11   "  >LOM(0)</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 38.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">224</span></div></td><td class="ac  " >174</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 56.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">327</span></div></td><td class="ac  " >183</td></tr>
 <tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">462</span></div></td><td class="ac  " >123</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 67.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">388</span></div></td><td class="ac  " >133</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 42.8%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">247</span></div></td><td class="ac  " >139</td></tr>
@@ -406,15 +436,19 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1301s</span></li>
+<li><span>Pageload 0.0795s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list6.js"></script>  
+<script src="search_list7.js"></script>  
+
 		<script>
+
 		var riderid = 141166;		$(document).ready(function() { 	RVC(riderid);  	  });
+
 		</script>
+
 		

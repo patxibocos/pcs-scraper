@@ -25,6 +25,12 @@
 <title>Joe  Dombrowski </title>
 <base href="https://www.procyclingstats.com/rider.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/rider/joe-dombrowski" />
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Joe Dombrowski (born 1991-05-12 in Marshall) is a professional road racing cyclist from United States, currently riding for Astana Qazaqstan Team. His best results are winning GC Tour of Utah and winning a stage in Giro d'Italia.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b156.css" />
-<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
+<script src="https://www.procyclingstats.com/pcs_s79.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -48,7 +54,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
+    	<a  class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
@@ -58,38 +65,38 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,21 +105,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
-<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -164,7 +163,7 @@
 <li data-n="6"><a href="rider/joe-dombrowski/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag us w32"></span><span class="flag us w24"></span><h1 class="">Joe  Dombrowski</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Astana Qazaqstan Team</span></div><div class="sub"><span class="red showIfMobile">Astana Qazaqstan Team</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
 <ul class="list horizontal fs14 circle bluelink"></ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/joe-dombrowski/statistics/overview"><img alt="Profile photo of Joe  Dombrowski" src="images/riders/bp/aa/joe-dombrowski-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 12<sup>th</sup> May 1991 (32)<br /><b>Nationality:</b> <span class="flag  us"></span><a class="black" href="nation/united-states">United States</a><br /><span><b>Weight:</b> 68 kg &nbsp; <span><b>Height:</b> 1.87 m<br /><b>Place of birth:</b> <a href="location/marshall-virginia">Marshall</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 4.9429657794677%; height: 100%;  "></div></div><div class="pnt">65</div><div class="title"><a href="rider/joe-dombrowski/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1315</div><div class="title"><a href="rider/joe-dombrowski/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 17.642585551331%; height: 100%;  "></div></div><div class="pnt">232</div><div class="title"><a href="rider/joe-dombrowski/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 4.7148288973384%; height: 100%;  "></div></div><div class="pnt">62</div><div class="title"><a href="rider/joe-dombrowski/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 94.600760456274%; height: 100%;  "></div></div><div class="pnt">1244</div><div class="title"><a href="rider/joe-dombrowski/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/joe-dombrowski/statistics/overview"><img alt="Profile photo of Joe  Dombrowski" src="images/riders/bp/aa/joe-dombrowski-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 12<sup>th</sup> May 1991 (32)<br /><b>Nationality:</b> <span class="flag  us"></span><a class="black" href="nation/united-states">United States</a><br /><span><b>Weight:</b> 68 kg &nbsp; <span><b>Height:</b> 1.85 m<br /><b>Place of birth:</b> <a href="location/marshall-virginia">Marshall</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 4.8689138576779%; height: 100%;  "></div></div><div class="pnt">65</div><div class="title"><a href="rider/joe-dombrowski/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1335</div><div class="title"><a href="rider/joe-dombrowski/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 17.378277153558%; height: 100%;  "></div></div><div class="pnt">232</div><div class="title"><a href="rider/joe-dombrowski/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 4.6441947565543%; height: 100%;  "></div></div><div class="pnt">62</div><div class="title"><a href="rider/joe-dombrowski/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 93.033707865169%; height: 100%;  "></div></div><div class="pnt">1242</div><div class="title"><a href="rider/joe-dombrowski/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/JoeDombro">twitter</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/joedombro/">instagram</a></li>
 <li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/pros/276702">strava</a></li>
@@ -173,11 +172,11 @@
 <li><span class="icon Cyclo-cross left"></span><a  target="_self"   class="" href="https://cx.procyclingstats.com/rider/joe-dombrowski">Cyclo-cross</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >1311</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >643</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >1469</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >746</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;56</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;68</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-of-utah/2015/gc">Tour of Utah</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('15)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/giro-d-italia/2021/stage-4">Giro d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
@@ -212,6 +211,37 @@
 <div class=""><div class="">No races on program.</div></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="tabsV3" style=" "><li class="cur"><a class="toggleDiscipline" data-discipline="road" data-rid="140161" data-season="2023" href="">road</a><span></span></li><li class=""><a class="toggleDiscipline" data-discipline="cx" data-rid="1010803" data-season="2018" href="">cross</a><span></span></li></ul><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2023" class=" "><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" "><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li><li data-season="2012" class=" "><a class="seasonResults" data-season="2012" href="">2012</a></li><li data-season="2011" class=" "><a class="seasonResults" data-season="2011" href="">2011</a></li><li data-season="2010" class=" "><a class="seasonResults" data-season="2010" href="">2010</a></li></ul></li></ul><ul class="rdrSeasonNav hide" data-discipline="cx"><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">17/18</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">16/17</a></li><li data-season="2011" class=""><a class="seasonResults" data-season="2011" href="">10/11</a></li><li data-season="2010" class=""><a class="seasonResults" data-season="2010" href="">09/10</a></li><li data-season="2009" class=""><a class="seasonResults" data-season="2009" href="">08/09</a></li><li class="more hide "><span>more</span><ul><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">17/18</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">16/17</a></li><li data-season="2011" class=" hide"><a class="seasonResults" data-season="2011" href="">10/11</a></li><li data-season="2010" class=" hide"><a class="seasonResults" data-season="2010" href="">09/10</a></li><li data-season="2009" class=" hide"><a class="seasonResults" data-season="2009" href="">08/09</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>26.08 &raquo; 17.09</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/gc">La Vuelta Ciclista a España <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td></td><td>57</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">20</td><td class="cu600 ">10</td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>17.09</td><td>122</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-21">Stage 21 - Hipódromo de la Zarzuela &rsaquo; Madrid. Paisaje de la Luz</a> </td><td class="cu600">101.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>16.09</td><td>61</td><td class="gc cu600">57</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-20">Stage 20 - Manzanares El Real &rsaquo; Guadarrama</a> </td><td class="cu600">207.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>15.09</td><td>99</td><td class="gc cu600">56</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-19">Stage 19 - La Bañeza &rsaquo; Íscar</a> </td><td class="cu600">177.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>14.09</td><td>41</td><td class="gc cu600">56</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-18">Stage 18 - Pola de Allande &rsaquo; La Cruz de Linares</a> </td><td class="cu600">178.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>13.09</td><td>70</td><td class="gc cu600">59</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-17">Stage 17 - Ribadesella/Ribeseya &rsaquo; Altu de L'Angliru</a> </td><td class="cu600">124.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>12.09</td><td>38</td><td class="gc cu600">58</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-16">Stage 16 - Liencres Playa &rsaquo; Bejes</a> </td><td class="cu600"><s>120.1</s> 119.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>10.09</td><td>68</td><td class="gc cu600">62</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-15">Stage 15 - Pamplona &rsaquo; Lekunberri</a> </td><td class="cu600">158.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>09.09</td><td>66</td><td class="gc cu600">62</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-14">Stage 14 - Sauveterre-de-Béarn &rsaquo; Larra-Belagua</a> </td><td class="cu600">156.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>08.09</td><td>31</td><td class="gc cu600">57</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-13">Stage 13 - Formigal. Huesca la Magia  &rsaquo; Col du Tourmalet</a> </td><td class="cu600">134.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>07.09</td><td>68</td><td class="gc cu600">60</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-12">Stage 12 - Ólvega &rsaquo; Zaragoza</a> </td><td class="cu600">150.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>06.09</td><td>76</td><td class="gc cu600">64</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-11">Stage 11 - Lerma &rsaquo; La Laguna Negra.Vinuesa</a> </td><td class="cu600">163.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>05.09</td><td>90</td><td class="gc cu600">66</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-10">Stage 10 (ITT) - Valladolid &rsaquo; Valladolid</a> </td><td class="cu600">25.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>03.09</td><td>33</td><td class="gc cu600">67</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-9">Stage 9 - Cartagena &rsaquo; Collado de la Cruz de Caravaca</a> </td><td class="cu600">184.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>02.09</td><td>118</td><td class="gc cu600">75</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-8">Stage 8 - Dénia &rsaquo; Xorret de Catí. Costa Blanca Interior</a> </td><td class="cu600">165</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>01.09</td><td>80</td><td class="gc cu600">48</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-7">Stage 7 - Utiel &rsaquo; Oliva</a> </td><td class="cu600">200.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>31.08</td><td>57</td><td class="gc cu600">50</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-6">Stage 6 - La Vall d'Uixó  &rsaquo; Observatorio Astrofísico de Javalambre</a> </td><td class="cu600">183.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>30.08</td><td>87</td><td class="gc cu600">56</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-5">Stage 5 - Morella &rsaquo; Burriana</a> </td><td class="cu600">186.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>29.08</td><td>61</td><td class="gc cu600">64</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-4">Stage 4 - Andorra la Vella &rsaquo; Tarragona</a> </td><td class="cu600">184.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>28.08</td><td>65</td><td class="gc cu600">68</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-3">Stage 3 - Súria &rsaquo; Arinsal</a> </td><td class="cu600">158.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>27.08</td><td>80</td><td class="gc cu600">105</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-2">Stage 2 - Mataró &rsaquo; Barcelona</a> </td><td class="cu600">181.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="0"><td>26.08</td><td>7</td><td class="gc cu600">130</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-espana/2023/stage-1">Stage 1 (TTT) - Barcelona &rsaquo; Barcelona</a> </td><td class="cu600">14.8</td><td class="cu600"></td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-espana">more</a></td></tr>
+<tr data-main="1"><td>15.08 &raquo; 19.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2023/stage-5-kom">Vuelta a Burgos <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td></td><td>19</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st7"  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2023/stage-5-kom">Mountains classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td></td><td>60</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>19.08</td><td>70</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2023/stage-5">Stage 5 - Golmayo &rsaquo; Lagunas de Neila</a> <span title="128 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>128k</span></td><td class="cu600">160</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>18.08</td><td>51</td><td class="gc cu600">51</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2023/stage-4">Stage 4 - Santa Gadea del Cid &rsaquo; Pradoluengo (Acebel-Vizcarra)</a> </td><td class="cu600">157</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>17.08</td><td>46</td><td class="gc cu600">54</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2023/stage-3">Stage 3 - Sargentes de la Lora &rsaquo; Villarcayo</a> </td><td class="cu600"><s>183</s> 175</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>16.08</td><td>8</td><td class="gc cu600">80</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2023/stage-2">Stage 2 (TTT) - Oña &rsaquo; Poza de la Sal</a> </td><td class="cu600">13.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>15.08</td><td>71</td><td class="gc cu600">71</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-burgos/2023/stage-1">Stage 1 - Villalba de Duero &rsaquo; Burgos</a> </td><td class="cu600">161</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/vuelta-a-burgos">more</a></td></tr>
 <tr data-main="1"><td>04.06 &raquo; 11.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/gc">Critérium du Dauphiné <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/dauphine">more</a></td></tr>
 <tr data-main="0"><td></td><td>66</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/dauphine">more</a></td></tr>
 <tr data-main="0"><td>11.06</td><td>50</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/dauphine/2023/stage-8">Stage 8 - Le Pont-de-Claix &rsaquo; La Bastille – Grenoble Alpes Métropole</a> </td><td class="cu600">152.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/dauphine">more</a></td></tr>
@@ -276,14 +306,14 @@
 <tr data-main="0"><td>17.02</td><td>75</td><td class="gc cu600">84</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2023/stage-3">Stage 3 - Alcalá de Guadaira &rsaquo; Alcalá de los Gazules</a> </td><td class="cu600">161.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/ruta-del-sol">more</a></td></tr>
 <tr data-main="0"><td>16.02</td><td>61</td><td class="gc cu600">84</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2023/stage-2">Stage 2 - Diezma &rsaquo; Alcalá la Real</a> <span title="55 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>55k</span></td><td class="cu600">156.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/ruta-del-sol">more</a></td></tr>
 <tr data-main="0"><td>15.02</td><td>101</td><td class="gc cu600">101</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-del-sol/2023/stage-1">Stage 1 - Puente de Génave &rsaquo; Santiago de la Espada</a> </td><td class="cu600">179</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/joe-dombrowski/ruta-del-sol">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>8335</b> km in <b>52</b> days | PCS points: <b>37</b> |  UCI points: <b>15</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>12158</b> km in <b>78</b> days | PCS points: <b>57</b> |  UCI points: <b>30</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >4</div><div class="title   "  ><a    href="rider/joe-dombrowski/statistics/wins">Wins</a></div><div class="info fs11   "  >GC (1)</div><div class="info fs11   "  >Oneday races (0)</div><div class="info fs11   "  >ITT (0)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >13</div><div class="title   "  ><a    href="rider/joe-dombrowski/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (1) giro (8) vuelta(4)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
+<li class="" ><div class="nr   "  >14</div><div class="title   "  ><a    href="rider/joe-dombrowski/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (1) giro (8) vuelta(5)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >2</div><div class="title   "  ><a    href="rider/joe-dombrowski/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(0)</div><div class="info fs11   "  >MSR(0)</div><div class="info fs11   "  >RVV(0)</div><div class="info fs11   "  >LBL(0)</div><div class="info fs11   "  >LOM(2)</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 8.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">37</span></div></td><td class="ac  " >679</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 13.3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">57</span></div></td><td class="ac  " >726</td></tr>
 <tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 25.3%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">109</span></div></td><td class="ac  " >434</td></tr>
 <tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 41.2%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">177</span></div></td><td class="ac  " >301</td></tr>
 <tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 4.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">20</span></div></td><td class="ac  " >870</td></tr>
@@ -429,15 +459,19 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0991s</span></li>
+<li><span>Pageload 0.0978s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list6.js"></script>  
+<script src="search_list7.js"></script>  
+
 		<script>
+
 		var riderid = 140161;		$(document).ready(function() { 	RVC(riderid);  	  });
+
 		</script>
+
 		

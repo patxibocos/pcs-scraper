@@ -25,6 +25,12 @@
 <title>Oxyclean Classic Brugge-De Panne 2023</title>
 <base href="https://www.procyclingstats.com/race.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/race/oxyclean-classic-brugge-de-panne/2023" />
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
 <script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b156.css" />
-<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
+<script src="https://www.procyclingstats.com/pcs_s79.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -48,7 +54,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
+    	<a  class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
     		<input type="text" name="term" id="search" data-nav="/start" data-nav2="" data-page="race_event" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
@@ -58,38 +65,38 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,21 +105,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
-<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -124,7 +123,7 @@
 			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
   </header>  
 <div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/oxyclean-classic-brugge-de-panne/2022/statistics/start" >2022</a><div ><form style="  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/oxyclean-classic-brugge-de-panne/2024/statistics/start" >2024</option><option value="race/oxyclean-classic-brugge-de-panne/2023/statistics/start" selected>2023</option><option value="race/oxyclean-classic-brugge-de-panne/2022/statistics/start" >2022</option><option value="race/oxyclean-classic-brugge-de-panne/2021/statistics/start" >2021</option><option value="race/oxyclean-classic-brugge-de-panne/2020/statistics/start" >2020</option><option value="race/oxyclean-classic-brugge-de-panne/2019/statistics/start" >2019</option><option value="race/oxyclean-classic-brugge-de-panne/2018/statistics/start" >2018</option><option value="race/oxyclean-classic-brugge-de-panne/2017/statistics/start" >2017</option><option value="race/oxyclean-classic-brugge-de-panne/2016/statistics/start" >2016</option><option value="race/oxyclean-classic-brugge-de-panne/2015/statistics/start" >2015</option><option value="race/oxyclean-classic-brugge-de-panne/2014/statistics/start" >2014</option><option value="race/oxyclean-classic-brugge-de-panne/2013/statistics/start" >2013</option><option value="race/oxyclean-classic-brugge-de-panne/2012/statistics/start" >2012</option><option value="race/oxyclean-classic-brugge-de-panne/2011/statistics/start" >2011</option><option value="race/oxyclean-classic-brugge-de-panne/2010/statistics/start" >2010</option><option value="race/oxyclean-classic-brugge-de-panne/2009/statistics/start" >2009</option><option value="race/oxyclean-classic-brugge-de-panne/2008/statistics/start" >2008</option><option value="race/oxyclean-classic-brugge-de-panne/2007/statistics/start" >2007</option><option value="race/oxyclean-classic-brugge-de-panne/2006/statistics/start" >2006</option><option value="race/oxyclean-classic-brugge-de-panne/2005/statistics/start" >2005</option><option value="race/oxyclean-classic-brugge-de-panne/2004/statistics/start" >2004</option><option value="race/oxyclean-classic-brugge-de-panne/2003/statistics/start" >2003</option><option value="race/oxyclean-classic-brugge-de-panne/2002/statistics/start" >2002</option><option value="race/oxyclean-classic-brugge-de-panne/2001/statistics/start" >2001</option><option value="race/oxyclean-classic-brugge-de-panne/2000/statistics/start" >2000</option><option value="race/oxyclean-classic-brugge-de-panne/1999/statistics/start" >1999</option><option value="race/oxyclean-classic-brugge-de-panne/1998/statistics/start" >1998</option><option value="race/oxyclean-classic-brugge-de-panne/1997/statistics/start" >1997</option><option value="race/oxyclean-classic-brugge-de-panne/1996/statistics/start" >1996</option><option value="race/oxyclean-classic-brugge-de-panne/1995/statistics/start" >1995</option><option value="race/oxyclean-classic-brugge-de-panne/1994/statistics/start" >1994</option><option value="race/oxyclean-classic-brugge-de-panne/1993/statistics/start" >1993</option><option value="race/oxyclean-classic-brugge-de-panne/1992/statistics/start" >1992</option><option value="race/oxyclean-classic-brugge-de-panne/1991/statistics/start" >1991</option><option value="race/oxyclean-classic-brugge-de-panne/1990/statistics/start" >1990</option><option value="race/oxyclean-classic-brugge-de-panne/1989/statistics/start" >1989</option><option value="race/oxyclean-classic-brugge-de-panne/1988/statistics/start" >1988</option><option value="race/oxyclean-classic-brugge-de-panne/1987/statistics/start" >1987</option><option value="race/oxyclean-classic-brugge-de-panne/1986/statistics/start" >1986</option><option value="race/oxyclean-classic-brugge-de-panne/1985/statistics/start" >1985</option><option value="race/oxyclean-classic-brugge-de-panne/1984/statistics/start" >1984</option><option value="race/oxyclean-classic-brugge-de-panne/1983/statistics/start" >1983</option><option value="race/oxyclean-classic-brugge-de-panne/1982/statistics/start" >1982</option><option value="race/oxyclean-classic-brugge-de-panne/1981/statistics/start" >1981</option><option value="race/oxyclean-classic-brugge-de-panne/1980/statistics/start" >1980</option><option value="race/oxyclean-classic-brugge-de-panne/1979/statistics/start" >1979</option><option value="race/oxyclean-classic-brugge-de-panne/1978/statistics/start" >1978</option><option value="race/oxyclean-classic-brugge-de-panne/1977/statistics/start" >1977</option></select></form></div><a  href="race/oxyclean-classic-brugge-de-panne/2024/statistics/start" >2024</a></div><div class="pageSelectNav 1" ><div ><form style="  max-width: 220px; width: 100%;  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/oxyclean-classic-brugge-de-panne/2023/" >- stage -</option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/oxyclean-classic-brugge-de-panne/2023">Statistics</a></li>
-<li class="reg "><a style=" " href="/race/oxyclean-classic-brugge-de-panne/2023">GO TO</a><ul><li><a href="race/oxyclean-classic-brugge-de-panne/2023/result"> results</a></li></ul></li><li class="reg "><a class="" href="race/oxyclean-classic-brugge-de-panne/2023/startlist">Startlist&#x25BC;</a><ul><li><a href="race/oxyclean-classic-brugge-de-panne/2023/startlist/startlist">Startlist</a></li>
+<li class="reg "><a style=" " href="/race/oxyclean-classic-brugge-de-panne/2023">GO TO</a><ul><li><a href="race/oxyclean-classic-brugge-de-panne/2023/result"> results</a></li><li><a href="race/oxyclean-classic-brugge-de-panne/2023/result">Results</a></li><li><a href="race/oxyclean-classic-brugge-de-panne/2023/result/live">Live data</a></li></ul></li><li class="reg "><a class="" href="race/oxyclean-classic-brugge-de-panne/2023/startlist">Startlist&#x25BC;</a><ul><li><a href="race/oxyclean-classic-brugge-de-panne/2023/startlist/startlist">Startlist</a></li>
 <li><a href="race/oxyclean-classic-brugge-de-panne/2023/startlist/top-competitors">Top competitors</a></li>
 <li><a href="race/oxyclean-classic-brugge-de-panne/2023/startlist/startlist-quality">Startlist quality</a></li>
 <li><a href="race/oxyclean-classic-brugge-de-panne/2023/startlist/debutants">Debutants</a></li>
@@ -185,15 +184,15 @@
 </ul></div>
 <div class="mt20"><h3>Top competitors</h3>
 <span class="table-cont"><ul class="list"  style="max-width: 550px;  "><li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/jasper-philipsen">PHILIPSEN Jasper</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 fr"></span> </div><div ><a    href="rider/arnaud-demare">DÉMARE Arnaud</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 nl"></span> </div><div ><a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="clear"></div></li>
 <li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 nl"></span> </div><div ><a    href="rider/olav-kooij">KOOIJ Olav</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 nl"></span> </div><div ><a    href="rider/fabio-jakobsen">JAKOBSEN Fabio</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 ie"></span> </div><div ><a    href="rider/sam-bennett">BENNETT Sam</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 au"></span> </div><div ><a    href="rider/caleb-ewan">EWAN Caleb</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 nl"></span> </div><div ><a    href="rider/dylan-groenewegen">GROENEWEGEN Dylan</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 fr"></span> </div><div ><a    href="rider/arnaud-demare">DÉMARE Arnaud</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/gerben-thijssen">THIJSSEN Gerben</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/jordi-meeus">MEEUS Jordi</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 no"></span> </div><div ><a    href="rider/soren-waerenskjold">WÆRENSKJOLD Søren</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 au"></span> </div><div ><a    href="rider/sam-welsford">WELSFORD Sam</a></div><div class="clear"></div></li>
 <li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 nl"></span> </div><div ><a    href="rider/danny-van-poppel">VAN POPPEL Danny</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 it"></span> </div><div ><a    href="rider/simone-consonni">CONSONNI Simone</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 it"></span> </div><div ><a    href="rider/luca-mozzato">MOZZATO Luca</a></div><div class="clear"></div></li>
+<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/yves-lampaert">LAMPAERT Yves</a></div><div class="clear"></div></li>
 </ul></span></div>
 <ul class="list horizontal"><li class="goto2 pr5" ><a   class="goto2 pr5" href="race/oxyclean-classic-brugge-de-panne/2023/startlist">Startlist</a></li>
 <li class="goto2 pr5" ><a   class="goto2 pr5" href="race/oxyclean-classic-brugge-de-panne/2023/startlist/top-competitors">Top riders</a></li>
@@ -209,7 +208,7 @@
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1187"></span></div><div class="fs14 pr5   "  ><a    href="team/groupama-fdj-2023">Groupama - FDJ</a></div><div class=" clr999 fs14   "  > (Konovalovas, Démare)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1258"></span></div><div class="fs14 pr5   "  ><a    href="team/trek-segafredo-2023">Trek - Segafredo</a></div><div class=" clr999 fs14   "  > (Theuns, Skujiņš)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1375"></span></div><div class="fs14 pr5   "  ><a    href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></div><div class=" clr999 fs14   "  > (Cavendish, Bol)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1330"></span></div><div class="fs14 pr5   "  ><a    href="team/team-jumbo-visma-2023">Jumbo-Visma</a></div><div class=" clr999 fs14   "  > (van Emden, Van der Sande)</div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1330"></span></div><div class="fs14 pr5   "  ><a    href="team/team-jumbo-visma-2023">Jumbo-Visma</a></div><div class=" clr999 fs14   "  > (van Emden, Kooij)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1360"></span></div><div class="fs14 pr5   "  ><a    href="team/team-dsm-2023">Team DSM</a></div><div class=" clr999 fs14   "  > (Dainese, Bevin)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team3814"></span></div><div class="fs14 pr5   "  ><a    href="team/bahrain-victorious-2023">Bahrain - Victorious</a></div><div class=" clr999 fs14   "  > (Gradek, Bauhaus)</div><div class="clear"></div></li>
 <li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1136"></span></div><div class="fs14 pr5   "  ><a    href="team/cofidis-2023">Cofidis</a></div><div class=" clr999 fs14   "  > (Walscheid, Cimolai)</div><div class="clear"></div></li>
@@ -304,11 +303,11 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.3136s</span></li>
+<li><span>Pageload 0.0425s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="5223" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list6.js"></script>  
+<script src="search_list7.js"></script>  

@@ -25,7 +25,13 @@
 <title>Davide  Baldaccini </title>
 <base href="https://www.procyclingstats.com/rider.php" />
 <link rel="canonical" href="https://www.procyclingstats.com/rider/davide-baldaccini" />
-<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Davide Baldaccini (born 1998-05-22 in San Giovanni Bianco) is a professional road racing cyclist from Italy, currently riding for Team Corratec - Selle Italia. His best results are winning a stage in Tour of Qinghai Lake and 6th place in Trofeo Città di San Vendemiano.">
+<script>
+    var r89 = r89 || {
+      callAds: [],
+      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
+    };
+</script>
+<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Davide Baldaccini (born 1998-05-22 in San Giovanni Bianco) is a professional road racing cyclist from Italy, currently riding for Team Corratec - Selle Italia. His best results are winning a stage in Tour of Qinghai Lake and 3rd place in GC Tour of Qinghai Lake.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="utf-8"> 
@@ -34,9 +40,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a187.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b156.css" />
-<script src="https://www.procyclingstats.com/pcs_s74.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
+<script src="https://www.procyclingstats.com/pcs_s79.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -48,7 +54,8 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
+    	<a  class="logo" href="index.php"></a>
+  
     	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
@@ -58,38 +65,38 @@
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
+<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
 <li><a href="race/dauphine">Critérium du Dauphiné</a></li>
 <li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/movistar-team-2023">Movistar Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
+<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
+<li><a href="team/cofidis-2023">Cofidis </a></li>
+<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
+<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/movistar-team-2023">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
 <li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
 <li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
 <li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 <li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
 <li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
+<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
+<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -98,21 +105,13 @@
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 yellow"><a class="reg" href="race/tour-de-france/2023">Tour</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france/2023/startlist">Startlist</a></li>
-<li><a href="race/tour-de-france/results/palmares">Palmares</a></li>
-<li><a href="race/tour-de-france/2023/startlist/riders-ranked">Top competitors</a></li>
-<li><a href="race/tour-de-france/2023/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a href="race/tour-de-france/2023/route/stage-profiles">Stage profiles</a></li>
-<li><a href="race/tour-de-france/2023/startlist/teams-ranked">Best teams</a></li>
-<li><a href="race/tour-de-france/2023/startlist/form">Riders form</a></li>
-</ul></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/about-us">About us</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
+<li><a href="info/about-us">About us</a></li>
+<li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
@@ -163,22 +162,22 @@
 <li data-n="7"><a href="rider/davide-baldaccini/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/davide-baldaccini/specialties/top-gc-results">Top GC results</a></li>
 <li data-n="6"><a href="rider/davide-baldaccini/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag it w32"></span><span class="flag it w24"></span><h1 class="">Davide  Baldaccini</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Team Corratec - Selle Italia</span></div><div class="sub"><span class="red showIfMobile">Team Corratec - Selle Italia</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="race/tour-of-qinghai-lake/2023/stage-8/live">LiveStats Tour of Qinghai Lake</a></li>
-<li><a   class="" href="rider-in-race/davide-baldaccini/tour-of-qinghai-lake">Rider statistics in Tour of Qinghai Lake</a></li>
-</ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/davide-baldaccini/statistics/overview"><img alt="Profile photo of Davide  Baldaccini" src="images/riders/bp/bc/davide-baldaccini-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 22<sup>nd</sup> May 1998 (25)<br /><b>Nationality:</b> <span class="flag  it"></span><a class="black" href="nation/italy">Italy</a><br /><span><b>Height:</b> 1.76 m<br /><b>Place of birth:</b> <a href="location/san-giovanni-bianco">San Giovanni Bianco</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 1.6129032258065%; height: 100%;  "></div></div><div class="pnt">1</div><div class="title"><a href="rider/davide-baldaccini/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 72.58064516129%; height: 100%;  "></div></div><div class="pnt">45</div><div class="title"><a href="rider/davide-baldaccini/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/davide-baldaccini/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 3.2258064516129%; height: 100%;  "></div></div><div class="pnt">2</div><div class="title"><a href="rider/davide-baldaccini/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 100%; height: 100%;  "></div></div><div class="pnt">62</div><div class="title"><a href="rider/davide-baldaccini/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/davide-baldaccini/statistics/overview"><img alt="Profile photo of Davide  Baldaccini" src="images/riders/bp/bc/davide-baldaccini-2023.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 22<sup>nd</sup> May 1998 (25)<br /><b>Nationality:</b> <span class="flag  it"></span><a class="black" href="nation/italy">Italy</a><br /><span><b>Height:</b> 1.76 m<br /><b>Place of birth:</b> <a href="location/san-giovanni-bianco">San Giovanni Bianco</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 1.0204081632653%; height: 100%;  "></div></div><div class="pnt">1</div><div class="title"><a href="rider/davide-baldaccini/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">98</div><div class="title"><a href="rider/davide-baldaccini/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/davide-baldaccini/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 14.285714285714%; height: 100%;  "></div></div><div class="pnt">14</div><div class="title"><a href="rider/davide-baldaccini/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 68.367346938776%; height: 100%;  "></div></div><div class="pnt">67</div><div class="title"><a href="rider/davide-baldaccini/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
 <div class="mt10"><ul class="list horizontal sites"><li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/10571428">strava</a></li>
 <li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/davide_baldaccini/">instagram</a></li>
 <li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/davide.baldaccini.96">facebook</a></li>
 </ul></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >2371</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >994</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >508</div><div class="clear"></div></li>
+<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >421</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;6141</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;195</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-of-qinghai-lake/2023/stage-3">Tour of Qinghai Lake</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-qinghai-lake/2023/gc">Tour of Qinghai Lake</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">7th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-qinghai-lake/2023/stage-8">Tour of Qinghai Lake</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">6th&nbsp;</div><div><span class="blue"></span> <a href="race/gp-industria-e-commercio2/2020/result">Trofeo Città di San Vendemiano</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/giro-ciclistico-d-italia/2020/stage-1">Giro Ciclistico d'Italia</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">6th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-cycliste-international-de-la-guadeloupe/2022/stage-3">Tour Cycliste International de la Guadeloupe</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
@@ -188,8 +187,6 @@
 <li class="main"><div class="ar" style="width: 55px; ">12th&nbsp;</div><div><span class="blue">KOM</span> <a href="race/international-tour-of-hellas/2023/stage-4-kom">International Tour of Hellas</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">12th&nbsp;</div><div><span class="blue">stage</span> <a href="race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2019/stage-2">Giro Ciclistico della Valle d'Aosta - Mont Blanc</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">13th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-italy-u23/2020/result">National Championships Italy MU23 - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">15th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-qinghai-lake/2023/stage-2">Tour of Qinghai Lake</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">16th&nbsp;</div><div><span class="blue">KOM</span> <a href="race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2018/kom">Giro Ciclistico della Valle d'Aosta - Mont Blanc</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
 <span class="table-cont"><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/team-corratec-selle-italia-2024">Team Corratec - Selle Italia</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
@@ -203,7 +200,31 @@
 <div class=""><div class="">No races on program.</div></div>
 <div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2023" class="cur"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li class="more hide show_if"><span>more</span><ul><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" hide"><a class="seasonResults" data-season="2015" href="">2015</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>09.07 &raquo; 16.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/stage-7">Tour of Qinghai Lake <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-of-qinghai-lake">more</a></td></tr>
+<tr data-main="1"><td>23.09 &raquo; 30.09</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag my"></span><a href="race/tour-de-langkawi/2023/gc">PETRONAS Le Tour de Langkawi <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-de-langkawi">more</a></td></tr>
+<tr data-main="0"><td></td><td>20</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag my"></span><a href="race/tour-de-langkawi/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">8</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-de-langkawi">more</a></td></tr>
+<tr data-main="0"><td>30.09</td><td>70</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag my"></span><a href="race/tour-de-langkawi/2023/stage-8">Stage 8 - Setia Alam &rsaquo; Kuala Lumpur </a> </td><td class="cu600">156.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-de-langkawi">more</a></td></tr>
+<tr data-main="0"><td>29.09</td><td>54</td><td class="gc cu600">20</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag my"></span><a href="race/tour-de-langkawi/2023/stage-7">Stage 7 - Muar &rsaquo; Seremban</a> </td><td class="cu600">123.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-de-langkawi">more</a></td></tr>
+<tr data-main="0"><td>28.09</td><td>53</td><td class="gc cu600">21</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag my"></span><a href="race/tour-de-langkawi/2023/stage-6">Stage 6 - Karak &rsaquo; Melaka</a> </td><td class="cu600">174.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-de-langkawi">more</a></td></tr>
+<tr data-main="0"><td>27.09</td><td>21</td><td class="gc cu600">21</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag my"></span><a href="race/tour-de-langkawi/2023/stage-5">Stage 5 - Slim River &rsaquo; Genting Highlands</a> </td><td class="cu600">126.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-de-langkawi">more</a></td></tr>
+<tr data-main="0"><td>26.09</td><td>66</td><td class="gc cu600">37</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag my"></span><a href="race/tour-de-langkawi/2023/stage-4">Stage 4 - Bukit Mertajam &rsaquo; Meru Raya</a> </td><td class="cu600">140.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-de-langkawi">more</a></td></tr>
+<tr data-main="0"><td>25.09</td><td>31</td><td class="gc cu600">34</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag my"></span><a href="race/tour-de-langkawi/2023/stage-3">Stage 3 - Jeli &rsaquo; Baling</a> </td><td class="cu600">183.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-de-langkawi">more</a></td></tr>
+<tr data-main="0"><td>24.09</td><td>47</td><td class="gc cu600">66</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag my"></span><a href="race/tour-de-langkawi/2023/stage-2">Stage 2 - Kuala Terengganu &rsaquo; Kota Bharu</a> </td><td class="cu600">186.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-de-langkawi">more</a></td></tr>
+<tr data-main="0"><td>23.09</td><td>69</td><td class="gc cu600">73</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag my"></span><a href="race/tour-de-langkawi/2023/stage-1">Stage 1 - Kerteh &rsaquo; Kuala Terengganu</a> </td><td class="cu600">187.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-de-langkawi">more</a></td></tr>
+<tr data-main="1"><td>17.09</td><td>36</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/trofeo-matteotti/2023/result">Trofeo Matteotti <span>(1.1)</span></a> </td><td class="cu600">195</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/trofeo-matteotti">more</a></td></tr>
+<tr data-main="1"><td>16.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/memorial-marco-pantani/2023/result">Memorial Marco Pantani <span>(1.1)</span></a> </td><td class="cu600">193.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/memorial-marco-pantani">more</a></td></tr>
+<tr data-main="1"><td>14.09</td><td>45</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/gp-citta-di-peccioli/2023/result">Gran Premio città di Peccioli - Coppa Sabatini <span>(1.Pro)</span></a> </td><td class="cu600">198.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/gp-citta-di-peccioli">more</a></td></tr>
+<tr data-main="1"><td>13.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="race/giro-di-toscana/2023/result">Giro della Toscana - Memorial Alfredo Martini <span>(1.1)</span></a> </td><td class="cu600">191.55</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/giro-di-toscana">more</a></td></tr>
+<tr data-main="1"><td>15.08 &raquo; 18.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-limousin/2023/stage-4-youth">Tour du Limousin-Périgord - Nouvelle Aquitaine <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-du-limousin">more</a></td></tr>
+<tr data-main="0"><td></td><td>16</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-limousin/2023/stage-4-youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-du-limousin">more</a></td></tr>
+<tr data-main="0"><td></td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-limousin/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-du-limousin">more</a></td></tr>
+<tr data-main="0"><td>18.08</td><td>44</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-limousin/2023/stage-4">Stage 4 - Glandon - Pays de Saint-Yrieix &rsaquo; Limoges</a> </td><td class="cu600">170.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-du-limousin">more</a></td></tr>
+<tr data-main="0"><td>17.08</td><td>30</td><td class="gc cu600">31</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-limousin/2023/stage-3">Stage 3 - Sarran &rsaquo; Bort les Orgues</a> </td><td class="cu600">195.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-du-limousin">more</a></td></tr>
+<tr data-main="0"><td>16.08</td><td>55</td><td class="gc cu600">38</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-limousin/2023/stage-2">Stage 2 - Excideuil &rsaquo; Trélissac</a> </td><td class="cu600">185.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-du-limousin">more</a></td></tr>
+<tr data-main="0"><td>15.08</td><td>36</td><td class="gc cu600">36</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/tour-du-limousin/2023/stage-1">Stage 1 - Rilhac-Rancon &rsaquo; Bénévent L’Abbaye</a> </td><td class="cu600">165.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-du-limousin">more</a></td></tr>
+<tr data-main="1"><td>09.07 &raquo; 16.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/stage-8-points">Tour of Qinghai Lake <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-of-qinghai-lake">more</a></td></tr>
+<tr data-main="0"><td></td><td>15</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/stage-8-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-of-qinghai-lake">more</a></td></tr>
+<tr data-main="0"><td></td><td>3</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">90</td><td class="cu600 ">125</td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-of-qinghai-lake">more</a></td></tr>
+<tr data-main="0"><td>16.07</td><td>7</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/stage-8">Stage 8 - Gonghe &rsaquo; Chaka</a> <span title="51 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>51k</span></td><td class="cu600">200.27</td><td class="cu600">2</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-of-qinghai-lake">more</a></td></tr>
 <tr data-main="0"><td>15.07</td><td>19</td><td class="gc cu600">4</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/stage-7">Stage 7 - Xihaizhen &rsaquo; Gonghe</a> </td><td class="cu600">127.25</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-of-qinghai-lake">more</a></td></tr>
 <tr data-main="0"><td>14.07</td><td>27</td><td class="gc cu600">2</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/stage-6">Stage 6 - Qilian &rsaquo; Xihaizhen</a> </td><td class="cu600">205.95</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-of-qinghai-lake">more</a></td></tr>
 <tr data-main="0"><td>13.07</td><td>46</td><td class="gc cu600">2</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="race/tour-of-qinghai-lake/2023/stage-5">Stage 5 - Menyuan &rsaquo; Qilian</a> </td><td class="cu600">170</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/tour-of-qinghai-lake">more</a></td></tr>
@@ -251,15 +272,15 @@
 <tr data-main="0"><td>25.02</td><td>86</td><td class="gc cu600">74</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/gran-camino/2023/stage-3">Stage 3 - Esgos &rsaquo; Rubiá (Alto do Castelo)</a> </td><td class="cu600">123.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/gran-camino">more</a></td></tr>
 <tr data-main="0"><td>24.02</td><td>63</td><td class="gc cu600">63</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/gran-camino/2023/stage-2">Stage 2 - Tui &rsaquo; A Guarda (Monte Trega)</a> </td><td class="cu600">184.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/gran-camino">more</a></td></tr>
 <tr data-main="0"><td>23.02</td><td>NR</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/gran-camino/2023/stage-1">Stage 1 - Muralla de Lugo &rsaquo; Sarria</a> </td><td class="cu600"><s>188</s> 172</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/davide-baldaccini/gran-camino">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>5577</b> km in <b>37</b> days | PCS points: <b>30</b> |  UCI points: <b>26</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+</tbody></table><div class="rdrResultsSum" ><div>8360</b> km in <b>54</b> days | PCS points: <b>130</b> |  UCI points: <b>156</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
 <span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >1</div><div class="title   "  ><a    href="rider/davide-baldaccini/statistics/wins">Wins</a></div><div class="info fs11   "  >GC (0)</div><div class="info fs11   "  >Oneday races (0)</div><div class="info fs11   "  >ITT (0)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/davide-baldaccini/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 <li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/davide-baldaccini/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">30</span></div></td><td class="ac  " >796</td></tr>
-<tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 2.7%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1</span></div></td><td class="ac  " >1650</td></tr>
+<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 80%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">130</span></div></td><td class="ac  " >411</td></tr>
+<tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont"><div class="bg left green2" style="width: 0.6%;  height: 12px;  "></div><span style="color: #999; font-size: 10px; padding-left: 3px; line-height: 12px; ">1</span></div></td><td class="ac  " >1650</td></tr>
 </tbody></table></span></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
@@ -393,15 +414,19 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0666s</span></li>
+<li><span>Pageload 0.0496s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list6.js"></script>  
+<script src="search_list7.js"></script>  
+
 		<script>
+
 		var riderid = 196462;		$(document).ready(function() { 	RVC(riderid);  	  });
+
 		</script>
+
 		

@@ -12,7 +12,7 @@ data class PCSTeam(
     val country: String,
     val bike: String,
     val jersey: String,
-    val website: String? = null,
+    val website: String?,
     val year: Int,
     val riders: List<String>,
 )

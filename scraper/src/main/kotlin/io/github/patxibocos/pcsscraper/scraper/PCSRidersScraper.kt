@@ -79,7 +79,7 @@ class PCSRidersScraper(
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
         val pageTitleMain = teamDoc.findFirst(".page-title > .main")
         val teamName = pageTitleMain.h1 { findFirst { text } }.substringBefore('(').trim()
-        val riderIdsToNames = teamDoc.findAll(".ttabs.tabb a").map { it.attribute("href") to it.text }
+        val riderIdsToNames = teamDoc.findFirst(".ridersTab[data-code=name]").findAll("a").map { it.attribute("href") to it.text }
         return TeamRiders(teamName, riderIdsToNames)
     }
 
