@@ -15,7 +15,7 @@ google-protobuf = { id = "com.google.protobuf", version = "0.9.4" }
 shadow = { id = "com.github.johnrengelman.shadow", version = "8.1.1" }
 
 [libraries]
-aws-s3 = "com.amazonaws:aws-java-sdk-s3:1.12.564"
+aws-s3 = "com.amazonaws:aws-java-sdk-s3:1.12.565"
 exposed-core = { module = "org.jetbrains.exposed:exposed-core", version.ref = "exposed" }
 exposed-jdbc = { module = "org.jetbrains.exposed:exposed-jdbc", version.ref = "exposed" }
 firebase-admin = "com.google.firebase:firebase-admin:9.2.0"
