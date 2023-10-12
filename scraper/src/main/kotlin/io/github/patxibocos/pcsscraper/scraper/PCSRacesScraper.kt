@@ -366,7 +366,7 @@ class PCSRacesScraper(
                 placeName.contains("|") -> placeName.substring(placeName.indexOf("|") + 2, placeName.lastIndexOf("("))
                 placeName.indexOf("(") == -1 -> "Finish"
                 placeName.indexOf("(") == placeName.lastIndexOf("(") -> placeName.substring(0, placeName.indexOf("("))
-                else -> placeName.substring(placeName.indexOf(")") + 2, placeName.lastIndexOf("(") - 1)
+                else -> placeName.substring(placeName.indexOf(")") + 1, placeName.lastIndexOf("(") - 1).trim()
             }
             val distance = if (placeName.endsWith(")")) {
                 var index = placeName.lastIndexOf(") km)")
@@ -416,7 +416,10 @@ class PCSRacesScraper(
         val distance = pcsStage.distance.split(" ").first().toFloat()
         val stageYouthResult = pcsParticipantResultToRiderResultTime(pcsStage.stageYouthResult, riderIdMapper)
         val stageTeamsResult = pcsParticipantResultToRiderResultTime(pcsStage.stageTeamsResult, teamIdMapper)
-        val stageKomResult = pcsPlaceResultToPlaceResult(pcsStage.stageKomResult, distance, riderIdMapper)
+        val stageKomResult = run {
+            println("Mapping KOM results for ${pcsStage.url}")
+            pcsPlaceResultToPlaceResult(pcsStage.stageKomResult, distance, riderIdMapper)
+        }
         val stagePointsResult = pcsPlaceResultToPlaceResult(pcsStage.stagePointsResult, distance, riderIdMapper)
         val generalTimeResult =
             pcsParticipantResultToRiderResultTime(pcsStage.generalTimeResult, riderIdMapper).takeIf { it.size >= 3 }
