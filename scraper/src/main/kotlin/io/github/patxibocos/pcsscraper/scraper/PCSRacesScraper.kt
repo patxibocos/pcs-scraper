@@ -416,10 +416,7 @@ class PCSRacesScraper(
         val distance = pcsStage.distance.split(" ").first().toFloat()
         val stageYouthResult = pcsParticipantResultToRiderResultTime(pcsStage.stageYouthResult, riderIdMapper)
         val stageTeamsResult = pcsParticipantResultToRiderResultTime(pcsStage.stageTeamsResult, teamIdMapper)
-        val stageKomResult = run {
-            println("Mapping KOM results for ${pcsStage.url}")
-            pcsPlaceResultToPlaceResult(pcsStage.stageKomResult, distance, riderIdMapper)
-        }
+        val stageKomResult = pcsPlaceResultToPlaceResult(pcsStage.stageKomResult, distance, riderIdMapper)
         val stagePointsResult = pcsPlaceResultToPlaceResult(pcsStage.stagePointsResult, distance, riderIdMapper)
         val generalTimeResult =
             pcsParticipantResultToRiderResultTime(pcsStage.generalTimeResult, riderIdMapper).takeIf { it.size >= 3 }

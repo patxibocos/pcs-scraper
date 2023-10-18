@@ -6,14 +6,6 @@ import io.github.patxibocos.pcsscraper.entity.Team
 fun teamIdMapper(teams: List<Team>): (String) -> String? = { teamId: String ->
     when {
         teams.map { it.id }.contains(teamId) -> teamId
-        teamId == "team-dsm-2023" -> "team-dsm-firmenich-2023"
-        teamId == "trek-segafredo-2023" -> "lidl-trek-2023"
-        teamId == "team-corratec-2023" -> "team-corratec-selle-italia-2023"
-        teamId == "unisa-australia-2023" -> null
-        teamId == "switzerland-2023" -> null
-        teamId == "poland-2023" -> null
-        teamId == "canada-2023" -> null
-        teamId == "china-2023" -> null
         else -> throw IllegalArgumentException("Unexpected team id: $teamId")
     }
 }

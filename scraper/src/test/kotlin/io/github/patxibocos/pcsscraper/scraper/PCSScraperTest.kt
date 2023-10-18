@@ -34,7 +34,7 @@ class PCSScraperTest : BehaviorSpec({
         var scrapedRiders: List<Rider> = emptyList()
 
         `when`("scrapping teams") {
-            scrapedTeams = (teamsScraper.scrapeTeams(2023))
+            scrapedTeams = (teamsScraper.scrapeTeams(2024))
             val serializedJson = json.encodeToString(scrapedTeams)
             then("it should be equal to the snapshot") {
                 val expectedJson = this.javaClass.getResource("/pcssnapshot/json/teams.json")!!.readText()
@@ -43,7 +43,7 @@ class PCSScraperTest : BehaviorSpec({
         }
 
         `when`("scrapping riders") {
-            scrapedRiders = (ridersScraper.scrapeRiders(2023))
+            scrapedRiders = (ridersScraper.scrapeRiders(2024))
             val serializedJson = json.encodeToString(scrapedRiders)
             then("it should be equal to the snapshot") {
                 val expectedJson = this.javaClass.getResource("/pcssnapshot/json/riders.json")!!.readText()
@@ -53,7 +53,7 @@ class PCSScraperTest : BehaviorSpec({
 
         `when`("scrapping races") {
             val scrapedRaces =
-                (racesScraper.scrapeRaces(2023, teamIdMapper(scrapedTeams), riderIdMapper(scrapedRiders)))
+                (racesScraper.scrapeRaces(2024, teamIdMapper(scrapedTeams), riderIdMapper(scrapedRiders)))
             val serializedJson = json.encodeToString(scrapedRaces)
             then("it should be equal to the snapshot") {
                 val expectedJson = this.javaClass.getResource("/pcssnapshot/json/races.json")!!.readText()
