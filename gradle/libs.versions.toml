@@ -10,7 +10,7 @@ protobuf = "3.25.1"
 [plugins]
 kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
-spotless = { id = "com.diffplug.spotless", version = "6.23.2" }
+spotless = { id = "com.diffplug.spotless", version = "6.23.3" }
 google-protobuf = { id = "com.google.protobuf", version = "0.9.4" }
 shadow = { id = "com.github.johnrengelman.shadow", version = "8.1.1" }
 
