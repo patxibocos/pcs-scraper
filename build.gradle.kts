@@ -12,7 +12,7 @@ subprojects {
     configure<SpotlessExtension> {
         kotlin {
             target("**/*.kt")
-            targetExclude("$buildDir/**/*.kt", "bin/**/*.kt", "**/protobuf/**/*.kt")
+            targetExclude("${layout.buildDirectory}/**/*.kt", "bin/**/*.kt", "**/protobuf/**/*.kt")
             ktlint(libs.versions.ktlint.get())
         }
 
