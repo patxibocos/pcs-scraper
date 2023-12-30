@@ -5,6 +5,7 @@ import io.github.patxibocos.pcsscraper.entity.Team
 
 fun teamIdMapper(teams: List<Team>): (String) -> String? = { teamId: String ->
     when {
+        teamId == "unisa-australia-2024" -> null
         teams.map { it.id }.contains(teamId) -> teamId
         else -> throw IllegalArgumentException("Unexpected team id: $teamId")
     }
