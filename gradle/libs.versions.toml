@@ -30,7 +30,7 @@ log4j-slf4j2-impl = { module = "org.apache.logging.log4j:log4j-slf4j2-impl", ver
 protobuf-kotlin = { module = "com.google.protobuf:protobuf-kotlin", version.ref = "protobuf" }
 protobuf-protoc = { module = "com.google.protobuf:protoc", version.ref = "protobuf" }
 skrapeit = "it.skrape:skrapeit:1.2.2"
-sqlite-jdbc = "org.xerial:sqlite-jdbc:3.44.1.0"
+sqlite-jdbc = "org.xerial:sqlite-jdbc:3.45.0.0"
 
 test-kotest-assertions = { module = "io.kotest:kotest-assertions-core", version.ref = "kotest" }
 test-kotest-runner-junit5 = { module = "io.kotest:kotest-runner-junit5", version.ref = "kotest" }
