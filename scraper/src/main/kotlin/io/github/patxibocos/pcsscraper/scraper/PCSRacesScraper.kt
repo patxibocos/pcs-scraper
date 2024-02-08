@@ -143,8 +143,10 @@ class PCSRacesScraper(
         when (isSingleDayRace) {
             // Single day races will only have stage result
             true -> {
-                stageTimeResult = getRiderResult(results.first().findFirst("table"))
-                generalTimeResult = stageTimeResult
+                if (results.isNotEmpty()) {
+                    stageTimeResult = getRiderResult(results.first().findFirst("table"))
+                    generalTimeResult = stageTimeResult
+                }
             }
 
             false -> {
