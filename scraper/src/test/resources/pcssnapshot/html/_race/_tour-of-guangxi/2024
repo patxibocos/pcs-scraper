@@ -28,9 +28,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a190.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b158.css" />
-<script src="https://www.procyclingstats.com/pcs_s80.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a202.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b167.css" />
+<script src="https://www.procyclingstats.com/pcs_s82.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -67,24 +67,24 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/intermarche-circus-wanty-2023">Intermarché - Circus - Wanty </a></li>
-<li><a href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></li>
-<li><a href="team/groupama-fdj-2023">Groupama - FDJ</a></li>
-<li><a href="team/ef-education-easypost-2023">EF Education-EasyPost</a></li>
-<li><a href="team/cofidis-2023">Cofidis </a></li>
-<li><a href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></li>
-<li><a href="team/bahrain-victorious-2023">Bahrain - Victorious</a></li>
-<li><a href="team/astana-qazaqstan-team-2023">Astana Qazaqstan Team</a></li>
-<li><a href="team/team-jumbo-visma-2023">Jumbo-Visma</a></li>
-<li><a href="team/movistar-team-2023">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2023">Soudal - Quick Step</a></li>
-<li><a href="team/team-arkea-samsic-2023">Team Arkéa Samsic</a></li>
-<li><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a></li>
-<li><a href="team/team-dsm-2023">Team DSM</a></li>
-<li><a href="team/trek-segafredo-2023">Trek - Segafredo</a></li>
-<li><a href="team/uae-team-emirates-2023">UAE Team Emirates</a></li>
-<li><a href="team/alpecin-deceuninck-2023">Alpecin-Deceuninck</a></li>
-<li><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
+<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
+<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/cofidis-2024">Cofidis</a></li>
+<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
+<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
+<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
+<li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
+<li><a href="team/movistar-team-2024">Movistar Team</a></li>
+<li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
+<li><a href="team/team-dsm-firmenich-postnl-2024">Team dsm-firmenich PostNL</a></li>
+<li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
+<li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
+<li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
+<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -164,12 +164,20 @@
 <li><div>Logo</div> <div><img src="images/logo/bn/dm/tour-of-guangxi.jpg" style="max-height: 100px; max-width: 100%;  " /></div></li>
 </ul></div>
 <div class="mt20"><h3>Top competitors</h3>
-<span class="table-cont"><ul class="list"  style="max-width: 550px;  "></ul></span></div>
+<span class="table-cont"><ul class="list"  style="max-width: 550px;  "><li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 at"></span> </div><div ><a    href="rider/felix-grossschartner">GROßSCHARTNER Felix</a></div><div class="clear"></div></li>
+</ul></span></div>
 <ul class="list horizontal"><li class="goto2 pr5" ><a   class="goto2 pr5" href="race/tour-of-guangxi/2024/startlist">Startlist</a></li>
 <li class="goto2 pr5" ><a   class="goto2 pr5" href="race/tour-of-guangxi/2024/startlist/top-competitors">Top riders</a></li>
 </ul>
 <div class="mt40"><h3>Teams</h3>
-<span class="table-cont"><ul class="list "  style="max-width: 400px;  "></ul></span></div>
+<span class="table-cont"><ul class="list "  style="max-width: 400px;  "><li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2040"></span></div><div class="fs14 pr5   "  ><a    href="team/movistar-team-2024">Movistar Team</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1136"></span></div><div class="fs14 pr5   "  ><a    href="team/cofidis-2024">Cofidis</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team4000"></span></div><div class="fs14 pr5   "  ><a    href="team/ef-education-easypost-2024">EF Education - EasyPost</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1258"></span></div><div class="fs14 pr5   "  ><a    href="team/lidl-trek-2024">Lidl - Trek</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1060"></span></div><div class="fs14 pr5   "  ><a    href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team3814"></span></div><div class="fs14 pr5   "  ><a    href="team/bahrain-victorious-2024">Bahrain - Victorious</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
+<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1253"></span></div><div class="fs14 pr5   "  ><a    href="team/uae-team-emirates-2024">UAE Team Emirates</a></div><div class=" clr999 fs14   "  > (Großschartner, Großschartner)</div><div class="clear"></div></li>
+</ul></span></div>
 </div>
 <div class="w48 left mb_w100 "   >
 <div class="mt20"><h3>Stages</h3>
@@ -231,22 +239,22 @@
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
 <li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
-<li><a href="rider/biniam-girmay">Biniam Girmay</a></li>
-<li><a href="rider/peter-sagan">Peter Sagan</a></li>
-<li><a href="rider/annemiek-van-vleuten">Annemiek van Vleuten</a></li>
-<li><a href="rider/elisa-longo-borghini">Elisa Longo Borghini</a></li>
+<li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
+<li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
+<li><a href="rider/demi-vollering">Demi Vollering</a></li>
+<li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
 <li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
 </ul></li>
-<li class="group"><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+<li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
+<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
+<li><a href="rankings/me/all-time">Alltime</a></li>
+</ul><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
 <li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
 <li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
 <li><a href="statistics/grandtours">Grand tour statistics</a></li>
 <li><a href="statistics/monuments">Monument classics</a></li>
 <li><a href="teams/transfers">Latest transfers</a></li>
 <li><a href="favorite500">Favorite 500</a></li>
-</ul><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
-<li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
-<li><a href="rankings/me/all-time">Alltime</a></li>
 </ul></li>
 <li class="group"><h3>Info</h3><ul><li><a href="info/point-scales">Points scales</a></li>
 <li><a href="info/profile-score-explained">Profile scores</a></li>
@@ -258,11 +266,11 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0172s</span></li>
+<li><span>Pageload 0.0290s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="5223" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list7.js"></script>  
+<script src="search_list9.js"></script>  
