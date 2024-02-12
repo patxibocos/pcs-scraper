@@ -38,11 +38,23 @@ class PCSTeamsScraper(
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
         val infoList = teamDoc.ul { withClass = "infolist"; this }
         val status = infoList.findFirst("li").findSecond("div").ownText
-        val abbreviation = infoList.findSecond("li").findSecond("div").ownText
+        val abbreviation = infoList.findSecond("li").findSecond("div").ownText.uppercase()
         val bike = infoList.findThird("li").findFirst("a").ownText
         val website = teamDoc.getWebsite()
 
         fun getJerseyImageFromUci(): String {
+            if (abbreviation == "BWB") {
+                // https://www.uci.org/team-details/19500 doesn't have image
+                return "https://www.procyclingstats.com/images/shirts/bx/eb/bingoal-wb-2024.png"
+            }
+            if (abbreviation == "PTK") {
+                // https://www.uci.org/team-details/19516 doesn't have image
+                return "https://www.procyclingstats.com/images/shirts/bx/eb/team-polti-kometa-2024-n2.png"
+            }
+            if (abbreviation == "VBF") {
+                // https://www.uci.org/team-details/19515 doesn't have image
+                return "https://www.procyclingstats.com/images/shirts/bx/eb/green-project-bardiani-csf-faizane-2024-n2.png"
+            }
             val uciCategory = when (status) {
                 "WT" -> "WTT"
                 "PRT" -> "PRT"
