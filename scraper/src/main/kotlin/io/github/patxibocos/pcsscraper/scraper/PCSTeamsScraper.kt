@@ -114,5 +114,5 @@ class PCSTeamsScraper(
         findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
 
     private fun buildURL(path: String): URL =
-        URI(pcsUrl).resolve("/").resolve(path).toURL()
+        URI(pcsUrl).resolve("/").resolve(path.trim()).toURL()
 }
