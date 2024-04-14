@@ -50,6 +50,7 @@ private fun <T> retryForFirebaseException(retries: Int = 3, f: () -> T): T {
     return try {
         f()
     } catch (e: FirebaseException) {
+        logger.warn("Firebase throw an exception: ${e.message}")
         if (retries == 0) {
             throw e
         }
