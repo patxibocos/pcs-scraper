@@ -105,7 +105,7 @@ class PCSRacesScraper(
 
     private suspend fun getStages(stagesTable: DocElement): List<PCSStage> = coroutineScope {
         val stagesUrls =
-            stagesTable.findAll("tbody > tr").map { it.findByIndex(3, "td") }.filter { it.text != "Restday" }
+            stagesTable.findAll("tbody > tr:not(.sum)").map { it.findByIndex(3, "td") }.filter { it.text != "Restday" }
                 .map { it.a { findFirst { attribute("href") } } }
         stagesUrls.map { stageUrl -> async { getStage(stageUrl, false) } }.awaitAll()
     }
