@@ -329,7 +329,7 @@ class PCSRacesScraper(
                 return@mapNotNull null
             }
             if (it.result != ",,") { // Time being ,, means that it has the same time as the previous rider
-                val splits = it.result.split(":")
+                val splits = it.result.split(".", ":") // The delimiter is not always the same
                 if (splits.any { s -> s.toIntOrNull() == null }) {
                     return@mapNotNull null
                 }
