@@ -238,9 +238,19 @@ class PCSRacesScraper(
             // Some results sometimes miss points/time, so we just skip them
             return emptyList()
         }
-        return table.findAll("tbody > tr".plus(if (isTTT) ".team" else "")).map {
+        return table.findAll("tbody > tr".plus(if (isTTT) ".team" else "")).mapNotNull {
+            // This workaround is because sometimes there are info rows that are not results themselves
+            // i.e.
+            // <tr>
+            //   <td></td>
+            //   <td colspan="23" style="padding: 2px; font-size: 10px; color: #999;">Michael Matthews relegated from 3rd to 11th </td>
+            //  </tr>
+            if (it.children.size == 2) {
+                return@mapNotNull null
+            }
             val position = it.td { findByIndex(positionColumnIndex) }.ownText
-            val rider = it.td { findByIndex(riderColumnIndex) }.a { findFirst { attribute("href") } }
+            val riderTd = it.td { findByIndex(riderColumnIndex) }
+            val rider = riderTd.a { findFirst { attribute("href") } }
             val timeOrPoints = it.td { findByIndex(timeOrPointsColumnIndex) }.ownText.ifEmpty {
                 it.td { findByIndex(timeOrPointsColumnIndex) }.span { findFirst { ownText } }
             }.ifEmpty {
