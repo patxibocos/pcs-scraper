@@ -18,7 +18,7 @@
       pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
     };
 </script>
-<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Anton Palzer (born 1993-03-11 in Berchtesgaden) is a professional road racing cyclist from Germany, currently riding for BORA - hansgrohe. His best results are 10th place in GC Presidential Cycling Tour of Türkiye and 12th place in GC Czech Tour.">
+<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Anton Palzer (born 1993-03-11 in Berchtesgaden) is a professional road racing cyclist from Germany, currently riding for Red Bull - BORA - hansgrohe. His best results are 10th place in GC Presidential Cycling Tour of Türkiye and 12th place in GC Czech Tour.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="utf-8"> 
@@ -27,9 +27,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a202.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b168.css" />
-<script src="https://www.procyclingstats.com/pcs_s82.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a249.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b195.css" />
+<script src="https://www.procyclingstats.com/pcs_s88.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -41,22 +41,21 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>
-  
-    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
+    	<a  class="logo" href="index.php"></a>  
+    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />     
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
-      	<a class="mobMenu" href="">Menu&#x25BC;</a>
+      	<a class="mobMenu" href="">&#9776; Menu</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
 <li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -66,15 +65,17 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
-<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
-<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
-<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/cofidis-2024">Cofidis</a></li>
-<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
-<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
-<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
+<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
+<li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
+<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2024">Cofidis</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
 <li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
 <li><a href="team/movistar-team-2024">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
@@ -82,8 +83,6 @@
 <li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
 <li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
 <li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
-<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
-<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -94,22 +93,21 @@
 <li class=" "><a class="reg" href="game.php">Game</a></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
-<li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/about-us">About us</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
-<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
-<li><a href="">Lists</a></li>
-</ul></li>
+<li class=" user"><a class="reg" href="login.php">Login</a></li>
  
 				 </ul> 
-			 </div>
-			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
+			 </div>			 
+			 <a class="topUser  " href="login.php"></a><div class="selectLanguage selectPlatform"><a href="">road</a><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/anton-palzer">Overview</a></li>
+<div class="content"> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/anton-palzer">Overview</a></li>
 <li class="reg "><a class="" href="rider/anton-palzer/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/anton-palzer/statistics/overview">Overview</a></li>
 <li><a href="rider/anton-palzer/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/anton-palzer/statistics/key-events">Key events</a></li>
@@ -132,89 +130,126 @@
 <li class="reg "><a class="" href="rider/anton-palzer/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/anton-palzer/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/anton-palzer/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/anton-palzer">More</a><ul><li data-n="1"><a href="rider/anton-palzer/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/anton-palzer/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/anton-palzer/statistics/overview">Overview</a></li>
-<li data-n="1"><a href="rider/anton-palzer/statistics/season-statistics">Statistics by season</a></li>
-<li data-n="1"><a href="rider/anton-palzer/statistics/key-events">Key events</a></li>
-<li data-n="1"><a href="rider/anton-palzer/statistics/world-map-of-rider-races">World map of rider races</a></li>
-<li data-n="1"><a href="rider/anton-palzer/statistics/wins">Wins</a></li>
-<li data-n="1"><a href="rider/anton-palzer/statistics/most-starts-by-race">Most starts by race</a></li>
-<li data-n="1"><a href="rider/anton-palzer/statistics/grand-tour-starts">Starts and results</a></li>
-<li data-n="1"><a href="rider/anton-palzer/statistics/injury-history">Injury history</a></li>
-<li data-n="3"><a href="rider/anton-palzer/results/results">Results - Results</a></li><li data-n="4"><a href="rider/anton-palzer/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/anton-palzer/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/anton-palzer/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/anton-palzer/contribute/contribute-info">Contribute info</a></li>
-<li data-n="5"><a href="rider/anton-palzer/contribute/submit-program">Submit program</a></li>
-<li data-n="5"><a href="rider/anton-palzer/contribute/report">Report</a></li>
-<li data-n="5"><a href="rider/anton-palzer/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
-<li data-n="5"><a href="rider/anton-palzer/contribute/contribute-family">Family</a></li>
-<li data-n="5"><a href="rider/anton-palzer/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="7"><a href="rider/anton-palzer/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/anton-palzer/specialties/top-gc-results">Top GC results</a></li>
-<li data-n="6"><a href="rider/anton-palzer/specialties/fastest-tt">Fastest TT</a></li>
-</ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag de w32"></span><span class="flag de w24"></span><h1 class="">Anton  Palzer</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">BORA - hansgrohe</span></div><div class="sub"><span class="red showIfMobile">BORA - hansgrohe</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="race/tour-of-oman/2024/stage-5/live">LiveStats Tour of Oman</a></li>
-<li><a   class="" href="rider-in-race/anton-palzer/tour-of-oman">Rider statistics in Tour of Oman</a></li>
-</ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/anton-palzer/statistics/overview"><img alt="Profile photo of Anton  Palzer" src="images/riders/bp/cd/anton-palzer-2024.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 11<sup>th</sup> March 1993 (30)<br /><b>Nationality:</b> <span class="flag  de"></span><a class="black" href="nation/germany">Germany</a><br /><span><b>Weight:</b> 62 kg &nbsp; <span><b>Height:</b> 1.78 m<br /><b>Place of birth:</b> <a href="location/berchtesgaden">Berchtesgaden</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 8.0808080808081%; height: 100%;  "></div></div><div class="pnt">8</div><div class="title"><a href="rider/anton-palzer/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">99</div><div class="title"><a href="rider/anton-palzer/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/anton-palzer/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/anton-palzer/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 14.141414141414%; height: 100%;  "></div></div><div class="pnt">14</div><div class="title"><a href="rider/anton-palzer/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/toni.palzer">facebook</a></li>
-<li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/antonpalzer">twitter</a></li>
-<li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/antonpalzer">instagram</a></li>
-<li><span class="icon website left"></span><a  target="_blank"   class="" href="https://www.antonpalzer.de/en/">site</a></li>
-<li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/pros/dpalzer">strava</a></li>
-</ul></div>
+<li class="more"><a href="rider/anton-palzer">More</a><ul><li data-n="1"><a href="rider/anton-palzer/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/anton-palzer/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/anton-palzer/statistics/overview">Overview dd</a></li>
+<li data-n="1"><a href="rider/anton-palzer/statistics/season-statistics">Statistics by season dd</a></li>
+<li data-n="1"><a href="rider/anton-palzer/statistics/key-events">Key events dd</a></li>
+<li data-n="1"><a href="rider/anton-palzer/statistics/world-map-of-rider-races">World map of rider races dd</a></li>
+<li data-n="1"><a href="rider/anton-palzer/statistics/wins">Wins dd</a></li>
+<li data-n="1"><a href="rider/anton-palzer/statistics/most-starts-by-race">Most starts by race dd</a></li>
+<li data-n="1"><a href="rider/anton-palzer/statistics/grand-tour-starts">Starts and results dd</a></li>
+<li data-n="1"><a href="rider/anton-palzer/statistics/injury-history">Injury history dd</a></li>
+<li data-n="3"><a href="rider/anton-palzer/results/results">Results - Results</a></li><li data-n="4"><a href="rider/anton-palzer/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/anton-palzer/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/anton-palzer/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/anton-palzer/contribute/contribute-info">Contribute info dd</a></li>
+<li data-n="5"><a href="rider/anton-palzer/contribute/submit-program">Submit program dd</a></li>
+<li data-n="5"><a href="rider/anton-palzer/contribute/report">Report dd</a></li>
+<li data-n="5"><a href="rider/anton-palzer/contribute/contribute-social-feeds">Contribute sites / social media dd</a></li>
+<li data-n="5"><a href="rider/anton-palzer/contribute/contribute-family">Family dd</a></li>
+<li data-n="5"><a href="rider/anton-palzer/contribute/embed-rider-results">Embed rider results dd</a></li>
+<li data-n="7"><a href="rider/anton-palzer/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/anton-palzer/specialties/top-gc-results">Top GC results dd</a></li>
+<li data-n="6"><a href="rider/anton-palzer/specialties/fastest-tt">Fastest TT dd</a></li>
+</ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag de w32"></span><span class="flag de w24"></span><h1 class="">Anton  Palzer</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Red Bull - BORA - hansgrohe</span></div><div class="sub"><span class="red showIfMobile">Red Bull - BORA - hansgrohe</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
+<ul class="list horizontal fs14 circle bluelink"></ul><div class="clear"></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/anton-palzer/statistics/overview"><img alt="Profile photo of Anton  Palzer" src="images/riders/bp/cd/anton-palzer-2024-n2.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 11<sup>th</sup> March 1993 (31)<br /><b>Nationality:</b> <span class="flag  de"></span><a class="black" href="nation/germany">Germany</a><br /><span><b>Weight:</b> 62 kg &nbsp; <span><b>Height:</b> 1.78 m<br /><b>Place of birth:</b> <a href="location/berchtesgaden">Berchtesgaden</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 7.0796460176991%; height: 100%;  "></div></div><div class="pnt">8</div><div class="title"><a href="rider/anton-palzer/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">113</div><div class="title"><a href="rider/anton-palzer/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0.88495575221239%; height: 100%;  "></div></div><div class="pnt">1</div><div class="title"><a href="rider/anton-palzer/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/anton-palzer/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 15.929203539823%; height: 100%;  "></div></div><div class="pnt">18</div><div class="title"><a href="rider/anton-palzer/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 5.3097345132743%; height: 100%;  "></div></div><div class="pnt">6</div><div class="title"><a href="rider/anton-palzer/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://www.facebook.com/toni.palzer"><span class="iconv3 facebook14"></span>fb</a></li><li><a target="_blank" href="https://twitter.com/antonpalzer"><span class="iconv3 x-logo14"></span>x</a></li><li><a target="_blank" href="https://www.instagram.com/antonpalzer"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://www.antonpalzer.de/en/"><span class="iconv3 site14"></span>site</a></li><li><a target="_blank" href="https://www.strava.com/pros/dpalzer"><span class="iconv3 strava14"></span>strava</a></li></ul><div class="clear" style="height: 5px;"></div><div class="clear" ></div><div class=""></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >930</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >708</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class=" title"  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  >1443</div><div class="clear"></div></li>
+<li class="" ><div class=" title"  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  >1333</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;1578</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class=" bold"  >Visits:</div><div ><span class="delta-down">&#x25BC;978</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-turkey/2023/gc">Presidential Cycling Tour of Türkiye</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">12th&nbsp;</div><div><span class="blue">GC</span> <a href="race/czech-tour/2023/gc">Czech Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">25th&nbsp;</div><div><span class="blue">GC</span> <a href="race/volta-a-catalunya/2022/gc">Volta Ciclista a Catalunya</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">25th&nbsp;</div><div><span class="blue">GC</span> <a href="race/volta-a-catalunya/2022/gc">Volta a Catalunya</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">18th&nbsp;</div><div><span class="blue"></span> <a href="race/muscat-classic/2024/result">Muscat Classic</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">11th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-turkey/2023/stage-3">Presidential Cycling Tour of Türkiye</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">22nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-wallonie/2022/gc">Tour de Wallonie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">16th&nbsp;</div><div><span class="blue">KOM</span> <a href="race/czech-tour/2023/stage-4-kom">Czech Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">23rd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-de-wallonie/2022/gc">Tour de Wallonie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">23rd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-the-alps/2024/gc">Tour of the Alps</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">18th&nbsp;</div><div><span class="blue">stage</span> <a href="race/czech-tour/2023/stage-3">Czech Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">19th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-the-alps/2024/stage-3">Tour of the Alps</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">19th&nbsp;</div><div><span class="blue">stage</span> <a href="race/czech-tour/2023/stage-4">Czech Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">24th&nbsp;</div><div><span class="blue">GC</span> <a href="race/volta-ao-algarve/2022/gc">Volta ao Algarve em Bicicleta</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">20th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-oman/2024/stage-2">Tour of Oman</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">23rd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-turkey/2023/stage-6">Presidential Cycling Tour of Türkiye</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">24th&nbsp;</div><div><span class="blue">GC</span> <a href="race/volta-ao-algarve/2022/gc">Volta ao Algarve</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2021</div><div class="name   "  ><a    href="team/bora-hansgrohe-2021">BORA - hansgrohe</a></div><div > (WT)</div><div class="fs10   "  > as from 01/04</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class=" season"  >2024</div><div class=" name"  ><a    href="team/red-bull-bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2023</div><div class=" name"  ><a    href="team/bora-hansgrohe-2023">BORA - hansgrohe</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2022</div><div class=" name"  ><a    href="team/bora-hansgrohe-2022">BORA - hansgrohe</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2021</div><div class=" name"  ><a    href="team/bora-hansgrohe-2021">BORA - hansgrohe</a></div><div > (WT)</div><div class=" fs10"  > as from 01/04</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >18.03</div><div class="ellipsis   "  ><span class="flag es"></span> <a    href="race/volta-a-catalunya/2024/startlist">Volta Ciclista a Catalunya</a></div><div class="fs10 blue   "  ><a    href="rider-in-race/anton-palzer/volta-a-catalunya">more</a></div><div class="clear"></div></li>
-</ul></span></div>
-<div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
-</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li class="more hide "><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>10.02 &raquo; 14.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/gc">Tour of Oman <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td></td><td>26</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>14.02</td><td>29</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-5">Stage 5 - Samail ''Al Fayhaa Reshouse'' &rsaquo; Jabal Al Akhdhar (Green Mountain)</a> </td><td class="cu600">72</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>13.02</td><td>30</td><td class="gc cu600">22</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-4">Stage 4 - Fanja &rsaquo; Yitti Hills</a> </td><td class="cu600">104</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>12.02</td><td>31</td><td class="gc cu600">22</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-3">Stage 3 - Naseem Park &rsaquo; Al Bustan</a> <span title="68 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>68k</span></td><td class="cu600">76</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>11.02</td><td>20</td><td class="gc cu600">22</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-2">Stage 2 - Al Sifah &rsaquo; Qurayyat</a> </td><td class="cu600">170.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>10.02</td><td>50</td><td class="gc cu600">51</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-1">Stage 1 - Oman Across Ages Museum &rsaquo; Oman Convention and Exhibition Centre (OCEC)</a> </td><td class="cu600">181.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
-<tr data-main="1"><td>09.02</td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/muscat-classic/2024/result">Muscat Classic <span>(1.1)</span></a> </td><td class="cu600">174.3</td><td class="cu600">3</td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/muscat-classic">more</a></td></tr>
-<tr data-main="1"><td>28.01</td><td>55</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-palma/2024/result">Trofeo Palma <span>(1.1)</span></a> </td><td class="cu600">150</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/trofeo-palma">more</a></td></tr>
-<tr data-main="1"><td>27.01</td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-pollenca-port-d-andratx/2024/result">Trofeo Pollença - Port d'Andratx <span>(1.1)</span></a> </td><td class="cu600">158.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/trofeo-pollenca-port-d-andratx">more</a></td></tr>
-<tr data-main="1"><td>26.01</td><td>24</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/deia-trophy/2024/result">Trofeo Serra Tramuntana <span>(1.1)</span></a> </td><td class="cu600">153.8</td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/deia-trophy">more</a></td></tr>
-<tr data-main="1"><td>25.01</td><td>47</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-ses-salines-felanitx/2024/result">Trofeo Ses Salines-Felanitx <span>(1.1)</span></a> </td><td class="cu600">181.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/trofeo-ses-salines-felanitx">more</a></td></tr>
-<tr data-main="1"><td>24.01</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/trofeo-calvia/2024/result">Trofeo Calvià <span>(1.1)</span></a> </td><td class="cu600">150.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/trofeo-calvia">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>1497</b> km in <b>11</b> days | PCS points: <b>3</b> |  UCI points: <b>11</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
-<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/anton-palzer/statistics/wins">Wins</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >2</div><div class="title   "  ><a    href="rider/anton-palzer/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (0) giro (1) vuelta(1)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/anton-palzer/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
+<div class=""><div class="text-regular">No races on program.</div></div>
+<div class=""><div class="text-regular"><div class="mob-ad rider-after-program"></div></div></div>
+</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li class="more hide "><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li></ul></li></ul><div class="resultsSortFilter sortByResults">Sort by: <a class="" data-case="date" href="">Date</a><a class="" data-case="rnk" href="">Result</a><a class="" data-case="pnt" href="">Points</a></div><div class="resultsSortFilter filterByResults">Filter by: <a class="cur" data-case="all" href="">All</a><a class="" data-case="climber" href="">Climber</a><a class="" data-case="hills" href="">Hills</a><a class="" data-case="sprints" href="">Sprints</a><a class="" data-case="tt" href="">TT</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>15.09</td><td>46</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/trofeo-matteotti/2024/result">Trofeo Matteotti <span>(1.1)</span></a> </td><td class="cu600">194</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/trofeo-matteotti">more</a></td></tr>
+<tr data-main="1"><td>14.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/memorial-marco-pantani/2024/result">Memorial Marco Pantani <span>(1.1)</span></a> </td><td class="cu600">195.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/memorial-marco-pantani">more</a></td></tr>
+<tr data-main="1"><td>12.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/gp-citta-di-peccioli/2024/result">Gran Premio città di Peccioli - Coppa Sabatini <span>(1.Pro)</span></a> </td><td class="cu600">197.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/gp-citta-di-peccioli">more</a></td></tr>
+<tr data-main="1"><td>11.09</td><td>30</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/giro-di-toscana/2024/result">Giro della Toscana - Memorial Alfredo Martini <span>(1.1)</span></a> </td><td class="cu600">182.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/giro-di-toscana">more</a></td></tr>
+<tr data-main="1"><td>25.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/bretagne-classic/2024/result">Bretagne Classic - Ouest-France <span>(1.UWT)</span></a> </td><td class="cu600">259.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/bretagne-classic">more</a></td></tr>
+<tr data-main="1"><td>25.07 &raquo; 28.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/gc">Czech Tour <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/czech-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>51</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/czech-tour">more</a></td></tr>
+<tr data-main="0"><td>28.07</td><td>87</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/stage-4">Stage 4 - Šumperk &rsaquo; Šternberk</a> </td><td class="cu600">131.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/czech-tour">more</a></td></tr>
+<tr data-main="0"><td>27.07</td><td>58</td><td class="gc cu600">48</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/stage-3">Stage 3 - Moravská Třebová &rsaquo; Dlouhé stráně</a> <span title="72 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 0px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>72k</span></td><td class="cu600">134.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/czech-tour">more</a></td></tr>
+<tr data-main="0"><td>26.07</td><td>36</td><td class="gc cu600">36</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/stage-2">Stage 2 - Zlín &rsaquo; Pustevny</a> </td><td class="cu600">172.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/czech-tour">more</a></td></tr>
+<tr data-main="0"><td>25.07</td><td>39</td><td class="gc cu600">41</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/stage-1">Stage 1 - Prostějov &rsaquo; Ostrava</a> </td><td class="cu600">151.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/czech-tour">more</a></td></tr>
+<tr data-main="1"><td>06.07 &raquo; 09.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/gc">Sibiu Cycling Tour <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>29</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td>09.07</td><td>61</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/stage-4">Stage 4 - Sibiu &rsaquo; Sibiu</a> </td><td class="cu600">192.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td>08.07</td><td>41</td><td class="gc cu600">31</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/stage-3">Stage 3 - Sibiu &rsaquo; Bâlea Lac</a> </td><td class="cu600">207.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td>07.07</td><td>24</td><td class="gc cu600">26</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/stage-2b">Stage 2b (ITT) - Sibiu &rsaquo; Sibiu</a> </td><td class="cu600">3.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td>07.07</td><td>34</td><td class="gc cu600">26</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/stage-2a">Stage 2a - Sibiu &rsaquo; Sibiu</a> </td><td class="cu600">103</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td>06.07</td><td>26</td><td class="gc cu600">26</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/stage-1">Stage 1 - Sibiu &rsaquo; Păltiniș</a> </td><td class="cu600">167.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="1"><td>23.06</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="https://www.procyclingstats.com/race/nc-germany/2024/result">National Championships Germany ME - Road Race <span>(NC)</span></a> </td><td class="cu600">200.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/nc-germany">more</a></td></tr>
+<tr data-main="1"><td>23.04 &raquo; 28.04</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ch"></span><a href="https://www.procyclingstats.com/race/tour-de-romandie/2024/gc">Tour de Romandie <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-de-romandie">more</a></td></tr>
+<tr data-main="0"><td></td><td>44</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag ch"></span><a href="https://www.procyclingstats.com/race/tour-de-romandie/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 ">10</td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-de-romandie">more</a></td></tr>
+<tr data-main="0"><td>28.04</td><td>35</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ch"></span><a href="https://www.procyclingstats.com/race/tour-de-romandie/2024/stage-5">Stage 5 - Vernier &rsaquo; Vernier</a> </td><td class="cu600">150.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-de-romandie">more</a></td></tr>
+<tr data-main="0"><td>27.04</td><td>57</td><td class="gc cu600">51</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ch"></span><a href="https://www.procyclingstats.com/race/tour-de-romandie/2024/stage-4">Stage 4 - Saillon &rsaquo; Leysin</a> </td><td class="cu600">151.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-de-romandie">more</a></td></tr>
+<tr data-main="0"><td>26.04</td><td>50</td><td class="gc cu600">57</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag ch"></span><a href="https://www.procyclingstats.com/race/tour-de-romandie/2024/stage-3">Stage 3 (ITT) - Oron &rsaquo; Oron</a> </td><td class="cu600">15.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-de-romandie">more</a></td></tr>
+<tr data-main="0"><td>25.04</td><td>68</td><td class="gc cu600">60</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ch"></span><a href="https://www.procyclingstats.com/race/tour-de-romandie/2024/stage-2">Stage 2 - Fribourg &rsaquo; Salvan/Les Marécottes</a> </td><td class="cu600">171</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-de-romandie">more</a></td></tr>
+<tr data-main="0"><td>24.04</td><td>59</td><td class="gc cu600">35</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ch"></span><a href="https://www.procyclingstats.com/race/tour-de-romandie/2024/stage-1">Stage 1 - Château d'Oex &rsaquo; Fribourg</a> </td><td class="cu600">165.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-de-romandie">more</a></td></tr>
+<tr data-main="0"><td>23.04</td><td>53</td><td class="gc cu600">53</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag ch"></span><a href="https://www.procyclingstats.com/race/tour-de-romandie/2024/prologue">Prologue - Payerne &rsaquo; Payerne</a> </td><td class="cu600">2.28</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-de-romandie">more</a></td></tr>
+<tr data-main="1"><td>15.04 &raquo; 19.04</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tour-of-the-alps/2024/gc">Tour of the Alps <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-the-alps">more</a></td></tr>
+<tr data-main="0"><td></td><td>23</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tour-of-the-alps/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">3</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-the-alps">more</a></td></tr>
+<tr data-main="0"><td>19.04</td><td>38</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tour-of-the-alps/2024/stage-5">Stage 5 - Levico Terme &rsaquo; Levico Terme</a> </td><td class="cu600">118.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-the-alps">more</a></td></tr>
+<tr data-main="0"><td>18.04</td><td>23</td><td class="gc cu600">15</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tour-of-the-alps/2024/stage-4">Stage 4 - Leifers/Laives &rsaquo; Borgo Valsugana</a> </td><td class="cu600">141.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-the-alps">more</a></td></tr>
+<tr data-main="0"><td>17.04</td><td>19</td><td class="gc cu600">17</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tour-of-the-alps/2024/stage-3">Stage 3 - Schwaz &rsaquo; Schwaz</a> </td><td class="cu600">124.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-the-alps">more</a></td></tr>
+<tr data-main="0"><td>16.04</td><td>38</td><td class="gc cu600">26</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tour-of-the-alps/2024/stage-2">Stage 2 - Salurn/Salorno &rsaquo; Stans</a> </td><td class="cu600">190.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-the-alps">more</a></td></tr>
+<tr data-main="0"><td>15.04</td><td>22</td><td class="gc cu600">22</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tour-of-the-alps/2024/stage-1">Stage 1 - Neumarkt/Egna &rsaquo; Kurtinig/Cortina</a> </td><td class="cu600">133.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-the-alps">more</a></td></tr>
+<tr data-main="1"><td>18.03 &raquo; 24.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/volta-a-catalunya/2024/gc">Volta Ciclista a Catalunya <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td></td><td>53</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/volta-a-catalunya/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 ">4</td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>24.03</td><td>114</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/volta-a-catalunya/2024/stage-7">Stage 7 - Barcelona &rsaquo; Barcelona</a> </td><td class="cu600">145.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>23.03</td><td>70</td><td class="gc cu600">51</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/volta-a-catalunya/2024/stage-6">Stage 6 - Berga &rsaquo; Queralt</a> </td><td class="cu600">154.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>22.03</td><td>74</td><td class="gc cu600">45</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/volta-a-catalunya/2024/stage-5">Stage 5 - Altafulla &rsaquo; Viladecans</a> </td><td class="cu600">167.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>21.03</td><td>127</td><td class="gc cu600">47</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/volta-a-catalunya/2024/stage-4">Stage 4 - Sort &rsaquo; Lleida</a> </td><td class="cu600">169.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>20.03</td><td>51</td><td class="gc cu600">48</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/volta-a-catalunya/2024/stage-3">Stage 3 - Sant Joan de les Abadesses &rsaquo; Port Ainé</a> </td><td class="cu600">176.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>19.03</td><td>64</td><td class="gc cu600">55</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/volta-a-catalunya/2024/stage-2">Stage 2 - Mataró &rsaquo; Vallter 2000</a> </td><td class="cu600">186.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/volta-a-catalunya">more</a></td></tr>
+<tr data-main="0"><td>18.03</td><td>70</td><td class="gc cu600">76</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/volta-a-catalunya/2024/stage-1">Stage 1 - Sant Feliu de Guíxols &rsaquo; Sant Feliu de Guíxols</a> </td><td class="cu600">173.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/volta-a-catalunya">more</a></td></tr>
+<tr data-main="1"><td>13.03</td><td>45</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/milano-torino/2024/result">Milano - Torino <span>(1.Pro)</span></a> </td><td class="cu600">177</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/milano-torino">more</a></td></tr>
+<tr data-main="1"><td>10.02 &raquo; 14.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/gc">Tour of Oman <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td></td><td>26</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>14.02</td><td>29</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-5">Stage 5 - Samail ''Al Fayhaa Reshouse'' &rsaquo; Jabal Al Akhdhar (Green Mountain)</a> </td><td class="cu600">72</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>13.02</td><td>30</td><td class="gc cu600">22</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-4">Stage 4 - Fanja &rsaquo; Yitti Hills</a> </td><td class="cu600">104</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>12.02</td><td>31</td><td class="gc cu600">22</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-3">Stage 3 - Naseem Park &rsaquo; Al Bustan</a> <span title="68 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 0px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>68k</span></td><td class="cu600">76</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>11.02</td><td>20</td><td class="gc cu600">22</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-2">Stage 2 - Al Sifah &rsaquo; Qurayyat</a> </td><td class="cu600">170.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>10.02</td><td>50</td><td class="gc cu600">51</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-1">Stage 1 - Oman Across Ages Museum &rsaquo; Oman Convention and Exhibition Centre (OCEC)</a> </td><td class="cu600">181.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/tour-of-oman">more</a></td></tr>
+<tr data-main="1"><td>09.02</td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/muscat-classic/2024/result">Muscat Classic <span>(1.1)</span></a> </td><td class="cu600">174.3</td><td class="cu600">3</td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/muscat-classic">more</a></td></tr>
+<tr data-main="1"><td>28.01</td><td>55</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/trofeo-palma/2024/result">Trofeo Palma <span>(1.1)</span></a> </td><td class="cu600">150</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/trofeo-palma">more</a></td></tr>
+<tr data-main="1"><td>27.01</td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/trofeo-pollenca-port-d-andratx/2024/result">Trofeo Pollença - Port d'Andratx <span>(1.1)</span></a> </td><td class="cu600">158.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/trofeo-pollenca-port-d-andratx">more</a></td></tr>
+<tr data-main="1"><td>26.01</td><td>24</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/deia-trophy/2024/result">Trofeo Serra Tramuntana <span>(1.1)</span></a> </td><td class="cu600">153.8</td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/deia-trophy">more</a></td></tr>
+<tr data-main="1"><td>25.01</td><td>47</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/trofeo-ses-salines-felanitx/2024/result">Trofeo Ses Salines-Felanitx <span>(1.1)</span></a> </td><td class="cu600">181.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/trofeo-ses-salines-felanitx">more</a></td></tr>
+<tr data-main="1"><td>24.01</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/trofeo-calvia/2024/result">Trofeo Calvià <span>(1.1)</span></a> </td><td class="cu600">150.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anton-palzer/trofeo-calvia">more</a></td></tr>
+</tbody></table><div class="rdrResultsSum" ><div>6281</b> km in <b>44</b> days | PCS points: <b>16</b> |  UCI points: <b>30</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class=" nr"  >0</div><div class=" title"  ><a    href="rider/anton-palzer/statistics/wins">Wins</a></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >2</div><div class=" title"  ><a    href="rider/anton-palzer/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  >tour (0) giro (1) vuelta(1)</div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >0</div><div class=" title"  ><a    href="rider/anton-palzer/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2024</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 3.5%; position: relative;   "><div class="vTitle" style="line-height: 12px;">3</div></div></div></td><td class="ac  " >534</td></tr>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative;   "><div class="vTitle" style="line-height: 12px;">68</div></div></div></td><td class="ac  " >725</td></tr>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 23.5%; position: relative;   "><div class="vTitle" style="line-height: 12px;">20</div></div></div></td><td class="ac  " >1161</td></tr>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 29.4%; position: relative;   "><div class="vTitle" style="line-height: 12px;">25</div></div></div></td><td class="ac  " >958</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2024</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 18.8%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">16</div></div></div></td><td class="ac  "  style="height: 1px; ">1243</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2023</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">68</div></div></div></td><td class="ac  "  style="height: 1px; ">725</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2022</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 23.5%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">20</div></div></div></td><td class="ac  "  style="height: 1px; ">1161</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2021</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 29.4%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">25</div></div></div></td><td class="ac  "  style="height: 1px; ">958</td></tr>
 </tbody></table></span></div>
+<div class=""></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
   var id = 264995; 
@@ -222,6 +257,7 @@ $(document).ready(function(){
   var cxid = 0; 
   var seo = 'anton-palzer';
   var sort = 'date'; 
+  var filter = 'all'; 
   var pid = '1238'; 
   var discipline = 'road'; 
   var subpath = '';   
@@ -240,7 +276,7 @@ $(document).ready(function(){
     $(this).parents('ul').find('li').removeClass('cur');
     $(this).parent('li').addClass('cur'); 
     //console.log(subpath);
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season') }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season'), filter: filter }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
   });   
 
   $(document).on('click', '.seasonResults', function(e){
@@ -254,7 +290,7 @@ $(document).ready(function(){
     $(".rdrSeasonNav li").removeClass('cur');
     $(".rdrSeasonNav li[data-season="+season+"]").addClass('cur'); 
 
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline  }  }).done(function( response ) {   
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {   
     	//console.log(response);
       $('#resultsCont').html(response);      
     })
@@ -270,8 +306,27 @@ $(document).ready(function(){
     sort = $(this).attr('data-case');
    // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
    
-    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+  });
+
+
+  $(".filterByResults a").click(function(e){
+    e.preventDefault();        
+    var season = $(".rdrSeasonNav li.cur").attr('data-season');
+
+    
+    $("#resultsCont").html('<br /><div class=\"loading\"> loading results ..</div>');
+    $(".filterByResults a").removeClass('cur');
+    $(this).addClass('cur');
+    filter = $(this).attr('data-case');
+   // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
+   
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+
   }); 
+
+
+  
 
 });
 </script>
@@ -306,7 +361,7 @@ $(document).ready(function(){
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
 <li><a href="race/e3-harelbeke">E3 Classic</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
-<li><a href="race/dwars-door-vlaanderen">Dwars door vlaanderen</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
 <li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
@@ -318,7 +373,7 @@ $(document).ready(function(){
 <li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
 <li><a href="rider/wout-van-aert">Wout van Aert</a></li>
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
-<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
 <li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
 <li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
@@ -341,25 +396,21 @@ $(document).ready(function(){
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
-<li><a href="info/procyclinggame">ProCyclingGame</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
 </ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0706s</span></li>
+<li><span>Pageload 0.0969s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list9.js"></script>  
-
+<script src="search_list13.js"></script>  
 		<script>
-
 		var riderid = 264995;		$(document).ready(function() { 	RVC(riderid);  	  });
-
 		</script>
-
 		

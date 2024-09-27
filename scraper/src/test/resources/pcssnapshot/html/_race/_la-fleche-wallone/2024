@@ -27,9 +27,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="race.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a202.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b168.css" />
-<script src="https://www.procyclingstats.com/pcs_s82.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a249.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b195.css" />
+<script src="https://www.procyclingstats.com/pcs_s88.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -41,22 +41,21 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>
-  
-    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
-    		<input type="text" name="term" id="search" data-nav="/start" data-nav2="" data-page="race_event" class="search4"  placeholder="search"  /></form> 
+    	<a  class="logo" href="index.php"></a>  
+    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />     
+    		<input type="text" name="term" id="search" data-nav="race/-id-" data-nav2="" data-page="race_event" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
-      	<a class="mobMenu" href="">Menu&#x25BC;</a>
+      	<a class="mobMenu" href="">&#9776; Menu</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
 <li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -66,15 +65,17 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
-<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
-<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
-<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/cofidis-2024">Cofidis</a></li>
-<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
-<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
-<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
+<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
+<li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
+<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2024">Cofidis</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
 <li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
 <li><a href="team/movistar-team-2024">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
@@ -82,8 +83,6 @@
 <li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
 <li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
 <li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
-<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
-<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -94,23 +93,22 @@
 <li class=" "><a class="reg" href="game.php">Game</a></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
-<li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/about-us">About us</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
-<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
-<li><a href="">Lists</a></li>
-</ul></li>
+<li class=" user"><a class="reg" href="login.php">Login</a></li>
  
 				 </ul> 
-			 </div>
-			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
+			 </div>			 
+			 <a class="topUser  " href="login.php"></a><div class="selectLanguage selectPlatform"><a href="">road</a><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/la-fleche-wallone/2023/statistics/start" >2023</a><div ><form style="  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/la-fleche-wallone/2024/statistics/start" selected>2024</option><option value="race/la-fleche-wallone/2023/statistics/start" >2023</option><option value="race/la-fleche-wallone/2022/statistics/start" >2022</option><option value="race/la-fleche-wallone/2021/statistics/start" >2021</option><option value="race/la-fleche-wallone/2020/statistics/start" >2020</option><option value="race/la-fleche-wallone/2019/statistics/start" >2019</option><option value="race/la-fleche-wallone/2018/statistics/start" >2018</option><option value="race/la-fleche-wallone/2017/statistics/start" >2017</option><option value="race/la-fleche-wallone/2016/statistics/start" >2016</option><option value="race/la-fleche-wallone/2015/statistics/start" >2015</option><option value="race/la-fleche-wallone/2014/statistics/start" >2014</option><option value="race/la-fleche-wallone/2013/statistics/start" >2013</option><option value="race/la-fleche-wallone/2012/statistics/start" >2012</option><option value="race/la-fleche-wallone/2011/statistics/start" >2011</option><option value="race/la-fleche-wallone/2010/statistics/start" >2010</option><option value="race/la-fleche-wallone/2009/statistics/start" >2009</option><option value="race/la-fleche-wallone/2008/statistics/start" >2008</option><option value="race/la-fleche-wallone/2007/statistics/start" >2007</option><option value="race/la-fleche-wallone/2006/statistics/start" >2006</option><option value="race/la-fleche-wallone/2005/statistics/start" >2005</option><option value="race/la-fleche-wallone/2004/statistics/start" >2004</option><option value="race/la-fleche-wallone/2003/statistics/start" >2003</option><option value="race/la-fleche-wallone/2002/statistics/start" >2002</option><option value="race/la-fleche-wallone/2001/statistics/start" >2001</option><option value="race/la-fleche-wallone/2000/statistics/start" >2000</option><option value="race/la-fleche-wallone/1999/statistics/start" >1999</option><option value="race/la-fleche-wallone/1998/statistics/start" >1998</option><option value="race/la-fleche-wallone/1997/statistics/start" >1997</option><option value="race/la-fleche-wallone/1996/statistics/start" >1996</option><option value="race/la-fleche-wallone/1995/statistics/start" >1995</option><option value="race/la-fleche-wallone/1994/statistics/start" >1994</option><option value="race/la-fleche-wallone/1993/statistics/start" >1993</option><option value="race/la-fleche-wallone/1992/statistics/start" >1992</option><option value="race/la-fleche-wallone/1991/statistics/start" >1991</option><option value="race/la-fleche-wallone/1990/statistics/start" >1990</option><option value="race/la-fleche-wallone/1989/statistics/start" >1989</option><option value="race/la-fleche-wallone/1988/statistics/start" >1988</option><option value="race/la-fleche-wallone/1987/statistics/start" >1987</option><option value="race/la-fleche-wallone/1986/statistics/start" >1986</option><option value="race/la-fleche-wallone/1985/statistics/start" >1985</option><option value="race/la-fleche-wallone/1984/statistics/start" >1984</option><option value="race/la-fleche-wallone/1983/statistics/start" >1983</option><option value="race/la-fleche-wallone/1982/statistics/start" >1982</option><option value="race/la-fleche-wallone/1981/statistics/start" >1981</option><option value="race/la-fleche-wallone/1980/statistics/start" >1980</option><option value="race/la-fleche-wallone/1979/statistics/start" >1979</option><option value="race/la-fleche-wallone/1978/statistics/start" >1978</option><option value="race/la-fleche-wallone/1977/statistics/start" >1977</option><option value="race/la-fleche-wallone/1976/statistics/start" >1976</option><option value="race/la-fleche-wallone/1975/statistics/start" >1975</option><option value="race/la-fleche-wallone/1974/statistics/start" >1974</option><option value="race/la-fleche-wallone/1973/statistics/start" >1973</option><option value="race/la-fleche-wallone/1972/statistics/start" >1972</option><option value="race/la-fleche-wallone/1971/statistics/start" >1971</option><option value="race/la-fleche-wallone/1970/statistics/start" >1970</option><option value="race/la-fleche-wallone/1969/statistics/start" >1969</option><option value="race/la-fleche-wallone/1968/statistics/start" >1968</option><option value="race/la-fleche-wallone/1967/statistics/start" >1967</option><option value="race/la-fleche-wallone/1966/statistics/start" >1966</option><option value="race/la-fleche-wallone/1965/statistics/start" >1965</option><option value="race/la-fleche-wallone/1964/statistics/start" >1964</option><option value="race/la-fleche-wallone/1963/statistics/start" >1963</option><option value="race/la-fleche-wallone/1962/statistics/start" >1962</option><option value="race/la-fleche-wallone/1961/statistics/start" >1961</option><option value="race/la-fleche-wallone/1960/statistics/start" >1960</option><option value="race/la-fleche-wallone/1959/statistics/start" >1959</option><option value="race/la-fleche-wallone/1958/statistics/start" >1958</option><option value="race/la-fleche-wallone/1957/statistics/start" >1957</option><option value="race/la-fleche-wallone/1956/statistics/start" >1956</option><option value="race/la-fleche-wallone/1955/statistics/start" >1955</option><option value="race/la-fleche-wallone/1954/statistics/start" >1954</option><option value="race/la-fleche-wallone/1953/statistics/start" >1953</option><option value="race/la-fleche-wallone/1952/statistics/start" >1952</option><option value="race/la-fleche-wallone/1951/statistics/start" >1951</option><option value="race/la-fleche-wallone/1950/statistics/start" >1950</option><option value="race/la-fleche-wallone/1949/statistics/start" >1949</option><option value="race/la-fleche-wallone/1948/statistics/start" >1948</option><option value="race/la-fleche-wallone/1947/statistics/start" >1947</option><option value="race/la-fleche-wallone/1946/statistics/start" >1946</option><option value="race/la-fleche-wallone/1945/statistics/start" >1945</option><option value="race/la-fleche-wallone/1944/statistics/start" >1944</option><option value="race/la-fleche-wallone/1943/statistics/start" >1943</option><option value="race/la-fleche-wallone/1942/statistics/start" >1942</option><option value="race/la-fleche-wallone/1941/statistics/start" >1941</option><option value="race/la-fleche-wallone/1939/statistics/start" >1939</option><option value="race/la-fleche-wallone/1938/statistics/start" >1938</option><option value="race/la-fleche-wallone/1937/statistics/start" >1937</option><option value="race/la-fleche-wallone/1936/statistics/start" >1936</option></select></form></div><a ></a></div><div class="pageSelectNav 1" ><div ><form style="  max-width: 220px; width: 100%;  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/la-fleche-wallone/2024/" >- stage -</option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/la-fleche-wallone/2024">Statistics</a></li>
-<li class="reg "><a style=" " href="/race/la-fleche-wallone/2024">GO TO</a><ul><li><a href="race/la-fleche-wallone/2024/result">Results</a></li><li><a href="race/la-fleche-wallone/2024/result/live">Live data</a></li></ul></li><li class="reg "><a class="" href="race/la-fleche-wallone/2024/startlist">Startlist&#x25BC;</a><ul><li><a href="race/la-fleche-wallone/2024/startlist/startlist">Startlist</a></li>
+<div class="content"> <div class="page-topnav "><div class="pageDDnavCont"><div class="pageSelectNav " ><a   href="race/la-fleche-wallone/2023/statistics/start" >2023</a><div ><form style="  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/la-fleche-wallone/2025/statistics/start" >2025</option><option value="race/la-fleche-wallone/2024/statistics/start" selected>2024</option><option value="race/la-fleche-wallone/2023/statistics/start" >2023</option><option value="race/la-fleche-wallone/2022/statistics/start" >2022</option><option value="race/la-fleche-wallone/2021/statistics/start" >2021</option><option value="race/la-fleche-wallone/2020/statistics/start" >2020</option><option value="race/la-fleche-wallone/2019/statistics/start" >2019</option><option value="race/la-fleche-wallone/2018/statistics/start" >2018</option><option value="race/la-fleche-wallone/2017/statistics/start" >2017</option><option value="race/la-fleche-wallone/2016/statistics/start" >2016</option><option value="race/la-fleche-wallone/2015/statistics/start" >2015</option><option value="race/la-fleche-wallone/2014/statistics/start" >2014</option><option value="race/la-fleche-wallone/2013/statistics/start" >2013</option><option value="race/la-fleche-wallone/2012/statistics/start" >2012</option><option value="race/la-fleche-wallone/2011/statistics/start" >2011</option><option value="race/la-fleche-wallone/2010/statistics/start" >2010</option><option value="race/la-fleche-wallone/2009/statistics/start" >2009</option><option value="race/la-fleche-wallone/2008/statistics/start" >2008</option><option value="race/la-fleche-wallone/2007/statistics/start" >2007</option><option value="race/la-fleche-wallone/2006/statistics/start" >2006</option><option value="race/la-fleche-wallone/2005/statistics/start" >2005</option><option value="race/la-fleche-wallone/2004/statistics/start" >2004</option><option value="race/la-fleche-wallone/2003/statistics/start" >2003</option><option value="race/la-fleche-wallone/2002/statistics/start" >2002</option><option value="race/la-fleche-wallone/2001/statistics/start" >2001</option><option value="race/la-fleche-wallone/2000/statistics/start" >2000</option><option value="race/la-fleche-wallone/1999/statistics/start" >1999</option><option value="race/la-fleche-wallone/1998/statistics/start" >1998</option><option value="race/la-fleche-wallone/1997/statistics/start" >1997</option><option value="race/la-fleche-wallone/1996/statistics/start" >1996</option><option value="race/la-fleche-wallone/1995/statistics/start" >1995</option><option value="race/la-fleche-wallone/1994/statistics/start" >1994</option><option value="race/la-fleche-wallone/1993/statistics/start" >1993</option><option value="race/la-fleche-wallone/1992/statistics/start" >1992</option><option value="race/la-fleche-wallone/1991/statistics/start" >1991</option><option value="race/la-fleche-wallone/1990/statistics/start" >1990</option><option value="race/la-fleche-wallone/1989/statistics/start" >1989</option><option value="race/la-fleche-wallone/1988/statistics/start" >1988</option><option value="race/la-fleche-wallone/1987/statistics/start" >1987</option><option value="race/la-fleche-wallone/1986/statistics/start" >1986</option><option value="race/la-fleche-wallone/1985/statistics/start" >1985</option><option value="race/la-fleche-wallone/1984/statistics/start" >1984</option><option value="race/la-fleche-wallone/1983/statistics/start" >1983</option><option value="race/la-fleche-wallone/1982/statistics/start" >1982</option><option value="race/la-fleche-wallone/1981/statistics/start" >1981</option><option value="race/la-fleche-wallone/1980/statistics/start" >1980</option><option value="race/la-fleche-wallone/1979/statistics/start" >1979</option><option value="race/la-fleche-wallone/1978/statistics/start" >1978</option><option value="race/la-fleche-wallone/1977/statistics/start" >1977</option><option value="race/la-fleche-wallone/1976/statistics/start" >1976</option><option value="race/la-fleche-wallone/1975/statistics/start" >1975</option><option value="race/la-fleche-wallone/1974/statistics/start" >1974</option><option value="race/la-fleche-wallone/1973/statistics/start" >1973</option><option value="race/la-fleche-wallone/1972/statistics/start" >1972</option><option value="race/la-fleche-wallone/1971/statistics/start" >1971</option><option value="race/la-fleche-wallone/1970/statistics/start" >1970</option><option value="race/la-fleche-wallone/1969/statistics/start" >1969</option><option value="race/la-fleche-wallone/1968/statistics/start" >1968</option><option value="race/la-fleche-wallone/1967/statistics/start" >1967</option><option value="race/la-fleche-wallone/1966/statistics/start" >1966</option><option value="race/la-fleche-wallone/1965/statistics/start" >1965</option><option value="race/la-fleche-wallone/1964/statistics/start" >1964</option><option value="race/la-fleche-wallone/1963/statistics/start" >1963</option><option value="race/la-fleche-wallone/1962/statistics/start" >1962</option><option value="race/la-fleche-wallone/1961/statistics/start" >1961</option><option value="race/la-fleche-wallone/1960/statistics/start" >1960</option><option value="race/la-fleche-wallone/1959/statistics/start" >1959</option><option value="race/la-fleche-wallone/1958/statistics/start" >1958</option><option value="race/la-fleche-wallone/1957/statistics/start" >1957</option><option value="race/la-fleche-wallone/1956/statistics/start" >1956</option><option value="race/la-fleche-wallone/1955/statistics/start" >1955</option><option value="race/la-fleche-wallone/1954/statistics/start" >1954</option><option value="race/la-fleche-wallone/1953/statistics/start" >1953</option><option value="race/la-fleche-wallone/1952/statistics/start" >1952</option><option value="race/la-fleche-wallone/1951/statistics/start" >1951</option><option value="race/la-fleche-wallone/1950/statistics/start" >1950</option><option value="race/la-fleche-wallone/1949/statistics/start" >1949</option><option value="race/la-fleche-wallone/1948/statistics/start" >1948</option><option value="race/la-fleche-wallone/1947/statistics/start" >1947</option><option value="race/la-fleche-wallone/1946/statistics/start" >1946</option><option value="race/la-fleche-wallone/1945/statistics/start" >1945</option><option value="race/la-fleche-wallone/1944/statistics/start" >1944</option><option value="race/la-fleche-wallone/1943/statistics/start" >1943</option><option value="race/la-fleche-wallone/1942/statistics/start" >1942</option><option value="race/la-fleche-wallone/1941/statistics/start" >1941</option><option value="race/la-fleche-wallone/1939/statistics/start" >1939</option><option value="race/la-fleche-wallone/1938/statistics/start" >1938</option><option value="race/la-fleche-wallone/1937/statistics/start" >1937</option><option value="race/la-fleche-wallone/1936/statistics/start" >1936</option></select></form></div><a  href="race/la-fleche-wallone/2025/statistics/start" >2025</a></div><div class="pageSelectNav " ><div ><form style="  max-width: 150px; width: 100%;  "><select style="width: calc(100% - 2px);" onChange="window.location.href=this.value; "><option value="race/la-fleche-wallonne-feminine/2024" >WE</option><option value="race/la-fleche-wallone/2024" selected>ME</option></select></form></div></div></div><ul class="pagenavLinks"><li class="reg "><a class="cur" href="race/la-fleche-wallone/2024">Statistics</a></li>
+<li class="reg "><a style=" " href="/race/la-fleche-wallone/2024">GO TO</a><ul><li><a href="race/la-fleche-wallone/2024/result/game"> Game</a></li><li><a href="race/la-fleche-wallone/2024/result/live"> LiveStats</a></li><li><a href="race/la-fleche-wallone/2024/result"> Results</a></li></ul></li><li class="reg "><a class="" href="race/la-fleche-wallone/2024/startlist">Startlist&#x25BC;</a><ul><li><a href="race/la-fleche-wallone/2024/startlist/startlist">Startlist</a></li>
 <li><a href="race/la-fleche-wallone/2024/startlist/top-competitors">Top competitors</a></li>
 <li><a href="race/la-fleche-wallone/2024/startlist/startlist-quality">Startlist quality</a></li>
 <li><a href="race/la-fleche-wallone/2024/startlist/debutants">Debutants</a></li>
@@ -127,85 +125,101 @@
 <li><a href="race/la-fleche-wallone/2024/route/hardest-stages">Hardest stages</a></li>
 <li><a href="race/la-fleche-wallone/2024/route/climbs">Climbs</a></li>
 </ul></li>
-<li class="more"><a href="race/la-fleche-wallone/2024">More</a><ul><li data-n="1"><a href="race/la-fleche-wallone/2024/statistics/statistics">Statistics - Statistics</a></li><li data-n="2"><a href="race/la-fleche-wallone/2024/startlist/startlist">Startlist - Startlist</a></li><li data-n="1"><a href="race/la-fleche-wallone/2024/startlist/top-competitors">Top competitors</a></li>
-<li data-n="1"><a href="race/la-fleche-wallone/2024/startlist/startlist-quality">Startlist quality</a></li>
-<li data-n="1"><a href="race/la-fleche-wallone/2024/startlist/debutants">Debutants</a></li>
-<li data-n="3"><a href="race/la-fleche-wallone/2024/more/more">More - More</a></li><li data-n="4"><a href="race/la-fleche-wallone/2024/teams/teams">Teams - Teams</a></li><li data-n="3"><a href="race/la-fleche-wallone/2024/teams/top-teams">Top teams</a></li>
-<li data-n="3"><a href="race/la-fleche-wallone/2024/teams/dropouts">Dropouts</a></li>
-<li data-n="3"><a href="race/la-fleche-wallone/2024/teams/prizemoney">Prizemoney</a></li>
-<li data-n="5"><a href="race/la-fleche-wallone/2024/nations/nations">Nations - Nations</a></li><li data-n="6"><a href="race/la-fleche-wallone/2024/route/route">Route - Route</a></li><li data-n="5"><a href="race/la-fleche-wallone/2024/route/stages">Stages</a></li>
-<li data-n="5"><a href="race/la-fleche-wallone/2024/route/stage-profiles">All stage profiles</a></li>
-<li data-n="5"><a href="race/la-fleche-wallone/2024/route/hardest-stages">Hardest stages</a></li>
-<li data-n="5"><a href="race/la-fleche-wallone/2024/route/climbs">Climbs</a></li>
-<li data-n="7"><a href="race/la-fleche-wallone/2024/results/results">Results - Results</a></li><li data-n="6"><a href="race/la-fleche-wallone/2024/results/start">Winners and leaders</a></li>
-<li data-n="6"><a href="race/la-fleche-wallone/2024/results/won-how">Won how</a></li>
-<li data-n="6"><a href="race/la-fleche-wallone/2024/results/prizemoney-ranking">Prizemoney ranking</a></li>
-<li data-n="6"><a href="race/la-fleche-wallone/2024/results/dropouts">Dropouts</a></li>
-<li data-n="6"><a href="race/la-fleche-wallone/2024/results/fastest-stage">Fastest stages</a></li>
-</ul></li></ul><div class="clear"></div></div><ul class="thumbnails" ><li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li><li>&nbsp; &raquo; &nbsp;</li><li><a href="race/la-fleche-wallone/2024">2024</a></li><li>&nbsp; &raquo; &nbsp;</li><li><a href="race/la-fleche-wallone/2024/statistics">Statistics</a></li></ul><div class="page-title " ><div class="main"><span class="flag be w32"></span><span class="flag be w24"></span><span class="hideIfMobile">2024</span><span class="hideIfMobile">&raquo;</span><font class="hideIfMobile">88th</font><h1 class="">La Flèche Wallonne</h1><font class="hideIfMobile">(1.UWT)</font></div></div><div class="clear"></div><div class="desktop-ad leaderbord race"></div><div class="mob-ad leaderbord race"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100 "   >
+<li class="more"><a href="race/la-fleche-wallone/2024">More</a><ul><li data-n="1"><a href="race/la-fleche-wallone/2024/statistics/statistics">Statistics - Statistics</a></li><li data-n="2"><a href="race/la-fleche-wallone/2024/startlist/startlist">Startlist - Startlist</a></li><li data-n="1"><a href="race/la-fleche-wallone/2024/startlist/top-competitors">Top competitors dd</a></li>
+<li data-n="1"><a href="race/la-fleche-wallone/2024/startlist/startlist-quality">Startlist quality dd</a></li>
+<li data-n="1"><a href="race/la-fleche-wallone/2024/startlist/debutants">Debutants dd</a></li>
+<li data-n="3"><a href="race/la-fleche-wallone/2024/more/more">More - More</a></li><li data-n="4"><a href="race/la-fleche-wallone/2024/teams/teams">Teams - Teams</a></li><li data-n="3"><a href="race/la-fleche-wallone/2024/teams/top-teams">Top teams dd</a></li>
+<li data-n="3"><a href="race/la-fleche-wallone/2024/teams/dropouts">Dropouts dd</a></li>
+<li data-n="3"><a href="race/la-fleche-wallone/2024/teams/prizemoney">Prizemoney dd</a></li>
+<li data-n="5"><a href="race/la-fleche-wallone/2024/nations/nations">Nations - Nations</a></li><li data-n="6"><a href="race/la-fleche-wallone/2024/route/route">Route - Route</a></li><li data-n="5"><a href="race/la-fleche-wallone/2024/route/stages">Stages dd</a></li>
+<li data-n="5"><a href="race/la-fleche-wallone/2024/route/stage-profiles">All stage profiles dd</a></li>
+<li data-n="5"><a href="race/la-fleche-wallone/2024/route/hardest-stages">Hardest stages dd</a></li>
+<li data-n="5"><a href="race/la-fleche-wallone/2024/route/climbs">Climbs dd</a></li>
+<li data-n="7"><a href="race/la-fleche-wallone/2024/results/results">Results - Results</a></li><li data-n="6"><a href="race/la-fleche-wallone/2024/results/start">Winners and leaders dd</a></li>
+<li data-n="6"><a href="race/la-fleche-wallone/2024/results/won-how">Won how dd</a></li>
+<li data-n="6"><a href="race/la-fleche-wallone/2024/results/prizemoney-ranking">Prizemoney ranking dd</a></li>
+<li data-n="6"><a href="race/la-fleche-wallone/2024/results/dropouts">Dropouts dd</a></li>
+<li data-n="6"><a href="race/la-fleche-wallone/2024/results/fastest-stage">Fastest stages dd</a></li>
+</ul></li></ul><div class="clear"></div></div><ul class="thumbnails" ><li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li><li>&nbsp; &raquo; &nbsp;</li><li><a href="race/la-fleche-wallone/2024">2024</a></li><li>&nbsp; &raquo; &nbsp;</li><li><a href="race/la-fleche-wallone/2024/statistics">Statistics</a></li></ul><div class="page-title " ><div class="main"><span class="flag be w32"></span><span class="flag be w24"></span><span class="hideIfMobile">2024</span><span class="hideIfMobile">&raquo;</span><font class="hideIfMobile">88th</font><h1 class="">La Flèche Wallonne</h1><font class="hideIfMobile">(1.UWT)</font></div><div class="sub"><span class="showIfMobile">2024</span><span class="showIfMobile">&raquo;</span><span class="blue">One day race</span><span class="hideIfMobile">&raquo;</span><span class="red">Charleroi</span><span class="red">&rsaquo;</span><span class="red">Huy</span><span class="red fw400">(198.6km)</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord race"></div><div class="mob-ad leaderbord race"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class="w100 "   >
 <div class="text-regular">Statistics on La Flèche Wallonne 2024.</div>
 </div>
 <div class="w50 left mb_w100 mg_r2 "   >
-<ul class="list horizontal"><li class="goto2 mr10" ><a   class="goto2 mr10" href="race/la-fleche-wallone/2024/result">Full results</a></li>
-<li class="goto2" ><a   class="goto2" href="race/la-fleche-wallone/2024/result/live">LiveStats</a></li>
-</ul>
+<div class="mt20"><h3>Result 2024</h3>
+<span class="table-cont"><table class="basic"  style="max-width: 450px; "><thead><tr><th style="width: 10%; ">#</th><th style="width: 40%; ">Rider</th><th style="width: 40%; ">Team</th><th style="width: 10%; ">Time</th></tr></thead><tbody>
+<tr ><td style="height: 1px; ">1</td><td style="height: 1px; "><span class="flag gb"></span> <a    href="rider/stephen-williams">WILLIAMS Stephen</a></td><td style="height: 1px; "><a    href="team/israel-premier-tech-2024">Israel - Premier Tech</a></td><td style="height: 1px; ">4:40:24</td></tr>
+<tr ><td style="height: 1px; ">2</td><td style="height: 1px; "><span class="flag fr"></span> <a    href="rider/kevin-vauquelin">VAUQUELIN Kévin</a></td><td style="height: 1px; "><a    href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></td><td style="height: 1px; "> ,,</td></tr>
+<tr ><td style="height: 1px; ">3</td><td style="height: 1px; "><span class="flag be"></span> <a    href="rider/maxim-van-gils">VAN GILS Maxim</a></td><td style="height: 1px; "><a    href="team/lotto-dstny-2024">Lotto Dstny</a></td><td style="height: 1px; ">0:03</td></tr>
+<tr ><td style="height: 1px; ">4</td><td style="height: 1px; "><span class="flag fr"></span> <a    href="rider/benoit-cosnefroy">COSNEFROY Benoît</a></td><td style="height: 1px; "><a    href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></td><td style="height: 1px; "> ,,</td></tr>
+<tr ><td style="height: 1px; ">5</td><td style="height: 1px; "><span class="flag co"></span> <a    href="rider/santiago-buitrago-sanchez">BUITRAGO Santiago</a></td><td style="height: 1px; "><a    href="team/bahrain-victorious-2024">Bahrain - Victorious</a></td><td style="height: 1px; "> ,,</td></tr>
+<tr ><td style="height: 1px; ">6</td><td style="height: 1px; "><span class="flag no"></span> <a    href="rider/tobias-halland-johannessen">JOHANNESSEN Tobias Halland</a></td><td style="height: 1px; "><a    href="team/uno-x-mobility-2024">Uno-X Mobility</a></td><td style="height: 1px; ">0:10</td></tr>
+<tr ><td style="height: 1px; ">7</td><td style="height: 1px; "><span class="flag fr"></span> <a    href="rider/romain-gregoire1">GRÉGOIRE Romain</a></td><td style="height: 1px; "><a    href="team/groupama-fdj-2024">Groupama - FDJ</a></td><td style="height: 1px; "> ,,</td></tr>
+<tr ><td style="height: 1px; ">8</td><td style="height: 1px; "><span class="flag fr"></span> <a    href="rider/dorian-godon">GODON Dorian</a></td><td style="height: 1px; "><a    href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></td><td style="height: 1px; "> ,,</td></tr>
+<tr ><td style="height: 1px; ">9</td><td style="height: 1px; "><span class="flag be"></span> <a    href="rider/tiesj-benoot">BENOOT Tiesj</a></td><td style="height: 1px; "><a    href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></td><td style="height: 1px; "> ,,</td></tr>
+<tr ><td style="height: 1px; ">10</td><td style="height: 1px; "><span class="flag fr"></span> <a    href="rider/guillaume-martin">MARTIN Guillaume</a></td><td style="height: 1px; "><a    href="team/cofidis-2024">Cofidis</a></td><td style="height: 1px; "> ,,</td></tr>
+</tbody></table></span></div>
+<ul class="list horizontal"><li class="goto2 mr10" ><a    class="goto2 mr10" style="" href="race/la-fleche-wallone/2024/result">Full results</a></li>
+<li class="goto2 mr10" ><a    class="goto2 mr10" style="" href="race/la-fleche-wallone/2024/result/live">LiveStats</a></li>
+<li class="goto2 mr10" ><a    class="goto2 mr10" style="" href="race/la-fleche-wallone/2024/result/game">Game</a></li>
+</ul><div class="clear"></div>
 <div class="mt20"><h3>Info</h3><ul class="infolist fs13" style=""><li><div>Startdate:</div> <div>2024-04-17</div></li>
 <li><div>Enddate:</div> <div>2024-04-17</div></li>
 <li><div>Category:</div> <div>Men Elite</div></li>
 <li><div>UCI Tour:</div> <div>UCI Worldtour</div></li>
 <li><div>Total distance:</div> <div></div></li>
-<li><div>Logo</div> <div><img src="images/logo/bn/dm/la-fleche-wallone.png" style="max-height: 100px; max-width: 100%;  " /></div></li>
+<li><div>Logo</div> <div><img src="images/logo/bn/dm/la-fleche-wallone.png"  style="max-height: 100px; max-width: 100%;  " /></div></li>
 </ul></div>
 <div class="mt20"><h3>Top competitors</h3>
-<span class="table-cont"><ul class="list"  style="max-width: 550px;  "><li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/remco-evenepoel">EVENEPOEL Remco</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 dk"></span> </div><div ><a    href="rider/mattias-skjelmose-jensen">SKJELMOSE Mattias</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 pt"></span> </div><div ><a    href="rider/joao-almeida">ALMEIDA João</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 gb"></span> </div><div ><a    href="rider/simon-yates">YATES Simon</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 si"></span> </div><div ><a    href="rider/matej-mohoric">MOHORIČ Matej</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 ru"></span> </div><div ><a    href="rider/aleksandr-vlasov">VLASOV Aleksandr</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 gb"></span> </div><div ><a    href="rider/thomas-pidcock">PIDCOCK Thomas</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 ie"></span> </div><div ><a    href="rider/ben-healy">HEALY Ben</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 fr"></span> </div><div ><a    href="rider/guillaume-martin">MARTIN Guillaume</a></div><div class="clear"></div></li>
-<li class="" ><div class=" fs14 pr5   "  ><span class="flag c16 be"></span> </div><div ><a    href="rider/tiesj-benoot">BENOOT Tiesj</a></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list"  style="max-width: 550px;  "><li class="" ><div class="  fs14 pr5"  ><span class="flag c16 ch"></span> </div><div ><a    href="rider/marc-hirschi">HIRSCHI Marc</a></div><div class="clear"></div></li>
+<li class="" ><div class="  fs14 pr5"  ><span class="flag c16 ec"></span> </div><div ><a    href="rider/richard-carapaz">CARAPAZ Richard</a></div><div class="clear"></div></li>
+<li class="" ><div class="  fs14 pr5"  ><span class="flag c16 ru"></span> </div><div ><a    href="rider/aleksandr-vlasov">VLASOV Aleksandr</a></div><div class="clear"></div></li>
+<li class="" ><div class="  fs14 pr5"  ><span class="flag c16 be"></span> </div><div ><a    href="rider/maxim-van-gils">VAN GILS Maxim</a></div><div class="clear"></div></li>
+<li class="" ><div class="  fs14 pr5"  ><span class="flag c16 es"></span> </div><div ><a    href="rider/juan-ayuso-pesquera">AYUSO Juan</a></div><div class="clear"></div></li>
+<li class="" ><div class="  fs14 pr5"  ><span class="flag c16 us"></span> </div><div ><a    href="rider/brandon-mcnulty">MCNULTY Brandon</a></div><div class="clear"></div></li>
+<li class="" ><div class="  fs14 pr5"  ><span class="flag c16 dk"></span> </div><div ><a    href="rider/mattias-skjelmose-jensen">SKJELMOSE Mattias</a></div><div class="clear"></div></li>
+<li class="" ><div class="  fs14 pr5"  ><span class="flag c16 it"></span> </div><div ><a    href="rider/diego-ulissi">ULISSI Diego</a></div><div class="clear"></div></li>
+<li class="" ><div class="  fs14 pr5"  ><span class="flag c16 pt"></span> </div><div ><a    href="rider/joao-almeida">ALMEIDA João</a></div><div class="clear"></div></li>
+<li class="" ><div class="  fs14 pr5"  ><span class="flag c16 fr"></span> </div><div ><a    href="rider/benoit-cosnefroy">COSNEFROY Benoît</a></div><div class="clear"></div></li>
 </ul></span></div>
-<ul class="list horizontal"><li class="goto2 pr5" ><a   class="goto2 pr5" href="race/la-fleche-wallone/2024/startlist">Startlist</a></li>
-<li class="goto2 pr5" ><a   class="goto2 pr5" href="race/la-fleche-wallone/2024/startlist/top-competitors">Top riders</a></li>
-</ul>
+<ul class="list horizontal"><li class="goto2 pr5" ><a    class="goto2 pr5" style="" href="race/la-fleche-wallone/2024/startlist">Startlist</a></li>
+<li class="goto2 pr5" ><a    class="goto2 pr5" style="" href="race/la-fleche-wallone/2024/startlist/top-competitors">Top riders</a></li>
+</ul><div class="clear"></div>
 <div class="mt40"><h3>Teams</h3>
-<span class="table-cont"><ul class="list "  style="max-width: 400px;  "><li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1060"></span></div><div class="fs14 pr5   "  ><a    href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></div><div class=" clr999 fs14   "  > (Lafay, Cosnefroy)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1100"></span></div><div class="fs14 pr5   "  ><a    href="team/alpecin-deceuninck-2024">Alpecin - Deceuninck</a></div><div class=" clr999 fs14   "  > (Laurance, Hermans)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1107"></span></div><div class="fs14 pr5   "  ><a    href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></div><div class=" clr999 fs14   "  > (Delaplace, Champoussin)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1375"></span></div><div class="fs14 pr5   "  ><a    href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></div><div class=" clr999 fs14   "  > (Scaroni, Battistella)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team3814"></span></div><div class="fs14 pr5   "  ><a    href="team/bahrain-victorious-2024">Bahrain - Victorious</a></div><div class=" clr999 fs14   "  > (Mohorič, Mohorič)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1411"></span></div><div class="fs14 pr5   "  ><a    href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></div><div class=" clr999 fs14   "  > (Vlasov, Jungels)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1136"></span></div><div class="fs14 pr5   "  ><a    href="team/cofidis-2024">Cofidis</a></div><div class=" clr999 fs14   "  > (Martin, Hermans)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team4000"></span></div><div class="fs14 pr5   "  ><a    href="team/ef-education-easypost-2024">EF Education - EasyPost</a></div><div class=" clr999 fs14   "  > (Costa, Carapaz)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1187"></span></div><div class="fs14 pr5   "  ><a    href="team/groupama-fdj-2024">Groupama - FDJ</a></div><div class=" clr999 fs14   "  > (Grégoire, Gaudu)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1423"></span></div><div class="fs14 pr5   "  ><a    href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></div><div class=" clr999 fs14   "  > (Pidcock, Kwiatkowski)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1490"></span></div><div class="fs14 pr5   "  ><a    href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></div><div class=" clr999 fs14   "  > (Rota, Busatto)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1330"></span></div><div class="fs14 pr5   "  ><a    href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></div><div class=" clr999 fs14   "  > (Kelderman, Benoot)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1258"></span></div><div class="fs14 pr5   "  ><a    href="team/lidl-trek-2024">Lidl - Trek</a></div><div class=" clr999 fs14   "  > (Mollema, Geoghegan Hart)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2040"></span></div><div class="fs14 pr5   "  ><a    href="team/movistar-team-2024">Movistar Team</a></div><div class=" clr999 fs14   "  > (Guerreiro, Aranburu)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1328"></span></div><div class="fs14 pr5   "  ><a    href="team/soudal-quick-step-2024">Soudal - Quick Step</a></div><div class=" clr999 fs14   "  > (Vervaeke, Evenepoel)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1360"></span></div><div class="fs14 pr5   "  ><a    href="team/team-dsm-firmenich-postnl-2024">Team dsm-firmenich PostNL</a></div><div class=" clr999 fs14   "  > (Barguil, Barguil)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1207"></span></div><div class="fs14 pr5   "  ><a    href="team/team-jayco-alula-2024">Team Jayco AlUla</a></div><div class=" clr999 fs14   "  > (Yates, Maas)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1253"></span></div><div class="fs14 pr5   "  ><a    href="team/uae-team-emirates-2024">UAE Team Emirates</a></div><div class=" clr999 fs14   "  > (Ulissi, Almeida)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1482"></span></div><div class="fs14 pr5   "  ><a    href="team/bingoal-wb-2024">Bingoal WB</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team4831"></span></div><div class="fs14 pr5   "  ><a    href="team/euskaltel-euskadi-2024">Euskaltel - Euskadi</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2738"></span></div><div class="fs14 pr5   "  ><a    href="team/israel-premier-tech-2024">Israel - Premier Tech</a></div><div class=" clr999 fs14   "  > (Woods, Teuns)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team2088"></span></div><div class="fs14 pr5   "  ><a    href="team/lotto-dstny-2024">Lotto Dstny</a></div><div class=" clr999 fs14   "  > (Van Gils, Moniquet)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1293"></span></div><div class="fs14 pr5   "  ><a    href="team/q365-pro-cycing-2024">Q36.5 Pro Cycling Team</a></div><div class=" clr999 fs14   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1175"></span></div><div class="fs14 pr5   "  ><a    href="team/team-totalenergies-2024">TotalEnergies</a></div><div class=" clr999 fs14   "  > (Ferron, Burgaudeau)</div><div class="clear"></div></li>
-<li class="" ><div class="pad1 pr5   "  ><span class="shirt_icon20 team1420"></span></div><div class="fs14 pr5   "  ><a    href="team/uno-x-mobility-2024">Uno-X Mobility</a></div><div class=" clr999 fs14   "  > (Johannessen, Johannessen)</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list "  style="max-width: 400px;  "><li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1253"></span></div><div class=" fs14 pr5"  ><a    href="team/uae-team-emirates-2024">UAE Team Emirates</a></div><div class="  clr999 fs14"  > (Ulissi, Hirschi)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1258"></span></div><div class=" fs14 pr5"  ><a    href="team/lidl-trek-2024">Lidl - Trek</a></div><div class="  clr999 fs14"  > (Mollema, Konrad)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1328"></span></div><div class=" fs14 pr5"  ><a    href="team/soudal-quick-step-2024">Soudal Quick-Step</a></div><div class="  clr999 fs14"  > (Van Wilder, Serry)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team2738"></span></div><div class=" fs14 pr5"  ><a    href="team/israel-premier-tech-2024">Israel - Premier Tech</a></div><div class="  clr999 fs14"  > (Teuns, Fuglsang)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1136"></span></div><div class=" fs14 pr5"  ><a    href="team/cofidis-2024">Cofidis</a></div><div class="  clr999 fs14"  > (Martin, Izagirre)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1330"></span></div><div class=" fs14 pr5"  ><a    href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></div><div class="  clr999 fs14"  > (Van der Sande, Benoot)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team2088"></span></div><div class=" fs14 pr5"  ><a    href="team/lotto-dstny-2024">Lotto Dstny</a></div><div class="  clr999 fs14"  > (Van Gils, Kron)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1360"></span></div><div class=" fs14 pr5"  ><a    href="team/team-dsm-firmenich-postnl-2024">Team dsm-firmenich PostNL</a></div><div class="  clr999 fs14"  > (Vermaerke, Tusveld)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1107"></span></div><div class=" fs14 pr5"  ><a    href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></div><div class="  clr999 fs14"  > (Delaplace, Champoussin)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team2040"></span></div><div class=" fs14 pr5"  ><a    href="team/movistar-team-2024">Movistar Team</a></div><div class="  clr999 fs14"  > (Formolo, Aranburu)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team3814"></span></div><div class=" fs14 pr5"  ><a    href="team/bahrain-victorious-2024">Bahrain - Victorious</a></div><div class="  clr999 fs14"  > (Bilbao, Arashiro)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1420"></span></div><div class=" fs14 pr5"  ><a    href="team/uno-x-mobility-2024">Uno-X Mobility</a></div><div class="  clr999 fs14"  > (Johannessen, Eiking)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1423"></span></div><div class=" fs14 pr5"  ><a    href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></div><div class="  clr999 fs14"  > (Pidcock, Kwiatkowski)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1100"></span></div><div class=" fs14 pr5"  ><a    href="team/alpecin-deceuninck-2024">Alpecin - Deceuninck</a></div><div class="  clr999 fs14"  > (Meurisse, Kragh Andersen)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team4000"></span></div><div class=" fs14 pr5"  ><a    href="team/ef-education-easypost-2024">EF Education - EasyPost</a></div><div class="  clr999 fs14"  > (Honoré, Carapaz)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1207"></span></div><div class=" fs14 pr5"  ><a    href="team/team-jayco-alula-2024">Team Jayco AlUla</a></div><div class="  clr999 fs14"  > (Matthews, Durbridge)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1187"></span></div><div class=" fs14 pr5"  ><a    href="team/groupama-fdj-2024">Groupama - FDJ</a></div><div class="  clr999 fs14"  > (Madouas, Gaudu)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1490"></span></div><div class=" fs14 pr5"  ><a    href="team/intermarche-wanty-2024">Intermarché - Wanty</a></div><div class="  clr999 fs14"  > (Taaramäe, Planckaert)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1175"></span></div><div class=" fs14 pr5"  ><a    href="team/totalenergies-2024">TotalEnergies</a></div><div class="  clr999 fs14"  > (Vuillermoz, Burgaudeau)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1060"></span></div><div class=" fs14 pr5"  ><a    href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></div><div class="  clr999 fs14"  > (Godon, Cosnefroy)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1375"></span></div><div class=" fs14 pr5"  ><a    href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></div><div class="  clr999 fs14"  > (Velasco, Battistella)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1411"></span></div><div class=" fs14 pr5"  ><a    href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></div><div class="  clr999 fs14"  > (Vlasov, Jungels)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1293"></span></div><div class=" fs14 pr5"  ><a    href="team/q365-pro-cycing-2024">Q36.5 Pro Cycling Team</a></div><div class="  clr999 fs14"  > (Howson, Brambilla)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team1482"></span></div><div class=" fs14 pr5"  ><a    href="team/bingoal-wb-2024">Bingoal WB</a></div><div class="  clr999 fs14"  > (Vliegen, De Tier)</div><div class="clear"></div></li>
+<li class="" ><div class=" pad1 pr5"  ><span class="shirt_icon20 team4831"></span></div><div class=" fs14 pr5"  ><a    href="team/euskaltel-euskadi-2024">Euskaltel - Euskadi</a></div><div class="  clr999 fs14"  > (Martín, de la Parte)</div><div class="clear"></div></li>
 </ul></span></div>
 </div>
 <div class="w48 left mb_w100 "   >
-<div class="mt30"><h3>Sites</h3><ul class="list circle bluelink fs14"><li><a  target="_blank"   class="" href="https://www.la-fleche-wallonne.be">www.la-fleche-wallonne.be</a></li>
-<li><a  target="_blank"   class="" href="https://www.facebook.com/FlecheWallonne/">www.facebook.com/FlecheWallonne/</a></li>
-<li><a  target="_blank"   class="" href="https://twitter.com/flechewallonne">twitter.com/flechewallonne</a></li>
-</ul></div>
+<div class="mt30"><h3>Sites</h3><ul class="list circle bluelink fs14"><li><a  target="_blank"    class="" style="" href="https://www.la-fleche-wallonne.be">www.la-fleche-wallonne.be</a></li>
+<li><a  target="_blank"    class="" style="" href="https://www.facebook.com/FlecheWallonne/">www.facebook.com/FlecheWallonne/</a></li>
+<li><a  target="_blank"    class="" style="" href="https://twitter.com/flechewallonne">twitter.com/flechewallonne</a></li>
+</ul><div class="clear"></div></div>
 <div class="mt20"><h3>Maps/profiles</h3>
-<span class="table-cont"><ul class="list"  style=" "><li class="" ><div ><a    href="race/la-fleche-wallone/2024/result/route/profiles"><img src="images/profiles/ca/cc/la-fleche-wallone-2024-result-profile.jpg" style="max-height: 400px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list"  style=" "><li class="" ><div ><a    href="race/la-fleche-wallone/2024/result/info/profiles"><img src="images/profiles/ca/cc/la-fleche-wallone-2024-result-profile.jpg"  style="max-height: 400px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
+<li class="" ><div ><a    href="race/la-fleche-wallone/2024/result/info/profiles"><img src="images/profiles/ca/cc/la-fleche-wallone-2024-result-map.jpg"  style="max-height: 400px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
+<li class="" ><div ><a    href="race/la-fleche-wallone/2024/result/info/profiles"><img src="images/profiles/ca/cc/la-fleche-wallone-2024-result-map-n2.png"  style="max-height: 400px; max-width: 100%;  " /></a></div><div class="clear"></div></li>
 </ul></span></div>
 </div>
 <div class="desktop-ad below-content race"></div><div class="mob-ad below-content race"></div></div><div style="clear: both; "></div>  
@@ -237,7 +251,7 @@
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
 <li><a href="race/e3-harelbeke">E3 Classic</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
-<li><a href="race/dwars-door-vlaanderen">Dwars door vlaanderen</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
 <li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
@@ -249,7 +263,7 @@
 <li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
 <li><a href="rider/wout-van-aert">Wout van Aert</a></li>
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
-<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
 <li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
 <li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
@@ -272,17 +286,17 @@
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
-<li><a href="info/procyclinggame">ProCyclingGame</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
 </ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0240s</span></li>
+<li><span>Pageload 0.0652s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="5223" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list9.js"></script>  
+<script src="search_list13.js"></script>  

@@ -18,7 +18,7 @@
       pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
     };
 </script>
-<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Michael Leonard (born 2004-03-26 in Oakville) is a professional road racing cyclist from Canada, currently riding for INEOS Grenadiers. His best results are winning National Championships Canada U23 - ITT and 9th place in stage Settimana Internazionale Coppi e Bartali.">
+<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Michael Leonard (born 2004-03-26 in Oakville) is a professional road racing cyclist from Canada, currently riding for INEOS Grenadiers. His best results are winning a stage in Tour de l'Avenir and winning National Championships Canada U23 - ITT.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="utf-8"> 
@@ -27,9 +27,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a202.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b168.css" />
-<script src="https://www.procyclingstats.com/pcs_s82.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a249.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b195.css" />
+<script src="https://www.procyclingstats.com/pcs_s88.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -41,22 +41,21 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>
-  
-    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
+    	<a  class="logo" href="index.php"></a>  
+    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />     
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
-      	<a class="mobMenu" href="">Menu&#x25BC;</a>
+      	<a class="mobMenu" href="">&#9776; Menu</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
 <li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -66,15 +65,17 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
-<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
-<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
-<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/cofidis-2024">Cofidis</a></li>
-<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
-<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
-<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
+<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
+<li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
+<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2024">Cofidis</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
 <li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
 <li><a href="team/movistar-team-2024">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
@@ -82,8 +83,6 @@
 <li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
 <li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
 <li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
-<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
-<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -94,22 +93,21 @@
 <li class=" "><a class="reg" href="game.php">Game</a></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
-<li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/about-us">About us</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
-<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
-<li><a href="">Lists</a></li>
-</ul></li>
+<li class=" user"><a class="reg" href="login.php">Login</a></li>
  
 				 </ul> 
-			 </div>
-			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
+			 </div>			 
+			 <a class="topUser  " href="login.php"></a><div class="selectLanguage selectPlatform"><a href="">road</a><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/michael-leonard1">Overview</a></li>
+<div class="content"> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/michael-leonard1">Overview</a></li>
 <li class="reg "><a class="" href="rider/michael-leonard1/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/michael-leonard1/statistics/overview">Overview</a></li>
 <li><a href="rider/michael-leonard1/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/michael-leonard1/statistics/key-events">Key events</a></li>
@@ -132,63 +130,124 @@
 <li class="reg "><a class="" href="rider/michael-leonard1/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/michael-leonard1/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/michael-leonard1/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/michael-leonard1">More</a><ul><li data-n="1"><a href="rider/michael-leonard1/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/michael-leonard1/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/michael-leonard1/statistics/overview">Overview</a></li>
-<li data-n="1"><a href="rider/michael-leonard1/statistics/season-statistics">Statistics by season</a></li>
-<li data-n="1"><a href="rider/michael-leonard1/statistics/key-events">Key events</a></li>
-<li data-n="1"><a href="rider/michael-leonard1/statistics/world-map-of-rider-races">World map of rider races</a></li>
-<li data-n="1"><a href="rider/michael-leonard1/statistics/wins">Wins</a></li>
-<li data-n="1"><a href="rider/michael-leonard1/statistics/most-starts-by-race">Most starts by race</a></li>
-<li data-n="1"><a href="rider/michael-leonard1/statistics/grand-tour-starts">Starts and results</a></li>
-<li data-n="1"><a href="rider/michael-leonard1/statistics/injury-history">Injury history</a></li>
-<li data-n="3"><a href="rider/michael-leonard1/results/results">Results - Results</a></li><li data-n="4"><a href="rider/michael-leonard1/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/michael-leonard1/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/michael-leonard1/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/michael-leonard1/contribute/contribute-info">Contribute info</a></li>
-<li data-n="5"><a href="rider/michael-leonard1/contribute/submit-program">Submit program</a></li>
-<li data-n="5"><a href="rider/michael-leonard1/contribute/report">Report</a></li>
-<li data-n="5"><a href="rider/michael-leonard1/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
-<li data-n="5"><a href="rider/michael-leonard1/contribute/contribute-family">Family</a></li>
-<li data-n="5"><a href="rider/michael-leonard1/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="7"><a href="rider/michael-leonard1/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/michael-leonard1/specialties/top-gc-results">Top GC results</a></li>
-<li data-n="6"><a href="rider/michael-leonard1/specialties/fastest-tt">Fastest TT</a></li>
+<li class="more"><a href="rider/michael-leonard1">More</a><ul><li data-n="1"><a href="rider/michael-leonard1/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/michael-leonard1/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/michael-leonard1/statistics/overview">Overview dd</a></li>
+<li data-n="1"><a href="rider/michael-leonard1/statistics/season-statistics">Statistics by season dd</a></li>
+<li data-n="1"><a href="rider/michael-leonard1/statistics/key-events">Key events dd</a></li>
+<li data-n="1"><a href="rider/michael-leonard1/statistics/world-map-of-rider-races">World map of rider races dd</a></li>
+<li data-n="1"><a href="rider/michael-leonard1/statistics/wins">Wins dd</a></li>
+<li data-n="1"><a href="rider/michael-leonard1/statistics/most-starts-by-race">Most starts by race dd</a></li>
+<li data-n="1"><a href="rider/michael-leonard1/statistics/grand-tour-starts">Starts and results dd</a></li>
+<li data-n="1"><a href="rider/michael-leonard1/statistics/injury-history">Injury history dd</a></li>
+<li data-n="3"><a href="rider/michael-leonard1/results/results">Results - Results</a></li><li data-n="4"><a href="rider/michael-leonard1/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/michael-leonard1/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/michael-leonard1/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/michael-leonard1/contribute/contribute-info">Contribute info dd</a></li>
+<li data-n="5"><a href="rider/michael-leonard1/contribute/submit-program">Submit program dd</a></li>
+<li data-n="5"><a href="rider/michael-leonard1/contribute/report">Report dd</a></li>
+<li data-n="5"><a href="rider/michael-leonard1/contribute/contribute-social-feeds">Contribute sites / social media dd</a></li>
+<li data-n="5"><a href="rider/michael-leonard1/contribute/contribute-family">Family dd</a></li>
+<li data-n="5"><a href="rider/michael-leonard1/contribute/embed-rider-results">Embed rider results dd</a></li>
+<li data-n="7"><a href="rider/michael-leonard1/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/michael-leonard1/specialties/top-gc-results">Top GC results dd</a></li>
+<li data-n="6"><a href="rider/michael-leonard1/specialties/fastest-tt">Fastest TT dd</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag ca w32"></span><span class="flag ca w24"></span><h1 class="">Michael  Leonard</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">INEOS Grenadiers</span></div><div class="sub"><span class="red showIfMobile">INEOS Grenadiers</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"></ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/michael-leonard1/statistics/overview"><img alt="Profile photo of Michael  Leonard" src="images/riders/bp/ac/michael-leonard1-2024.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 26<sup>th</sup> March 2004 (19)<br /><b>Nationality:</b> <span class="flag  ca"></span><a class="black" href="nation/canada">Canada</a><br /><span><b>Weight:</b> 60 kg &nbsp; <span><b>Height:</b> 1.70 m<br /><b>Place of birth:</b> <a href="location/oakville">Oakville</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/michael-leonard1/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 19.230769230769%; height: 100%;  "></div></div><div class="pnt">5</div><div class="title"><a href="rider/michael-leonard1/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 100%; height: 100%;  "></div></div><div class="pnt">26</div><div class="title"><a href="rider/michael-leonard1/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/michael-leonard1/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/michael-leonard1/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/michael_.leonard/">instagram</a></li>
-<li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/mleonard04">twitter</a></li>
-<li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/42967020">strava</a></li>
-</ul></div>
+<ul class="list horizontal fs14 circle bluelink"><li><a    class="" style="" href="race/world-championships-u23/2024/result/live">LiveStats World Championships MU - Road Race</a></li>
+<li><a    class="" style="" href="rider-in-race/michael-leonard1/world-championships-u23">Rider statistics in World Championships MU - Road Race</a></li>
+</ul><div class="clear"></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/michael-leonard1/statistics/overview"><img alt="Profile photo of Michael  Leonard" src="images/riders/bp/ac/michael-leonard1-2024.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 26<sup>th</sup> March 2004 (20)<br /><b>Nationality:</b> <span class="flag  ca"></span><a class="black" href="nation/canada">Canada</a><br /><span><b>Weight:</b> 60 kg &nbsp; <span><b>Height:</b> 1.70 m<br /><b>Place of birth:</b> <a href="location/oakville">Oakville</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 6.7567567567568%; height: 100%;  "></div></div><div class="pnt">5</div><div class="title"><a href="rider/michael-leonard1/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 13.513513513514%; height: 100%;  "></div></div><div class="pnt">10</div><div class="title"><a href="rider/michael-leonard1/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 100%; height: 100%;  "></div></div><div class="pnt">74</div><div class="title"><a href="rider/michael-leonard1/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/michael-leonard1/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 9.4594594594595%; height: 100%;  "></div></div><div class="pnt">7</div><div class="title"><a href="rider/michael-leonard1/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/michael-leonard1/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://www.instagram.com/michael_.leonard/"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://twitter.com/mleonard04"><span class="iconv3 x-logo14"></span>x</a></li><li><a target="_blank" href="https://www.strava.com/athletes/42967020"><span class="iconv3 strava14"></span>strava</a></li></ul><div class="clear" style="height: 5px;"></div><div class="clear" ></div><div class=""></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >1485</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >2012</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class=" title"  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  >1301</div><div class="clear"></div></li>
+<li class="" ><div class=" title"  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  >1035</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;1210</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class=" bold"  >Visits:</div><div ><span class="delta-down">&#x25BC;2502</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
-</div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/national-championships-canada-u23-itt/2023/result">National Championships Canada U23 - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+</div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-de-l-avenir/2024/prologue">Tour de l'Avenir</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/national-championships-canada-u23-itt/2023/result">National Championships Canada U23 - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue"></span> <a href="race/national-championships-canada-u23-itt/2024/result">National Championships Canada U23 - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-l-avenir/2024/stage-4">Tour de l'Avenir</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">9th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-canada2/2024/result">National Championships Canada ME - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">9th&nbsp;</div><div><span class="blue">stage</span> <a href="race/settimana-internazionale-coppi-e-bartali/2023/stage-5">Settimana Internazionale Coppi e Bartali</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue"></span> <a href="race/world-championships-itt-u23/2023/result">World Championships MU - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">26th&nbsp;</div><div><span class="blue">stage</span> <a href="race/etoile-de-besseges/2023/stage-5">Etoile de Bessèges - Tour du Gard</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">35th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-canada2/2023/result">National Championships Canada ME - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">12th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-l-avenir/2024/stage-3">Tour de l'Avenir</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">13th&nbsp;</div><div><span class="blue">stage</span> <a href="race/vuelta-a-burgos/2024/stage-4">Vuelta a Burgos</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">18th&nbsp;</div><div><span class="blue">KOM</span> <a href="race/tour-de-l-avenir/2024/kom">Tour de l'Avenir</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">20th&nbsp;</div><div><span class="blue">KOM</span> <a href="race/tour-de-l-avenir/2023/stage-8-kom">Tour de l'Avenir</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">21st&nbsp;</div><div><span class="blue">stage</span> <a href="race/czech-tour/2024/stage-3">Czech Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class="season   "  >2025</div><div class="name   "  ><a    href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class=" season"  >2025</div><div class=" name"  ><a    href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2024</div><div class=" name"  ><a    href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2023</div><div class=" name"  ><a    href="team/ineos-grenadiers-2023">INEOS Grenadiers</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2022</div><div class=" name"  ><a    href="team/team-franco-ballerini-2022">Team Franco Ballerini</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
-<div class=""><div class="">No races on program.</div></div>
-<div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
-</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li class="more hide "><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>12.02</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/clasica-jaen-paraiso-interior/2024/result">Clásica Jaén <span>(1.1)</span></a> </td><td class="cu600">158.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/clasica-jaen-paraiso-interior">more</a></td></tr>
-<tr data-main="1"><td>10.02</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-ciclista-a-la-region-de-murcia/2024/result">Vuelta Ciclista a la Region de Murcia "Costa Calida" <span>(1.1)</span></a> </td><td class="cu600">198.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>179</b> km in <b>2</b> days | PCS points: <b>0</b> |  UCI points: <b>0</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
-<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/michael-leonard1/statistics/wins">Wins</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/michael-leonard1/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/michael-leonard1/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class=" bold"  >27.09</div><div class=" ellipsis"  ><span class="flag ch"></span> <a    href="race/world-championships-u23/2024/startlist">World Championships MU - Road Race</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/michael-leonard1/world-championships-u23">more</a></div><div class="clear"></div></li>
+</ul></span></div>
+<div class=""><div class="text-regular"><div class="mob-ad rider-after-program"></div></div></div>
+</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li class="more hide "><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li></ul></li></ul><div class="resultsSortFilter sortByResults">Sort by: <a class="" data-case="date" href="">Date</a><a class="" data-case="rnk" href="">Result</a><a class="" data-case="pnt" href="">Points</a></div><div class="resultsSortFilter filterByResults">Filter by: <a class="cur" data-case="all" href="">All</a><a class="" data-case="climber" href="">Climber</a><a class="" data-case="hills" href="">Hills</a><a class="" data-case="sprints" href="">Sprints</a><a class="" data-case="tt" href="">TT</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>23.09</td><td>49</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag ch"></span><a href="https://www.procyclingstats.com/race/world-championships-itt-u23/2024/result">World Championships MU - ITT <span>(WC)</span></a> </td><td class="cu600">29.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/world-championships-itt-u23">more</a></td></tr>
+<tr data-main="1"><td>15.09</td><td>79</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ca"></span><a href="https://www.procyclingstats.com/race/gp-montreal/2024/result">Grand Prix Cycliste de Montréal <span>(1.UWT)</span></a> <span title="156 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 0px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>156k</span></td><td class="cu600">209.1</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/gp-montreal">more</a></td></tr>
+<tr data-main="1"><td>13.09</td><td>117</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ca"></span><a href="https://www.procyclingstats.com/race/gp-quebec/2024/result">Grand Prix Cycliste de Québec <span>(1.UWT)</span></a> </td><td class="cu600">201.6</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/gp-quebec">more</a></td></tr>
+<tr data-main="1"><td>08.09</td><td>112</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="https://www.procyclingstats.com/race/cyclassics-hamburg/2024/result">BEMER Cyclassics <span>(1.UWT)</span></a> </td><td class="cu600">177.5</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/cyclassics-hamburg">more</a></td></tr>
+<tr data-main="1"><td>18.08 &raquo; 24.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/youth">Tour de l&#039;Avenir <span>(2.Ncup)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td></td><td>14</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td></td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st7"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/kom">Mountains classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td></td><td>32</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td></td><td>27</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>24.08</td><td>63</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/stage-6">Stage 6 - Bobbio Pelice &rsaquo; Colle delle Finestre</a> </td><td class="cu600">127.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>23.08</td><td>85</td><td class="gc cu600">21</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/stage-5">Stage 5 - Les Karellis &rsaquo; Condoue</a> </td><td class="cu600">119.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>22.08</td><td>5</td><td class="gc cu600">5</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/stage-4">Stage 4 - La Rosière &rsaquo; Les Karellis</a> </td><td class="cu600">142.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>21.08</td><td>12</td><td class="gc cu600">6</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/stage-3">Stage 3 - Peisey-Vallandry &rsaquo; La Rosière</a> </td><td class="cu600">70.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>20.08</td><td>69</td><td class="gc cu600">3</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/stage-2">Stage 2 - Mouchard &rsaquo; Plateau d'Hauteville</a> </td><td class="cu600">170.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>19.08</td><td>84</td><td class="gc cu600">4</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/stage-1">Stage 1 - Sarrebourg &rsaquo; Ronchamp-Champagney</a> </td><td class="cu600">184.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="0"><td>18.08</td><td>1</td><td class="gc cu600">1</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-de-l-avenir/2024/prologue">Prologue - Sarrebourg &rsaquo; Sarrebourg</a> </td><td class="cu600">7.1</td><td class="cu600">5</td><td class="cu600 ">15<span style="font-size: 10px; letter-spacing: -0.5px; color:#d1b934; ">&nbsp;+2</span></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-de-l-avenir">more</a></td></tr>
+<tr data-main="1"><td>10.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/san-sebastian/2024/result">Donostia San Sebastian Klasikoa <span>(1.UWT)</span></a> </td><td class="cu600">236</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/san-sebastian">more</a></td></tr>
+<tr data-main="1"><td>05.08 &raquo; 09.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-burgos/2024/youth">Vuelta a Burgos <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td></td><td>29</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-burgos/2024/youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td></td><td>42</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-burgos/2024/points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td></td><td>70</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-burgos/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>09.08</td><td>60</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-burgos/2024/stage-5">Stage 5 - Frías &rsaquo; Condado de Treviño</a> <span title="148 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 0px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>148k</span></td><td class="cu600">156</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>08.08</td><td>13</td><td class="gc cu600">77</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-burgos/2024/stage-4">Stage 4 (ITT) - Santa María del Campo &rsaquo; Pampliega</a> </td><td class="cu600">18.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>07.08</td><td>73</td><td class="gc cu600">83</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-burgos/2024/stage-3">Stage 3 - Bodegas Nabal Gumiel de Izán &rsaquo; Lagunas de Neila</a> </td><td class="cu600">138</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>06.08</td><td>123</td><td class="gc cu600">120</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-burgos/2024/stage-2">Stage 2 - Valle de Mena &rsaquo; Complejo Karstico Ojo Guareña</a> </td><td class="cu600">161</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="0"><td>05.08</td><td>102</td><td class="gc cu600">102</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-burgos/2024/stage-1">Stage 1 - Vilviestre del Pinar &rsaquo; Burgos</a> </td><td class="cu600">168</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/vuelta-a-burgos">more</a></td></tr>
+<tr data-main="1"><td>25.07 &raquo; 28.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/youth">Czech Tour <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/czech-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>10</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/czech-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>40</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/czech-tour">more</a></td></tr>
+<tr data-main="0"><td>28.07</td><td>90</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/stage-4">Stage 4 - Šumperk &rsaquo; Šternberk</a> </td><td class="cu600">131.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/czech-tour">more</a></td></tr>
+<tr data-main="0"><td>27.07</td><td>21</td><td class="gc cu600">28</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/stage-3">Stage 3 - Moravská Třebová &rsaquo; Dlouhé stráně</a> <span title="71 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 0px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>71k</span></td><td class="cu600">134.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/czech-tour">more</a></td></tr>
+<tr data-main="0"><td>26.07</td><td>49</td><td class="gc cu600">49</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/stage-2">Stage 2 - Zlín &rsaquo; Pustevny</a> </td><td class="cu600">172.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/czech-tour">more</a></td></tr>
+<tr data-main="0"><td>25.07</td><td>122</td><td class="gc cu600">122</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cz"></span><a href="https://www.procyclingstats.com/race/czech-tour/2024/stage-1">Stage 1 - Prostějov &rsaquo; Ostrava</a> </td><td class="cu600">151.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/czech-tour">more</a></td></tr>
+<tr data-main="1"><td>02.07 &raquo; 07.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag at"></span><a href="https://www.procyclingstats.com/race/tour-of-austria/2024/youth">Tour of Austria <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td></td><td>25</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag at"></span><a href="https://www.procyclingstats.com/race/tour-of-austria/2024/youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td></td><td>72</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag at"></span><a href="https://www.procyclingstats.com/race/tour-of-austria/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td>06.07</td><td>53</td><td class="gc cu600">72</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag at"></span><a href="https://www.procyclingstats.com/race/tour-of-austria/2024/stage-5">Stage 4 - St. Johann Alpendorf &rsaquo; Kals</a> </td><td class="cu600">151.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td>05.07</td><td>97</td><td class="gc cu600">87</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag at"></span><a href="https://www.procyclingstats.com/race/tour-of-austria/2024/stage-4">Stage 3 - Schladming &rsaquo; St. Johann Alpendorf</a> </td><td class="cu600">153.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td>04.07</td><td>87</td><td class="gc cu600">87</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag at"></span><a href="https://www.procyclingstats.com/race/tour-of-austria/2024/stage-3">Stage 2 - Maria Taferl &rsaquo; Steyr</a> </td><td class="cu600">184.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td>03.07</td><td>98</td><td class="gc cu600">92</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag at"></span><a href="https://www.procyclingstats.com/race/tour-of-austria/2024/stage-2">Stage 1 - Bad Tatzmannsdorf &rsaquo; Bad Tatzmannsdorf</a> </td><td class="cu600">177.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-of-austria">more</a></td></tr>
+<tr data-main="0"><td>02.07</td><td>62</td><td class="gc cu600">62</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag at"></span><a href="https://www.procyclingstats.com/race/tour-of-austria/2024/stage-1">Prologue - St. Pölten &rsaquo; St. Pölten</a> </td><td class="cu600">3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/tour-of-austria">more</a></td></tr>
+<tr data-main="1"><td>22.06</td><td>9</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ca"></span><a href="https://www.procyclingstats.com/race/nc-canada2/2024/result">National Championships Canada ME - Road Race <span>(NC)</span></a> </td><td class="cu600">199.2</td><td class="cu600"></td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/nc-canada2">more</a></td></tr>
+<tr data-main="1"><td>21.06</td><td>2</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag ca"></span><a href="https://www.procyclingstats.com/race/national-championships-canada-u23-itt/2024/result">National Championships Canada MU - ITT <span>(NC)</span></a> </td><td class="cu600">34</td><td class="cu600"></td><td class="cu600 ">15</td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/national-championships-canada-u23-itt">more</a></td></tr>
+<tr data-main="1"><td>19.02 &raquo; 25.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-7-youth">UAE Tour <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/uae-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>38</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-7-youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/uae-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>100</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/uae-tour">more</a></td></tr>
+<tr data-main="0"><td>25.02</td><td>93</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-7">Stage 7 - Al Ain Bait Mohammed Bin Khalifa &rsaquo; Jebel Hafeet</a> </td><td class="cu600">161</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/uae-tour">more</a></td></tr>
+<tr data-main="0"><td>24.02</td><td>118</td><td class="gc cu600">97</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-6">Stage 6 - Louvre Abu Dhabi Museum &rsaquo; Abu Dhabi Breakwater</a> </td><td class="cu600">138</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/uae-tour">more</a></td></tr>
+<tr data-main="0"><td>23.02</td><td>119</td><td class="gc cu600">96</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-5">Stage 5 - Al Aqah &rsaquo; Umm Al Quwain</a> </td><td class="cu600">182</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/uae-tour">more</a></td></tr>
+<tr data-main="0"><td>22.02</td><td>109</td><td class="gc cu600">99</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-4">Stage 4 - Dubai Police Officer's Club &rsaquo; Dubai Harbour</a> </td><td class="cu600">168</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/uae-tour">more</a></td></tr>
+<tr data-main="0"><td>21.02</td><td>121</td><td class="gc cu600">97</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-3">Stage 3 - Al Marjan Island &rsaquo; Jebel Jais</a> </td><td class="cu600">176</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/uae-tour">more</a></td></tr>
+<tr data-main="0"><td>20.02</td><td>82</td><td class="gc cu600">135</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-2">Stage 2 (ITT) - Al Hudayriyat Island &rsaquo; Al Hudayriyat Island</a> </td><td class="cu600">12.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/uae-tour">more</a></td></tr>
+<tr data-main="0"><td>19.02</td><td>132</td><td class="gc cu600">137</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-1">Stage 1 - Al Dhafra Walk Madinat Zayed &rsaquo; Liwa</a> </td><td class="cu600">141</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/uae-tour">more</a></td></tr>
+<tr data-main="1"><td>12.02</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/clasica-jaen-paraiso-interior/2024/result">Clásica Jaén <span>(1.1)</span></a> </td><td class="cu600">158.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/clasica-jaen-paraiso-interior">more</a></td></tr>
+<tr data-main="1"><td>10.02</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-ciclista-a-la-region-de-murcia/2024/result">Vuelta Ciclista a la Region de Murcia "Costa Calida" <span>(1.1)</span></a> </td><td class="cu600">198.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/michael-leonard1/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
+</tbody></table><div class="rdrResultsSum" ><div>4849</b> km in <b>38</b> days | PCS points: <b>25</b> |  UCI points: <b>37</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class=" nr"  >0</div><div class=" title"  ><a    href="rider/michael-leonard1/statistics/wins">Wins</a></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >0</div><div class=" title"  ><a    href="rider/michael-leonard1/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >0</div><div class=" title"  ><a    href="rider/michael-leonard1/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative;   "><div class="vTitle" style="line-height: 12px;">5</div></div></div></td><td class="ac  " >2009</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2024</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">25</div></div></div></td><td class="ac  "  style="height: 1px; ">1049</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2023</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 16%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">5</div></div></div></td><td class="ac  "  style="height: 1px; ">2009</td></tr>
 </tbody></table></span></div>
+<div class=""></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
   var id = 273882; 
@@ -196,6 +255,7 @@ $(document).ready(function(){
   var cxid = 0; 
   var seo = 'michael-leonard1';
   var sort = 'date'; 
+  var filter = 'all'; 
   var pid = '1238'; 
   var discipline = 'road'; 
   var subpath = '';   
@@ -214,7 +274,7 @@ $(document).ready(function(){
     $(this).parents('ul').find('li').removeClass('cur');
     $(this).parent('li').addClass('cur'); 
     //console.log(subpath);
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season') }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season'), filter: filter }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
   });   
 
   $(document).on('click', '.seasonResults', function(e){
@@ -228,7 +288,7 @@ $(document).ready(function(){
     $(".rdrSeasonNav li").removeClass('cur');
     $(".rdrSeasonNav li[data-season="+season+"]").addClass('cur'); 
 
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline  }  }).done(function( response ) {   
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {   
     	//console.log(response);
       $('#resultsCont').html(response);      
     })
@@ -244,8 +304,27 @@ $(document).ready(function(){
     sort = $(this).attr('data-case');
    // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
    
-    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+  });
+
+
+  $(".filterByResults a").click(function(e){
+    e.preventDefault();        
+    var season = $(".rdrSeasonNav li.cur").attr('data-season');
+
+    
+    $("#resultsCont").html('<br /><div class=\"loading\"> loading results ..</div>');
+    $(".filterByResults a").removeClass('cur');
+    $(this).addClass('cur');
+    filter = $(this).attr('data-case');
+   // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
+   
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+
   }); 
+
+
+  
 
 });
 </script>
@@ -280,7 +359,7 @@ $(document).ready(function(){
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
 <li><a href="race/e3-harelbeke">E3 Classic</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
-<li><a href="race/dwars-door-vlaanderen">Dwars door vlaanderen</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
 <li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
@@ -292,7 +371,7 @@ $(document).ready(function(){
 <li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
 <li><a href="rider/wout-van-aert">Wout van Aert</a></li>
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
-<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
 <li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
 <li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
@@ -315,25 +394,21 @@ $(document).ready(function(){
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
-<li><a href="info/procyclinggame">ProCyclingGame</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
 </ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0461s</span></li>
+<li><span>Pageload 0.0645s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list9.js"></script>  
-
+<script src="search_list13.js"></script>  
 		<script>
-
 		var riderid = 273882;		$(document).ready(function() { 	RVC(riderid);  	  });
-
 		</script>
-
 		

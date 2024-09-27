@@ -27,9 +27,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a202.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b168.css" />
-<script src="https://www.procyclingstats.com/pcs_s82.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a249.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b195.css" />
+<script src="https://www.procyclingstats.com/pcs_s88.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -41,22 +41,21 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>
-  
-    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
+    	<a  class="logo" href="index.php"></a>  
+    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />     
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
-      	<a class="mobMenu" href="">Menu&#x25BC;</a>
+      	<a class="mobMenu" href="">&#9776; Menu</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
 <li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -66,15 +65,17 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
-<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
-<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
-<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/cofidis-2024">Cofidis</a></li>
-<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
-<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
-<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
+<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
+<li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
+<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2024">Cofidis</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
 <li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
 <li><a href="team/movistar-team-2024">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
@@ -82,8 +83,6 @@
 <li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
 <li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
 <li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
-<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
-<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -94,22 +93,21 @@
 <li class=" "><a class="reg" href="game.php">Game</a></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
-<li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/about-us">About us</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
-<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
-<li><a href="">Lists</a></li>
-</ul></li>
+<li class=" user"><a class="reg" href="login.php">Login</a></li>
  
 				 </ul> 
-			 </div>
-			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
+			 </div>			 
+			 <a class="topUser  " href="login.php"></a><div class="selectLanguage selectPlatform"><a href="">road</a><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/jonas-iversby-hvideberg">Overview</a></li>
+<div class="content"> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/jonas-iversby-hvideberg">Overview</a></li>
 <li class="reg "><a class="" href="rider/jonas-iversby-hvideberg/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/jonas-iversby-hvideberg/statistics/overview">Overview</a></li>
 <li><a href="rider/jonas-iversby-hvideberg/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/jonas-iversby-hvideberg/statistics/key-events">Key events</a></li>
@@ -132,95 +130,128 @@
 <li class="reg "><a class="" href="rider/jonas-iversby-hvideberg/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/jonas-iversby-hvideberg/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/jonas-iversby-hvideberg/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/jonas-iversby-hvideberg">More</a><ul><li data-n="1"><a href="rider/jonas-iversby-hvideberg/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/jonas-iversby-hvideberg/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/overview">Overview</a></li>
-<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/season-statistics">Statistics by season</a></li>
-<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/key-events">Key events</a></li>
-<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/world-map-of-rider-races">World map of rider races</a></li>
-<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/wins">Wins</a></li>
-<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/most-starts-by-race">Most starts by race</a></li>
-<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/grand-tour-starts">Starts and results</a></li>
-<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/injury-history">Injury history</a></li>
-<li data-n="3"><a href="rider/jonas-iversby-hvideberg/results/results">Results - Results</a></li><li data-n="4"><a href="rider/jonas-iversby-hvideberg/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/jonas-iversby-hvideberg/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/jonas-iversby-hvideberg/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/contribute-info">Contribute info</a></li>
-<li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/submit-program">Submit program</a></li>
-<li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/report">Report</a></li>
-<li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
-<li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/contribute-family">Family</a></li>
-<li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="7"><a href="rider/jonas-iversby-hvideberg/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/jonas-iversby-hvideberg/specialties/top-gc-results">Top GC results</a></li>
-<li data-n="6"><a href="rider/jonas-iversby-hvideberg/specialties/fastest-tt">Fastest TT</a></li>
+<li class="more"><a href="rider/jonas-iversby-hvideberg">More</a><ul><li data-n="1"><a href="rider/jonas-iversby-hvideberg/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/jonas-iversby-hvideberg/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/overview">Overview dd</a></li>
+<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/season-statistics">Statistics by season dd</a></li>
+<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/key-events">Key events dd</a></li>
+<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/world-map-of-rider-races">World map of rider races dd</a></li>
+<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/wins">Wins dd</a></li>
+<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/most-starts-by-race">Most starts by race dd</a></li>
+<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/grand-tour-starts">Starts and results dd</a></li>
+<li data-n="1"><a href="rider/jonas-iversby-hvideberg/statistics/injury-history">Injury history dd</a></li>
+<li data-n="3"><a href="rider/jonas-iversby-hvideberg/results/results">Results - Results</a></li><li data-n="4"><a href="rider/jonas-iversby-hvideberg/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/jonas-iversby-hvideberg/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/jonas-iversby-hvideberg/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/contribute-info">Contribute info dd</a></li>
+<li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/submit-program">Submit program dd</a></li>
+<li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/report">Report dd</a></li>
+<li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/contribute-social-feeds">Contribute sites / social media dd</a></li>
+<li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/contribute-family">Family dd</a></li>
+<li data-n="5"><a href="rider/jonas-iversby-hvideberg/contribute/embed-rider-results">Embed rider results dd</a></li>
+<li data-n="7"><a href="rider/jonas-iversby-hvideberg/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/jonas-iversby-hvideberg/specialties/top-gc-results">Top GC results dd</a></li>
+<li data-n="6"><a href="rider/jonas-iversby-hvideberg/specialties/fastest-tt">Fastest TT dd</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag no w32"></span><span class="flag no w24"></span><h1 class="">Jonas Iversby  Hvideberg</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Uno-X Mobility</span></div><div class="sub"><span class="red showIfMobile">Uno-X Mobility</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"></ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/jonas-iversby-hvideberg/statistics/overview"><img alt="Profile photo of Jonas Iversby  Hvideberg" src="images/riders/bp/cf/jonas-iversby-hvideberg-2024.png"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 9<sup>th</sup> February 1999 (25)<br /><b>Nationality:</b> <span class="flag  no"></span><a class="black" href="nation/norway">Norway</a><br /><span><b>Height:</b> 1.85 m<br /><b>Place of birth:</b> <a href="location/rolvsoy">Rolvsøy</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 100%; height: 100%;  "></div></div><div class="pnt">115</div><div class="title"><a href="rider/jonas-iversby-hvideberg/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 46.086956521739%; height: 100%;  "></div></div><div class="pnt">53</div><div class="title"><a href="rider/jonas-iversby-hvideberg/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 1.7391304347826%; height: 100%;  "></div></div><div class="pnt">2</div><div class="title"><a href="rider/jonas-iversby-hvideberg/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 5.2173913043478%; height: 100%;  "></div></div><div class="pnt">6</div><div class="title"><a href="rider/jonas-iversby-hvideberg/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 41.739130434783%; height: 100%;  "></div></div><div class="pnt">48</div><div class="title"><a href="rider/jonas-iversby-hvideberg/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/Jonashvideberg">instagram</a></li>
-<li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/3625441">strava</a></li>
-<li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/jonasiversby.hvideberg">facebook</a></li>
-<li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/JonasHvideberg">twitter</a></li>
-</ul></div>
+<ul class="list horizontal fs14 circle bluelink"></ul><div class="clear"></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/jonas-iversby-hvideberg/statistics/overview"><img alt="Profile photo of Jonas Iversby  Hvideberg" src="images/riders/bp/cf/jonas-iversby-hvideberg-2024.png"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 9<sup>th</sup> February 1999 (25)<br /><b>Nationality:</b> <span class="flag  no"></span><a class="black" href="nation/norway">Norway</a><br /><span><b>Height:</b> 1.85 m<br /><b>Place of birth:</b> <a href="location/rolvsoy">Rolvsøy</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 100%; height: 100%;  "></div></div><div class="pnt">120</div><div class="title"><a href="rider/jonas-iversby-hvideberg/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 44.166666666667%; height: 100%;  "></div></div><div class="pnt">53</div><div class="title"><a href="rider/jonas-iversby-hvideberg/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 5.8333333333333%; height: 100%;  "></div></div><div class="pnt">7</div><div class="title"><a href="rider/jonas-iversby-hvideberg/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 31.666666666667%; height: 100%;  "></div></div><div class="pnt">38</div><div class="title"><a href="rider/jonas-iversby-hvideberg/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 14.166666666667%; height: 100%;  "></div></div><div class="pnt">17</div><div class="title"><a href="rider/jonas-iversby-hvideberg/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 45%; height: 100%;  "></div></div><div class="pnt">54</div><div class="title"><a href="rider/jonas-iversby-hvideberg/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://www.instagram.com/Jonashvideberg"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://www.strava.com/athletes/3625441"><span class="iconv3 strava14"></span>strava</a></li><li><a target="_blank" href="https://www.facebook.com/jonasiversby.hvideberg"><span class="iconv3 facebook14"></span>fb</a></li><li><a target="_blank" href="https://twitter.com/JonasHvideberg"><span class="iconv3 x-logo14"></span>x</a></li></ul><div class="clear" style="height: 5px;"></div><div class="clear" ></div><div class=""></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >2391</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >960</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class=" title"  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  >2151</div><div class="clear"></div></li>
+<li class="" ><div class=" title"  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  >1016</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;1275</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class=" bold"  >Visits:</div><div ><span class="delta-down">&#x25BC;99</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/european-championships/2020/result">European Continental Championships MU - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/paris-tours-espoirs/2021/result">Paris-Tours Espoirs</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue"></span> <a href="race/nc-norway/2020/result">National Championships Norway  - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue"></span> <a href="race/nc-norway/2020/result">National Championships Norway ME - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/paris-tours-espoirs/2019/result">Paris-Tours Espoirs</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/etoile-de-besseges/2024/stage-4">Etoile de Bessèges - Tour du Gard</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">8th&nbsp;</div><div><span class="blue"></span> <a href="race/boucles-de-l-aulne/2021/result">Boucles de l'Aulne - Châteaulin</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">13th&nbsp;</div><div><span class="blue"></span> <a href="race/paris-camembert/2020/result">Paris - Camembert</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">9th&nbsp;</div><div><span class="blue">GC</span> <a href="race/course-de-la-paix-u23/2021/gc">Course de la Paix Grand Prix Jeseníky</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">18th&nbsp;</div><div><span class="blue"></span> <a href="race/kuurne-brussel-kuurne/2021/result">Kuurne - Bruxelles - Kuurne</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">9th&nbsp;</div><div><span class="blue">GC</span> <a href="race/course-de-la-paix-u23/2021/gc">Course de la Paix</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">18th&nbsp;</div><div><span class="blue"></span> <a href="race/kuurne-brussel-kuurne/2021/result">Kuurne-Brussel-Kuurne</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">17th&nbsp;</div><div><span class="blue"></span> <a href="race/druivenkoers-overijse/2021/result">Druivenkoers - Overijse</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">KOM</span> <a href="race/arctic-race-of-norway/2019/kom">Arctic Race of Norway</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('19)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-norway-u23/2020/result">National Championships Norway MU23 - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2026</div><div class="name   "  ><a    href="team/uno-x-mobility-2026">Uno-X Mobility</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2025</div><div class="name   "  ><a    href="team/uno-x-mobility-2025">Uno-X Mobility</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/uno-x-mobility-2024">Uno-X Mobility</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/team-dsm-2023">Team DSM</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/team-dsm-2022">Team DSM</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2021</div><div class="name   "  ><a    href="team/uno-x-pro-cycling-team-2021">Uno-X Pro Cycling Team</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2020</div><div class="name   "  ><a    href="team/uno-x-norwegian-development-team-2020">Uno-X Norwegian Development Team</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2019</div><div class="name   "  ><a    href="team/uno-x-norwegian-development-team-2019">Uno-X Norwegian Development Team</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2018</div><div class="name   "  ><a    href="team/uno-x-norwegian-development-team-2018">Uno-X Norwegian Development Team</a></div><div > (CT)</div><div class="fs10   "  > as from 13/06</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class=" season"  >2026</div><div class=" name"  ><a    href="team/uno-x-mobility-2026">Uno-X Mobility</a></div><div > (PRT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2025</div><div class=" name"  ><a    href="team/uno-x-mobility-2025">Uno-X Mobility</a></div><div > (PRT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2024</div><div class=" name"  ><a    href="team/uno-x-mobility-2024">Uno-X Mobility</a></div><div > (PRT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2023</div><div class=" name"  ><a    href="team/team-dsm-firmenich-2023">Team dsm - firmenich</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2022</div><div class=" name"  ><a    href="team/team-dsm-2022">Team DSM</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2021</div><div class=" name"  ><a    href="team/uno-x-pro-cycling-team-2021">Uno-X Pro Cycling Team</a></div><div > (PRT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2020</div><div class=" name"  ><a    href="team/uno-x-pro-cycling-team-2020">Uno-X Pro Cycling Team</a></div><div > (PRT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2019</div><div class=" name"  ><a    href="team/uno-x-norwegian-development-team-2019">Uno-X Norwegian Development Team</a></div><div > (CT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2018</div><div class=" name"  ><a    href="team/uno-x-norwegian-development-team-2018">Uno-X Norwegian Development Team</a></div><div > (CT)</div><div class=" fs10"  > as from 13/06</div><div class="clear"></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class="bold   "  >17.02</div><div class="ellipsis   "  ><span class="flag fr"></span> <a    href="race/tour-des-alpes-maritimes-et-du-var/2024/startlist">Tour des Alpes-Maritimes</a></div><div class="fs10 blue   "  ><a    href="rider-in-race/jonas-iversby-hvideberg/tour-des-alpes-maritimes-et-du-var">more</a></div><div class="clear"></div></li>
-</ul></span></div>
-<div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
-</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li class="more hide show_if"><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">2016</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>31.01 &raquo; 04.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-5-kom">Etoile de Bessèges - Tour du Gard <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td></td><td>12</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st7"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-5-kom">Mountains classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td></td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-5-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td></td><td>86</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td>04.02</td><td>98</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-5">Stage 5 (ITT) - Alès &rsaquo; Alès</a> </td><td class="cu600">10.645</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td>03.02</td><td>4</td><td class="gc cu600">84</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-4">Stage 4 - Méjannes-le-Clap &rsaquo; Méjannes-le-Clap</a> <span title="111 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>111k</span></td><td class="cu600">158.48</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td>02.02</td><td>100</td><td class="gc cu600">93</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-3">Stage 3 - Bessèges &rsaquo; Bessèges</a> </td><td class="cu600">161.11</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td>01.02</td><td>54</td><td class="gc cu600">54</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-2">Stage 2 - Marguerittes &rsaquo; Rousson</a> </td><td class="cu600">163.58</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
-<tr data-main="1"><td>28.01</td><td>80</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/gp-d-ouverture/2024/result">Grand Prix Cycliste de Marseille La Marseillaise <span>(1.1)</span></a> </td><td class="cu600">167.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/gp-d-ouverture">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>661</b> km in <b>5</b> days | PCS points: <b>5</b> |  UCI points: <b>0</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
-<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/jonas-iversby-hvideberg/statistics/wins">Wins</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >2</div><div class="title   "  ><a    href="rider/jonas-iversby-hvideberg/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (0) giro (1) vuelta(1)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >1</div><div class="title   "  ><a    href="rider/jonas-iversby-hvideberg/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(0)</div><div class="info fs11   "  >MSR(0)</div><div class="info fs11   "  >RVV(0)</div><div class="info fs11   "  >LBL(0)</div><div class="info fs11   "  >LOM(1)</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
+<div class=""><div class="text-regular">No races on program.</div></div>
+<div class=""><div class="text-regular"><div class="mob-ad rider-after-program"></div></div></div>
+</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li class="more hide show_if"><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">2016</a></li></ul></li></ul><div class="resultsSortFilter sortByResults">Sort by: <a class="" data-case="date" href="">Date</a><a class="" data-case="rnk" href="">Result</a><a class="" data-case="pnt" href="">Points</a></div><div class="resultsSortFilter filterByResults">Filter by: <a class="cur" data-case="all" href="">All</a><a class="" data-case="climber" href="">Climber</a><a class="" data-case="hills" href="">Hills</a><a class="" data-case="sprints" href="">Sprints</a><a class="" data-case="tt" href="">TT</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>26.09</td><td>11</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="national-race/memorial-fred-de-bruyne86/2024/result">Memorial Fred De Bruyne <span>(NAT)</span></a> </td><td class="cu600">167.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/memorial-fred-de-bruyne86">more</a></td></tr>
+<tr data-main="1"><td>25.09</td><td>41</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/omloop-van-het-houtland-lichtervelde/2024/result">Omloop van het Houtland <span>(1.1)</span></a> </td><td class="cu600">195.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/omloop-van-het-houtland-lichtervelde">more</a></td></tr>
+<tr data-main="1"><td>22.09</td><td>47</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-chauny-classique/2024/result">Paris-Chauny <span>(1.1)</span></a> </td><td class="cu600">197.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/paris-chauny-classique">more</a></td></tr>
+<tr data-main="1"><td>15.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ca"></span><a href="https://www.procyclingstats.com/race/gp-montreal/2024/result">Grand Prix Cycliste de Montréal <span>(1.UWT)</span></a> </td><td class="cu600">209.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/gp-montreal">more</a></td></tr>
+<tr data-main="1"><td>13.09</td><td>99</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ca"></span><a href="https://www.procyclingstats.com/race/gp-quebec/2024/result">Grand Prix Cycliste de Québec <span>(1.UWT)</span></a> </td><td class="cu600">201.6</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/gp-quebec">more</a></td></tr>
+<tr data-main="1"><td>08.09</td><td>94</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="https://www.procyclingstats.com/race/cyclassics-hamburg/2024/result">BEMER Cyclassics <span>(1.UWT)</span></a> </td><td class="cu600">177.5</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/cyclassics-hamburg">more</a></td></tr>
+<tr data-main="1"><td>20.08 &raquo; 23.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-du-poitou-charentes-et-de-la-vienne/2024/youth">Tour Poitou - Charentes en Nouvelle Aquitaine <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td></td><td>10</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-du-poitou-charentes-et-de-la-vienne/2024/youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td></td><td>22</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-du-poitou-charentes-et-de-la-vienne/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>23.08</td><td>51</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-du-poitou-charentes-et-de-la-vienne/2024/stage-4">Stage 4 - Fontaine-le-Comte &rsaquo; Poitiers</a> </td><td class="cu600">175.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>22.08</td><td>30</td><td class="gc cu600">22</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-du-poitou-charentes-et-de-la-vienne/2024/stage-3">Stage 3 (ITT) - Ménigoute &rsaquo; Fontaine-le-Comte</a> </td><td class="cu600">29.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>21.08</td><td>49</td><td class="gc cu600">41</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-du-poitou-charentes-et-de-la-vienne/2024/stage-2">Stage 2 - Gensac-la-Pallue &rsaquo; Niort</a> </td><td class="cu600">181.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="0"><td>20.08</td><td>46</td><td class="gc cu600">47</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-du-poitou-charentes-et-de-la-vienne/2024/stage-1">Stage 1 - Les Gonds &rsaquo; Cognac</a> </td><td class="cu600">178.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr data-main="1"><td>22.07 &raquo; 26.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/tour-de-wallonie/2024/gc">Ethias-Tour de Wallonie <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-de-wallonie">more</a></td></tr>
+<tr data-main="0"><td></td><td>66</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/tour-de-wallonie/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-de-wallonie">more</a></td></tr>
+<tr data-main="0"><td>26.07</td><td>81</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/tour-de-wallonie/2024/stage-5">Stage 5 - Mouscron &rsaquo; Thuin</a> </td><td class="cu600">192.15</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-de-wallonie">more</a></td></tr>
+<tr data-main="0"><td>25.07</td><td>89</td><td class="gc cu600">64</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/tour-de-wallonie/2024/stage-4">Stage 4 - Verviers &rsaquo; Herve</a> </td><td class="cu600">188.51</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-de-wallonie">more</a></td></tr>
+<tr data-main="0"><td>24.07</td><td>64</td><td class="gc cu600">53</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/tour-de-wallonie/2024/stage-3">Stage 3 - Arlon &rsaquo; La Roche-en-Ardenne</a> </td><td class="cu600">192.63</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-de-wallonie">more</a></td></tr>
+<tr data-main="0"><td>23.07</td><td>43</td><td class="gc cu600">47</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/tour-de-wallonie/2024/stage-2">Stage 2 - Saint-Ghislain &rsaquo; Ouffet</a> </td><td class="cu600">188.25</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-de-wallonie">more</a></td></tr>
+<tr data-main="0"><td>22.07</td><td>62</td><td class="gc cu600">62</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/tour-de-wallonie/2024/stage-1">Stage 1 - Tournai &rsaquo; Fleurus</a> </td><td class="cu600">179.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-de-wallonie">more</a></td></tr>
+<tr data-main="1"><td>06.07 &raquo; 09.07</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/points">Sibiu Cycling Tour <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>34</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td></td><td>24</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td>09.07</td><td>88</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/stage-4">Stage 4 - Sibiu &rsaquo; Sibiu</a> </td><td class="cu600">192.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td>08.07</td><td>34</td><td class="gc cu600">26</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/stage-3">Stage 3 - Sibiu &rsaquo; Bâlea Lac</a> </td><td class="cu600">207.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td>07.07</td><td>20</td><td class="gc cu600">17</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/stage-2b">Stage 2b (ITT) - Sibiu &rsaquo; Sibiu</a> </td><td class="cu600">3.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td>07.07</td><td>47</td><td class="gc cu600">16</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/stage-2a">Stage 2a - Sibiu &rsaquo; Sibiu</a> </td><td class="cu600">103</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="0"><td>06.07</td><td>18</td><td class="gc cu600">16</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ro"></span><a href="https://www.procyclingstats.com/race/sibiu-cycling-tour/2024/stage-1">Stage 1 - Sibiu &rsaquo; Păltiniș</a> </td><td class="cu600">167.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/sibiu-cycling-tour">more</a></td></tr>
+<tr data-main="1"><td>23.06</td><td>13</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag no"></span><a href="https://www.procyclingstats.com/race/nc-norway/2024/result">National Championships Norway ME - Road Race <span>(NC)</span></a> </td><td class="cu600">199.2</td><td class="cu600"></td><td class="cu600 ">1</td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/nc-norway">more</a></td></tr>
+<tr data-main="1"><td>26.05</td><td>79</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="https://www.procyclingstats.com/race/rund-um-koln/2024/result">Rund um Köln <span>(1.1)</span></a> </td><td class="cu600">194.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/rund-um-koln">more</a></td></tr>
+<tr data-main="1"><td>16.03</td><td>134</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/milano-sanremo/2024/result">Milano-Sanremo <span>(1.UWT)</span></a> </td><td class="cu600">288</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/milano-sanremo">more</a></td></tr>
+<tr data-main="1"><td>02.03</td><td>OTL</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/strade-bianche/2024/result">Strade Bianche <span>(1.UWT)</span></a> </td><td class="cu600">215</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/strade-bianche">more</a></td></tr>
+<tr data-main="1"><td>17.02 &raquo; 18.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-des-alpes-maritimes-et-du-var/2024/gc">Tour des Alpes-Maritimes <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-des-alpes-maritimes-et-du-var">more</a></td></tr>
+<tr data-main="0"><td></td><td>78</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-des-alpes-maritimes-et-du-var/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-des-alpes-maritimes-et-du-var">more</a></td></tr>
+<tr data-main="0"><td>18.02</td><td>92</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-des-alpes-maritimes-et-du-var/2024/stage-2">Stage 2 - Villefranche-sur-Mer &rsaquo; Vence</a> </td><td class="cu600">131.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-des-alpes-maritimes-et-du-var">more</a></td></tr>
+<tr data-main="0"><td>17.02</td><td>57</td><td class="gc cu600">57</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-des-alpes-maritimes-et-du-var/2024/stage-1">Stage 1 - Levens &rsaquo; Antibes</a> </td><td class="cu600">165.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/tour-des-alpes-maritimes-et-du-var">more</a></td></tr>
+<tr data-main="1"><td>16.02</td><td>92</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/classic-var/2024/result">Classic Var <span>(1.1)</span></a> </td><td class="cu600">184.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/classic-var">more</a></td></tr>
+<tr data-main="1"><td>31.01 &raquo; 04.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-5-kom">Etoile de Bessèges - Tour du Gard <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td></td><td>12</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st7"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-5-kom">Mountains classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td></td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-5-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td></td><td>86</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td>04.02</td><td>98</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-5">Stage 5 (ITT) - Alès &rsaquo; Alès</a> </td><td class="cu600">10.645</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td>03.02</td><td>4</td><td class="gc cu600">84</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-4">Stage 4 - Méjannes-le-Clap &rsaquo; Méjannes-le-Clap</a> <span title="111 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 0px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>111k</span></td><td class="cu600">158.48</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td>02.02</td><td>100</td><td class="gc cu600">93</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-3">Stage 3 - Bessèges &rsaquo; Bessèges</a> </td><td class="cu600">161.11</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td>01.02</td><td>54</td><td class="gc cu600">54</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-2">Stage 2 - Marguerittes &rsaquo; Rousson</a> </td><td class="cu600">163.58</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/etoile-de-besseges">more</a></td></tr>
+<tr data-main="1"><td>28.01</td><td>80</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/gp-d-ouverture/2024/result">Grand Prix Cycliste de Marseille La Marseillaise <span>(1.1)</span></a> </td><td class="cu600">167.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/jonas-iversby-hvideberg/gp-d-ouverture">more</a></td></tr>
+</tbody></table><div class="rdrResultsSum" ><div>5263</b> km in <b>31</b> days | PCS points: <b>20</b> |  UCI points: <b>7</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class=" nr"  >0</div><div class=" title"  ><a    href="rider/jonas-iversby-hvideberg/statistics/wins">Wins</a></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >2</div><div class=" title"  ><a    href="rider/jonas-iversby-hvideberg/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  >tour (0) giro (1) vuelta(1)</div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >2</div><div class=" title"  ><a    href="rider/jonas-iversby-hvideberg/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  >RBX(0)</div><div class=" info fs11"  >MSR(1)</div><div class=" info fs11"  >RVV(0)</div><div class=" info fs11"  >LBL(0)</div><div class=" info fs11"  >LOM(1)</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2024</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 7%; position: relative;   "><div class="vTitle" style="line-height: 12px;">5</div></div></div></td><td class="ac  " >488</td></tr>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 49.1%; position: relative;   "><div class="vTitle" style="line-height: 12px;">35</div></div></div></td><td class="ac  " >1012</td></tr>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 43.5%; position: relative;   "><div class="vTitle" style="line-height: 12px;">31</div></div></div></td><td class="ac  " >948</td></tr>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative;   "><div class="vTitle" style="line-height: 12px;">57</div></div></div></td><td class="ac  " >634</td></tr>
-<tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 53.3%; position: relative;   "><div class="vTitle" style="line-height: 12px;">38</div></div></div></td><td class="ac  " >636</td></tr>
-<tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 9.8%; position: relative;   "><div class="vTitle" style="line-height: 12px;">7</div></div></div></td><td class="ac  " >1921</td></tr>
-<tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 5.6%; position: relative;   "><div class="vTitle" style="line-height: 12px;">4</div></div></div></td><td class="ac  " >2155</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2024</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 28.1%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">20</div></div></div></td><td class="ac  "  style="height: 1px; ">1134</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2023</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 49.1%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">35</div></div></div></td><td class="ac  "  style="height: 1px; ">1012</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2022</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 43.5%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">31</div></div></div></td><td class="ac  "  style="height: 1px; ">948</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2021</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">57</div></div></div></td><td class="ac  "  style="height: 1px; ">634</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2020</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 53.3%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">38</div></div></div></td><td class="ac  "  style="height: 1px; ">636</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2019</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 9.8%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">7</div></div></div></td><td class="ac  "  style="height: 1px; ">1921</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2018</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 5.6%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">4</div></div></div></td><td class="ac  "  style="height: 1px; ">2155</td></tr>
 </tbody></table></span></div>
 <div class="mt30"><h3>Family</h3>
 <span class="table-cont"><ul class="list"  style=" "><li class="" ><div ><a    href="rider/anders-iversby-hvideberg">Anders Iversby  Hvideberg</a></div><div > (Brother)</div><div class="clear"></div></li>
 <li class="" ><div ><a    href="rider/filip-iversby-hvideberg">Filip Iversby  Hvideberg</a></div><div > (Brother)</div><div class="clear"></div></li>
 <li class="" ><div ><a    href="rider/martin-iversby">Martin  Iversby</a></div><div > (Cousin)</div><div class="clear"></div></li>
 </ul></span></div>
+<div class=""></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
   var id = 206811; 
@@ -228,6 +259,7 @@ $(document).ready(function(){
   var cxid = 0; 
   var seo = 'jonas-iversby-hvideberg';
   var sort = 'date'; 
+  var filter = 'all'; 
   var pid = '1238'; 
   var discipline = 'road'; 
   var subpath = '';   
@@ -246,7 +278,7 @@ $(document).ready(function(){
     $(this).parents('ul').find('li').removeClass('cur');
     $(this).parent('li').addClass('cur'); 
     //console.log(subpath);
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season') }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season'), filter: filter }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
   });   
 
   $(document).on('click', '.seasonResults', function(e){
@@ -260,7 +292,7 @@ $(document).ready(function(){
     $(".rdrSeasonNav li").removeClass('cur');
     $(".rdrSeasonNav li[data-season="+season+"]").addClass('cur'); 
 
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline  }  }).done(function( response ) {   
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {   
     	//console.log(response);
       $('#resultsCont').html(response);      
     })
@@ -276,8 +308,27 @@ $(document).ready(function(){
     sort = $(this).attr('data-case');
    // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
    
-    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+  });
+
+
+  $(".filterByResults a").click(function(e){
+    e.preventDefault();        
+    var season = $(".rdrSeasonNav li.cur").attr('data-season');
+
+    
+    $("#resultsCont").html('<br /><div class=\"loading\"> loading results ..</div>');
+    $(".filterByResults a").removeClass('cur');
+    $(this).addClass('cur');
+    filter = $(this).attr('data-case');
+   // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
+   
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+
   }); 
+
+
+  
 
 });
 </script>
@@ -312,7 +363,7 @@ $(document).ready(function(){
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
 <li><a href="race/e3-harelbeke">E3 Classic</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
-<li><a href="race/dwars-door-vlaanderen">Dwars door vlaanderen</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
 <li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
@@ -324,7 +375,7 @@ $(document).ready(function(){
 <li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
 <li><a href="rider/wout-van-aert">Wout van Aert</a></li>
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
-<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
 <li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
 <li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
@@ -347,25 +398,21 @@ $(document).ready(function(){
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
-<li><a href="info/procyclinggame">ProCyclingGame</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
 </ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0672s</span></li>
+<li><span>Pageload 0.0850s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list9.js"></script>  
-
+<script src="search_list13.js"></script>  
 		<script>
-
 		var riderid = 206811;		$(document).ready(function() { 	RVC(riderid);  	  });
-
 		</script>
-
 		

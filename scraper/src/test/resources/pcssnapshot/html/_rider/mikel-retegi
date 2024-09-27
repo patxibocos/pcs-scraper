@@ -18,7 +18,7 @@
       pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
     };
 </script>
-<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Mikel Retegi (born 2001-04-27 in Barañain) is a professional road racing cyclist from Spain, currently riding for Equipo Kern Pharma. His best results are 9th place in National Championships Spain MU - Road Race and 20th place in stage Volta a Portugal.">
+<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Mikel Retegi (born 2001-04-27 in Barañain) is a professional road racing cyclist from Spain, currently riding for Equipo Kern Pharma. His best results are 4th place in stage Itzulia Basque Country and 7th place in stage Tour de Taiwan.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="utf-8"> 
@@ -27,9 +27,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a202.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b168.css" />
-<script src="https://www.procyclingstats.com/pcs_s82.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a249.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b195.css" />
+<script src="https://www.procyclingstats.com/pcs_s88.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -41,22 +41,21 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>
-  
-    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
+    	<a  class="logo" href="index.php"></a>  
+    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />     
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
-      	<a class="mobMenu" href="">Menu&#x25BC;</a>
+      	<a class="mobMenu" href="">&#9776; Menu</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
 <li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -66,15 +65,17 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
-<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
-<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
-<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/cofidis-2024">Cofidis</a></li>
-<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
-<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
-<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
+<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
+<li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
+<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2024">Cofidis</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
 <li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
 <li><a href="team/movistar-team-2024">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
@@ -82,8 +83,6 @@
 <li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
 <li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
 <li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
-<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
-<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -94,22 +93,21 @@
 <li class=" "><a class="reg" href="game.php">Game</a></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
-<li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/about-us">About us</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
-<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
-<li><a href="">Lists</a></li>
-</ul></li>
+<li class=" user"><a class="reg" href="login.php">Login</a></li>
  
 				 </ul> 
-			 </div>
-			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
+			 </div>			 
+			 <a class="topUser  " href="login.php"></a><div class="selectLanguage selectPlatform"><a href="">road</a><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/mikel-retegi">Overview</a></li>
+<div class="content"> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/mikel-retegi">Overview</a></li>
 <li class="reg "><a class="" href="rider/mikel-retegi/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/mikel-retegi/statistics/overview">Overview</a></li>
 <li><a href="rider/mikel-retegi/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/mikel-retegi/statistics/key-events">Key events</a></li>
@@ -132,89 +130,126 @@
 <li class="reg "><a class="" href="rider/mikel-retegi/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/mikel-retegi/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/mikel-retegi/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/mikel-retegi">More</a><ul><li data-n="1"><a href="rider/mikel-retegi/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/mikel-retegi/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/mikel-retegi/statistics/overview">Overview</a></li>
-<li data-n="1"><a href="rider/mikel-retegi/statistics/season-statistics">Statistics by season</a></li>
-<li data-n="1"><a href="rider/mikel-retegi/statistics/key-events">Key events</a></li>
-<li data-n="1"><a href="rider/mikel-retegi/statistics/world-map-of-rider-races">World map of rider races</a></li>
-<li data-n="1"><a href="rider/mikel-retegi/statistics/wins">Wins</a></li>
-<li data-n="1"><a href="rider/mikel-retegi/statistics/most-starts-by-race">Most starts by race</a></li>
-<li data-n="1"><a href="rider/mikel-retegi/statistics/grand-tour-starts">Starts and results</a></li>
-<li data-n="1"><a href="rider/mikel-retegi/statistics/injury-history">Injury history</a></li>
-<li data-n="3"><a href="rider/mikel-retegi/results/results">Results - Results</a></li><li data-n="4"><a href="rider/mikel-retegi/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/mikel-retegi/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/mikel-retegi/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/mikel-retegi/contribute/contribute-info">Contribute info</a></li>
-<li data-n="5"><a href="rider/mikel-retegi/contribute/submit-program">Submit program</a></li>
-<li data-n="5"><a href="rider/mikel-retegi/contribute/report">Report</a></li>
-<li data-n="5"><a href="rider/mikel-retegi/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
-<li data-n="5"><a href="rider/mikel-retegi/contribute/contribute-family">Family</a></li>
-<li data-n="5"><a href="rider/mikel-retegi/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="7"><a href="rider/mikel-retegi/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/mikel-retegi/specialties/top-gc-results">Top GC results</a></li>
-<li data-n="6"><a href="rider/mikel-retegi/specialties/fastest-tt">Fastest TT</a></li>
+<li class="more"><a href="rider/mikel-retegi">More</a><ul><li data-n="1"><a href="rider/mikel-retegi/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/mikel-retegi/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/mikel-retegi/statistics/overview">Overview dd</a></li>
+<li data-n="1"><a href="rider/mikel-retegi/statistics/season-statistics">Statistics by season dd</a></li>
+<li data-n="1"><a href="rider/mikel-retegi/statistics/key-events">Key events dd</a></li>
+<li data-n="1"><a href="rider/mikel-retegi/statistics/world-map-of-rider-races">World map of rider races dd</a></li>
+<li data-n="1"><a href="rider/mikel-retegi/statistics/wins">Wins dd</a></li>
+<li data-n="1"><a href="rider/mikel-retegi/statistics/most-starts-by-race">Most starts by race dd</a></li>
+<li data-n="1"><a href="rider/mikel-retegi/statistics/grand-tour-starts">Starts and results dd</a></li>
+<li data-n="1"><a href="rider/mikel-retegi/statistics/injury-history">Injury history dd</a></li>
+<li data-n="3"><a href="rider/mikel-retegi/results/results">Results - Results</a></li><li data-n="4"><a href="rider/mikel-retegi/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/mikel-retegi/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/mikel-retegi/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/mikel-retegi/contribute/contribute-info">Contribute info dd</a></li>
+<li data-n="5"><a href="rider/mikel-retegi/contribute/submit-program">Submit program dd</a></li>
+<li data-n="5"><a href="rider/mikel-retegi/contribute/report">Report dd</a></li>
+<li data-n="5"><a href="rider/mikel-retegi/contribute/contribute-social-feeds">Contribute sites / social media dd</a></li>
+<li data-n="5"><a href="rider/mikel-retegi/contribute/contribute-family">Family dd</a></li>
+<li data-n="5"><a href="rider/mikel-retegi/contribute/embed-rider-results">Embed rider results dd</a></li>
+<li data-n="7"><a href="rider/mikel-retegi/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/mikel-retegi/specialties/top-gc-results">Top GC results dd</a></li>
+<li data-n="6"><a href="rider/mikel-retegi/specialties/fastest-tt">Fastest TT dd</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag es w32"></span><span class="flag es w24"></span><h1 class="">Mikel  Retegi</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Equipo Kern Pharma</span></div><div class="sub"><span class="red showIfMobile">Equipo Kern Pharma</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="race/tour-of-oman/2024/stage-5/live">LiveStats Tour of Oman</a></li>
-<li><a   class="" href="rider-in-race/mikel-retegi/tour-of-oman">Rider statistics in Tour of Oman</a></li>
-</ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/mikel-retegi/statistics/overview"><img alt="Profile photo of Mikel  Retegi" src="images/riders/bp/ba/mikel-retegi-2024.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 27<sup>th</sup> April 2001 (22)<br /><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br /><span><b>Weight:</b> 64 kg &nbsp; <span><b>Height:</b> 1.77 m<br /><b>Place of birth:</b> <a href="location/baranain">Barañain</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/mikel-retegi/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/mikel-retegi/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/mikel-retegi/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/mikel-retegi/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/mikel-retegi/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/mikel_retegi/">instagram</a></li>
-<li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/mikel_retegi">twitter</a></li>
-<li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://es-es.facebook.com/people/Mikel-Retegi/100009886456028/">facebook</a></li>
-<li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/pros/10416132">strava</a></li>
-</ul></div>
+<ul class="list horizontal fs14 circle bluelink"></ul><div class="clear"></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/mikel-retegi/statistics/overview"><img alt="Profile photo of Mikel  Retegi" src="images/riders/bp/ba/mikel-retegi-2024.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 27<sup>th</sup> April 2001 (23)<br /><b>Nationality:</b> <span class="flag  es"></span><a class="black" href="nation/spain">Spain</a><br /><span><b>Weight:</b> 64 kg &nbsp; <span><b>Height:</b> 1.77 m<br /><b>Place of birth:</b> <a href="location/baranain">Barañain</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/mikel-retegi/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 26.470588235294%; height: 100%;  "></div></div><div class="pnt">9</div><div class="title"><a href="rider/mikel-retegi/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/mikel-retegi/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/mikel-retegi/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 58.823529411765%; height: 100%;  "></div></div><div class="pnt">20</div><div class="title"><a href="rider/mikel-retegi/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 100%; height: 100%;  "></div></div><div class="pnt">34</div><div class="title"><a href="rider/mikel-retegi/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://www.instagram.com/mikel_retegi/"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://twitter.com/mikel_retegi"><span class="iconv3 x-logo14"></span>x</a></li><li><a target="_blank" href="https://es-es.facebook.com/people/Mikel-Retegi/100009886456028/"><span class="iconv3 facebook14"></span>fb</a></li><li><a target="_blank" href="https://www.strava.com/pros/10416132"><span class="iconv3 strava14"></span>strava</a></li></ul><div class="clear" style="height: 5px;"></div><div class="clear" ></div><div class=""></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "></ul></span></div>
-<div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;169</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class=" title"  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  >2176</div><div class="clear"></div></li>
+<li class="" ><div class=" title"  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  >1136</div><div class="clear"></div></li>
 </ul></span></div>
-</div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">9th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-spain-u23/2022/result">National Championships Spain MU - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
+<div class="">
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class=" bold"  >Visits:</div><div ><span class="delta-down">&#x25BC;61</span></div><div >  this week</div><div class="clear"></div></li>
+</ul></span></div>
+</div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/itzulia-basque-country/2024/stage-4">Itzulia Basque Country</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">7th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-taiwan/2024/stage-2">Tour de Taiwan</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">9th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-spain-u23/2022/result">National Championships Spain MU - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">12th&nbsp;</div><div><span class="blue">KOM</span> <a href="race/arctic-race-of-norway/2024/kom">Arctic Race of Norway</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">22nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/arctic-race-of-norway/2024/gc">Arctic Race of Norway</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">19th&nbsp;</div><div><span class="blue">stage</span> <a href="race/arctic-race-of-norway/2024/stage-4">Arctic Race of Norway</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">20th&nbsp;</div><div><span class="blue">stage</span> <a href="race/volta-a-portugal/2023/stage-2">Volta a Portugal</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">21st&nbsp;</div><div><span class="blue">stage</span> <a href="race/orlen-nations-grand-prix/2023/stage-3">Orlen Nations Grand Prix</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">24th&nbsp;</div><div><span class="blue">KOM</span> <a href="race/course-de-la-paix-u23/2022/stage-3-kom">Course de la Paix Grand Prix Jeseníky</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">21st&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-taiwan/2024/stage-4">Tour de Taiwan</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">22nd&nbsp;</div><div><span class="blue"></span> <a href="race/giro-di-toscana/2024/result">Giro della Toscana</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">24th&nbsp;</div><div><span class="blue">KOM</span> <a href="race/course-de-la-paix-u23/2022/stage-3-kom">Course de la Paix</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">25th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-oman/2024/stage-3">Tour of Oman</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">26th&nbsp;</div><div><span class="blue">KOM</span> <a href="race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2021/stage-3-kom">Giro Ciclistico della Valle d'Aosta - Mont Blanc</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">31st&nbsp;</div><div><span class="blue"></span> <a href="race/trofeo-palma/2023/result">Trofeo Playa de Palma - Palma</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">31st&nbsp;</div><div><span class="blue">stage</span> <a href="race/czech-tour/2023/stage-1">Czech Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">32nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/ronde-de-l-isard/2020/stage-3">Ronde de l'Isard</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">34th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-oman/2024/stage-1">Tour of Oman</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">37th&nbsp;</div><div><span class="blue">stage</span> <a href="race/ronde-de-l-isard/2020/stage-2a">Ronde de l'Isard</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">40th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-spain-u23/2020/result">National Championships Spain MU - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('20)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/equipo-kern-pharma-2024">Equipo Kern Pharma</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/equipo-kern-pharma-2023">Equipo Kern Pharma</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/equipo-kern-pharma-2022">Equipo Kern Pharma</a></div><div > (PRT)</div><div class="fs10   "  > trainee as from 01/08</div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/lizarte-2022">Lizarte</a></div><div > (CLUB)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2021</div><div class="name   "  ><a    href="team/lizarte-2021">Lizarte</a></div><div > (CLUB)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2020</div><div class="name   "  ><a    href="team/lizarte-2020">Lizarte</a></div><div > (CLUB)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class=" season"  >2024</div><div class=" name"  ><a    href="team/equipo-kern-pharma-2024">Equipo Kern Pharma</a></div><div > (PRT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2023</div><div class=" name"  ><a    href="team/equipo-kern-pharma-2023">Equipo Kern Pharma</a></div><div > (PRT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2022</div><div class=" name"  ><a    href="team/equipo-kern-pharma-2022">Equipo Kern Pharma</a></div><div > (PRT)</div><div class=" fs10"  > trainee as from 01/08</div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2022</div><div class=" name"  ><a    href="team/lizarte-2022">Lizarte</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2021</div><div class=" name"  ><a    href="team/lizarte-2021">Lizarte</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2020</div><div class=" name"  ><a    href="team/lizarte-2020">Lizarte</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
 <span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
-<div class=""><div class="">No races on program.</div></div>
-<div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
-</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li class="more hide "><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>10.02 &raquo; 14.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-5-youth">Tour of Oman <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td></td><td>26</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-5-youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td></td><td>55</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>14.02</td><td>56</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-5">Stage 5 - Samail ''Al Fayhaa Reshouse'' &rsaquo; Jabal Al Akhdhar (Green Mountain)</a> </td><td class="cu600">72</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>13.02</td><td>76</td><td class="gc cu600">54</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-4">Stage 4 - Fanja &rsaquo; Yitti Hills</a> </td><td class="cu600">104</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>12.02</td><td>25</td><td class="gc cu600">46</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-3">Stage 3 - Naseem Park &rsaquo; Al Bustan</a> </td><td class="cu600">76</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>11.02</td><td>49</td><td class="gc cu600">49</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-2">Stage 2 - Al Sifah &rsaquo; Qurayyat</a> </td><td class="cu600">170.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>10.02</td><td>34</td><td class="gc cu600">35</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-1">Stage 1 - Oman Across Ages Museum &rsaquo; Oman Convention and Exhibition Centre (OCEC)</a> </td><td class="cu600">181.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
-<tr data-main="1"><td>09.02</td><td>41</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/muscat-classic/2024/result">Muscat Classic <span>(1.1)</span></a> </td><td class="cu600">174.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/muscat-classic">more</a></td></tr>
-<tr data-main="1"><td>31.01 &raquo; 04.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-5-youth">Etoile de Bessèges - Tour du Gard <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td></td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-5-youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td></td><td>106</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td>04.02</td><td>77</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-5">Stage 5 (ITT) - Alès &rsaquo; Alès</a> </td><td class="cu600">10.645</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td>03.02</td><td>75</td><td class="gc cu600">109</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-4">Stage 4 - Méjannes-le-Clap &rsaquo; Méjannes-le-Clap</a> </td><td class="cu600">158.48</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td>02.02</td><td>126</td><td class="gc cu600">122</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-3">Stage 3 - Bessèges &rsaquo; Bessèges</a> </td><td class="cu600">161.11</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
-<tr data-main="0"><td>01.02</td><td>111</td><td class="gc cu600">111</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/etoile-de-besseges/2024/stage-2">Stage 2 - Marguerittes &rsaquo; Rousson</a> </td><td class="cu600">163.58</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
-<tr data-main="1"><td>28.01</td><td>59</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="race/gp-d-ouverture/2024/result">Grand Prix Cycliste de Marseille La Marseillaise <span>(1.1)</span></a> </td><td class="cu600">167.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/gp-d-ouverture">more</a></td></tr>
-<tr data-main="1"><td>20.01</td><td>56</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/gp-de-valence/2024/result">Clàssica Comunitat Valenciana 1969 - Gran Premi València <span>(1.1)</span></a> </td><td class="cu600">200</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/gp-de-valence">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>1640</b> km in <b>12</b> days | PCS points: <b>0</b> |  UCI points: <b>0</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
-<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/mikel-retegi/statistics/wins">Wins</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/mikel-retegi/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >0</div><div class="title   "  ><a    href="rider/mikel-retegi/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
+<div class=""><div class="text-regular">No races on program.</div></div>
+<div class=""><div class="text-regular"><div class="mob-ad rider-after-program"></div></div></div>
+</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li class="more hide "><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li></ul></li></ul><div class="resultsSortFilter sortByResults">Sort by: <a class="" data-case="date" href="">Date</a><a class="" data-case="rnk" href="">Result</a><a class="" data-case="pnt" href="">Points</a></div><div class="resultsSortFilter filterByResults">Filter by: <a class="cur" data-case="all" href="">All</a><a class="" data-case="climber" href="">Climber</a><a class="" data-case="hills" href="">Hills</a><a class="" data-case="sprints" href="">Sprints</a><a class="" data-case="tt" href="">TT</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>15.09</td><td>26</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/trofeo-matteotti/2024/result">Trofeo Matteotti <span>(1.1)</span></a> </td><td class="cu600">194</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/trofeo-matteotti">more</a></td></tr>
+<tr data-main="1"><td>12.09</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/gp-citta-di-peccioli/2024/result">Gran Premio città di Peccioli - Coppa Sabatini <span>(1.Pro)</span></a> </td><td class="cu600">197.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/gp-citta-di-peccioli">more</a></td></tr>
+<tr data-main="1"><td>11.09</td><td>22</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/giro-di-toscana/2024/result">Giro della Toscana - Memorial Alfredo Martini <span>(1.1)</span></a> </td><td class="cu600">182.7</td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/giro-di-toscana">more</a></td></tr>
+<tr data-main="1"><td>04.08 &raquo; 07.08</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag no"></span><a href="https://www.procyclingstats.com/race/arctic-race-of-norway/2024/youth">Arctic Race of Norway <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/arctic-race-of-norway">more</a></td></tr>
+<tr data-main="0"><td></td><td>10</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag no"></span><a href="https://www.procyclingstats.com/race/arctic-race-of-norway/2024/youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/arctic-race-of-norway">more</a></td></tr>
+<tr data-main="0"><td></td><td>12</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st7"  ></span></td><td class="name"><span class="flag no"></span><a href="https://www.procyclingstats.com/race/arctic-race-of-norway/2024/kom">Mountains classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/arctic-race-of-norway">more</a></td></tr>
+<tr data-main="0"><td></td><td>25</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag no"></span><a href="https://www.procyclingstats.com/race/arctic-race-of-norway/2024/points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/arctic-race-of-norway">more</a></td></tr>
+<tr data-main="0"><td></td><td>22</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag no"></span><a href="https://www.procyclingstats.com/race/arctic-race-of-norway/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">4</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/arctic-race-of-norway">more</a></td></tr>
+<tr data-main="0"><td>07.08</td><td>19</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag no"></span><a href="https://www.procyclingstats.com/race/arctic-race-of-norway/2024/stage-4">Stage 4 - Glomfjord (Meløy) &rsaquo; Bodø</a> </td><td class="cu600">157.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/arctic-race-of-norway">more</a></td></tr>
+<tr data-main="0"><td>06.08</td><td>37</td><td class="gc cu600">33</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag no"></span><a href="https://www.procyclingstats.com/race/arctic-race-of-norway/2024/stage-3">Stage 3 - Tverlandet &rsaquo; Sulitjelma (Jakobsbakken)</a> </td><td class="cu600">155.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/arctic-race-of-norway">more</a></td></tr>
+<tr data-main="0"><td>05.08</td><td>48</td><td class="gc cu600">6</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag no"></span><a href="https://www.procyclingstats.com/race/arctic-race-of-norway/2024/stage-2">Stage 2 - Beiarn &rsaquo; Fauske</a> </td><td class="cu600">178.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/arctic-race-of-norway">more</a></td></tr>
+<tr data-main="0"><td>04.08</td><td>67</td><td class="gc cu600">5</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag no"></span><a href="https://www.procyclingstats.com/race/arctic-race-of-norway/2024/stage-1">Stage 1 - Bodø &rsaquo; Rognan</a> <span title="87 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 0px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>87k</span></td><td class="cu600">155.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/arctic-race-of-norway">more</a></td></tr>
+<tr data-main="1"><td>23.07</td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-castilla-y-leon/2024/result">Vuelta a Castilla y Leon <span>(1.1)</span></a> </td><td class="cu600">199.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/vuelta-a-castilla-y-leon">more</a></td></tr>
+<tr data-main="1"><td>14.07</td><td>31</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/giro-del-appennino/2024/result">Giro dell'Appennino <span>(1.1)</span></a> </td><td class="cu600">198.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/giro-del-appennino">more</a></td></tr>
+<tr data-main="1"><td>23.06</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/nc-spain/2024/result">National Championships Spain ME - Road Race <span>(NC)</span></a> </td><td class="cu600">201.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/nc-spain">more</a></td></tr>
+<tr data-main="1"><td>12.05</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/boucles-de-l-aulne/2024/result">Boucles de l'Aulne - Châteaulin <span>(1.1)</span></a> </td><td class="cu600">181.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/boucles-de-l-aulne">more</a></td></tr>
+<tr data-main="1"><td>11.05</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tour-du-finistere/2024/result">Tour du Finistère <span>(1.1)</span></a> </td><td class="cu600">199.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-du-finistere">more</a></td></tr>
+<tr data-main="1"><td>05.05</td><td>64</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/tro-bro-leon/2024/result">Tro-Bro Léon <span>(1.Pro)</span></a> </td><td class="cu600">203.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tro-bro-leon">more</a></td></tr>
+<tr data-main="1"><td>04.05</td><td>32</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/gp-de-plumelec/2024/result">Grand Prix du Morbihan <span>(1.Pro)</span></a> </td><td class="cu600">196.4</td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/gp-de-plumelec">more</a></td></tr>
+<tr data-main="1"><td>21.04</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/liege-bastogne-liege/2024/result">Liège-Bastogne-Liège <span>(1.UWT)</span></a> </td><td class="cu600">254.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/liege-bastogne-liege">more</a></td></tr>
+<tr data-main="1"><td>01.04 &raquo; 06.04</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-6-points">Itzulia Basque Country <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td></td><td>32</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-6-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td></td><td>104</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>06.04</td><td>107</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-6">Stage 6 - Eibar &rsaquo; Eibar</a> </td><td class="cu600">137.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>05.04</td><td>138</td><td class="gc cu600">126</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-5">Stage 5 - Vitoria-Gasteiz &rsaquo; Amorebieta-Etxano</a> </td><td class="cu600">175.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>04.04</td><td>4</td><td class="gc cu600">98</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-4">Stage 4 - Etxarri Aranatz &rsaquo; Legutio</a> <span title="136 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 0px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>136k</span></td><td class="cu600">157.5</td><td class="cu600">13</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>03.04</td><td>41</td><td class="gc cu600">107</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-3">Stage 3 - Ezpeleta &rsaquo; Altsasu</a> </td><td class="cu600">190.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>02.04</td><td>98</td><td class="gc cu600">117</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-2">Stage 2 - Irun &rsaquo; Kanbo</a> </td><td class="cu600">160</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>01.04</td><td>158</td><td class="gc cu600">157</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-1">Stage 1 (ITT) - Irun &rsaquo; Irun</a> </td><td class="cu600">10</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/itzulia-basque-country">more</a></td></tr>
+<tr data-main="1"><td>29.03</td><td>90</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/route-adelie-de-vitre/2024/result">La Route Adélie de Vitré <span>(1.1)</span></a> </td><td class="cu600">174.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/route-adelie-de-vitre">more</a></td></tr>
+<tr data-main="1"><td>27.03</td><td>36</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-camembert/2024/result">Paris - Camembert <span>(1.1)</span></a> </td><td class="cu600">190.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/paris-camembert">more</a></td></tr>
+<tr data-main="1"><td>24.03</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/la-roue-tourangelle/2024/result">La Roue Tourangelle Centre Val de Loire - Trophée Groupama Paris Val de Loire <span>(1.1)</span></a> </td><td class="cu600">200</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/la-roue-tourangelle">more</a></td></tr>
+<tr data-main="1"><td>10.03 &raquo; 14.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tw"></span><a href="https://www.procyclingstats.com/race/tour-de-taiwan/2024/stage-5-points">Tour de Taiwan <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-de-taiwan">more</a></td></tr>
+<tr data-main="0"><td></td><td>44</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag tw"></span><a href="https://www.procyclingstats.com/race/tour-de-taiwan/2024/stage-5-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-de-taiwan">more</a></td></tr>
+<tr data-main="0"><td></td><td>26</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag tw"></span><a href="https://www.procyclingstats.com/race/tour-de-taiwan/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-de-taiwan">more</a></td></tr>
+<tr data-main="0"><td>14.03</td><td>74</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tw"></span><a href="https://www.procyclingstats.com/race/tour-de-taiwan/2024/stage-5">Stage 5 - Kaohsiung City &rsaquo; Kaohsiung City</a> </td><td class="cu600">146.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-de-taiwan">more</a></td></tr>
+<tr data-main="0"><td>13.03</td><td>21</td><td class="gc cu600">23</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tw"></span><a href="https://www.procyclingstats.com/race/tour-de-taiwan/2024/stage-4">Stage 4 - Nantou City &rsaquo; Yuchi (Sun Moon Lake)</a> </td><td class="cu600">167.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-de-taiwan">more</a></td></tr>
+<tr data-main="0"><td>12.03</td><td>35</td><td class="gc cu600">13</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tw"></span><a href="https://www.procyclingstats.com/race/tour-de-taiwan/2024/stage-3">Stage 3 - Xinpu &rsaquo; Shigang</a> </td><td class="cu600">154.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-de-taiwan">more</a></td></tr>
+<tr data-main="0"><td>11.03</td><td>7</td><td class="gc cu600">10</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tw"></span><a href="https://www.procyclingstats.com/race/tour-de-taiwan/2024/stage-2">Stage 2 - Taoyuan &rsaquo; Jiaobanshan park</a> </td><td class="cu600">115.5</td><td class="cu600">2</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-de-taiwan">more</a></td></tr>
+<tr data-main="0"><td>10.03</td><td>35</td><td class="gc cu600">39</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag tw"></span><a href="https://www.procyclingstats.com/race/tour-de-taiwan/2024/stage-1">Stage 1 - Taipei &rsaquo; Taipei</a> </td><td class="cu600">83.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-de-taiwan">more</a></td></tr>
+<tr data-main="1"><td>10.02 &raquo; 14.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-5-youth">Tour of Oman <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td></td><td>26</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-5-youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td></td><td>55</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>14.02</td><td>56</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-5">Stage 5 - Samail ''Al Fayhaa Reshouse'' &rsaquo; Jabal Al Akhdhar (Green Mountain)</a> </td><td class="cu600">72</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>13.02</td><td>76</td><td class="gc cu600">54</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-4">Stage 4 - Fanja &rsaquo; Yitti Hills</a> </td><td class="cu600">104</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>12.02</td><td>25</td><td class="gc cu600">46</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-3">Stage 3 - Naseem Park &rsaquo; Al Bustan</a> </td><td class="cu600">76</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>11.02</td><td>49</td><td class="gc cu600">49</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-2">Stage 2 - Al Sifah &rsaquo; Qurayyat</a> </td><td class="cu600">170.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>10.02</td><td>34</td><td class="gc cu600">35</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-1">Stage 1 - Oman Across Ages Museum &rsaquo; Oman Convention and Exhibition Centre (OCEC)</a> </td><td class="cu600">181.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/tour-of-oman">more</a></td></tr>
+<tr data-main="1"><td>09.02</td><td>41</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/muscat-classic/2024/result">Muscat Classic <span>(1.1)</span></a> </td><td class="cu600">174.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/muscat-classic">more</a></td></tr>
+<tr data-main="1"><td>31.01 &raquo; 04.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-5-youth">Etoile de Bessèges - Tour du Gard <span>(2.1)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td></td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-5-youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td></td><td>106</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td>04.02</td><td>77</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-5">Stage 5 (ITT) - Alès &rsaquo; Alès</a> </td><td class="cu600">10.645</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td>03.02</td><td>75</td><td class="gc cu600">109</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-4">Stage 4 - Méjannes-le-Clap &rsaquo; Méjannes-le-Clap</a> </td><td class="cu600">158.48</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td>02.02</td><td>126</td><td class="gc cu600">122</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-3">Stage 3 - Bessèges &rsaquo; Bessèges</a> </td><td class="cu600">161.11</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
+<tr data-main="0"><td>01.02</td><td>111</td><td class="gc cu600">111</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/etoile-de-besseges/2024/stage-2">Stage 2 - Marguerittes &rsaquo; Rousson</a> </td><td class="cu600">163.58</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/etoile-de-besseges">more</a></td></tr>
+<tr data-main="1"><td>28.01</td><td>59</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/gp-d-ouverture/2024/result">Grand Prix Cycliste de Marseille La Marseillaise <span>(1.1)</span></a> </td><td class="cu600">167.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/gp-d-ouverture">more</a></td></tr>
+<tr data-main="1"><td>20.01</td><td>56</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/gp-de-valence/2024/result">Clàssica Comunitat Valenciana 1969 - Gran Premi València <span>(1.1)</span></a> </td><td class="cu600">200</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/mikel-retegi/gp-de-valence">more</a></td></tr>
+</tbody></table><div class="rdrResultsSum" ><div>5941</b> km in <b>41</b> days | PCS points: <b>24</b> |  UCI points: <b>11</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class=" nr"  >0</div><div class=" title"  ><a    href="rider/mikel-retegi/statistics/wins">Wins</a></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >0</div><div class=" title"  ><a    href="rider/mikel-retegi/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >1</div><div class=" title"  ><a    href="rider/mikel-retegi/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  >RBX(0)</div><div class=" info fs11"  >MSR(0)</div><div class=" info fs11"  >RVV(0)</div><div class=" info fs11"  >LBL(1)</div><div class=" info fs11"  >LOM(0)</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
+<tr ><td class="season  "  style="height: 1px; ">2024</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">24</div></div></div></td><td class="ac  "  style="height: 1px; ">1074</td></tr>
 </tbody></table></span></div>
+<div class=""></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
   var id = 260680; 
@@ -222,6 +257,7 @@ $(document).ready(function(){
   var cxid = 0; 
   var seo = 'mikel-retegi';
   var sort = 'date'; 
+  var filter = 'all'; 
   var pid = '1238'; 
   var discipline = 'road'; 
   var subpath = '';   
@@ -240,7 +276,7 @@ $(document).ready(function(){
     $(this).parents('ul').find('li').removeClass('cur');
     $(this).parent('li').addClass('cur'); 
     //console.log(subpath);
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season') }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season'), filter: filter }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
   });   
 
   $(document).on('click', '.seasonResults', function(e){
@@ -254,7 +290,7 @@ $(document).ready(function(){
     $(".rdrSeasonNav li").removeClass('cur');
     $(".rdrSeasonNav li[data-season="+season+"]").addClass('cur'); 
 
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline  }  }).done(function( response ) {   
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {   
     	//console.log(response);
       $('#resultsCont').html(response);      
     })
@@ -270,8 +306,27 @@ $(document).ready(function(){
     sort = $(this).attr('data-case');
    // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
    
-    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+  });
+
+
+  $(".filterByResults a").click(function(e){
+    e.preventDefault();        
+    var season = $(".rdrSeasonNav li.cur").attr('data-season');
+
+    
+    $("#resultsCont").html('<br /><div class=\"loading\"> loading results ..</div>');
+    $(".filterByResults a").removeClass('cur');
+    $(this).addClass('cur');
+    filter = $(this).attr('data-case');
+   // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
+   
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+
   }); 
+
+
+  
 
 });
 </script>
@@ -306,7 +361,7 @@ $(document).ready(function(){
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
 <li><a href="race/e3-harelbeke">E3 Classic</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
-<li><a href="race/dwars-door-vlaanderen">Dwars door vlaanderen</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
 <li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
@@ -318,7 +373,7 @@ $(document).ready(function(){
 <li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
 <li><a href="rider/wout-van-aert">Wout van Aert</a></li>
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
-<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
 <li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
 <li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
@@ -341,25 +396,21 @@ $(document).ready(function(){
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
-<li><a href="info/procyclinggame">ProCyclingGame</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
 </ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0505s</span></li>
+<li><span>Pageload 0.0659s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list9.js"></script>  
-
+<script src="search_list13.js"></script>  
 		<script>
-
 		var riderid = 260680;		$(document).ready(function() { 	RVC(riderid);  	  });
-
 		</script>
-
 		

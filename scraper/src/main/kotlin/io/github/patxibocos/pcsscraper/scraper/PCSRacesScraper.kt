@@ -298,7 +298,7 @@ class PCSRacesScraper(
         return pcsParticipantResults.take(10).mapNotNull {
             val position = it.position.toInt()
             val team = teamIdMapper(it.participant.split("/").last()) ?: return@mapNotNull null
-            val (minutes, seconds) = it.result.split(":").map(String::toInt)
+            val (minutes, seconds) = it.result.split(":", ".").map(String::toInt)
             val time = (minutes.minutes + seconds.seconds).inWholeSeconds
             Race.ParticipantResultTime(position, team, time)
         }

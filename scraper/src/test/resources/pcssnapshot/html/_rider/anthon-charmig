@@ -27,9 +27,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a202.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b168.css" />
-<script src="https://www.procyclingstats.com/pcs_s82.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a249.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b195.css" />
+<script src="https://www.procyclingstats.com/pcs_s88.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -41,22 +41,21 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>
-  
-    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
+    	<a  class="logo" href="index.php"></a>  
+    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />     
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
-      	<a class="mobMenu" href="">Menu&#x25BC;</a>
+      	<a class="mobMenu" href="">&#9776; Menu</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
 <li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -66,15 +65,17 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
-<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
-<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
-<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/cofidis-2024">Cofidis</a></li>
-<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
-<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
-<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
+<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
+<li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
+<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2024">Cofidis</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
 <li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
 <li><a href="team/movistar-team-2024">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
@@ -82,8 +83,6 @@
 <li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
 <li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
 <li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
-<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
-<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -94,22 +93,21 @@
 <li class=" "><a class="reg" href="game.php">Game</a></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
-<li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/about-us">About us</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
-<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
-<li><a href="">Lists</a></li>
-</ul></li>
+<li class=" user"><a class="reg" href="login.php">Login</a></li>
  
 				 </ul> 
-			 </div>
-			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
+			 </div>			 
+			 <a class="topUser  " href="login.php"></a><div class="selectLanguage selectPlatform"><a href="">road</a><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/anthon-charmig">Overview</a></li>
+<div class="content"> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/anthon-charmig">Overview</a></li>
 <li class="reg "><a class="" href="rider/anthon-charmig/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/anthon-charmig/statistics/overview">Overview</a></li>
 <li><a href="rider/anthon-charmig/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/anthon-charmig/statistics/key-events">Key events</a></li>
@@ -132,39 +130,31 @@
 <li class="reg "><a class="" href="rider/anthon-charmig/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/anthon-charmig/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/anthon-charmig/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/anthon-charmig">More</a><ul><li data-n="1"><a href="rider/anthon-charmig/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/anthon-charmig/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/anthon-charmig/statistics/overview">Overview</a></li>
-<li data-n="1"><a href="rider/anthon-charmig/statistics/season-statistics">Statistics by season</a></li>
-<li data-n="1"><a href="rider/anthon-charmig/statistics/key-events">Key events</a></li>
-<li data-n="1"><a href="rider/anthon-charmig/statistics/world-map-of-rider-races">World map of rider races</a></li>
-<li data-n="1"><a href="rider/anthon-charmig/statistics/wins">Wins</a></li>
-<li data-n="1"><a href="rider/anthon-charmig/statistics/most-starts-by-race">Most starts by race</a></li>
-<li data-n="1"><a href="rider/anthon-charmig/statistics/grand-tour-starts">Starts and results</a></li>
-<li data-n="1"><a href="rider/anthon-charmig/statistics/injury-history">Injury history</a></li>
-<li data-n="3"><a href="rider/anthon-charmig/results/results">Results - Results</a></li><li data-n="4"><a href="rider/anthon-charmig/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/anthon-charmig/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/anthon-charmig/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/anthon-charmig/contribute/contribute-info">Contribute info</a></li>
-<li data-n="5"><a href="rider/anthon-charmig/contribute/submit-program">Submit program</a></li>
-<li data-n="5"><a href="rider/anthon-charmig/contribute/report">Report</a></li>
-<li data-n="5"><a href="rider/anthon-charmig/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
-<li data-n="5"><a href="rider/anthon-charmig/contribute/contribute-family">Family</a></li>
-<li data-n="5"><a href="rider/anthon-charmig/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="7"><a href="rider/anthon-charmig/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/anthon-charmig/specialties/top-gc-results">Top GC results</a></li>
-<li data-n="6"><a href="rider/anthon-charmig/specialties/fastest-tt">Fastest TT</a></li>
+<li class="more"><a href="rider/anthon-charmig">More</a><ul><li data-n="1"><a href="rider/anthon-charmig/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/anthon-charmig/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/anthon-charmig/statistics/overview">Overview dd</a></li>
+<li data-n="1"><a href="rider/anthon-charmig/statistics/season-statistics">Statistics by season dd</a></li>
+<li data-n="1"><a href="rider/anthon-charmig/statistics/key-events">Key events dd</a></li>
+<li data-n="1"><a href="rider/anthon-charmig/statistics/world-map-of-rider-races">World map of rider races dd</a></li>
+<li data-n="1"><a href="rider/anthon-charmig/statistics/wins">Wins dd</a></li>
+<li data-n="1"><a href="rider/anthon-charmig/statistics/most-starts-by-race">Most starts by race dd</a></li>
+<li data-n="1"><a href="rider/anthon-charmig/statistics/grand-tour-starts">Starts and results dd</a></li>
+<li data-n="1"><a href="rider/anthon-charmig/statistics/injury-history">Injury history dd</a></li>
+<li data-n="3"><a href="rider/anthon-charmig/results/results">Results - Results</a></li><li data-n="4"><a href="rider/anthon-charmig/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/anthon-charmig/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/anthon-charmig/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/anthon-charmig/contribute/contribute-info">Contribute info dd</a></li>
+<li data-n="5"><a href="rider/anthon-charmig/contribute/submit-program">Submit program dd</a></li>
+<li data-n="5"><a href="rider/anthon-charmig/contribute/report">Report dd</a></li>
+<li data-n="5"><a href="rider/anthon-charmig/contribute/contribute-social-feeds">Contribute sites / social media dd</a></li>
+<li data-n="5"><a href="rider/anthon-charmig/contribute/contribute-family">Family dd</a></li>
+<li data-n="5"><a href="rider/anthon-charmig/contribute/embed-rider-results">Embed rider results dd</a></li>
+<li data-n="7"><a href="rider/anthon-charmig/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/anthon-charmig/specialties/top-gc-results">Top GC results dd</a></li>
+<li data-n="6"><a href="rider/anthon-charmig/specialties/fastest-tt">Fastest TT dd</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag dk w32"></span><span class="flag dk w24"></span><h1 class="">Anthon  Charmig</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Astana Qazaqstan Team</span></div><div class="sub"><span class="red showIfMobile">Astana Qazaqstan Team</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"><li><a   class="" href="race/tour-of-oman/2024/stage-5/live">LiveStats Tour of Oman</a></li>
-<li><a   class="" href="rider-in-race/anthon-charmig/tour-of-oman">Rider statistics in Tour of Oman</a></li>
-</ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/anthon-charmig/statistics/overview"><img alt="Profile photo of Anthon  Charmig" src="images/riders/bp/af/anthon-charmig-2024.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 25<sup>th</sup> March 1998 (25)<br /><b>Nationality:</b> <span class="flag  dk"></span><a class="black" href="nation/denmark">Denmark</a><br /><span><b>Weight:</b> 66 kg &nbsp; <span><b>Height:</b> 1.82 m<br /><b>Place of birth:</b> <a href="location/aarhus">Aarhus</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 14.80686695279%; height: 100%;  "></div></div><div class="pnt">69</div><div class="title"><a href="rider/anthon-charmig/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">466</div><div class="title"><a href="rider/anthon-charmig/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 9.2274678111588%; height: 100%;  "></div></div><div class="pnt">43</div><div class="title"><a href="rider/anthon-charmig/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 1.7167381974249%; height: 100%;  "></div></div><div class="pnt">8</div><div class="title"><a href="rider/anthon-charmig/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 74.892703862661%; height: 100%;  "></div></div><div class="pnt">349</div><div class="title"><a href="rider/anthon-charmig/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/4027056">strava</a></li>
-<li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/anthoncharmig/?hl=fr">instagram</a></li>
-<li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/acharmig">facebook</a></li>
-<li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/AnthonCharmig">twitter</a></li>
-<li><span class="icon Cyclo-cross left"></span><a  target="_self"   class="" href="https://cx.procyclingstats.com/rider/anthon-charmig">Cyclo-cross</a></li>
-</ul></div>
+<ul class="list horizontal fs14 circle bluelink"></ul><div class="clear"></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/anthon-charmig/statistics/overview"><img alt="Profile photo of Anthon  Charmig" src="images/riders/bp/af/anthon-charmig-2024.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 25<sup>th</sup> March 1998 (26)<br /><b>Nationality:</b> <span class="flag  dk"></span><a class="black" href="nation/denmark">Denmark</a><br /><span><b>Weight:</b> 66 kg &nbsp; <span><b>Height:</b> 1.82 m<br /><b>Place of birth:</b> <a href="location/aarhus">Aarhus</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 18.895966029724%; height: 100%;  "></div></div><div class="pnt">89</div><div class="title"><a href="rider/anthon-charmig/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">471</div><div class="title"><a href="rider/anthon-charmig/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 9.1295116772824%; height: 100%;  "></div></div><div class="pnt">43</div><div class="title"><a href="rider/anthon-charmig/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 1.6985138004246%; height: 100%;  "></div></div><div class="pnt">8</div><div class="title"><a href="rider/anthon-charmig/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 35.456475583864%; height: 100%;  "></div></div><div class="pnt">167</div><div class="title"><a href="rider/anthon-charmig/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 52.866242038217%; height: 100%;  "></div></div><div class="pnt">249</div><div class="title"><a href="rider/anthon-charmig/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://www.strava.com/athletes/4027056"><span class="iconv3 strava14"></span>strava</a></li><li><a target="_blank" href="https://www.instagram.com/anthoncharmig/?hl=fr"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://www.facebook.com/acharmig"><span class="iconv3 facebook14"></span>fb</a></li><li><a target="_blank" href="https://twitter.com/AnthonCharmig"><span class="iconv3 x-logo14"></span>x</a></li></ul><div class="clear" style="height: 5px;"></div><a class="riderPlatform" title="Go to cyclocross profile of rider" href="https://cx.procyclingstats.com/rider/anthon-charmig">Cross profile</a><div class="clear" ></div><div class=""></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >649</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >481</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class=" title"  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  >1068</div><div class="clear"></div></li>
+<li class="" ><div class=" title"  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  >825</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-up">&#x25B2;5700</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class=" bold"  >Visits:</div><div ><span class="delta-up">&#x25B2;64</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-of-oman/2022/stage-3">Tour of Oman</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/czech-tour/2022/gc">Sazka Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
@@ -173,53 +163,81 @@
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/czech-tour/2022/stage-3">Sazka Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">5th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-oman/2022/gc">Tour of Oman</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">6th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-turkey/2021/gc">Presidential Cycling Tour of Turkey</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">7th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-denmark/2021/gc">Danmark Rundt - Tour of Denmark</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">7th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-denmark/2021/gc">Tour of Denmark</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('21)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">stage</span> <a href="race/alula-tour/2022/stage-2">Saudi Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/czech-tour/2022/stage-4">Sazka Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-denmark/2022/gc">Danmark Rundt - Tour of Denmark</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">7th&nbsp;</div><div><span class="blue">GC</span> <a href="race/alula-tour/2022/gc">Saudi Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/czech-tour/2022/stage-2">Sazka Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-oman/2024/stage-2">Tour of Oman</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">10th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-denmark/2022/gc">Tour of Denmark</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2025</div><div class="name   "  ><a    href="team/astana-qazaqstan-team-2025">Astana Qazaqstan Team</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/uno-x-pro-cycling-team-2023">Uno-X Pro Cycling Team</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/uno-x-pro-cycling-team-2022">Uno-X Pro Cycling Team</a></div><div > (PRT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2021</div><div class="name   "  ><a    href="team/uno-x-dare-development-team-2021">Uno-X Dare Development Team</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2020</div><div class="name   "  ><a    href="team/team-coloquick-2020">Team ColoQuick</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2019</div><div class="name   "  ><a    href="team/team-bache-js.dk-2019">AURA Energi - JS.dk</a></div><div > (CLUB)</div><div class="fs10   "  > as from 10/08</div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2017</div><div class="name   "  ><a    href="team/team-virtu-cycling-2017">Team Virtu Cycling</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2016</div><div class="name   "  ><a    href="team/borkop-cycler-carl-ras-roskilde-junior-2016">Børkop Cykler-Carl Ras Roskilde Junior</a></div><div > (CLUB)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2015</div><div class="name   "  ><a    href="team/team-kel-berg-roskilde-junior-2015">Team KEL-BERG Roskilde Junior</a></div><div > (CLUB)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class=" season"  >2025</div><div class=" name"  ><a    href="team/astana-qazaqstan-team-2025">Astana Qazaqstan Team</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2024</div><div class=" name"  ><a    href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2023</div><div class=" name"  ><a    href="team/uno-x-pro-cycling-team-2023">Uno-X Pro Cycling Team</a></div><div > (PRT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2022</div><div class=" name"  ><a    href="team/uno-x-pro-cycling-team-2022">Uno-X Pro Cycling Team</a></div><div > (PRT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2021</div><div class=" name"  ><a    href="team/uno-x-dare-development-team-2021">Uno-X Dare Development Team</a></div><div > (CT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2020</div><div class=" name"  ><a    href="team/team-coloquick-2020">Team ColoQuick</a></div><div > (CT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2019</div><div class=" name"  ><a    href="team/team-bache-js.dk-2019">AURA Energi - JS.dk</a></div><div > (CLUB)</div><div class=" fs10"  > as from 10/08</div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2017</div><div class=" name"  ><a    href="team/team-virtu-cycling-2017">Team Virtu Cycling</a></div><div > (CT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2016</div><div class=" name"  ><a    href="team/borkop-cycler-carl-ras-roskilde-junior-2016">Børkop Cykler-Carl Ras Roskilde Junior</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2015</div><div class=" name"  ><a    href="team/team-kel-berg-roskilde-junior-2015">Team KEL-BERG Roskilde Junior</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
-<div class=""><div class="">No races on program.</div></div>
-<div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
-</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="tabsV3" style=" "><li class="cur"><a class="toggleDiscipline" data-discipline="road" data-rid="187998" data-season="2024" href="">road</a><span></span></li><li class=""><a class="toggleDiscipline" data-discipline="cx" data-rid="1013927" data-season="2024" href="">cross</a><span></span></li></ul><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2024" class=" "><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" "><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li></ul></li></ul><ul class="rdrSeasonNav hide" data-discipline="cx"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">23/24</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">15/16</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">14/15</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">13/14</a></li><li class="more hide "><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">23/24</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">15/16</a></li><li data-season="2015" class=" hide"><a class="seasonResults" data-season="2015" href="">14/15</a></li><li data-season="2014" class=" hide"><a class="seasonResults" data-season="2014" href="">13/14</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>10.02 &raquo; 14.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-5-points">Tour of Oman <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td></td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-5-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td></td><td>29</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>14.02</td><td>34</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-5">Stage 5 - Samail ''Al Fayhaa Reshouse'' &rsaquo; Jabal Al Akhdhar (Green Mountain)</a> </td><td class="cu600">72</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>13.02</td><td>20</td><td class="gc cu600">4</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-4">Stage 4 - Fanja &rsaquo; Yitti Hills</a> </td><td class="cu600">104</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>12.02</td><td>26</td><td class="gc cu600">7</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-3">Stage 3 - Naseem Park &rsaquo; Al Bustan</a> </td><td class="cu600">76</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>11.02</td><td>4</td><td class="gc cu600">5</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-2">Stage 2 - Al Sifah &rsaquo; Qurayyat</a> </td><td class="cu600">170.4</td><td class="cu600">7</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
-<tr data-main="0"><td>10.02</td><td>33</td><td class="gc cu600">34</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/tour-of-oman/2024/stage-1">Stage 1 - Oman Across Ages Museum &rsaquo; Oman Convention and Exhibition Centre (OCEC)</a> </td><td class="cu600">181.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
-<tr data-main="1"><td>09.02</td><td>14</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="race/muscat-classic/2024/result">Muscat Classic <span>(1.1)</span></a> </td><td class="cu600">174.3</td><td class="cu600">7</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/muscat-classic">more</a></td></tr>
-<tr data-main="1"><td>21.01</td><td>14</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/ruta-de-la-ceramica-gran-premio-castellon/2024/result">Ruta de la Cerámica - Gran Premio Castellón <span>(1.1)</span></a> </td><td class="cu600">173.9</td><td class="cu600">7</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/ruta-de-la-ceramica-gran-premio-castellon">more</a></td></tr>
-<tr data-main="1"><td>20.01</td><td>62</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/gp-de-valence/2024/result">Clàssica Comunitat Valenciana 1969 - Gran Premi València <span>(1.1)</span></a> <span title="135 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>135k</span></td><td class="cu600">200</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/gp-de-valence">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>1152</b> km in <b>8</b> days | PCS points: <b>21</b> |  UCI points: <b>20</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
-<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >1</div><div class="title   "  ><a    href="rider/anthon-charmig/statistics/wins">Wins</a></div><div class="info fs11   "  >GC (0)</div><div class="info fs11   "  >Oneday races (0)</div><div class="info fs11   "  >ITT (0)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >1</div><div class="title   "  ><a    href="rider/anthon-charmig/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (1) giro (0) vuelta(0)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >1</div><div class="title   "  ><a    href="rider/anthon-charmig/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(0)</div><div class="info fs11   "  >MSR(0)</div><div class="info fs11   "  >RVV(0)</div><div class="info fs11   "  >LBL(1)</div><div class="info fs11   "  >LOM(0)</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class=" bold"  >29.09</div><div class=" ellipsis"  ><span class="flag my"></span> <a    href="race/tour-de-langkawi/2024/startlist">PETRONAS Le Tour de Langkawi</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/anthon-charmig/tour-de-langkawi">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  >20.10</div><div class=" ellipsis"  ><span class="flag jp"></span> <a    href="race/japan-cup/2024/startlist">Utsunomiya Japan Cup Road Race</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/anthon-charmig/japan-cup">more</a></div><div class="clear"></div></li>
+</ul></span></div>
+<div class=""><div class="text-regular"><div class="mob-ad rider-after-program"></div></div></div>
+</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="tabsV3" style=" "><li class="cur"><a class="toggleDiscipline" data-discipline="road" data-rid="187998" data-season="2024" href="">road</a><span></span></li><li class=""><a class="toggleDiscipline" data-discipline="cx" data-rid="1013927" data-season="2024" href="">cross</a><span></span></li></ul><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">2014</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2024" class=" "><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" "><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li></ul></li></ul><ul class="rdrSeasonNav hide" data-discipline="cx"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">23/24</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">15/16</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">14/15</a></li><li data-season="2014" class=""><a class="seasonResults" data-season="2014" href="">13/14</a></li><li class="more hide "><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">23/24</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">15/16</a></li><li data-season="2015" class=" hide"><a class="seasonResults" data-season="2015" href="">14/15</a></li><li data-season="2014" class=" hide"><a class="seasonResults" data-season="2014" href="">13/14</a></li></ul></li></ul><div class="resultsSortFilter sortByResults">Sort by: <a class="" data-case="date" href="">Date</a><a class="" data-case="rnk" href="">Result</a><a class="" data-case="pnt" href="">Points</a></div><div class="resultsSortFilter filterByResults">Filter by: <a class="cur" data-case="all" href="">All</a><a class="" data-case="climber" href="">Climber</a><a class="" data-case="hills" href="">Hills</a><a class="" data-case="sprints" href="">Sprints</a><a class="" data-case="tt" href="">TT</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>11.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/circuito-de-getxo/2024/result">Circuito de Getxo - Memorial Hermanos Otxoa <span>(1.1)</span></a> </td><td class="cu600">173</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/circuito-de-getxo">more</a></td></tr>
+<tr data-main="1"><td>10.08</td><td>32</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/san-sebastian/2024/result">Donostia San Sebastian Klasikoa <span>(1.UWT)</span></a> </td><td class="cu600">236</td><td class="cu600">5</td><td class="cu600 ">8</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/san-sebastian">more</a></td></tr>
+<tr data-main="1"><td>25.07</td><td>49</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/prueba-villafranca/2024/result">Prueba Villafranca - Ordiziako Klasika <span>(1.1)</span></a> </td><td class="cu600">165.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/prueba-villafranca">more</a></td></tr>
+<tr data-main="1"><td>23.07</td><td>107</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-castilla-y-leon/2024/result">Vuelta a Castilla y Leon <span>(1.1)</span></a> </td><td class="cu600">199.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/vuelta-a-castilla-y-leon">more</a></td></tr>
+<tr data-main="1"><td>23.06</td><td>DNS</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag dk"></span><a href="https://www.procyclingstats.com/race/danish-championships/2024/result">National Championships Denmark ME - Road Race <span>(NC)</span></a> </td><td class="cu600">218.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/danish-championships">more</a></td></tr>
+<tr data-main="1"><td>02.06 &raquo; 09.06</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/dauphine/2024/stage-7">Critérium du Dauphiné <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/dauphine">more</a></td></tr>
+<tr data-main="0"><td>08.06</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/dauphine/2024/stage-7">Stage 7 - Albertville &rsaquo; Samoëns 1600</a> </td><td class="cu600">155.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/dauphine">more</a></td></tr>
+<tr data-main="0"><td>07.06</td><td>67</td><td class="gc cu600">95</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/dauphine/2024/stage-6">Stage 6 - Hauterives &rsaquo; Le Collet d'Allevard</a> </td><td class="cu600">174.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/dauphine">more</a></td></tr>
+<tr data-main="0"><td>06.06</td><td>NR</td><td class="gc cu600">121</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/dauphine/2024/stage-5">Stage 5 - Amplepuis &rsaquo; Saint-Priest</a> </td><td class="cu600">167</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/dauphine">more</a></td></tr>
+<tr data-main="0"><td>05.06</td><td>105</td><td class="gc cu600">127</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/dauphine/2024/stage-4">Stage 4 (ITT) - Saint-Germain-Laval &rsaquo; Neulise</a> </td><td class="cu600">34.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/dauphine">more</a></td></tr>
+<tr data-main="0"><td>04.06</td><td>115</td><td class="gc cu600">125</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/dauphine/2024/stage-3">Stage 3 - Celles-sur-Durolle &rsaquo; Les Estables</a> </td><td class="cu600">181.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/dauphine">more</a></td></tr>
+<tr data-main="0"><td>03.06</td><td>107</td><td class="gc cu600">123</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/dauphine/2024/stage-2">Stage 2 - Gannat &rsaquo; Col de la Loge</a> </td><td class="cu600">142</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/dauphine">more</a></td></tr>
+<tr data-main="0"><td>02.06</td><td>65</td><td class="gc cu600">67</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/dauphine/2024/stage-1">Stage 1 - Saint-Pourçain-sur-Sioule &rsaquo; Saint-Pourçain-sur-Sioule</a> </td><td class="cu600">172.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/dauphine">more</a></td></tr>
+<tr data-main="1"><td>21.04</td><td>63</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/liege-bastogne-liege/2024/result">Liège-Bastogne-Liège <span>(1.UWT)</span></a> </td><td class="cu600">254.5</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/liege-bastogne-liege">more</a></td></tr>
+<tr data-main="1"><td>17.04</td><td>42</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/la-fleche-wallone/2024/result">La Flèche Wallonne <span>(1.UWT)</span></a> </td><td class="cu600">198.6</td><td class="cu600">5</td><td class="cu600 ">8</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/la-fleche-wallone">more</a></td></tr>
+<tr data-main="1"><td>14.04</td><td>48</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag nl"></span><a href="https://www.procyclingstats.com/race/amstel-gold-race/2024/result">Amstel Gold Race <span>(1.UWT)</span></a> </td><td class="cu600">253.6</td><td class="cu600">5</td><td class="cu600 ">10</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/amstel-gold-race">more</a></td></tr>
+<tr data-main="1"><td>03.03 &raquo; 10.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-nice/2024/gc">Paris - Nice <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/paris-nice">more</a></td></tr>
+<tr data-main="0"><td></td><td>67</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-nice/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/paris-nice">more</a></td></tr>
+<tr data-main="0"><td>10.03</td><td>56</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-nice/2024/stage-8">Stage 8 - Nice &rsaquo; Nice</a> </td><td class="cu600">109.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/paris-nice">more</a></td></tr>
+<tr data-main="0"><td>09.03</td><td>62</td><td class="gc cu600">82</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-nice/2024/stage-7">Stage 7 - Nice &rsaquo; La Madone d'Utelle</a> </td><td class="cu600">104</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/paris-nice">more</a></td></tr>
+<tr data-main="0"><td>08.03</td><td>44</td><td class="gc cu600">91</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-nice/2024/stage-6">Stage 6 - Sisteron &rsaquo; La Colle-sur-Loup</a> </td><td class="cu600">198.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/paris-nice">more</a></td></tr>
+<tr data-main="0"><td>07.03</td><td>47</td><td class="gc cu600">94</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-nice/2024/stage-5">Stage 5 - Saint-Sauveur-de-Montagut &rsaquo; Sisteron</a> </td><td class="cu600">193.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/paris-nice">more</a></td></tr>
+<tr data-main="0"><td>06.03</td><td>89</td><td class="gc cu600">101</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-nice/2024/stage-4">Stage 4 - Chalon-sur-Saône &rsaquo; Mont Brouilly</a> </td><td class="cu600">183</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/paris-nice">more</a></td></tr>
+<tr data-main="0"><td>05.03</td><td>7</td><td class="gc cu600">111</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-nice/2024/stage-3">Stage 3 (TTT) - Auxerre &rsaquo; Auxerre</a> </td><td class="cu600">26.9</td><td class="cu600"></td><td class="cu600 ">1.43</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/paris-nice">more</a></td></tr>
+<tr data-main="0"><td>04.03</td><td>40</td><td class="gc cu600">86</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-nice/2024/stage-2">Stage 2 - Thoiry &rsaquo; Montargis</a> </td><td class="cu600">177.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/paris-nice">more</a></td></tr>
+<tr data-main="0"><td>03.03</td><td>86</td><td class="gc cu600">86</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-nice/2024/stage-1">Stage 1 - Les Mureaux &rsaquo; Les Mureaux</a> </td><td class="cu600">157.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/paris-nice">more</a></td></tr>
+<tr data-main="1"><td>10.02 &raquo; 14.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-5-points">Tour of Oman <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td></td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-5-points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td></td><td>29</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>14.02</td><td>34</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-5">Stage 5 - Samail ''Al Fayhaa Reshouse'' &rsaquo; Jabal Al Akhdhar (Green Mountain)</a> </td><td class="cu600">72</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>13.02</td><td>20</td><td class="gc cu600">4</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-4">Stage 4 - Fanja &rsaquo; Yitti Hills</a> </td><td class="cu600">104</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>12.02</td><td>26</td><td class="gc cu600">7</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-3">Stage 3 - Naseem Park &rsaquo; Al Bustan</a> </td><td class="cu600">76</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>11.02</td><td>4</td><td class="gc cu600">5</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-2">Stage 2 - Al Sifah &rsaquo; Qurayyat</a> </td><td class="cu600">170.4</td><td class="cu600">7</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
+<tr data-main="0"><td>10.02</td><td>33</td><td class="gc cu600">34</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/tour-of-oman/2024/stage-1">Stage 1 - Oman Across Ages Museum &rsaquo; Oman Convention and Exhibition Centre (OCEC)</a> </td><td class="cu600">181.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/tour-of-oman">more</a></td></tr>
+<tr data-main="1"><td>09.02</td><td>14</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag om"></span><a href="https://www.procyclingstats.com/race/muscat-classic/2024/result">Muscat Classic <span>(1.1)</span></a> </td><td class="cu600">174.3</td><td class="cu600">7</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/muscat-classic">more</a></td></tr>
+<tr data-main="1"><td>21.01</td><td>14</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/ruta-de-la-ceramica-gran-premio-castellon/2024/result">Ruta de la Cerámica - Gran Premio Castellón <span>(1.1)</span></a> </td><td class="cu600">173.9</td><td class="cu600">7</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/ruta-de-la-ceramica-gran-premio-castellon">more</a></td></tr>
+<tr data-main="1"><td>20.01</td><td>62</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/gp-de-valence/2024/result">Clàssica Comunitat Valenciana 1969 - Gran Premi València <span>(1.1)</span></a> <span title="135 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 0px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>135k</span></td><td class="cu600">200</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/anthon-charmig/gp-de-valence">more</a></td></tr>
+</tbody></table><div class="rdrResultsSum" ><div>4646</b> km in <b>30</b> days | PCS points: <b>46</b> |  UCI points: <b>47.43</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class=" nr"  >1</div><div class=" title"  ><a    href="rider/anthon-charmig/statistics/wins">Wins</a></div><div class=" info fs11"  >GC (0)</div><div class=" info fs11"  >Oneday races (0)</div><div class=" info fs11"  >ITT (0)</div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >1</div><div class=" title"  ><a    href="rider/anthon-charmig/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  >tour (1) giro (0) vuelta(0)</div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >2</div><div class=" title"  ><a    href="rider/anthon-charmig/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  >RBX(0)</div><div class=" info fs11"  >MSR(0)</div><div class=" info fs11"  >RVV(0)</div><div class=" info fs11"  >LBL(2)</div><div class=" info fs11"  >LOM(0)</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2024</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 5.2%; position: relative;   "><div class="vTitle" style="line-height: 12px;">21</div></div></div></td><td class="ac  " >204</td></tr>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 28.7%; position: relative;   "><div class="vTitle" style="line-height: 12px;">117</div></div></div></td><td class="ac  " >495</td></tr>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative;   "><div class="vTitle" style="line-height: 12px;">326</div></div></div></td><td class="ac  " >186</td></tr>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 33.9%; position: relative;   "><div class="vTitle" style="line-height: 12px;">138</div></div></div></td><td class="ac  " >359</td></tr>
-<tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 3.4%; position: relative;   "><div class="vTitle" style="line-height: 12px;">14</div></div></div></td><td class="ac  " >1034</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2024</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 11.3%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">46</div></div></div></td><td class="ac  "  style="height: 1px; ">764</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2023</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 28.7%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">117</div></div></div></td><td class="ac  "  style="height: 1px; ">495</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2022</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">326</div></div></div></td><td class="ac  "  style="height: 1px; ">186</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2021</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 33.9%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">138</div></div></div></td><td class="ac  "  style="height: 1px; ">359</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2020</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 3.4%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">14</div></div></div></td><td class="ac  "  style="height: 1px; ">1034</td></tr>
 </tbody></table></span></div>
+<div class=""></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
   var id = 187998; 
@@ -227,6 +245,7 @@ $(document).ready(function(){
   var cxid = 1013927; 
   var seo = 'anthon-charmig';
   var sort = 'date'; 
+  var filter = 'all'; 
   var pid = '1238'; 
   var discipline = 'road'; 
   var subpath = '';   
@@ -245,7 +264,7 @@ $(document).ready(function(){
     $(this).parents('ul').find('li').removeClass('cur');
     $(this).parent('li').addClass('cur'); 
     //console.log(subpath);
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season') }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season'), filter: filter }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
   });   
 
   $(document).on('click', '.seasonResults', function(e){
@@ -259,7 +278,7 @@ $(document).ready(function(){
     $(".rdrSeasonNav li").removeClass('cur');
     $(".rdrSeasonNav li[data-season="+season+"]").addClass('cur'); 
 
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline  }  }).done(function( response ) {   
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {   
     	//console.log(response);
       $('#resultsCont').html(response);      
     })
@@ -275,8 +294,27 @@ $(document).ready(function(){
     sort = $(this).attr('data-case');
    // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
    
-    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+  });
+
+
+  $(".filterByResults a").click(function(e){
+    e.preventDefault();        
+    var season = $(".rdrSeasonNav li.cur").attr('data-season');
+
+    
+    $("#resultsCont").html('<br /><div class=\"loading\"> loading results ..</div>');
+    $(".filterByResults a").removeClass('cur');
+    $(this).addClass('cur');
+    filter = $(this).attr('data-case');
+   // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
+   
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+
   }); 
+
+
+  
 
 });
 </script>
@@ -311,7 +349,7 @@ $(document).ready(function(){
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
 <li><a href="race/e3-harelbeke">E3 Classic</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
-<li><a href="race/dwars-door-vlaanderen">Dwars door vlaanderen</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
 <li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
@@ -323,7 +361,7 @@ $(document).ready(function(){
 <li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
 <li><a href="rider/wout-van-aert">Wout van Aert</a></li>
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
-<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
 <li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
 <li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
@@ -346,25 +384,21 @@ $(document).ready(function(){
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
-<li><a href="info/procyclinggame">ProCyclingGame</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
 </ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0607s</span></li>
+<li><span>Pageload 0.1301s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list9.js"></script>  
-
+<script src="search_list13.js"></script>  
 		<script>
-
 		var riderid = 187998;		$(document).ready(function() { 	RVC(riderid);  	  });
-
 		</script>
-
 		

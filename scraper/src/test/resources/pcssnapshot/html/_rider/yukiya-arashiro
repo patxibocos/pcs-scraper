@@ -18,7 +18,7 @@
       pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
     };
 </script>
-<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Yukiya Arashiro (born 1984-09-22 in Ishigaki) is a professional road racing cyclist from Japan, currently riding for Bahrain - Victorious. His best results are winning GC Tour du Limousin - Nouvelle Aquitaine and winning GC Tour de Taiwan.">
+<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="description" content="Yukiya Arashiro (born 1984-09-22 in Ishigaki) is a professional road racing cyclist from Japan, currently riding for Bahrain - Victorious. His best results are winning GC Tour du Limousin and winning Asian Continental Championships ME - Road Race.">
 <meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="utf-8"> 
@@ -27,9 +27,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a202.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b168.css" />
-<script src="https://www.procyclingstats.com/pcs_s82.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a249.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b195.css" />
+<script src="https://www.procyclingstats.com/pcs_s88.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -41,22 +41,21 @@
 <div class="wrapper">
   <header class="">
     <div class="cont">
-    	<a  class="logo" href="index.php"></a>
-  
-    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />
+    	<a  class="logo" href="index.php"></a>  
+    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />     
     		<input type="text" name="term" id="search" data-nav="rider/-id-/start" data-nav2="" data-page="rider" class="search4"  placeholder="search"  /></form> 
     	<div class="menuCont">
-      	<a class="mobMenu" href="">Menu&#x25BC;</a>
+      	<a class="mobMenu" href="">&#9776; Menu</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
 <li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
+<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -66,15 +65,17 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
-<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
-<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
-<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/cofidis-2024">Cofidis</a></li>
-<li><a href="team/bora-hansgrohe-2024">BORA - hansgrohe</a></li>
-<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
-<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
+<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
+<li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
 <li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
+<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
+<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
+<li><a href="team/bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/cofidis-2024">Cofidis</a></li>
+<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
+<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
 <li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
 <li><a href="team/movistar-team-2024">Movistar Team</a></li>
 <li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
@@ -82,8 +83,6 @@
 <li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
 <li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
 <li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
-<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
-<li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
 <li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
@@ -94,22 +93,21 @@
 <li class=" "><a class="reg" href="game.php">Game</a></li>
 <li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
-<li><a href="info/countdown-to-1-billion-pageviews">Countdown to 2 billion pageviews</a></li>
+<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/about-us">About us</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
+<li><a href="info/terminology-list">Terminology list</a></li>
 <li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
-<li class="more4 pro"><a class="reg" href="premium.php">Pro</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="">Dashboard</a></li>
-<li><a href="">Lists</a></li>
-</ul></li>
+<li class=" user"><a class="reg" href="login.php">Login</a></li>
  
 				 </ul> 
-			 </div>
-			 <a class="user4" data-logged="0" href="account.php"><span>&#10070;</span><font class="hideIfMobile">login</font></a><a class="settings4 " href="settings.php"><span>&#10033;</span><font>settings</font></a>    </div>
+			 </div>			 
+			 <a class="topUser  " href="login.php"></a><div class="selectLanguage selectPlatform"><a href="">road</a><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
   </header>  
-<div class="content   "> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/yukiya-arashiro">Overview</a></li>
+<div class="content"> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/yukiya-arashiro">Overview</a></li>
 <li class="reg "><a class="" href="rider/yukiya-arashiro/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/yukiya-arashiro/statistics/overview">Overview</a></li>
 <li><a href="rider/yukiya-arashiro/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/yukiya-arashiro/statistics/key-events">Key events</a></li>
@@ -132,107 +130,139 @@
 <li class="reg "><a class="" href="rider/yukiya-arashiro/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/yukiya-arashiro/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/yukiya-arashiro/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/yukiya-arashiro">More</a><ul><li data-n="1"><a href="rider/yukiya-arashiro/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/yukiya-arashiro/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/yukiya-arashiro/statistics/overview">Overview</a></li>
-<li data-n="1"><a href="rider/yukiya-arashiro/statistics/season-statistics">Statistics by season</a></li>
-<li data-n="1"><a href="rider/yukiya-arashiro/statistics/key-events">Key events</a></li>
-<li data-n="1"><a href="rider/yukiya-arashiro/statistics/world-map-of-rider-races">World map of rider races</a></li>
-<li data-n="1"><a href="rider/yukiya-arashiro/statistics/wins">Wins</a></li>
-<li data-n="1"><a href="rider/yukiya-arashiro/statistics/most-starts-by-race">Most starts by race</a></li>
-<li data-n="1"><a href="rider/yukiya-arashiro/statistics/grand-tour-starts">Starts and results</a></li>
-<li data-n="1"><a href="rider/yukiya-arashiro/statistics/injury-history">Injury history</a></li>
-<li data-n="3"><a href="rider/yukiya-arashiro/results/results">Results - Results</a></li><li data-n="4"><a href="rider/yukiya-arashiro/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/yukiya-arashiro/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/yukiya-arashiro/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/yukiya-arashiro/contribute/contribute-info">Contribute info</a></li>
-<li data-n="5"><a href="rider/yukiya-arashiro/contribute/submit-program">Submit program</a></li>
-<li data-n="5"><a href="rider/yukiya-arashiro/contribute/report">Report</a></li>
-<li data-n="5"><a href="rider/yukiya-arashiro/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
-<li data-n="5"><a href="rider/yukiya-arashiro/contribute/contribute-family">Family</a></li>
-<li data-n="5"><a href="rider/yukiya-arashiro/contribute/embed-rider-results">Embed rider results</a></li>
-<li data-n="7"><a href="rider/yukiya-arashiro/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/yukiya-arashiro/specialties/top-gc-results">Top GC results</a></li>
-<li data-n="6"><a href="rider/yukiya-arashiro/specialties/fastest-tt">Fastest TT</a></li>
+<li class="more"><a href="rider/yukiya-arashiro">More</a><ul><li data-n="1"><a href="rider/yukiya-arashiro/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/yukiya-arashiro/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/yukiya-arashiro/statistics/overview">Overview dd</a></li>
+<li data-n="1"><a href="rider/yukiya-arashiro/statistics/season-statistics">Statistics by season dd</a></li>
+<li data-n="1"><a href="rider/yukiya-arashiro/statistics/key-events">Key events dd</a></li>
+<li data-n="1"><a href="rider/yukiya-arashiro/statistics/world-map-of-rider-races">World map of rider races dd</a></li>
+<li data-n="1"><a href="rider/yukiya-arashiro/statistics/wins">Wins dd</a></li>
+<li data-n="1"><a href="rider/yukiya-arashiro/statistics/most-starts-by-race">Most starts by race dd</a></li>
+<li data-n="1"><a href="rider/yukiya-arashiro/statistics/grand-tour-starts">Starts and results dd</a></li>
+<li data-n="1"><a href="rider/yukiya-arashiro/statistics/injury-history">Injury history dd</a></li>
+<li data-n="3"><a href="rider/yukiya-arashiro/results/results">Results - Results</a></li><li data-n="4"><a href="rider/yukiya-arashiro/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/yukiya-arashiro/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/yukiya-arashiro/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/yukiya-arashiro/contribute/contribute-info">Contribute info dd</a></li>
+<li data-n="5"><a href="rider/yukiya-arashiro/contribute/submit-program">Submit program dd</a></li>
+<li data-n="5"><a href="rider/yukiya-arashiro/contribute/report">Report dd</a></li>
+<li data-n="5"><a href="rider/yukiya-arashiro/contribute/contribute-social-feeds">Contribute sites / social media dd</a></li>
+<li data-n="5"><a href="rider/yukiya-arashiro/contribute/contribute-family">Family dd</a></li>
+<li data-n="5"><a href="rider/yukiya-arashiro/contribute/embed-rider-results">Embed rider results dd</a></li>
+<li data-n="7"><a href="rider/yukiya-arashiro/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/yukiya-arashiro/specialties/top-gc-results">Top GC results dd</a></li>
+<li data-n="6"><a href="rider/yukiya-arashiro/specialties/fastest-tt">Fastest TT dd</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag jp w32"></span><span class="flag jp w24"></span><h1 class="">Yukiya  Arashiro</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Bahrain - Victorious</span></div><div class="sub"><span class="red showIfMobile">Bahrain - Victorious</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"></ul>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Rider</h3><div class="rdr-img-cont"><a href="rider/yukiya-arashiro/statistics/overview"><img alt="Profile photo of Yukiya  Arashiro" src="images/riders/bp/db/yukiya-arashiro-2024.jpg"  /></a><span style="font-size: 10px; color: #999; ">&copy; CharlyLopez</span></div><div class="rdr-info-cont"><b>Date of birth:</b> 22<sup>nd</sup> September 1984 (39)<br /><b>Nationality:</b> <span class="flag  jp"></span><a class="black" href="nation/japan">Japan</a><br /><span><b>Weight:</b> 64 kg &nbsp; <span><b>Height:</b> 1.70 m<br /><b>Place of birth:</b> <a href="location/ishigaki">Ishigaki</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1684</div><div class="title"><a href="rider/yukiya-arashiro/results/career-points-one-day-races">One day races</a></div></li><li><div class="bar "><div class="bg red" style="width: 70.783847980998%; height: 100%;  "></div></div><div class="pnt">1192</div><div class="title"><a href="rider/yukiya-arashiro/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 7.125890736342%; height: 100%;  "></div></div><div class="pnt">120</div><div class="title"><a href="rider/yukiya-arashiro/results/career-points-time-trial">Time trial</a></div></li><li><div class="bar "><div class="bg orange" style="width: 61.87648456057%; height: 100%;  "></div></div><div class="pnt">1042</div><div class="title"><a href="rider/yukiya-arashiro/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 37.29216152019%; height: 100%;  "></div></div><div class="pnt">628</div><div class="title"><a href="rider/yukiya-arashiro/results/career-points-climbers">Climber</a></div></li></ul></div><div class=""></div>
-<div class="mt10"><ul class="list horizontal sites"><li><span class="icon twitter left"></span><a  target="_blank"   class="" href="https://twitter.com/YukiyaArashiro">twitter</a></li>
-<li><span class="icon instagram left"></span><a  target="_blank"   class="" href="https://www.instagram.com/yukiyaarashiro/">instagram</a></li>
-<li><span class="icon strava left"></span><a  target="_blank"   class="" href="https://www.strava.com/athletes/12337203">strava</a></li>
-<li><span class="icon facebook left"></span><a  target="_blank"   class="" href="https://www.facebook.com/YUKIYA.ARASHIRO">facebook</a></li>
-</ul></div>
+<ul class="list horizontal fs14 circle bluelink"></ul><div class="clear"></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/yukiya-arashiro/statistics/overview"><img alt="Profile photo of Yukiya  Arashiro" src="images/riders/bp/db/yukiya-arashiro-2024.jpg"  /></a><span style="font-size: 10px; color: #999; ">&copy; CharlyLopez</span></div><div class="rdr-info-cont"><b>Date of birth:</b> 22<sup>nd</sup> September 1984 (40)<br /><b>Nationality:</b> <span class="flag  jp"></span><a class="black" href="nation/japan">Japan</a><br /><span><b>Weight:</b> 64 kg &nbsp; <span><b>Height:</b> 1.70 m<br /><b>Place of birth:</b> <a href="location/ishigaki">Ishigaki</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1733</div><div class="title"><a href="rider/yukiya-arashiro/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 68.782458165032%; height: 100%;  "></div></div><div class="pnt">1192</div><div class="title"><a href="rider/yukiya-arashiro/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 13.156376226197%; height: 100%;  "></div></div><div class="pnt">228</div><div class="title"><a href="rider/yukiya-arashiro/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 8.1938834391229%; height: 100%;  "></div></div><div class="pnt">142</div><div class="title"><a href="rider/yukiya-arashiro/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 14.195037507213%; height: 100%;  "></div></div><div class="pnt">246</div><div class="title"><a href="rider/yukiya-arashiro/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 23.831506058857%; height: 100%;  "></div></div><div class="pnt">413</div><div class="title"><a href="rider/yukiya-arashiro/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://twitter.com/YukiyaArashiro"><span class="iconv3 x-logo14"></span>x</a></li><li><a target="_blank" href="https://www.instagram.com/yukiyaarashiro/"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://www.strava.com/athletes/12337203"><span class="iconv3 strava14"></span>strava</a></li><li><a target="_blank" href="https://www.facebook.com/YUKIYA.ARASHIRO"><span class="iconv3 facebook14"></span>fb</a></li></ul><div class="clear" style="height: 5px;"></div><div class="clear" ></div><div class=""></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class="title   "  ><a    href="rankings/me/all-time">All time</a></div><div class="rnk   "  >1423</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class="rnk   "  >339</div><div class="clear"></div></li>
-<li class="" ><div class="title   "  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class="rnk   "  >388</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class=" title"  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  >456</div><div class="clear"></div></li>
+<li class="" ><div class=" title"  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  >441</div><div class="clear"></div></li>
+<li class="" ><div class=" title"  ><a    href="rankings/me/all-time">All time</a></div><div class=" rnk"  >1436</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class="bold   "  >Visits:</div><div ><span class="delta-down">&#x25BC;573</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class=" bold"  >Visits:</div><div ><span class="delta-up">&#x25B2;845</span></div><div >  this week</div><div class="clear"></div></li>
 </ul></span></div>
-</div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-du-limousin/2012/gc">Tour du Limousin - Nouvelle Aquitaine</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('12)</span></div></li>
+</div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-du-limousin/2012/gc">Tour du Limousin</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('12)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/asian-championships-me/2011/result">Asian Continental Championships ME - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('11)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-de-taiwan/2018/gc">Tour de Taiwan</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('18)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/asian-championships/2011/result">Asian Cycling Championships ME - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('11)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;</div><div><span class="blue"></span> <a href="race/nc-japan/2022/result">National Championships Japan  - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22, '13, '07)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>3x</b>&nbsp;</div><div><span class="blue"></span> <a href="race/nc-japan/2007/result">National Championships Japan  - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('22, '13, '07)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue"></span> <a href="race/asian-championships-me/2016/result">Asian Continental Championships ME - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/tour-de-okinawa/2008/gc">Tour de Okinawa</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('08)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-du-limousin/2008/stage-2">Tour du Limousin - Nouvelle Aquitaine</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('08)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-du-limousin/2008/stage-2">Tour du Limousin</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('08)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-japan/2007/stage-7">Tour of Japan</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16, '07)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-du-limousin/2013/gc">Tour du Limousin - Nouvelle Aquitaine</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('13)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue"></span> <a href="race/asian-championships/2016/result">Asian Cycling Championships ME - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('16)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;3rd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-du-limousin/2006/gc">Tour du Limousin - Nouvelle Aquitaine</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('08, '06)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-du-limousin/2013/gc">Tour du Limousin</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('13)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;3rd&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-du-limousin/2006/gc">Tour du Limousin</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('08, '06)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/asian-championships-me/2023/result">Asian Continental Championships ME - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/japan-cup/2015/result">Japan Cup Cycle Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('15)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-du-limousin/2013/stage-1">Tour du Limousin - Nouvelle Aquitaine</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('13, '12)</span></div></li>
 </ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
 <div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class="season   "  >2024</div><div class="name   "  ><a    href="team/bahrain-victorious-2024">Bahrain - Victorious</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2023</div><div class="name   "  ><a    href="team/bahrain-victorious-2023">Bahrain - Victorious</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2022</div><div class="name   "  ><a    href="team/bahrain-victorious-2022">Bahrain - Victorious</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2021</div><div class="name   "  ><a    href="team/bahrain-victorious-2021">Bahrain - Victorious</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2020</div><div class="name   "  ><a    href="team/bahrain-mclaren-2020">Bahrain - McLaren</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2019</div><div class="name   "  ><a    href="team/bahrain-merida-2019">Bahrain Merida</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2018</div><div class="name   "  ><a    href="team/bahrain-merida-pro-cycling-team-2018">Bahrain Merida Pro Cycling Team</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2017</div><div class="name   "  ><a    href="team/bahrain-merida-pro-cycling-team-2017">Bahrain Merida Pro Cycling Team</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2016</div><div class="name   "  ><a    href="team/lampre-merida-2016">Lampre - Merida</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2015</div><div class="name   "  ><a    href="team/team-europcar-2015">Team Europcar</a></div><div > (PCT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2014</div><div class="name   "  ><a    href="team/team-europcar-2014">Team Europcar</a></div><div > (WT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2013</div><div class="name   "  ><a    href="team/team-europcar-2013">Team Europcar</a></div><div > (PCT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2012</div><div class="name   "  ><a    href="team/team-europcar-2012">Team Europcar</a></div><div > (PCT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2011</div><div class="name   "  ><a    href="team/team-europcar-2011">Team Europcar</a></div><div > (PCT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2010</div><div class="name   "  ><a    href="team/bbox-bouygues-telecom-2010">Bbox Bouygues Telecom</a></div><div > (PCT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2009</div><div class="name   "  ><a    href="team/bbox-bouygues-telecom-2009">Bbox Bouygues Telecom</a></div><div > (PT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2008</div><div class="name   "  ><a    href="team/meitan-hompo-gdr-2008">Meitan Hompo GDR</a></div><div ></div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2007</div><div class="name   "  ><a    href="team/nippo-corporation-2007">Nippo Corporation</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
-<li class=" main " ><div class="season   "  >2006</div><div class="name   "  ><a    href="team/cycle-racing-team-vang-2006">Cycle Racing Team Vang</a></div><div > (CT)</div><div class="fs10   "  ></div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class=" season"  >2024</div><div class=" name"  ><a    href="team/bahrain-victorious-2024">Bahrain - Victorious</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2023</div><div class=" name"  ><a    href="team/bahrain-victorious-2023">Bahrain - Victorious</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2022</div><div class=" name"  ><a    href="team/bahrain-victorious-2022">Bahrain - Victorious</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2021</div><div class=" name"  ><a    href="team/bahrain-victorious-2021">Bahrain - Victorious</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2020</div><div class=" name"  ><a    href="team/bahrain-mclaren-2020">Bahrain - McLaren</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2019</div><div class=" name"  ><a    href="team/bahrain-merida-2019">Bahrain Merida</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2018</div><div class=" name"  ><a    href="team/bahrain-merida-pro-cycling-team-2018">Bahrain Merida Pro Cycling Team</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2017</div><div class=" name"  ><a    href="team/bahrain-merida-pro-cycling-team-2017">Bahrain Merida Pro Cycling Team</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2016</div><div class=" name"  ><a    href="team/lampre-merida-2016">Lampre - Merida</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2015</div><div class=" name"  ><a    href="team/team-europcar-2015">Team Europcar</a></div><div > (PCT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2014</div><div class=" name"  ><a    href="team/team-europcar-2014">Team Europcar</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2013</div><div class=" name"  ><a    href="team/team-europcar-2013">Team Europcar</a></div><div > (PCT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2012</div><div class=" name"  ><a    href="team/team-europcar-2012">Team Europcar</a></div><div > (PCT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2011</div><div class=" name"  ><a    href="team/team-europcar-2011">Team Europcar</a></div><div > (PCT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2010</div><div class=" name"  ><a    href="team/bbox-bouygues-telecom-2010">Bbox Bouygues Telecom</a></div><div > (PCT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2009</div><div class=" name"  ><a    href="team/bbox-bouygues-telecom-2009">Bbox Bouygues Telecom</a></div><div > (PT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2008</div><div class=" name"  ><a    href="team/meitan-hompo-gdr-2008">Meitan Hompo GDR</a></div><div ></div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2007</div><div class=" name"  ><a    href="team/nippo-corporation-2007">Nippo Corporation</a></div><div > (CT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
+<li class=" main " ><div class=" season"  >2006</div><div class=" name"  ><a    href="team/cycle-racing-team-vang-2006">Cycle Racing Team Vang</a></div><div > (CT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
 </ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
 <div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "></ul></span></div>
-<div class=""><div class="">No races on program.</div></div>
-<div class=""><div class=""><div class="mob-ad rider-after-program"></div></div></div>
-</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2024" class=" "><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" "><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" "><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li><li data-season="2012" class=" "><a class="seasonResults" data-season="2012" href="">2012</a></li><li data-season="2011" class=" "><a class="seasonResults" data-season="2011" href="">2011</a></li><li data-season="2010" class=" "><a class="seasonResults" data-season="2010" href="">2010</a></li><li data-season="2009" class=" "><a class="seasonResults" data-season="2009" href="">2009</a></li><li data-season="2008" class=" "><a class="seasonResults" data-season="2008" href="">2008</a></li><li data-season="2007" class=" "><a class="seasonResults" data-season="2007" href="">2007</a></li><li data-season="2006" class=" "><a class="seasonResults" data-season="2006" href="">2006</a></li><li data-season="2005" class=" "><a class="seasonResults" data-season="2005" href="">2005</a></li><li data-season="2004" class=" "><a class="seasonResults" data-season="2004" href="">2004</a></li></ul></li></ul><div class="sortByResults">Sort by: <a class=" " data-case="date" href="">Date</a><a class=" " data-case="rnk" href="">Result</a><a class=" " data-case="pnt" href="">Points</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>31.01 &raquo; 04.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-la-comunidad-valenciana/2024/stage-2">Volta a la Comunitat Valenciana <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/vuelta-a-la-comunidad-valenciana">more</a></td></tr>
-<tr data-main="0"><td>01.02</td><td>DNS</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-la-comunidad-valenciana/2024/stage-2">Stage 2 - Canals &rsaquo; La Valldigna</a> </td><td class="cu600">162.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/vuelta-a-la-comunidad-valenciana">more</a></td></tr>
-<tr data-main="0"><td>31.01</td><td>116</td><td class="gc cu600">116</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="race/vuelta-a-la-comunidad-valenciana/2024/stage-1">Stage 1 - Benicássim &rsaquo; Castellón</a> </td><td class="cu600">167</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/vuelta-a-la-comunidad-valenciana">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>167</b> km in <b>1</b> days | PCS points: <b>0</b> |  UCI points: <b>0</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
-<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class="nr   "  >8</div><div class="title   "  ><a    href="rider/yukiya-arashiro/statistics/wins">Wins</a></div><div class="info fs11   "  >GC (2)</div><div class="info fs11   "  >Oneday races (4)</div><div class="info fs11   "  >ITT (0)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >16</div><div class="title   "  ><a    href="rider/yukiya-arashiro/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11   "  >tour (7) giro (5) vuelta(4)</div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="info fs11   "  ></div><div class="clear"></div></li>
-<li class="" ><div class="nr   "  >13</div><div class="title   "  ><a    href="rider/yukiya-arashiro/statistics/top-classic-results">Classics</a></div><div class="info fs11   "  >RBX(1)</div><div class="info fs11   "  >MSR(4)</div><div class="info fs11   "  >RVV(0)</div><div class="info fs11   "  >LBL(6)</div><div class="info fs11   "  >LOM(2)</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class=" bold"  >29.09</div><div class=" ellipsis"  ><span class="flag ch"></span> <a    href="race/world-championship/2024/startlist">World Championships ME - Road Race</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/yukiya-arashiro/world-championship">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  >20.10</div><div class=" ellipsis"  ><span class="flag jp"></span> <a    href="race/japan-cup/2024/startlist">Utsunomiya Japan Cup Road Race</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/yukiya-arashiro/japan-cup">more</a></div><div class="clear"></div></li>
+</ul></span></div>
+<div class=""><div class="text-regular"><div class="mob-ad rider-after-program"></div></div></div>
+</div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=""><a class="seasonResults" data-season="2015" href="">2015</a></li><li class="more  show_if"><span>more</span><ul><li data-season="2024" class=" "><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" "><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" "><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" "><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" "><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" "><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" "><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" "><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" "><a class="seasonResults" data-season="2016" href="">2016</a></li><li data-season="2015" class=" "><a class="seasonResults" data-season="2015" href="">2015</a></li><li data-season="2014" class=" "><a class="seasonResults" data-season="2014" href="">2014</a></li><li data-season="2013" class=" "><a class="seasonResults" data-season="2013" href="">2013</a></li><li data-season="2012" class=" "><a class="seasonResults" data-season="2012" href="">2012</a></li><li data-season="2011" class=" "><a class="seasonResults" data-season="2011" href="">2011</a></li><li data-season="2010" class=" "><a class="seasonResults" data-season="2010" href="">2010</a></li><li data-season="2009" class=" "><a class="seasonResults" data-season="2009" href="">2009</a></li><li data-season="2008" class=" "><a class="seasonResults" data-season="2008" href="">2008</a></li><li data-season="2007" class=" "><a class="seasonResults" data-season="2007" href="">2007</a></li><li data-season="2006" class=" "><a class="seasonResults" data-season="2006" href="">2006</a></li><li data-season="2005" class=" "><a class="seasonResults" data-season="2005" href="">2005</a></li><li data-season="2004" class=" "><a class="seasonResults" data-season="2004" href="">2004</a></li></ul></li></ul><div class="resultsSortFilter sortByResults">Sort by: <a class="" data-case="date" href="">Date</a><a class="" data-case="rnk" href="">Result</a><a class="" data-case="pnt" href="">Points</a></div><div class="resultsSortFilter filterByResults">Filter by: <a class="cur" data-case="all" href="">All</a><a class="" data-case="climber" href="">Climber</a><a class="" data-case="hills" href="">Hills</a><a class="" data-case="sprints" href="">Sprints</a><a class="" data-case="tt" href="">TT</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>08.09</td><td>84</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="https://www.procyclingstats.com/race/cyclassics-hamburg/2024/result">BEMER Cyclassics <span>(1.UWT)</span></a> </td><td class="cu600">177.5</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/cyclassics-hamburg">more</a></td></tr>
+<tr data-main="1"><td>25.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/bretagne-classic/2024/result">Bretagne Classic - Ouest-France <span>(1.UWT)</span></a> </td><td class="cu600">259.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/bretagne-classic">more</a></td></tr>
+<tr data-main="1"><td>10.08</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/san-sebastian/2024/result">Donostia San Sebastian Klasikoa <span>(1.UWT)</span></a> </td><td class="cu600">236</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/san-sebastian">more</a></td></tr>
+<tr data-main="1"><td>03.08</td><td>56</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/olympic-games/2024/result">Olympic Games ME - Road Race <span>(Olympics)</span></a> </td><td class="cu600">272.1</td><td class="cu600">15</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/olympic-games">more</a></td></tr>
+<tr data-main="1"><td>23.06</td><td>7</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag jp"></span><a href="https://www.procyclingstats.com/race/nc-japan/2024/result">National Championships Japan ME - Road Race <span>(NC)</span></a> </td><td class="cu600">160</td><td class="cu600"></td><td class="cu600 ">20</td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/nc-japan">more</a></td></tr>
+<tr data-main="1"><td>21.06</td><td>3</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag jp"></span><a href="https://www.procyclingstats.com/race/nc-japan-itt/2024/result">National Championships Japan ME - ITT <span>(NC)</span></a> </td><td class="cu600">30</td><td class="cu600">2</td><td class="cu600 ">20</td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/nc-japan-itt">more</a></td></tr>
+<tr data-main="1"><td>12.06</td><td>13</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag kz"></span><a href="https://www.procyclingstats.com/race/asian-championships-me/2024/result">Asian Continental Championships ME - Road Race <span>(CC)</span></a> </td><td class="cu600">151</td><td class="cu600">18</td><td class="cu600 ">30</td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/asian-championships-me">more</a></td></tr>
+<tr data-main="1"><td>09.06</td><td>3</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag kz"></span><a href="https://www.procyclingstats.com/race/asian-cycling-championships-itt/2024/result">Asian Continental Championships ME - ITT <span>(CC)</span></a> </td><td class="cu600">40</td><td class="cu600">35</td><td class="cu600 ">40</td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/asian-cycling-championships-itt">more</a></td></tr>
+<tr data-main="1"><td>08.05 &raquo; 12.05</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag hu"></span><a href="https://www.procyclingstats.com/race/tour-de-hongrie/2024/gc">Tour de Hongrie <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tour-de-hongrie">more</a></td></tr>
+<tr data-main="0"><td></td><td>65</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag hu"></span><a href="https://www.procyclingstats.com/race/tour-de-hongrie/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tour-de-hongrie">more</a></td></tr>
+<tr data-main="0"><td>12.05</td><td>87</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag hu"></span><a href="https://www.procyclingstats.com/race/tour-de-hongrie/2024/stage-5">Stage 5 - Siófok &rsaquo; Pécs</a> </td><td class="cu600">173.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tour-de-hongrie">more</a></td></tr>
+<tr data-main="0"><td>11.05</td><td>60</td><td class="gc cu600">65</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag hu"></span><a href="https://www.procyclingstats.com/race/tour-de-hongrie/2024/stage-4">Stage 4 - Budapest &rsaquo; Etyek</a> </td><td class="cu600">165.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tour-de-hongrie">more</a></td></tr>
+<tr data-main="0"><td>10.05</td><td>68</td><td class="gc cu600">67</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag hu"></span><a href="https://www.procyclingstats.com/race/tour-de-hongrie/2024/stage-3">Stage 3 - Kazincbarcika &rsaquo; Gyöngyös-Kékestető</a> </td><td class="cu600">182.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tour-de-hongrie">more</a></td></tr>
+<tr data-main="0"><td>09.05</td><td>83</td><td class="gc cu600">89</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag hu"></span><a href="https://www.procyclingstats.com/race/tour-de-hongrie/2024/stage-2">Stage 2 - Tokaj &rsaquo; Kazincbarcika</a> </td><td class="cu600">162.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tour-de-hongrie">more</a></td></tr>
+<tr data-main="0"><td>08.05</td><td>96</td><td class="gc cu600">96</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag hu"></span><a href="https://www.procyclingstats.com/race/tour-de-hongrie/2024/stage-1">Stage 1 - Karcag &rsaquo; Hajdúszoboszló</a> </td><td class="cu600">166.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tour-de-hongrie">more</a></td></tr>
+<tr data-main="1"><td>01.05</td><td>84</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="https://www.procyclingstats.com/race/eschborn-frankfurt/2024/result">Eschborn-Frankfurt <span>(1.UWT)</span></a> </td><td class="cu600">201.5</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/eschborn-frankfurt">more</a></td></tr>
+<tr data-main="1"><td>21.04</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/liege-bastogne-liege/2024/result">Liège-Bastogne-Liège <span>(1.UWT)</span></a> </td><td class="cu600">254.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/liege-bastogne-liege">more</a></td></tr>
+<tr data-main="1"><td>17.04</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/la-fleche-wallone/2024/result">La Flèche Wallonne <span>(1.UWT)</span></a> </td><td class="cu600">198.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/la-fleche-wallone">more</a></td></tr>
+<tr data-main="1"><td>14.04</td><td>95</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag nl"></span><a href="https://www.procyclingstats.com/race/amstel-gold-race/2024/result">Amstel Gold Race <span>(1.UWT)</span></a> </td><td class="cu600">253.6</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/amstel-gold-race">more</a></td></tr>
+<tr data-main="1"><td>01.04 &raquo; 06.04</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-6">Itzulia Basque Country <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>06.04</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-6">Stage 6 - Eibar &rsaquo; Eibar</a> </td><td class="cu600">137.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>05.04</td><td>140</td><td class="gc cu600">125</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-5">Stage 5 - Vitoria-Gasteiz &rsaquo; Amorebieta-Etxano</a> </td><td class="cu600">175.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>04.04</td><td>120</td><td class="gc cu600">95</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-4">Stage 4 - Etxarri Aranatz &rsaquo; Legutio</a> </td><td class="cu600">157.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>03.04</td><td>57</td><td class="gc cu600">104</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-3">Stage 3 - Ezpeleta &rsaquo; Altsasu</a> </td><td class="cu600">190.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>02.04</td><td>113</td><td class="gc cu600">114</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-2">Stage 2 - Irun &rsaquo; Kanbo</a> </td><td class="cu600">160</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/itzulia-basque-country">more</a></td></tr>
+<tr data-main="0"><td>01.04</td><td>134</td><td class="gc cu600">134</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/itzulia-basque-country/2024/stage-1">Stage 1 (ITT) - Irun &rsaquo; Irun</a> </td><td class="cu600">10</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/itzulia-basque-country">more</a></td></tr>
+<tr data-main="1"><td>04.03 &raquo; 10.03</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tirreno-adriatico/2024/stage-7">Tirreno-Adriatico <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tirreno-adriatico">more</a></td></tr>
+<tr data-main="0"><td>10.03</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tirreno-adriatico/2024/stage-7">Stage 7 - San Benedetto del Tronto &rsaquo; San Benedetto del Tronto</a> </td><td class="cu600">154</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tirreno-adriatico">more</a></td></tr>
+<tr data-main="0"><td>09.03</td><td>134</td><td class="gc cu600">113</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tirreno-adriatico/2024/stage-6">Stage 6 - Sassoferrato &rsaquo; Cagli (Monte Petrano)</a> </td><td class="cu600">180</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tirreno-adriatico">more</a></td></tr>
+<tr data-main="0"><td>08.03</td><td>84</td><td class="gc cu600">111</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tirreno-adriatico/2024/stage-5">Stage 5 - Torricella Sicura &rsaquo; Valle Castellana</a> </td><td class="cu600">144</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tirreno-adriatico">more</a></td></tr>
+<tr data-main="0"><td>07.03</td><td>131</td><td class="gc cu600">137</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tirreno-adriatico/2024/stage-4">Stage 4 - Arrone &rsaquo; Giulianova</a> </td><td class="cu600">207</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tirreno-adriatico">more</a></td></tr>
+<tr data-main="0"><td>06.03</td><td>143</td><td class="gc cu600">142</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tirreno-adriatico/2024/stage-3">Stage 3 - Volterra &rsaquo; Gualdo Tadino</a> </td><td class="cu600">225</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tirreno-adriatico">more</a></td></tr>
+<tr data-main="0"><td>05.03</td><td>76</td><td class="gc cu600">64</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tirreno-adriatico/2024/stage-2">Stage 2 - Camaiore &rsaquo; Follonica</a> </td><td class="cu600">198</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tirreno-adriatico">more</a></td></tr>
+<tr data-main="0"><td>04.03</td><td>69</td><td class="gc cu600">69</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tirreno-adriatico/2024/stage-1">Stage 1 (ITT) - Lido di Camaiore &rsaquo; Lido di Camaiore</a> </td><td class="cu600">10</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/tirreno-adriatico">more</a></td></tr>
+<tr data-main="1"><td>31.01 &raquo; 04.02</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2024/stage-2">Volta a la Comunitat Valenciana <span>(2.Pro)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/vuelta-a-la-comunidad-valenciana">more</a></td></tr>
+<tr data-main="0"><td>01.02</td><td>DNS</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2024/stage-2">Stage 2 - Canals &rsaquo; La Valldigna</a> </td><td class="cu600">162.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/vuelta-a-la-comunidad-valenciana">more</a></td></tr>
+<tr data-main="0"><td>31.01</td><td>116</td><td class="gc cu600">116</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-a-la-comunidad-valenciana/2024/stage-1">Stage 1 - Benicássim &rsaquo; Castellón</a> </td><td class="cu600">167</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/yukiya-arashiro/vuelta-a-la-comunidad-valenciana">more</a></td></tr>
+</tbody></table><div class="rdrResultsSum" ><div>4581</b> km in <b>31</b> days | PCS points: <b>85</b> |  UCI points: <b>115</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class=" nr"  >8</div><div class=" title"  ><a    href="rider/yukiya-arashiro/statistics/wins">Wins</a></div><div class=" info fs11"  >GC (2)</div><div class=" info fs11"  >Oneday races (4)</div><div class=" info fs11"  >ITT (0)</div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >16</div><div class=" title"  ><a    href="rider/yukiya-arashiro/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  >tour (7) giro (5) vuelta(4)</div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  >14</div><div class=" title"  ><a    href="rider/yukiya-arashiro/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  >RBX(1)</div><div class=" info fs11"  >MSR(4)</div><div class=" info fs11"  >RVV(0)</div><div class=" info fs11"  >LBL(7)</div><div class=" info fs11"  >LOM(2)</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="mt30"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  " >2023</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 41.7%; position: relative;   "><div class="vTitle" style="line-height: 12px;">157</div></div></div></td><td class="ac  " >391</td></tr>
-<tr ><td class="season  " >2022</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 24.5%; position: relative;   "><div class="vTitle" style="line-height: 12px;">92</div></div></div></td><td class="ac  " >498</td></tr>
-<tr ><td class="season  " >2021</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 22.6%; position: relative;   "><div class="vTitle" style="line-height: 12px;">85</div></div></div></td><td class="ac  " >498</td></tr>
-<tr ><td class="season  " >2020</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 14.4%; position: relative;   "><div class="vTitle" style="line-height: 12px;">54</div></div></div></td><td class="ac  " >497</td></tr>
-<tr ><td class="season  " >2019</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 16.2%; position: relative;   "><div class="vTitle" style="line-height: 12px;">61</div></div></div></td><td class="ac  " >829</td></tr>
-<tr ><td class="season  " >2018</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 50.2%; position: relative;   "><div class="vTitle" style="line-height: 12px;">189</div></div></div></td><td class="ac  " >333</td></tr>
-<tr ><td class="season  " >2017</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 45.7%; position: relative;   "><div class="vTitle" style="line-height: 12px;">172</div></div></div></td><td class="ac  " >374</td></tr>
-<tr ><td class="season  " >2016</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 54.8%; position: relative;   "><div class="vTitle" style="line-height: 12px;">206</div></div></div></td><td class="ac  " >302</td></tr>
-<tr ><td class="season  " >2015</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 56.3%; position: relative;   "><div class="vTitle" style="line-height: 12px;">212</div></div></div></td><td class="ac  " >310</td></tr>
-<tr ><td class="season  " >2014</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 41.2%; position: relative;   "><div class="vTitle" style="line-height: 12px;">155</div></div></div></td><td class="ac  " >398</td></tr>
-<tr ><td class="season  " >2013</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 50.2%; position: relative;   "><div class="vTitle" style="line-height: 12px;">189</div></div></div></td><td class="ac  " >311</td></tr>
-<tr ><td class="season  " >2012</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 66.2%; position: relative;   "><div class="vTitle" style="line-height: 12px;">249</div></div></div></td><td class="ac  " >244</td></tr>
-<tr ><td class="season  " >2011</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 75.5%; position: relative;   "><div class="vTitle" style="line-height: 12px;">284</div></div></div></td><td class="ac  " >204</td></tr>
-<tr ><td class="season  " >2010</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative;   "><div class="vTitle" style="line-height: 12px;">301</div></div></div></td><td class="ac  " >172</td></tr>
-<tr ><td class="season  " >2009</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 47.6%; position: relative;   "><div class="vTitle" style="line-height: 12px;">179</div></div></div></td><td class="ac  " >323</td></tr>
-<tr ><td class="season  " >2008</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 54%; position: relative;   "><div class="vTitle" style="line-height: 12px;">203</div></div></div></td><td class="ac  " >300</td></tr>
-<tr ><td class="season  " >2007</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 40.1%; position: relative;   "><div class="vTitle" style="line-height: 12px;">151</div></div></div></td><td class="ac  " >384</td></tr>
-<tr ><td class="season  " >2006</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 21.3%; position: relative;   "><div class="vTitle" style="line-height: 12px;">80</div></div></div></td><td class="ac  " >668</td></tr>
-<tr ><td class="season  " >2005</td><td class="bar  " ><div class="barCont" ><div class="bg left green2 h12" style="width: 0.5%; position: relative;   "><div class="vTitle" style="line-height: 12px;">2</div></div></div></td><td class="ac  " >2103</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2024</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 22.6%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">85</div></div></div></td><td class="ac  "  style="height: 1px; ">554</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2023</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 41.7%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">157</div></div></div></td><td class="ac  "  style="height: 1px; ">391</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2022</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 24.5%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">92</div></div></div></td><td class="ac  "  style="height: 1px; ">498</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2021</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 22.6%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">85</div></div></div></td><td class="ac  "  style="height: 1px; ">498</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2020</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 14.4%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">54</div></div></div></td><td class="ac  "  style="height: 1px; ">497</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2019</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 16.2%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">61</div></div></div></td><td class="ac  "  style="height: 1px; ">829</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2018</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 50.2%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">189</div></div></div></td><td class="ac  "  style="height: 1px; ">333</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2017</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 45.7%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">172</div></div></div></td><td class="ac  "  style="height: 1px; ">374</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2016</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 54.8%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">206</div></div></div></td><td class="ac  "  style="height: 1px; ">302</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2015</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 56.3%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">212</div></div></div></td><td class="ac  "  style="height: 1px; ">310</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2014</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 41.2%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">155</div></div></div></td><td class="ac  "  style="height: 1px; ">398</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2013</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 50.2%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">189</div></div></div></td><td class="ac  "  style="height: 1px; ">311</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2012</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 66.2%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">249</div></div></div></td><td class="ac  "  style="height: 1px; ">244</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2011</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 75.5%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">284</div></div></div></td><td class="ac  "  style="height: 1px; ">204</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2010</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">301</div></div></div></td><td class="ac  "  style="height: 1px; ">172</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2009</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 47.6%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">179</div></div></div></td><td class="ac  "  style="height: 1px; ">323</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2008</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 54%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">203</div></div></div></td><td class="ac  "  style="height: 1px; ">300</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2007</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 40.1%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">151</div></div></div></td><td class="ac  "  style="height: 1px; ">384</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2006</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 21.3%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">80</div></div></div></td><td class="ac  "  style="height: 1px; ">668</td></tr>
+<tr ><td class="season  "  style="height: 1px; ">2005</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 0.5%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">2</div></div></div></td><td class="ac  "  style="height: 1px; ">2103</td></tr>
 </tbody></table></span></div>
+<div class=""></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
   var id = 140742; 
@@ -240,6 +270,7 @@ $(document).ready(function(){
   var cxid = 0; 
   var seo = 'yukiya-arashiro';
   var sort = 'date'; 
+  var filter = 'all'; 
   var pid = '1238'; 
   var discipline = 'road'; 
   var subpath = '';   
@@ -258,7 +289,7 @@ $(document).ready(function(){
     $(this).parents('ul').find('li').removeClass('cur');
     $(this).parent('li').addClass('cur'); 
     //console.log(subpath);
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season') }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, sort: sort, pid: pid, discipline: discipline, season: $(this).attr('data-season'), filter: filter }  }).done(function( response ) {     $('#resultsCont').html(response);      })  
   });   
 
   $(document).on('click', '.seasonResults', function(e){
@@ -272,7 +303,7 @@ $(document).ready(function(){
     $(".rdrSeasonNav li").removeClass('cur');
     $(".rdrSeasonNav li[data-season="+season+"]").addClass('cur'); 
 
-    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline  }  }).done(function( response ) {   
+    $.ajax({  method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1, id: id, natid: natid, cxid:cxid, season: season, sort: sort, pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {   
     	//console.log(response);
       $('#resultsCont').html(response);      
     })
@@ -288,8 +319,27 @@ $(document).ready(function(){
     sort = $(this).attr('data-case');
    // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
    
-    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+  });
+
+
+  $(".filterByResults a").click(function(e){
+    e.preventDefault();        
+    var season = $(".rdrSeasonNav li.cur").attr('data-season');
+
+    
+    $("#resultsCont").html('<br /><div class=\"loading\"> loading results ..</div>');
+    $(".filterByResults a").removeClass('cur');
+    $(this).addClass('cur');
+    filter = $(this).attr('data-case');
+   // console.log('dis: '+discipline+', season: '+season+', sort: '+sort+', cxid: '+cxid+', natid: '+natid+', id: '+id);
+   
+    $.ajax({ method: "POST", url: subpath+"rdr/start3.php", data: { getresults: 1,id:id, natid: natid, cxid:cxid, season: season, sort: $(this).attr('data-case'), pid: pid, discipline: discipline, filter: filter  }  }).done(function( response ) {    $('#resultsCont').html(response);   }) 
+
   }); 
+
+
+  
 
 });
 </script>
@@ -324,7 +374,7 @@ $(document).ready(function(){
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
 <li><a href="race/e3-harelbeke">E3 Classic</a></li>
 <li><a href="race/gent-wevelgem">Gent-Wevelgem</a></li>
-<li><a href="race/dwars-door-vlaanderen">Dwars door vlaanderen</a></li>
+<li><a href="race/dwars-door-vlaanderen">Dwars door Vlaanderen</a></li>
 <li><a href="race/eschborn-frankfurt">Eschborn-Frankfurt</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
@@ -336,7 +386,7 @@ $(document).ready(function(){
 <li class="group"><h3>Popular riders</h3><ul><li><a href="rider/tadej-pogacar">Tadej Pogačar</a></li>
 <li><a href="rider/wout-van-aert">Wout van Aert</a></li>
 <li><a href="rider/remco-evenepoel">Remco Evenepoel</a></li>
-<li><a href="rider/jonas-vingegaard-rasmussen">Jonas Vingegaard</a></li>
+<li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
 <li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
 <li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
@@ -359,25 +409,21 @@ $(document).ready(function(){
 <li><a href="info/profile-score-explained">Profile scores</a></li>
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
-<li><a href="info/procyclinggame">ProCyclingGame</a></li>
+<li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
 </ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0708s</span></li>
+<li><span>Pageload 0.1705s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list9.js"></script>  
-
+<script src="search_list13.js"></script>  
 		<script>
-
 		var riderid = 140742;		$(document).ready(function() { 	RVC(riderid);  	  });
-
 		</script>
-
 		
