@@ -45,7 +45,7 @@ jobs:
           echo "GOOGLE_APPLICATION_CREDENTIALS=$(echo $(pwd)/firebase.service-account.json)" >> $GITHUB_ENV
 
       - name: Run scraper
-        run: java -jar release/scraper.jar -s 2024 -c cache -d out ${{ inputs.formats }} -st 20m -rd 1s
+        run: java -jar release/scraper.jar -s 2025 -c cache -d out ${{ inputs.formats }} -st 20m -rd 1s
         env:
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
