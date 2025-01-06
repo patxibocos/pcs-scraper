@@ -87,7 +87,7 @@ class PCSRidersScraper(
         val riderURL = buildURL(riderUrl)
         val riderDoc = docFetcher.getDoc(riderURL) { relaxed = true }
         val infoContent = riderDoc.findFirst(".rdr-info-cont")
-        val country = riderDoc.findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
+        val country = riderDoc.findFirst(".rdr-info-cont > .flag").classNames.find { it.length == 2 }.orEmpty()
         val website = riderDoc.getWebsite()
         val birthDate = infoContent.ownText.split(' ').take(3).joinToString(" ")
         val birthPlaceWeightAndHeight = infoContent.findFirst(":last-child").findFirst { text }.split(' ')
