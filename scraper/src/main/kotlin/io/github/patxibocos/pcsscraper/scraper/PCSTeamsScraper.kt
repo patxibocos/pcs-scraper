@@ -111,7 +111,7 @@ class PCSTeamsScraper(
         }?.parent?.findFirst("a")?.attribute("href")
 
     private fun Doc.getCountry(): String =
-        findFirst("span.flag").classNames.find { it.length == 2 }.orEmpty()
+        findFirst(".main > span.flag").classNames.find { it.length == 2 }.orEmpty()
 
     private fun buildURL(path: String): URL =
         URI(pcsUrl).resolve("/").resolve(path.trim()).toURL()
