@@ -3,7 +3,7 @@ package io.github.patxibocos.pcsscraper.entity
 import kotlinx.serialization.Contextual
 import kotlinx.serialization.Serializable
 import java.net.URL
-import java.util.Locale
+import java.util.*
 
 @Serializable
 data class Team(

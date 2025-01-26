@@ -83,6 +83,7 @@ data class PCSParticipantResult(
     val position: String,
     val participant: String,
     val result: String,
+    val name: String,
 )
 
 data class PCSPlaceResult(

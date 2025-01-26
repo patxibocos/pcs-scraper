@@ -27,9 +27,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a249.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b195.css" />
-<script src="https://www.procyclingstats.com/pcs_s88.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a267.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b210.css" />
+<script src="https://www.procyclingstats.com/pcs_s96.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -47,15 +47,15 @@
     	<div class="menuCont">
       	<a class="mobMenu" href="">&#9776; Menu</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
-<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
+<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -65,33 +65,34 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
-<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
-<li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
-<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2024">Cofidis</a></li>
-<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
-<li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
-<li><a href="team/movistar-team-2024">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
-<li><a href="team/team-dsm-firmenich-postnl-2024">Team dsm-firmenich PostNL</a></li>
-<li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
-<li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
-<li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/ef-education-easypost-2025">EF Education - EasyPost</a></li>
+<li><a href="team/groupama-fdj-2025">Groupama - FDJ</a></li>
+<li><a href="team/cofidis-2025">Cofidis</a></li>
+<li><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-wanty-2025">Intermarché - Wanty</a></li>
+<li><a href="team/lidl-trek-2025">Lidl - Trek</a></li>
+<li><a href="team/movistar-team-2025">Movistar Team</a></li>
+<li><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></li>
+<li><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></li>
+<li><a href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></li>
+<li><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></li>
+<li><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></li>
+<li><a href="team/xds-astana-team-2025">XDS Astana Team</a></li>
+<li><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></li>
+<li><a href="team/arkea-b-b-hotels-2025">Arkéa - B&B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
-<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
+<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
 <li><a href="statistics/riders">Riders</a></li>
 <li><a href="statistics/teams">Teams</a></li>
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
+<li class=" "><a class="reg" href="quiz.php">Quiz</a></li>
+<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
@@ -99,13 +100,12 @@
 <li><a href="info/about-us">About us</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/terminology-list">Terminology list</a></li>
-<li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class=" user"><a class="reg" href="login.php">Login</a></li>
  
 				 </ul> 
 			 </div>			 
-			 <a class="topUser  " href="login.php"></a><div class="selectLanguage selectPlatform"><a href="">road</a><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
+			 <a class="topUser  " href="login.php"></a><div class="selectLanguage"><font><span class="flag gb"></span>gb</font><div><ul><li><a href="index.php?url=%2Frider%2Fmilan-fretin&lan=gb"><span class="flag gb"></span>English</a></li><li><a href="index.php?url=%2Frider%2Fmilan-fretin&lan=es"><span class="flag es"></span>Español</a></li></ul></div></div><div class="selectLanguage selectPlatform"><font>road</font><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
   </header>  
 <div class="content"> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/milan-fretin">Overview</a></li>
 <li class="reg "><a class="" href="rider/milan-fretin/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/milan-fretin/statistics/overview">Overview</a></li>
@@ -118,8 +118,8 @@
 <li><a href="rider/milan-fretin/statistics/injury-history">Injury history</a></li>
 </ul></li>
 <li class="reg "><a class="" href="rider/milan-fretin/results">Results</a></li>
+<li class="reg "><a class="" href="rider/milan-fretin/calendar">Program</a></li>
 <li class="reg "><a class="" href="rider/milan-fretin/head-to-head">H2H</a></li>
-<li class="reg "><a class="" href="rider/milan-fretin/calendar">Calendar</a></li>
 <li class="reg "><a class="" href="rider/milan-fretin/contribute">More&#x25BC;</a><ul><li><a href="rider/milan-fretin/contribute/contribute-info">Contribute info</a></li>
 <li><a href="rider/milan-fretin/contribute/submit-program">Submit program</a></li>
 <li><a href="rider/milan-fretin/contribute/report">Report</a></li>
@@ -130,35 +130,37 @@
 <li class="reg "><a class="" href="rider/milan-fretin/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/milan-fretin/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/milan-fretin/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/milan-fretin">More</a><ul><li data-n="1"><a href="rider/milan-fretin/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/milan-fretin/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/milan-fretin/statistics/overview">Overview dd</a></li>
-<li data-n="1"><a href="rider/milan-fretin/statistics/season-statistics">Statistics by season dd</a></li>
-<li data-n="1"><a href="rider/milan-fretin/statistics/key-events">Key events dd</a></li>
-<li data-n="1"><a href="rider/milan-fretin/statistics/world-map-of-rider-races">World map of rider races dd</a></li>
-<li data-n="1"><a href="rider/milan-fretin/statistics/wins">Wins dd</a></li>
-<li data-n="1"><a href="rider/milan-fretin/statistics/most-starts-by-race">Most starts by race dd</a></li>
-<li data-n="1"><a href="rider/milan-fretin/statistics/grand-tour-starts">Starts and results dd</a></li>
-<li data-n="1"><a href="rider/milan-fretin/statistics/injury-history">Injury history dd</a></li>
-<li data-n="3"><a href="rider/milan-fretin/results/results">Results - Results</a></li><li data-n="4"><a href="rider/milan-fretin/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/milan-fretin/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/milan-fretin/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/milan-fretin/contribute/contribute-info">Contribute info dd</a></li>
-<li data-n="5"><a href="rider/milan-fretin/contribute/submit-program">Submit program dd</a></li>
-<li data-n="5"><a href="rider/milan-fretin/contribute/report">Report dd</a></li>
-<li data-n="5"><a href="rider/milan-fretin/contribute/contribute-social-feeds">Contribute sites / social media dd</a></li>
-<li data-n="5"><a href="rider/milan-fretin/contribute/contribute-family">Family dd</a></li>
-<li data-n="5"><a href="rider/milan-fretin/contribute/embed-rider-results">Embed rider results dd</a></li>
-<li data-n="7"><a href="rider/milan-fretin/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/milan-fretin/specialties/top-gc-results">Top GC results dd</a></li>
-<li data-n="6"><a href="rider/milan-fretin/specialties/fastest-tt">Fastest TT dd</a></li>
+<li class="more"><a href="rider/milan-fretin">More</a><ul><li data-n="1"><a href="rider/milan-fretin/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/milan-fretin/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/milan-fretin/statistics/overview">Overview</a></li>
+<li data-n="1"><a href="rider/milan-fretin/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/milan-fretin/statistics/key-events">Key events</a></li>
+<li data-n="1"><a href="rider/milan-fretin/statistics/world-map-of-rider-races">World map of rider races</a></li>
+<li data-n="1"><a href="rider/milan-fretin/statistics/wins">Wins</a></li>
+<li data-n="1"><a href="rider/milan-fretin/statistics/most-starts-by-race">Most starts by race</a></li>
+<li data-n="1"><a href="rider/milan-fretin/statistics/grand-tour-starts">Starts and results</a></li>
+<li data-n="1"><a href="rider/milan-fretin/statistics/injury-history">Injury history</a></li>
+<li data-n="3"><a href="rider/milan-fretin/results/results">Results - Results</a></li><li data-n="4"><a href="rider/milan-fretin/calendar/calendar">Program - Program</a></li><li data-n="5"><a href="rider/milan-fretin/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="6"><a href="rider/milan-fretin/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/milan-fretin/contribute/contribute-info">Contribute info</a></li>
+<li data-n="5"><a href="rider/milan-fretin/contribute/submit-program">Submit program</a></li>
+<li data-n="5"><a href="rider/milan-fretin/contribute/report">Report</a></li>
+<li data-n="5"><a href="rider/milan-fretin/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
+<li data-n="5"><a href="rider/milan-fretin/contribute/contribute-family">Family</a></li>
+<li data-n="5"><a href="rider/milan-fretin/contribute/embed-rider-results">Embed rider results</a></li>
+<li data-n="7"><a href="rider/milan-fretin/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/milan-fretin/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="6"><a href="rider/milan-fretin/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag be w32"></span><span class="flag be w24"></span><h1 class="">Milan  Fretin</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Cofidis</span></div><div class="sub"><span class="red showIfMobile">Cofidis</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
 <ul class="list horizontal fs14 circle bluelink"></ul><div class="clear"></div>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/milan-fretin/statistics/overview"><img alt="Profile photo of Milan  Fretin" src="images/riders/bp/dd/milan-fretin-2024.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 19<sup>th</sup> March 2001 (23)<br /><b>Nationality:</b> <span class="flag  be"></span><a class="black" href="nation/belgium">Belgium</a><br /><span><b>Weight:</b> 70 kg &nbsp; <span><b>Height:</b> 1.82 m<br /><b>Place of birth:</b> <a href="location/genk">Genk</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 68.196721311475%; height: 100%;  "></div></div><div class="pnt">416</div><div class="title"><a href="rider/milan-fretin/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 14.262295081967%; height: 100%;  "></div></div><div class="pnt">87</div><div class="title"><a href="rider/milan-fretin/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 2.4590163934426%; height: 100%;  "></div></div><div class="pnt">15</div><div class="title"><a href="rider/milan-fretin/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 100%; height: 100%;  "></div></div><div class="pnt">610</div><div class="title"><a href="rider/milan-fretin/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 5.9016393442623%; height: 100%;  "></div></div><div class="pnt">36</div><div class="title"><a href="rider/milan-fretin/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 17.377049180328%; height: 100%;  "></div></div><div class="pnt">106</div><div class="title"><a href="rider/milan-fretin/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://www.facebook.com/steve.fretin.7"><span class="iconv3 facebook14"></span>fb</a></li><li><a target="_blank" href="https://www.instagram.com/milanfretin/?hl=nl"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://www.strava.com/athletes/74869318"><span class="iconv3 strava14"></span>strava</a></li></ul><div class="clear" style="height: 5px;"></div><div class="clear" ></div><div class=""></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/milan-fretin/statistics/overview"><img alt="Profile photo of Milan  Fretin" src="images/riders/bp/dd/milan-fretin-2025.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 19<sup>th</sup> March 2001 (23)<br /><b>Nationality:</b> <span class="flag  be"></span><a class="black" href="nation/belgium">Belgium</a><br /><span><b>Weight:</b> 70 kg &nbsp; <span><b>Height:</b> 1.82 m<br /><b>Place of birth:</b> <a href="location/genk">Genk</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 79.443585780526%; height: 100%;  "></div></div><div class="pnt">514</div><div class="title"><a href="rider/milan-fretin/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 14.219474497682%; height: 100%;  "></div></div><div class="pnt">92</div><div class="title"><a href="rider/milan-fretin/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 2.3183925811437%; height: 100%;  "></div></div><div class="pnt">15</div><div class="title"><a href="rider/milan-fretin/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 100%; height: 100%;  "></div></div><div class="pnt">647</div><div class="title"><a href="rider/milan-fretin/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 7.41885625966%; height: 100%;  "></div></div><div class="pnt">48</div><div class="title"><a href="rider/milan-fretin/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 32.766615146832%; height: 100%;  "></div></div><div class="pnt">212</div><div class="title"><a href="rider/milan-fretin/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://www.facebook.com/steve.fretin.7"><span class="iconv3 facebook14"></span>fb</a></li><li><a target="_blank" href="https://www.instagram.com/milanfretin/?hl=nl"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://www.strava.com/athletes/74869318"><span class="iconv3 strava14"></span>strava</a></li><li><a target="_blank" href="https://en.wikipedia.org/wiki/Milan_Fretin"><span class="iconv3 wiki14"></span>wiki</a></li></ul><div class="clear" style="height: 5px;"></div><div class="clear" ></div><div class=""></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class=" title"  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  >154</div><div class="clear"></div></li>
-<li class="" ><div class=" title"  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  >130</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"   style=" "><li class="" ><div class=" title"  data-pid="7688"><a       href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  data-pid="7689">108</div><div class="clear"></div></li>
+<li class="" ><div class=" title"  data-pid="7688"><a       href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  data-pid="7689">103</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class=" bold"  >Visits:</div><div ><span class="delta-up">&#x25B2;1152</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"   style=" "><li class="" ><div class=" bold"  data-pid="7702">Visits:</div><div data-pid="7703"><span class="delta-down">&#x25BC;447</span></div><div data-pid="7704">  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/4-jours-de-dunkerque/2024/stage-1">4 Jours de Dunkerque</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-du-poitou-charentes-et-de-la-vienne/2024/stage-2">Tour Poitou - Charentes en Nouvelle Aquitaine</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/sd-worx-bw-classic/2023/result">SD WORX BW Classic</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/munsterland-giro/2024/result">Sparkassen Münsterland Giro</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/memorial-frank-vandenbroucke/2024/result">Binche - Chimay - Binche / Mémorial Frank Vandenbroucke</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/arctic-race-of-norway/2024/stage-1">Arctic Race of Norway</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/4-jours-de-dunkerque/2024/stage-3">4 Jours de Dunkerque</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue"></span> <a href="race/paris-chauny-classique/2024/result">Paris-Chauny</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
@@ -166,30 +168,30 @@
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/czech-tour/2023/stage-1">Czech Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue"></span> <a href="race/race-torquay/2024/result">Surf Coast Classic</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">4th&nbsp;</div><div><span class="blue"></span> <a href="race/heist-op-den-berg/2024/result">Heistse Pijl</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">6th&nbsp;</div><div><span class="blue">GC</span> <a href="race/4-jours-de-dunkerque/2024/gc">4 Jours de Dunkerque</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">stage</span> <a href="race/4-jours-de-dunkerque/2023/stage-4">4 Jours de Dunkerque</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-</ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
-<div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class=" season"  >2027</div><div class=" name"  ><a    href="team/cofidis-2027">Cofidis</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2026</div><div class=" name"  ><a    href="team/cofidis-2026">Cofidis</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2025</div><div class=" name"  ><a    href="team/cofidis-2025">Cofidis</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2024</div><div class=" name"  ><a    href="team/cofidis-2024">Cofidis</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2023</div><div class=" name"  ><a    href="team/team-flanders--baloise-2023">Team Flanders - Baloise</a></div><div > (PRT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2022</div><div class=" name"  ><a    href="team/sport-vlaanderen-baloise-2022">Sport Vlaanderen - Baloise</a></div><div > (PRT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2021</div><div class=" name"  ><a    href="team/lotto-soudal-u23-2021">Lotto - Soudal U23</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2020</div><div class=" name"  ><a    href="team/efc-l-r-vulsteke-2020">EFC-L&R Vulsteke</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-</ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
-<div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class=" bold"  >01.10</div><div class=" ellipsis"  ><span class="flag be"></span> <a    href="race/memorial-frank-vandenbroucke/2024/startlist">Binche - Chimay - Binche / Mémorial Frank Vandenbroucke</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/milan-fretin/memorial-frank-vandenbroucke">more</a></div><div class="clear"></div></li>
-<li class="" ><div class=" bold"  >03.10</div><div class=" ellipsis"  ><span class="flag de"></span> <a    href="race/munsterland-giro/2024/startlist">Sparkassen Münsterland Giro</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/milan-fretin/munsterland-giro">more</a></div><div class="clear"></div></li>
-<li class="" ><div class=" bold"  >06.10</div><div class=" ellipsis"  ><span class="flag fr"></span> <a    href="race/paris-tours/2024/startlist">Paris - Tours Elite</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/milan-fretin/paris-tours">more</a></div><div class="clear"></div></li>
-<li class="" ><div class=" bold"  >15.10</div><div class=" ellipsis"  ><span class="flag cn"></span> <a    href="race/tour-of-guangxi/2024/startlist">Gree-Tour of Guangxi</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/milan-fretin/tour-of-guangxi">more</a></div><div class="clear"></div></li>
+</ul></div></div><div class="right w25 mb_w100 mb_mt10"><h3>Teams</h3><span class="table-cont"><ul class="rdr-teams2  "  ><li class="showifmob combiLine"><div class="season">2026-2027</div><div class="name2"><a class="blue" href="team/cofidis-2026">Cofidis</a> (WT)</div><div class="clear"></div></li><li class="main hideifmob "><div class="season">2027</div><div class="name"><a href="team/cofidis-2027">Cofidis</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main hideifmob "><div class="season">2026</div><div class="name"><a href="team/cofidis-2026">Cofidis</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2025</div><div class="name"><a href="team/cofidis-2025">Cofidis</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2024</div><div class="name"><a href="team/cofidis-2024">Cofidis</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2023</div><div class="name"><a href="team/team-flanders--baloise-2023">Team Flanders - Baloise</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2022</div><div class="name"><a href="team/sport-vlaanderen-baloise-2022">Sport Vlaanderen - Baloise</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  old"><div class="season">2021</div><div class="name"><a href="team/lotto-soudal-u23-2021">Lotto - Soudal U23</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  old"><div class="season">2020</div><div class="name"><a href="team/efc-l-r-vulsteke-2020">EFC-L&R Vulsteke</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  old"><div class="season">2018</div><div class="name"><a href="team/van-moer-logistics-cycling-team-2018">Van Moer Logistics Cycling Team</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li></ul><a class="showAllTeams showIfMobile" href="">show all</a></span><div class="mt30"><h3>Upcoming participations</h3>
+<span class="table-cont"><ul class="list flex pad2 dashed"   style=" "><li class="" ><div class=" bold"  data-pid="7673">16.02</div><div class=" ellipsis"  data-pid="7674"><span class="flag es"></span> <a       href="race/clasica-de-almeria/2025/startlist">Clasica de Almeria ME</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/milan-fretin/clasica-de-almeria">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">19.02</div><div class=" ellipsis"  data-pid="7674"><span class="flag pt"></span> <a       href="race/volta-ao-algarve/2025/startlist">Volta ao Algarve em Bicicleta</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/milan-fretin/volta-ao-algarve">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">02.03</div><div class=" ellipsis"  data-pid="7674"><span class="flag be"></span> <a       href="race/kuurne-brussel-kuurne/2025/startlist">Kuurne - Brussel - Kuurne</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/milan-fretin/kuurne-brussel-kuurne">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">09.05</div><div class=" ellipsis"  data-pid="7674"><span class="flag it"></span> <a       href="race/giro-d-italia/2025/startlist">Giro d'Italia</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/milan-fretin/giro-d-italia">more</a></div><div class="clear"></div></li>
 </ul></span></div>
 <div class=""><div class="text-regular"><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li class="more hide show_if"><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li></ul></li></ul><div class="resultsSortFilter sortByResults">Sort by: <a class="" data-case="date" href="">Date</a><a class="" data-case="rnk" href="">Result</a><a class="" data-case="pnt" href="">Points</a></div><div class="resultsSortFilter filterByResults">Filter by: <a class="cur" data-case="all" href="">All</a><a class="" data-case="climber" href="">Climber</a><a class="" data-case="hills" href="">Hills</a><a class="" data-case="sprints" href="">Sprints</a><a class="" data-case="tt" href="">TT</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
-<tr data-main="1"><td>25.09</td><td>12</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/omloop-van-het-houtland-lichtervelde/2024/result">Omloop van het Houtland <span>(1.1)</span></a> </td><td class="cu600">195.2</td><td class="cu600">10</td><td class="cu600 ">10</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/omloop-van-het-houtland-lichtervelde">more</a></td></tr>
+<tr data-main="1"><td>15.10 &raquo; 20.10</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/youth">Gree-Tour of Guangxi <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td></td><td>25</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td></td><td>21</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st5"  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/points">Points classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td></td><td>57</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 ">1</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>20.10</td><td>18</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-6">Stage 6 - Nanning &rsaquo; Nanning</a> </td><td class="cu600">134.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>19.10</td><td>86</td><td class="gc cu600">73</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-5">Stage 5 - Yizhou &rsaquo; Nongla</a> </td><td class="cu600">165.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>18.10</td><td>12</td><td class="gc cu600">16</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-4">Stage 4 - Bama &rsaquo; Jinchengjiang</a> </td><td class="cu600">176.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>17.10</td><td>4</td><td class="gc cu600">13</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-3">Stage 3 - Jingxi &rsaquo; Bama</a> </td><td class="cu600">214</td><td class="cu600">13</td><td class="cu600 ">15</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>16.10</td><td>14</td><td class="gc cu600">15</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-2">Stage 2 - Chongzuo &rsaquo; Jingxi</a> </td><td class="cu600">181.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>15.10</td><td>8</td><td class="gc cu600">12</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-1">Stage 1 - Fangchenggang &rsaquo; Fangchenggang</a> </td><td class="cu600">149.4</td><td class="cu600">3</td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-of-guangxi">more</a></td></tr>
+<tr data-main="1"><td>06.10</td><td>37</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-tours/2024/result">Paris - Tours Elite <span>(1.Pro)</span></a> </td><td class="cu600">213.8</td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/paris-tours">more</a></td></tr>
+<tr data-main="1"><td>03.10</td><td>3</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag de"></span><a href="https://www.procyclingstats.com/race/munsterland-giro/2024/result">Sparkassen Münsterland Giro <span>(1.Pro)</span></a> </td><td class="cu600">202</td><td class="cu600">60</td><td class="cu600 ">125</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/munsterland-giro">more</a></td></tr>
+<tr data-main="1"><td>01.10</td><td>3</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/memorial-frank-vandenbroucke/2024/result">Binche - Chimay - Binche / Mémorial Frank Vandenbroucke <span>(1.1)</span></a> </td><td class="cu600">198.6</td><td class="cu600">40</td><td class="cu600 ">70</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/memorial-frank-vandenbroucke">more</a></td></tr>
+<tr data-main="1"><td>25.09</td><td>13</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/omloop-van-het-houtland-lichtervelde/2024/result">Omloop van het Houtland <span>(1.1)</span></a> </td><td class="cu600">195.2</td><td class="cu600">8</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/omloop-van-het-houtland-lichtervelde">more</a></td></tr>
 <tr data-main="1"><td>22.09</td><td>3</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-chauny-classique/2024/result">Paris-Chauny <span>(1.1)</span></a> </td><td class="cu600">197.2</td><td class="cu600">40</td><td class="cu600 ">70</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/paris-chauny-classique">more</a></td></tr>
-<tr data-main="1"><td>20.09</td><td>136</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/kampioenschap-van-vlaanderen/2024/result">Kampioenschap van Vlaanderen <span>(1.1)</span></a> </td><td class="cu600">180.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/kampioenschap-van-vlaanderen">more</a></td></tr>
+<tr data-main="1"><td>20.09</td><td>136</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/kampioenschap-van-vlaanderen1/2024/result">Kampioenschap van Vlaanderen <span>(1.1)</span></a> </td><td class="cu600">180.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/kampioenschap-van-vlaanderen1">more</a></td></tr>
 <tr data-main="1"><td>15.09</td><td>21</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/gp-d-isbergues/2024/result">Grand Prix d'Isbergues - Pas de Calais <span>(1.1)</span></a> </td><td class="cu600">198.8</td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/gp-d-isbergues">more</a></td></tr>
 <tr data-main="1"><td>08.09</td><td>4</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/gp-de-fourmies/2024/result">GP de Fourmies / La Voix du Nord <span>(1.Pro)</span></a> </td><td class="cu600">197.7</td><td class="cu600">50</td><td class="cu600 ">100</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/gp-de-fourmies">more</a></td></tr>
 <tr data-main="1"><td>28.08 &raquo; 01.09</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/renewi-tour/2024/stage-5">Renewi Tour <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/renewi-tour">more</a></td></tr>
@@ -249,7 +251,7 @@
 <tr data-main="0"><td>21.02</td><td>92</td><td class="gc cu600">96</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-3">Stage 3 - Al Marjan Island &rsaquo; Jebel Jais</a> </td><td class="cu600">176</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/uae-tour">more</a></td></tr>
 <tr data-main="0"><td>20.02</td><td>81</td><td class="gc cu600">75</td><td style="padding: 0; "><span class="icon chrono"  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-2">Stage 2 (ITT) - Al Hudayriyat Island &rsaquo; Al Hudayriyat Island</a> </td><td class="cu600">12.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/uae-tour">more</a></td></tr>
 <tr data-main="0"><td>19.02</td><td>139</td><td class="gc cu600">129</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ae"></span><a href="https://www.procyclingstats.com/race/uae-tour/2024/stage-1">Stage 1 - Al Dhafra Walk Madinat Zayed &rsaquo; Liwa</a> </td><td class="cu600">141</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/uae-tour">more</a></td></tr>
-<tr data-main="1"><td>11.02</td><td>6</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/clasica-de-almeria/2024/result">Clasica de Almeria <span>(1.Pro)</span></a> </td><td class="cu600">192.3</td><td class="cu600">40</td><td class="cu600 ">70</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/clasica-de-almeria">more</a></td></tr>
+<tr data-main="1"><td>11.02</td><td>6</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/clasica-de-almeria/2024/result">Clasica de Almeria ME <span>(1.Pro)</span></a> </td><td class="cu600">192.3</td><td class="cu600">40</td><td class="cu600 ">70</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/clasica-de-almeria">more</a></td></tr>
 <tr data-main="1"><td>10.02</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/vuelta-ciclista-a-la-region-de-murcia/2024/result">Vuelta Ciclista a la Region de Murcia "Costa Calida" <span>(1.1)</span></a> </td><td class="cu600">198.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
 <tr data-main="1"><td>28.01</td><td>68</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="https://www.procyclingstats.com/race/great-ocean-race/2024/result">Cadel Evans Great Ocean Road Race <span>(1.UWT)</span></a> </td><td class="cu600">174.3</td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/great-ocean-race">more</a></td></tr>
 <tr data-main="1"><td>25.01</td><td>4</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="https://www.procyclingstats.com/race/race-torquay/2024/result">Surf Coast Classic <span>(1.1)</span></a> </td><td class="cu600">158.6</td><td class="cu600">32</td><td class="cu600 ">60</td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/race-torquay">more</a></td></tr>
@@ -263,20 +265,27 @@
 <tr data-main="0"><td>17.01</td><td>83</td><td class="gc cu600">84</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="https://www.procyclingstats.com/race/tour-down-under/2024/stage-2">Stage 2 - Norwood &rsaquo; Lobethal</a> </td><td class="cu600">141.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-down-under">more</a></td></tr>
 <tr data-main="0"><td>16.01</td><td>12</td><td class="gc cu600">15</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="https://www.procyclingstats.com/race/tour-down-under/2024/stage-1">Stage 1 - Tanunda &rsaquo; Tanunda</a> </td><td class="cu600">144</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/tour-down-under">more</a></td></tr>
 <tr data-main="1"><td>13.01</td><td>12</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag au"></span><a href="national-race/schwalbe-classic/2024/result">Down Under Classic <span>(NAT)</span></a> </td><td class="cu600">54</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/milan-fretin/schwalbe-classic">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>9136</b> km in <b>58</b> days | PCS points: <b>469</b> |  UCI points: <b>660</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
-<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class=" nr"  >2</div><div class=" title"  ><a    href="rider/milan-fretin/statistics/wins">Wins</a></div><div class=" info fs11"  >GC (0)</div><div class=" info fs11"  >Oneday races (0)</div><div class=" info fs11"  >ITT (0)</div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
-<li class="" ><div class=" nr"  >0</div><div class=" title"  ><a    href="rider/milan-fretin/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
-<li class="" ><div class=" nr"  >2</div><div class=" title"  ><a    href="rider/milan-fretin/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  >RBX(2)</div><div class=" info fs11"  >MSR(0)</div><div class=" info fs11"  >RVV(0)</div><div class=" info fs11"  >LBL(0)</div><div class=" info fs11"  >LOM(0)</div><div class="clear"></div></li>
+</tbody></table><div class="rdrResultsSum" ><div>10772</b> km in <b>67</b> days | PCS points: <b>588</b> |  UCI points: <b>872</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div><div class="ar fs10 mt10"><a class="blue" href="calendar/uci/upload-result">Missing result?</a></div></div><div class="right w25 mb_w100"><div class="mt20"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi"   style=" "><li class="" ><div class=" nr"  data-pid="7664">2</div><div class=" title"  data-pid="7665"><a       href="rider/milan-fretin/statistics/wins">Wins</a></div><div class=" info fs11"  data-pid="7666">GC (0)</div><div class=" info fs11"  data-pid="7667">Oneday races (0)</div><div class=" info fs11"  data-pid="11102">ITT (0)</div><div class=" info fs11"  data-pid="11103"></div><div class=" info fs11"  data-pid="11104"></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  data-pid="7664">0</div><div class=" title"  data-pid="7665"><a       href="rider/milan-fretin/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  data-pid="7666"></div><div class=" info fs11"  data-pid="7667"></div><div class=" info fs11"  data-pid="11102"></div><div class=" info fs11"  data-pid="11103"></div><div class=" info fs11"  data-pid="11104"></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  data-pid="7664">2</div><div class=" title"  data-pid="7665"><a       href="rider/milan-fretin/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  data-pid="7666">RBX(2)</div><div class=" info fs11"  data-pid="7667">MSR(0)</div><div class=" info fs11"  data-pid="11102">RVV(0)</div><div class=" info fs11"  data-pid="11103">LBL(0)</div><div class=" info fs11"  data-pid="11104">LOM(0)</div><div class="clear"></div></li>
 </ul></span></div>
-<div class="mt30"><h3>PCS Ranking position per season</h3>
+<div class="mt20"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  "  style="height: 1px; ">2024</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">469</div></div></div></td><td class="ac  "  style="height: 1px; ">111</td></tr>
-<tr ><td class="season  "  style="height: 1px; ">2023</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 23.7%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">139</div></div></div></td><td class="ac  "  style="height: 1px; ">428</td></tr>
-<tr ><td class="season  "  style="height: 1px; ">2022</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 11.8%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">69</div></div></div></td><td class="ac  "  style="height: 1px; ">603</td></tr>
-<tr ><td class="season  "  style="height: 1px; ">2021</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 1.7%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">10</div></div></div></td><td class="ac  "  style="height: 1px; ">1437</td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2024-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=97&filter=Filter&p=me&s=season-individual">2024</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative;   "><div class="vTitle" style="line-height: 12px;">588</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2024-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=97&filter=Filter&p=me&s=season-individual">98</a></td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2023-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=427&filter=Filter&p=me&s=season-individual">2023</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 18.9%; position: relative;   "><div class="vTitle" style="line-height: 12px;">139</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2023-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=427&filter=Filter&p=me&s=season-individual">428</a></td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2022-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=602&filter=Filter&p=me&s=season-individual">2022</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 9.4%; position: relative;   "><div class="vTitle" style="line-height: 12px;">69</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2022-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=602&filter=Filter&p=me&s=season-individual">603</a></td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2021-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=1436&filter=Filter&p=me&s=season-individual">2021</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 1.4%; position: relative;   "><div class="vTitle" style="line-height: 12px;">10</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2021-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=1436&filter=Filter&p=me&s=season-individual">1437</a></td></tr>
 </tbody></table></span></div>
-<div class="mt30"><h3>Family</h3>
-<span class="table-cont"><ul class="list"  style=" "><li class="" ><div ><a    href="rider/kaj-fretin">Kaj  Fretin</a></div><div > (Brother)</div><div class="clear"></div></li>
+<div class="mt20"><h3>Family</h3>
+<span class="table-cont"><ul class="list"   style=" "><li class="" ><div data-pid="7676"><a       href="rider/kaj-fretin">Kaj  Fretin</a></div><div data-pid="7677"> (Brother)</div><div class="clear"></div></li>
+</ul></span></div>
+<div class="mt20"><h3>H2H Suggestions</h3>
+<span class="table-cont"><ul class="list"   style=" "><li class="" ><div data-pid="44728"><a   class=" usage"   data-pid="44728" data-id1="217196"  href="rider-vs-rider/milan-fretin/olav-kooij">KOOIJ Olav</a></div><div class="clear"></div></li>
+<li class="" ><div data-pid="44728"><a   class=" usage"   data-pid="44728" data-id1="217196"  href="rider-vs-rider/milan-fretin/paul-penhoet">PENHOËT Paul</a></div><div class="clear"></div></li>
+<li class="" ><div data-pid="44728"><a   class=" usage"   data-pid="44728" data-id1="217196"  href="rider-vs-rider/milan-fretin/arnaud-de-lie">DE LIE Arnaud</a></div><div class="clear"></div></li>
+<li class="" ><div data-pid="44728"><a   class=" usage"   data-pid="44728" data-id1="217196"  href="rider-vs-rider/milan-fretin/casper-van-uden">VAN UDEN Casper</a></div><div class="clear"></div></li>
+<li class="" ><div data-pid="44728"><a   class=" usage"   data-pid="44728" data-id1="217196"  href="rider-vs-rider/milan-fretin/luke-lamperti">LAMPERTI Luke</a></div><div class="clear"></div></li>
 </ul></span></div>
 <div class=""></div>
 </div><div class="clear"></div><script>
@@ -354,6 +363,8 @@ $(document).ready(function(){
 
   }); 
 
+  $(".showAllTeams").click(function(e){   e.preventDefault();       $('.rdr-teams2 li').show();     $('.rdr-teams2 li.combiLine').hide();       });
+
 
   
 
@@ -384,7 +395,7 @@ $(document).ready(function(){
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 </ul><h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/uec-road-european-championships">European championships</a></li>
+<li><a href="race/uec-road-european-championships">European Championships</a></li>
 </ul></li>
 <li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
@@ -405,10 +416,12 @@ $(document).ready(function(){
 <li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
 <li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
-<li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
+<li><a href="rider/primoz-roglic">Primož Roglič</a></li>
+<li><a href="rider/marc-hirschi">Marc Hirschi</a></li>
 <li><a href="rider/demi-vollering">Demi Vollering</a></li>
 <li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
 <li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+<li><a href="rider/evita-muzic">Évita Muzic</a></li>
 </ul></li>
 <li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
@@ -431,14 +444,14 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0985s</span></li>
+<li><span>Pageload 0.0992s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list13.js"></script>  
+<script src="search_list17.js"></script>  
 		<script>
 		var riderid = 217196;		$(document).ready(function() { 	RVC(riderid);  	  });
 		</script>

@@ -27,9 +27,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a249.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b195.css" />
-<script src="https://www.procyclingstats.com/pcs_s88.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a267.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b210.css" />
+<script src="https://www.procyclingstats.com/pcs_s96.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -47,15 +47,15 @@
     	<div class="menuCont">
       	<a class="mobMenu" href="">&#9776; Menu</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
-<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
+<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -65,33 +65,34 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
-<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
-<li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
-<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2024">Cofidis</a></li>
-<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
-<li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
-<li><a href="team/movistar-team-2024">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
-<li><a href="team/team-dsm-firmenich-postnl-2024">Team dsm-firmenich PostNL</a></li>
-<li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
-<li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
-<li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/ef-education-easypost-2025">EF Education - EasyPost</a></li>
+<li><a href="team/groupama-fdj-2025">Groupama - FDJ</a></li>
+<li><a href="team/cofidis-2025">Cofidis</a></li>
+<li><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-wanty-2025">Intermarché - Wanty</a></li>
+<li><a href="team/lidl-trek-2025">Lidl - Trek</a></li>
+<li><a href="team/movistar-team-2025">Movistar Team</a></li>
+<li><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></li>
+<li><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></li>
+<li><a href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></li>
+<li><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></li>
+<li><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></li>
+<li><a href="team/xds-astana-team-2025">XDS Astana Team</a></li>
+<li><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></li>
+<li><a href="team/arkea-b-b-hotels-2025">Arkéa - B&B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
-<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
+<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
 <li><a href="statistics/riders">Riders</a></li>
 <li><a href="statistics/teams">Teams</a></li>
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
+<li class=" "><a class="reg" href="quiz.php">Quiz</a></li>
+<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
@@ -99,13 +100,12 @@
 <li><a href="info/about-us">About us</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/terminology-list">Terminology list</a></li>
-<li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class=" user"><a class="reg" href="login.php">Login</a></li>
  
 				 </ul> 
 			 </div>			 
-			 <a class="topUser  " href="login.php"></a><div class="selectLanguage selectPlatform"><a href="">road</a><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
+			 <a class="topUser  " href="login.php"></a><div class="selectLanguage"><font><span class="flag gb"></span>gb</font><div><ul><li><a href="index.php?url=%2Frider%2Fmatteo-jorgenson&lan=gb"><span class="flag gb"></span>English</a></li><li><a href="index.php?url=%2Frider%2Fmatteo-jorgenson&lan=es"><span class="flag es"></span>Español</a></li></ul></div></div><div class="selectLanguage selectPlatform"><font>road</font><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
   </header>  
 <div class="content"> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/matteo-jorgenson">Overview</a></li>
 <li class="reg "><a class="" href="rider/matteo-jorgenson/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/matteo-jorgenson/statistics/overview">Overview</a></li>
@@ -118,8 +118,8 @@
 <li><a href="rider/matteo-jorgenson/statistics/injury-history">Injury history</a></li>
 </ul></li>
 <li class="reg "><a class="" href="rider/matteo-jorgenson/results">Results</a></li>
+<li class="reg "><a class="" href="rider/matteo-jorgenson/calendar">Program</a></li>
 <li class="reg "><a class="" href="rider/matteo-jorgenson/head-to-head">H2H</a></li>
-<li class="reg "><a class="" href="rider/matteo-jorgenson/calendar">Calendar</a></li>
 <li class="reg "><a class="" href="rider/matteo-jorgenson/contribute">More&#x25BC;</a><ul><li><a href="rider/matteo-jorgenson/contribute/contribute-info">Contribute info</a></li>
 <li><a href="rider/matteo-jorgenson/contribute/submit-program">Submit program</a></li>
 <li><a href="rider/matteo-jorgenson/contribute/report">Report</a></li>
@@ -130,32 +130,32 @@
 <li class="reg "><a class="" href="rider/matteo-jorgenson/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/matteo-jorgenson/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/matteo-jorgenson/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/matteo-jorgenson">More</a><ul><li data-n="1"><a href="rider/matteo-jorgenson/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/matteo-jorgenson/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/matteo-jorgenson/statistics/overview">Overview dd</a></li>
-<li data-n="1"><a href="rider/matteo-jorgenson/statistics/season-statistics">Statistics by season dd</a></li>
-<li data-n="1"><a href="rider/matteo-jorgenson/statistics/key-events">Key events dd</a></li>
-<li data-n="1"><a href="rider/matteo-jorgenson/statistics/world-map-of-rider-races">World map of rider races dd</a></li>
-<li data-n="1"><a href="rider/matteo-jorgenson/statistics/wins">Wins dd</a></li>
-<li data-n="1"><a href="rider/matteo-jorgenson/statistics/most-starts-by-race">Most starts by race dd</a></li>
-<li data-n="1"><a href="rider/matteo-jorgenson/statistics/grand-tour-starts">Starts and results dd</a></li>
-<li data-n="1"><a href="rider/matteo-jorgenson/statistics/injury-history">Injury history dd</a></li>
-<li data-n="3"><a href="rider/matteo-jorgenson/results/results">Results - Results</a></li><li data-n="4"><a href="rider/matteo-jorgenson/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/matteo-jorgenson/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/matteo-jorgenson/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/matteo-jorgenson/contribute/contribute-info">Contribute info dd</a></li>
-<li data-n="5"><a href="rider/matteo-jorgenson/contribute/submit-program">Submit program dd</a></li>
-<li data-n="5"><a href="rider/matteo-jorgenson/contribute/report">Report dd</a></li>
-<li data-n="5"><a href="rider/matteo-jorgenson/contribute/contribute-social-feeds">Contribute sites / social media dd</a></li>
-<li data-n="5"><a href="rider/matteo-jorgenson/contribute/contribute-family">Family dd</a></li>
-<li data-n="5"><a href="rider/matteo-jorgenson/contribute/embed-rider-results">Embed rider results dd</a></li>
-<li data-n="7"><a href="rider/matteo-jorgenson/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/matteo-jorgenson/specialties/top-gc-results">Top GC results dd</a></li>
-<li data-n="6"><a href="rider/matteo-jorgenson/specialties/fastest-tt">Fastest TT dd</a></li>
+<li class="more"><a href="rider/matteo-jorgenson">More</a><ul><li data-n="1"><a href="rider/matteo-jorgenson/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/matteo-jorgenson/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/matteo-jorgenson/statistics/overview">Overview</a></li>
+<li data-n="1"><a href="rider/matteo-jorgenson/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/matteo-jorgenson/statistics/key-events">Key events</a></li>
+<li data-n="1"><a href="rider/matteo-jorgenson/statistics/world-map-of-rider-races">World map of rider races</a></li>
+<li data-n="1"><a href="rider/matteo-jorgenson/statistics/wins">Wins</a></li>
+<li data-n="1"><a href="rider/matteo-jorgenson/statistics/most-starts-by-race">Most starts by race</a></li>
+<li data-n="1"><a href="rider/matteo-jorgenson/statistics/grand-tour-starts">Starts and results</a></li>
+<li data-n="1"><a href="rider/matteo-jorgenson/statistics/injury-history">Injury history</a></li>
+<li data-n="3"><a href="rider/matteo-jorgenson/results/results">Results - Results</a></li><li data-n="4"><a href="rider/matteo-jorgenson/calendar/calendar">Program - Program</a></li><li data-n="5"><a href="rider/matteo-jorgenson/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="6"><a href="rider/matteo-jorgenson/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/matteo-jorgenson/contribute/contribute-info">Contribute info</a></li>
+<li data-n="5"><a href="rider/matteo-jorgenson/contribute/submit-program">Submit program</a></li>
+<li data-n="5"><a href="rider/matteo-jorgenson/contribute/report">Report</a></li>
+<li data-n="5"><a href="rider/matteo-jorgenson/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
+<li data-n="5"><a href="rider/matteo-jorgenson/contribute/contribute-family">Family</a></li>
+<li data-n="5"><a href="rider/matteo-jorgenson/contribute/embed-rider-results">Embed rider results</a></li>
+<li data-n="7"><a href="rider/matteo-jorgenson/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/matteo-jorgenson/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="6"><a href="rider/matteo-jorgenson/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag us w32"></span><span class="flag us w24"></span><h1 class="">Matteo  Jorgenson</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Team Visma | Lease a Bike</span></div><div class="sub"><span class="red showIfMobile">Team Visma | Lease a Bike</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
 <ul class="list horizontal fs14 circle bluelink"></ul><div class="clear"></div>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/matteo-jorgenson/statistics/overview"><img alt="Profile photo of Matteo  Jorgenson" src="images/riders/bp/df/matteo-jorgenson-2024.jpeg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 1<sup>st</sup> July 1999 (25)<br /><b>Nationality:</b> <span class="flag  us"></span><a class="black" href="nation/united-states">United States</a><br /><span><b>Weight:</b> 69 kg &nbsp; <span><b>Height:</b> 1.90 m<br /><b>Place of birth:</b> <a href="location/walnut-creek">Walnut Creek</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 45.797807551766%; height: 100%;  "></div></div><div class="pnt">752</div><div class="title"><a href="rider/matteo-jorgenson/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1642</div><div class="title"><a href="rider/matteo-jorgenson/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 30.085261875761%; height: 100%;  "></div></div><div class="pnt">494</div><div class="title"><a href="rider/matteo-jorgenson/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 6.516443361754%; height: 100%;  "></div></div><div class="pnt">107</div><div class="title"><a href="rider/matteo-jorgenson/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 82.704019488429%; height: 100%;  "></div></div><div class="pnt">1358</div><div class="title"><a href="rider/matteo-jorgenson/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 61.266747868453%; height: 100%;  "></div></div><div class="pnt">1006</div><div class="title"><a href="rider/matteo-jorgenson/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://www.instagram.com/matteojorgenson/"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://twitter.com/matteojorg"><span class="iconv3 x-logo14"></span>x</a></li><li><a target="_blank" href="https://www.strava.com/athletes/557974"><span class="iconv3 strava14"></span>strava</a></li><li><a target="_blank" href="https://www.facebook.com/matteojorg"><span class="iconv3 facebook14"></span>fb</a></li></ul><div class="clear" style="height: 5px;"></div><div class="clear" ></div><div class=""></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/matteo-jorgenson/statistics/overview"><img alt="Profile photo of Matteo  Jorgenson" src="images/riders/bp/df/matteo-jorgenson-2025.png"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 1<sup>st</sup> July 1999 (25)<br /><b>Nationality:</b> <span class="flag  us"></span><a class="black" href="nation/united-states">United States</a><br /><span><b>Weight:</b> 69 kg &nbsp; <span><b>Height:</b> 1.90 m<br /><b>Place of birth:</b> <a href="location/walnut-creek">Walnut Creek</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 47.259439707674%; height: 100%;  "></div></div><div class="pnt">776</div><div class="title"><a href="rider/matteo-jorgenson/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 100%; height: 100%;  "></div></div><div class="pnt">1642</div><div class="title"><a href="rider/matteo-jorgenson/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 30.085261875761%; height: 100%;  "></div></div><div class="pnt">494</div><div class="title"><a href="rider/matteo-jorgenson/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 6.516443361754%; height: 100%;  "></div></div><div class="pnt">107</div><div class="title"><a href="rider/matteo-jorgenson/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 83.008526187576%; height: 100%;  "></div></div><div class="pnt">1363</div><div class="title"><a href="rider/matteo-jorgenson/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 61.266747868453%; height: 100%;  "></div></div><div class="pnt">1006</div><div class="title"><a href="rider/matteo-jorgenson/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://www.instagram.com/matteojorgenson/"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://x.com/matteojorg"><span class="iconv3 x-logo14"></span>X</a></li><li><a target="_blank" href="https://www.strava.com/athletes/557974"><span class="iconv3 strava14"></span>strava</a></li><li><a target="_blank" href="https://www.facebook.com/matteojorg"><span class="iconv3 facebook14"></span>fb</a></li><li><a target="_blank" href="https://en.wikipedia.org/wiki/Matteo_Jorgenson"><span class="iconv3 wiki14"></span>wiki</a></li></ul><div class="clear" style="height: 5px;"></div><div class="clear" ></div><div class=""></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class=" title"  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  >12</div><div class="clear"></div></li>
-<li class="" ><div class=" title"  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  >8</div><div class="clear"></div></li>
-<li class="" ><div class=" title"  ><a    href="rankings/me/all-time">All time</a></div><div class=" rnk"  >1039</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"   style=" "><li class="" ><div class=" title"  data-pid="7688"><a       href="rankings/me/all-time">All time</a></div><div class=" rnk"  data-pid="7689">1043</div><div class="clear"></div></li>
+<li class="" ><div class=" title"  data-pid="7688"><a       href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  data-pid="7689">13</div><div class="clear"></div></li>
+<li class="" ><div class=" title"  data-pid="7688"><a       href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  data-pid="7689">12</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class=" bold"  >Visits:</div><div ><span class="delta-down">&#x25BC;3322</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"   style=" "><li class="" ><div class=" bold"  data-pid="7702">Visits:</div><div data-pid="7703"><span class="delta-down">&#x25BC;9951</span></div><div data-pid="7704">  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">&nbsp; <span class="shirt st4 w14"></span></div><div><span class="blue">GC</span> <a href="race/paris-nice/2024/gc">Paris-Nice</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue"></span> <a href="race/dwars-door-vlaanderen/2024/result">Dwars door Vlaanderen ME</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
@@ -165,32 +165,26 @@
 <li class="main"><div class="ar" style="width: 55px; ">&nbsp; </div><div><span class="blue">stage</span> <a href="race/tour-of-oman/2023/stage-3">Tour of Oman</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-france/2024/stage-19">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; "><b>2x</b>&nbsp;2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/dauphine/2024/stage-8">Critérium du Dauphiné</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; "><b>4x</b>&nbsp;4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-france/2023/stage-9">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24, '23, '22)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; "><b>4x</b>&nbsp;4th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-france/2022/stage-10">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24, '23, '22)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/paris-nice/2024/stage-8">Paris-Nice</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">3rd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-france/2023/stage-12">Tour de France</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">2nd&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-de-romandie/2023/stage-3">Tour de Romandie</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-</ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
-<div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist moblist " data-shortnr="4"  style=" "><li class=" main " ><div class=" season"  >2026</div><div class=" name"  ><a    href="team/team-visma-lease-a-bike-2026">Team Visma | Lease a Bike</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2025</div><div class=" name"  ><a    href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2024</div><div class=" name"  ><a    href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2023</div><div class=" name"  ><a    href="team/movistar-team-2023">Movistar Team</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2022</div><div class=" name"  ><a    href="team/movistar-team-2022">Movistar Team</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2021</div><div class=" name"  ><a    href="team/movistar-team-2021">Movistar Team</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2020</div><div class=" name"  ><a    href="team/movistar-team-2020">Movistar Team</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2019</div><div class=" name"  ><a    href="team/ag2r-la-mondiale-2019">AG2R La Mondiale</a></div><div > (WT)</div><div class=" fs10"  > trainee as from 01/08</div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2019</div><div class=" name"  ><a    href="team/van-rysel-ag2r-la-mondiale-2019">Van Rysel-AG2R La Mondiale</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2018</div><div class=" name"  ><a    href="team/jelly-belly-p-b-maxxis-2018">Jelly Belly p/b Maxxis</a></div><div > (CT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2017</div><div class=" name"  ><a    href="team/hot-tubes-development-cycling-team-2017">Hot Tubes Development Cycling Team</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2016</div><div class=" name"  ><a    href="team/hot-tubes-development-cycling-team-2016">Hot Tubes Development Cycling Team</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2015</div><div class=" name"  ><a    href="team/hot-tubes-development-cycling-team-2015">Hot Tubes Development Cycling Team</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-</ul><a class="showFullList hide showIfMobile" href="">show more</a></span></div>
-<div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class=" bold"  >29.09</div><div class=" ellipsis"  ><span class="flag ch"></span> <a    href="race/world-championship/2024/startlist">World Championships ME - Road Race</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/matteo-jorgenson/world-championship">more</a></div><div class="clear"></div></li>
-<li class="" ><div class=" bold"  >05.10</div><div class=" ellipsis"  ><span class="flag it"></span> <a    href="race/giro-dell-emilia/2024/startlist">Giro dell'Emilia</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/matteo-jorgenson/giro-dell-emilia">more</a></div><div class="clear"></div></li>
+</ul></div></div><div class="right w25 mb_w100 mb_mt10"><h3>Teams</h3><span class="table-cont"><ul class="rdr-teams2  "  ><li class="main  "><div class="season">2026</div><div class="name"><a href="team/team-visma-lease-a-bike-2026">Team Visma | Lease a Bike</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2025</div><div class="name"><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2024</div><div class="name"><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2023</div><div class="name"><a href="team/movistar-team-2023">Movistar Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  old"><div class="season">2022</div><div class="name"><a href="team/movistar-team-2022">Movistar Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  old"><div class="season">2021</div><div class="name"><a href="team/movistar-team-2021">Movistar Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  old"><div class="season">2020</div><div class="name"><a href="team/movistar-team-2020">Movistar Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  old"><div class="season">2019</div><div class="name"><a href="team/ag2r-la-mondiale-2019">AG2R La Mondiale</a> (WT)<span class="fs10 ">trainee as from 01/08</span></div><div class="clear"></div></li><li class="main  old"><div class="season">2019</div><div class="name"><a href="team/van-rysel-ag2r-la-mondiale-2019">Van Rysel-AG2R La Mondiale</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  old"><div class="season">2018</div><div class="name"><a href="team/jelly-belly-p-b-maxxis-2018">Jelly Belly p/b Maxxis</a> (CT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  old"><div class="season">2017</div><div class="name"><a href="team/hot-tubes-development-cycling-team-2017">Hot Tubes Development Cycling Team</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  old"><div class="season">2016</div><div class="name"><a href="team/hot-tubes-development-cycling-team-2016">Hot Tubes Development Cycling Team</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  old"><div class="season">2015</div><div class="name"><a href="team/hot-tubes-development-cycling-team-2015">Hot Tubes Development Cycling Team</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li></ul><a class="showAllTeams showIfMobile" href="">show all</a></span><div class="mt30"><h3>Upcoming participations</h3>
+<span class="table-cont"><ul class="list flex pad2 dashed"   style=" "><li class="" ><div class=" bold"  data-pid="7673">01.03</div><div class=" ellipsis"  data-pid="7674"><span class="flag be"></span> <a       href="race/omloop-het-nieuwsblad/2025/startlist">Omloop Nieuwsblad</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/matteo-jorgenson/omloop-het-nieuwsblad">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">02.03</div><div class=" ellipsis"  data-pid="7674"><span class="flag be"></span> <a       href="race/kuurne-brussel-kuurne/2025/startlist">Kuurne - Brussel - Kuurne</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/matteo-jorgenson/kuurne-brussel-kuurne">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">09.03</div><div class=" ellipsis"  data-pid="7674"><span class="flag fr"></span> <a       href="race/paris-nice/2025/startlist">Paris-Nice</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/matteo-jorgenson/paris-nice">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">28.03</div><div class=" ellipsis"  data-pid="7674"><span class="flag be"></span> <a       href="race/e3-harelbeke/2025/startlist">E3 Saxo Classic</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/matteo-jorgenson/e3-harelbeke">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">02.04</div><div class=" ellipsis"  data-pid="7674"><span class="flag be"></span> <a       href="race/dwars-door-vlaanderen/2025/startlist">Dwars door Vlaanderen - A travers la Flandre</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/matteo-jorgenson/dwars-door-vlaanderen">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">06.04</div><div class=" ellipsis"  data-pid="7674"><span class="flag be"></span> <a       href="race/ronde-van-vlaanderen/2025/startlist">Ronde van Vlaanderen</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/matteo-jorgenson/ronde-van-vlaanderen">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">08.06</div><div class=" ellipsis"  data-pid="7674"><span class="flag fr"></span> <a       href="race/dauphine/2025/startlist">Critérium du Dauphiné</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/matteo-jorgenson/dauphine">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">05.07</div><div class=" ellipsis"  data-pid="7674"><span class="flag fr"></span> <a       href="race/tour-de-france/2025/startlist">Tour de France</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/matteo-jorgenson/tour-de-france">more</a></div><div class="clear"></div></li>
 </ul></span></div>
 <div class=""><div class="text-regular"><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=""><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=""><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=""><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=""><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=""><a class="seasonResults" data-season="2016" href="">2016</a></li><li class="more hide show_if"><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li><li data-season="2020" class=" hide"><a class="seasonResults" data-season="2020" href="">2020</a></li><li data-season="2019" class=" hide"><a class="seasonResults" data-season="2019" href="">2019</a></li><li data-season="2018" class=" hide"><a class="seasonResults" data-season="2018" href="">2018</a></li><li data-season="2017" class=" hide"><a class="seasonResults" data-season="2017" href="">2017</a></li><li data-season="2016" class=" hide"><a class="seasonResults" data-season="2016" href="">2016</a></li></ul></li></ul><div class="resultsSortFilter sortByResults">Sort by: <a class="" data-case="date" href="">Date</a><a class="" data-case="rnk" href="">Result</a><a class="" data-case="pnt" href="">Points</a></div><div class="resultsSortFilter filterByResults">Filter by: <a class="cur" data-case="all" href="">All</a><a class="" data-case="climber" href="">Climber</a><a class="" data-case="hills" href="">Hills</a><a class="" data-case="sprints" href="">Sprints</a><a class="" data-case="tt" href="">TT</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>12.10</td><td>DNF</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/il-lombardia/2024/result">Il Lombardia <span>(1.UWT)</span></a> </td><td class="cu600">255</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/matteo-jorgenson/il-lombardia">more</a></td></tr>
+<tr data-main="1"><td>08.10</td><td>NR</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/tre-valli-varesine/2024/result">Tre Valli Varesine <span>(1.Pro)</span></a> </td><td class="cu600"><s>168.33</s> 57.9</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/matteo-jorgenson/tre-valli-varesine">more</a></td></tr>
+<tr data-main="1"><td>05.10</td><td>17</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/giro-dell-emilia/2024/result">Giro dell'Emilia <span>(1.Pro)</span></a> </td><td class="cu600">215.3</td><td class="cu600">9</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/matteo-jorgenson/giro-dell-emilia">more</a></td></tr>
+<tr data-main="1"><td>29.09</td><td>34</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ch"></span><a href="https://www.procyclingstats.com/race/world-championship/2024/result">World Championships ME - Road Race <span>(WC)</span></a> </td><td class="cu600">273.9</td><td class="cu600">15</td><td class="cu600 ">15</td><td class="cu600"><a class="more" href="rider-in-race/matteo-jorgenson/world-championship">more</a></td></tr>
 <tr data-main="1"><td>15.09</td><td>12</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ca"></span><a href="https://www.procyclingstats.com/race/gp-montreal/2024/result">Grand Prix Cycliste de Montréal <span>(1.UWT)</span></a> </td><td class="cu600">209.1</td><td class="cu600">34</td><td class="cu600 ">60</td><td class="cu600"><a class="more" href="rider-in-race/matteo-jorgenson/gp-montreal">more</a></td></tr>
 <tr data-main="1"><td>13.09</td><td>35</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ca"></span><a href="https://www.procyclingstats.com/race/gp-quebec/2024/result">Grand Prix Cycliste de Québec <span>(1.UWT)</span></a> </td><td class="cu600">201.6</td><td class="cu600">5</td><td class="cu600 ">10</td><td class="cu600"><a class="more" href="rider-in-race/matteo-jorgenson/gp-quebec">more</a></td></tr>
 <tr data-main="1"><td>03.08</td><td>9</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/olympic-games/2024/result">Olympic Games ME - Road Race <span>(Olympics)</span></a> </td><td class="cu600">272.1</td><td class="cu600">80</td><td class="cu600 ">190</td><td class="cu600"><a class="more" href="rider-in-race/matteo-jorgenson/olympic-games">more</a></td></tr>
@@ -252,29 +246,29 @@
 <tr data-main="0"><td>03.03</td><td>15</td><td class="gc cu600">3</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag fr"></span><a href="https://www.procyclingstats.com/race/paris-nice/2024/stage-1">Stage 1 - Les Mureaux &rsaquo; Les Mureaux</a> </td><td class="cu600">157.7</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/matteo-jorgenson/paris-nice">more</a></td></tr>
 <tr data-main="1"><td>25.02</td><td>66</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/kuurne-brussel-kuurne/2024/result">Kuurne-Brussel-Kuurne <span>(1.Pro)</span></a> </td><td class="cu600">196.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/matteo-jorgenson/kuurne-brussel-kuurne">more</a></td></tr>
 <tr data-main="1"><td>24.02</td><td>29</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/omloop-het-nieuwsblad/2024/result">Omloop Het Nieuwsblad ME <span>(1.UWT)</span></a> <span title="110 kilometre in a group before the peloton" style=" font-size: 11px; color: #f55733; letter-spacing: -0.5px; margin-left: 0px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg>110k</span></td><td class="cu600">202.2</td><td class="cu600">6</td><td class="cu600 ">12</td><td class="cu600"><a class="more" href="rider-in-race/matteo-jorgenson/omloop-het-nieuwsblad">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>7838</b> km in <b>46</b> days | PCS points: <b>1442</b> |  UCI points: <b>2682.14</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
-<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class=" nr"  >4</div><div class=" title"  ><a    href="rider/matteo-jorgenson/statistics/wins">Wins</a></div><div class=" info fs11"  >GC (2)</div><div class=" info fs11"  >Oneday races (1)</div><div class=" info fs11"  >ITT (0)</div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
-<li class="" ><div class=" nr"  >4</div><div class=" title"  ><a    href="rider/matteo-jorgenson/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  >tour (3) giro (1) vuelta(0)</div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
-<li class="" ><div class=" nr"  >7</div><div class=" title"  ><a    href="rider/matteo-jorgenson/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  >RBX(1)</div><div class=" info fs11"  >MSR(1)</div><div class=" info fs11"  >RVV(2)</div><div class=" info fs11"  >LBL(2)</div><div class=" info fs11"  >LOM(1)</div><div class="clear"></div></li>
+</tbody></table><div class="rdrResultsSum" ><div>8512</b> km in <b>50</b> days | PCS points: <b>1466</b> |  UCI points: <b>2702.14</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div><div class="ar fs10 mt10"><a class="blue" href="calendar/uci/upload-result">Missing result?</a></div></div><div class="right w25 mb_w100"><div class="mt20"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi"   style=" "><li class="" ><div class=" nr"  data-pid="7664">4</div><div class=" title"  data-pid="7665"><a       href="rider/matteo-jorgenson/statistics/wins">Wins</a></div><div class=" info fs11"  data-pid="7666">GC (2)</div><div class=" info fs11"  data-pid="7667">Oneday races (1)</div><div class=" info fs11"  data-pid="11102">ITT (0)</div><div class=" info fs11"  data-pid="11103"></div><div class=" info fs11"  data-pid="11104"></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  data-pid="7664">4</div><div class=" title"  data-pid="7665"><a       href="rider/matteo-jorgenson/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  data-pid="7666">tour (3) giro (1) vuelta(0)</div><div class=" info fs11"  data-pid="7667"></div><div class=" info fs11"  data-pid="11102"></div><div class=" info fs11"  data-pid="11103"></div><div class=" info fs11"  data-pid="11104"></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  data-pid="7664">8</div><div class=" title"  data-pid="7665"><a       href="rider/matteo-jorgenson/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  data-pid="7666">RBX(1)</div><div class=" info fs11"  data-pid="7667">MSR(1)</div><div class=" info fs11"  data-pid="11102">RVV(2)</div><div class=" info fs11"  data-pid="11103">LBL(2)</div><div class=" info fs11"  data-pid="11104">LOM(2)</div><div class="clear"></div></li>
 </ul></span></div>
-<div class="mt30"><h3>PCS Ranking position per season</h3>
+<div class="mt20"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  "  style="height: 1px; ">2024</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">1442</div></div></div></td><td class="ac  "  style="height: 1px; ">9</td></tr>
-<tr ><td class="season  "  style="height: 1px; ">2023</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 54.8%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">988</div></div></div></td><td class="ac  "  style="height: 1px; ">30</td></tr>
-<tr ><td class="season  "  style="height: 1px; ">2022</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 22.7%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">410</div></div></div></td><td class="ac  "  style="height: 1px; ">144</td></tr>
-<tr ><td class="season  "  style="height: 1px; ">2021</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 11.6%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">209</div></div></div></td><td class="ac  "  style="height: 1px; ">249</td></tr>
-<tr ><td class="season  "  style="height: 1px; ">2020</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 2.7%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">48</div></div></div></td><td class="ac  "  style="height: 1px; ">540</td></tr>
-<tr ><td class="season  "  style="height: 1px; ">2019</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 1.2%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">22</div></div></div></td><td class="ac  "  style="height: 1px; ">1288</td></tr>
-<tr ><td class="season  "  style="height: 1px; ">2018</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 0.6%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">10</div></div></div></td><td class="ac  "  style="height: 1px; ">1742</td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2024-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=11&filter=Filter&p=me&s=season-individual">2024</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative;   "><div class="vTitle" style="line-height: 12px;">1466</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2024-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=11&filter=Filter&p=me&s=season-individual">12</a></td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2023-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=29&filter=Filter&p=me&s=season-individual">2023</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 53.9%; position: relative;   "><div class="vTitle" style="line-height: 12px;">988</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2023-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=29&filter=Filter&p=me&s=season-individual">30</a></td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2022-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=143&filter=Filter&p=me&s=season-individual">2022</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 22.4%; position: relative;   "><div class="vTitle" style="line-height: 12px;">410</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2022-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=143&filter=Filter&p=me&s=season-individual">144</a></td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2021-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=248&filter=Filter&p=me&s=season-individual">2021</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 11.4%; position: relative;   "><div class="vTitle" style="line-height: 12px;">209</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2021-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=248&filter=Filter&p=me&s=season-individual">249</a></td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2020-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=539&filter=Filter&p=me&s=season-individual">2020</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 2.6%; position: relative;   "><div class="vTitle" style="line-height: 12px;">48</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2020-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=539&filter=Filter&p=me&s=season-individual">540</a></td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2019-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=1287&filter=Filter&p=me&s=season-individual">2019</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 1.2%; position: relative;   "><div class="vTitle" style="line-height: 12px;">22</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2019-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=1287&filter=Filter&p=me&s=season-individual">1288</a></td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2018-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=1741&filter=Filter&p=me&s=season-individual">2018</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 0.5%; position: relative;   "><div class="vTitle" style="line-height: 12px;">10</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2018-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=1741&filter=Filter&p=me&s=season-individual">1742</a></td></tr>
 </tbody></table></span></div>
-<div class="mt30"><h3>Family</h3>
-<span class="table-cont"><ul class="list"  style=" "><li class="" ><div ><a    href="rider/kristopher-jorgenson">Kristopher  Jorgenson</a></div><div > (Brother)</div><div class="clear"></div></li>
+<div class="mt20"><h3>Family</h3>
+<span class="table-cont"><ul class="list"   style=" "><li class="" ><div data-pid="7676"><a       href="rider/kristopher-jorgenson">Kristopher  Jorgenson</a></div><div data-pid="7677"> (Brother)</div><div class="clear"></div></li>
 </ul></span></div>
-<div class="mt30"><h3>H2H Suggestions</h3>
-<span class="table-cont"><ul class="list"  style=" "><li class="" ><div ><a    href="rider-vs-rider/matteo-jorgenson/brandon-mcnulty">MCNULTY Brandon</a></div><div class="clear"></div></li>
-<li class="" ><div ><a    href="rider-vs-rider/matteo-jorgenson/tadej-pogacar">POGAČAR Tadej</a></div><div class="clear"></div></li>
-<li class="" ><div ><a    href="rider-vs-rider/matteo-jorgenson/greg-lemond">LEMOND Greg</a></div><div class="clear"></div></li>
-<li class="" ><div ><a    href="rider-vs-rider/matteo-jorgenson/neilson-powless">POWLESS Neilson</a></div><div class="clear"></div></li>
+<div class="mt20"><h3>H2H Suggestions</h3>
+<span class="table-cont"><ul class="list"   style=" "><li class="" ><div data-pid="44728"><a   class=" usage"   data-pid="44728" data-id1="204401"  href="rider-vs-rider/matteo-jorgenson/brandon-mcnulty">MCNULTY Brandon</a></div><div class="clear"></div></li>
+<li class="" ><div data-pid="44728"><a   class=" usage"   data-pid="44728" data-id1="204401"  href="rider-vs-rider/matteo-jorgenson/tadej-pogacar">POGAČAR Tadej</a></div><div class="clear"></div></li>
+<li class="" ><div data-pid="44728"><a   class=" usage"   data-pid="44728" data-id1="204401"  href="rider-vs-rider/matteo-jorgenson/greg-lemond">LEMOND Greg</a></div><div class="clear"></div></li>
+<li class="" ><div data-pid="44728"><a   class=" usage"   data-pid="44728" data-id1="204401"  href="rider-vs-rider/matteo-jorgenson/neilson-powless">POWLESS Neilson</a></div><div class="clear"></div></li>
 </ul></span></div>
 <div class=""></div>
 </div><div class="clear"></div><script>
@@ -352,6 +346,8 @@ $(document).ready(function(){
 
   }); 
 
+  $(".showAllTeams").click(function(e){   e.preventDefault();       $('.rdr-teams2 li').show();     $('.rdr-teams2 li.combiLine').hide();       });
+
 
   
 
@@ -382,7 +378,7 @@ $(document).ready(function(){
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 </ul><h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/uec-road-european-championships">European championships</a></li>
+<li><a href="race/uec-road-european-championships">European Championships</a></li>
 </ul></li>
 <li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
@@ -403,10 +399,12 @@ $(document).ready(function(){
 <li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
 <li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
-<li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
+<li><a href="rider/primoz-roglic">Primož Roglič</a></li>
+<li><a href="rider/marc-hirschi">Marc Hirschi</a></li>
 <li><a href="rider/demi-vollering">Demi Vollering</a></li>
 <li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
 <li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+<li><a href="rider/evita-muzic">Évita Muzic</a></li>
 </ul></li>
 <li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
@@ -429,14 +427,14 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1464s</span></li>
+<li><span>Pageload 0.1654s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list13.js"></script>  
+<script src="search_list17.js"></script>  
 		<script>
 		var riderid = 204401;		$(document).ready(function() { 	RVC(riderid);  	  });
 		</script>

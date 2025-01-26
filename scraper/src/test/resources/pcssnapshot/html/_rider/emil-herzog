@@ -27,9 +27,9 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
 <base href="rider.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a249.css" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b195.css" />
-<script src="https://www.procyclingstats.com/pcs_s88.js"></script> 
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a267.css" />
+	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_b210.css" />
+<script src="https://www.procyclingstats.com/pcs_s96.js"></script> 
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
 <link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
@@ -47,15 +47,15 @@
     	<div class="menuCont">
       	<a class="mobMenu" href="">&#9776; Menu</a>
 				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
-<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
+<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
 <li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a href="race/il-lombardia">Il Lombardia</a></li>
 <li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
 <li><a href="race/paris-nice">Paris - Nice</a></li>
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
@@ -65,33 +65,34 @@
 <li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
 <li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="team/alpecin-deceuninck-2024">Alpecin-Deceuninck</a></li>
-<li><a href="team/arkea-b-b-hotels-2024">Arkéa - B&B Hotels</a></li>
-<li><a href="team/ineos-grenadiers-2024">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-circus-want-2024">Intermarché - Wanty</a></li>
-<li><a href="team/astana-qazaqstan-team-2024">Astana Qazaqstan Team</a></li>
-<li><a href="team/bahrain-victorious-2024">Bahrain - Victorious</a></li>
-<li><a href="team/bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></li>
-<li><a href="team/cofidis-2024">Cofidis</a></li>
-<li><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/ef-education-easypost-2024">EF Education-EasyPost</a></li>
-<li><a href="team/groupama-fdj-2024">Groupama - FDJ</a></li>
-<li><a href="team/lidl-trek-2024">Lidl - Trek</a></li>
-<li><a href="team/movistar-team-2024">Movistar Team</a></li>
-<li><a href="team/soudal-quick-step-2024">Soudal - Quick Step</a></li>
-<li><a href="team/team-dsm-firmenich-postnl-2024">Team dsm-firmenich PostNL</a></li>
-<li><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a></li>
-<li><a href="team/team-visma-lease-a-bike-2024">Team Visma | Lease a Bike</a></li>
-<li><a href="team/uae-team-emirates-2024">UAE Team Emirates</a></li>
+<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></li>
+<li><a href="team/ef-education-easypost-2025">EF Education - EasyPost</a></li>
+<li><a href="team/groupama-fdj-2025">Groupama - FDJ</a></li>
+<li><a href="team/cofidis-2025">Cofidis</a></li>
+<li><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></li>
+<li><a href="team/intermarche-wanty-2025">Intermarché - Wanty</a></li>
+<li><a href="team/lidl-trek-2025">Lidl - Trek</a></li>
+<li><a href="team/movistar-team-2025">Movistar Team</a></li>
+<li><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></li>
+<li><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></li>
+<li><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></li>
+<li><a href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></li>
+<li><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></li>
+<li><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></li>
+<li><a href="team/xds-astana-team-2025">XDS Astana Team</a></li>
+<li><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></li>
+<li><a href="team/arkea-b-b-hotels-2025">Arkéa - B&B Hotels</a></li>
+<li><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
-<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
+<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
 <li><a href="statistics/riders">Riders</a></li>
 <li><a href="statistics/teams">Teams</a></li>
 <li><a href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown" href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
+<li class=" "><a class="reg" href="quiz.php">Quiz</a></li>
+<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
 <li><a href="favorite500.php">Favorite500</a></li>
@@ -99,13 +100,12 @@
 <li><a href="info/about-us">About us</a></li>
 <li><a href="info/profile-score-explained">Profile Score</a></li>
 <li><a href="info/terminology-list">Terminology list</a></li>
-<li><a href="info/tutorials">Tutorials</a></li>
 </ul></li>
 <li class=" user"><a class="reg" href="login.php">Login</a></li>
  
 				 </ul> 
 			 </div>			 
-			 <a class="topUser  " href="login.php"></a><div class="selectLanguage selectPlatform"><a href="">road</a><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
+			 <a class="topUser  " href="login.php"></a><div class="selectLanguage"><font><span class="flag gb"></span>gb</font><div><ul><li><a href="index.php?url=%2Frider%2Femil-herzog&lan=gb"><span class="flag gb"></span>English</a></li><li><a href="index.php?url=%2Frider%2Femil-herzog&lan=es"><span class="flag es"></span>Español</a></li></ul></div></div><div class="selectLanguage selectPlatform"><font>road</font><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
   </header>  
 <div class="content"> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="rider/emil-herzog">Overview</a></li>
 <li class="reg "><a class="" href="rider/emil-herzog/statistics">Statistics&#x25BC;</a><ul><li><a href="rider/emil-herzog/statistics/overview">Overview</a></li>
@@ -118,8 +118,8 @@
 <li><a href="rider/emil-herzog/statistics/injury-history">Injury history</a></li>
 </ul></li>
 <li class="reg "><a class="" href="rider/emil-herzog/results">Results</a></li>
+<li class="reg "><a class="" href="rider/emil-herzog/calendar">Program</a></li>
 <li class="reg "><a class="" href="rider/emil-herzog/head-to-head">H2H</a></li>
-<li class="reg "><a class="" href="rider/emil-herzog/calendar">Calendar</a></li>
 <li class="reg "><a class="" href="rider/emil-herzog/contribute">More&#x25BC;</a><ul><li><a href="rider/emil-herzog/contribute/contribute-info">Contribute info</a></li>
 <li><a href="rider/emil-herzog/contribute/submit-program">Submit program</a></li>
 <li><a href="rider/emil-herzog/contribute/report">Report</a></li>
@@ -130,61 +130,68 @@
 <li class="reg "><a class="" href="rider/emil-herzog/specialties">Specialties&#x25BC;</a><ul><li><a href="rider/emil-herzog/specialties/top-gc-results">Top GC results</a></li>
 <li><a href="rider/emil-herzog/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li>
-<li class="more"><a href="rider/emil-herzog">More</a><ul><li data-n="1"><a href="rider/emil-herzog/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/emil-herzog/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/emil-herzog/statistics/overview">Overview dd</a></li>
-<li data-n="1"><a href="rider/emil-herzog/statistics/season-statistics">Statistics by season dd</a></li>
-<li data-n="1"><a href="rider/emil-herzog/statistics/key-events">Key events dd</a></li>
-<li data-n="1"><a href="rider/emil-herzog/statistics/world-map-of-rider-races">World map of rider races dd</a></li>
-<li data-n="1"><a href="rider/emil-herzog/statistics/wins">Wins dd</a></li>
-<li data-n="1"><a href="rider/emil-herzog/statistics/most-starts-by-race">Most starts by race dd</a></li>
-<li data-n="1"><a href="rider/emil-herzog/statistics/grand-tour-starts">Starts and results dd</a></li>
-<li data-n="1"><a href="rider/emil-herzog/statistics/injury-history">Injury history dd</a></li>
-<li data-n="3"><a href="rider/emil-herzog/results/results">Results - Results</a></li><li data-n="4"><a href="rider/emil-herzog/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="5"><a href="rider/emil-herzog/calendar/calendar">Calendar - Calendar</a></li><li data-n="6"><a href="rider/emil-herzog/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/emil-herzog/contribute/contribute-info">Contribute info dd</a></li>
-<li data-n="5"><a href="rider/emil-herzog/contribute/submit-program">Submit program dd</a></li>
-<li data-n="5"><a href="rider/emil-herzog/contribute/report">Report dd</a></li>
-<li data-n="5"><a href="rider/emil-herzog/contribute/contribute-social-feeds">Contribute sites / social media dd</a></li>
-<li data-n="5"><a href="rider/emil-herzog/contribute/contribute-family">Family dd</a></li>
-<li data-n="5"><a href="rider/emil-herzog/contribute/embed-rider-results">Embed rider results dd</a></li>
-<li data-n="7"><a href="rider/emil-herzog/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/emil-herzog/specialties/top-gc-results">Top GC results dd</a></li>
-<li data-n="6"><a href="rider/emil-herzog/specialties/fastest-tt">Fastest TT dd</a></li>
+<li class="more"><a href="rider/emil-herzog">More</a><ul><li data-n="1"><a href="rider/emil-herzog/overview/overview">Overview - Overview</a></li><li data-n="2"><a href="rider/emil-herzog/statistics/statistics">Statistics - Statistics</a></li><li data-n="1"><a href="rider/emil-herzog/statistics/overview">Overview</a></li>
+<li data-n="1"><a href="rider/emil-herzog/statistics/season-statistics">Statistics by season</a></li>
+<li data-n="1"><a href="rider/emil-herzog/statistics/key-events">Key events</a></li>
+<li data-n="1"><a href="rider/emil-herzog/statistics/world-map-of-rider-races">World map of rider races</a></li>
+<li data-n="1"><a href="rider/emil-herzog/statistics/wins">Wins</a></li>
+<li data-n="1"><a href="rider/emil-herzog/statistics/most-starts-by-race">Most starts by race</a></li>
+<li data-n="1"><a href="rider/emil-herzog/statistics/grand-tour-starts">Starts and results</a></li>
+<li data-n="1"><a href="rider/emil-herzog/statistics/injury-history">Injury history</a></li>
+<li data-n="3"><a href="rider/emil-herzog/results/results">Results - Results</a></li><li data-n="4"><a href="rider/emil-herzog/calendar/calendar">Program - Program</a></li><li data-n="5"><a href="rider/emil-herzog/head-to-head/head-to-head">H2H - H2H</a></li><li data-n="6"><a href="rider/emil-herzog/contribute/contribute">More - More</a></li><li data-n="5"><a href="rider/emil-herzog/contribute/contribute-info">Contribute info</a></li>
+<li data-n="5"><a href="rider/emil-herzog/contribute/submit-program">Submit program</a></li>
+<li data-n="5"><a href="rider/emil-herzog/contribute/report">Report</a></li>
+<li data-n="5"><a href="rider/emil-herzog/contribute/contribute-social-feeds">Contribute sites / social media</a></li>
+<li data-n="5"><a href="rider/emil-herzog/contribute/contribute-family">Family</a></li>
+<li data-n="5"><a href="rider/emil-herzog/contribute/embed-rider-results">Embed rider results</a></li>
+<li data-n="7"><a href="rider/emil-herzog/specialties/specialties">Specialties - Specialties</a></li><li data-n="6"><a href="rider/emil-herzog/specialties/top-gc-results">Top GC results</a></li>
+<li data-n="6"><a href="rider/emil-herzog/specialties/fastest-tt">Fastest TT</a></li>
 </ul></li></ul><div class="clear"></div></div><div class="page-title " ><div class="main"><span class="flag de w32"></span><span class="flag de w24"></span><h1 class="">Emil  Herzog</h1><span class="hideIfMobile center">&raquo;</span><span class="red hideIfMobile">Red Bull - BORA - hansgrohe</span></div><div class="sub"><span class="red showIfMobile">Red Bull - BORA - hansgrohe</span></div></div><div class="clear"></div><div class="desktop-ad leaderbord rider"></div><div class="mob-ad leaderbord rider"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div><div class="page-content page-object default " data-no_menu="1" ><h2></h2><div class=" "   >
-<ul class="list horizontal fs14 circle bluelink"><li><a    class="" style="" href="race/world-championships-u23/2024/result/live">LiveStats World Championships MU - Road Race</a></li>
-<li><a    class="" style="" href="rider-in-race/emil-herzog/world-championships-u23">Rider statistics in World Championships MU - Road Race</a></li>
-</ul><div class="clear"></div>
-<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/emil-herzog/statistics/overview"><img alt="Profile photo of Emil  Herzog" src="images/riders/bp/bd/emil-herzog-2024-n2.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 6<sup>th</sup> October 2004 (19)<br /><b>Nationality:</b> <span class="flag  de"></span><a class="black" href="nation/germany">Germany</a><br /><span><b>Weight:</b> 74 kg &nbsp; <span><b>Height:</b> 1.84 m<br /><b>Place of birth:</b> <a href="location/simmerberg1">Simmerberg</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 100%; height: 100%;  "></div></div><div class="pnt">60</div><div class="title"><a href="rider/emil-herzog/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 25%; height: 100%;  "></div></div><div class="pnt">15</div><div class="title"><a href="rider/emil-herzog/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 60%; height: 100%;  "></div></div><div class="pnt">36</div><div class="title"><a href="rider/emil-herzog/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/emil-herzog/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 30%; height: 100%;  "></div></div><div class="pnt">18</div><div class="title"><a href="rider/emil-herzog/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 43.333333333333%; height: 100%;  "></div></div><div class="pnt">26</div><div class="title"><a href="rider/emil-herzog/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://www.instagram.com/emil.herzog/"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://www.strava.com/athletes/32149155"><span class="iconv3 strava14"></span>strava</a></li></ul><div class="clear" style="height: 5px;"></div><div class="clear" ></div><div class=""></div>
+<ul class="list horizontal fs14 circle bluelink"></ul><div class="clear"></div>
+<div class="left w75 mb_w100"><div class="left w50 mb_w100"><h3>Info</h3><div class="rdr-img-cont"><a href="rider/emil-herzog/statistics/overview"><img alt="Profile photo of Emil  Herzog" src="images/riders/bp/bd/emil-herzog-2025.jpg"  /></a></div><div class="rdr-info-cont"><b>Date of birth:</b> 6<sup>th</sup> October 2004 (20)<br /><b>Nationality:</b> <span class="flag  de"></span><a class="black" href="nation/germany">Germany</a><br /><span><b>Weight:</b> 74 kg &nbsp; <span><b>Height:</b> 1.84 m<br /><b>Place of birth:</b> <a href="location/simmerberg">Simmerberg</a><br /><div class="pps"><h4>Points per specialty</h4><ul><li><div class="bar "><div class="bg green" style="width: 100%; height: 100%;  "></div></div><div class="pnt">65</div><div class="title"><a href="rider/emil-herzog/results/career-points-one-day-races">Onedayraces</a></div></li><li><div class="bar "><div class="bg red" style="width: 30.769230769231%; height: 100%;  "></div></div><div class="pnt">20</div><div class="title"><a href="rider/emil-herzog/results/career-points-gc">GC</a></div></li><li><div class="bar "><div class="bg blue" style="width: 55.384615384615%; height: 100%;  "></div></div><div class="pnt">36</div><div class="title"><a href="rider/emil-herzog/results/career-points-time-trial">TT</a></div></li><li><div class="bar "><div class="bg orange" style="width: 0%; height: 100%;  "></div></div><div class="pnt">0</div><div class="title"><a href="rider/emil-herzog/results/career-points-sprint">Sprint</a></div></li><li><div class="bar "><div class="bg purple" style="width: 27.692307692308%; height: 100%;  "></div></div><div class="pnt">18</div><div class="title"><a href="rider/emil-herzog/results/career-points-climbers">Climber</a></div></li><li><div class="bar "><div class="bg pink" style="width: 43.076923076923%; height: 100%;  "></div></div><div class="pnt">28</div><div class="title"><a href="rider/emil-herzog/results/hills">Hills</a></div></li></ul></div><ul class="sites2" style="margin: 5px 0;"><li><a target="_blank" href="https://www.instagram.com/emil.herzog/"><span class="iconv3 insta14"></span>insta</a></li><li><a target="_blank" href="https://www.strava.com/athletes/32149155"><span class="iconv3 strava14"></span>strava</a></li></ul><div class="clear" style="height: 5px;"></div><div class="clear" ></div><div class=""></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal rdr-rankings"  style=" "><li class="" ><div class=" title"  ><a    href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  >783</div><div class="clear"></div></li>
-<li class="" ><div class=" title"  ><a    href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  >647</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal rdr-rankings"   style=" "><li class="" ><div class=" title"  data-pid="7688"><a       href="rankings/me/uci-individual">UCI World</a></div><div class=" rnk"  data-pid="7689">724</div><div class="clear"></div></li>
+<li class="" ><div class=" title"  data-pid="7688"><a       href="rankings/me/individual">PCS Ranking</a></div><div class=" rnk"  data-pid="7689">594</div><div class="clear"></div></li>
 </ul></span></div>
 <div class="">
-<span class="table-cont"><ul class="list horizontal"  style=" "><li class="" ><div class=" bold"  >Visits:</div><div ><span class="delta-up">&#x25B2;1012</span></div><div >  this week</div><div class="clear"></div></li>
+<span class="table-cont"><ul class="list horizontal"   style=" "><li class="" ><div class=" bold"  data-pid="7702">Visits:</div><div data-pid="7703"><span class="delta-up">&#x25B2;195</span></div><div data-pid="7704">  this week</div><div class="clear"></div></li>
 </ul></span></div>
 </div><div class="clear"></div></div><div class="right w47 mb_w100"><h3>Top results</h3><ul class="list moblist flex" data-shortnr="8" style="line-height: 17px; "><li class="main"><div class="ar" style="width: 55px; ">7th&nbsp;</div><div><span class="blue"></span> <a href="race/milano-torino/2024/result">Milano - Torino</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">19th&nbsp;</div><div><span class="blue">GC</span> <a href="race/tour-of-oman/2024/gc">Tour of Oman</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">8th&nbsp;</div><div><span class="blue">stage</span> <a href="race/sibiu-cycling-tour/2024/stage-2b">Sibiu Cycling Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">16th&nbsp;</div><div><span class="blue"></span> <a href="race/world-championships-u23/2024/result">World Championships MU - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">6th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-germany-itt/2024/result">National Championships Germany - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">7th&nbsp;</div><div><span class="blue"></span> <a href="race/gp-palio-del-recioto/2023/result">G.P. Palio del Recioto - Trofeo C&F Resinatura Blo</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">9th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-germany-u23-itt/2023/result">National Championships Germany U23 - ITT</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">11th&nbsp;</div><div><span class="blue">stage</span> <a href="race/sibiu-cycling-tour/2024/stage-1">Sibiu Cycling Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">14th&nbsp;</div><div><span class="blue"></span> <a href="race/nc-germany/2024/result">National Championships Germany ME - Road Race</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">18th&nbsp;</div><div><span class="blue">stage</span> <a href="race/sibiu-cycling-tour/2024/stage-4">Sibiu Cycling Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">19th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-oman/2024/stage-4">Tour of Oman</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
 <li class="main"><div class="ar" style="width: 55px; ">19th&nbsp;</div><div><span class="blue"></span> <a href="race/circuito-belvedere/2023/result">Giro del Belvedere</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-<li class="main"><div class="ar" style="width: 55px; ">20th&nbsp;</div><div><span class="blue">stage</span> <a href="race/rhone-alpes-isere-tour/2023/stage-2">Alpes Isère Tour</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('23)</span></div></li>
-</ul></div></div><div class="right w25 mb_w100 mb_mt10"><div class=""><h3>Teams</h3></div>
-<div class="">
-<span class="table-cont"><ul class="list rdr-teams moblist"  style=" "><li class=" main " ><div class=" season"  >2025</div><div class=" name"  ><a    href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2024</div><div class=" name"  ><a    href="team/red-bull-bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a></div><div > (WT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2023</div><div class=" name"  ><a    href="team/hagens-berman-axeon-2023">Hagens Berman Axeon</a></div><div > (CT)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2022</div><div class=" name"  ><a    href="team/team-auto-eder-2022">Team Auto Eder</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-<li class=" main " ><div class=" season"  >2021</div><div class=" name"  ><a    href="team/team-auto-eder-2021">Team Auto Eder</a></div><div > (CLUB)</div><div class=" fs10"  ></div><div class="clear"></div></li>
-</ul></span></div>
-<div class="mt30"><h3>Upcoming participations</h3>
-<span class="table-cont"><ul class="list flex pad2 dashed"  style=" "><li class="" ><div class=" bold"  >27.09</div><div class=" ellipsis"  ><span class="flag ch"></span> <a    href="race/world-championships-u23/2024/startlist">World Championships MU - Road Race</a></div><div class=" fs10 blue"  ><a    href="rider-in-race/emil-herzog/world-championships-u23">more</a></div><div class="clear"></div></li>
+<li class="main"><div class="ar" style="width: 55px; ">19th&nbsp;</div><div><span class="blue">stage</span> <a href="race/tour-of-oman/2024/stage-4">Tour of Oman</a><span style="color: #777; font: 11px tahoma;">&nbsp; ('24)</span></div></li>
+</ul></div></div><div class="right w25 mb_w100 mb_mt10"><h3>Teams</h3><span class="table-cont"><ul class="rdr-teams2  "  ><li class="main  "><div class="season">2026</div><div class="name"><a href="team/red-bull-bora-hansgrohe-2026">Red Bull - BORA - hansgrohe</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2025</div><div class="name"><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2024</div><div class="name"><a href="team/red-bull-bora-hansgrohe-2024">Red Bull - BORA - hansgrohe</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2023</div><div class="name"><a href="team/hagens-berman-axeon-2023">Hagens Berman Axeon</a> (CT)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2022</div><div class="name"><a href="team/team-auto-eder-2022">Team Auto Eder</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li><li class="main  "><div class="season">2021</div><div class="name"><a href="team/team-auto-eder-2021">Team Auto Eder</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li></ul></span><div class="mt30"><h3>Upcoming participations</h3>
+<span class="table-cont"><ul class="list flex pad2 dashed"   style=" "><li class="" ><div class=" bold"  data-pid="7673">29.01</div><div class=" ellipsis"  data-pid="7674"><span class="flag es"></span> <a       href="race/trofeo-calvia/2025/startlist">Trofeo Calvià</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/emil-herzog/trofeo-calvia">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">30.01</div><div class=" ellipsis"  data-pid="7674"><span class="flag es"></span> <a       href="race/trofeo-ses-salines-felanitx/2025/startlist">Trofeo Ses Salines</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/emil-herzog/trofeo-ses-salines-felanitx">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">31.01</div><div class=" ellipsis"  data-pid="7674"><span class="flag es"></span> <a       href="race/deia-trophy/2025/startlist">Trofeo Serra Tramuntana</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/emil-herzog/deia-trophy">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">01.02</div><div class=" ellipsis"  data-pid="7674"><span class="flag es"></span> <a       href="race/trofeo-pollenca-port-d-andratx/2025/startlist">Trofeo Andratx - Pollença</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/emil-herzog/trofeo-pollenca-port-d-andratx">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">02.02</div><div class=" ellipsis"  data-pid="7674"><span class="flag es"></span> <a       href="race/trofeo-palma/2025/startlist">Trofeo Palma</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/emil-herzog/trofeo-palma">more</a></div><div class="clear"></div></li>
+<li class="" ><div class=" bold"  data-pid="7673">05.02</div><div class=" ellipsis"  data-pid="7674"><span class="flag fr"></span> <a       href="race/etoile-de-besseges/2025/startlist">Etoile de Bessèges - Tour du Gard</a></div><div class=" fs10 blue"  data-pid="12391"><a       href="rider-in-race/emil-herzog/etoile-de-besseges">more</a></div><div class="clear"></div></li>
 </ul></span></div>
 <div class=""><div class="text-regular"><div class="mob-ad rider-after-program"></div></div></div>
 </div><div class="left w73 mb_w100 mt20" style="min-height: 400px; "><ul class="rdrSeasonNav " data-discipline="road"><li data-season="2024" class="cur"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=""><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=""><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=""><a class="seasonResults" data-season="2021" href="">2021</a></li><li class="more hide "><span>more</span><ul><li data-season="2024" class=" hide"><a class="seasonResults" data-season="2024" href="">2024</a></li><li data-season="2023" class=" hide"><a class="seasonResults" data-season="2023" href="">2023</a></li><li data-season="2022" class=" hide"><a class="seasonResults" data-season="2022" href="">2022</a></li><li data-season="2021" class=" hide"><a class="seasonResults" data-season="2021" href="">2021</a></li></ul></li></ul><div class="resultsSortFilter sortByResults">Sort by: <a class="" data-case="date" href="">Date</a><a class="" data-case="rnk" href="">Result</a><a class="" data-case="pnt" href="">Points</a></div><div class="resultsSortFilter filterByResults">Filter by: <a class="cur" data-case="all" href="">All</a><a class="" data-case="climber" href="">Climber</a><a class="" data-case="hills" href="">Hills</a><a class="" data-case="sprints" href="">Sprints</a><a class="" data-case="tt" href="">TT</a></div><div class="clear"></div><div id="resultsCont"><table class="rdrResults"><thead><tr><th style="width: 11%;"><br />Date</th><th style="width: 4%;"><br />Result</th><th class="cu600" style="width: 4%;"></th><th style="width: 2%;"></th><th class="name" style=""><br />Race</th><th class="cu600" style="width: 8%;"><br />Distance</th><th class="cu600" style="width: 8%;">Points<br />PCS</th><th class="cu600 " style="width: 8%;">Points<br />UCI</th><th class="cu600" style="width: 3%;"></th></tr></thead><tbody>
+<tr data-main="1"><td>15.10 &raquo; 20.10</td><td></td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/youth">Gree-Tour of Guangxi <span>(2.UWT)</span></a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td></td><td>47</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st6"  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/youth">Youth classification</a> </td><td class="cu600"></td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td></td><td>107</td><td class="gc cu600"></td><td style="padding: 0; "><span class="icon shirt w14 st4"  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/gc">General classification</a> </td><td class="cu600"></td><td class="cu600">5</td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>20.10</td><td>77</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-6">Stage 6 - Nanning &rsaquo; Nanning</a> </td><td class="cu600">134.3</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>19.10</td><td>108</td><td class="gc cu600">113</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-5">Stage 5 - Yizhou &rsaquo; Nongla</a> </td><td class="cu600">165.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>18.10</td><td>108</td><td class="gc cu600">114</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-4">Stage 4 - Bama &rsaquo; Jinchengjiang</a> </td><td class="cu600">176.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>17.10</td><td>114</td><td class="gc cu600">116</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-3">Stage 3 - Jingxi &rsaquo; Bama</a> </td><td class="cu600">214</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>16.10</td><td>127</td><td class="gc cu600">125</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-2">Stage 2 - Chongzuo &rsaquo; Jingxi</a> </td><td class="cu600">181.5</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/tour-of-guangxi">more</a></td></tr>
+<tr data-main="0"><td>15.10</td><td>84</td><td class="gc cu600">84</td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag cn"></span><a href="https://www.procyclingstats.com/race/tour-of-guangxi/2024/stage-1">Stage 1 - Fangchenggang &rsaquo; Fangchenggang</a> </td><td class="cu600">149.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/tour-of-guangxi">more</a></td></tr>
+<tr data-main="1"><td>10.10</td><td>79</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/gran-piemonte/2024/result">Gran Piemonte <span>(1.Pro)</span></a> </td><td class="cu600">182</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/gran-piemonte">more</a></td></tr>
+<tr data-main="1"><td>07.10</td><td>26</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/coppa-bernocchi/2024/result">Coppa Bernocchi - GP Banco BPM <span>(1.Pro)</span></a> </td><td class="cu600">174.34</td><td class="cu600"></td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/coppa-bernocchi">more</a></td></tr>
+<tr data-main="1"><td>27.09</td><td>16</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag ch"></span><a href="https://www.procyclingstats.com/race/world-championships-u23/2024/result">World Championships MU - Road Race <span>(WC)</span></a> </td><td class="cu600">173.6</td><td class="cu600">5</td><td class="cu600 ">5</td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/world-championships-u23">more</a></td></tr>
 <tr data-main="1"><td>21.09</td><td>102</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/gp-impanis-van-petegem/2024/result">SUPER 8 Classic <span>(1.Pro)</span></a> </td><td class="cu600">197.6</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/gp-impanis-van-petegem">more</a></td></tr>
-<tr data-main="1"><td>20.09</td><td>132</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/kampioenschap-van-vlaanderen/2024/result">Kampioenschap van Vlaanderen <span>(1.1)</span></a> </td><td class="cu600">180.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/kampioenschap-van-vlaanderen">more</a></td></tr>
+<tr data-main="1"><td>20.09</td><td>132</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/kampioenschap-van-vlaanderen1/2024/result">Kampioenschap van Vlaanderen <span>(1.1)</span></a> </td><td class="cu600">180.2</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/kampioenschap-van-vlaanderen1">more</a></td></tr>
 <tr data-main="1"><td>18.09</td><td>61</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag be"></span><a href="https://www.procyclingstats.com/race/gp-de-wallonie/2024/result">Grand Prix de Wallonie <span>(1.Pro)</span></a> </td><td class="cu600">202.39</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/gp-de-wallonie">more</a></td></tr>
 <tr data-main="1"><td>15.09</td><td>32</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/trofeo-matteotti/2024/result">Trofeo Matteotti <span>(1.1)</span></a> </td><td class="cu600">194</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/trofeo-matteotti">more</a></td></tr>
 <tr data-main="1"><td>14.09</td><td>42</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag it"></span><a href="https://www.procyclingstats.com/race/memorial-marco-pantani/2024/result">Memorial Marco Pantani <span>(1.1)</span></a> </td><td class="cu600">195.4</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/memorial-marco-pantani">more</a></td></tr>
@@ -259,15 +266,18 @@
 <tr data-main="1"><td>26.01</td><td>138</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/deia-trophy/2024/result">Trofeo Serra Tramuntana <span>(1.1)</span></a> </td><td class="cu600">153.8</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/deia-trophy">more</a></td></tr>
 <tr data-main="1"><td>25.01</td><td>22</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/trofeo-ses-salines-felanitx/2024/result">Trofeo Ses Salines-Felanitx <span>(1.1)</span></a> </td><td class="cu600">181.2</td><td class="cu600"></td><td class="cu600 ">3</td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/trofeo-ses-salines-felanitx">more</a></td></tr>
 <tr data-main="1"><td>24.01</td><td>62</td><td class="gc cu600"></td><td style="padding: 0; "><span class=""  ></span></td><td class="name"><span class="flag es"></span><a href="https://www.procyclingstats.com/race/trofeo-calvia/2024/result">Trofeo Calvià <span>(1.1)</span></a> </td><td class="cu600">150.1</td><td class="cu600"></td><td class="cu600 "></td><td class="cu600"><a class="more" href="rider-in-race/emil-herzog/trofeo-calvia">more</a></td></tr>
-</tbody></table><div class="rdrResultsSum" ><div>9085</b> km in <b>55</b> days | PCS points: <b>76</b> |  UCI points: <b>82</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div></div><div class="right w25 mb_w100"><div class="mt30"><h3>Key statistics</h3>
-<span class="table-cont"><ul class="rider-kpi"  style=" "><li class="" ><div class=" nr"  >0</div><div class=" title"  ><a    href="rider/emil-herzog/statistics/wins">Wins</a></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
-<li class="" ><div class=" nr"  >0</div><div class=" title"  ><a    href="rider/emil-herzog/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class=" info fs11"  ></div><div class="clear"></div></li>
-<li class="" ><div class=" nr"  >2</div><div class=" title"  ><a    href="rider/emil-herzog/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  >RBX(1)</div><div class=" info fs11"  >MSR(0)</div><div class=" info fs11"  >RVV(1)</div><div class=" info fs11"  >LBL(0)</div><div class=" info fs11"  >LOM(0)</div><div class="clear"></div></li>
+</tbody></table><div class="rdrResultsSum" ><div>10637</b> km in <b>64</b> days | PCS points: <b>86</b> |  UCI points: <b>92</b> </div></div></div><div style="float: right; margin-top: 8px; "><span   style=" font-size: 10px; color: #aaa; letter-spacing: -0.5px; margin-left: 10px;"> <svg viewBox="0 0 24 24" style="width: 10px; "><g><path d="M0 0h24v24H0z" fill="none"/><path fill="#f55733" d="M3.783 2.826L12 1l8.217 1.826a1 1 0 0 1 .783.976v9.987a6 6 0 0 1-2.672 4.992L12 23l-6.328-4.219A6 6 0 0 1 3 13.79V3.802a1 1 0 0 1 .783-.976z"/></g></svg> = number of kilometres in a group before the peloton</span></div><div class="clear"></div><div class="ar fs10 mt10"><a class="blue" href="calendar/uci/upload-result">Missing result?</a></div></div><div class="right w25 mb_w100"><div class="mt20"><h3>Key statistics</h3>
+<span class="table-cont"><ul class="rider-kpi"   style=" "><li class="" ><div class=" nr"  data-pid="7664">0</div><div class=" title"  data-pid="7665"><a       href="rider/emil-herzog/statistics/wins">Wins</a></div><div class=" info fs11"  data-pid="7666"></div><div class=" info fs11"  data-pid="7667"></div><div class=" info fs11"  data-pid="11102"></div><div class=" info fs11"  data-pid="11103"></div><div class=" info fs11"  data-pid="11104"></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  data-pid="7664">0</div><div class=" title"  data-pid="7665"><a       href="rider/emil-herzog/statistics/grand-tour-starts">Grand tours</a></div><div class=" info fs11"  data-pid="7666"></div><div class=" info fs11"  data-pid="7667"></div><div class=" info fs11"  data-pid="11102"></div><div class=" info fs11"  data-pid="11103"></div><div class=" info fs11"  data-pid="11104"></div><div class="clear"></div></li>
+<li class="" ><div class=" nr"  data-pid="7664">2</div><div class=" title"  data-pid="7665"><a       href="rider/emil-herzog/statistics/top-classic-results">Classics</a></div><div class=" info fs11"  data-pid="7666">RBX(1)</div><div class=" info fs11"  data-pid="7667">MSR(0)</div><div class=" info fs11"  data-pid="11102">RVV(1)</div><div class=" info fs11"  data-pid="11103">LBL(0)</div><div class=" info fs11"  data-pid="11104">LOM(0)</div><div class="clear"></div></li>
 </ul></span></div>
-<div class="mt30"><h3>PCS Ranking position per season</h3>
+<div class="mt20"><h3>PCS Ranking position per season</h3>
 <span class="table-cont"><table class="basic rdr-season-stats"  style=""><thead><tr><th class="season  "  style="width: 16.7%; "></th><th class="bar  "  style="width: 66.7%; ">Points</th><th class="ac  "  style="width: 16.7%; ">position</th></tr></thead><tbody>
-<tr ><td class="season  "  style="height: 1px; ">2024</td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative; border: 0px solid #333;  "><div class="vTitle" style="line-height: 12px;">76</div></div></div></td><td class="ac  "  style="height: 1px; ">585</td></tr>
+<tr ><td class="season  "  style="height: 1px; "><a       href="rankings.php?date=2024-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=586&filter=Filter&p=me&s=season-individual">2024</a></td><td class="bar  "  style="height: 1px; "><div class="barCont" ><div class="bg left green2 h12" style="width: 80%; position: relative;   "><div class="vTitle" style="line-height: 12px;">86</div></div></div></td><td class="ac  "  style="height: 1px; "><a       href="rankings.php?date=2024-12-31&nation=&age=&zage=&page=smallerorequal&team=&offset=586&filter=Filter&p=me&s=season-individual">587</a></td></tr>
 </tbody></table></span></div>
+<div class="mt20"><h3>Family</h3>
+<span class="table-cont"><ul class="list"   style=" "><li class="" ><div data-pid="7676"><a       href="rider/karl-herzog">Karl  Herzog</a></div><div data-pid="7677"> (Brother)</div><div class="clear"></div></li>
+</ul></span></div>
 <div class=""></div>
 </div><div class="clear"></div><script>
 $(document).ready(function(){
@@ -344,6 +354,8 @@ $(document).ready(function(){
 
   }); 
 
+  $(".showAllTeams").click(function(e){   e.preventDefault();       $('.rdr-teams2 li').show();     $('.rdr-teams2 li.combiLine').hide();       });
+
 
   
 
@@ -374,7 +386,7 @@ $(document).ready(function(){
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
 </ul><h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/uec-road-european-championships">European championships</a></li>
+<li><a href="race/uec-road-european-championships">European Championships</a></li>
 </ul></li>
 <li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
 <li><a href="race/strade-bianche">Strade Bianche</a></li>
@@ -395,10 +407,12 @@ $(document).ready(function(){
 <li><a href="rider/jonas-vingegaard">Jonas Vingegaard</a></li>
 <li><a href="rider/mathieu-van-der-poel">Mathieu van der Poel</a></li>
 <li><a href="rider/mads-pedersen">Mads Pedersen</a></li>
-<li><a href="rider/primoz-roglic">Primoz Roglic</a></li>
+<li><a href="rider/primoz-roglic">Primož Roglič</a></li>
+<li><a href="rider/marc-hirschi">Marc Hirschi</a></li>
 <li><a href="rider/demi-vollering">Demi Vollering</a></li>
 <li><a href="rider/lotte-kopecky">Lotte Kopecky</a></li>
 <li><a href="rider/katarzyna-niewiadoma">Katarzyna Niewiadoma</a></li>
+<li><a href="rider/evita-muzic">Évita Muzic</a></li>
 </ul></li>
 <li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
@@ -421,14 +435,14 @@ $(document).ready(function(){
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1127s</span></li>
+<li><span>Pageload 0.0903s</span></li>
 </ul></li>
 </ul><input type="hidden" id="pageid" value="1238" /><input type="hidden" id="userid" value="0" />
 	</div>
 </div> 
  
  </body></html>
-<script src="search_list13.js"></script>  
+<script src="search_list17.js"></script>  
 		<script>
 		var riderid = 270733;		$(document).ready(function() { 	RVC(riderid);  	  });
 		</script>
