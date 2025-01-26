@@ -11,7 +11,6 @@ import io.kotest.matchers.shouldBe
 import io.mockk.every
 import io.mockk.mockk
 import io.mockk.slot
-import kotlinx.serialization.encodeToString
 import kotlin.time.Duration.Companion.seconds
 
 class PCSScraperTest : BehaviorSpec({
@@ -34,7 +33,7 @@ class PCSScraperTest : BehaviorSpec({
         var scrapedRiders: List<Rider> = emptyList()
 
         `when`("scrapping teams") {
-            scrapedTeams = (teamsScraper.scrapeTeams(2024))
+            scrapedTeams = (teamsScraper.scrapeTeams(2025))
             val serializedJson = json.encodeToString(scrapedTeams)
             then("it should be equal to the snapshot") {
                 val expectedJson = this.javaClass.getResource("/pcssnapshot/json/teams.json")!!.readText()
@@ -43,7 +42,7 @@ class PCSScraperTest : BehaviorSpec({
         }
 
         `when`("scrapping riders") {
-            scrapedRiders = (ridersScraper.scrapeRiders(2024))
+            scrapedRiders = (ridersScraper.scrapeRiders(2025, emptyList()))
             val serializedJson = json.encodeToString(scrapedRiders)
             then("it should be equal to the snapshot") {
                 val expectedJson = this.javaClass.getResource("/pcssnapshot/json/riders.json")!!.readText()
@@ -53,7 +52,7 @@ class PCSScraperTest : BehaviorSpec({
 
         `when`("scrapping races") {
             val scrapedRaces =
-                (racesScraper.scrapeRaces(2024, teamIdMapper(scrapedTeams), riderIdMapper(scrapedRiders)))
+                (racesScraper.scrapeRaces(2025, teamIdMapper(scrapedTeams)))
             val serializedJson = json.encodeToString(scrapedRaces)
             then("it should be equal to the snapshot") {
                 val expectedJson = this.javaClass.getResource("/pcssnapshot/json/races.json")!!.readText()

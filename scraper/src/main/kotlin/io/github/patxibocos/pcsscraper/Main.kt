@@ -2,6 +2,7 @@ package io.github.patxibocos.pcsscraper
 
 import io.github.patxibocos.pcsscraper.document.Cache
 import io.github.patxibocos.pcsscraper.document.DocFetcher
+import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.export.Exporter
 import io.github.patxibocos.pcsscraper.export.Format
 import io.github.patxibocos.pcsscraper.scraper.PCSRacesScraper
@@ -10,7 +11,6 @@ import io.github.patxibocos.pcsscraper.scraper.PCSTeamsScraper
 import io.github.patxibocos.pcsscraper.scraper.RacesScraper
 import io.github.patxibocos.pcsscraper.scraper.RidersScraper
 import io.github.patxibocos.pcsscraper.scraper.TeamsScraper
-import io.github.patxibocos.pcsscraper.scraper.riderIdMapper
 import io.github.patxibocos.pcsscraper.scraper.teamIdMapper
 import kotlinx.cli.ArgParser
 import kotlinx.cli.ArgType
@@ -45,13 +45,28 @@ fun main(args: Array<String>) {
         logger.info("Running scraper with arguments: $appArgs")
         val data = async {
             val teams = teamsScraper.scrapeTeams(season = season)
-            val riders = ridersScraper.scrapeRiders(season = season)
             val races =
                 racesScraper.scrapeRaces(
                     season = season,
                     teamIdMapper = teamIdMapper(teams),
-                    riderIdMapper = riderIdMapper(riders),
                 )
+            val participantRiders = races.map { it.stages }.flatten().map { stage ->
+                buildList<Pair<String, String>> {
+                    // Time only if stage is not TTT
+                    if (stage.stageType != Race.Stage.StageType.TEAM_TIME_TRIAL) {
+                        addAll(stage.stageResults.time.map { it.participant to it.name })
+                    }
+                    addAll(stage.stageResults.youth.map { it.participant to it.name })
+                    addAll(stage.stageResults.kom.map { it.points.map { it.participant to it.name } }.flatten())
+                    addAll(stage.stageResults.points.map { it.points.map { it.participant to it.name } }.flatten())
+
+                    addAll(stage.generalResults.time.map { it.participant to it.name })
+                    addAll(stage.generalResults.youth.map { it.participant to it.name })
+                    addAll(stage.generalResults.kom.map { it.participant to it.name })
+                    addAll(stage.generalResults.points.map { it.participant to it.name })
+                }
+            }.flatten().distinct()
+            val riders = ridersScraper.scrapeRiders(season = season, requiredRiders = participantRiders)
             Triple(teams, riders, races)
         }
 

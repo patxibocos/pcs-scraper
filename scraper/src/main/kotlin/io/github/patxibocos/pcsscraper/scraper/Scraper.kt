@@ -9,9 +9,9 @@ interface TeamsScraper {
 }
 
 interface RidersScraper {
-    suspend fun scrapeRiders(season: Int): List<Rider>
+    suspend fun scrapeRiders(season: Int, requiredRiders: List<Pair<String, String>>): List<Rider>
 }
 
 interface RacesScraper {
-    suspend fun scrapeRaces(season: Int, teamIdMapper: (String) -> String?, riderIdMapper: (String) -> String?): List<Race>
+    suspend fun scrapeRaces(season: Int, teamIdMapper: (String) -> String?): List<Race>
 }

@@ -16,37 +16,44 @@ import java.text.Collator
 import java.time.LocalDate
 import java.time.format.DateTimeFormatter
 import java.time.format.DateTimeParseException
-import java.util.Locale
+import java.util.*
 
 class PCSRidersScraper(
     private val docFetcher: DocFetcher,
     private val logger: Logger = KotlinLogging.logger {},
     private val pcsUrl: String = PCS_URL,
-) :
-    RidersScraper {
+) : RidersScraper {
 
-    override suspend fun scrapeRiders(season: Int): List<Rider> = coroutineScope {
-        logger.info("Scraping riders for $season season")
-        val teamsRiders = getTeamsUrls(season).map { teamUrl -> getTeamRiders(teamUrl) }
-        val pcsRiders = teamsRiders
-            .map {
-                logger.info("Scraping riders for team ${it.teamName}")
-                it.riderIdsToNames.map { (riderUrl, riderFullName) ->
-                    async {
-                        getRider(riderUrl, riderFullName)
-                    }
-                }.awaitAll()
-            }
-            .flatten()
-            .distinctBy { it.url }
-        val usCollator = Collator.getInstance(Locale.US)
-        val ridersComparator = compareBy(usCollator) { r: Rider -> r.lastName.lowercase() }
-            .thenBy(usCollator) { r: Rider -> r.firstName.lowercase() }
-        val ridersByUrl = pcsRiders.associateBy { it.url }
-        val ranking = scrapeUCIWorldRanking()
-        ranking.forEach { (rider, position) -> ridersByUrl[rider]?.uciRankingPosition = position }
-        pcsRiders.map(::pcsRiderToRider).sortedWith(ridersComparator)
-    }
+    override suspend fun scrapeRiders(season: Int, requiredRiders: List<Pair<String, String>>): List<Rider> =
+        coroutineScope {
+            logger.info("Scraping riders for $season season")
+            logger.info("Scraping required riders first (${requiredRiders.size})")
+            val requiredPcsRiders = requiredRiders.map { (riderId, riderFullName) ->
+                async {
+                    getRider("rider/$riderId", riderFullName)
+                }
+            }.awaitAll()
+            val teamsRiders = getTeamsUrls(season).map { teamUrl -> getTeamRiders(teamUrl) }
+            val pcsRiders = teamsRiders
+                .map {
+                    logger.info("Scraping riders for team ${it.teamName}")
+                    it.riderIdsToNames.map { (riderUrl, riderFullName) ->
+                        async {
+                            getRider(riderUrl, riderFullName)
+                        }
+                    }.awaitAll()
+                }
+                .flatten()
+                .plus(requiredPcsRiders)
+                .distinctBy { it.url }
+            val usCollator = Collator.getInstance(Locale.US)
+            val ridersComparator = compareBy(usCollator) { r: Rider -> r.lastName.lowercase() }
+                .thenBy(usCollator) { r: Rider -> r.firstName.lowercase() }
+            val ridersByUrl = pcsRiders.associateBy { it.url }
+            val ranking = scrapeUCIWorldRanking()
+            ranking.forEach { (rider, position) -> ridersByUrl[rider]?.uciRankingPosition = position }
+            pcsRiders.map(::pcsRiderToRider).sortedWith(ridersComparator)
+        }
 
     private suspend fun scrapeUCIWorldRanking(): Map<String, String> = coroutineScope {
         logger.info("Scraping UCI World Ranking")
@@ -79,7 +86,8 @@ class PCSRidersScraper(
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
         val pageTitleMain = teamDoc.findFirst(".page-title > .main")
         val teamName = pageTitleMain.h1 { findFirst { text } }.substringBefore('(').trim()
-        val riderIdsToNames = teamDoc.findFirst(".ridersTab[data-code=name]").findAll("a").map { it.attribute("href") to it.text }
+        val riderIdsToNames =
+            teamDoc.findFirst(".ridersTab[data-code=name]").findAll("a").map { it.attribute("href") to it.text }
         return TeamRiders(teamName, riderIdsToNames)
     }
 
@@ -141,6 +149,7 @@ class PCSRidersScraper(
 
     private fun buildURL(path: String): URL =
         URI(pcsUrl).resolve("/").resolve(path).toURL()
+
 }
 
 private data class TeamRiders(val teamName: String, val riderIdsToNames: List<Pair<String, String>>)

@@ -63,6 +63,7 @@ data class Race(
         val position: Int,
         val participant: String,
         val time: Long,
+        val name: String,
     )
 
     @Serializable
@@ -70,6 +71,7 @@ data class Race(
         val position: Int,
         val participant: String,
         val points: Int,
+        val name: String,
     )
 
     @Serializable
