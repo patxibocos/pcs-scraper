@@ -7,7 +7,6 @@ on:
 
 jobs:
   scrap:
-    if: ${{ false }}
     uses: ./.github/workflows/run.yml
     with:
       formats: -f firebase -f s3
