@@ -43,6 +43,9 @@ class PCSTeamsScraper(
         val website = teamDoc.getWebsite()
 
         fun getJerseyImageFromUci(): String {
+            if (abbreviation == "WB2") {
+                return "https://www.procyclingstats.com/images/shirts/bx/eb/wagner-bazin-wb-2025-n2.png"
+            }
             val uciCategory = when (status) {
                 "WT" -> "WTT"
                 "PRT" -> "PRT"
