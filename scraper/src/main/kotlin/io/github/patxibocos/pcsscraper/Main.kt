@@ -66,7 +66,7 @@ fun main(args: Array<String>) {
                     addAll(stage.generalResults.points.map { it.participant to it.name })
                 }
             }.flatten().distinct()
-            val riders = ridersScraper.scrapeRiders(season = season, requiredRiders = participantRiders)
+            val riders = ridersScraper.scrapeRiders(season = season, requiredRiders = emptyList())
             Triple(teams, riders, races)
         }
 
