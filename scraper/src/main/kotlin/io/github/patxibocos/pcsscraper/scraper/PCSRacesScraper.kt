@@ -251,6 +251,9 @@ class PCSRacesScraper(
             val participantTd = it.td { findByIndex(participantColumnIndex) }
             val participant = participantTd.a { findFirst { attribute("href") } }
             val name = participantTd.a { findFirst { text } }
+            if (name.isEmpty()) {
+                return@mapNotNull null
+            }
             val timeOrPoints = it.td { findByIndex(timeOrPointsColumnIndex) }.ownText.ifEmpty {
                 it.td { findByIndex(timeOrPointsColumnIndex) }.span { findFirst { ownText } }
             }.ifEmpty {

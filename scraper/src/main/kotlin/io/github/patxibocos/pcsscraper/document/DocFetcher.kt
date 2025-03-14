@@ -1,10 +1,10 @@
 package io.github.patxibocos.pcsscraper.document
 
-import io.ktor.client.*
-import io.ktor.client.call.*
-import io.ktor.client.engine.cio.*
-import io.ktor.client.request.*
-import io.ktor.client.statement.*
+import io.ktor.client.HttpClient
+import io.ktor.client.call.body
+import io.ktor.client.engine.cio.CIO
+import io.ktor.client.request.get
+import io.ktor.client.statement.HttpResponse
 import it.skrape.core.htmlDocument
 import it.skrape.selects.Doc
 import kotlinx.coroutines.Dispatchers
