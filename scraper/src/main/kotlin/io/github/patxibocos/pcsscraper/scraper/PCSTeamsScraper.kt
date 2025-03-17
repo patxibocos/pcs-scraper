@@ -39,7 +39,7 @@ class PCSTeamsScraper(
         val infoList = teamDoc.ul { withClass = "infolist"; this }
         val status = infoList.findFirst("li").findSecond("div").ownText
         val abbreviation = infoList.findSecond("li").findSecond("div").ownText.uppercase()
-        val bike = infoList.findThird("li").findFirst("a").ownText
+        val bike = infoList.findFirst("a[href^='brand']").ownText
         val website = teamDoc.getWebsite()
 
         fun getJerseyImageFromUci(): String {
