@@ -4,6 +4,7 @@ import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.entity.Rider
 import it.skrape.selects.Doc
 import it.skrape.selects.html5.a
+import it.skrape.selects.html5.div
 import it.skrape.selects.html5.h1
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -49,31 +50,8 @@ class PCSRidersScraper(
             val usCollator = Collator.getInstance(Locale.US)
             val ridersComparator = compareBy(usCollator) { r: Rider -> r.lastName.lowercase() }
                 .thenBy(usCollator) { r: Rider -> r.firstName.lowercase() }
-            val ridersByUrl = pcsRiders.associateBy { it.url }
-            val ranking = scrapeUCIWorldRanking()
-            ranking.forEach { (rider, position) -> ridersByUrl[rider]?.uciRankingPosition = position }
             pcsRiders.map(::pcsRiderToRider).sortedWith(ridersComparator)
         }
-
-    private suspend fun scrapeUCIWorldRanking(): Map<String, String> = coroutineScope {
-        logger.info("Scraping UCI World Ranking")
-        val baseUrl = "rankings.php?p=me&s=uci-individual"
-        val rankingURL = buildURL(baseUrl)
-        val rankingDoc = docFetcher.getDoc(rankingURL)
-        val offsetRanges = rankingDoc.findAll("select[name='offset'] > option").map { it.attribute("value") }
-        offsetRanges.map { offset ->
-            async {
-                val rankingPageURL = buildURL("$rankingURL&offset=$offset")
-                val rankingPageDoc = docFetcher.getDoc(rankingPageURL)
-                val riderElements = rankingPageDoc.findAll("table.basic > tbody > tr")
-                riderElements.map { riderElement ->
-                    val position = riderElement.findFirst("td").text
-                    val rider = riderElement.findByIndex(3, "td").a { findFirst { attribute("href") } }
-                    rider to position
-                }
-            }
-        }.awaitAll().flatten().toMap()
-    }
 
     private suspend fun getTeamsUrls(season: Int): List<String> {
         val teamsURL = buildURL("teams.php?year=$season&s=worldtour")
@@ -95,7 +73,6 @@ class PCSRidersScraper(
         val riderURL = buildURL(riderUrl)
         val riderDoc = docFetcher.getDoc(riderURL) { relaxed = true }
         val infoContent = riderDoc.findFirst(".rdr-info-cont")
-        val country = riderDoc.findFirst(".rdr-info-cont > .flag").classNames.find { it.length == 2 }.orEmpty()
         val website = riderDoc.getWebsite()
         val birthDate = infoContent.ownText.split(' ').take(3).joinToString(" ")
         val birthPlaceWeightAndHeight = infoContent.findFirst(":last-child").findFirst { text }.split(' ')
@@ -106,6 +83,10 @@ class PCSRidersScraper(
         val heightWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("height") }
         val height = if (heightWordIndex != -1) birthPlaceWeightAndHeight[heightWordIndex + 1] else null
         val imageUrl = riderDoc.findFirst("img").attribute("src")
+        val uciRankingPosition = riderDoc.a { findAll { filter { it.text == "UCI World" } } }
+            .firstOrNull()?.parent?.parent?.children?.last()?.text
+        val country = riderDoc.div { findAll { filter { it.text == "Nationality:" } } }
+            .firstOrNull()?.parent?.findFirst("span.flag")?.classNames?.last() ?: error("Country not found")
         return PCSRider(
             url = riderUrl,
             fullName = riderFullName,
@@ -116,6 +97,7 @@ class PCSRidersScraper(
             weight = weight,
             height = height,
             photo = imageUrl,
+            uciRankingPosition = uciRankingPosition,
         )
     }
 

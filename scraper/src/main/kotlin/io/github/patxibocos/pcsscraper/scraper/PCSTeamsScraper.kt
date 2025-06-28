@@ -3,6 +3,7 @@ package io.github.patxibocos.pcsscraper.scraper
 import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.entity.Team
 import it.skrape.selects.Doc
+import it.skrape.selects.html5.a
 import it.skrape.selects.html5.h1
 import it.skrape.selects.html5.ul
 import kotlinx.coroutines.async
@@ -40,7 +41,7 @@ class PCSTeamsScraper(
         val status = infoList.findFirst("li").findSecond("div").ownText
         val abbreviation = infoList.findSecond("li").findSecond("div").ownText.uppercase()
         val bike = infoList.findFirst("a[href^='brand']").ownText
-        val website = teamDoc.getWebsite()
+        val website = teamDoc.findAll { filter { it.findFirst("a").text == "SITE" } }.firstOrNull()?.a { findFirst { attribute("href") } }
 
         fun getJerseyImageFromUci(): String {
             if (abbreviation == "WB2") {
@@ -55,10 +56,10 @@ class PCSTeamsScraper(
         }
 
         val jersey = getJerseyImageFromUci()
-        val pageTitleMain = teamDoc.findFirst(".page-title > .main")
-        val teamName = pageTitleMain.h1 { findFirst { text } }.substringBefore('(').trim()
-        val country = teamDoc.getCountry()
-        val year = pageTitleMain.findLast("span").ownText.toInt()
+        val pageTitle = teamDoc.findFirst(".page-title")
+        val teamName = pageTitle.h1 { findFirst { text } }.substringBefore('(').trim()
+        val country = pageTitle.findFirst(".title > span:nth-child(2)").classNames.last()
+        val year = pageTitle.findFirst(".subtitle > h2").ownText.toInt()
         return PCSTeam(
             url = teamUrl,
             name = teamName,
@@ -95,14 +96,6 @@ class PCSTeamsScraper(
             riders = pcsTeam.riders.map { it.split("/").last() },
         )
     }
-
-    private fun Doc.getWebsite(): String? =
-        findFirst(".sites .website").takeIf {
-            it.parents.isNotEmpty()
-        }?.parent?.findFirst("a")?.attribute("href")
-
-    private fun Doc.getCountry(): String =
-        findFirst(".main > span.flag").classNames.find { it.length == 2 }.orEmpty()
 
     private fun buildURL(path: String): URL =
         URI(pcsUrl).resolve("/").resolve(path.trim()).toURL()

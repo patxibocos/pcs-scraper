@@ -27,7 +27,7 @@ data class PCSRider(
     val weight: String? = null,
     val height: String? = null,
     val photo: String,
-    var uciRankingPosition: String? = null,
+    val uciRankingPosition: String?,
 ) {
     fun getFirstAndLastName(fullName: String): Pair<String, String> {
         val index = max(fullName.indexOfFirst { it.isLowerCase() } - 2, fullName.indexOfFirst { it.isWhitespace() })
