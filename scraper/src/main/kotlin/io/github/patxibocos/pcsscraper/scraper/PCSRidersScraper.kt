@@ -3,6 +3,7 @@ package io.github.patxibocos.pcsscraper.scraper
 import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.entity.Rider
 import it.skrape.selects.Doc
+import it.skrape.selects.DocElement
 import it.skrape.selects.html5.a
 import it.skrape.selects.html5.div
 import it.skrape.selects.html5.h1
@@ -64,24 +65,49 @@ class PCSRidersScraper(
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
         val pageTitleMain = teamDoc.findFirst(".page-title > .main")
         val teamName = pageTitleMain.h1 { findFirst { text } }.substringBefore('(').trim()
-        val riderIdsToNames =
-            teamDoc.findFirst(".ridersTab[data-code=name]").findAll("a").map { it.attribute("href") to it.text }
+        val riderIdsToNames = teamDoc.findAll("ul.teamlist a").map { it.attribute("href") to it.text }
         return TeamRiders(teamName, riderIdsToNames)
+    }
+
+    private fun Doc.findNextSiblingElements(elements: Int = 1, condition: DocElement.() -> Boolean): List<DocElement> {
+        val element = findAll { filter { condition(it) } }.firstOrNull()
+        if (element == null) {
+            return emptyList()
+        }
+        var found = false
+        var remaining = elements
+        val result = mutableListOf<DocElement>()
+        element.parent.children.forEach {
+            if (found) {
+                result.add(it)
+                remaining--
+            }
+            if (remaining == 0) {
+                return result
+            }
+            if (!found && condition(it)) {
+                found = true
+            }
+        }
+        return emptyList()
     }
 
     private suspend fun getRider(riderUrl: String, riderFullName: String): PCSRider {
         val riderURL = buildURL(riderUrl)
         val riderDoc = docFetcher.getDoc(riderURL) { relaxed = true }
-        val infoContent = riderDoc.findFirst(".rdr-info-cont")
-        val website = riderDoc.getWebsite()
-        val birthDate = infoContent.ownText.split(' ').take(3).joinToString(" ")
-        val birthPlaceWeightAndHeight = infoContent.findFirst(":last-child").findFirst { text }.split(' ')
-        val birthPlaceWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("birth") }
-        val birthPlace = if (birthPlaceWordIndex != -1) birthPlaceWeightAndHeight[birthPlaceWordIndex + 1] else null
-        val weightWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("weight") }
-        val weight = if (weightWordIndex != -1) birthPlaceWeightAndHeight[weightWordIndex + 1] else null
-        val heightWordIndex = birthPlaceWeightAndHeight.indexOfFirst { it.lowercase().startsWith("height") }
-        val height = if (heightWordIndex != -1) birthPlaceWeightAndHeight[heightWordIndex + 1] else null
+        val website = riderDoc.findAll { filter { it.findFirst("a").text == "SITE" } }.firstOrNull()
+            ?.a { findFirst { attribute("href") } }
+        val birthDate =
+            riderDoc.findNextSiblingElements(3) { text == "Date of birth:" }.mapIndexed { index, docElement ->
+                if (index == 0) {
+                    docElement.text.filter { it.isDigit() }
+                } else {
+                    docElement.text
+                }
+            }.joinToString(" ")
+        val weight = riderDoc.findNextSiblingElements { text == "Weight:" }.firstOrNull()?.text
+        val height = riderDoc.findNextSiblingElements { text == "Height:" }.firstOrNull()?.text
+        val birthPlace = riderDoc.findNextSiblingElements { text == "Place of birth:" }.firstOrNull()?.text
         val imageUrl = riderDoc.findFirst("img").attribute("src")
         val uciRankingPosition = riderDoc.a { findAll { filter { it.text == "UCI World" } } }
             .firstOrNull()?.parent?.parent?.children?.last()?.text
@@ -123,11 +149,6 @@ class PCSRidersScraper(
             uciRankingPosition = pcsRider.uciRankingPosition?.toIntOrNull(),
         )
     }
-
-    private fun Doc.getWebsite(): String? =
-        findFirst(".sites .website").takeIf {
-            it.parents.isNotEmpty()
-        }?.parent?.findFirst("a")?.attribute("href")
 
     private fun buildURL(path: String): URL =
         URI(pcsUrl).resolve("/").resolve(path).toURL()

@@ -1,232 +1,502 @@
-<!DOCTYPE HTML><html><head><!-- Global site tag (gtag.js) - Google Analytics -->
+
+<!DOCTYPE HTML><html>
+<head>
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-2MNJ20S7SJ"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
-
   gtag('config', 'G-2MNJ20S7SJ');
 </script>
-
-
-<title>Cycling calendar 2025</title>
-<base href="https://www.procyclingstats.com/races.php" />
-<link rel="canonical" href="https://www.procyclingstats.com/calendar/uci/calendar-plus-filters" />
-<script>
-    var r89 = r89 || {
-      callAds: [],
-      pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }
-    };
-</script>
-<script async src="https://tags.refinery89.com/v2/procyclingstats.js"></script><meta name="robots" content="noindex">
+<title>Cycling calendar 2025</title> 
+<base href="https://www.procyclingstats.com/races.php" /> 
+<link rel="canonical" href="https://www.procyclingstats.com/calendar/races/calendar-plus-filters" /> 
+<script>  var r89 = r89 || {      callAds: [],   pushAd: function(id, name, config) { r89.callAds.push([id, name, config]); }    };  </script>
+  <script async src="https://tags.refinery89.com/procyclingstats.js"></script><meta name="robots" content="noindex">
 <meta name="description" content="The cycling calendar with filter options on racelevel, country, category and classification.">
-<meta name="keywords" content="">
 <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 <meta charset="utf-8"> 
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
-
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<base href="races.php" />
-	<link rel="stylesheet" type="text/css" href="https://www.procyclingstats.com/pcs_a268.css" />
-	
-<script src="https://www.procyclingstats.com/pcs_s96.js"></script> 
-<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css"> 
-<link rel="apple-touch-icon" sizes="180x180" href="https://www.procyclingstats.com/images/pcs-logos/icon3/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="32x32" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon-16x16.png">
-<link rel="shortcut icon" type="image/x-icon" href="https://www.procyclingstats.com/images/pcs-logos/icon3/favicon.ico" />
- 
+<script src="v3_scripts_v18.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v56.css" />
+<link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
+<link rel="apple-touch-icon" sizes="180x180" href="images/pcs-logos/icon3/apple-touch-icon.png">
+<link rel="icon" type="image/png" sizes="32x32" href="images/pcs-logos/icon3/favicon-32x32.png">
+<link rel="icon" type="image/png" sizes="16x16" href="images/pcs-logos/icon3/favicon-16x16.png">
+<link rel="shortcut icon" type="image/x-icon" href="images/pcs-logos/icon3/favicon.ico" />
 </head>
 <body>
-<div class="wrapper">
-  <header class="">
-    <div class="cont">
-    	<a  class="logo" href="index.php"></a>  
-    	<form action="search.php" class="msearch"><input type="hidden"  id="term" />     
-    		<input type="text" name="term" id="search" data-nav="calendar/calendar-plus-filters" data-nav2="" data-page="races" class="search4"  placeholder="search"  /></form> 
-    	<div class="menuCont">
-      	<a class="mobMenu" href="">&#9776; Menu</a>
-				<ul class="nav_v4 default"><li class=" "><a class="reg" href="index.php">Home</a></li>
-<li class="more4 "><a class="reg" href="races.php">Races</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="race/tour-de-france">Tour de France</a></li>
-<li><a href="race/giro-d-italia">Giro d'Italia</a></li>
-<li><a href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
-<li><a href="race/world-championship">World Championships</a></li>
-<li><a href="race/amstel-gold-race">Amstel Gold Race</a></li>
-<li><a href="race/milano-sanremo">Milano-Sanremo</a></li>
-<li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
-<li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
-<li><a href="race/il-lombardia">Il Lombardia</a></li>
-<li><a href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
-<li><a href="race/paris-nice">Paris - Nice</a></li>
-<li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
-<li><a href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
-<li><a href="race/dauphine">Critérium du Dauphiné</a></li>
-<li><a href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
-<li><a href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
-<li><a href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
+<div class="wrapper"><header>
+<div class="cont">
+<a class="logo" href="index.php"></a>
+<div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="" data-url="" placeholder="search" autocomplete="off" /></form></div> 
+<div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
+<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<li class="" ><a class="menu" href="index.php">Home</a></li>
+<li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/tour-de-france">Tour de France</a></li>
+<li><a  href="race/giro-d-italia">Giro d'Italia</a></li>
+<li><a  href="race/vuelta-a-espana">La Vuelta ciclista a España</a></li>
+<li><a  href="race/world-championship">World Championships</a></li>
+<li><a  href="race/milano-sanremo">Milano-Sanremo</a></li>
+<li><a  href="race/amstel-gold-race">Amstel Gold Race</a></li>
+<li><a  href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
+<li><a  href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
+<li><a  href="race/il-lombardia">Il Lombardia</a></li>
+<li><a  href="race/la-fleche-wallone">La Flèche Wallonne</a></li>
+<li><a  href="race/paris-nice">Paris - Nice</a></li>
+<li><a  href="race/paris-roubaix">Paris-Roubaix</a></li>
+<li><a  href="race/volta-a-catalunya">Volta Ciclista a Catalunya</a></li>
+<li><a  href="race/dauphine">Critérium du Dauphiné</a></li>
+<li><a  href="race/ronde-van-vlaanderen">Tour des Flandres</a></li>
+<li><a  href="race/gent-wevelgem">Gent-Wevelgem in Flanders Fields</a></li>
+<li><a  href="race/san-sebastian">Clásica Ciclista San Sebastián</a></li>
 </ul></li>
-<li class="more4 "><a class="reg" href="teams.php">Teams</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></li>
-<li><a href="team/ef-education-easypost-2025">EF Education - EasyPost</a></li>
-<li><a href="team/groupama-fdj-2025">Groupama - FDJ</a></li>
-<li><a href="team/cofidis-2025">Cofidis</a></li>
-<li><a href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></li>
-<li><a href="team/intermarche-wanty-2025">Intermarché - Wanty</a></li>
-<li><a href="team/lidl-trek-2025">Lidl - Trek</a></li>
-<li><a href="team/movistar-team-2025">Movistar Team</a></li>
-<li><a href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></li>
-<li><a href="team/soudal-quick-step-2025">Soudal Quick-Step</a></li>
-<li><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a></li>
-<li><a href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></li>
-<li><a href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></li>
-<li><a href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></li>
-<li><a href="team/xds-astana-team-2025">XDS Astana Team</a></li>
-<li><a href="team/bahrain-victorious-2025">Bahrain - Victorious</a></li>
-<li><a href="team/arkea-b-b-hotels-2025">Arkéa - B&B Hotels</a></li>
-<li><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></li>
+<li class="" ><a class="menu" href="teams.php">Teams<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="team/xds-astana-team-2025">XDS Astana Team</a></li>
+<li><a  href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></li>
+<li><a  href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></li>
+<li><a  href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></li>
+<li><a  href="team/team-jayco-alula-2025">Team Jayco AlUla</a></li>
+<li><a  href="team/soudal-quick-step-2025">Soudal Quick-Step</a></li>
+<li><a  href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></li>
+<li><a  href="team/movistar-team-2025">Movistar Team</a></li>
+<li><a  href="team/lidl-trek-2025">Lidl - Trek</a></li>
+<li><a  href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></li>
+<li><a  href="team/groupama-fdj-2025">Groupama - FDJ</a></li>
+<li><a  href="team/ef-education-easypost-2025">EF Education - EasyPost</a></li>
+<li><a  href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></li>
+<li><a  href="team/cofidis-2025">Cofidis</a></li>
+<li><a  href="team/bahrain-victorious-2025">Bahrain - Victorious</a></li>
+<li><a  href="team/arkea-b-b-hotels-2025">Arkéa - B&B Hotels</a></li>
+<li><a  href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></li>
+<li><a  href="team/intermarche-wanty-2025">Intermarché - Wanty</a></li>
 </ul></li>
-<li class=" "><a class="reg" href="rankings.php">Rankings</a></li>
-<li class="more4 "><a class="reg" href="statistics.php">Statistics</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="statistics">Overview</a></li>
-<li><a href="statistics/riders">Riders</a></li>
-<li><a href="statistics/teams">Teams</a></li>
-<li><a href="statistics/grandtours">Grand tours</a></li>
+<li class="" ><a class="menu" href="rankings.php">Rankings</a></li>
+<li class="" ><a class="menu" href="statistics.php">Statistics<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="statistics">Overview</a></li>
+<li><a  href="statistics/riders">Riders</a></li>
+<li><a  href="statistics/teams">Teams</a></li>
+<li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
-<li class=" "><a class="reg" href="game.php">Game</a></li>
-<li class=" "><a class="reg" href="quiz.php">Quiz</a></li>
-<li class="more4 "><a class="reg" href="riders.php">More</a><a class="more4 toggleNavDropdown"  href="">&#x25BC;</a><ul class="hide"><li><a href="riders">Riders</a></li>
-<li><a href="info/contact">Contact us</a></li>
-<li><a href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
-<li><a href="favorite500.php">Favorite500</a></li>
-<li><a href="info/sitemap">Sitemap</a></li>
-<li><a href="info/about-us">About us</a></li>
-<li><a href="info/profile-score-explained">Profile Score</a></li>
-<li><a href="info/terminology-list">Terminology list</a></li>
+<li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="tour yellow" ><a class="menu" href="race/tour-de-france/2025">Tour<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/tour-de-france/2025/startlist">Startlist</a></li>
+<li><a  href="race/tour-de-france/results/palmares">Palmares</a></li>
+<li><a  href="race/tour-de-france/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/tour-de-france/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/tour-de-france/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/tour-de-france/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/tour-de-france/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/tour-de-france/2025/route/collection-of-statistics">Route statistics</a></li>
 </ul></li>
-<li class=" user"><a class="reg" href="login.php">Login</a></li>
- 
-				 </ul> 
-			 </div>			 
-			 <a class="topUser  " href="login.php"></a><div class="selectLanguage"><font><span class="flag gb"></span>gb</font><div><ul><li><a href="index.php?url=%2Fraces.php%3Fseason%3D2025%26category%3D1%26s%3Dcalendar-plus-filters&lan=gb"><span class="flag gb"></span>English</a></li><li><a href="index.php?url=%2Fraces.php%3Fseason%3D2025%26category%3D1%26s%3Dcalendar-plus-filters&lan=es"><span class="flag es"></span>Español</a></li></ul></div></div><div class="selectLanguage selectPlatform"><font>road</font><div><ul><li><a href="https://www.procyclingstats.com">ROAD</a></li><li><a href="https://cx.procyclingstats.com">CROSS</a></li></ul></div></div>    </div>
-  </header>  
-<div class="content"> <div class="page-topnav "><ul class="pagenavLinks"><li class="reg "><a class="cur" href="calendar">UCI</a></li>
-<li class="reg "><a class="" href="calendar/championships">Championships&#x25BC;</a><ul><li><a href="calendar/championships/worlds-program">Program</a></li>
+<li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
+<li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="riders">Riders</a></li>
+<li><a  href="info/contact">Contact us</a></li>
+<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="favorite500.php">Favorite500</a></li>
+<li><a  href="info/about-us">About us</a></li>
+<li><a  href="info/sitemap">Sitemap</a></li>
+<li><a  href="info/profile-score-explained">Profile Score</a></li>
+<li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="account/overview">My account</a></li>
+<li><a  href="account/follow-riders">My riders</a></li>
+</ul></li>
+<li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+</ul></li>
+<li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
+<ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="calendar/uci">UCI</a></span>
+<span><a class="" href="calendar/championships">Championships<span>&#x25BC;</span></a><ul><li><a href="calendar/championships/worlds-program">Program</a></li>
 <li><a href="calendar/championships/worlds-medal-ranking">Medal ranking</a></li>
 <li><a href="calendar/championships/national-champions">National champions</a></li>
-</ul></li>
-<li class="reg "><a class="" href="calendar/national">National&#x25BC;</a><ul><li><a href="calendar/national/calendar-national">Calendar</a></li>
+</ul></span>
+<span><a class="" href="calendar/national">National<span>&#x25BC;</span></a><ul><li><a href="calendar/national/calendar-national">Calendar</a></li>
 <li><a href="calendar/national/calendar-per-country">Calendar per country</a></li>
 <li><a href="calendar/national/latest-national">Latest</a></li>
 <li><a href="calendar/national/upcoming-national">Upcoming</a></li>
-<li><a href="calendar/national/coupe-france">Coupe de France (France)</a></li>
-</ul></li>
-<li class="reg "><a class="" href="calendar/gravel">Gravel&#x25BC;</a><ul><li><a href="calendar/gravel/gravel-calendar">Gravel calendar</a></li>
-</ul></li>
-<li class="more"><a href="calendar">More</a><ul><li data-n="1"><a href="calendar/uci/uci">UCI - UCI</a></li><li data-n="2"><a href="calendar/championships/championships">Championships - Championships</a></li><li data-n="1"><a href="calendar/championships/worlds-program">Program</a></li>
-<li data-n="1"><a href="calendar/championships/worlds-medal-ranking">Medal ranking</a></li>
-<li data-n="1"><a href="calendar/championships/national-champions">National champions</a></li>
-<li data-n="3"><a href="calendar/national/national">National - National</a></li><li data-n="2"><a href="calendar/national/calendar-national">Calendar</a></li>
-<li data-n="2"><a href="calendar/national/calendar-per-country">Calendar per country</a></li>
-<li data-n="2"><a href="calendar/national/latest-national">Latest</a></li>
-<li data-n="2"><a href="calendar/national/upcoming-national">Upcoming</a></li>
-<li data-n="2"><a href="calendar/national/coupe-france">Coupe de France (France)</a></li>
-<li data-n="4"><a href="calendar/gravel/gravel">Gravel - Gravel</a></li><li data-n="3"><a href="calendar/gravel/gravel-calendar">Gravel calendar</a></li>
-</ul></li></ul><div class="clear"></div></div><div class="page-title " ><a class="mobileMenuLink showIfMobile menu-toggle"  href="">menu</a><div class="main"><h1 class="">Calendar</h1></div></div><div class="clear"></div><div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div><div class="page-content page-object default " data-no_menu="0" ><div class=" "   >
-<div class="text-regular">Road racing calendar with filter options. To see all values of a filter, select the '-' option.</div>
-<div class="mt10"><form action="races.php"><ul class="filter " ><li class="" data-formtype="select"><div class="label">Season</div><div class="input"><span class="inputCont"><select class="" name="season"  style="" data-def="curyear"><option value="2026"  >2026</option><option value="2025" selected >2025</option><option value="2024"  >2024</option><option value="2023"  >2023</option><option value="2022"  >2022</option><option value="2021"  >2021</option><option value="2020"  >2020</option><option value="2019"  >2019</option><option value="2018"  >2018</option><option value="2017"  >2017</option><option value="2016"  >2016</option><option value="2015"  >2015</option><option value="2014"  >2014</option><option value="2013"  >2013</option><option value="2012"  >2012</option><option value="2011"  >2011</option><option value="2010"  >2010</option><option value="2009"  >2009</option><option value="2008"  >2008</option><option value="2007"  >2007</option><option value="2006"  >2006</option><option value="2005"  >2005</option><option value="2004"  >2004</option><option value="2003"  >2003</option><option value="2002"  >2002</option><option value="2001"  >2001</option><option value="2000"  >2000</option><option value="1999"  >1999</option><option value="1998"  >1998</option><option value="1997"  >1997</option><option value="1996"  >1996</option><option value="1995"  >1995</option><option value="1994"  >1994</option><option value="1993"  >1993</option><option value="1992"  >1992</option><option value="1991"  >1991</option><option value="1990"  >1990</option><option value="1989"  >1989</option><option value="1988"  >1988</option><option value="1987"  >1987</option><option value="1986"  >1986</option><option value="1985"  >1985</option><option value="1984"  >1984</option><option value="1983"  >1983</option><option value="1982"  >1982</option><option value="1981"  >1981</option><option value="1980"  >1980</option><option value="1979"  >1979</option><option value="1978"  >1978</option><option value="1977"  >1977</option><option value="1976"  >1976</option><option value="1975"  >1975</option><option value="1974"  >1974</option><option value="1973"  >1973</option><option value="1972"  >1972</option><option value="1971"  >1971</option><option value="1970"  >1970</option><option value="1969"  >1969</option><option value="1968"  >1968</option><option value="1967"  >1967</option><option value="1966"  >1966</option><option value="1965"  >1965</option><option value="1964"  >1964</option><option value="1963"  >1963</option><option value="1962"  >1962</option><option value="1961"  >1961</option><option value="1960"  >1960</option><option value="1959"  >1959</option><option value="1958"  >1958</option><option value="1957"  >1957</option><option value="1956"  >1956</option><option value="1955"  >1955</option><option value="1954"  >1954</option><option value="1953"  >1953</option><option value="1952"  >1952</option><option value="1951"  >1951</option><option value="1950"  >1950</option><option value="1949"  >1949</option><option value="1948"  >1948</option><option value="1947"  >1947</option><option value="1946"  >1946</option><option value="1945"  >1945</option><option value="1944"  >1944</option><option value="1943"  >1943</option><option value="1942"  >1942</option><option value="1941"  >1941</option><option value="1940"  >1940</option><option value="1939"  >1939</option><option value="1938"  >1938</option><option value="1937"  >1937</option><option value="1936"  >1936</option><option value="1935"  >1935</option><option value="1934"  >1934</option><option value="1933"  >1933</option><option value="1932"  >1932</option><option value="1931"  >1931</option><option value="1930"  >1930</option><option value="1929"  >1929</option><option value="1928"  >1928</option><option value="1927"  >1927</option><option value="1926"  >1926</option><option value="1925"  >1925</option><option value="1924"  >1924</option><option value="1923"  >1923</option><option value="1922"  >1922</option><option value="1921"  >1921</option><option value="1920"  >1920</option><option value="1919"  >1919</option><option value="1918"  >1918</option><option value="1917"  >1917</option><option value="1916"  >1916</option><option value="1915"  >1915</option><option value="1914"  >1914</option><option value="1913"  >1913</option><option value="1912"  >1912</option><option value="1911"  >1911</option><option value="1910"  >1910</option><option value="1909"  >1909</option><option value="1908"  >1908</option><option value="1907"  >1907</option><option value="1906"  >1906</option><option value="1905"  >1905</option><option value="1904"  >1904</option><option value="1903"  >1903</option><option value="1902"  >1902</option><option value="1901"  >1901</option><option value="1900"  >1900</option></select></span></div></li>
-<li class="" data-formtype=""><div class="label">Month</div><div class="input"><span class="inputCont"><input type="text" class="" name="month" value="" data-inputid="month" style="" data-def="" autocomplete="off" /></span></div></li>
-<li class="" data-formtype="select"><div class="label">Category</div><div class="input"><span class="inputCont"><select class="" name="category"  style="" data-def="1"><option value=""  >-</option><option value="1" selected >ME - Men Elite</option><option value="2"  >WE - Women Elite</option><option value="3"  >MU - Men U23</option><option value="4"  >MJ - Men Juniors</option><option value="6"  >WJ - Women Juniors</option><option value="0"  >-</option><option value="7"  >WU - Women U23</option><option value="8"  >ME + WE</option><option value="9"  >MJ + WJ</option><option value="10"  >MU17</option><option value="11"  >WU17</option></select></span></div></li>
-<li class="" data-formtype="select"><div class="label">Racelevel</div><div class="input"><span class="inputCont"><select class="" name="racelevel"  style="" data-def="1"><option value=""  >-</option><option value="1" selected >WorldTour</option><option value="2"  >Pro and up</option><option value="3"  >Level 1 and up</option><option value="4"  >Level 2 and up</option></select></span><select   name="pracelevel" class="selectOperator hide" style=" padding: 1px; "><option value="smallerorequal" selected ><=</option></select><span style="display: inline-block; padding: 2px; ">(<=)</span></div></li>
-<li class="" data-formtype="select"><div class="label">Country</div><div class="input"><span class="inputCont"><select class="" name="racenation"  style="" data-def=""><option value="" selected >-</option><option value="al"  >Albania</option><option value="dz"  >Algeria</option><option value="ad"  >Andorra</option><option value="ao"  >Angola</option><option value="ar"  >Argentina</option><option value="au"  >Australia</option><option value="at"  >Austria</option><option value="az"  >Azerbaijan</option><option value="by"  >Belarus</option><option value="be"  >Belgium</option><option value="bz"  >Belize</option><option value="bm"  >Bermuda</option><option value="bw"  >Botswana</option><option value="br"  >Brazil</option><option value="bg"  >Bulgaria</option><option value="bf"  >Burkina Faso</option><option value="cm"  >Cameroon</option><option value="ca"  >Canada</option><option value="cl"  >Chile</option><option value="cn"  >China</option><option value="co"  >Colombia</option><option value="cr"  >Costa Rica</option><option value="hr"  >Croatia</option><option value="cu"  >Cuba</option><option value="cw"  >Curaçao</option><option value="cy"  >Cyprus</option><option value="cz"  >Czech Republic</option><option value="dk"  >Denmark</option><option value="do"  >Dominican Republic</option><option value="ec"  >Ecuador</option><option value="sv"  >El Salvador</option><option value="er"  >Eritrea</option><option value="ee"  >Estonia</option><option value="et"  >Ethiopia</option><option value="fi"  >Finland</option><option value="fr"  >France</option><option value="ge"  >Georgia</option><option value="de"  >Germany</option><option value="gb"  >Great Britain</option><option value="gr"  >Greece</option><option value="gt"  >Guatemala</option><option value="hk"  >Hongkong</option><option value="hu"  >Hungary</option><option value="in"  >India</option><option value="id"  >Indonesia</option><option value="ir"  >Iran</option><option value="ie"  >Ireland</option><option value="il"  >Israel</option><option value="it"  >Italy</option><option value="ci"  >Ivory Coast</option><option value="jp"  >Japan</option><option value="kz"  >Kazakhstan</option><option value="ke"  >Kenya</option><option value="xk"  >Kosovo</option><option value="kw"  >Kuwait</option><option value="la"  >Laos</option><option value="lv"  >Latvia</option><option value="lb"  >Lebanon</option><option value="lt"  >Lithuania</option><option value="lu"  >Luxembourg</option><option value="my"  >Malaysia</option><option value="mu"  >Mauritius</option><option value="mx"  >Mexico</option><option value="md"  >Moldova</option><option value="mn"  >Mongolia</option><option value="me"  >Montenegro</option><option value="ma"  >Morocco</option><option value="na"  >Namibia</option><option value="nl"  >Netherlands</option><option value="nz"  >New Zealand</option><option value="mk"  >North Macedonia</option><option value="no"  >Norway</option><option value="pk"  >Pakistan</option><option value="pa"  >Panama</option><option value="ph"  >Philippines</option><option value="pl"  >Poland</option><option value="pt"  >Portugal</option><option value="pr"  >Puerto Rico</option><option value="ro"  >Romania</option><option value="ru"  >Russia</option><option value="rw"  >Rwanda</option><option value="rs"  >Serbia</option><option value="sg"  >Singapore</option><option value="sk"  >Slovakia</option><option value="si"  >Slovenia</option><option value="za"  >South Africa</option><option value="kr"  >South Korea</option><option value="es"  >Spain</option><option value="se"  >Sweden</option><option value="ch"  >Switzerland</option><option value="sy"  >Syria</option><option value="tw"  >Taiwan</option><option value="th"  >Thailand</option><option value="tn"  >Tunisia</option><option value="tr"  >Türkiye</option><option value="ug"  >Uganda</option><option value="ua"  >Ukraine</option><option value="ae"  >United Arab Emirates</option><option value="us"  >United States</option><option value="uy"  >Uruguay</option><option value="uz"  >Uzbekistan</option><option value="ve"  >Venezuela</option></select></span></div></li>
-<li class="" data-formtype="select"><div class="label">Classification</div><div class="input"><span class="inputCont"><select class="" name="class"  style="" data-def=""><option value="" selected >-</option><option value="1.1"  >1.1</option><option value="1.2"  >1.2</option><option value="1.2U"  >1.2U</option><option value="1.Ncup"  >1.Ncup</option><option value="1.Pro"  >1.Pro</option><option value="1.UWT"  >1.UWT</option><option value="1.WWT"  >1.WWT</option><option value="2.1"  >2.1</option><option value="2.2"  >2.2</option><option value="2.2U"  >2.2U</option><option value="2.Ncup"  >2.Ncup</option><option value="2.Pro"  >2.Pro</option><option value="2.UWT"  >2.UWT</option><option value="2.WWT"  >2.WWT</option><option value="CC"  >CC</option><option value="NC"  >NC</option><option value="WC"  >WC</option></select></span></div></li>
-<li><div><input type="submit" name="filter" value="Filter" /> <a class="fs10 blue clearPageFilter" href="">clear filter</a></div></li></ul><input type="hidden" name="s" value="calendar-plus-filters" /></form></div>
+<li><a href="calendar/national/coupe-france">Coupe de France</a></li>
+</ul></span>
+<span><a class="" href="calendar/gravel">Gravel<span>&#x25BC;</span></a><ul><li><a href="calendar/gravel/gravel-calendar">Gravel calendar</a></li>
+</ul></span>
+</div><div class="clear"></div>
+
+<div class="titleCont hasSideNav"><div class="page-title"><h1>Calendar</h1></div><a class="toggleSideMenu" href="">menu</a></div>
+<div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-other"></div>
+<div class="page-content "  >
+<div class=""><div class="">
+<div class="fs14">Road racing calendar with filter options. To see all values of a filter, select the '-' option.</div>
+</div>
 <div class="mt10">
-<span class="table-cont"><table class="basic"  style=""><thead><tr><th style="width: 16.7%; ">Dates</th><th style="width: 66.7%; ">Race</th><th style="width: 16.7%; ">Class</th></tr></thead><tbody>
-<tr ><td style="height: 1px; ">21.01 - 26.01</td><td style="height: 1px; "><span class="flag au"></span> <a       href="race/tour-down-under/2025">Santos Tour Down Under</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">02.02</td><td style="height: 1px; "><span class="flag au"></span> <a       href="race/great-ocean-road-race/2025">Cadel Evans Great Ocean Road Race - Men</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">17.02 - 23.02</td><td style="height: 1px; "><span class="flag ae"></span> <a       href="race/uae-tour/2025">UAE Tour</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">01.03</td><td style="height: 1px; "><span class="flag be"></span> <a       href="race/omloop-het-nieuwsblad/2025">Omloop Nieuwsblad ME</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">08.03</td><td style="height: 1px; "><span class="flag it"></span> <a       href="race/strade-bianche/2025">Strade Bianche</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">09.03 - 16.03</td><td style="height: 1px; "><span class="flag fr"></span> <a       href="race/paris-nice/2025">Paris-Nice</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">10.03 - 16.03</td><td style="height: 1px; "><span class="flag it"></span> <a       href="race/tirreno-adriatico/2025">Tirreno-Adriatico</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">22.03</td><td style="height: 1px; "><span class="flag it"></span> <a       href="race/milano-sanremo/2025">Milano-Sanremo</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">24.03 - 30.03</td><td style="height: 1px; "><span class="flag es"></span> <a       href="race/volta-a-catalunya/2025">Volta Ciclista a Catalunya</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">26.03</td><td style="height: 1px; "><span class="flag be"></span> <a       href="race/classic-brugge-de-panne/2025">Classic Brugge-De Panne</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">28.03</td><td style="height: 1px; "><span class="flag be"></span> <a       href="race/e3-harelbeke/2025">E3 Saxo Classic</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">30.03</td><td style="height: 1px; "><span class="flag be"></span> <a       href="race/gent-wevelgem/2025">Gent-Wevelgem in Flanders Fields</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">02.04</td><td style="height: 1px; "><span class="flag be"></span> <a       href="race/dwars-door-vlaanderen/2025">Dwars door Vlaanderen - A travers la Flandre</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">06.04</td><td style="height: 1px; "><span class="flag be"></span> <a       href="race/ronde-van-vlaanderen/2025">Ronde van Vlaanderen</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">07.04 - 12.04</td><td style="height: 1px; "><span class="flag es"></span> <a       href="race/itzulia-basque-country/2025">Itzulia Basque Country</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">13.04</td><td style="height: 1px; "><span class="flag fr"></span> <a       href="race/paris-roubaix/2025">Paris-Roubaix</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">20.04</td><td style="height: 1px; "><span class="flag nl"></span> <a       href="race/amstel-gold-race/2025">Amstel Gold Race</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">23.04</td><td style="height: 1px; "><span class="flag be"></span> <a       href="race/la-fleche-wallone/2025">La Flèche Wallonne</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">27.04</td><td style="height: 1px; "><span class="flag be"></span> <a       href="race/liege-bastogne-liege/2025">Liège-Bastogne-Liège</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">29.04 - 04.05</td><td style="height: 1px; "><span class="flag ch"></span> <a       href="race/tour-de-romandie/2025">Tour de Romandie</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">01.05</td><td style="height: 1px; "><span class="flag de"></span> <a       href="race/eschborn-frankfurt/2025">Eschborn-Frankfurt</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">09.05 - 01.06</td><td style="height: 1px; "><span class="flag it"></span> <a       href="race/giro-d-italia/2025">Giro d'Italia</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">08.06 - 15.06</td><td style="height: 1px; "><span class="flag fr"></span> <a       href="race/dauphine/2025">Critérium du Dauphiné</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">15.06 - 22.06</td><td style="height: 1px; "><span class="flag ch"></span> <a       href="race/tour-de-suisse/2025">Tour de Suisse</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">22.06</td><td style="height: 1px; "><span class="flag dk"></span> <a       href="race/copenhagen-sprint/2025">Copenhagen Sprint</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">05.07 - 27.07</td><td style="height: 1px; "><span class="flag fr"></span> <a       href="race/tour-de-france/2025">Tour de France</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">02.08</td><td style="height: 1px; "><span class="flag es"></span> <a       href="race/san-sebastian/2025">Donostia San Sebastian Klasikoa</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">04.08 - 10.08</td><td style="height: 1px; "><span class="flag pl"></span> <a       href="race/tour-de-pologne/2025">Tour de Pologne</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">17.08</td><td style="height: 1px; "><span class="flag de"></span> <a       href="race/cyclassics-hamburg/2025">ADAC Cyclassics</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">20.08 - 24.08</td><td style="height: 1px; "><span class="flag be"></span> <a       href="race/renewi-tour/2025">Renewi Tour</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">23.08 - 14.09</td><td style="height: 1px; "><span class="flag es"></span> <a       href="race/vuelta-a-espana/2025">La Vuelta Ciclista a España</a></td><td style="height: 1px; ">2.UWT</td></tr>
-<tr ><td style="height: 1px; ">31.08</td><td style="height: 1px; "><span class="flag fr"></span> <a       href="race/bretagne-classic/2025">Bretagne Classic - Ouest-France</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">12.09</td><td style="height: 1px; "><span class="flag ca"></span> <a       href="race/gp-quebec/2025">Grand Prix Cycliste de Québec</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">14.09</td><td style="height: 1px; "><span class="flag ca"></span> <a       href="race/gp-montreal/2025">Grand Prix Cycliste de Montréal</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">21.09</td><td style="height: 1px; "><span class="flag rw"></span> <a       href="race/world-championship-itt/2025">World Championships ME - ITT</a></td><td style="height: 1px; ">WC</td></tr>
-<tr ><td style="height: 1px; ">28.09</td><td style="height: 1px; "><span class="flag rw"></span> <a       href="race/world-championship/2025">World Championships ME - Road Race</a></td><td style="height: 1px; ">WC</td></tr>
-<tr ><td style="height: 1px; ">11.10</td><td style="height: 1px; "><span class="flag it"></span> <a       href="race/il-lombardia/2025">Il Lombardia</a></td><td style="height: 1px; ">1.UWT</td></tr>
-<tr ><td style="height: 1px; ">14.10 - 19.10</td><td style="height: 1px; "><span class="flag cn"></span> <a       href="race/tour-of-guangxi/2025">Gree-Tour of Guangxi</a></td><td style="height: 1px; ">2.UWT</td></tr>
-</tbody></table></span></div>
-</div>
-<div class="desktop-ad below-content general"></div><div class="mob-ad below-content general"></div></div><div class="page-nav default " ><ul class="menu-tree  ">
-<li>
-<span>Menu</span>
-<ul>
-<li class=" " data-pro="0" ><a href="calendar/uci/year-calendar">Calendar</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/today">Today</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/latest-results">Latest results</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/upcoming-races">Upcoming races</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/start-finish-schedule">Start/finish schedule</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/races-database">Races database</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/stages-database">Races/stages database</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/wt-calendar-chart">WT Calendar</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/calendar-changes">Calendar changes</a></li>
-<li class="cur " data-pro="0" ><a href="calendar/uci/calendar-plus-filters">Calendar plus filters</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/upcoming-tts">Upcoming TTs</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/cancelled-races">Cancelled races</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/cancelled-rescheduled-races">Cancelled rescheduled races</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/rescheduled-races">Rescheduled races</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/upload-result">Upload result</a></li>
-</ul>
-</li>
-<li>
-<span>Startlists</span>
-<ul>
-<li class=" " data-pro="0" ><a href="calendar/uci/top-100-riders-startlist-changes">Top-100 riders program changes</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/startlist-changes-all-races">Startlist changes</a></li>
-<li class=" " data-pro="0" ><a href="calendar/uci/startlist-quality">Startlist quality</a></li>
-</ul>
-</li>
-<li>
-<span>Live</span>
-<ul>
-<li class=" " data-pro="0" ><a href="calendar/uci/livestats">LiveStats schedule</a></li>
-</ul>
-</li>
-</ul>
-</div><div style="clear: both; "></div>  
-  </div>
-  </center>
-  <div class="push"></div>
-</div>
-<div class="footer">
-  <div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
+<form action="races.php"><input type="hidden" name="s" value="calendar-plus-filters" />
+<ul class="filter "><li class="" data-formtype="select" data-def="curyear"><div class="label">Season</div>
+<div class="input">
+<span class="inputCont"><select name="season" ><option value="2026">2026</option>
+<option value="2025" selected>2025</option>
+<option value="2024">2024</option>
+<option value="2023">2023</option>
+<option value="2022">2022</option>
+<option value="2021">2021</option>
+<option value="2020">2020</option>
+<option value="2019">2019</option>
+<option value="2018">2018</option>
+<option value="2017">2017</option>
+<option value="2016">2016</option>
+<option value="2015">2015</option>
+<option value="2014">2014</option>
+<option value="2013">2013</option>
+<option value="2012">2012</option>
+<option value="2011">2011</option>
+<option value="2010">2010</option>
+<option value="2009">2009</option>
+<option value="2008">2008</option>
+<option value="2007">2007</option>
+<option value="2006">2006</option>
+<option value="2005">2005</option>
+<option value="2004">2004</option>
+<option value="2003">2003</option>
+<option value="2002">2002</option>
+<option value="2001">2001</option>
+<option value="2000">2000</option>
+<option value="1999">1999</option>
+<option value="1998">1998</option>
+<option value="1997">1997</option>
+<option value="1996">1996</option>
+<option value="1995">1995</option>
+<option value="1994">1994</option>
+<option value="1993">1993</option>
+<option value="1992">1992</option>
+<option value="1991">1991</option>
+<option value="1990">1990</option>
+<option value="1989">1989</option>
+<option value="1988">1988</option>
+<option value="1987">1987</option>
+<option value="1986">1986</option>
+<option value="1985">1985</option>
+<option value="1984">1984</option>
+<option value="1983">1983</option>
+<option value="1982">1982</option>
+<option value="1981">1981</option>
+<option value="1980">1980</option>
+<option value="1979">1979</option>
+<option value="1978">1978</option>
+<option value="1977">1977</option>
+<option value="1976">1976</option>
+<option value="1975">1975</option>
+<option value="1974">1974</option>
+<option value="1973">1973</option>
+<option value="1972">1972</option>
+<option value="1971">1971</option>
+<option value="1970">1970</option>
+<option value="1969">1969</option>
+<option value="1968">1968</option>
+<option value="1967">1967</option>
+<option value="1966">1966</option>
+<option value="1965">1965</option>
+<option value="1964">1964</option>
+<option value="1963">1963</option>
+<option value="1962">1962</option>
+<option value="1961">1961</option>
+<option value="1960">1960</option>
+<option value="1959">1959</option>
+<option value="1958">1958</option>
+<option value="1957">1957</option>
+<option value="1956">1956</option>
+<option value="1955">1955</option>
+<option value="1954">1954</option>
+<option value="1953">1953</option>
+<option value="1952">1952</option>
+<option value="1951">1951</option>
+<option value="1950">1950</option>
+<option value="1949">1949</option>
+<option value="1948">1948</option>
+<option value="1947">1947</option>
+<option value="1946">1946</option>
+<option value="1945">1945</option>
+<option value="1944">1944</option>
+<option value="1943">1943</option>
+<option value="1942">1942</option>
+<option value="1941">1941</option>
+<option value="1940">1940</option>
+<option value="1939">1939</option>
+<option value="1938">1938</option>
+<option value="1937">1937</option>
+<option value="1936">1936</option>
+<option value="1935">1935</option>
+<option value="1934">1934</option>
+<option value="1933">1933</option>
+<option value="1932">1932</option>
+<option value="1931">1931</option>
+<option value="1930">1930</option>
+<option value="1929">1929</option>
+<option value="1928">1928</option>
+<option value="1927">1927</option>
+<option value="1926">1926</option>
+<option value="1925">1925</option>
+<option value="1924">1924</option>
+<option value="1923">1923</option>
+<option value="1922">1922</option>
+<option value="1921">1921</option>
+<option value="1920">1920</option>
+<option value="1919">1919</option>
+<option value="1918">1918</option>
+<option value="1917">1917</option>
+<option value="1916">1916</option>
+<option value="1915">1915</option>
+<option value="1914">1914</option>
+<option value="1913">1913</option>
+<option value="1912">1912</option>
+<option value="1911">1911</option>
+<option value="1910">1910</option>
+<option value="1909">1909</option>
+<option value="1908">1908</option>
+<option value="1907">1907</option>
+<option value="1906">1906</option>
+<option value="1905">1905</option>
+<option value="1904">1904</option>
+<option value="1903">1903</option>
+<option value="1902">1902</option>
+<option value="1901">1901</option>
+<option value="1900">1900</option>
+</select></span></div></li>
+<li class="" data-formtype="" data-def=""><div class="label">Month</div>
+<div class="input">
+<span class="inputCont"><input name="month" type="text" value=""  autocomplete="off" /></span></div></li>
+<li class="" data-formtype="select" data-def="1"><div class="label">Category</div>
+<div class="input">
+<span class="inputCont"><select name="category" ><option value="">-</option>
+<option value="1" selected>ME - Men Elite</option>
+<option value="2">WE - Women Elite</option>
+<option value="3">MU - Men U23</option>
+<option value="4">MJ - Men Juniors</option>
+<option value="6">WJ - Women Juniors</option>
+<option value="0">-</option>
+<option value="7">WU - Women U23</option>
+<option value="8">ME + WE</option>
+<option value="9">MJ + WJ</option>
+<option value="10">MU17</option>
+<option value="11">WU17</option>
+<option value="22">MU17 - 2nd years</option>
+<option value="21">MU17 - 1st years</option>
+<option value="23">WU17 - 1st years</option>
+<option value="24">WU17 - 2nd years</option>
+</select></span></div></li>
+<li class="" data-formtype="select" data-def="1"><div class="label">Racelevel</div>
+<div class="input">
+<span class="inputCont"><select name="racelevel" ><option value="">-</option>
+<option value="">-</option>
+<option value="1" selected>WorldTour</option>
+<option value="2">Pro and up</option>
+<option value="3">Level 1 and up</option>
+<option value="4">Level 2 and up</option>
+</select></span></div></li>
+<li class="" data-formtype="select" data-def=""><div class="label">Country</div>
+<div class="input">
+<span class="inputCont"><select name="racenation" ><option value="" selected>-</option>
+<option value="al">Albania</option>
+<option value="dz">Algeria</option>
+<option value="ad">Andorra</option>
+<option value="ao">Angola</option>
+<option value="ar">Argentina</option>
+<option value="au">Australia</option>
+<option value="at">Austria</option>
+<option value="az">Azerbaijan</option>
+<option value="by">Belarus</option>
+<option value="be">Belgium</option>
+<option value="bz">Belize</option>
+<option value="bm">Bermuda</option>
+<option value="bw">Botswana</option>
+<option value="br">Brazil</option>
+<option value="bg">Bulgaria</option>
+<option value="bf">Burkina Faso</option>
+<option value="cm">Cameroon</option>
+<option value="ca">Canada</option>
+<option value="cl">Chile</option>
+<option value="cn">China</option>
+<option value="co">Colombia</option>
+<option value="cr">Costa Rica</option>
+<option value="hr">Croatia</option>
+<option value="cu">Cuba</option>
+<option value="cw">Curaçao</option>
+<option value="cy">Cyprus</option>
+<option value="cz">Czech Republic</option>
+<option value="dk">Denmark</option>
+<option value="do">Dominican Republic</option>
+<option value="ec">Ecuador</option>
+<option value="sv">El Salvador</option>
+<option value="er">Eritrea</option>
+<option value="ee">Estonia</option>
+<option value="et">Ethiopia</option>
+<option value="fi">Finland</option>
+<option value="fr">France</option>
+<option value="ge">Georgia</option>
+<option value="de">Germany</option>
+<option value="gb">Great Britain</option>
+<option value="gr">Greece</option>
+<option value="gt">Guatemala</option>
+<option value="hk">Hongkong</option>
+<option value="hu">Hungary</option>
+<option value="in">India</option>
+<option value="id">Indonesia</option>
+<option value="ir">Iran</option>
+<option value="ie">Ireland</option>
+<option value="il">Israel</option>
+<option value="it">Italy</option>
+<option value="ci">Ivory Coast</option>
+<option value="jp">Japan</option>
+<option value="kz">Kazakhstan</option>
+<option value="ke">Kenya</option>
+<option value="xk">Kosovo</option>
+<option value="kw">Kuwait</option>
+<option value="la">Laos</option>
+<option value="lv">Latvia</option>
+<option value="lb">Lebanon</option>
+<option value="lt">Lithuania</option>
+<option value="lu">Luxembourg</option>
+<option value="my">Malaysia</option>
+<option value="mu">Mauritius</option>
+<option value="mx">Mexico</option>
+<option value="md">Moldova</option>
+<option value="mn">Mongolia</option>
+<option value="me">Montenegro</option>
+<option value="ma">Morocco</option>
+<option value="na">Namibia</option>
+<option value="nl">Netherlands</option>
+<option value="nz">New Zealand</option>
+<option value="mk">North Macedonia</option>
+<option value="no">Norway</option>
+<option value="pk">Pakistan</option>
+<option value="pa">Panama</option>
+<option value="ph">Philippines</option>
+<option value="pl">Poland</option>
+<option value="pt">Portugal</option>
+<option value="pr">Puerto Rico</option>
+<option value="ro">Romania</option>
+<option value="ru">Russia</option>
+<option value="rw">Rwanda</option>
+<option value="rs">Serbia</option>
+<option value="sg">Singapore</option>
+<option value="sk">Slovakia</option>
+<option value="si">Slovenia</option>
+<option value="za">South Africa</option>
+<option value="kr">South Korea</option>
+<option value="es">Spain</option>
+<option value="se">Sweden</option>
+<option value="ch">Switzerland</option>
+<option value="sy">Syria</option>
+<option value="tw">Taiwan</option>
+<option value="th">Thailand</option>
+<option value="tn">Tunisia</option>
+<option value="tr">Türkiye</option>
+<option value="ug">Uganda</option>
+<option value="ua">Ukraine</option>
+<option value="ae">United Arab Emirates</option>
+<option value="us">United States</option>
+<option value="uy">Uruguay</option>
+<option value="uz">Uzbekistan</option>
+<option value="ve">Venezuela</option>
+</select></span></div></li>
+<li class="" data-formtype="select" data-def=""><div class="label">Classification</div>
+<div class="input">
+<span class="inputCont"><select name="class" ><option value="" selected>-</option>
+<option value="1.1">1.1</option>
+<option value="1.2">1.2</option>
+<option value="1.2U">1.2U</option>
+<option value="1.Ncup">1.Ncup</option>
+<option value="1.Pro">1.Pro</option>
+<option value="1.UWT">1.UWT</option>
+<option value="1.WWT">1.WWT</option>
+<option value="2.1">2.1</option>
+<option value="2.2">2.2</option>
+<option value="2.2U">2.2U</option>
+<option value="2.Ncup">2.Ncup</option>
+<option value="2.Pro">2.Pro</option>
+<option value="2.UWT">2.UWT</option>
+<option value="2.WWT">2.WWT</option>
+<option value="CC">CC</option>
+<option value="JR">JR</option>
+<option value="NC">NC</option>
+<option value="WC">WC</option>
+</select></span></div></li>
+<input name="filter" type="submit" value="Filter" /> <a class="fs10 blue clearPageFilter" href="">clear filter</a></ul></form></div>
+<div class="mt10">
+<table class=" basic"><thead><tr>
+<th class="w17 ">Dates</th>
+<th class="w67 ">Race</th>
+<th class="w17 ">Class</th>
+</tr></thead><tbody>
+<tr class=""><td>21.01 - 26.01</td><td><span class="flag au"></span> <a  href="race/tour-down-under/2025">Santos Tour Down Under</a></td><td>2.UWT</td></tr>
+<tr class=""><td>02.02</td><td><span class="flag au"></span> <a  href="race/great-ocean-road-race/2025">Cadel Evans Great Ocean Road Race - Men</a></td><td>1.UWT</td></tr>
+<tr class=""><td>17.02 - 23.02</td><td><span class="flag ae"></span> <a  href="race/uae-tour/2025">UAE Tour</a></td><td>2.UWT</td></tr>
+<tr class=""><td>01.03</td><td><span class="flag be"></span> <a  href="race/omloop-het-nieuwsblad/2025">Omloop Nieuwsblad ME</a></td><td>1.UWT</td></tr>
+<tr class=""><td>08.03</td><td><span class="flag it"></span> <a  href="race/strade-bianche/2025">Strade Bianche</a></td><td>1.UWT</td></tr>
+<tr class=""><td>09.03 - 16.03</td><td><span class="flag fr"></span> <a  href="race/paris-nice/2025">Paris-Nice</a></td><td>2.UWT</td></tr>
+<tr class=""><td>10.03 - 16.03</td><td><span class="flag it"></span> <a  href="race/tirreno-adriatico/2025">Tirreno-Adriatico</a></td><td>2.UWT</td></tr>
+<tr class=""><td>22.03</td><td><span class="flag it"></span> <a  href="race/milano-sanremo/2025">Milano-Sanremo</a></td><td>1.UWT</td></tr>
+<tr class=""><td>24.03 - 30.03</td><td><span class="flag es"></span> <a  href="race/volta-a-catalunya/2025">Volta Ciclista a Catalunya</a></td><td>2.UWT</td></tr>
+<tr class=""><td>26.03</td><td><span class="flag be"></span> <a  href="race/classic-brugge-de-panne/2025">Classic Brugge-De Panne ME</a></td><td>1.UWT</td></tr>
+<tr class=""><td>28.03</td><td><span class="flag be"></span> <a  href="race/e3-harelbeke/2025">E3 Saxo Classic ME</a></td><td>1.UWT</td></tr>
+<tr class=""><td>30.03</td><td><span class="flag be"></span> <a  href="race/gent-wevelgem/2025">Gent-Wevelgem in Flanders Fields ME</a></td><td>1.UWT</td></tr>
+<tr class=""><td>02.04</td><td><span class="flag be"></span> <a  href="race/dwars-door-vlaanderen/2025">Dwars door Vlaanderen - A travers la Flandre ME</a></td><td>1.UWT</td></tr>
+<tr class=""><td>06.04</td><td><span class="flag be"></span> <a  href="race/ronde-van-vlaanderen/2025">Ronde van Vlaanderen - Tour des Flandres ME</a></td><td>1.UWT</td></tr>
+<tr class=""><td>07.04 - 12.04</td><td><span class="flag es"></span> <a  href="race/itzulia-basque-country/2025">Itzulia Basque Country</a></td><td>2.UWT</td></tr>
+<tr class=""><td>13.04</td><td><span class="flag fr"></span> <a  href="race/paris-roubaix/2025">Paris-Roubaix</a></td><td>1.UWT</td></tr>
+<tr class=""><td>20.04</td><td><span class="flag nl"></span> <a  href="race/amstel-gold-race/2025">Amstel Gold Race</a></td><td>1.UWT</td></tr>
+<tr class=""><td>23.04</td><td><span class="flag be"></span> <a  href="race/la-fleche-wallonne/2025">La Flèche Wallonne</a></td><td>1.UWT</td></tr>
+<tr class=""><td>27.04</td><td><span class="flag be"></span> <a  href="race/liege-bastogne-liege/2025">Liège-Bastogne-Liège</a></td><td>1.UWT</td></tr>
+<tr class=""><td>29.04 - 04.05</td><td><span class="flag ch"></span> <a  href="race/tour-de-romandie/2025">Tour de Romandie</a></td><td>2.UWT</td></tr>
+<tr class=""><td>01.05</td><td><span class="flag de"></span> <a  href="race/eschborn-frankfurt/2025">Eschborn-Frankfurt</a></td><td>1.UWT</td></tr>
+<tr class=""><td>09.05 - 01.06</td><td><span class="flag it"></span> <a  href="race/giro-d-italia/2025">Giro d'Italia</a></td><td>2.UWT</td></tr>
+<tr class=""><td>08.06 - 15.06</td><td><span class="flag fr"></span> <a  href="race/dauphine/2025">Critérium du Dauphiné</a></td><td>2.UWT</td></tr>
+<tr class=""><td>15.06 - 22.06</td><td><span class="flag ch"></span> <a  href="race/tour-de-suisse/2025">Tour de Suisse</a></td><td>2.UWT</td></tr>
+<tr class=""><td>22.06</td><td><span class="flag dk"></span> <a  href="race/copenhagen-sprint/2025">Copenhagen Sprint</a></td><td>1.UWT</td></tr>
+<tr class=""><td>05.07 - 27.07</td><td><span class="flag fr"></span> <a  href="race/tour-de-france/2025">Tour de France</a></td><td>2.UWT</td></tr>
+<tr class=""><td>02.08</td><td><span class="flag es"></span> <a  href="race/san-sebastian/2025">Donostia San Sebastian Klasikoa</a></td><td>1.UWT</td></tr>
+<tr class=""><td>04.08 - 10.08</td><td><span class="flag pl"></span> <a  href="race/tour-de-pologne/2025">Tour de Pologne</a></td><td>2.UWT</td></tr>
+<tr class=""><td>17.08</td><td><span class="flag de"></span> <a  href="race/cyclassics-hamburg/2025">ADAC Cyclassics</a></td><td>1.UWT</td></tr>
+<tr class=""><td>20.08 - 24.08</td><td><span class="flag be"></span> <a  href="race/renewi-tour/2025">Renewi Tour</a></td><td>2.UWT</td></tr>
+<tr class=""><td>23.08 - 14.09</td><td><span class="flag es"></span> <a  href="race/vuelta-a-espana/2025">La Vuelta Ciclista a España</a></td><td>2.UWT</td></tr>
+<tr class=""><td>31.08</td><td><span class="flag fr"></span> <a  href="race/bretagne-classic/2025">Bretagne Classic - Ouest-France</a></td><td>1.UWT</td></tr>
+<tr class=""><td>12.09</td><td><span class="flag ca"></span> <a  href="race/gp-quebec/2025">Grand Prix Cycliste de Québec</a></td><td>1.UWT</td></tr>
+<tr class=""><td>14.09</td><td><span class="flag ca"></span> <a  href="race/gp-montreal/2025">Grand Prix Cycliste de Montréal</a></td><td>1.UWT</td></tr>
+<tr class=""><td>21.09</td><td><span class="flag rw"></span> <a  href="race/world-championship-itt/2025">World Championships ME - ITT</a></td><td>WC</td></tr>
+<tr class=""><td>28.09</td><td><span class="flag rw"></span> <a  href="race/world-championship/2025">World Championships ME - Road Race</a></td><td>WC</td></tr>
+<tr class=""><td>11.10</td><td><span class="flag it"></span> <a  href="race/il-lombardia/2025">Il Lombardia</a></td><td>1.UWT</td></tr>
+<tr class=""><td>14.10 - 19.10</td><td><span class="flag cn"></span> <a  href="race/tour-of-guangxi/2025">Gree-Tour of Guangxi</a></td><td>2.UWT</td></tr>
+</tbody></table></div>
+</div></div>
+<div class="side-nav  " >
+<a class="backToContent blue fs11 right showIfMobile" href="">back to content</a><div class="clear"></div>
+<ul class="sidenav"><li><div class="sidenavTitle">Menu</div><ul><li class="" data-pro="0"><a href="calendar/year-calendar">Calendar</a></li>
+<li class="" data-pro="0"><a href="calendar/today">Today</a></li>
+<li class="" data-pro="0"><a href="calendar/latest-results">Latest results</a></li>
+<li class="" data-pro="0"><a href="calendar/upcoming-races">Upcoming races</a></li>
+<li class="" data-pro="0"><a href="calendar/start-finish-schedule">Start/finish schedule</a></li>
+<li class="" data-pro="0"><a href="calendar/races-database">Races database</a></li>
+<li class="" data-pro="0"><a href="calendar/stages-database">Races/stages database</a></li>
+<li class="" data-pro="0"><a href="calendar/wt-calendar-chart">WT Calendar</a></li>
+<li class="" data-pro="0"><a href="calendar/calendar-changes">Calendar changes</a></li>
+<li class="cur" data-pro="0"><a href="calendar/calendar-plus-filters">Calendar plus filters</a></li>
+<li class="" data-pro="0"><a href="calendar/upcoming-tts">Upcoming TTs</a></li>
+<li class="" data-pro="0"><a href="calendar/cancelled-races">Cancelled races</a></li>
+<li class="" data-pro="0"><a href="calendar/cancelled-rescheduled-races">Cancelled rescheduled races</a></li>
+<li class="" data-pro="0"><a href="calendar/rescheduled-races">Rescheduled races</a></li>
+<li class="" data-pro="0"><a href="calendar/upload-result">Upload result</a></li>
+</ul></li><li><div class="sidenavTitle">Startlists</div><ul><li class="" data-pro="0"><a href="calendar/top-100-riders-startlist-changes">Top-100 riders program changes</a></li>
+<li class="" data-pro="0"><a href="calendar/startlist-changes-all-races">Startlist changes</a></li>
+<li class="" data-pro="0"><a href="calendar/startlist-quality">Startlist quality</a></li>
+</ul></li><li><div class="sidenavTitle">Live</div><ul><li class="" data-pro="0"><a href="calendar/livestats">LiveStats schedule</a></li>
+</ul></li></ul></div>
+<div class="clear"></div></div><div class="push"></div></div><div class="footer"><div class="sfa"><ul class="ftr-list"><li class="group"><h3>Grand Tours</h3><ul><li><a href="race/tour-de-france">Tour de France</a></li>
 <li><a href="race/giro-d-italia">Giro d'Italia</a></li>
 <li><a href="race/vuelta-a-espana">Vuelta a España</a></li>
-</ul><h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
+</ul>
+<h3>Major Tours</h3><ul><li><a href="race/paris-nice">Paris-Nice</a></li>
 <li><a href="race/tirreno-adriatico">Tirreno-Adriatico</a></li>
 <li><a href="race/volta-a-catalunya">Volta a Catalunya</a></li>
 <li><a href="race/tour-de-romandie">Tour de Romandie</a></li>
@@ -239,7 +509,8 @@
 <li><a href="race/paris-roubaix">Paris-Roubaix</a></li>
 <li><a href="race/liege-bastogne-liege">Liège-Bastogne-Liège</a></li>
 <li><a href="race/il-lombardia">Il Lombardia</a></li>
-</ul><h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
+</ul>
+<h3>Championships</h3><ul><li><a href="race/world-championship">World Championships</a></li>
 <li><a href="race/uec-road-european-championships">European Championships</a></li>
 </ul></li>
 <li class="group"><h3>Top classics</h3><ul><li><a href="race/omloop-het-nieuwsblad">Omloop Het Nieuwsblad</a></li>
@@ -271,7 +542,8 @@
 <li class="group"><h3>Rankings</h3><ul><li><a href="rankings.php">PCS ranking</a></li>
 <li><a href="rankings/me/uci-individual">UCI World Ranking</a></li>
 <li><a href="rankings/me/all-time">Alltime</a></li>
-</ul><h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
+</ul>
+<h3>Statistics</h3><ul><li><a href="statistics/start/points-per-age">Points per age</a></li>
 <li><a href="statistics/start/latest-injuries">Latest injuries</a></li>
 <li><a href="statistics/riders/youngest-riders">Youngest riders</a></li>
 <li><a href="statistics/grandtours">Grand tour statistics</a></li>
@@ -284,16 +556,14 @@
 <li><a href="reset_password.php">Reset password</a></li>
 <li><a href="info/pcs-game">PCS game</a></li>
 <li><a href="https://www.procyclingstats.com/?cmpscreen">Cookie consent</a></li>
-</ul><h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
+</ul>
+<h3>About ProCyclingStats</h3><ul><li><a href="info/about-us">About us</a></li>
 <li><a href="info/contact">Contact us</a></li>
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0169s</span></li>
+<li><span>Pageload 0.0097s</span></li>
 </ul></li>
-</ul><input type="hidden" id="pageid" value="6040" /><input type="hidden" id="userid" value="0" />
-	</div>
-</div> 
- 
- </body></html>
-<script src="search_list17.js"></script>  
+</ul></div></div></body>
+</html>
+<script src="search_list21.js"></script>

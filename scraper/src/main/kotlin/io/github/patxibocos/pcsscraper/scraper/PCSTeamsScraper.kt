@@ -41,7 +41,8 @@ class PCSTeamsScraper(
         val status = infoList.findFirst("li").findSecond("div").ownText
         val abbreviation = infoList.findSecond("li").findSecond("div").ownText.uppercase()
         val bike = infoList.findFirst("a[href^='brand']").ownText
-        val website = teamDoc.findAll { filter { it.findFirst("a").text == "SITE" } }.firstOrNull()?.a { findFirst { attribute("href") } }
+        val website = teamDoc.findAll { filter { it.findFirst("a").text == "SITE" } }.firstOrNull()
+            ?.a { findFirst { attribute("href") } }
 
         fun getJerseyImageFromUci(): String {
             if (abbreviation == "WB2") {

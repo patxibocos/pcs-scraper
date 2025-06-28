@@ -5,18 +5,8 @@ import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.entity.Race
 import io.github.patxibocos.pcsscraper.export.Exporter
 import io.github.patxibocos.pcsscraper.export.Format
-import io.github.patxibocos.pcsscraper.scraper.PCSRacesScraper
-import io.github.patxibocos.pcsscraper.scraper.PCSRidersScraper
-import io.github.patxibocos.pcsscraper.scraper.PCSTeamsScraper
-import io.github.patxibocos.pcsscraper.scraper.RacesScraper
-import io.github.patxibocos.pcsscraper.scraper.RidersScraper
-import io.github.patxibocos.pcsscraper.scraper.TeamsScraper
-import io.github.patxibocos.pcsscraper.scraper.teamIdMapper
-import kotlinx.cli.ArgParser
-import kotlinx.cli.ArgType
-import kotlinx.cli.default
-import kotlinx.cli.multiple
-import kotlinx.cli.required
+import io.github.patxibocos.pcsscraper.scraper.*
+import kotlinx.cli.*
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.runBlocking
@@ -51,7 +41,7 @@ fun main(args: Array<String>) {
                     teamIdMapper = teamIdMapper(teams),
                 )
             val participantRiders = races.map { it.stages }.flatten().map { stage ->
-                buildList<Pair<String, String>> {
+                buildList {
                     // Time only if stage is not TTT
                     if (stage.stageType != Race.Stage.StageType.TEAM_TIME_TRIAL) {
                         addAll(stage.stageResults.time.map { it.participant to it.name })
