@@ -8,7 +8,7 @@ import it.skrape.selects.html5.a
 import it.skrape.selects.html5.span
 import it.skrape.selects.html5.td
 import it.skrape.selects.html5.thead
-import it.skrape.selects.html5.ul
+import it.skrape.selects.text
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
@@ -16,12 +16,7 @@ import mu.KotlinLogging
 import org.slf4j.Logger
 import java.net.URI
 import java.net.URL
-import java.time.Instant
-import java.time.LocalDate
-import java.time.LocalTime
-import java.time.ZoneId
-import java.time.ZoneOffset
-import java.time.ZonedDateTime
+import java.time.*
 import java.time.format.DateTimeFormatter
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.minutes
@@ -53,18 +48,17 @@ class PCSRacesScraper(
     private suspend fun getRace(raceUrl: String): PCSRace = coroutineScope {
         val raceURL = buildURL(raceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
-        val infoList = raceDoc.ul { withClass = "infolist"; this }
-        val header = raceDoc.findAll(".page-topnav > ul > li")
-        val participantsIndex = header.indexOfFirst { it.text.startsWith("Startlist") }
-        val raceParticipantsUrl = header[participantsIndex].a { findFirst { attribute("href") } }
-        val startDate = infoList.findFirst("li").findSecond("div").ownText
-        val endDate = infoList.findSecond("li").findSecond("div").ownText
-        val name = raceDoc.findFirst(".main > h1").text
+        val raceParticipantsUrl = raceDoc.findAll("a").first { it.text == "Startlist" }.attribute("href")
+        val startDate = raceDoc.findNextSiblingElements { text == "Startdate:" }.firstOrNull()?.text
+        val endDate = raceDoc.findNextSiblingElements { text == "Enddate:" }.firstOrNull()?.text
+        val name = raceDoc.findFirst(".thumbnav > span > a").ownText
         val stages = if (startDate == endDate) {
             listOf(getStage("$raceUrl/result", true))
         } else {
             logger.info("Scraping stages for race $name")
-            getStages(raceDoc.findFirst(".w48.left.mb_w100 > div:first-child > span > table"))
+            val stagesTable =
+                raceDoc.findNextSiblingElements { ownText == "Stages" && parent.classNames.contains("mt20") }.first()
+            getStages(stagesTable)
         }
         val country = raceDoc.getCountry()
         val websites = raceDoc.findAll("ul.list.circle.bluelink.fs14 a").map { it.attribute("href") }
@@ -112,22 +106,22 @@ class PCSRacesScraper(
     private suspend fun getStage(stageUrl: String, isSingleDayRace: Boolean): PCSStage = coroutineScope {
         val stageURL = buildURL(stageUrl)
         val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
-        val infoList = stageDoc.findAll("ul.infolist > li > div:first-child")
-        val startDate = siblingOfMatchingElement(infoList, "Date").ownText
-        val startTime = siblingOfMatchingElement(infoList, "Start time").ownText
+        val startDate = stageDoc.findNextSiblingElements { text == "Datename:" }.text
+        val startTime = stageDoc.findNextSiblingElements { text == "Start time:" }.text
         val startTimeCET = if (startTime.isNotBlank() && startTime != "-") {
             val cetTimePart = startTime.substring(startTime.indexOf('(') + 1)
             cetTimePart.substring(0, 5)
         } else {
             null
         }
-        val distance = siblingOfMatchingElement(infoList, "Distance").ownText
-        val type = siblingOfMatchingElement(infoList, "Parcours type").findFirst("span").classNames.last()
-        val stageTitle = stageDoc.findFirst(".sub > span:nth-child(3)").text
+        val distance = stageDoc.findNextSiblingElements { text == "Distance:" }.text
+        val type = stageDoc.findNextSiblingElements { ownText == "Parcours type:" }
+            .first().children.first().classNames.toList()[2]
+        val stageTitle = stageDoc.findFirst(".title-line2").text
         val isIndividualTimeTrial = stageTitle.contains("ITT")
         val isTeamTimeTrial = stageTitle.contains("TTT")
-        val departure = siblingOfMatchingElement(infoList, "Departure").findFirst("a").text.ifEmpty { null }
-        val arrival = siblingOfMatchingElement(infoList, "Arrival").findFirst("a").text.ifEmpty { null }
+        val departure = stageDoc.findNextSiblingElements { ownText == "Departure:" }.text
+        val arrival = stageDoc.findNextSiblingElements { ownText == "Arrival:" }.text
         var stageTimeResult: List<PCSParticipantResult> = emptyList()
         var stageYouthResult: List<PCSParticipantResult> = emptyList()
         var stageTeamsResult: List<PCSParticipantResult> = emptyList()
@@ -207,9 +201,6 @@ class PCSRacesScraper(
             generalPointsResult = generalPointsResult,
         )
     }
-
-    private fun siblingOfMatchingElement(docElements: List<DocElement>, selector: String): DocElement =
-        docElements.find { it.text.startsWith(selector) }!!.siblings.first()
 
     private fun getPointsPerPlaceResult(results: DocElement): List<PCSPlaceResult> {
         val placeNames = results.findAll("h3")
@@ -482,7 +473,7 @@ class PCSRacesScraper(
     }
 
     private fun Doc.getCountry(): String =
-        findFirst(".main > span.flag").classNames.find { it.length == 2 }.orEmpty()
+        findFirst(".title span.flag").classNames.find { it.length == 2 }.orEmpty()
 
     private fun buildURL(path: String): URL =
         URI(pcsUrl).resolve("/").resolve(path).toURL()

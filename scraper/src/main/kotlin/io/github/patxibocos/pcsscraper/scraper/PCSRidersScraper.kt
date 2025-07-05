@@ -2,8 +2,6 @@ package io.github.patxibocos.pcsscraper.scraper
 
 import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.entity.Rider
-import it.skrape.selects.Doc
-import it.skrape.selects.DocElement
 import it.skrape.selects.html5.a
 import it.skrape.selects.html5.div
 import it.skrape.selects.html5.h1
@@ -67,29 +65,6 @@ class PCSRidersScraper(
         val teamName = pageTitleMain.h1 { findFirst { text } }.substringBefore('(').trim()
         val riderIdsToNames = teamDoc.findAll("ul.teamlist a").map { it.attribute("href") to it.text }
         return TeamRiders(teamName, riderIdsToNames)
-    }
-
-    private fun Doc.findNextSiblingElements(elements: Int = 1, condition: DocElement.() -> Boolean): List<DocElement> {
-        val element = findAll { filter { condition(it) } }.firstOrNull()
-        if (element == null) {
-            return emptyList()
-        }
-        var found = false
-        var remaining = elements
-        val result = mutableListOf<DocElement>()
-        element.parent.children.forEach {
-            if (found) {
-                result.add(it)
-                remaining--
-            }
-            if (remaining == 0) {
-                return result
-            }
-            if (!found && condition(it)) {
-                found = true
-            }
-        }
-        return emptyList()
     }
 
     private suspend fun getRider(riderUrl: String, riderFullName: String): PCSRider {
