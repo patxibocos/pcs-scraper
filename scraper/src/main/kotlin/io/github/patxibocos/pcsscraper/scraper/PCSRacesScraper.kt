@@ -98,109 +98,120 @@ class PCSRacesScraper(
 
     private suspend fun getStages(stagesTable: DocElement): List<PCSStage> = coroutineScope {
         val stagesUrls =
-            stagesTable.findAll("tbody > tr:not(.sum)").map { it.findByIndex(3, "td") }.filter { it.text != "Restday" }
-                .map { it.a { findFirst { attribute("href") } } }
-        stagesUrls.map { stageUrl -> async { getStage(stageUrl, false) } }.awaitAll()
+            stagesTable.findAll("tbody > tr:not(.sum)").filter { it.findByIndex(3, "td").text != "Restday" }
+                .map {
+                    val stageTypeTd = it.findByIndex(2, "td")
+                    val stageLink = it.findByIndex(3, "td")
+                    val stageUrl = stageLink.a { findFirst { attribute("href") } }
+                    val stageType =
+                        stageTypeTd.children.first().classNames.first { classNames -> classNames.length == 2 }
+                    stageUrl to stageType
+                }
+        stagesUrls.map { (stageUrl, stageType) -> async { getStage(stageUrl, false, stageType) } }.awaitAll()
     }
 
-    private suspend fun getStage(stageUrl: String, isSingleDayRace: Boolean): PCSStage = coroutineScope {
-        val stageURL = buildURL(stageUrl)
-        val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
-        val startDate = stageDoc.findNextSiblingElements { text == "Datename:" }.text
-        val startTime = stageDoc.findNextSiblingElements { text == "Start time:" }.text
-        val startTimeCET = if (startTime.isNotBlank() && startTime != "-") {
-            val cetTimePart = startTime.substring(startTime.indexOf('(') + 1)
-            cetTimePart.substring(0, 5)
-        } else {
-            null
-        }
-        val distance = stageDoc.findNextSiblingElements { text == "Distance:" }.text
-        val type = stageDoc.findNextSiblingElements { ownText == "Parcours type:" }
-            .first().children.first().classNames.toList()[2]
-        val stageTitle = stageDoc.findFirst(".title-line2").text
-        val isIndividualTimeTrial = stageTitle.contains("ITT")
-        val isTeamTimeTrial = stageTitle.contains("TTT")
-        val departure = stageDoc.findNextSiblingElements { ownText == "Departure:" }.text
-        val arrival = stageDoc.findNextSiblingElements { ownText == "Arrival:" }.text
-        var stageTimeResult: List<PCSParticipantResult> = emptyList()
-        var stageYouthResult: List<PCSParticipantResult> = emptyList()
-        var stageTeamsResult: List<PCSParticipantResult> = emptyList()
-        var stageKomResult: List<PCSPlaceResult> = emptyList()
-        var stagePointsResult: List<PCSPlaceResult> = emptyList()
-        var generalTimeResult: List<PCSParticipantResult> = emptyList()
-        var generalYouthResult: List<PCSParticipantResult> = emptyList()
-        var generalTeamsResult: List<PCSParticipantResult> = emptyList()
-        var generalKomResult: List<PCSParticipantResult> = emptyList()
-        var generalPointsResult: List<PCSParticipantResult> = emptyList()
-        val results = stageDoc.findAll(".result-cont")
-        when (isSingleDayRace) {
-            // Single day races will only have stage result
-            true -> {
-                if (results.isNotEmpty()) {
-                    stageTimeResult = getParticipantResult(results.first().findFirst("table"))
-                    generalTimeResult = stageTimeResult
-                }
+    private suspend fun getStage(stageUrl: String, isSingleDayRace: Boolean, type: String? = null): PCSStage =
+        coroutineScope {
+            val stageURL = buildURL(stageUrl)
+            val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
+            val startDate = stageDoc.findNextSiblingElements { text == "Datename:" }.text
+            val startTime = stageDoc.findNextSiblingElements { text == "Start time:" }.text
+            val startTimeCET = if (startTime.isNotBlank() && startTime != "-") {
+                val cetTimePart = startTime.substring(startTime.indexOf('(') + 1)
+                cetTimePart.substring(0, 5)
+            } else {
+                null
             }
+            val distance = stageDoc.findNextSiblingElements { text == "Distance:" }.text
+            val type = type ?: stageDoc.findNextSiblingElements { ownText == "Parcours type:" }
+                .first().children.first().classNames.toList()[2]
+            val stageTitle = stageDoc.findFirst(".title-line2").text
+            val isIndividualTimeTrial = stageTitle.contains("ITT")
+            val isTeamTimeTrial = stageTitle.contains("TTT")
+            val departure = stageDoc.findNextSiblingElements { ownText == "Departure:" }.text
+            val arrival = stageDoc.findNextSiblingElements { ownText == "Arrival:" }.text
+            var stageTimeResult: List<PCSParticipantResult> = emptyList()
+            var stageYouthResult: List<PCSParticipantResult> = emptyList()
+            var stageTeamsResult: List<PCSParticipantResult> = emptyList()
+            var stageKomResult: List<PCSPlaceResult> = emptyList()
+            var stagePointsResult: List<PCSPlaceResult> = emptyList()
+            var generalTimeResult: List<PCSParticipantResult> = emptyList()
+            var generalYouthResult: List<PCSParticipantResult> = emptyList()
+            var generalTeamsResult: List<PCSParticipantResult> = emptyList()
+            var generalKomResult: List<PCSParticipantResult> = emptyList()
+            var generalPointsResult: List<PCSParticipantResult> = emptyList()
+            val results = stageDoc.findAll(".result-cont")
+            when (isSingleDayRace) {
+                // Single day races will only have stage result
+                true -> {
+                    if (results.isNotEmpty()) {
+                        stageTimeResult = getParticipantResult(results.first().findFirst("table"))
+                        generalTimeResult = stageTimeResult
+                    }
+                }
 
-            false -> {
-                stageDoc.findAll("ul.restabs > li").map { it.text }.forEachIndexed { index, ranking ->
-                    when (ranking.lowercase()) {
-                        "prol.", "stage", "" ->
-                            stageTimeResult =
-                                getParticipantResult(table = results[index].findFirst("table"), isTTT = isTeamTimeTrial)
+                false -> {
+                    stageDoc.findAll("ul.restabs > li").map { it.text }.forEachIndexed { index, ranking ->
+                        when (ranking.lowercase()) {
+                            "prol.", "stage", "" ->
+                                stageTimeResult =
+                                    getParticipantResult(
+                                        table = results[index].findFirst("table"),
+                                        isTTT = isTeamTimeTrial
+                                    )
 
-                        "gc" -> generalTimeResult = getParticipantResult(results[index].findFirst("table"))
-                        "points" -> {
-                            try {
-                                stagePointsResult = getPointsPerPlaceResult(results[index].findSecond(".subTabs"))
-                            } catch (e: Exception) {
-                                println("Failed $stageUrl")
-                                throw e
+                            "gc" -> generalTimeResult = getParticipantResult(results[index].findFirst("table"))
+                            "points" -> {
+                                try {
+                                    stagePointsResult = getPointsPerPlaceResult(results[index].findSecond(".subTabs"))
+                                } catch (e: Exception) {
+                                    println("Failed $stageUrl")
+                                    throw e
+                                }
+                                generalPointsResult = getParticipantResult(results[index].findFirst("table"))
                             }
-                            generalPointsResult = getParticipantResult(results[index].findFirst("table"))
-                        }
 
-                        "kom" -> {
-                            stageKomResult =
-                                getPointsPerPlaceResult(results[index].findSecond(".subTabs"))
-                            generalKomResult = getParticipantResult(results[index].findFirst("table"))
-                        }
+                            "kom" -> {
+                                stageKomResult =
+                                    getPointsPerPlaceResult(results[index].findSecond(".subTabs"))
+                                generalKomResult = getParticipantResult(results[index].findFirst("table"))
+                            }
 
-                        "youth" -> {
-                            stageYouthResult = getParticipantResult(results[index].findSecond("table"))
-                            generalYouthResult = getParticipantResult(results[index].findFirst("table"))
-                        }
+                            "youth" -> {
+                                stageYouthResult = getParticipantResult(results[index].findSecond("table"))
+                                generalYouthResult = getParticipantResult(results[index].findFirst("table"))
+                            }
 
-                        "teams" -> {
-                            stageTeamsResult = getParticipantResult(results[index].findSecond("table"))
-                            generalTeamsResult = getParticipantResult(results[index].findFirst("table"))
+                            "teams" -> {
+                                stageTeamsResult = getParticipantResult(results[index].findSecond("table"))
+                                generalTeamsResult = getParticipantResult(results[index].findFirst("table"))
+                            }
                         }
                     }
                 }
             }
+            PCSStage(
+                url = stageUrl,
+                startDate = startDate,
+                startTimeCET = startTimeCET,
+                distance = distance,
+                type = type,
+                individualTimeTrial = isIndividualTimeTrial,
+                teamTimeTrial = isTeamTimeTrial,
+                departure = departure,
+                arrival = arrival,
+                stageTimeResult = stageTimeResult,
+                stageYouthResult = stageYouthResult,
+                stageTeamsResult = stageTeamsResult,
+                stageKomResult = stageKomResult,
+                stagePointsResult = stagePointsResult,
+                generalTimeResult = generalTimeResult,
+                generalYouthResult = generalYouthResult,
+                generalTeamsResult = generalTeamsResult,
+                generalKomResult = generalKomResult,
+                generalPointsResult = generalPointsResult,
+            )
         }
-        PCSStage(
-            url = stageUrl,
-            startDate = startDate,
-            startTimeCET = startTimeCET,
-            distance = distance,
-            type = type,
-            individualTimeTrial = isIndividualTimeTrial,
-            teamTimeTrial = isTeamTimeTrial,
-            departure = departure,
-            arrival = arrival,
-            stageTimeResult = stageTimeResult,
-            stageYouthResult = stageYouthResult,
-            stageTeamsResult = stageTeamsResult,
-            stageKomResult = stageKomResult,
-            stagePointsResult = stagePointsResult,
-            generalTimeResult = generalTimeResult,
-            generalYouthResult = generalYouthResult,
-            generalTeamsResult = generalTeamsResult,
-            generalKomResult = generalKomResult,
-            generalPointsResult = generalPointsResult,
-        )
-    }
 
     private fun getPointsPerPlaceResult(results: DocElement): List<PCSPlaceResult> {
         val placeNames = results.findAll("h3")
