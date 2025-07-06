@@ -4,7 +4,6 @@ import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.entity.Rider
 import it.skrape.selects.html5.a
 import it.skrape.selects.html5.div
-import it.skrape.selects.html5.h1
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
 import kotlinx.coroutines.coroutineScope
@@ -61,8 +60,7 @@ class PCSRidersScraper(
     private suspend fun getTeamRiders(teamUrl: String): TeamRiders {
         val teamURL = buildURL(teamUrl)
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
-        val pageTitleMain = teamDoc.findFirst(".page-title > .main")
-        val teamName = pageTitleMain.h1 { findFirst { text } }.substringBefore('(').trim()
+        val teamName = teamDoc.findFirst(".page-title h1").text.substringBefore('(').trim()
         val riderIdsToNames = teamDoc.findAll("ul.teamlist a").map { it.attribute("href") to it.text }
         return TeamRiders(teamName, riderIdsToNames)
     }

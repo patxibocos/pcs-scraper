@@ -4,10 +4,7 @@ import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.entity.Race
 import it.skrape.selects.Doc
 import it.skrape.selects.DocElement
-import it.skrape.selects.html5.a
-import it.skrape.selects.html5.span
-import it.skrape.selects.html5.td
-import it.skrape.selects.html5.thead
+import it.skrape.selects.html5.*
 import it.skrape.selects.text
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -140,51 +137,72 @@ class PCSRacesScraper(
             var generalTeamsResult: List<PCSParticipantResult> = emptyList()
             var generalKomResult: List<PCSParticipantResult> = emptyList()
             var generalPointsResult: List<PCSParticipantResult> = emptyList()
-            val results = stageDoc.findAll(".result-cont")
+            val results = stageDoc.findFirst("#resultsCont").children
             when (isSingleDayRace) {
                 // Single day races will only have stage result
                 true -> {
                     if (results.isNotEmpty()) {
-                        stageTimeResult = getParticipantResult(results.first().findFirst("table"))
+                        stageTimeResult = getParticipantResult(
+                            table = results.first().findFirst("table"),
+                            resultType = ParticipantResultType.TIME
+                        )
                         generalTimeResult = stageTimeResult
                     }
                 }
 
                 false -> {
-                    stageDoc.findAll("ul.restabs > li").map { it.text }.forEachIndexed { index, ranking ->
+                    stageDoc.ul(".tabs.tabnav") { findAll("li") }.map { it.text }.forEachIndexed { index, ranking ->
                         when (ranking.lowercase()) {
-                            "prol.", "stage", "" ->
+                            "stage" ->
                                 stageTimeResult =
                                     getParticipantResult(
                                         table = results[index].findFirst("table"),
-                                        isTTT = isTeamTimeTrial
+                                        isTTT = isTeamTimeTrial,
+                                        resultType = ParticipantResultType.TIME,
                                     )
 
-                            "gc" -> generalTimeResult = getParticipantResult(results[index].findFirst("table"))
+                            "gc" -> generalTimeResult = getParticipantResult(
+                                table = results[index].findFirst("table"),
+                                resultType = ParticipantResultType.TIME
+                            )
+
                             "points" -> {
-                                try {
-                                    stagePointsResult = getPointsPerPlaceResult(results[index].findSecond(".subTabs"))
-                                } catch (e: Exception) {
-                                    println("Failed $stageUrl")
-                                    throw e
-                                }
-                                generalPointsResult = getParticipantResult(results[index].findFirst("table"))
+                                stagePointsResult = getPointsPerPlaceResult(results[index].findFirst(".today"))
+                                generalPointsResult = getParticipantResult(
+                                    table = results[index].findFirst("table"),
+                                    resultType = ParticipantResultType.POINTS
+                                )
                             }
 
                             "kom" -> {
                                 stageKomResult =
-                                    getPointsPerPlaceResult(results[index].findSecond(".subTabs"))
-                                generalKomResult = getParticipantResult(results[index].findFirst("table"))
+                                    getPointsPerPlaceResult(results[index].findFirst(".today"))
+                                generalKomResult = getParticipantResult(
+                                    table = results[index].findFirst("table"),
+                                    resultType = ParticipantResultType.POINTS
+                                )
                             }
 
                             "youth" -> {
-                                stageYouthResult = getParticipantResult(results[index].findSecond("table"))
-                                generalYouthResult = getParticipantResult(results[index].findFirst("table"))
+                                stageYouthResult = getParticipantResult(
+                                    table = results[index].findSecond("table"),
+                                    resultType = ParticipantResultType.TIME
+                                )
+                                generalYouthResult = getParticipantResult(
+                                    table = results[index].findFirst("table"),
+                                    resultType = ParticipantResultType.TIME
+                                )
                             }
 
                             "teams" -> {
-                                stageTeamsResult = getParticipantResult(results[index].findSecond("table"))
-                                generalTeamsResult = getParticipantResult(results[index].findFirst("table"))
+                                stageTeamsResult = getParticipantResult(
+                                    table = results[index].findSecond("table"),
+                                    resultType = ParticipantResultType.TIME
+                                )
+                                generalTeamsResult = getParticipantResult(
+                                    table = results[index].findFirst("table"),
+                                    resultType = ParticipantResultType.TIME
+                                )
                             }
                         }
                     }
@@ -214,19 +232,29 @@ class PCSRacesScraper(
         }
 
     private fun getPointsPerPlaceResult(results: DocElement): List<PCSPlaceResult> {
-        val placeNames = results.findAll("h3")
+        val placeNames = results.findAll("h4")
         return placeNames.mapIndexed { index, element ->
             PCSPlaceResult(
                 place = PointsPlace(title = element.text),
-                result = getParticipantResult(results.findByIndex(index, "table")),
+                result = getParticipantResult(
+                    table = results.findByIndex(index, "table"),
+                    resultType = ParticipantResultType.POINTS
+                ),
             )
         }
+    }
+
+    enum class ParticipantResultType(val names: List<String>) {
+        TIME(listOf("Time")),
+        POINTS(listOf("Points", "Pnt"))
     }
 
     private fun getParticipantResult(
         table: DocElement,
         isTTT: Boolean = false,
-    ): List<PCSParticipantResult> {
+        resultType: ParticipantResultType,
+
+        ): List<PCSParticipantResult> {
         if (table.text.isEmpty()) {
             return emptyList()
         }
@@ -234,7 +262,7 @@ class PCSRacesScraper(
         val positionColumnIndex =
             resultColumns.indexOfFirst { it.ownText == "Pos." || it.ownText == "Rnk" || it.ownText == "#" }
         val participantColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rider" || it.ownText == "Team" }
-        val timeOrPointsColumnIndex = resultColumns.indexOfFirst { it.ownText == "Time" || it.ownText == "Points" }
+        val timeOrPointsColumnIndex = resultColumns.indexOfFirst { it.ownText in resultType.names }
         if (timeOrPointsColumnIndex == -1) {
             // Some results sometimes miss points/time, so we just skip them
             return emptyList()
@@ -246,7 +274,7 @@ class PCSRacesScraper(
             //   <td></td>
             //   <td colspan="23" style="padding: 2px; font-size: 10px; color: #999;">Michael Matthews relegated from 3rd to 11th </td>
             //  </tr>
-            if (it.children.size == 2) {
+            if (it.children.size <= 2) {
                 return@mapNotNull null
             }
             val position = it.td { findByIndex(positionColumnIndex) }.ownText
