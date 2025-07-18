@@ -111,7 +111,7 @@ class PCSRacesScraper(
         coroutineScope {
             val stageURL = buildURL(stageUrl)
             val stageDoc = docFetcher.getDoc(stageURL) { relaxed = true }
-            val startDate = stageDoc.findNextSiblingElements { text == "Datename:" }.text
+            val startDate = stageDoc.findNextSiblingElements { text == "Date:" }.text
             val startTime = stageDoc.findNextSiblingElements { text == "Start time:" }.text
             val startTimeCET = if (startTime.isNotBlank() && startTime != "-") {
                 val cetTimePart = startTime.substring(startTime.indexOf('(') + 1)
