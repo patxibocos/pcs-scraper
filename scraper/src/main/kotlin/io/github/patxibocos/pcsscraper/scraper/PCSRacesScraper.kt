@@ -262,7 +262,8 @@ class PCSRacesScraper(
         val positionColumnIndex =
             resultColumns.indexOfFirst { it.ownText == "Pos." || it.ownText == "Rnk" || it.ownText == "#" }
         val participantColumnIndex = resultColumns.indexOfFirst { it.ownText == "Rider" || it.ownText == "Team" }
-        val timeOrPointsColumnIndex = resultColumns.indexOfFirst { it.ownText in resultType.names }
+        // indexOfLast because sometimes there are two Pnt columns
+        val timeOrPointsColumnIndex = resultColumns.indexOfLast { it.ownText in resultType.names }
         if (timeOrPointsColumnIndex == -1) {
             // Some results sometimes miss points/time, so we just skip them
             return emptyList()
