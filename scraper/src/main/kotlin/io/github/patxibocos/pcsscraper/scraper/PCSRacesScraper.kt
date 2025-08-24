@@ -4,7 +4,11 @@ import io.github.patxibocos.pcsscraper.document.DocFetcher
 import io.github.patxibocos.pcsscraper.entity.Race
 import it.skrape.selects.Doc
 import it.skrape.selects.DocElement
-import it.skrape.selects.html5.*
+import it.skrape.selects.html5.a
+import it.skrape.selects.html5.span
+import it.skrape.selects.html5.td
+import it.skrape.selects.html5.thead
+import it.skrape.selects.html5.ul
 import it.skrape.selects.text
 import kotlinx.coroutines.async
 import kotlinx.coroutines.awaitAll
@@ -13,7 +17,12 @@ import mu.KotlinLogging
 import org.slf4j.Logger
 import java.net.URI
 import java.net.URL
-import java.time.*
+import java.time.Instant
+import java.time.LocalDate
+import java.time.LocalTime
+import java.time.ZoneId
+import java.time.ZoneOffset
+import java.time.ZonedDateTime
 import java.time.format.DateTimeFormatter
 import kotlin.time.Duration.Companion.hours
 import kotlin.time.Duration.Companion.minutes
@@ -45,7 +54,8 @@ class PCSRacesScraper(
     private suspend fun getRace(raceUrl: String): PCSRace = coroutineScope {
         val raceURL = buildURL(raceUrl)
         val raceDoc = docFetcher.getDoc(raceURL) { relaxed = true }
-        val raceParticipantsUrl = raceDoc.findAll("a").first { it.text == "Startlist" }.attribute("href")
+        val raceParticipantsUrl =
+            raceDoc.selection(".content a") { findAll { first { it.text == "Startlist" }.attribute("href") } }
         val startDate = raceDoc.findNextSiblingElements { text == "Startdate:" }.firstOrNull()?.text
         val endDate = raceDoc.findNextSiblingElements { text == "Enddate:" }.firstOrNull()?.text
         val name = raceDoc.findFirst(".thumbnav > span > a").ownText
