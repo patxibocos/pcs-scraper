@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -166,7 +180,7 @@
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w10 bg blue left" ></div></div></div><div class="xvalue ac" >148</div><div class="xtitle" ><a  href="rider/xandro-meurisse/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w31 bg orange left" ></div></div></div><div class="xvalue ac" >454</div><div class="xtitle" ><a  href="rider/xandro-meurisse/results/career-points-sprint">Sprint</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w58 bg purple left" ></div></div></div><div class="xvalue ac" >858</div><div class="xtitle" ><a  href="rider/xandro-meurisse/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w72 bg pink left" ></div></div></div><div class="xvalue ac" >1061</div><div class="xtitle" ><a  href="rider/xandro-meurisse/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w72 bg pink left" ></div></div></div><div class="xvalue ac" >1062</div><div class="xtitle" ><a  href="rider/xandro-meurisse/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -185,14 +199,14 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/all-time">All time</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1573</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >137</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >138</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >131</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/all-time">All time</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1574</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >123</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;2509</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;7271</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -209,14 +223,14 @@
 <li><div class="nrs">&nbsp; <span class="shirt st4 w14"></span></div><div class="races"><span class="blue">GC</span> <a href="race/vuelta-ciclista-a-la-region-de-murcia/2020/gc">Vuelta a la Región de Murcia </a><span class="clr777 fs11">&nbsp; ('20)</span></div></li>
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue"></span> <a href="race/giro-del-veneto/2021/result">Giro del Veneto</a><span class="clr777 fs11">&nbsp; ('21)</span></div></li>
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue"></span> <a href="race/druivenkoers-overijse/2018/result">Druivenkoers - Overijse</a><span class="clr777 fs11">&nbsp; ('18)</span></div></li>
-<li><div class="nrs">&nbsp; </div><div class="races"><span class="blue">stage</span> <a href="race/4-jours-de-dunkerque/2016/stage-4">4 Jours de Dunkerque</a><span class="clr777 fs11">&nbsp; ('16)</span></div></li>
+<li><div class="nrs">&nbsp; </div><div class="races"><span class="blue">stage</span> <a href="race/4-jours-de-dunkerque/2016/stage-4">4 Jours de Dunkerque / Grand Prix des Hauts de Fra</a><span class="clr777 fs11">&nbsp; ('16)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/tour-de-luxembourg/2017/gc">Tour de Luxembourg</a><span class="clr777 fs11">&nbsp; ('17)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/giro-del-veneto/2024/result">Giro del Veneto</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue">stage</span> <a href="race/vuelta-ciclista-a-la-region-de-murcia/2020/stage-1">Vuelta a la Región de Murcia </a><span class="clr777 fs11">&nbsp; ('20)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/region-pays-de-la-loire/2018/gc">Circuit Cycliste Sarthe - Pays de la Loire</a><span class="clr777 fs11">&nbsp; ('18)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/volta-nxt-classic/2017/result">Volta Limburg Classic</a><span class="clr777 fs11">&nbsp; ('17)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tirreno-adriatico/2022/stage-5">Tirreno-Adriatico</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
-<li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/4-jours-de-dunkerque/2016/gc">4 Jours de Dunkerque</a><span class="clr777 fs11">&nbsp; ('16)</span></div></li>
+<li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/4-jours-de-dunkerque/2016/gc">4 Jours de Dunkerque / Grand Prix des Hauts de Fra</a><span class="clr777 fs11">&nbsp; ('16)</span></div></li>
 <li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-de-france/2019/stage-6">Tour de France</a><span class="clr777 fs11">&nbsp; ('19)</span></div></li>
 </ul></div>
 </div>
@@ -227,6 +241,9 @@
 <div class="">
 <span class="table-cont">
 <ul class="rdr-teams2  "  >
+<li class="showifmob combiLine"><div class="season">2026-2027</div><div class="name2"><a class="blue" href="team/q365-pro-cycing-team-2026">Q36.5 Pro Cycling Team</a> (PRT)</div><div class="clear"></div></li>
+<li class="main hideifmob "><div class="season">2027</div><div class="name"><a href="team/q365-pro-cycing-team-2027">Q36.5 Pro Cycling Team</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main hideifmob "><div class="season">2026</div><div class="name"><a href="team/q365-pro-cycing-team-2026">Q36.5 Pro Cycling Team</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2025</div><div class="name"><a href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2024</div><div class="name"><a href="team/alpecin-deceuninck-2024">Alpecin - Deceuninck</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2023</div><div class="name"><a href="team/alpecin-deceuninck-2023">Alpecin - Deceuninck</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
@@ -244,9 +261,10 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >15.08</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/circuit-franco-belge/2025/startlist">Circuit Franco-Belge</a></div><div class="blue fs10" ><a  href="rider-in-race/xandro-meurisse/circuit-franco-belge">more</a></div></li>
-<li class=""><div class="bold mr5" >17.08</div><div class="ellipsis" ><span class="flag de"></span> <a  href="race/cyclassics-hamburg/2025/startlist">Cyclassics Hamburg</a></div><div class="blue fs10" ><a  href="rider-in-race/xandro-meurisse/cyclassics-hamburg">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -264,23 +282,7 @@
 <li class=""><a class="rdrFilterSeason" data-season="2021"  href="">2021</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2019"  href="">2019</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2018"  href="">2018</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2017"  href="">2017</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2016"  href="">2016</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2015"  href="">2015</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2014"  href="">2014</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2013"  href="">2013</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2012"  href="">2012</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2011"  href="">2011</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2010"  href="">2010</a></li>
-<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2025" href="">2025</a></li>
-<li><a  class="rdrFilterSeason" data-season="2024" href="">2024</a></li>
-<li><a  class="rdrFilterSeason" data-season="2023" href="">2023</a></li>
-<li><a  class="rdrFilterSeason" data-season="2022" href="">2022</a></li>
-<li><a  class="rdrFilterSeason" data-season="2021" href="">2021</a></li>
-<li><a  class="rdrFilterSeason" data-season="2020" href="">2020</a></li>
-<li><a  class="rdrFilterSeason" data-season="2019" href="">2019</a></li>
-<li><a  class="rdrFilterSeason" data-season="2018" href="">2018</a></li>
+<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2018" href="">2018</a></li>
 <li><a  class="rdrFilterSeason" data-season="2017" href="">2017</a></li>
 <li><a  class="rdrFilterSeason" data-season="2016" href="">2016</a></li>
 <li><a  class="rdrFilterSeason" data-season="2015" href="">2015</a></li>
@@ -290,8 +292,10 @@
 <li><a  class="rdrFilterSeason" data-season="2011" href="">2011</a></li>
 <li><a  class="rdrFilterSeason" data-season="2010" href="">2010</a></li>
 </ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div class="simpleDropdown" style="">ROAD<ul><li><a class="rdrFilterDiscipline" data-discipline="pcs" href="">ROAD</a></li><li><a class="rdrFilterDiscipline" data-discipline="cx" href="">CROSS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>17.08</td><td>45</td><td></td><td><span class=""></span></td><td><span class="flag de"></span> <a href="race/cyclassics-hamburg/2025/result"><span>ADAC Cyclassics</span> (1.UWT)</a>  </td><td>207.4</td><td>5</td><td>8</td><td><a class="fs10" href="rider-in-race/xandro-meurisse/cyclassics-hamburg">more</a></td></tr>
+<tr class="main"><td>15.08</td><td>29</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/circuit-franco-belge/2025/result"><span>Circuit Franco-Belge</span> (1.Pro)</a>  </td><td>206.7</td><td></td><td>5</td><td><a class="fs10" href="rider-in-race/xandro-meurisse/circuit-franco-belge">more</a></td></tr>
 <tr class="main"><td>02.08</td><td>10</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/san-sebastian/2025/result"><span>Donostia San Sebastian Klasikoa</span> (1.UWT)</a>  </td><td>211.4</td><td>42</td><td>68</td><td><a class="fs10" href="rider-in-race/xandro-meurisse/san-sebastian">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">05.07 &rsaquo; 27.07</span><span class="showIfMobile fs12">5-27/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-de-france/2025/stage-11-gc"><span>Tour de France</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/xandro-meurisse/tour-de-france">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">05.07 &rsaquo; 27.07</span><span class="showIfMobile fs12">5-27/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-de-france/2025/stage-14-gc"><span>Tour de France</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/xandro-meurisse/tour-de-france">more</a></td></tr>
 <tr class="stage"><td></td><td>123</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-de-france/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>22</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-france/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>90</td><td>50</td><td></td></tr>
 <tr class="stage"><td>27.07</td><td>66</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-france/2025/stage-21"><span class="imob">S21</span><span class="idesk">Stage 21</span> - Mantes-la-Ville &rsaquo; Paris (Champs-Élysées)</a>  </td><td>132.3</td><td></td><td></td><td></td></tr>
@@ -316,7 +320,7 @@
 <tr class="stage"><td>06.07</td><td>67</td><td>57</td><td><span class=""></span></td><td><a href="race/tour-de-france/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Lauwin-Planque &rsaquo; Boulogne-sur-Mer</a>  </td><td>209.1</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>05.07</td><td>36</td><td>38</td><td><span class=""></span></td><td><a href="race/tour-de-france/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Lille Métropole &rsaquo; Lille Métropole</a>  </td><td>184.9</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>29.06</td><td>10</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/nc-belgium/2025/result"><span>National Championships Belgium ME - Road Race</span> (NC)</a>  </td><td>230</td><td></td><td>3</td><td><a class="fs10" href="rider-in-race/xandro-meurisse/nc-belgium">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">08.06 &rsaquo; 15.06</span><span class="showIfMobile fs12">8-15/6</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/dauphine/2025/stage-7-gc"><span>Critérium du Dauphiné</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/xandro-meurisse/dauphine">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">08.06 &rsaquo; 15.06</span><span class="showIfMobile fs12">8-15/6</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/dauphine/2025/stage-1-gc"><span>Critérium du Dauphiné</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/xandro-meurisse/dauphine">more</a></td></tr>
 <tr class="stage"><td></td><td>50</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/dauphine/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>5</td><td>10</td><td></td></tr>
 <tr class="stage"><td>15.06</td><td>62</td><td></td><td><span class=""></span></td><td><a href="race/dauphine/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Val-d'Arc &rsaquo; Plateau du Mont-Cenis</a>  </td><td>133.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>14.06</td><td>45</td><td>48</td><td><span class=""></span></td><td><a href="race/dauphine/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Grand-Algueblanche &rsaquo; Valmeinier 1800	</a>  </td><td>131.6</td><td></td><td></td><td></td></tr>
@@ -335,7 +339,7 @@
 <tr class="main"><td>02.04</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/dwars-door-vlaanderen/2025/result"><span>Dwars door Vlaanderen - A travers la Flandre ME</span> (1.UWT)</a>  </td><td>184.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/xandro-meurisse/dwars-door-vlaanderen">more</a></td></tr>
 <tr class="main"><td>28.03</td><td>49</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/e3-harelbeke/2025/result"><span>E3 Saxo Classic ME</span> (1.UWT)</a>  </td><td>208.8</td><td>5</td><td>8</td><td><a class="fs10" href="rider-in-race/xandro-meurisse/e3-harelbeke">more</a></td></tr>
 <tr class="main"><td>22.03</td><td>140</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/milano-sanremo/2025/result"><span>Milano-Sanremo</span> (1.UWT)</a>  </td><td>289</td><td>5</td><td></td><td><a class="fs10" href="rider-in-race/xandro-meurisse/milano-sanremo">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">10.03 &rsaquo; 16.03</span><span class="showIfMobile fs12">10-16/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/tirreno-adriatico/2025/stage-1-gc"><span>Tirreno-Adriatico</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/xandro-meurisse/tirreno-adriatico">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">10.03 &rsaquo; 16.03</span><span class="showIfMobile fs12">10-16/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/tirreno-adriatico/2025/stage-6-gc"><span>Tirreno-Adriatico</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/xandro-meurisse/tirreno-adriatico">more</a></td></tr>
 <tr class="stage"><td></td><td>35</td><td></td><td><span class="icon shirt w14 st7"></span></td><td><a href="race/tirreno-adriatico/2025/kom"><span class="imob">Mountains classification</span><span class="idesk">Mountains classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>30</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tirreno-adriatico/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>114</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tirreno-adriatico/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>5</td><td></td><td></td></tr>
@@ -355,7 +359,7 @@
 <tr class="stage"><td>21.02</td><td>39</td><td>34</td><td><span class=""></span></td><td><a href="race/volta-ao-algarve/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Vila Real Santo António &rsaquo; Tavira</a>  </td><td>183.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>20.02</td><td>37</td><td>37</td><td><span class=""></span></td><td><a href="race/volta-ao-algarve/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Lagoa &rsaquo; Alto da Foia</a>  </td><td>177.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>19.02</td><td>NR</td><td></td><td><span class=""></span></td><td><a href="race/volta-ao-algarve/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Portimão &rsaquo; Lagos</a>  </td><td>192.2</td><td></td><td></td><td></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>8838 km in <b>54</b> days | PCS points: <b>187</b> | UCI points: <b>182</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>9252 km in <b>56</b> days | PCS points: <b>192</b> | UCI points: <b>195</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -370,7 +374,7 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-08-10&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w31 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l31"  style="height: 12px; line-height: 12px; " >187</div></div></td><td class="fs11 " >250</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-08-25&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w32 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l32"  style="height: 12px; line-height: 12px; " >192</div></div></td><td class="fs11 " >266</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w55 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l55"  style="height: 12px; line-height: 12px; " >330</div></div></td><td class="fs11 " >207</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w19 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l19"  style="height: 12px; line-height: 12px; " >112</div></div></td><td class="fs11 " >509</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w49 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l49"  style="height: 12px; line-height: 12px; " >294</div></div></td><td class="fs11 " >209</td></tr>
@@ -459,9 +463,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0486s</span></li>
+<li><span>Pageload 0.0583s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script><script>
+<script src="search_list22.js"></script><script>
 var riderid = 138697;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

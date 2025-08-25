@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -149,16 +163,21 @@
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w68 left mb_w100" >
 <input type="hidden" name="race_id" value="302885" /><input type="hidden" name="race_seo" value="race/tour-of-guangxi/2025/stage-2" /><input type="hidden" name="event_id" value="57068" /><input type="hidden" name="tab_id" value="302885" /><div class="resultFilters" style="color: #999; font-size: 11px; margin-bottom: 5px; overflow: hidden; "><span class="filterCont"><select class="filterResults right" data-type="team" ><option value="">all teams</option><option value="arkea-b-b-hotels-2025">Arkéa - B&B Hotels</option>
+<option value="cofidis-2025">Cofidis</option>
 <option value="decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</option>
 <option value="ef-education-easypost-2025">EF Education - EasyPost</option>
 <option value="groupama-fdj-2025">Groupama - FDJ</option>
+<option value="intermarche-wanty-2025">Intermarché - Wanty</option>
 <option value="lidl-trek-2025">Lidl - Trek</option>
+<option value="lotto-2025">Lotto</option>
 <option value="movistar-team-2025">Movistar Team</option>
 <option value="soudal-quick-step-2025">Soudal Quick-Step</option>
 <option value="team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</option>
 <option value="uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</option>
 <option value="xds-astana-team-2025">XDS Astana Team</option>
-</select> <select class="filterResults right" data-type="nation"><option value="">all nations</option><option value="fr">France</option>
+</select> <select class="filterResults right" data-type="nation"><option value="">all nations</option><option value="be">Belgium</option>
+<option value="fr">France</option>
+<option value="de">Germany</option>
 </select> <select class="filterResults right" data-type="custom"><option value="">all</option><option value="age_u23">Age U23</option>
 <option value="age_u25">Age U25</option>
 <option value="age_o30">Age 30+</option>
@@ -195,7 +214,7 @@
 <li><div class="title ">Departure: </div><div class=" value" ><a  href="location/chongzuo">Chongzuo</a></div></li>
 <li><div class="title ">Arrival: </div><div class=" value" ><a  href="location/jingxi">Jingxi</a></div></li>
 <li><div class="title ">Race ranking: </div><div class=" value" ><a  href="rankings/me/races"></a></div></li>
-<li><div class="title ">Startlist quality score: </div><div class=" value" ><a  href="race/tour-of-guangxi/2025/startlist/startlist-quality">24</a></div></li>
+<li><div class="title ">Startlist quality score: </div><div class=" value" ><a  href="race/tour-of-guangxi/2025/startlist/startlist-quality">49</a></div></li>
 <li><div class="title ">Won how: </div><div class=" value" >-</div></li>
 <li><div class="title ">Avg. temperature: </div><div class=" value" ><a  href="race/tour-of-guangxi/2025/results/hottest-stages"></a></div></li>
 <li></li>
@@ -291,7 +310,7 @@ NR = No result<br />
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0154s</span></li>
+<li><span>Pageload 0.0149s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script>
+<script src="search_list22.js"></script>

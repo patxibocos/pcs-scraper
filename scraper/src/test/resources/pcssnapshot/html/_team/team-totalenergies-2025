@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -29,7 +29,7 @@
 <div class="wrapper"><header>
 <div class="cont">
 <a class="logo" href="index.php"></a>
-<div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="" data-url="" placeholder="search" autocomplete="off" /></form></div> 
+<div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="team" data-url="team/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
 <div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -156,12 +170,12 @@
 <div class=""><div class="borderbox w100" >
 <div class="">
 <ul class="simple-list list circle bluelink horizontal fs14">
-<li class=""><a  href="team-in-race/team-totalenergies-2025/arctic-race-of-norway">Arctic Race of Norway</a></li>
+<li class=""><a  href="team-in-race/team-totalenergies-2025/tour-du-poitou-charentes-et-de-la-vienne">Tour Poitou - Charentes en Nouvelle Aquitaine</a></li>
 </ul><div class="clear"></div></div>
 <div class="mb5">
 <ul class="list horizontal teamkpi" >
-<li class=""><div class="title ">Victories </div><div class=" value" ><a  href="team/team-totalenergies-2025/wins">6</a></div></li>
-<li><div class="title ">Points </div><div class=" value" ><a  href="team/team-totalenergies-2025/season/points-per-rider">3208</a></div></li>
+<li class=""><div class="title ">Victories </div><div class=" value" ><a  href="team/team-totalenergies-2025/wins">7</a></div></li>
+<li><div class="title ">Points </div><div class=" value" ><a  href="team/team-totalenergies-2025/season/points-per-rider">3489</a></div></li>
 <li><div class="title ">PCS# </div><div class=" value" ><a  href="rankings/me/season-teams">22</a></div></li>
 <li><div class="title ">UCI# </div><div class=" value" ><a  href="rankings/me/uci-teams">23</a></div></li>
 <li><div class="title ">Incoming </div><div class=" value" ><a  href="team/team-totalenergies-2025/transfers/this-year">8</a></div></li>
@@ -177,16 +191,16 @@
 <li class=""><div><a  href="rider/anthony-turgis"><img src="images/riders/bp/bf/anthony-turgis-2025-n2.jpg"  style="" /></a></div><div class="name" >TURGIS Anthony</div></li>
 <li class=""><div><a  href="rider/lorrenzo-manzin"><img src="images/riders/bp/df/lorrenzo-manzin-2025-n2.jpg"  style="" /></a></div><div class="name" >MANZIN Lorrenzo</div></li>
 <li class=""><div><a  href="rider/mathieu-burgaudeau"><img src="images/riders/bp/fd/mathieu-burgaudeau-2025-n2.jpg"  style="" /></a></div><div class="name" >BURGAUDEAU Mathieu</div></li>
-<li class=""><div><a  href="rider/steff-cras"><img src="images/riders/bp/cf/steff-cras-2025-n2.jpg"  style="" /></a></div><div class="name" >CRAS Steff</div></li>
 <li class=""><div><a  href="rider/emilien-jeanniere"><img src="images/riders/bp/df/emilien-jeanniere-2025-n2.jpg"  style="" /></a></div><div class="name" >JEANNIÈRE Emilien</div></li>
+<li class=""><div><a  href="rider/steff-cras"><img src="images/riders/bp/cf/steff-cras-2025-n2.jpg"  style="" /></a></div><div class="name" >CRAS Steff</div></li>
 <li class=""><div><a  href="rider/jason-tesson"><img src="images/riders/bp/dc/jason-tesson-2025-n2.jpg"  style="" /></a></div><div class="name" >TESSON Jason</div></li>
 <li class=""><div><a  href="rider/jordan-jegat"><img src="images/riders/bp/bc/jordan-jegat-2025-n2.png"  style="" /></a></div><div class="name" >JEGAT Jordan</div></li>
 <li class=""><div><a  href="rider/sandy-dujardin"><img src="images/riders/bp/bb/sandy-dujardin-2025-n2.jpg"  style="" /></a></div><div class="name" >DUJARDIN Sandy</div></li>
 <li class=""><div><a  href="rider/alexandre-delettre"><img src="images/riders/bp/cc/alexandre-delettre-2025-n2.jpg"  style="" /></a></div><div class="name" >DELETTRE Alexandre</div></li>
 <li class=""><div><a  href="rider/geoffrey-soupe"><img src="images/riders/bp/dd/geoffrey-soupe-2025-n2.jpg"  style="" /></a></div><div class="name" >SOUPE Geoffrey</div></li>
 <li class=""><div><a  href="rider/fabien-doubey"><img src="images/riders/bp/df/fabien-doubey-2025-n2.jpg"  style="" /></a></div><div class="name" >DOUBEY Fabien</div></li>
-<li class=""><div><a  href="rider/fabien-grellier"><img src="images/riders/bp/ef/fabien-grellier-2025-n2.jpg"  style="" /></a></div><div class="name" >GRELLIER Fabien</div></li>
 <li class=""><div><a  href="rider/thomas-gachignard"><img src="images/riders/bp/bc/thomas-gachignard-2025-n2.jpg"  style="" /></a></div><div class="name" >GACHIGNARD Thomas</div></li>
+<li class=""><div><a  href="rider/fabien-grellier"><img src="images/riders/bp/ef/fabien-grellier-2025-n2.jpg"  style="" /></a></div><div class="name" >GRELLIER Fabien</div></li>
 <li class=""><div><a  href="rider/matheo-vercher"><img src="images/riders/bp/cb/matheo-vercher-2025-n2.jpg"  style="" /></a></div><div class="name" >VERCHER Mattéo</div></li>
 <li class=""><div><a  href="rider/joris-delbove"><img src="images/riders/bp/bd/joris-delbove-2025-n2.jpg"  style="" /></a></div><div class="name" >DELBOVE Joris</div></li>
 <li class=""><div><a  href="rider/samuel-leroux"><img src="images/riders/bp/ad/samuel-leroux-2025-n2.jpg"  style="" /></a></div><div class="name" >LEROUX Samuel</div></li>
@@ -222,34 +236,34 @@
 <th class="w13 ">rnk</th>
 <th class="w13 ">points</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag fr"></span> <a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>51</td><td>826</td></tr>
+<tr class=""><td>1</td><td><span class="flag fr"></span> <a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>45</td><td>869</td></tr>
 <tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="rider/jordan-jegat">JEGAT Jordan</a></td><td>70</td><td>688</td></tr>
-<tr class=""><td>3</td><td><span class="flag fr"></span> <a  href="rider/mathieu-burgaudeau">BURGAUDEAU Mathieu</a></td><td>156</td><td>408</td></tr>
-<tr class=""><td>4</td><td><span class="flag fr"></span> <a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>219</td><td>295</td></tr>
-<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/anthony-turgis">TURGIS Anthony</a></td><td>236</td><td>278</td></tr>
-<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/matheo-vercher">VERCHER Mattéo</a></td><td>270</td><td>251</td></tr>
-<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="rider/pierre-latour">LATOUR Pierre</a></td><td>276</td><td>245</td></tr>
-<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/steff-cras">CRAS Steff</a></td><td>316</td><td>205</td></tr>
-<tr class=""><td>9</td><td><span class="flag fr"></span> <a  href="rider/sandy-dujardin">DUJARDIN Sandy</a></td><td>317</td><td>203</td></tr>
-<tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="rider/fabien-doubey">DOUBEY Fabien</a></td><td>364</td><td>174</td></tr>
-<tr class=""><td>11</td><td><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></td><td>396</td><td>157</td></tr>
-<tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="rider/jason-tesson">TESSON Jason</a></td><td>407</td><td>152</td></tr>
-<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/joris-delbove">DELBOVE Joris</a></td><td>442</td><td>133</td></tr>
-<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/florian-dauphin">DAUPHIN Florian</a></td><td>510</td><td>106</td></tr>
-<tr class=""><td>15</td><td><span class="flag fr"></span> <a  href="rider/alexys-brunel">BRUNEL Alexys</a></td><td>543</td><td>95</td></tr>
-<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/samuel-leroux">LEROUX Samuel</a></td><td>572</td><td>88</td></tr>
+<tr class=""><td>3</td><td><span class="flag fr"></span> <a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>162</td><td>383</td></tr>
+<tr class=""><td>4</td><td><span class="flag fr"></span> <a  href="rider/mathieu-burgaudeau">BURGAUDEAU Mathieu</a></td><td>205</td><td>314</td></tr>
+<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/anthony-turgis">TURGIS Anthony</a></td><td>234</td><td>278</td></tr>
+<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/sandy-dujardin">DUJARDIN Sandy</a></td><td>252</td><td>265</td></tr>
+<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="rider/matheo-vercher">VERCHER Mattéo</a></td><td>257</td><td>261</td></tr>
+<tr class=""><td>8</td><td><span class="flag fr"></span> <a  href="rider/pierre-latour">LATOUR Pierre</a></td><td>275</td><td>245</td></tr>
+<tr class=""><td>9</td><td><span class="flag be"></span> <a  href="rider/steff-cras">CRAS Steff</a></td><td>323</td><td>205</td></tr>
+<tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="rider/fabien-doubey">DOUBEY Fabien</a></td><td>340</td><td>188</td></tr>
+<tr class=""><td>11</td><td><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></td><td>364</td><td>177</td></tr>
+<tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="rider/jason-tesson">TESSON Jason</a></td><td>401</td><td>152</td></tr>
+<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/joris-delbove">DELBOVE Joris</a></td><td>418</td><td>143</td></tr>
+<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/florian-dauphin">DAUPHIN Florian</a></td><td>506</td><td>106</td></tr>
+<tr class=""><td>15</td><td><span class="flag fr"></span> <a  href="rider/alexys-brunel">BRUNEL Alexys</a></td><td>548</td><td>95</td></tr>
+<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/samuel-leroux">LEROUX Samuel</a></td><td>571</td><td>88</td></tr>
 <tr class=""><td>17</td><td><span class="flag fr"></span> <a  href="rider/alan-jousseaume">JOUSSEAUME Alan</a></td><td>914</td><td>39</td></tr>
-<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/lorrenzo-manzin">MANZIN Lorrenzo</a></td><td>933</td><td>37</td></tr>
-<tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/thomas-bonnet">BONNET Thomas</a></td><td>1049</td><td>29</td></tr>
-<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/valentin-retailleau">RETAILLEAU Valentin</a></td><td>1145</td><td>23</td></tr>
-<tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/lucas-boniface">BONIFACE Lucas</a></td><td>1146</td><td>23</td></tr>
-<tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/baptiste-vadic">VADIC Baptiste</a></td><td>1172</td><td>22</td></tr>
-<tr class=""><td>23</td><td><span class="flag fr"></span> <a  href="rider/rayan-boulahoite">BOULAHOITE Rayan</a></td><td>1225</td><td>20</td></tr>
-<tr class=""><td>24</td><td><span class="flag fr"></span> <a  href="rider/geoffrey-soupe">SOUPE Geoffrey</a></td><td>1257</td><td>18</td></tr>
-<tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/fabien-grellier">GRELLIER Fabien</a></td><td>1344</td><td>15</td></tr>
-<tr class=""><td>26</td><td><span class="flag gb"></span> <a  href="rider/adam-mitchell1">MITCHELL Adam</a></td><td>1839</td><td>6</td></tr>
-<tr class=""><td>27</td><td><span class="flag fr"></span> <a  href="rider/nicola-marcerou">MARCEROU Nicola</a></td><td>1926</td><td>5</td></tr>
-<tr class=""><td>28</td><td><span class="flag fr"></span> <a  href="rider/matheo-barusseau">BARUSSEAU Mathéo</a></td><td></td><td></td></tr>
+<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/lorrenzo-manzin">MANZIN Lorrenzo</a></td><td>934</td><td>37</td></tr>
+<tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/thomas-bonnet">BONNET Thomas</a></td><td>1052</td><td>29</td></tr>
+<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/lucas-boniface">BONIFACE Lucas</a></td><td>1145</td><td>23</td></tr>
+<tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/valentin-retailleau">RETAILLEAU Valentin</a></td><td>1165</td><td>22</td></tr>
+<tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/rayan-boulahoite">BOULAHOITE Rayan</a></td><td>1217</td><td>20</td></tr>
+<tr class=""><td>23</td><td><span class="flag fr"></span> <a  href="rider/geoffrey-soupe">SOUPE Geoffrey</a></td><td>1245</td><td>18</td></tr>
+<tr class=""><td>24</td><td><span class="flag fr"></span> <a  href="rider/baptiste-vadic">VADIC Baptiste</a></td><td>1278</td><td>17</td></tr>
+<tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/fabien-grellier">GRELLIER Fabien</a></td><td>1336</td><td>15</td></tr>
+<tr class=""><td>26</td><td><span class="flag fr"></span> <a  href="rider/nicola-marcerou">MARCEROU Nicola</a></td><td>1922</td><td>5</td></tr>
+<tr class=""><td>27</td><td><span class="flag fr"></span> <a  href="rider/matheo-barusseau">BARUSSEAU Mathéo</a></td><td></td><td></td></tr>
+<tr class=""><td>28</td><td><span class="flag gb"></span> <a  href="rider/adam-mitchell1">MITCHELL Adam</a></td><td></td><td></td></tr>
 <tr class=""><td>29</td><td><span class="flag fr"></span> <a  href="rider/theo-leveque">LÉVÊQUE Theo</a></td><td></td><td></td></tr>
 </tbody></table></div>
 <div class="stab points hide riderlistcont">
@@ -262,18 +276,18 @@
 <tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="rider/anthony-turgis">TURGIS Anthony</a></td><td>3700</td></tr>
 <tr class=""><td>3</td><td><span class="flag fr"></span> <a  href="rider/lorrenzo-manzin">MANZIN Lorrenzo</a></td><td>1719</td></tr>
 <tr class=""><td>4</td><td><span class="flag fr"></span> <a  href="rider/mathieu-burgaudeau">BURGAUDEAU Mathieu</a></td><td>1657</td></tr>
-<tr class=""><td>5</td><td><span class="flag be"></span> <a  href="rider/steff-cras">CRAS Steff</a></td><td>1442</td></tr>
-<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>1411</td></tr>
+<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>1465</td></tr>
+<tr class=""><td>6</td><td><span class="flag be"></span> <a  href="rider/steff-cras">CRAS Steff</a></td><td>1442</td></tr>
 <tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="rider/jason-tesson">TESSON Jason</a></td><td>1183</td></tr>
 <tr class=""><td>8</td><td><span class="flag fr"></span> <a  href="rider/jordan-jegat">JEGAT Jordan</a></td><td>1166</td></tr>
-<tr class=""><td>9</td><td><span class="flag fr"></span> <a  href="rider/sandy-dujardin">DUJARDIN Sandy</a></td><td>1086</td></tr>
-<tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>1014</td></tr>
+<tr class=""><td>9</td><td><span class="flag fr"></span> <a  href="rider/sandy-dujardin">DUJARDIN Sandy</a></td><td>1148</td></tr>
+<tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>1125</td></tr>
 <tr class=""><td>11</td><td><span class="flag fr"></span> <a  href="rider/geoffrey-soupe">SOUPE Geoffrey</a></td><td>981</td></tr>
-<tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="rider/fabien-doubey">DOUBEY Fabien</a></td><td>731</td></tr>
-<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/fabien-grellier">GRELLIER Fabien</a></td><td>468</td></tr>
-<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></td><td>449</td></tr>
-<tr class=""><td>15</td><td><span class="flag fr"></span> <a  href="rider/matheo-vercher">VERCHER Mattéo</a></td><td>427</td></tr>
-<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/joris-delbove">DELBOVE Joris</a></td><td>359</td></tr>
+<tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="rider/fabien-doubey">DOUBEY Fabien</a></td><td>745</td></tr>
+<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></td><td>469</td></tr>
+<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/fabien-grellier">GRELLIER Fabien</a></td><td>468</td></tr>
+<tr class=""><td>15</td><td><span class="flag fr"></span> <a  href="rider/matheo-vercher">VERCHER Mattéo</a></td><td>437</td></tr>
+<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/joris-delbove">DELBOVE Joris</a></td><td>369</td></tr>
 <tr class=""><td>17</td><td><span class="flag fr"></span> <a  href="rider/samuel-leroux">LEROUX Samuel</a></td><td>350</td></tr>
 <tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/alexys-brunel">BRUNEL Alexys</a></td><td>282</td></tr>
 <tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/florian-dauphin">DAUPHIN Florian</a></td><td>227</td></tr>
@@ -317,7 +331,7 @@
 <tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/rayan-boulahoite">BOULAHOITE Rayan</a></td><td>21</td></tr>
 <tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>26</td></tr>
 <tr class=""><td>23</td><td><span class="flag fr"></span> <a  href="rider/jordan-jegat">JEGAT Jordan</a></td><td>26</td></tr>
-<tr class=""><td>24</td><td><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></td><td>24</td></tr>
+<tr class=""><td>24</td><td><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></td><td>25</td></tr>
 <tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/mathieu-burgaudeau">BURGAUDEAU Mathieu</a></td><td>26</td></tr>
 <tr class=""><td>26</td><td><span class="flag fr"></span> <a  href="rider/lucas-boniface">BONIFACE Lucas</a></td><td>24</td></tr>
 <tr class=""><td>27</td><td><span class="flag fr"></span> <a  href="rider/baptiste-vadic">VADIC Baptiste</a></td><td>23</td></tr>
@@ -330,35 +344,35 @@
 <th class="w67 ">ridername</th>
 <th class="w27 ">age</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag fr"></span> <a  href="rider/geoffrey-soupe">SOUPE Geoffrey</a></td><td>37y + 141d</td></tr>
-<tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="rider/pierre-latour">LATOUR Pierre</a></td><td>31y + 302d</td></tr>
-<tr class=""><td>3</td><td><span class="flag fr"></span> <a  href="rider/fabien-doubey">DOUBEY Fabien</a></td><td>31y + 293d</td></tr>
-<tr class=""><td>4</td><td><span class="flag fr"></span> <a  href="rider/anthony-turgis">TURGIS Anthony</a></td><td>31y + 86d</td></tr>
-<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/lorrenzo-manzin">MANZIN Lorrenzo</a></td><td>31y + 15d</td></tr>
-<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/fabien-grellier">GRELLIER Fabien</a></td><td>30y + 283d</td></tr>
-<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="rider/samuel-leroux">LEROUX Samuel</a></td><td>30y + 256d</td></tr>
-<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/steff-cras">CRAS Steff</a></td><td>29y + 178d</td></tr>
-<tr class=""><td>9</td><td><span class="flag fr"></span> <a  href="rider/sandy-dujardin">DUJARDIN Sandy</a></td><td>28y + 73d</td></tr>
-<tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>27y + 289d</td></tr>
-<tr class=""><td>11</td><td><span class="flag fr"></span> <a  href="rider/jason-tesson">TESSON Jason</a></td><td>27y + 213d</td></tr>
-<tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="rider/alan-jousseaume">JOUSSEAUME Alan</a></td><td>27y + 7d</td></tr>
-<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/thomas-bonnet">BONNET Thomas</a></td><td>26y + 331d</td></tr>
-<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>26y + 318d</td></tr>
-<tr class=""><td>15</td><td><span class="flag fr"></span> <a  href="rider/alexys-brunel">BRUNEL Alexys</a></td><td>26y + 304d</td></tr>
-<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/mathieu-burgaudeau">BURGAUDEAU Mathieu</a></td><td>26y + 266d</td></tr>
-<tr class=""><td>17</td><td><span class="flag fr"></span> <a  href="rider/florian-dauphin">DAUPHIN Florian</a></td><td>26y + 126d</td></tr>
-<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/jordan-jegat">JEGAT Jordan</a></td><td>26y + 64d</td></tr>
-<tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/valentin-retailleau">RETAILLEAU Valentin</a></td><td>25y + 53d</td></tr>
-<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/joris-delbove">DELBOVE Joris</a></td><td>25y + 26d</td></tr>
-<tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></td><td>24y + 358d</td></tr>
-<tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/lucas-boniface">BONIFACE Lucas</a></td><td>24y + 290d</td></tr>
-<tr class=""><td>23</td><td><span class="flag fr"></span> <a  href="rider/matheo-vercher">VERCHER Mattéo</a></td><td>24y + 196d</td></tr>
-<tr class=""><td>24</td><td><span class="flag gb"></span> <a  href="rider/adam-mitchell1">MITCHELL Adam</a></td><td>23y + 167d</td></tr>
-<tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/baptiste-vadic">VADIC Baptiste</a></td><td>23y + 117d</td></tr>
-<tr class=""><td>26</td><td><span class="flag fr"></span> <a  href="rider/nicola-marcerou">MARCEROU Nicola</a></td><td>22y + 321d</td></tr>
-<tr class=""><td>27</td><td><span class="flag fr"></span> <a  href="rider/theo-leveque">LÉVÊQUE Theo</a></td><td>21y + 201d</td></tr>
-<tr class=""><td>28</td><td><span class="flag fr"></span> <a  href="rider/rayan-boulahoite">BOULAHOITE Rayan</a></td><td>21y + 167d</td></tr>
-<tr class=""><td>29</td><td><span class="flag fr"></span> <a  href="rider/matheo-barusseau">BARUSSEAU Mathéo</a></td><td>20y + 102d</td></tr>
+<tr class=""><td>1</td><td><span class="flag fr"></span> <a  href="rider/geoffrey-soupe">SOUPE Geoffrey</a></td><td>37y + 156d</td></tr>
+<tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="rider/pierre-latour">LATOUR Pierre</a></td><td>31y + 317d</td></tr>
+<tr class=""><td>3</td><td><span class="flag fr"></span> <a  href="rider/fabien-doubey">DOUBEY Fabien</a></td><td>31y + 308d</td></tr>
+<tr class=""><td>4</td><td><span class="flag fr"></span> <a  href="rider/anthony-turgis">TURGIS Anthony</a></td><td>31y + 101d</td></tr>
+<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/lorrenzo-manzin">MANZIN Lorrenzo</a></td><td>31y + 30d</td></tr>
+<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/fabien-grellier">GRELLIER Fabien</a></td><td>30y + 298d</td></tr>
+<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="rider/samuel-leroux">LEROUX Samuel</a></td><td>30y + 271d</td></tr>
+<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/steff-cras">CRAS Steff</a></td><td>29y + 193d</td></tr>
+<tr class=""><td>9</td><td><span class="flag fr"></span> <a  href="rider/sandy-dujardin">DUJARDIN Sandy</a></td><td>28y + 88d</td></tr>
+<tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>27y + 304d</td></tr>
+<tr class=""><td>11</td><td><span class="flag fr"></span> <a  href="rider/jason-tesson">TESSON Jason</a></td><td>27y + 228d</td></tr>
+<tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="rider/alan-jousseaume">JOUSSEAUME Alan</a></td><td>27y + 22d</td></tr>
+<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/thomas-bonnet">BONNET Thomas</a></td><td>26y + 346d</td></tr>
+<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>26y + 333d</td></tr>
+<tr class=""><td>15</td><td><span class="flag fr"></span> <a  href="rider/alexys-brunel">BRUNEL Alexys</a></td><td>26y + 319d</td></tr>
+<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/mathieu-burgaudeau">BURGAUDEAU Mathieu</a></td><td>26y + 281d</td></tr>
+<tr class=""><td>17</td><td><span class="flag fr"></span> <a  href="rider/florian-dauphin">DAUPHIN Florian</a></td><td>26y + 141d</td></tr>
+<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/jordan-jegat">JEGAT Jordan</a></td><td>26y + 79d</td></tr>
+<tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/valentin-retailleau">RETAILLEAU Valentin</a></td><td>25y + 68d</td></tr>
+<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/joris-delbove">DELBOVE Joris</a></td><td>25y + 41d</td></tr>
+<tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></td><td>25y + 8d</td></tr>
+<tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/lucas-boniface">BONIFACE Lucas</a></td><td>24y + 305d</td></tr>
+<tr class=""><td>23</td><td><span class="flag fr"></span> <a  href="rider/matheo-vercher">VERCHER Mattéo</a></td><td>24y + 211d</td></tr>
+<tr class=""><td>24</td><td><span class="flag gb"></span> <a  href="rider/adam-mitchell1">MITCHELL Adam</a></td><td>23y + 182d</td></tr>
+<tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/baptiste-vadic">VADIC Baptiste</a></td><td>23y + 132d</td></tr>
+<tr class=""><td>26</td><td><span class="flag fr"></span> <a  href="rider/nicola-marcerou">MARCEROU Nicola</a></td><td>22y + 336d</td></tr>
+<tr class=""><td>27</td><td><span class="flag fr"></span> <a  href="rider/theo-leveque">LÉVÊQUE Theo</a></td><td>21y + 216d</td></tr>
+<tr class=""><td>28</td><td><span class="flag fr"></span> <a  href="rider/rayan-boulahoite">BOULAHOITE Rayan</a></td><td>21y + 182d</td></tr>
+<tr class=""><td>29</td><td><span class="flag fr"></span> <a  href="rider/matheo-barusseau">BARUSSEAU Mathéo</a></td><td>20y + 117d</td></tr>
 </tbody></table></div>
 <div class="stab name riderlistcont">
 <ul class="teamlist list lineh18" >
@@ -374,9 +388,9 @@
 <li class=""><div class="w10" >10</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >27</div></li>
 <li class=""><div class="w10" >11</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/fabien-doubey">DOUBEY Fabien</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >31</div></li>
 <li class=""><div class="w10" >12</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/sandy-dujardin">DUJARDIN Sandy</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >28</div></li>
-<li class=""><div class="w10" >13</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >24</div></li>
+<li class=""><div class="w10" >13</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >25</div></li>
 <li class=""><div class="w10" >14</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/fabien-grellier">GRELLIER Fabien</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >30</div></li>
-<li class=""><div class="w10" >15</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></div><div class="fs10 clr999" ></div><div><span class="outWithInjury">out</span></div></div><div class="w10" >26</div></li>
+<li class=""><div class="w10" >15</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >26</div></li>
 <li class=""><div class="w10" >16</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/jordan-jegat">JEGAT Jordan</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >26</div></li>
 <li class=""><div class="w10" >17</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/alan-jousseaume">JOUSSEAUME Alan</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >27</div></li>
 <li class=""><div class="w10" >18</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/pierre-latour">LATOUR Pierre</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >31</div></li>
@@ -401,33 +415,34 @@
 </tr></thead><tbody>
 <tr class=""><td>1</td><td><span class="flag fr"></span> <a  href="rider/jordan-jegat">JEGAT Jordan</a></td><td>Climber</td></tr>
 <tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="rider/geoffrey-soupe">SOUPE Geoffrey</a></td><td>GC</td></tr>
-<tr class=""><td>3</td><td><span class="flag fr"></span> <a  href="rider/pierre-latour">LATOUR Pierre</a></td><td>GC</td></tr>
-<tr class=""><td>4</td><td><span class="flag be"></span> <a  href="rider/steff-cras">CRAS Steff</a></td><td>GC</td></tr>
-<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/fabien-doubey">DOUBEY Fabien</a></td><td>GC</td></tr>
-<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></td><td>GC</td></tr>
-<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="rider/thomas-bonnet">BONNET Thomas</a></td><td>GC</td></tr>
-<tr class=""><td>8</td><td><span class="flag fr"></span> <a  href="rider/matheo-vercher">VERCHER Mattéo</a></td><td>Hills</td></tr>
-<tr class=""><td>9</td><td><span class="flag fr"></span> <a  href="rider/nicola-marcerou">MARCEROU Nicola</a></td><td>Hills</td></tr>
-<tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="rider/valentin-retailleau">RETAILLEAU Valentin</a></td><td>Hills</td></tr>
-<tr class=""><td>11</td><td><span class="flag fr"></span> <a  href="rider/mathieu-burgaudeau">BURGAUDEAU Mathieu</a></td><td>Hills</td></tr>
-<tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="rider/theo-leveque">LÉVÊQUE Theo</a></td><td>Hills</td></tr>
-<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/rayan-boulahoite">BOULAHOITE Rayan</a></td><td>Oneday</td></tr>
-<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>Oneday</td></tr>
-<tr class=""><td>15</td><td><span class="flag fr"></span> <a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>Oneday</td></tr>
-<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/sandy-dujardin">DUJARDIN Sandy</a></td><td>Oneday</td></tr>
-<tr class=""><td>17</td><td><span class="flag fr"></span> <a  href="rider/fabien-grellier">GRELLIER Fabien</a></td><td>Oneday</td></tr>
-<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/alan-jousseaume">JOUSSEAUME Alan</a></td><td>Oneday</td></tr>
-<tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/joris-delbove">DELBOVE Joris</a></td><td>Oneday</td></tr>
-<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/anthony-turgis">TURGIS Anthony</a></td><td>Oneday</td></tr>
-<tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/matheo-barusseau">BARUSSEAU Mathéo</a></td><td>Sprint</td></tr>
-<tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/florian-dauphin">DAUPHIN Florian</a></td><td>Sprint</td></tr>
+<tr class=""><td>3</td><td><span class="flag fr"></span> <a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></td><td>GC</td></tr>
+<tr class=""><td>4</td><td><span class="flag fr"></span> <a  href="rider/joris-delbove">DELBOVE Joris</a></td><td>GC</td></tr>
+<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/thomas-bonnet">BONNET Thomas</a></td><td>GC</td></tr>
+<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/fabien-doubey">DOUBEY Fabien</a></td><td>GC</td></tr>
+<tr class=""><td>7</td><td><span class="flag be"></span> <a  href="rider/steff-cras">CRAS Steff</a></td><td>GC</td></tr>
+<tr class=""><td>8</td><td><span class="flag fr"></span> <a  href="rider/pierre-latour">LATOUR Pierre</a></td><td>GC</td></tr>
+<tr class=""><td>9</td><td><span class="flag fr"></span> <a  href="rider/theo-leveque">LÉVÊQUE Theo</a></td><td>Hills</td></tr>
+<tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="rider/mathieu-burgaudeau">BURGAUDEAU Mathieu</a></td><td>Hills</td></tr>
+<tr class=""><td>11</td><td><span class="flag fr"></span> <a  href="rider/nicola-marcerou">MARCEROU Nicola</a></td><td>Hills</td></tr>
+<tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>Hills</td></tr>
+<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/matheo-vercher">VERCHER Mattéo</a></td><td>Hills</td></tr>
+<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/valentin-retailleau">RETAILLEAU Valentin</a></td><td>Hills</td></tr>
+<tr class=""><td>15</td><td><span class="flag fr"></span> <a  href="rider/fabien-grellier">GRELLIER Fabien</a></td><td>Oneday</td></tr>
+<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/rayan-boulahoite">BOULAHOITE Rayan</a></td><td>Oneday</td></tr>
+<tr class=""><td>17</td><td><span class="flag fr"></span> <a  href="rider/joris-delbove">DELBOVE Joris</a></td><td>Oneday</td></tr>
+<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/anthony-turgis">TURGIS Anthony</a></td><td>Oneday</td></tr>
+<tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/alan-jousseaume">JOUSSEAUME Alan</a></td><td>Oneday</td></tr>
+<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>Oneday</td></tr>
+<tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/sandy-dujardin">DUJARDIN Sandy</a></td><td>Oneday</td></tr>
+<tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/samuel-leroux">LEROUX Samuel</a></td><td>Sprint</td></tr>
 <tr class=""><td>23</td><td><span class="flag fr"></span> <a  href="rider/lucas-boniface">BONIFACE Lucas</a></td><td>Sprint</td></tr>
-<tr class=""><td>24</td><td><span class="flag fr"></span> <a  href="rider/jason-tesson">TESSON Jason</a></td><td>Sprint</td></tr>
-<tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/lorrenzo-manzin">MANZIN Lorrenzo</a></td><td>Sprint</td></tr>
-<tr class=""><td>26</td><td><span class="flag fr"></span> <a  href="rider/samuel-leroux">LEROUX Samuel</a></td><td>Sprint</td></tr>
-<tr class=""><td>27</td><td><span class="flag fr"></span> <a  href="rider/baptiste-vadic">VADIC Baptiste</a></td><td>TT</td></tr>
-<tr class=""><td>28</td><td><span class="flag gb"></span> <a  href="rider/adam-mitchell1">MITCHELL Adam</a></td><td>TT</td></tr>
-<tr class=""><td>29</td><td><span class="flag fr"></span> <a  href="rider/alexys-brunel">BRUNEL Alexys</a></td><td>TT</td></tr>
+<tr class=""><td>24</td><td><span class="flag fr"></span> <a  href="rider/florian-dauphin">DAUPHIN Florian</a></td><td>Sprint</td></tr>
+<tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/jason-tesson">TESSON Jason</a></td><td>Sprint</td></tr>
+<tr class=""><td>26</td><td><span class="flag fr"></span> <a  href="rider/lorrenzo-manzin">MANZIN Lorrenzo</a></td><td>Sprint</td></tr>
+<tr class=""><td>27</td><td><span class="flag fr"></span> <a  href="rider/matheo-barusseau">BARUSSEAU Mathéo</a></td><td>Sprint</td></tr>
+<tr class=""><td>28</td><td><span class="flag fr"></span> <a  href="rider/baptiste-vadic">VADIC Baptiste</a></td><td>TT</td></tr>
+<tr class=""><td>29</td><td><span class="flag gb"></span> <a  href="rider/adam-mitchell1">MITCHELL Adam</a></td><td>TT</td></tr>
+<tr class=""><td>30</td><td><span class="flag fr"></span> <a  href="rider/alexys-brunel">BRUNEL Alexys</a></td><td>TT</td></tr>
 </tbody></table></div>
 <div class="">
 <h4>follow</h4><ul class="list" >
@@ -438,7 +453,8 @@
 </div>
 <div class="mt20">
 <h4>Related teams</h4><ul class="list fs14" >
-<li class=""><div class="blue" ><a  href="team/vendee-u-pays-de-la-loire-2025">Vendée U Pays de la Loire (CT)</a></div><div class="fs10" ></div></li>
+<li class=""><div class="blue" ><a  href="team/vendee-u-pays-de-la-loire-2025">Vendée U Pays de la Loire (CT)</a></div><div class="fs12" >other</div></li>
+<li class=""><div class="blue" ><a  href="team/totalenergies-u19-2025">TotalEnergies U19 (CLUB)</a></div><div class="fs12" >junior</div></li>
 </ul>
 </div>
 <div class="mt20">
@@ -469,21 +485,17 @@
 <th class="w8 cu600">Class</th>
 <th class="w32 cu600 fs10 clr555">Riders</th>
 </tr></thead><tbody>
-<tr class=""><td class="cu600" >07/08 - 10/08</td><td class="cs600 hide" >07/08 - 10/08</td><td><span class="flag no"></span> <a  href="race/arctic-race-of-norway/2025">Arctic Race of Norway</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" >Leroux, Marcerou, Tesson, Vercher, Latour, Delbove</td></tr>
-<tr class=""><td class="cu600" >15/08</td><td class="cs600 hide" >15/08</td><td><span class="flag be"></span> <a  href="race/circuit-franco-belge/2025">Circuit Franco-Belge</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" >Barusseau, Boniface, Brunel, Dauphin, Dujardin, Marcerou, Soupe</td></tr>
-<tr class=""><td class="cu600" >17/08</td><td class="cs600 hide" >17/08</td><td><span class="flag fr"></span> <a  href="race/la-poly-normande/2025">La Polynormande</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class=""><td class="cu600" >19/08 - 22/08</td><td class="cs600 hide" >19/08 - 22/08</td><td><span class="flag fr"></span> <a  href="race/tour-du-limousin/2025">Tour du Limousin-Périgord - Nouvelle Aquitaine</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class=""><td class="cu600" >20/08 - 24/08</td><td class="cs600 hide" >20/08 - 24/08</td><td><span class="flag de"></span> <a  href="race/deutschland-tour/2025">Deutschland Tour</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" >Doubey, Jeannière</td></tr>
-<tr class="hide"><td class="cu600" >26/08 - 29/08</td><td class="cs600 hide" >26/08 - 29/08</td><td><span class="flag fr"></span> <a  href="race/tour-du-poitou-charentes-et-de-la-vienne/2025">Tour Poitou - Charentes en Nouvelle Aquitaine</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >27/08</td><td class="cs600 hide" >27/08</td><td><span class="flag be"></span> <a  href="race/muur-classic-geraardsbergen/2025">Muur Classic Geraardsbergen</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Boulahoite, Dujardin, Gachignard, Mitchell, Retailleau, Soupe, Turgis</td></tr>
-<tr class="hide"><td class="cu600" >31/08</td><td class="cs600 hide" >31/08</td><td><span class="flag fr"></span> <a  href="race/bretagne-classic/2025">Bretagne Classic - Ouest-France</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >06/09</td><td class="cs600 hide" >06/09</td><td><span class="flag us"></span> <a  href="race/maryland-cycling-classic/2025">Maryland Cycling Classic</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class=""><td class="cu600" >26/08 - 29/08</td><td class="cs600 hide" >26/08 - 29/08</td><td><span class="flag fr"></span> <a  href="race/tour-du-poitou-charentes-et-de-la-vienne/2025">Tour Poitou - Charentes en Nouvelle Aquitaine</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" >Brunel, Latour, Tesson, Boniface, Bonnet, Leroux, Marcerou</td></tr>
+<tr class=""><td class="cu600" >27/08</td><td class="cs600 hide" >27/08</td><td><span class="flag be"></span> <a  href="race/muur-classic-geraardsbergen/2025">Muur Classic Geraardsbergen</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Boulahoite, Dujardin, Gachignard, Mitchell, Retailleau, Soupe, Turgis</td></tr>
+<tr class=""><td class="cu600" >31/08</td><td class="cs600 hide" >31/08</td><td><span class="flag fr"></span> <a  href="race/bretagne-classic/2025">Bretagne Classic - Ouest-France</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class=""><td class="cu600" >04/09 - 07/09</td><td class="cs600 hide" >04/09 - 07/09</td><td><span class="flag tr"></span> <a  href="race/tour-of-istanbul/2025">Tour of İstanbul</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class=""><td class="cu600" >06/09</td><td class="cs600 hide" >06/09</td><td><span class="flag us"></span> <a  href="race/maryland-cycling-classic/2025">Maryland Cycling Classic</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >07/09</td><td class="cs600 hide" >07/09</td><td><span class="flag it"></span> <a  href="race/gp-industria-artigianato/2025">GP Industria & Artigianato</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >10/09</td><td class="cs600 hide" >10/09</td><td><span class="flag it"></span> <a  href="race/giro-di-toscana/2025">Giro della Toscana - Memorial Alfredo Martini</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >11/09</td><td class="cs600 hide" >11/09</td><td><span class="flag it"></span> <a  href="race/gp-citta-di-peccioli/2025">Gran Premio città di Peccioli - Coppa Sabatini</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >13/09</td><td class="cs600 hide" >13/09</td><td><span class="flag it"></span> <a  href="race/memorial-marco-pantani/2025">Memorial Marco Pantani</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag fr"></span> <a  href="race/gp-de-fourmies/2025">GP de Fourmies / La Voix du Nord</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag it"></span> <a  href="race/trofeo-matteotti/2025">Trofeo Matteotti</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class="hide"><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag fr"></span> <a  href="race/gp-de-fourmies/2025">GP de Fourmies / La Voix du Nord</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >17/09</td><td class="cs600 hide" >17/09</td><td><span class="flag be"></span> <a  href="race/gp-de-wallonie/2025">Grand Prix de Wallonie</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >17/09 - 21/09</td><td class="cs600 hide" >17/09 - 21/09</td><td><span class="flag lu"></span> <a  href="race/tour-de-luxembourg/2025">Skoda Tour de Luxembourg</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >19/09</td><td class="cs600 hide" >19/09</td><td><span class="flag be"></span> <a  href="race/kampioenschap-van-vlaanderen1/2025">Kampioenschap van Vlaanderen</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
@@ -499,7 +511,7 @@
 <tr class="hide"><td class="cu600" >12/10</td><td class="cs600 hide" >12/10</td><td><span class="flag fr"></span> <a  href="race/paris-tours/2025">Paris - Tours Elite</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >14/10 - 19/10</td><td class="cs600 hide" >14/10 - 19/10</td><td><span class="flag nl"></span> <a  href="race/tour-of-holland/2025">Tour of Holland</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >19/10</td><td class="cs600 hide" >19/10</td><td><span class="flag fr"></span> <a  href="race/chrono-des-nations/2025">Chrono des Nations</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
-</tbody></table><a class="show-all" href="">show 25 more lines</a></div>
+</tbody></table><a class="show-all-link show-all" href="">show 21 more lines</a></div>
 <div class="mt20">
 <h4>Last victories</h4><table class=" basic"><thead><tr>
 <th class="w8 ">#</th>
@@ -507,6 +519,7 @@
 <th class="w8 ">Class</th>
 <th class="w31 ">Winner</th>
 </tr></thead><tbody>
+<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="race/tour-du-limousin/2025/stage-1">Tour du Limousin-Périgord - Nouvelle Aquitaine | Stage 1</a></td><td>2.1</td><td><a  href="rider/thomas-gachignard">GACHIGNARD Thomas</a></td></tr>
 <tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="race/boucles-de-la-mayenne/2025/stage-1">Boucles de la Mayenne - Crédit Mutuel | Stage 1</a></td><td>2.Pro</td><td><a  href="rider/pierre-latour">LATOUR Pierre</a></td></tr>
 <tr class=""><td>5</td><td><span class="flag es"></span> <a  href="race/vuelta-asturias/2025/stage-1">Vuelta Asturias Julio Alvarez Mendo | Stage 1</a></td><td>2.1</td><td><a  href="rider/steff-cras">CRAS Steff</a></td></tr>
 <tr class=""><td>4</td><td><span class="flag fr"></span> <a  href="race/tour-du-doubs/2025/result">Tour du Doubs</a></td><td>1.1</td><td><a  href="rider/matheo-vercher">VERCHER Mattéo</a></td></tr>
@@ -529,20 +542,20 @@
 <tr class=""><td>1</td><td><span class="flag fr"></span> <a  href="race/tour-du-doubs/2025/result">Tour du Doubs</a></td><td>1.1</td><td><a  href="rider/matheo-vercher">VERCHER Mattéo</a></td><td>75</td></tr>
 <tr class=""><td>1</td><td><span class="flag be"></span> <a  href="race/grote-prijs-jean-pierre-monsere/2025/result">Grote prijs Jean - Pierre Monseré</a></td><td>1.1</td><td><a  href="rider/alexys-brunel">BRUNEL Alexys</a></td><td>75</td></tr>
 <tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="race/region-pays-de-la-loire/2025/gc">Région Pays de la Loire Tour | General classification</a></td><td>2.1</td><td><a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>70</td></tr>
+<tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="race/tour-du-limousin/2025/gc">Tour du Limousin-Périgord - Nouvelle Aquitaine | General classification</a></td><td>2.1</td><td><a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>70</td></tr>
 <tr class=""><td>3</td><td><span class="flag es"></span> <a  href="race/clasica-de-almeria/2025/result">Clasica de Almeria ME</a></td><td>1.Pro</td><td><a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>60</td></tr>
 <tr class=""><td>6</td><td><span class="flag es"></span> <a  href="race/ruta-del-sol/2025/gc">Vuelta a Andalucia Ruta Ciclista Del Sol | General classification</a></td><td>2.Pro</td><td><a  href="rider/steff-cras">CRAS Steff</a></td><td>60</td></tr>
-<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="race/4-jours-de-dunkerque/2025/gc">4 Jours de Dunkerque / Grand Prix des Hauts de France | General classification</a></td><td>2.Pro</td><td><a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>55</td></tr>
+<tr class="hide"><td>7</td><td><span class="flag fr"></span> <a  href="race/4-jours-de-dunkerque/2025/gc">4 Jours de Dunkerque / Grand Prix des Hauts de France | General classification</a></td><td>2.Pro</td><td><a  href="rider/alexandre-delettre">DELETTRE Alexandre</a></td><td>55</td></tr>
+<tr class="hide"><td>2</td><td><span class="flag fr"></span> <a  href="race/la-poly-normande/2025/result">La Polynormande</a></td><td>1.1</td><td><a  href="rider/sandy-dujardin">DUJARDIN Sandy</a></td><td>55</td></tr>
 <tr class="hide"><td>2</td><td><span class="flag es"></span> <a  href="race/trofeo-ses-salines-felanitx/2025/result">Trofeo Ses Salines</a></td><td>1.1</td><td><a  href="rider/anthony-turgis">TURGIS Anthony</a></td><td>55</td></tr>
-<tr class="hide"><td>4</td><td><span class="flag fr"></span> <a  href="race/tro-bro-leon/2025/result">Tro-Bro Léon</a></td><td>1.Pro</td><td><a  href="rider/anthony-turgis">TURGIS Anthony</a></td><td>50</td></tr>
 <tr class="hide"><td>3</td><td><span class="flag fr"></span> <a  href="race/la-route-d-occitanie/2025/gc">La Route d'Occitanie - CIC | General classification</a></td><td>2.1</td><td><a  href="rider/steff-cras">CRAS Steff</a></td><td>50</td></tr>
-<tr class="hide"><td>14</td><td><span class="flag fr"></span> <a  href="race/dauphine/2025/gc">Critérium du Dauphiné | General classification</a></td><td>2.UWT</td><td><a  href="rider/jordan-jegat">JEGAT Jordan</a></td><td>45</td></tr>
-<tr class="hide"><td>14</td><td><span class="flag es"></span> <a  href="race/itzulia-basque-country/2025/gc">Itzulia Basque Country | General classification</a></td><td>2.UWT</td><td><a  href="rider/jordan-jegat">JEGAT Jordan</a></td><td>45</td></tr>
+<tr class="hide"><td>4</td><td><span class="flag fr"></span> <a  href="race/tro-bro-leon/2025/result">Tro-Bro Léon</a></td><td>1.Pro</td><td><a  href="rider/anthony-turgis">TURGIS Anthony</a></td><td>50</td></tr>
 <tr class="hide"><td>5</td><td><span class="flag be"></span> <a  href="race/brussels-cycling-classic/2025/result">Brussels Cycling Classic</a></td><td>1.Pro</td><td><a  href="rider/sandy-dujardin">DUJARDIN Sandy</a></td><td>45</td></tr>
+<tr class="hide"><td>14</td><td><span class="flag es"></span> <a  href="race/itzulia-basque-country/2025/gc">Itzulia Basque Country | General classification</a></td><td>2.UWT</td><td><a  href="rider/jordan-jegat">JEGAT Jordan</a></td><td>45</td></tr>
+<tr class="hide"><td>14</td><td><span class="flag fr"></span> <a  href="race/dauphine/2025/gc">Critérium du Dauphiné | General classification</a></td><td>2.UWT</td><td><a  href="rider/jordan-jegat">JEGAT Jordan</a></td><td>45</td></tr>
 <tr class="hide"><td>3</td><td><span class="flag fr"></span> <a  href="race/tour-du-finistere/2025/result">Tour du Finistère Pays de Quimper</a></td><td>1.1</td><td><a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>40</td></tr>
-<tr class="hide"><td>3</td><td><span class="flag fr"></span> <a  href="race/route-adelie-de-vitre/2025/result">La Route Adélie de Vitré</a></td><td>1.1</td><td><a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>40</td></tr>
-<tr class="hide"><td>3</td><td><span class="flag be"></span> <a  href="race/gp-samyn/2025/result">Ename Samyn Classic</a></td><td>1.1</td><td><a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>40</td></tr>
 <tr class="hide"><td>6</td><td><span class="flag fr"></span> <a  href="race/gp-de-plumelec/2025/result">Grand Prix du Morbihan</a></td><td>1.Pro</td><td><a  href="rider/emilien-jeanniere">JEANNIÈRE Emilien</a></td><td>40</td></tr>
-</tbody></table><a class="show-all" href="">show 10 more lines</a></div>
+</tbody></table><a class="show-all-link show-all" href="">show 10 more lines</a></div>
 </div>
 <div class="borderbox w30 right mb_w100" >
 <div class="">
@@ -663,7 +676,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1262s</span></li>
+<li><span>Pageload 0.1583s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script>
+<script src="search_list22.js"></script>

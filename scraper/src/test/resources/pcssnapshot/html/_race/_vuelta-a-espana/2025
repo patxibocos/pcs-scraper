@@ -17,9 +17,9 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
-<link rel="stylesheet" type="text/css" href="v3_site_b49.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
+<link rel="stylesheet" type="text/css" href="v3_site_b51.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -81,6 +81,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -92,6 +102,10 @@
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
 </ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
+</ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
 <li><a  href="account/follow-riders">My riders</a></li>
@@ -101,12 +115,12 @@
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="SelectNavCont "><div class="selectNav" ><form style="display: block; float: left; "><select style="" onChange="window.location.href=this.value; "><option value="race/vuelta-a-espana/2025/" selected>- stage -</option>
-<option value="race/vuelta-a-espana/2025/stage-1" >Stage 1 | Torino - Reggia di Venaria - Novara</option>
-<option value="race/vuelta-a-espana/2025/stage-2" >Stage 2 | Alba - Puerto Limone</option>
+<option value="race/vuelta-a-espana/2025/stage-1" >Stage 1 | Torino-Reggia di Venaria - Novara</option>
+<option value="race/vuelta-a-espana/2025/stage-2" >Stage 2 | Alba - Limone Piemonte</option>
 <option value="race/vuelta-a-espana/2025/stage-3" >Stage 3 | San Maurizio Canavese - Ceres</option>
 <option value="race/vuelta-a-espana/2025/stage-4" >Stage 4 | Susa - Voiron</option>
 <option value="race/vuelta-a-espana/2025/stage-5" >Stage 5 (TTT) | Figueres - Figueres</option>
-<option value="race/vuelta-a-espana/2025/stage-6" >Stage 6 | Olot - Pal</option>
+<option value="race/vuelta-a-espana/2025/stage-6" >Stage 6 | Olot - Pal. Andorra</option>
 <option value="race/vuelta-a-espana/2025/stage-7" >Stage 7 | Andorra la Vella - Cerler. Huesca La Magia</option>
 <option value="race/vuelta-a-espana/2025/stage-8" >Stage 8 | Monzón Templario - Zaragoza</option>
 <option value="race/vuelta-a-espana/2025/stage-9" >Stage 9 | Alfaro - Estación de Esquí de Valdezcaray</option>
@@ -114,9 +128,9 @@
 <option value="race/vuelta-a-espana/2025/stage-11" >Stage 11 | Bilbao - Bilbao</option>
 <option value="race/vuelta-a-espana/2025/stage-12" >Stage 12 | Laredo - Los Corrales de Buelna</option>
 <option value="race/vuelta-a-espana/2025/stage-13" >Stage 13 | Cabezón de la Sal - L'Angliru</option>
-<option value="race/vuelta-a-espana/2025/stage-14" >Stage 14 | Avilés - Alto de la Farrapona</option>
+<option value="race/vuelta-a-espana/2025/stage-14" >Stage 14 | Avilés - La Farrapona. Lagos de Somiedo</option>
 <option value="race/vuelta-a-espana/2025/stage-15" >Stage 15 | A Veiga/Vegadeo - Monforte de Lemos</option>
-<option value="race/vuelta-a-espana/2025/stage-16" >Stage 16 | Poio - Mos.Castro de Herville</option>
+<option value="race/vuelta-a-espana/2025/stage-16" >Stage 16 | Poio - Mos. Castro de Herville</option>
 <option value="race/vuelta-a-espana/2025/stage-17" >Stage 17 | O Barco de Valdeorras - Alto de El Morredero</option>
 <option value="race/vuelta-a-espana/2025/stage-18" >Stage 18 (ITT) | Valladolid - Valladolid</option>
 <option value="race/vuelta-a-espana/2025/stage-19" >Stage 19 | Rueda - Guijuelo</option>
@@ -229,7 +243,7 @@
 </ul></span>
 </div><div class="clear"></div>
 <div class="thumbnav"><span><a class="blue" href="race/vuelta-a-espana">Vuelta a España</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/vuelta-a-espana/2025">2025</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/vuelta-a-espana/2025/statistics/start">Start</a></span></div>
-<div class="titleCont "><div class="page-title"><div class="title"><span class="flag es w32"></span><span class="flag c24 es "></span> <h1><span class="hideIfMobile">2025 &nbsp; &raquo; &nbsp; 80th </span>Vuelta a España</h1></div><div class="subtitle hide imob block"><h2>2025</h2></div><div class="clear"></div><div class="title-line2 hideIfMobile"><font class="blue">21 Stages</font> &nbsp; &raquo; &nbsp; <font class="red">Torino - Reggia di Venaria &nbsp;&rsaquo;&nbsp; Madrid</font> &nbsp; <font class="red"style="font-weight: normal; ">(3180km)</font></div></div><a class="toggleSideMenu" href="">menu</a></div>
+<div class="titleCont "><div class="page-title"><div class="title"><span class="flag es w32"></span><span class="flag c24 es "></span> <h1><span class="hideIfMobile">2025 &nbsp; &raquo; &nbsp; 80th </span>Vuelta a España</h1></div><div class="subtitle hide imob block"><h2>2025</h2></div><div class="clear"></div><div class="title-line2 hideIfMobile"><font class="blue">21 Stages</font> &nbsp; &raquo; &nbsp; <font class="red">Torino-Reggia di Venaria &nbsp;&rsaquo;&nbsp; Madrid</font> &nbsp; <font class="red"style="font-weight: normal; ">(3185.9km)</font></div></div><a class="toggleSideMenu" href="">menu</a></div>
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div>
 <div class="page-content noSideNav"  >
 <h2>Start</h2>
@@ -260,15 +274,15 @@
 <div class="mt20">
 <h4>Top competitors</h4><ul class="list fs14"  style="max-width: 550px; " >
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 dk"></span> </div><div><a  href="rider/mads-pedersen">PEDERSEN Mads</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 dk"></span> </div><div><a  href="rider/jonas-vingegaard">VINGEGAARD Jonas</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 pt"></span> </div><div><a  href="rider/joao-almeida">ALMEIDA João</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 dk"></span> </div><div><a  href="rider/jonas-vingegaard">VINGEGAARD Jonas</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 au"></span> </div><div><a  href="rider/ben-o-connor">O'CONNOR Ben</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 gb"></span> </div><div><a  href="rider/thomas-pidcock">PIDCOCK Thomas</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 it"></span> </div><div><a  href="rider/giulio-ciccone">CICCONE Giulio</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 it"></span> </div><div><a  href="rider/filippo-ganna">GANNA Filippo</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 be"></span> </div><div><a  href="rider/jasper-philipsen">PHILIPSEN Jasper</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 es"></span> </div><div><a  href="rider/juan-ayuso-pesquera">AYUSO Juan</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 us"></span> </div><div><a  href="rider/matteo-jorgenson">JORGENSON Matteo</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 it"></span> </div><div><a  href="rider/filippo-ganna">GANNA Filippo</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 it"></span> </div><div><a  href="rider/lorenzo-fortunato">FORTUNATO Lorenzo</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 ec"></span> </div><div><a  href="rider/richard-carapaz">CARAPAZ Richard</a></div></li>
 </ul>
 </div>
 <div class="">
@@ -278,29 +292,29 @@
 </ul><div class="clear"></div></div>
 <div class="mt40">
 <h4>Teams</h4><ul class="list "  style="max-width: 400px; " >
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team4000"></span></div><div class="fs14 mr5" ><a  href="team/ef-education-easypost-2025">EF Education - EasyPost</a></div><div class=" clr999 fs14" > (Carapaz)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1100"></span></div><div class="fs14 mr5" ><a  href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></div><div class=" clr999 fs14" > (Planckaert, Hermans)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1107"></span></div><div class="fs14 mr5" ><a  href="team/arkea-b-b-hotels-2025">Arkéa - B&B Hotels</a></div><div class=" clr999 fs14" ></div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1261"></span></div><div class="fs14 mr5" ><a  href="team/xds-astana-team-2025">XDS Astana Team</a></div><div class=" clr999 fs14" > (López, Fortunato)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team3814"></span></div><div class="fs14 mr5" ><a  href="team/bahrain-victorious-2025">Bahrain - Victorious</a></div><div class=" clr999 fs14" > (Tiberi, Caruso)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1136"></span></div><div class="fs14 mr5" ><a  href="team/cofidis-2025">Cofidis</a></div><div class=" clr999 fs14" > (Carr)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1060"></span></div><div class="fs14 mr5" ><a  href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></div><div class=" clr999 fs14" > (Gall, Bisiaux)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1187"></span></div><div class="fs14 mr5" ><a  href="team/groupama-fdj-2025">Groupama - FDJ</a></div><div class=" clr999 fs14" > (Martin, Gaudu)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1423"></span></div><div class="fs14 mr5" ><a  href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></div><div class=" clr999 fs14" > (Ganna, Bernal)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1490"></span></div><div class="fs14 mr5" ><a  href="team/intermarche-wanty-2025">Intermarché - Wanty</a></div><div class=" clr999 fs14" > (Van Boven, Marit)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1258"></span></div><div class="fs14 mr5" ><a  href="team/lidl-trek-2025">Lidl - Trek</a></div><div class=" clr999 fs14" > (Pedersen, Ciccone)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2040"></span></div><div class="fs14 mr5" ><a  href="team/movistar-team-2025">Movistar Team</a></div><div class=" clr999 fs14" > (Romo, Canal)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1411"></span></div><div class="fs14 mr5" ><a  href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></div><div class=" clr999 fs14" > (Vlasov, Pellizzari)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1328"></span></div><div class="fs14 mr5" ><a  href="team/soudal-quick-step-2025">Soudal Quick-Step</a></div><div class=" clr999 fs14" > (Paret-Peintre, Landa)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1360"></span></div><div class="fs14 mr5" ><a  href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></div><div class=" clr999 fs14" > (Poole)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1207"></span></div><div class="fs14 mr5" ><a  href="team/team-jayco-alula-2025">Team Jayco AlUla</a></div><div class=" clr999 fs14" > (Dunbar)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1330"></span></div><div class="fs14 mr5" ><a  href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></div><div class=" clr999 fs14" > (Vingegaard, Jorgenson)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1253"></span></div><div class="fs14 mr5" ><a  href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></div><div class=" clr999 fs14" > (Ayuso, Almeida)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2088"></span></div><div class="fs14 mr5" ><a  href="team/lotto-2025">Lotto</a></div><div class=" clr999 fs14" > (Viviani, Livyns)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2738"></span></div><div class="fs14 mr5" ><a  href="team/israel-premier-tech-2025">Israel - Premier Tech</a></div><div class=" clr999 fs14" > (Vernon, Gee)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1109"></span></div><div class="fs14 mr5" ><a  href="team/burgos-burpellet-bh-2025">Burgos Burpellet BH</a></div><div class=" clr999 fs14" ></div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1330"></span></div><div class="fs14 mr5" ><a  href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></div><div class=" clr999 fs14" > (Vingegaard, Jorgenson)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1258"></span></div><div class="fs14 mr5" ><a  href="team/lidl-trek-2025">Lidl - Trek</a></div><div class=" clr999 fs14" > (Pedersen, Ciccone)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2040"></span></div><div class="fs14 mr5" ><a  href="team/movistar-team-2025">Movistar Team</a></div><div class=" clr999 fs14" > (Romo, Castrillo)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1411"></span></div><div class="fs14 mr5" ><a  href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></div><div class=" clr999 fs14" > (Pellizzari, Fisher-Black)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1328"></span></div><div class="fs14 mr5" ><a  href="team/soudal-quick-step-2025">Soudal Quick-Step</a></div><div class=" clr999 fs14" > (Schachmann, Landa)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1423"></span></div><div class="fs14 mr5" ><a  href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></div><div class=" clr999 fs14" > (Sheffield, Ganna)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1100"></span></div><div class="fs14 mr5" ><a  href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></div><div class=" clr999 fs14" > (Vergallito, Philipsen)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team4000"></span></div><div class="fs14 mr5" ><a  href="team/ef-education-easypost-2025">EF Education - EasyPost</a></div><div class=" clr999 fs14" > (Ryan, Mihkels)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1060"></span></div><div class="fs14 mr5" ><a  href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></div><div class=" clr999 fs14" > (Staune-Mittet, Gall)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team3814"></span></div><div class="fs14 mr5" ><a  href="team/bahrain-victorious-2025">Bahrain - Victorious</a></div><div class=" clr999 fs14" > (Tiberi, Buitrago)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1293"></span></div><div class="fs14 mr5" ><a  href="team/q365-pro-cycing-team-2025">Q36.5 Pro Cycling Team</a></div><div class=" clr999 fs14" > (Pidcock, Christen)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1261"></span></div><div class="fs14 mr5" ><a  href="team/xds-astana-team-2025">XDS Astana Team</a></div><div class=" clr999 fs14" > (López, Fortunato)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1187"></span></div><div class="fs14 mr5" ><a  href="team/groupama-fdj-2025">Groupama - FDJ</a></div><div class=" clr999 fs14" > (Martin, Gaudu)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1111"></span></div><div class="fs14 mr5" ><a  href="team/caja-rural-seguros-rga-2025">Caja Rural - Seguros RGA</a></div><div class=" clr999 fs14" > (Silva, Barceló)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1293"></span></div><div class="fs14 mr5" ><a  href="team/q365-pro-cycing-team-2025">Q36.5 Pro Cycling Team</a></div><div class=" clr999 fs14" > (Pidcock, de la Cruz)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1207"></span></div><div class="fs14 mr5" ><a  href="team/team-jayco-alula-2025">Team Jayco AlUla</a></div><div class=" clr999 fs14" > (O'Connor, Dunbar)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1107"></span></div><div class="fs14 mr5" ><a  href="team/arkea-b-b-hotels-2025">Arkéa - B&B Hotels</a></div><div class=" clr999 fs14" > (Rodríguez, Biermans)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1136"></span></div><div class="fs14 mr5" ><a  href="team/cofidis-2025">Cofidis</a></div><div class=" clr999 fs14" > (Coquard, Aniołkowski)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1490"></span></div><div class="fs14 mr5" ><a  href="team/intermarche-wanty-2025">Intermarché - Wanty</a></div><div class=" clr999 fs14" > (Meintjes, Marit)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1360"></span></div><div class="fs14 mr5" ><a  href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></div><div class=" clr999 fs14" > (Vermaerke, van Uden)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2088"></span></div><div class="fs14 mr5" ><a  href="team/lotto-2025">Lotto</a></div><div class=" clr999 fs14" > (Segaert, Livyns)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1109"></span></div><div class="fs14 mr5" ><a  href="team/burgos-burpellet-bh-2025">Burgos Burpellet BH</a></div><div class=" clr999 fs14" > (Fagúndez, Chumil)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2738"></span></div><div class="fs14 mr5" ><a  href="team/israel-premier-tech-2025">Israel - Premier Tech</a></div><div class=" clr999 fs14" > (Vernon, Riccitello)</div></li>
 </ul>
 </div>
 </div>
@@ -313,37 +327,37 @@
 <th class="w68 ">Stage</th>
 <th class="w8 ">KM</th>
 </tr></thead><tbody>
-<tr class=""><td>23/08</td><td>Saturday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-1">Stage 1 | Torino - Reggia di Venaria - Novara</a></td><td>200</td></tr>
-<tr class=""><td>24/08</td><td>Sunday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-2">Stage 2 | Alba - Puerto Limone</a></td><td>157</td></tr>
-<tr class=""><td>25/08</td><td>Monday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-3">Stage 3 | San Maurizio Canavese - Ceres</a></td><td>139</td></tr>
-<tr class=""><td>26/08</td><td>Tuesday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-4">Stage 4 | Susa - Voiron</a></td><td>192</td></tr>
-<tr class=""><td>27/08</td><td>Wednesday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-5">Stage 5 (TTT) | Figueres - Figueres</a></td><td>20</td></tr>
-<tr class=""><td>28/08</td><td>Thursday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-6">Stage 6 | Olot - Pal</a></td><td>170</td></tr>
-<tr class=""><td>29/08</td><td>Friday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-7">Stage 7 | Andorra la Vella - Cerler. Huesca La Magia</a></td><td>187</td></tr>
-<tr class=""><td>30/08</td><td>Saturday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-8">Stage 8 | Monzón Templario - Zaragoza</a></td><td>187</td></tr>
-<tr class=""><td>31/08</td><td>Sunday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-9">Stage 9 | Alfaro - Estación de Esquí de Valdezcaray</a></td><td>195</td></tr>
+<tr class=""><td>23/08</td><td>Saturday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-1">Stage 1 | Torino-Reggia di Venaria - Novara</a></td><td>186.7</td></tr>
+<tr class=""><td>24/08</td><td>Sunday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-2">Stage 2 | Alba - Limone Piemonte</a></td><td>159.5</td></tr>
+<tr class=""><td>25/08</td><td>Monday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-3">Stage 3 | San Maurizio Canavese - Ceres</a></td><td>134.6</td></tr>
+<tr class=""><td>26/08</td><td>Tuesday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-4">Stage 4 | Susa - Voiron</a></td><td>206.7</td></tr>
+<tr class=""><td>27/08</td><td>Wednesday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-5">Stage 5 (TTT) | Figueres - Figueres</a></td><td>24.1</td></tr>
+<tr class=""><td>28/08</td><td>Thursday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-6">Stage 6 | Olot - Pal. Andorra</a></td><td>170.3</td></tr>
+<tr class=""><td>29/08</td><td>Friday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-7">Stage 7 | Andorra la Vella - Cerler. Huesca La Magia</a></td><td>188</td></tr>
+<tr class=""><td>30/08</td><td>Saturday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-8">Stage 8 | Monzón Templario - Zaragoza</a></td><td>163.5</td></tr>
+<tr class=""><td>31/08</td><td>Sunday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-9">Stage 9 | Alfaro - Estación de Esquí de Valdezcaray</a></td><td>195.5</td></tr>
 <tr class=""><td>01/09</td><td></td><td><span class="icon profile p mg_rp4 "></span></td><td><a  href="">Restday</a></td><td></td></tr>
-<tr class=""><td>02/09</td><td>Tuesday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-10">Stage 10 | Parque de la Naturaleza Sendaviva - El Ferial Larra Belagua</a></td><td>168</td></tr>
-<tr class=""><td>03/09</td><td>Wednesday</td><td><span class="icon profile p2 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-11">Stage 11 | Bilbao - Bilbao</a></td><td>167</td></tr>
-<tr class=""><td>04/09</td><td>Thursday</td><td><span class="icon profile p2 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-12">Stage 12 | Laredo - Los Corrales de Buelna</a></td><td>143</td></tr>
-<tr class=""><td>05/09</td><td>Friday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-13">Stage 13 | Cabezón de la Sal - L'Angliru</a></td><td>202</td></tr>
-<tr class=""><td>06/09</td><td>Saturday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-14">Stage 14 | Avilés - Alto de la Farrapona</a></td><td>135</td></tr>
-<tr class=""><td>07/09</td><td>Sunday</td><td><span class="icon profile p2 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-15">Stage 15 | A Veiga/Vegadeo - Monforte de Lemos</a></td><td>167</td></tr>
+<tr class=""><td>02/09</td><td>Tuesday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-10">Stage 10 | Parque de la Naturaleza Sendaviva - El Ferial Larra Belagua</a></td><td>175.3</td></tr>
+<tr class=""><td>03/09</td><td>Wednesday</td><td><span class="icon profile p2 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-11">Stage 11 | Bilbao - Bilbao</a></td><td>157.4</td></tr>
+<tr class=""><td>04/09</td><td>Thursday</td><td><span class="icon profile p2 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-12">Stage 12 | Laredo - Los Corrales de Buelna</a></td><td>144.9</td></tr>
+<tr class=""><td>05/09</td><td>Friday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-13">Stage 13 | Cabezón de la Sal - L'Angliru</a></td><td>202.7</td></tr>
+<tr class=""><td>06/09</td><td>Saturday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-14">Stage 14 | Avilés - La Farrapona. Lagos de Somiedo</a></td><td>135.9</td></tr>
+<tr class=""><td>07/09</td><td>Sunday</td><td><span class="icon profile p2 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-15">Stage 15 | A Veiga/Vegadeo - Monforte de Lemos</a></td><td>167.8</td></tr>
 <tr class=""><td>08/09</td><td></td><td><span class="icon profile p mg_rp4 "></span></td><td><a  href="">Restday</a></td><td></td></tr>
-<tr class=""><td>09/09</td><td>Tuesday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-16">Stage 16 | Poio - Mos.Castro de Herville</a></td><td>172</td></tr>
-<tr class=""><td>10/09</td><td>Wednesday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-17">Stage 17 | O Barco de Valdeorras - Alto de El Morredero</a></td><td>137</td></tr>
-<tr class=""><td>11/09</td><td>Thursday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-18">Stage 18 (ITT) | Valladolid - Valladolid</a></td><td>26</td></tr>
-<tr class=""><td>12/09</td><td>Friday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-19">Stage 19 | Rueda - Guijuelo</a></td><td>159</td></tr>
-<tr class=""><td>13/09</td><td>Saturday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-20">Stage 20 | Robledo de Chavela - Bola del Mundo. Puerto de Navacerrada</a></td><td>156</td></tr>
-<tr class=""><td>14/09</td><td>Sunday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-21">Stage 21 | Alalpardo - Madrid</a></td><td>101</td></tr>
-<tr class="sum"><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">3180</td></tr></tbody></table></div>
+<tr class=""><td>09/09</td><td>Tuesday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-16">Stage 16 | Poio - Mos. Castro de Herville</a></td><td>167.9</td></tr>
+<tr class=""><td>10/09</td><td>Wednesday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-17">Stage 17 | O Barco de Valdeorras - Alto de El Morredero</a></td><td>143.2</td></tr>
+<tr class=""><td>11/09</td><td>Thursday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-18">Stage 18 (ITT) | Valladolid - Valladolid</a></td><td>27.2</td></tr>
+<tr class=""><td>12/09</td><td>Friday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-19">Stage 19 | Rueda - Guijuelo</a></td><td>161.9</td></tr>
+<tr class=""><td>13/09</td><td>Saturday</td><td><span class="icon profile p5 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-20">Stage 20 | Robledo de Chavela - Bola del Mundo. Puerto de Navacerrada</a></td><td>164.8</td></tr>
+<tr class=""><td>14/09</td><td>Sunday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/vuelta-a-espana/2025/stage-21">Stage 21 | Alalpardo - Madrid</a></td><td>108</td></tr>
+<tr class="sum"><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">3185.9</td></tr></tbody></table></div>
 <div class="mt20">
 <h4>Stage winners</h4><table class=" basic" style="max-width: 700px; " ><thead><tr>
 <th class="w17 ">Stage</th>
 <th class="w83 ">Winner</th>
 </tr></thead><tbody>
-<tr class=""><td>Stage 1</td><td><a  href="rider/"></a></td></tr>
-<tr class=""><td>Stage 2</td><td><a  href="rider/"></a></td></tr>
+<tr class=""><td>Stage 1</td><td><span class="flag be"></span> <a  href="rider/jasper-philipsen">PHILIPSEN Jasper</a></td></tr>
+<tr class=""><td>Stage 2</td><td><span class="flag dk"></span> <a  href="rider/jonas-vingegaard">VINGEGAARD Jonas</a></td></tr>
 <tr class=""><td>Stage 3</td><td><a  href="rider/"></a></td></tr>
 <tr class=""><td>Stage 4</td><td><a  href="rider/"></a></td></tr>
 <tr class=""><td>Stage 5 (TTT)</td><td><a  href="rider/"></a></td></tr>
@@ -374,6 +388,7 @@
 </ul><div class="clear"></div></div>
 <div class="mt20">
 <h4>Maps/profiles</h4><ul class="list" >
+<li class=""><div><a  href="race/vuelta-a-espana/2025/route/overview-map"><img src="images/profiles/ca/ac/vuelta-a-espana-2025-map.png"  style="max-height: 400px; max-width: 100%;" /></a></div></li>
 </ul>
 </div>
 </div>
@@ -439,7 +454,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0180s</span></li>
+<li><span>Pageload 0.0462s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script>
+<script src="search_list22.js"></script>

@@ -18,9 +18,9 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
-<link rel="stylesheet" type="text/css" href="v3_site_b49.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
+<link rel="stylesheet" type="text/css" href="v3_site_b51.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -82,6 +82,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -92,6 +102,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -191,12 +205,12 @@
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 nz"></span> </div><div><a  href="rider/corbin-strong">STRONG Corbin</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 dk"></span> </div><div><a  href="rider/tobias-lund-andresen">ANDRESEN Tobias Lund</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 ch"></span> </div><div><a  href="rider/mauro-schmid">SCHMID Mauro</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 us"></span> </div><div><a  href="rider/magnus-sheffield">SHEFFIELD Magnus</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 er"></span> </div><div><a  href="rider/henok-mulubrhan">MULUBRHAN Henok</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 gb"></span> </div><div><a  href="rider/samuel-watson">WATSON Samuel</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 us"></span> </div><div><a  href="rider/magnus-sheffield">SHEFFIELD Magnus</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 nz"></span> </div><div><a  href="rider/aaron-gate">GATE Aaron</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 gb"></span> </div><div><a  href="rider/lewis-askey">ASKEY Lewis</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 es"></span> </div><div><a  href="rider/javier-romo">ROMO Javier</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 gb"></span> </div><div><a  href="rider/samuel-watson">WATSON Samuel</a></div></li>
 </ul>
 </div>
 <div class="">
@@ -207,7 +221,7 @@
 <div class="mt40">
 <h4>Teams</h4><ul class="list "  style="max-width: 400px; " >
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1411"></span></div><div class="fs14 mr5" ><a  href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></div><div class=" clr999 fs14" > (van Poppel, Fisher-Black)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1328"></span></div><div class="fs14 mr5" ><a  href="team/soudal-quick-step-2025">Soudal Quick-Step</a></div><div class=" clr999 fs14" > (Lecerf, Eenkhoorn)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1328"></span></div><div class="fs14 mr5" ><a  href="team/soudal-quick-step-2025">Soudal Quick-Step</a></div><div class=" clr999 fs14" > (Pedersen, Lecerf)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1258"></span></div><div class="fs14 mr5" ><a  href="team/lidl-trek-2025">Lidl - Trek</a></div><div class=" clr999 fs14" > (Teutenberg, Bagioli)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1423"></span></div><div class="fs14 mr5" ><a  href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></div><div class=" clr999 fs14" > (Watson, Sheffield)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1187"></span></div><div class="fs14 mr5" ><a  href="team/groupama-fdj-2025">Groupama - FDJ</a></div><div class=" clr999 fs14" > (Pacher, Askey)</div></li>
@@ -219,7 +233,7 @@
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1261"></span></div><div class="fs14 mr5" ><a  href="team/xds-astana-team-2025">XDS Astana Team</a></div><div class=" clr999 fs14" > (Mulubrhan, Gate)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2738"></span></div><div class="fs14 mr5" ><a  href="team/israel-premier-tech-2025">Israel - Premier Tech</a></div><div class=" clr999 fs14" > (Woods, Strong)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team4000"></span></div><div class="fs14 mr5" ><a  href="team/ef-education-easypost-2025">EF Education - EasyPost</a></div><div class=" clr999 fs14" > (Nerurkar, Chaves)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1519"></span></div><div class="fs14 mr5" ><a  href="team/australia-2025">Australia</a></div><div class=" clr999 fs14" > (Walsh, Porter)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1519"></span></div><div class="fs14 mr5" ><a  href="team/australia-2025">Australia</a></div><div class=" clr999 fs14" > (Walsh, Marriage)</div></li>
 </ul>
 </div>
 </div>
@@ -300,7 +314,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0228s</span></li>
+<li><span>Pageload 0.0308s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script>
+<script src="search_list22.js"></script>

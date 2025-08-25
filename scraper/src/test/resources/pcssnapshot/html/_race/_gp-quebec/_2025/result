@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -142,13 +156,14 @@
 </div><div class="clear"></div>
 <div class="thumbnav"><span><a class="blue" href="race/gp-quebec">Grand Prix Cycliste de Québec</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/gp-quebec/2025">2025</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/gp-quebec/2025/result">One day race</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/gp-quebec/2025/result/result/result">Results</a></span></div>
 <div class="titleCont "><div class="page-title"><div class="title"><span class="flag ca w32"></span><span class="flag c24 ca "></span><h1><font class="hideIfMobile">2025 &nbsp; &raquo;  &nbsp; 14th </font>Grand Prix Cycliste de Québec <font class="hideIfMobile">(1.UWT)</font></h1>
-</div><div class="clear"></div><div class="title-line2 hideIfMobile"><font class="blue">One day race</font></div><div class="imob block" style="text-align: center; letter-spacing: 0; ">2025 | One day race</div><div class="imob block red  fs14" style="text-align: center; letter-spacing: 0; " ><b> &rsaquo; </b> (0km)</div></div><a class="toggleSideMenu" href="">menu</a></div>
+</div><div class="clear"></div><div class="title-line2 hideIfMobile"><font class="blue">One day race</font> &nbsp; &raquo; &nbsp; <font class="red">Québec &nbsp;&rsaquo;&nbsp; Québec</font> &nbsp; <font class="red"style="font-weight: normal; ">(219.2km)</font></div><div class="imob block" style="text-align: center; letter-spacing: 0; ">2025 | One day race</div><div class="imob block red  fs14" style="text-align: center; letter-spacing: 0; " ><b>Québec &rsaquo; Québec</b> (219.2km)</div></div><a class="toggleSideMenu" href="">menu</a></div>
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w68 left mb_w100" >
 <input type="hidden" name="race_id" value="302849" /><input type="hidden" name="race_seo" value="race/gp-quebec/2025/result" /><input type="hidden" name="event_id" value="57064" /><input type="hidden" name="tab_id" value="302849" /><div class="resultFilters" style="color: #999; font-size: 11px; margin-bottom: 5px; overflow: hidden; "><span class="filterCont"><select class="filterResults right" data-type="team" ><option value="">all teams</option><option value="alpecin-deceuninck-2025">Alpecin - Deceuninck</option>
 <option value="arkea-b-b-hotels-2025">Arkéa - B&B Hotels</option>
 <option value="bahrain-victorious-2025">Bahrain - Victorious</option>
+<option value="canada-2025">Canada</option>
 <option value="cofidis-2025">Cofidis</option>
 <option value="decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</option>
 <option value="ef-education-easypost-2025">EF Education - EasyPost</option>
@@ -164,6 +179,7 @@
 <option value="team-jayco-alula-2025">Team Jayco AlUla</option>
 <option value="team-picnic-postnl-2025">Team Picnic PostNL</option>
 <option value="team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</option>
+<option value="tudor-pro-cycling-team-2025">Tudor Pro Cycling Team</option>
 <option value="uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</option>
 <option value="uno-x-mobility-2025">Uno-X Mobility</option>
 <option value="xds-astana-team-2025">XDS Astana Team</option>
@@ -173,8 +189,11 @@
 <option value="er">Eritrea</option>
 <option value="fr">France</option>
 <option value="de">Germany</option>
+<option value="gb">Great Britain</option>
+<option value="no">Norway</option>
 <option value="si">Slovenia</option>
 <option value="es">Spain</option>
+<option value="us">United States</option>
 </select> <select class="filterResults right" data-type="custom"><option value="">all</option><option value="age_u23">Age U23</option>
 <option value="age_u25">Age U25</option>
 <option value="age_o30">Age 30+</option>
@@ -200,17 +219,17 @@
 <li><div class="title ">Avg. speed winner: </div><div class=" value" >-</div></li>
 <li><div class="title ">Classification: </div><div class=" value" >1.UWT</div></li>
 <li><div class="title ">Race category: </div><div class=" value" >ME - Men Elite</div></li>
-<li><div class="title ">Distance: </div><div class=" value" >0 km</div></li>
+<li><div class="title ">Distance: </div><div class=" value" >219.2 km</div></li>
 <li><div class="title ">Points scale: </div><div class=" value" ><a  href="info.php?s=point-scales&season=2025&category=1&scale=14">1.WT.B</a></div></li>
 <li><div class="title ">UCI scale: </div><div class=" value" ><a  href="info.php?s=point-scales&season=2025&category=1&scale=138">UCI.WR.C1</a></div></li>
-<li><div class="title ">Parcours type: </div><div class=" value" ><span class="icon profile p0 mg_rp4 "></span></div></li>
-<li><div class="title ">Gradient final km: </div><div class=" value" ></div></li>
-<li><div class="title ">ProfileScore: </div><div class=" value" ></div></li>
-<li><div class="title ">Vertical meters: </div><div class=" value" ></div></li>
-<li><div class="title ">Departure: </div><div class=" value" ><a  href="location/"></a></div></li>
-<li><div class="title ">Arrival: </div><div class=" value" ><a  href="location/"></a></div></li>
+<li><div class="title ">Parcours type: </div><div class=" value" ><span class="icon profile p3 mg_rp4 "></span></div></li>
+<li><div class="title ">Gradient final km: </div><div class=" value" >2.6%</div></li>
+<li><div class="title ">ProfileScore: </div><div class=" value" >80</div></li>
+<li><div class="title ">Vertical meters: </div><div class=" value" >2794</div></li>
+<li><div class="title ">Departure: </div><div class=" value" ><a  href="location/quebec">Québec</a></div></li>
+<li><div class="title ">Arrival: </div><div class=" value" ><a  href="location/quebec">Québec</a></div></li>
 <li><div class="title ">Race ranking: </div><div class=" value" ><a  href="rankings/me/races"></a></div></li>
-<li><div class="title ">Startlist quality score: </div><div class=" value" ><a  href="race/gp-quebec/2025/startlist/startlist-quality">226</a></div></li>
+<li><div class="title ">Startlist quality score: </div><div class=" value" ><a  href="race/gp-quebec/2025/startlist/startlist-quality">333</a></div></li>
 <li><div class="title ">Won how: </div><div class=" value" >-</div></li>
 <li><div class="title ">Avg. temperature: </div><div class=" value" ><a  href="race/gp-quebec/2025/results/hottest-stages"></a></div></li>
 <li></li>
@@ -222,6 +241,11 @@
 <ul class="simple-list list horizontal">
 <li class="goto mr10 fs14"><a  href="race/gp-quebec/2025/result/live">LiveStats</a></li>
 </ul><div class="clear"></div></div>
+<div class="mt10">
+<h4>Race profile</h4><ul class="list" >
+<li class=""><div><a  href="race/gp-quebec/2025/result/info/profiles"><img src="images/profiles/ca/fa/gp-quebec-2025-result-profile.jpg"  style="max-height: 200px; max-width: 100%;" /></a></div></li>
+</ul>
+</div>
 <div class="mt10">
 <h4>Sites</h4><ul class="list horizontal" >
 <li class=""><div class="mr5 " ><a target="_blank"  href="https://www.instagram.com/grandsprixcyclistes/"><span class="iconv3 insta14"></span></a></div><div class="fs12 mr5 uppercase" ><a target="_blank"  href="https://www.instagram.com/grandsprixcyclistes/">Instagram</a></div></li>
@@ -307,7 +331,7 @@ NR = No result<br />
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0208s</span></li>
+<li><span>Pageload 0.0156s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script>
+<script src="search_list22.js"></script>

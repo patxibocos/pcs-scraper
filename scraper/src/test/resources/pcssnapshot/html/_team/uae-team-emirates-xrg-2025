@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -29,7 +29,7 @@
 <div class="wrapper"><header>
 <div class="cont">
 <a class="logo" href="index.php"></a>
-<div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="" data-url="" placeholder="search" autocomplete="off" /></form></div> 
+<div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="team" data-url="team/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
 <div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -161,12 +175,12 @@
 <div class=""><div class="borderbox w100" >
 <div class="">
 <ul class="simple-list list circle bluelink horizontal fs14">
-<li class=""><a  href="team-in-race/uae-team-emirates-xrg-2025/tour-de-pologne">Tour de Pologne</a></li>
+<li class=""><a  href="team-in-race/uae-team-emirates-xrg-2025/vuelta-a-espana">La Vuelta Ciclista a España</a></li>
 </ul><div class="clear"></div></div>
 <div class="mb5">
 <ul class="list horizontal teamkpi" >
-<li class=""><div class="title ">Victories </div><div class=" value" ><a  href="team/uae-team-emirates-xrg-2025/wins">70</a></div></li>
-<li><div class="title ">Points </div><div class=" value" ><a  href="team/uae-team-emirates-xrg-2025/season/points-per-rider">14907</a></div></li>
+<li class=""><div class="title ">Victories </div><div class=" value" ><a  href="team/uae-team-emirates-xrg-2025/wins">73</a></div></li>
+<li><div class="title ">Points </div><div class=" value" ><a  href="team/uae-team-emirates-xrg-2025/season/points-per-rider">16003</a></div></li>
 <li><div class="title ">PCS# </div><div class=" value" ><a  href="rankings/me/season-teams">1</a></div></li>
 <li><div class="title ">UCI# </div><div class=" value" ><a  href="rankings/me/uci-teams">1</a></div></li>
 <li><div class="title ">Incoming </div><div class=" value" ><a  href="team/uae-team-emirates-xrg-2025/transfers/this-year">5</a></div></li>
@@ -228,34 +242,34 @@
 <th class="w13 ">points</th>
 </tr></thead><tbody>
 <tr class=""><td>1</td><td><span class="flag si"></span> <a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>1</td><td>4790</td></tr>
-<tr class=""><td>2</td><td><span class="flag pt"></span> <a  href="rider/joao-almeida">ALMEIDA João</a></td><td>8</td><td>1730</td></tr>
-<tr class=""><td>3</td><td><span class="flag mx"></span> <a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td><td>10</td><td>1678</td></tr>
-<tr class=""><td>4</td><td><span class="flag es"></span> <a  href="rider/juan-ayuso-pesquera">AYUSO Juan</a></td><td>22</td><td>1201</td></tr>
-<tr class=""><td>5</td><td><span class="flag be"></span> <a  href="rider/tim-wellens">WELLENS Tim</a></td><td>44</td><td>914</td></tr>
-<tr class=""><td>6</td><td><span class="flag us"></span> <a  href="rider/brandon-mcnulty">MCNULTY Brandon</a></td><td>46</td><td>881</td></tr>
-<tr class=""><td>7</td><td><span class="flag au"></span> <a  href="rider/jay-vine">VINE Jay</a></td><td>55</td><td>793</td></tr>
-<tr class=""><td>8</td><td><span class="flag gb"></span> <a  href="rider/adam-yates">YATES Adam</a></td><td>56</td><td>791</td></tr>
-<tr class=""><td>9</td><td><span class="flag fr"></span> <a  href="rider/pavel-sivakov">SIVAKOV Pavel</a></td><td>64</td><td>754</td></tr>
-<tr class=""><td>10</td><td><span class="flag ec"></span> <a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td><td>69</td><td>688</td></tr>
-<tr class=""><td>11</td><td><span class="flag ch"></span> <a  href="rider/jan-christen">CHRISTEN Jan</a></td><td>82</td><td>630</td></tr>
-<tr class=""><td>12</td><td><span class="flag pt"></span> <a  href="rider/antonio-morgado">MORGADO António</a></td><td>103</td><td>530</td></tr>
-<tr class=""><td>13</td><td><span class="flag es"></span> <a  href="rider/marc-soler">SOLER Marc</a></td><td>106</td><td>513</td></tr>
-<tr class=""><td>14</td><td><span class="flag at"></span> <a  href="rider/felix-grossschartner">GROßSCHARTNER Felix</a></td><td>109</td><td>510</td></tr>
-<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/filippo-baroncini">BARONCINI Filippo</a></td><td>113</td><td>500</td></tr>
-<tr class=""><td>16</td><td><span class="flag co"></span> <a  href="rider/juan-sebastian-molano">MOLANO Juan Sebastián</a></td><td>126</td><td>475</td></tr>
-<tr class=""><td>17</td><td><span class="flag it"></span> <a  href="rider/alessandro-covi">COVI Alessandro</a></td><td>136</td><td>461</td></tr>
-<tr class=""><td>18</td><td><span class="flag be"></span> <a  href="rider/florian-vermeersch">VERMEERSCH Florian</a></td><td>157</td><td>408</td></tr>
-<tr class=""><td>19</td><td><span class="flag es"></span> <a  href="rider/igor-arrieta-lizarraga">ARRIETA Igor</a></td><td>232</td><td>282</td></tr>
-<tr class=""><td>20</td><td><span class="flag pl"></span> <a  href="rider/rafal-majka">MAJKA Rafał</a></td><td>243</td><td>274</td></tr>
-<tr class=""><td>21</td><td><span class="flag pt"></span> <a  href="rider/rui-oliveira">OLIVEIRA Rui</a></td><td>339</td><td>188</td></tr>
-<tr class=""><td>22</td><td><span class="flag dk"></span> <a  href="rider/mikkel-bjerg">BJERG Mikkel</a></td><td>343</td><td>187</td></tr>
-<tr class=""><td>23</td><td><span class="flag pt"></span> <a  href="rider/ivo-emanuel-alves">OLIVEIRA Ivo</a></td><td>387</td><td>162</td></tr>
-<tr class=""><td>24</td><td><span class="flag es"></span> <a  href="rider/pablo-torres-arias">TORRES Pablo</a></td><td>432</td><td>137</td></tr>
-<tr class=""><td>25</td><td><span class="flag de"></span> <a  href="rider/nils-politt">POLITT Nils</a></td><td>456</td><td>124</td></tr>
-<tr class=""><td>26</td><td><span class="flag dk"></span> <a  href="rider/julius-johansen">JOHANSEN Julius</a></td><td>701</td><td>62</td></tr>
-<tr class=""><td>27</td><td><span class="flag be"></span> <a  href="rider/rune-herregodts">HERREGODTS Rune</a></td><td>798</td><td>50</td></tr>
-<tr class=""><td>28</td><td><span class="flag si"></span> <a  href="rider/domen-novak">NOVAK Domen</a></td><td>1163</td><td>22</td></tr>
-<tr class=""><td>29</td><td><span class="flag no"></span> <a  href="rider/vegard-stake-laengen">LAENGEN Vegard Stake</a></td><td>1199</td><td>20</td></tr>
+<tr class=""><td>2</td><td><span class="flag pt"></span> <a  href="rider/joao-almeida">ALMEIDA João</a></td><td>5</td><td>1742</td></tr>
+<tr class=""><td>3</td><td><span class="flag mx"></span> <a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td><td>7</td><td>1683</td></tr>
+<tr class=""><td>4</td><td><span class="flag es"></span> <a  href="rider/juan-ayuso-pesquera">AYUSO Juan</a></td><td>23</td><td>1185</td></tr>
+<tr class=""><td>5</td><td><span class="flag us"></span> <a  href="rider/brandon-mcnulty">MCNULTY Brandon</a></td><td>33</td><td>984</td></tr>
+<tr class=""><td>6</td><td><span class="flag ec"></span> <a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td><td>53</td><td>813</td></tr>
+<tr class=""><td>7</td><td><span class="flag gb"></span> <a  href="rider/adam-yates">YATES Adam</a></td><td>55</td><td>791</td></tr>
+<tr class=""><td>8</td><td><span class="flag au"></span> <a  href="rider/jay-vine">VINE Jay</a></td><td>56</td><td>791</td></tr>
+<tr class=""><td>9</td><td><span class="flag be"></span> <a  href="rider/tim-wellens">WELLENS Tim</a></td><td>58</td><td>782</td></tr>
+<tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="rider/pavel-sivakov">SIVAKOV Pavel</a></td><td>60</td><td>754</td></tr>
+<tr class=""><td>11</td><td><span class="flag ch"></span> <a  href="rider/jan-christen">CHRISTEN Jan</a></td><td>66</td><td>739</td></tr>
+<tr class=""><td>12</td><td><span class="flag pt"></span> <a  href="rider/antonio-morgado">MORGADO António</a></td><td>87</td><td>590</td></tr>
+<tr class=""><td>13</td><td><span class="flag es"></span> <a  href="rider/marc-soler">SOLER Marc</a></td><td>100</td><td>513</td></tr>
+<tr class=""><td>14</td><td><span class="flag co"></span> <a  href="rider/juan-sebastian-molano">MOLANO Juan Sebastián</a></td><td>104</td><td>497</td></tr>
+<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/filippo-baroncini">BARONCINI Filippo</a></td><td>107</td><td>494</td></tr>
+<tr class=""><td>16</td><td><span class="flag it"></span> <a  href="rider/alessandro-covi">COVI Alessandro</a></td><td>125</td><td>456</td></tr>
+<tr class=""><td>17</td><td><span class="flag be"></span> <a  href="rider/florian-vermeersch">VERMEERSCH Florian</a></td><td>134</td><td>444</td></tr>
+<tr class=""><td>18</td><td><span class="flag at"></span> <a  href="rider/felix-grossschartner">GROßSCHARTNER Felix</a></td><td>133</td><td>444</td></tr>
+<tr class=""><td>19</td><td><span class="flag pl"></span> <a  href="rider/rafal-majka">MAJKA Rafał</a></td><td>198</td><td>336</td></tr>
+<tr class=""><td>20</td><td><span class="flag es"></span> <a  href="rider/igor-arrieta-lizarraga">ARRIETA Igor</a></td><td>226</td><td>287</td></tr>
+<tr class=""><td>21</td><td><span class="flag pt"></span> <a  href="rider/rui-oliveira">OLIVEIRA Rui</a></td><td>362</td><td>177</td></tr>
+<tr class=""><td>22</td><td><span class="flag pt"></span> <a  href="rider/ivo-emanuel-alves">OLIVEIRA Ivo</a></td><td>415</td><td>145</td></tr>
+<tr class=""><td>23</td><td><span class="flag es"></span> <a  href="rider/pablo-torres-arias">TORRES Pablo</a></td><td>425</td><td>137</td></tr>
+<tr class=""><td>24</td><td><span class="flag de"></span> <a  href="rider/nils-politt">POLITT Nils</a></td><td>437</td><td>132</td></tr>
+<tr class=""><td>25</td><td><span class="flag dk"></span> <a  href="rider/mikkel-bjerg">BJERG Mikkel</a></td><td>512</td><td>105</td></tr>
+<tr class=""><td>26</td><td><span class="flag be"></span> <a  href="rider/rune-herregodts">HERREGODTS Rune</a></td><td>802</td><td>50</td></tr>
+<tr class=""><td>27</td><td><span class="flag dk"></span> <a  href="rider/julius-johansen">JOHANSEN Julius</a></td><td>801</td><td>50</td></tr>
+<tr class=""><td>28</td><td><span class="flag no"></span> <a  href="rider/vegard-stake-laengen">LAENGEN Vegard Stake</a></td><td>1106</td><td>25</td></tr>
+<tr class=""><td>29</td><td><span class="flag si"></span> <a  href="rider/domen-novak">NOVAK Domen</a></td><td>1550</td><td>10</td></tr>
 </tbody></table></div>
 <div class="stab points hide riderlistcont">
 <table class=" teamlist"><thead><tr>
@@ -265,32 +279,32 @@
 </tr></thead><tbody>
 <tr class=""><td>1</td><td><span class="flag si"></span> <a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>22293</td></tr>
 <tr class=""><td>2</td><td><span class="flag gb"></span> <a  href="rider/adam-yates">YATES Adam</a></td><td>12419</td></tr>
-<tr class=""><td>3</td><td><span class="flag be"></span> <a  href="rider/tim-wellens">WELLENS Tim</a></td><td>10226</td></tr>
-<tr class=""><td>4</td><td><span class="flag pl"></span> <a  href="rider/rafal-majka">MAJKA Rafał</a></td><td>9921</td></tr>
-<tr class=""><td>5</td><td><span class="flag pt"></span> <a  href="rider/joao-almeida">ALMEIDA João</a></td><td>8101</td></tr>
-<tr class=""><td>6</td><td><span class="flag us"></span> <a  href="rider/brandon-mcnulty">MCNULTY Brandon</a></td><td>4840</td></tr>
-<tr class=""><td>7</td><td><span class="flag es"></span> <a  href="rider/juan-ayuso-pesquera">AYUSO Juan</a></td><td>4315</td></tr>
+<tr class=""><td>3</td><td><span class="flag be"></span> <a  href="rider/tim-wellens">WELLENS Tim</a></td><td>10404</td></tr>
+<tr class=""><td>4</td><td><span class="flag pl"></span> <a  href="rider/rafal-majka">MAJKA Rafał</a></td><td>10013</td></tr>
+<tr class=""><td>5</td><td><span class="flag pt"></span> <a  href="rider/joao-almeida">ALMEIDA João</a></td><td>8119</td></tr>
+<tr class=""><td>6</td><td><span class="flag us"></span> <a  href="rider/brandon-mcnulty">MCNULTY Brandon</a></td><td>5175</td></tr>
+<tr class=""><td>7</td><td><span class="flag es"></span> <a  href="rider/juan-ayuso-pesquera">AYUSO Juan</a></td><td>4325</td></tr>
 <tr class=""><td>8</td><td><span class="flag es"></span> <a  href="rider/marc-soler">SOLER Marc</a></td><td>4286</td></tr>
 <tr class=""><td>9</td><td><span class="flag fr"></span> <a  href="rider/pavel-sivakov">SIVAKOV Pavel</a></td><td>4273</td></tr>
 <tr class=""><td>10</td><td><span class="flag at"></span> <a  href="rider/felix-grossschartner">GROßSCHARTNER Felix</a></td><td>4269</td></tr>
-<tr class=""><td>11</td><td><span class="flag de"></span> <a  href="rider/nils-politt">POLITT Nils</a></td><td>3827</td></tr>
-<tr class=""><td>12</td><td><span class="flag ec"></span> <a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td><td>3316</td></tr>
-<tr class=""><td>13</td><td><span class="flag co"></span> <a  href="rider/juan-sebastian-molano">MOLANO Juan Sebastián</a></td><td>2914</td></tr>
+<tr class=""><td>11</td><td><span class="flag de"></span> <a  href="rider/nils-politt">POLITT Nils</a></td><td>3860</td></tr>
+<tr class=""><td>12</td><td><span class="flag ec"></span> <a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td><td>3456</td></tr>
+<tr class=""><td>13</td><td><span class="flag co"></span> <a  href="rider/juan-sebastian-molano">MOLANO Juan Sebastián</a></td><td>2937</td></tr>
 <tr class=""><td>14</td><td><span class="flag mx"></span> <a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td><td>2516</td></tr>
 <tr class=""><td>15</td><td><span class="flag au"></span> <a  href="rider/jay-vine">VINE Jay</a></td><td>2187</td></tr>
-<tr class=""><td>16</td><td><span class="flag be"></span> <a  href="rider/florian-vermeersch">VERMEERSCH Florian</a></td><td>2088</td></tr>
+<tr class=""><td>16</td><td><span class="flag be"></span> <a  href="rider/florian-vermeersch">VERMEERSCH Florian</a></td><td>2143</td></tr>
 <tr class=""><td>17</td><td><span class="flag dk"></span> <a  href="rider/mikkel-bjerg">BJERG Mikkel</a></td><td>1884</td></tr>
 <tr class=""><td>18</td><td><span class="flag it"></span> <a  href="rider/alessandro-covi">COVI Alessandro</a></td><td>1708</td></tr>
-<tr class=""><td>19</td><td><span class="flag no"></span> <a  href="rider/vegard-stake-laengen">LAENGEN Vegard Stake</a></td><td>1486</td></tr>
-<tr class=""><td>20</td><td><span class="flag ch"></span> <a  href="rider/jan-christen">CHRISTEN Jan</a></td><td>1069</td></tr>
-<tr class=""><td>21</td><td><span class="flag pt"></span> <a  href="rider/antonio-morgado">MORGADO António</a></td><td>1036</td></tr>
+<tr class=""><td>19</td><td><span class="flag no"></span> <a  href="rider/vegard-stake-laengen">LAENGEN Vegard Stake</a></td><td>1491</td></tr>
+<tr class=""><td>20</td><td><span class="flag ch"></span> <a  href="rider/jan-christen">CHRISTEN Jan</a></td><td>1219</td></tr>
+<tr class=""><td>21</td><td><span class="flag pt"></span> <a  href="rider/antonio-morgado">MORGADO António</a></td><td>1101</td></tr>
 <tr class=""><td>22</td><td><span class="flag it"></span> <a  href="rider/filippo-baroncini">BARONCINI Filippo</a></td><td>1004</td></tr>
-<tr class=""><td>23</td><td><span class="flag pt"></span> <a  href="rider/rui-oliveira">OLIVEIRA Rui</a></td><td>966</td></tr>
+<tr class=""><td>23</td><td><span class="flag pt"></span> <a  href="rider/rui-oliveira">OLIVEIRA Rui</a></td><td>971</td></tr>
 <tr class=""><td>24</td><td><span class="flag be"></span> <a  href="rider/rune-herregodts">HERREGODTS Rune</a></td><td>848</td></tr>
 <tr class=""><td>25</td><td><span class="flag si"></span> <a  href="rider/domen-novak">NOVAK Domen</a></td><td>675</td></tr>
 <tr class=""><td>26</td><td><span class="flag pt"></span> <a  href="rider/ivo-emanuel-alves">OLIVEIRA Ivo</a></td><td>603</td></tr>
-<tr class=""><td>27</td><td><span class="flag es"></span> <a  href="rider/igor-arrieta-lizarraga">ARRIETA Igor</a></td><td>537</td></tr>
-<tr class=""><td>28</td><td><span class="flag dk"></span> <a  href="rider/julius-johansen">JOHANSEN Julius</a></td><td>364</td></tr>
+<tr class=""><td>27</td><td><span class="flag es"></span> <a  href="rider/igor-arrieta-lizarraga">ARRIETA Igor</a></td><td>542</td></tr>
+<tr class=""><td>28</td><td><span class="flag dk"></span> <a  href="rider/julius-johansen">JOHANSEN Julius</a></td><td>377</td></tr>
 <tr class=""><td>29</td><td><span class="flag es"></span> <a  href="rider/pablo-torres-arias">TORRES Pablo</a></td><td>171</td></tr>
 </tbody></table></div>
 <div class="stab country hide riderlistcont">
@@ -335,35 +349,35 @@
 <th class="w67 ">ridername</th>
 <th class="w27 ">age</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag no"></span> <a  href="rider/vegard-stake-laengen">LAENGEN Vegard Stake</a></td><td>36y + 184d</td></tr>
-<tr class=""><td>2</td><td><span class="flag pl"></span> <a  href="rider/rafal-majka">MAJKA Rafał</a></td><td>35y + 332d</td></tr>
-<tr class=""><td>3</td><td><span class="flag be"></span> <a  href="rider/tim-wellens">WELLENS Tim</a></td><td>34y + 92d</td></tr>
-<tr class=""><td>4</td><td><span class="flag gb"></span> <a  href="rider/adam-yates">YATES Adam</a></td><td>33y + 3d</td></tr>
-<tr class=""><td>5</td><td><span class="flag es"></span> <a  href="rider/marc-soler">SOLER Marc</a></td><td>31y + 261d</td></tr>
-<tr class=""><td>6</td><td><span class="flag at"></span> <a  href="rider/felix-grossschartner">GROßSCHARTNER Felix</a></td><td>31y + 230d</td></tr>
-<tr class=""><td>7</td><td><span class="flag de"></span> <a  href="rider/nils-politt">POLITT Nils</a></td><td>31y + 157d</td></tr>
-<tr class=""><td>8</td><td><span class="flag co"></span> <a  href="rider/juan-sebastian-molano">MOLANO Juan Sebastián</a></td><td>30y + 279d</td></tr>
-<tr class=""><td>9</td><td><span class="flag si"></span> <a  href="rider/domen-novak">NOVAK Domen</a></td><td>30y + 29d</td></tr>
-<tr class=""><td>10</td><td><span class="flag au"></span> <a  href="rider/jay-vine">VINE Jay</a></td><td>29y + 267d</td></tr>
-<tr class=""><td>11</td><td><span class="flag pt"></span> <a  href="rider/ivo-emanuel-alves">OLIVEIRA Ivo</a></td><td>28y + 339d</td></tr>
-<tr class=""><td>12</td><td><span class="flag pt"></span> <a  href="rider/rui-oliveira">OLIVEIRA Rui</a></td><td>28y + 339d</td></tr>
-<tr class=""><td>13</td><td><span class="flag ec"></span> <a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td><td>28y + 159d</td></tr>
-<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/pavel-sivakov">SIVAKOV Pavel</a></td><td>28y + 30d</td></tr>
-<tr class=""><td>15</td><td><span class="flag us"></span> <a  href="rider/brandon-mcnulty">MCNULTY Brandon</a></td><td>27y + 130d</td></tr>
-<tr class=""><td>16</td><td><span class="flag be"></span> <a  href="rider/rune-herregodts">HERREGODTS Rune</a></td><td>27y + 14d</td></tr>
-<tr class=""><td>17</td><td><span class="flag pt"></span> <a  href="rider/joao-almeida">ALMEIDA João</a></td><td>27y + 5d</td></tr>
-<tr class=""><td>18</td><td><span class="flag si"></span> <a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>26y + 323d</td></tr>
-<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/alessandro-covi">COVI Alessandro</a></td><td>26y + 316d</td></tr>
-<tr class=""><td>20</td><td><span class="flag dk"></span> <a  href="rider/mikkel-bjerg">BJERG Mikkel</a></td><td>26y + 280d</td></tr>
-<tr class=""><td>21</td><td><span class="flag be"></span> <a  href="rider/florian-vermeersch">VERMEERSCH Florian</a></td><td>26y + 151d</td></tr>
-<tr class=""><td>22</td><td><span class="flag dk"></span> <a  href="rider/julius-johansen">JOHANSEN Julius</a></td><td>25y + 331d</td></tr>
-<tr class=""><td>23</td><td><span class="flag it"></span> <a  href="rider/filippo-baroncini">BARONCINI Filippo</a></td><td>24y + 349d</td></tr>
-<tr class=""><td>24</td><td><span class="flag es"></span> <a  href="rider/juan-ayuso-pesquera">AYUSO Juan</a></td><td>22y + 328d</td></tr>
-<tr class=""><td>25</td><td><span class="flag es"></span> <a  href="rider/igor-arrieta-lizarraga">ARRIETA Igor</a></td><td>22y + 245d</td></tr>
-<tr class=""><td>26</td><td><span class="flag mx"></span> <a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td><td>21y + 256d</td></tr>
-<tr class=""><td>27</td><td><span class="flag pt"></span> <a  href="rider/antonio-morgado">MORGADO António</a></td><td>21y + 194d</td></tr>
-<tr class=""><td>28</td><td><span class="flag ch"></span> <a  href="rider/jan-christen">CHRISTEN Jan</a></td><td>21y + 45d</td></tr>
-<tr class=""><td>29</td><td><span class="flag es"></span> <a  href="rider/pablo-torres-arias">TORRES Pablo</a></td><td>19y + 273d</td></tr>
+<tr class=""><td>1</td><td><span class="flag no"></span> <a  href="rider/vegard-stake-laengen">LAENGEN Vegard Stake</a></td><td>36y + 199d</td></tr>
+<tr class=""><td>2</td><td><span class="flag pl"></span> <a  href="rider/rafal-majka">MAJKA Rafał</a></td><td>35y + 347d</td></tr>
+<tr class=""><td>3</td><td><span class="flag be"></span> <a  href="rider/tim-wellens">WELLENS Tim</a></td><td>34y + 107d</td></tr>
+<tr class=""><td>4</td><td><span class="flag gb"></span> <a  href="rider/adam-yates">YATES Adam</a></td><td>33y + 18d</td></tr>
+<tr class=""><td>5</td><td><span class="flag es"></span> <a  href="rider/marc-soler">SOLER Marc</a></td><td>31y + 276d</td></tr>
+<tr class=""><td>6</td><td><span class="flag at"></span> <a  href="rider/felix-grossschartner">GROßSCHARTNER Felix</a></td><td>31y + 245d</td></tr>
+<tr class=""><td>7</td><td><span class="flag de"></span> <a  href="rider/nils-politt">POLITT Nils</a></td><td>31y + 172d</td></tr>
+<tr class=""><td>8</td><td><span class="flag co"></span> <a  href="rider/juan-sebastian-molano">MOLANO Juan Sebastián</a></td><td>30y + 294d</td></tr>
+<tr class=""><td>9</td><td><span class="flag si"></span> <a  href="rider/domen-novak">NOVAK Domen</a></td><td>30y + 44d</td></tr>
+<tr class=""><td>10</td><td><span class="flag au"></span> <a  href="rider/jay-vine">VINE Jay</a></td><td>29y + 282d</td></tr>
+<tr class=""><td>11</td><td><span class="flag pt"></span> <a  href="rider/ivo-emanuel-alves">OLIVEIRA Ivo</a></td><td>28y + 354d</td></tr>
+<tr class=""><td>12</td><td><span class="flag pt"></span> <a  href="rider/rui-oliveira">OLIVEIRA Rui</a></td><td>28y + 354d</td></tr>
+<tr class=""><td>13</td><td><span class="flag ec"></span> <a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td><td>28y + 174d</td></tr>
+<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/pavel-sivakov">SIVAKOV Pavel</a></td><td>28y + 45d</td></tr>
+<tr class=""><td>15</td><td><span class="flag us"></span> <a  href="rider/brandon-mcnulty">MCNULTY Brandon</a></td><td>27y + 145d</td></tr>
+<tr class=""><td>16</td><td><span class="flag be"></span> <a  href="rider/rune-herregodts">HERREGODTS Rune</a></td><td>27y + 29d</td></tr>
+<tr class=""><td>17</td><td><span class="flag pt"></span> <a  href="rider/joao-almeida">ALMEIDA João</a></td><td>27y + 20d</td></tr>
+<tr class=""><td>18</td><td><span class="flag si"></span> <a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>26y + 338d</td></tr>
+<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/alessandro-covi">COVI Alessandro</a></td><td>26y + 331d</td></tr>
+<tr class=""><td>20</td><td><span class="flag dk"></span> <a  href="rider/mikkel-bjerg">BJERG Mikkel</a></td><td>26y + 295d</td></tr>
+<tr class=""><td>21</td><td><span class="flag be"></span> <a  href="rider/florian-vermeersch">VERMEERSCH Florian</a></td><td>26y + 166d</td></tr>
+<tr class=""><td>22</td><td><span class="flag dk"></span> <a  href="rider/julius-johansen">JOHANSEN Julius</a></td><td>25y + 346d</td></tr>
+<tr class=""><td>23</td><td><span class="flag it"></span> <a  href="rider/filippo-baroncini">BARONCINI Filippo</a></td><td>24y + 364d</td></tr>
+<tr class=""><td>24</td><td><span class="flag es"></span> <a  href="rider/juan-ayuso-pesquera">AYUSO Juan</a></td><td>22y + 343d</td></tr>
+<tr class=""><td>25</td><td><span class="flag es"></span> <a  href="rider/igor-arrieta-lizarraga">ARRIETA Igor</a></td><td>22y + 260d</td></tr>
+<tr class=""><td>26</td><td><span class="flag mx"></span> <a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td><td>21y + 271d</td></tr>
+<tr class=""><td>27</td><td><span class="flag pt"></span> <a  href="rider/antonio-morgado">MORGADO António</a></td><td>21y + 209d</td></tr>
+<tr class=""><td>28</td><td><span class="flag ch"></span> <a  href="rider/jan-christen">CHRISTEN Jan</a></td><td>21y + 60d</td></tr>
+<tr class=""><td>29</td><td><span class="flag es"></span> <a  href="rider/pablo-torres-arias">TORRES Pablo</a></td><td>19y + 288d</td></tr>
 </tbody></table></div>
 <div class="stab name riderlistcont">
 <ul class="teamlist list lineh18" >
@@ -376,7 +390,7 @@
 <li class=""><div class="w10" >7</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/alessandro-covi">COVI Alessandro</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >26</div></li>
 <li class=""><div class="w10" >8</div><div class="w80" ><div class="mr5" ><span class="flag mx"></span> <a  href="rider/isaac-del-toro">DEL TORO Isaac</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >21</div></li>
 <li class=""><div class="w10" >9</div><div class="w80" ><div class="mr5" ><span class="flag at"></span> <a  href="rider/felix-grossschartner">GROßSCHARTNER Felix</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >31</div></li>
-<li class=""><div class="w10" >10</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/rune-herregodts">HERREGODTS Rune</a></div><div class="fs10 clr999" ></div><div><span class="outWithInjury">out</span></div></div><div class="w10" >27</div></li>
+<li class=""><div class="w10" >10</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/rune-herregodts">HERREGODTS Rune</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >27</div></li>
 <li class=""><div class="w10" >11</div><div class="w80" ><div class="mr5" ><span class="flag dk"></span> <a  href="rider/julius-johansen">JOHANSEN Julius</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >25</div></li>
 <li class=""><div class="w10" >12</div><div class="w80" ><div class="mr5" ><span class="flag no"></span> <a  href="rider/vegard-stake-laengen">LAENGEN Vegard Stake</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >36</div></li>
 <li class=""><div class="w10" >13</div><div class="w80" ><div class="mr5" ><span class="flag pl"></span> <a  href="rider/rafal-majka">MAJKA Rafał</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >35</div></li>
@@ -443,9 +457,7 @@
 </div>
 <div class="mt20">
 <h4>Related teams</h4><ul class="list fs14" >
-<li class=""><div class="blue" ><a  href="team/uae-team-adq-2025">UAE Team ADQ (WTW)</a></div><div class="fs10" ></div></li>
-<li class=""><div class="blue" ><a  href="team/uae-team-emirates-gen-z-2025">UAE Team Emirates Gen Z (CT)</a></div><div class="fs10" ></div></li>
-<li class=""><div class="blue" ><a  href="team/uae-development-team-2025">UAE Development Team (CTW)</a></div><div class="fs10" ></div></li>
+<li class=""><div class="blue" ><a  href="team/uae-team-emirates-gen-z-2025">UAE Team Emirates Gen Z (CT)</a></div><div class="fs12" >devo</div></li>
 </ul>
 </div>
 <div class="mt20">
@@ -476,24 +488,21 @@
 <th class="w8 cu600">Class</th>
 <th class="w32 cu600 fs10 clr555">Riders</th>
 </tr></thead><tbody>
-<tr class=""><td class="cu600" >04/08 - 10/08</td><td class="cs600 hide" >04/08 - 10/08</td><td><span class="flag pl"></span> <a  href="race/tour-de-pologne/2025">Tour de Pologne</a></td><td class="cu600" >2.UWT</td><td class="cu600 fs10 clr555" >Baroncini, Christen, Johansen, Laengen, Majka, McNulty, Vermeersch</td></tr>
-<tr class=""><td class="cu600" >17/08</td><td class="cs600 hide" >17/08</td><td><span class="flag de"></span> <a  href="race/cyclassics-hamburg/2025">Cyclassics Hamburg</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" >Covi, Christen, del Toro, McNulty, Molano, Narváez, Politt</td></tr>
-<tr class=""><td class="cu600" >20/08 - 24/08</td><td class="cs600 hide" >20/08 - 24/08</td><td><span class="flag be"></span> <a  href="race/renewi-tour/2025">Renewi Tour</a></td><td class="cu600" >2.UWT</td><td class="cu600 fs10 clr555" >Morgado, Wellens</td></tr>
-<tr class=""><td class="cu600" >20/08 - 24/08</td><td class="cs600 hide" >20/08 - 24/08</td><td><span class="flag de"></span> <a  href="race/deutschland-tour/2025">Deutschland Tour</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" >Majka, Politt, Yates</td></tr>
 <tr class=""><td class="cu600" >23/08 - 14/09</td><td class="cs600 hide" >23/08 - 14/09</td><td><span class="flag es"></span> <a  href="race/vuelta-a-espana/2025">La Vuelta Ciclista a España</a></td><td class="cu600" >2.UWT</td><td class="cu600 fs10 clr555" >Novak, Almeida, Soler, Bjerg, Ayuso, Großschartner, Oliveira, Vine</td></tr>
-<tr class="hide"><td class="cu600" >31/08</td><td class="cs600 hide" >31/08</td><td><span class="flag fr"></span> <a  href="race/bretagne-classic/2025">Bretagne Classic - Ouest-France</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >02/09 - 07/09</td><td class="cs600 hide" >02/09 - 07/09</td><td><span class="flag gb"></span> <a  href="race/tour-of-britain/2025">Lloyds Bank Tour of Britain Men</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >07/09</td><td class="cs600 hide" >07/09</td><td><span class="flag it"></span> <a  href="race/gp-industria-artigianato/2025">GP Industria & Artigianato</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class=""><td class="cu600" >31/08</td><td class="cs600 hide" >31/08</td><td><span class="flag fr"></span> <a  href="race/bretagne-classic/2025">Bretagne Classic - Ouest-France</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" >del Toro</td></tr>
+<tr class=""><td class="cu600" >02/09 - 07/09</td><td class="cs600 hide" >02/09 - 07/09</td><td><span class="flag gb"></span> <a  href="race/tour-of-britain/2025">Lloyds Bank Tour of Britain Men</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class=""><td class="cu600" >06/09</td><td class="cs600 hide" >06/09</td><td><span class="flag us"></span> <a  href="race/maryland-cycling-classic/2025">Maryland Cycling Classic</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class=""><td class="cu600" >07/09</td><td class="cs600 hide" >07/09</td><td><span class="flag it"></span> <a  href="race/gp-industria-artigianato/2025">GP Industria & Artigianato</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >10/09</td><td class="cs600 hide" >10/09</td><td><span class="flag it"></span> <a  href="race/giro-di-toscana/2025">Giro della Toscana - Memorial Alfredo Martini</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >11/09</td><td class="cs600 hide" >11/09</td><td><span class="flag it"></span> <a  href="race/gp-citta-di-peccioli/2025">Gran Premio città di Peccioli - Coppa Sabatini</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >12/09</td><td class="cs600 hide" >12/09</td><td><span class="flag ca"></span> <a  href="race/gp-quebec/2025">Grand Prix Cycliste de Québec</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" >Pogačar</td></tr>
+<tr class="hide"><td class="cu600" >12/09</td><td class="cs600 hide" >12/09</td><td><span class="flag ca"></span> <a  href="race/gp-quebec/2025">Grand Prix Cycliste de Québec</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" >Pogačar, McNulty</td></tr>
 <tr class="hide"><td class="cu600" >13/09</td><td class="cs600 hide" >13/09</td><td><span class="flag it"></span> <a  href="race/memorial-marco-pantani/2025">Memorial Marco Pantani</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag ca"></span> <a  href="race/gp-montreal/2025">Grand Prix Cycliste de Montréal</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" >Pogačar</td></tr>
 <tr class="hide"><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag it"></span> <a  href="race/trofeo-matteotti/2025">Trofeo Matteotti</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class="hide"><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag ca"></span> <a  href="race/gp-montreal/2025">Grand Prix Cycliste de Montréal</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" >Pogačar, McNulty</td></tr>
 <tr class="hide"><td class="cu600" >17/09</td><td class="cs600 hide" >17/09</td><td><span class="flag be"></span> <a  href="race/gp-de-wallonie/2025">Grand Prix de Wallonie</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >17/09 - 21/09</td><td class="cs600 hide" >17/09 - 21/09</td><td><span class="flag lu"></span> <a  href="race/tour-de-luxembourg/2025">Skoda Tour de Luxembourg</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" >Majka</td></tr>
 <tr class="hide"><td class="cu600" >20/09</td><td class="cs600 hide" >20/09</td><td><span class="flag be"></span> <a  href="race/gp-impanis-van-petegem/2025">SUPER 8 Classic</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >30/09 - 05/10</td><td class="cs600 hide" >30/09 - 05/10</td><td><span class="flag hr"></span> <a  href="race/tour-of-croatia/2025">CRO Race</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class="hide"><td class="cu600" >30/09 - 05/10</td><td class="cs600 hide" >30/09 - 05/10</td><td><span class="flag hr"></span> <a  href="race/tour-of-croatia/2025">CRO Race</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" >McNulty, Oliveira, Arrieta, Herregodts, Jasim Al-Ali, Vermeersch, Wellens</td></tr>
 <tr class="hide"><td class="cu600" >04/10</td><td class="cs600 hide" >04/10</td><td><span class="flag it"></span> <a  href="race/giro-dell-emilia/2025">Giro dell'Emilia</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >05/10</td><td class="cs600 hide" >05/10</td><td><span class="flag it"></span> <a  href="race/coppa-agostoni/2025">Coppa Agostoni - Giro delle Brianze</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >06/10</td><td class="cs600 hide" >06/10</td><td><span class="flag it"></span> <a  href="race/coppa-bernocchi/2025">Coppa Bernocchi - GP Banco BPM</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
@@ -506,7 +515,7 @@
 <tr class="hide"><td class="cu600" >14/10 - 19/10</td><td class="cs600 hide" >14/10 - 19/10</td><td><span class="flag cn"></span> <a  href="race/tour-of-guangxi/2025">Gree-Tour of Guangxi</a></td><td class="cu600" >2.UWT</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >15/10</td><td class="cs600 hide" >15/10</td><td><span class="flag it"></span> <a  href="race/giro-del-veneto/2025">Giro del Veneto</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >19/10</td><td class="cs600 hide" >19/10</td><td><span class="flag it"></span> <a  href="race/veneto-classic/2025">Veneto Classic</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-</tbody></table><a class="show-all" href="">show 25 more lines</a></div>
+</tbody></table><a class="show-all-link show-all" href="">show 22 more lines</a></div>
 <div class="mt20">
 <h4>Last victories</h4><table class=" basic"><thead><tr>
 <th class="w8 ">#</th>
@@ -514,6 +523,9 @@
 <th class="w8 ">Class</th>
 <th class="w31 ">Winner</th>
 </tr></thead><tbody>
+<tr class=""><td>73</td><td><span class="flag de"></span> <a  href="race/deutschland-tour/2025/stage-2">Lidl Deutschland Tour | Stage 2</a></td><td>2.Pro</td><td><a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td></tr>
+<tr class=""><td>72</td><td><span class="flag pl"></span> <a  href="race/tour-de-pologne/2025/gc">Tour de Pologne | General classification</a></td><td>2.UWT</td><td><a  href="rider/brandon-mcnulty">MCNULTY Brandon</a></td></tr>
+<tr class=""><td>71</td><td><span class="flag pl"></span> <a  href="race/tour-de-pologne/2025/stage-7">Tour de Pologne | Stage 7 (ITT)</a></td><td>2.UWT</td><td><a  href="rider/brandon-mcnulty">MCNULTY Brandon</a></td></tr>
 <tr class=""><td>70</td><td><span class="flag es"></span> <a  href="race/vuelta-a-burgos/2025/gc">Vuelta a Burgos | General classification</a></td><td>2.Pro</td><td><a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td></tr>
 <tr class=""><td>69</td><td><span class="flag es"></span> <a  href="race/circuito-de-getxo/2025/result">Circuito de Getxo - Memorial Hermanos Otxoa</a></td><td>1.1</td><td><a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td></tr>
 <tr class=""><td>68</td><td><span class="flag fr"></span> <a  href="race/tour-de-france/2025/gc">Tour de France | General classification</a></td><td>2.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td></tr>
@@ -521,9 +533,9 @@
 <tr class=""><td>66</td><td><span class="flag es"></span> <a  href="race/clasica-terres-de-l-ebre/2025/result">Clàssica Terres de l'Ebre</a></td><td>1.1</td><td><a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td></tr>
 <tr class=""><td>65</td><td><span class="flag fr"></span> <a  href="race/tour-de-france/2025/stage-15">Tour de France | Stage 15</a></td><td>2.UWT</td><td><a  href="rider/tim-wellens">WELLENS Tim</a></td></tr>
 <tr class=""><td>64</td><td><span class="flag fr"></span> <a  href="race/tour-de-france/2025/stage-13">Tour de France | Stage 13 (ITT)</a></td><td>2.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td></tr>
-<tr class=""><td>63</td><td><span class="flag fr"></span> <a  href="race/tour-de-france/2025/stage-12">Tour de France | Stage 12</a></td><td>2.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td></tr>
-<tr class=""><td>62</td><td><span class="flag at"></span> <a  href="race/tour-of-austria/2025/gc">Tour of Austria | General classification</a></td><td>2.1</td><td><a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td></tr>
-<tr class=""><td>61</td><td><span class="flag at"></span> <a  href="race/tour-of-austria/2025/stage-4">Tour of Austria | Stage 4</a></td><td>2.1</td><td><a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td></tr>
+<tr class="hide"><td>63</td><td><span class="flag fr"></span> <a  href="race/tour-de-france/2025/stage-12">Tour de France | Stage 12</a></td><td>2.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td></tr>
+<tr class="hide"><td>62</td><td><span class="flag at"></span> <a  href="race/tour-of-austria/2025/gc">Tour of Austria | General classification</a></td><td>2.1</td><td><a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td></tr>
+<tr class="hide"><td>61</td><td><span class="flag at"></span> <a  href="race/tour-of-austria/2025/stage-4">Tour of Austria | Stage 4</a></td><td>2.1</td><td><a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td></tr>
 <tr class="hide"><td>60</td><td><span class="flag fr"></span> <a  href="race/tour-de-france/2025/stage-7">Tour de France | Stage 7</a></td><td>2.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td></tr>
 <tr class="hide"><td>59</td><td><span class="flag at"></span> <a  href="race/tour-of-austria/2025/stage-3">Tour of Austria | Stage 3</a></td><td>2.1</td><td><a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td></tr>
 <tr class="hide"><td>58</td><td><span class="flag at"></span> <a  href="race/tour-of-austria/2025/stage-2">Tour of Austria | Stage 2</a></td><td>2.1</td><td><a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td></tr>
@@ -584,7 +596,7 @@
 <tr class="hide"><td>3</td><td><span class="flag au"></span> <a  href="race/tour-down-under/2025/gc">Santos Tour Down Under | General Classification</a></td><td>2.UWT</td><td><a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td></tr>
 <tr class="hide"><td>2</td><td><span class="flag es"></span> <a  href="race/ruta-de-la-ceramica-gran-premio-castellon/2025/result">Gran Premio Castellón - Ruta de la Cerámica</a></td><td>1.1</td><td><a  href="rider/antonio-morgado">MORGADO António</a></td></tr>
 <tr class="hide"><td>1</td><td><span class="flag au"></span> <a  href="race/tour-down-under/2025/stage-5">Santos Tour Down Under | Stage 5</a></td><td>2.UWT</td><td><a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td></tr>
-</tbody></table><a class="show-all" href="">show 60 more lines</a></div>
+</tbody></table><a class="show-all-link show-all" href="">show 63 more lines</a></div>
 <div class="mt30">
 <h4>Top results</h4><table class=" basic"><thead><tr>
 <th class="w7 ">Result</th>
@@ -595,14 +607,15 @@
 </tr></thead><tbody>
 <tr class=""><td>1</td><td><span class="flag fr"></span> <a  href="race/tour-de-france/2025/gc">Tour de France | General classification</a></td><td>2.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>500</td></tr>
 <tr class=""><td>2</td><td><span class="flag it"></span> <a  href="race/giro-d-italia/2025/gc">Giro d'Italia | General Classification</a></td><td>2.UWT</td><td><a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td><td>290</td></tr>
-<tr class=""><td>1</td><td><span class="flag be"></span> <a  href="race/liege-bastogne-liege/2025/result">Liège-Bastogne-Liège</a></td><td>1.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>275</td></tr>
 <tr class=""><td>1</td><td><span class="flag be"></span> <a  href="race/ronde-van-vlaanderen/2025/result">Ronde van Vlaanderen - Tour des Flandres ME</a></td><td>1.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>275</td></tr>
-<tr class=""><td>1</td><td><span class="flag fr"></span> <a  href="race/dauphine/2025/gc">Critérium du Dauphiné | General classification</a></td><td>2.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>250</td></tr>
-<tr class=""><td>1</td><td><span class="flag it"></span> <a  href="race/tirreno-adriatico/2025/gc">Tirreno-Adriatico | General classification</a></td><td>2.UWT</td><td><a  href="rider/juan-ayuso-pesquera">AYUSO Juan</a></td><td>250</td></tr>
-<tr class=""><td>1</td><td><span class="flag au"></span> <a  href="race/tour-down-under/2025/gc">Santos Tour Down Under | General Classification</a></td><td>2.UWT</td><td><a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td><td>250</td></tr>
-<tr class=""><td>1</td><td><span class="flag ae"></span> <a  href="race/uae-tour/2025/gc">UAE Tour | General classification</a></td><td>2.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>250</td></tr>
+<tr class=""><td>1</td><td><span class="flag be"></span> <a  href="race/liege-bastogne-liege/2025/result">Liège-Bastogne-Liège</a></td><td>1.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>275</td></tr>
 <tr class=""><td>1</td><td><span class="flag ch"></span> <a  href="race/tour-de-suisse/2025/gc">Tour de Suisse | General classification</a></td><td>2.UWT</td><td><a  href="rider/joao-almeida">ALMEIDA João</a></td><td>250</td></tr>
 <tr class=""><td>1</td><td><span class="flag es"></span> <a  href="race/itzulia-basque-country/2025/gc">Itzulia Basque Country | General classification</a></td><td>2.UWT</td><td><a  href="rider/joao-almeida">ALMEIDA João</a></td><td>250</td></tr>
+<tr class=""><td>1</td><td><span class="flag ae"></span> <a  href="race/uae-tour/2025/gc">UAE Tour | General classification</a></td><td>2.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>250</td></tr>
+<tr class=""><td>1</td><td><span class="flag au"></span> <a  href="race/tour-down-under/2025/gc">Santos Tour Down Under | General Classification</a></td><td>2.UWT</td><td><a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td><td>250</td></tr>
+<tr class=""><td>1</td><td><span class="flag it"></span> <a  href="race/tirreno-adriatico/2025/gc">Tirreno-Adriatico | General classification</a></td><td>2.UWT</td><td><a  href="rider/juan-ayuso-pesquera">AYUSO Juan</a></td><td>250</td></tr>
+<tr class=""><td>1</td><td><span class="flag fr"></span> <a  href="race/dauphine/2025/gc">Critérium du Dauphiné | General classification</a></td><td>2.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>250</td></tr>
+<tr class="hide"><td>1</td><td><span class="flag pl"></span> <a  href="race/tour-de-pologne/2025/gc">Tour de Pologne | General classification</a></td><td>2.UWT</td><td><a  href="rider/brandon-mcnulty">MCNULTY Brandon</a></td><td>250</td></tr>
 <tr class="hide"><td>1</td><td><span class="flag ch"></span> <a  href="race/tour-de-romandie/2025/gc">Tour de Romandie | General classification</a></td><td>2.UWT</td><td><a  href="rider/joao-almeida">ALMEIDA João</a></td><td>250</td></tr>
 <tr class="hide"><td>1</td><td><span class="flag be"></span> <a  href="race/classic-brugge-de-panne/2025/result">Classic Brugge-De Panne ME</a></td><td>1.UWT</td><td><a  href="rider/juan-sebastian-molano">MOLANO Juan Sebastián</a></td><td>225</td></tr>
 <tr class="hide"><td>1</td><td><span class="flag it"></span> <a  href="race/strade-bianche/2025/result">Strade Bianche</a></td><td>1.UWT</td><td><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></td><td>225</td></tr>
@@ -612,8 +625,7 @@
 <tr class="hide"><td>13</td><td><span class="flag fr"></span> <a  href="race/tour-de-france/2025/gc">Tour de France | General classification</a></td><td>2.UWT</td><td><a  href="rider/jhonatan-narvaez">NARVÁEZ Jhonatan</a></td><td>170</td></tr>
 <tr class="hide"><td>9</td><td><span class="flag it"></span> <a  href="race/giro-d-italia/2025/gc">Giro d'Italia | General Classification</a></td><td>2.UWT</td><td><a  href="rider/brandon-mcnulty">MCNULTY Brandon</a></td><td>160</td></tr>
 <tr class="hide"><td>3</td><td><span class="flag ch"></span> <a  href="race/tour-de-romandie/2025/gc">Tour de Romandie | General classification</a></td><td>2.UWT</td><td><a  href="rider/jay-vine">VINE Jay</a></td><td>160</td></tr>
-<tr class="hide"><td>1</td><td><span class="flag es"></span> <a  href="race/vuelta-a-burgos/2025/gc">Vuelta a Burgos | General classification</a></td><td>2.Pro</td><td><a  href="rider/isaac-del-toro">DEL TORO Isaac</a></td><td>150</td></tr>
-</tbody></table><a class="show-all" href="">show 10 more lines</a></div>
+</tbody></table><a class="show-all-link show-all" href="">show 10 more lines</a></div>
 </div>
 <div class="borderbox w30 right mb_w100" >
 <div class="">
@@ -747,7 +759,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1867s</span></li>
+<li><span>Pageload 0.2192s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script>
+<script src="search_list22.js"></script>

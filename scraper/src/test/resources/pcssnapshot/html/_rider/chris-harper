@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -129,6 +143,11 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
+<div class="">
+<ul class="list fs14" >
+<li class=""><div>Vuelta a España</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="race/vuelta-a-espana/2025/stage-3/live">LiveStats</a></div><div class="blue mr10" ><a  href="rider-in-race/chris-harper/vuelta-a-espana/2025">Race stats</a></div><div class="blue" ><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></div></li>
+</ul>
+</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -161,7 +180,7 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w38 bg green left" ></div></div></div><div class="xvalue ac" >435</div><div class="xtitle" ><a  href="rider/chris-harper/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w39 bg green left" ></div></div></div><div class="xvalue ac" >440</div><div class="xtitle" ><a  href="rider/chris-harper/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg red left" ></div></div></div><div class="xvalue ac" >1141</div><div class="xtitle" ><a  href="rider/chris-harper/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w26 bg blue left" ></div></div></div><div class="xvalue ac" >294</div><div class="xtitle" ><a  href="rider/chris-harper/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w6 bg orange left" ></div></div></div><div class="xvalue ac" >68</div><div class="xtitle" ><a  href="rider/chris-harper/results/career-points-sprint">Sprint</a></div></li>
@@ -183,14 +202,14 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/all-time">All time</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1912</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >218</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >253</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >224</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/all-time">All time</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1915</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >254</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;1020</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;21745</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -225,6 +244,9 @@
 <div class="">
 <span class="table-cont">
 <ul class="rdr-teams2  "  >
+<li class="showifmob combiLine"><div class="season">2026-2027</div><div class="name2"><a class="blue" href="team/q365-pro-cycing-team-2026">Q36.5 Pro Cycling Team</a> (PRT)</div><div class="clear"></div></li>
+<li class="main hideifmob "><div class="season">2027</div><div class="name"><a href="team/q365-pro-cycing-team-2027">Q36.5 Pro Cycling Team</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main hideifmob "><div class="season">2026</div><div class="name"><a href="team/q365-pro-cycing-team-2026">Q36.5 Pro Cycling Team</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2025</div><div class="name"><a href="team/team-jayco-alula-2025">Team Jayco AlUla</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2024</div><div class="name"><a href="team/team-jayco-alula-2024">Team Jayco AlUla</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2023</div><div class="name"><a href="team/team-jayco-alula-2023">Team Jayco AlUla</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
@@ -246,7 +268,7 @@
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
 <li class=""><div class="kpi" >4</div><div class="title" ><a  href="rider/chris-harper/statistics/wins">Wins</a></div><div class="info fs11" >GC (1)</div><div class="info fs11" >Oneday races (1)</div><div class="info fs11" >ITT (0)</div><div class="info fs11" ></div><div class="info fs11" ></div></li>
-<li class=""><div class="kpi" >6</div><div class="title" ><a  href="rider/chris-harper/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11" >tour (2) giro (2) vuelta(2)</div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div></li>
+<li class=""><div class="kpi" >7</div><div class="title" ><a  href="rider/chris-harper/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11" >tour (2) giro (2) vuelta(3)</div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div></li>
 <li class=""><div class="kpi" >5</div><div class="title" ><a  href="rider/chris-harper/statistics/top-classic-results">Classics</a></div><div class="info fs11" >RBX(0)</div><div class="info fs11" >MSR(0)</div><div class="info fs11" >RVV(0)</div><div class="info fs11" >LBL(1)</div><div class="info fs11" >LOM(4)</div></li>
 </ul>
 </div>
@@ -259,26 +281,16 @@
 <li class=""><a class="rdrFilterSeason" data-season="2021"  href="">2021</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2019"  href="">2019</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2018"  href="">2018</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2017"  href="">2017</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2016"  href="">2016</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2015"  href="">2015</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2014"  href="">2014</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2013"  href="">2013</a></li>
-<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2025" href="">2025</a></li>
-<li><a  class="rdrFilterSeason" data-season="2024" href="">2024</a></li>
-<li><a  class="rdrFilterSeason" data-season="2023" href="">2023</a></li>
-<li><a  class="rdrFilterSeason" data-season="2022" href="">2022</a></li>
-<li><a  class="rdrFilterSeason" data-season="2021" href="">2021</a></li>
-<li><a  class="rdrFilterSeason" data-season="2020" href="">2020</a></li>
-<li><a  class="rdrFilterSeason" data-season="2019" href="">2019</a></li>
-<li><a  class="rdrFilterSeason" data-season="2018" href="">2018</a></li>
+<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2018" href="">2018</a></li>
 <li><a  class="rdrFilterSeason" data-season="2017" href="">2017</a></li>
 <li><a  class="rdrFilterSeason" data-season="2016" href="">2016</a></li>
 <li><a  class="rdrFilterSeason" data-season="2015" href="">2015</a></li>
 <li><a  class="rdrFilterSeason" data-season="2014" href="">2014</a></li>
 <li><a  class="rdrFilterSeason" data-season="2013" href="">2013</a></li>
 </ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div class="simpleDropdown" style="">ROAD<ul><li><a class="rdrFilterDiscipline" data-discipline="pcs" href="">ROAD</a></li><li><a class="rdrFilterDiscipline" data-discipline="cx" href="">CROSS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td><span class="hideIfMobile">23.08 &rsaquo; 14.09</span><span class="showIfMobile fs12">23-14/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2025/stage-2-gc"><span>La Vuelta Ciclista a España</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/chris-harper/vuelta-a-espana">more</a></td></tr>
+<tr class="stage"><td>24.08</td><td>39</td><td>38</td><td><span class=""></span></td><td><a href="race/vuelta-a-espana/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Alba &rsaquo; Limone Piemonte</a>  </td><td>159.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>23.08</td><td>80</td><td>82</td><td><span class=""></span></td><td><a href="race/vuelta-a-espana/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Torino-Reggia di Venaria &rsaquo; Novara</a>  </td><td>186.7</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>02.08</td><td>34</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/san-sebastian/2025/result"><span>Donostia San Sebastian Klasikoa</span> (1.UWT)</a>  </td><td>211.4</td><td>5</td><td>8</td><td><a class="fs10" href="rider-in-race/chris-harper/san-sebastian">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">09.05 &rsaquo; 01.06</span><span class="showIfMobile fs12">9-1/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-d-italia/2025/stage-1-gc"><span>Giro d'Italia</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/chris-harper/giro-d-italia">more</a></td></tr>
 <tr class="stage"><td></td><td>6</td><td></td><td><span class="icon shirt w14 st7"></span></td><td><a href="race/giro-d-italia/2025/kom"><span class="imob">Mountains classification</span><span class="idesk">Mountains classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
@@ -318,7 +330,7 @@
 <tr class="stage"><td>08.02</td><td>49</td><td>50</td><td><span class=""></span></td><td><a href="race/tour-of-oman/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Bushar &rsaquo; Bimmah Sink Hole</a>  </td><td>177.7</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>07.02</td><td>29</td><td></td><td><span class=""></span></td><td><span class="flag om"></span> <a href="race/muscat-classic/2025/result"><span>Muscat Classic</span> (1.1)</a>  </td><td>170.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/chris-harper/muscat-classic">more</a></td></tr>
 <tr class="main"><td>02.02</td><td>27</td><td></td><td><span class=""></span></td><td><span class="flag au"></span> <a href="race/great-ocean-road-race/2025/result"><span>Cadel Evans Great Ocean Road Race - Men</span> (1.UWT)</a>  </td><td>183.8</td><td>8</td><td>12</td><td><a class="fs10" href="rider-in-race/chris-harper/great-ocean-road-race">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">21.01 &rsaquo; 26.01</span><span class="showIfMobile fs12">21-26/1</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag au"></span> <a href="race/tour-down-under/2025/stage-4-gc"><span>Santos Tour Down Under</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/chris-harper/tour-down-under">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">21.01 &rsaquo; 26.01</span><span class="showIfMobile fs12">21-26/1</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag au"></span> <a href="race/tour-down-under/2025/stage-1-gc"><span>Santos Tour Down Under</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/chris-harper/tour-down-under">more</a></td></tr>
 <tr class="stage"><td></td><td>4</td><td></td><td><span class="icon shirt w14 st7"></span></td><td><a href="race/tour-down-under/2025/kom"><span class="imob">Mountains classification</span><span class="idesk">Mountains classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>14</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-down-under/2025/gc"><span class="imob">General Classification</span><span class="idesk">General Classification</span></a>  </td><td></td><td>45</td><td>40</td><td></td></tr>
 <tr class="stage"><td>26.01</td><td>38</td><td></td><td><span class=""></span></td><td><a href="race/tour-down-under/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Adelaide &rsaquo; Adelaide</a>  </td><td>90</td><td></td><td></td><td></td></tr>
@@ -330,7 +342,7 @@
 <tr class="main"><td>18.01</td><td>104</td><td></td><td><span class=""></span></td><td><span class="flag au"></span> <a href="national-race/schwalbe-classic/2025/result"><span>Villawood Men's Classic</span> (NAT)</a>  </td><td>55.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/chris-harper/schwalbe-classic">more</a></td></tr>
 <tr class="main"><td>12.01</td><td>5</td><td></td><td><span class=""></span></td><td><span class="flag au"></span> <a href="race/nc-australia/2025/result"><span>National Championships Australia ME - Road Race</span> (NC)</a>  </td><td>177</td><td>2</td><td>40 <font class="red fs10">-10</font></td><td><a class="fs10" href="rider-in-race/chris-harper/nc-australia">more</a></td></tr>
 <tr class="main"><td>09.01</td><td>4</td><td></td><td><span class="iconv3 chrono"></span></td><td><span class="flag au"></span> <a href="race/australian-open-road-championships-itt/2025/result"><span>National Championships Australia ME - ITT</span> (NC)</a>  </td><td>38.4</td><td></td><td>15</td><td><a class="fs10" href="rider-in-race/chris-harper/australian-open-road-championships-itt">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>6233 km in <b>40</b> days | PCS points: <b>264</b> | UCI points: <b>432</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>6579 km in <b>42</b> days | PCS points: <b>264</b> | UCI points: <b>432</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -345,7 +357,7 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-08-10&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w61 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l61"  style="height: 12px; line-height: 12px; " >264</div></div></td><td class="fs11 " >159</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-08-25&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w61 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l61"  style="height: 12px; line-height: 12px; " >264</div></div></td><td class="fs11 " >179</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w58 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l58"  style="height: 12px; line-height: 12px; " >250</div></div></td><td class="fs11 " >255</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w75 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l75"  style="height: 12px; line-height: 12px; " >325</div></div></td><td class="fs11 " >201</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w38 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l38"  style="height: 12px; line-height: 12px; " >163</div></div></td><td class="fs11 " >331</td></tr>
@@ -429,9 +441,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0347s</span></li>
+<li><span>Pageload 0.0581s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script><script>
+<script src="search_list22.js"></script><script>
 var riderid = 174346;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

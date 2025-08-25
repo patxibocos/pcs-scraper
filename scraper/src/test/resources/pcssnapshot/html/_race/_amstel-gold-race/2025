@@ -17,9 +17,9 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
-<link rel="stylesheet" type="text/css" href="v3_site_b49.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
+<link rel="stylesheet" type="text/css" href="v3_site_b51.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -81,6 +81,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -91,6 +101,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -236,14 +250,14 @@
 <div class="mt20">
 <h4>Top competitors</h4><ul class="list fs14"  style="max-width: 550px; " >
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 si"></span> </div><div><a  href="rider/tadej-pogacar">POGAČAR Tadej</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 be"></span> </div><div><a  href="rider/remco-evenepoel">EVENEPOEL Remco</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 be"></span> </div><div><a  href="rider/wout-van-aert">VAN AERT Wout</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 ch"></span> </div><div><a  href="rider/marc-hirschi">HIRSCHI Marc</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 be"></span> </div><div><a  href="rider/remco-evenepoel">EVENEPOEL Remco</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 au"></span> </div><div><a  href="rider/ben-o-connor">O'CONNOR Ben</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 ch"></span> </div><div><a  href="rider/marc-hirschi">HIRSCHI Marc</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 fr"></span> </div><div><a  href="rider/kevin-vauquelin">VAUQUELIN Kévin</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 gb"></span> </div><div><a  href="rider/thomas-pidcock">PIDCOCK Thomas</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 us"></span> </div><div><a  href="rider/neilson-powless">POWLESS Neilson</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 fr"></span> </div><div><a  href="rider/romain-gregoire1">GRÉGOIRE Romain</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 nz"></span> </div><div><a  href="rider/corbin-strong">STRONG Corbin</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 ie"></span> </div><div><a  href="rider/ben-healy">HEALY Ben</a></div></li>
 </ul>
 </div>
@@ -258,12 +272,12 @@
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team5649"></span></div><div class="fs14 mr5" ><a  href="team/tudor-pro-cycling-team-2025">Tudor Pro Cycling Team</a></div><div class=" clr999 fs14" > (Hirschi, Alaphilippe)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1330"></span></div><div class="fs14 mr5" ><a  href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></div><div class=" clr999 fs14" > (van Aert, Benoot)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1261"></span></div><div class="fs14 mr5" ><a  href="team/xds-astana-team-2025">XDS Astana Team</a></div><div class=" clr999 fs14" > (Scaroni, Champoussin)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1253"></span></div><div class="fs14 mr5" ><a  href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></div><div class=" clr999 fs14" > (Wellens, Pogačar)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1253"></span></div><div class="fs14 mr5" ><a  href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></div><div class=" clr999 fs14" > (Pogačar, McNulty)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1360"></span></div><div class="fs14 mr5" ><a  href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></div><div class=" clr999 fs14" > (van den Broek, Barguil)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1207"></span></div><div class="fs14 mr5" ><a  href="team/team-jayco-alula-2025">Team Jayco AlUla</a></div><div class=" clr999 fs14" > (O'Connor, Matthews)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1328"></span></div><div class="fs14 mr5" ><a  href="team/soudal-quick-step-2025">Soudal Quick-Step</a></div><div class=" clr999 fs14" > (Schachmann, Evenepoel)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1411"></span></div><div class="fs14 mr5" ><a  href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></div><div class=" clr999 fs14" > (Fisher-Black, Adrià)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2040"></span></div><div class="fs14 mr5" ><a  href="team/movistar-team-2025">Movistar Team</a></div><div class=" clr999 fs14" > (Oliveira, Mühlberger)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1328"></span></div><div class="fs14 mr5" ><a  href="team/soudal-quick-step-2025">Soudal Quick-Step</a></div><div class=" clr999 fs14" > (Van Wilder, Evenepoel)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1411"></span></div><div class="fs14 mr5" ><a  href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></div><div class=" clr999 fs14" > (Van Gils, Adrià)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2040"></span></div><div class="fs14 mr5" ><a  href="team/movistar-team-2025">Movistar Team</a></div><div class=" clr999 fs14" > (Mühlberger, Formolo)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1258"></span></div><div class="fs14 mr5" ><a  href="team/lidl-trek-2025">Lidl - Trek</a></div><div class=" clr999 fs14" > (Skujiņš, Skjelmose)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1490"></span></div><div class="fs14 mr5" ><a  href="team/intermarche-wanty-2025">Intermarché - Wanty</a></div><div class=" clr999 fs14" > (Zimmermann, Barré)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1423"></span></div><div class="fs14 mr5" ><a  href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></div><div class=" clr999 fs14" > (Sheffield, Laurance)</div></li>
@@ -271,7 +285,7 @@
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team4000"></span></div><div class="fs14 mr5" ><a  href="team/ef-education-easypost-2025">EF Education - EasyPost</a></div><div class=" clr999 fs14" > (Powless, Healy)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1060"></span></div><div class="fs14 mr5" ><a  href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></div><div class=" clr999 fs14" > (Tronchon, Godon)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1136"></span></div><div class="fs14 mr5" ><a  href="team/cofidis-2025">Cofidis</a></div><div class=" clr999 fs14" > (Teuns, Aranburu)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team3814"></span></div><div class="fs14 mr5" ><a  href="team/bahrain-victorious-2025">Bahrain - Victorious</a></div><div class=" clr999 fs14" > (Buitrago, Bilbao)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team3814"></span></div><div class="fs14 mr5" ><a  href="team/bahrain-victorious-2025">Bahrain - Victorious</a></div><div class=" clr999 fs14" > (Wright, Bilbao)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1107"></span></div><div class="fs14 mr5" ><a  href="team/arkea-b-b-hotels-2025">Arkéa - B&B Hotels</a></div><div class=" clr999 fs14" > (Vauquelin, Le Berre)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1100"></span></div><div class="fs14 mr5" ><a  href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></div><div class=" clr999 fs14" > (Meurisse, Hermans)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1420"></span></div><div class="fs14 mr5" ><a  href="team/uno-x-mobility-2025">Uno-X Mobility</a></div><div class=" clr999 fs14" > (Fredheim, Dversnes)</div></li>
@@ -358,7 +372,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0431s</span></li>
+<li><span>Pageload 0.0285s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script>
+<script src="search_list22.js"></script>

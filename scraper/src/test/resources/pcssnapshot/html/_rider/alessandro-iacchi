@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -184,7 +198,7 @@
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;33</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;142</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -200,16 +214,16 @@
 <ul class="list topresults">
 <li><div class="nrs">9th&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/tour-of-britain/2022/gc">Tour of Britain</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
 <li><div class="nrs">10th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-de-langkawi/2023/stage-2">Tour de Langkawi</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
-<li><div class="nrs">10th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/ruota-d-oro-gp-festa-del-perdono/2018/result">Ruota d'Oro - GP Festa del Perdono</a><span class="clr777 fs11">&nbsp; ('18)</span></div></li>
 <li><div class="nrs">10th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/porec-trophy/2024/result">Trofej Poreč - Poreč Trophy</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
+<li><div class="nrs">10th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/ruota-d-oro-gp-festa-del-perdono/2018/result">Ruota d'Oro - GP Festa del Perdono</a><span class="clr777 fs11">&nbsp; ('18)</span></div></li>
 <li><div class="nrs">10th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-d-eure-et-loir/2021/stage-1">Tour d'Eure-et-Loir</a><span class="clr777 fs11">&nbsp; ('21)</span></div></li>
 <li><div class="nrs">11th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/ruota-d-oro-gp-festa-del-perdono/2019/result">Ruota d'Oro - GP Festa del Perdono</a><span class="clr777 fs11">&nbsp; ('19)</span></div></li>
 <li><div class="nrs">11th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/giro-di-sicilia/2022/stage-1">Giro di Sicilia - Tour of Sicily</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
-<li><div class="nrs">12th&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/tour-du-limousin/2023/stage-4-kom">Tour du Limousin</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
+<li><div class="nrs">12th&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/tour-du-limousin/2023/stage-4-kom">Tour du Limousin-Périgord - Nouvelle Aquitaine</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 <li><div class="nrs">14th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/kreiz-breizh-elites/2022/stage-4">Kreiz Breizh Elites</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
 <li><div class="nrs">14th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/sibiu-cycling-tour/2021/stage-3">Sibiu Cycling Tour</a><span class="clr777 fs11">&nbsp; ('21)</span></div></li>
 <li><div class="nrs">14th&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/tour-du-poitou-charentes-et-de-la-vienne/2023/stage-4-kom">Tour Poitou - Charentes en Nouvelle Aquitaine</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
-<li><div class="nrs">16th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/alula-tour/2023/stage-2">Saudi Tour</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
+<li><div class="nrs"><b>2x</b>&nbsp;16th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-of-britain/2022/stage-1">Tour of Britain</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
 </ul></div>
 </div>
 <div class="borderbox right w25 mb_w100" >
@@ -230,7 +244,7 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >14.08</div><div class="ellipsis" ><span class="flag cz"></span> <a  href="race/czech-tour/2025/startlist">Czech Tour</a></div><div class="blue fs10" ><a  href="rider-in-race/alessandro-iacchi/czech-tour">more</a></div></li>
+<li class=""><div class="bold mr5" >31.08</div><div class="ellipsis" ><span class="flag si"></span> <a  href="race/gp-kranj/2025/startlist">GP Kranj</a></div><div class="blue fs10" ><a  href="rider-in-race/alessandro-iacchi/gp-kranj">more</a></div></li>
 </ul>
 </div>
 <div class="mt20">
@@ -249,20 +263,16 @@
 <li class=""><a class="rdrFilterSeason" data-season="2021"  href="">2021</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2019"  href="">2019</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2018"  href="">2018</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2017"  href="">2017</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2016"  href="">2016</a></li>
-<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2025" href="">2025</a></li>
-<li><a  class="rdrFilterSeason" data-season="2024" href="">2024</a></li>
-<li><a  class="rdrFilterSeason" data-season="2023" href="">2023</a></li>
-<li><a  class="rdrFilterSeason" data-season="2022" href="">2022</a></li>
-<li><a  class="rdrFilterSeason" data-season="2021" href="">2021</a></li>
-<li><a  class="rdrFilterSeason" data-season="2020" href="">2020</a></li>
-<li><a  class="rdrFilterSeason" data-season="2019" href="">2019</a></li>
-<li><a  class="rdrFilterSeason" data-season="2018" href="">2018</a></li>
+<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2018" href="">2018</a></li>
 <li><a  class="rdrFilterSeason" data-season="2017" href="">2017</a></li>
 <li><a  class="rdrFilterSeason" data-season="2016" href="">2016</a></li>
 </ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td><span class="hideIfMobile">14.08 &rsaquo; 17.08</span><span class="showIfMobile fs12">14-17/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cz"></span> <a href="race/czech-tour/2025/stage-3-gc"><span>Czech Tour</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/czech-tour">more</a></td></tr>
+<tr class="stage"><td></td><td>97</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/czech-tour/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>17.08</td><td>91</td><td></td><td><span class=""></span></td><td><a href="race/czech-tour/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Kroměříž &rsaquo; Pustevny</a>  </td><td>179</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>16.08</td><td>25</td><td>92</td><td><span class=""></span></td><td><a href="race/czech-tour/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Prostějov &rsaquo; Ostrava</a>  </td><td>148.4</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>15.08</td><td>96</td><td>93</td><td><span class=""></span></td><td><a href="race/czech-tour/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Pardubice &rsaquo; Dlouhé Stráně</a>  </td><td>172.8</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>14.08</td><td>87</td><td>90</td><td><span class=""></span></td><td><a href="race/czech-tour/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Prague &rsaquo; Karlovy Vary</a>  </td><td>163.2</td><td></td><td></td><td></td></tr>
 <tr class="main"><td><span class="hideIfMobile">06.07 &rsaquo; 13.07</span><span class="showIfMobile fs12">6-13/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cn"></span> <a href="race/tour-of-magnificent-qinghai/2025/stage-1-gc"><span>Tour of Magnificent Qinghai</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/tour-of-magnificent-qinghai">more</a></td></tr>
 <tr class="stage"><td></td><td>89</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-magnificent-qinghai/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>13.07</td><td>59</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-magnificent-qinghai/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Xihaizhen &rsaquo; Xihaizhen</a>  </td><td>121.3</td><td></td><td></td><td></td></tr>
@@ -276,14 +286,14 @@
 <tr class="main"><td>29.06</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/nc-italy/2025/result"><span>National Championships Italy ME - Road Race</span> (NC)</a>  </td><td>228.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/nc-italy">more</a></td></tr>
 <tr class="main"><td>09.06</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/antwerp-port-epic/2025/result"><span>Antwerp Port Epic / Sels Trophy</span> (1.1)</a>  </td><td>182.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/antwerp-port-epic">more</a></td></tr>
 <tr class="main"><td>08.06</td><td>109</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/brussels-cycling-classic/2025/result"><span>Brussels Cycling Classic</span> (1.Pro)</a> <span title="93 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>93k</span> </td><td>205.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/brussels-cycling-classic">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">29.05 &rsaquo; 01.06</span><span class="showIfMobile fs12">29-1/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/boucles-de-la-mayenne/2025/prologue-gc"><span>Boucles de la Mayenne - Crédit Mutuel</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/boucles-de-la-mayenne">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">29.05 &rsaquo; 01.06</span><span class="showIfMobile fs12">29-1/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/boucles-de-la-mayenne/2025/stage-1-gc"><span>Boucles de la Mayenne - Crédit Mutuel</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/boucles-de-la-mayenne">more</a></td></tr>
 <tr class="stage"><td></td><td>101</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/boucles-de-la-mayenne/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>01.06</td><td>55</td><td></td><td><span class=""></span></td><td><a href="race/boucles-de-la-mayenne/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Javron-les-Chapelles &rsaquo; Laval</a>  </td><td>163.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>31.05</td><td>98</td><td>114</td><td><span class=""></span></td><td><a href="race/boucles-de-la-mayenne/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Sainte-Suzanne &rsaquo; Bais</a>  </td><td>210.2</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>30.05</td><td>118</td><td>118</td><td><span class=""></span></td><td><a href="race/boucles-de-la-mayenne/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Saint-Berthevin &rsaquo; Juvigné</a>  </td><td>166</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>29.05</td><td>128</td><td>128</td><td><span class="iconv3 chrono"></span></td><td><a href="race/boucles-de-la-mayenne/2025/prologue"><span class="imob">Prologue</span><span class="idesk">Prologue</span> - Espace Mayenne - Laval &rsaquo; Espace Mayenne - Laval</a>  </td><td>5.4</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>18.05</td><td>80</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/circuito-del-porto-trofeo-arvedi/2025/result"><span>Circuito del Porto - Trofeo Arvedi</span> (1.2)</a>  </td><td>180</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/circuito-del-porto-trofeo-arvedi">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">27.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">27-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-turkey/2025/stage-1-gc"><span>Presidential Cycling Tour of Turkiye</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/tour-of-turkey">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">27.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">27-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-turkey/2025/stage-6-gc"><span>Presidential Cycling Tour of Turkiye</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/tour-of-turkey">more</a></td></tr>
 <tr class="stage"><td></td><td>77</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-turkey/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>04.05</td><td>89</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Çeşme &rsaquo; İzmir (Karşıyaka)</a>  </td><td>105.7</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>03.05</td><td>81</td><td>77</td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Selçuk &rsaquo; Çeşme</a>  </td><td>144.2</td><td></td><td></td><td></td></tr>
@@ -296,12 +306,12 @@
 <tr class="stage"><td>23.04</td><td>DNS</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-the-alps/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Sterzing &rsaquo; Innichen</a>  </td><td>145.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>22.04</td><td>86</td><td>84</td><td><span class=""></span></td><td><a href="race/tour-of-the-alps/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Mezzolombardo &rsaquo; Sterzing</a>  </td><td>178</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>21.04</td><td>87</td><td>87</td><td><span class=""></span></td><td><a href="race/tour-of-the-alps/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - San Lorenzo Dorsino &rsaquo; San Lorenzo Dorsino</a>  </td><td>148.5</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">24.03 &rsaquo; 29.03</span><span class="showIfMobile fs12">24-29/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag th"></span> <a href="race/tour-of-thailand/2025/stage-3-gc"><span>The Princess Maha Chakri Sirindhorn's Cup Tour of Thailand</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/tour-of-thailand">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">24.03 &rsaquo; 29.03</span><span class="showIfMobile fs12">24-29/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag th"></span> <a href="race/tour-of-thailand/2025/stage-2-gc"><span>The Princess Maha Chakri Sirindhorn's Cup Tour of Thailand</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/tour-of-thailand">more</a></td></tr>
 <tr class="stage"><td>27.03</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-thailand/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Wang Nam Yen District &rsaquo; Pang Sida National Park</a>  </td><td>121.7</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>26.03</td><td>97</td><td>108</td><td><span class=""></span></td><td><a href="race/tour-of-thailand/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Aranyaprathet Municipality &rsaquo; Wang Nam Yen District</a>  </td><td>135.2</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>25.03</td><td>111</td><td>111</td><td><span class=""></span></td><td><a href="race/tour-of-thailand/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Sadek Kok Thom Historical Park &rsaquo; Kok Lan, Ta Phraya District</a>  </td><td>148.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>24.03</td><td>31</td><td>35</td><td><span class=""></span></td><td><a href="race/tour-of-thailand/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Aranyaprathet &rsaquo; Aranyaprathet</a>  </td><td>121.42</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">16.03 &rsaquo; 20.03</span><span class="showIfMobile fs12">16-20/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tw"></span> <a href="race/tour-de-taiwan/2025/stage-4-gc"><span>Tour de Taiwan</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/tour-de-taiwan">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">16.03 &rsaquo; 20.03</span><span class="showIfMobile fs12">16-20/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tw"></span> <a href="race/tour-de-taiwan/2025/stage-1-gc"><span>Tour de Taiwan</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/tour-de-taiwan">more</a></td></tr>
 <tr class="stage"><td></td><td>54</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-taiwan/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>20.03</td><td>53</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-taiwan/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Meinong Hakka Cultural Museum &rsaquo; Liudui Hakka Cultural Park</a>  </td><td>121.41</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>19.03</td><td>70</td><td>54</td><td><span class=""></span></td><td><a href="race/tour-de-taiwan/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Fo Guang Shan Buddha Museum &rsaquo; Kaohsiung National Stadium</a>  </td><td>146.44</td><td></td><td></td><td></td></tr>
@@ -310,7 +320,7 @@
 <tr class="stage"><td>16.03</td><td>81</td><td>81</td><td><span class=""></span></td><td><a href="race/tour-de-taiwan/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Taipei City Hall &rsaquo; Taipei City Hall</a>  </td><td>83.2</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>09.03</td><td>115</td><td></td><td><span class=""></span></td><td><span class="flag hr"></span> <a href="race/porec-trophy/2025/result"><span>POREČ Classic</span> (1.2)</a>  </td><td>146.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/porec-trophy">more</a></td></tr>
 <tr class="main"><td>05.03</td><td>85</td><td></td><td><span class=""></span></td><td><span class="flag hr"></span> <a href="race/trofej-umag/2025/result"><span>UMAG Classic</span> (1.2)</a>  </td><td>142.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-iacchi/trofej-umag">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>5167 km in <b>38</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>5830 km in <b>42</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -400,9 +410,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0350s</span></li>
+<li><span>Pageload 0.0392s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script><script>
+<script src="search_list22.js"></script><script>
 var riderid = 206835;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

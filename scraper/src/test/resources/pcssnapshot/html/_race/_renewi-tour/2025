@@ -17,9 +17,9 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
-<link rel="stylesheet" type="text/css" href="v3_site_b49.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
+<link rel="stylesheet" type="text/css" href="v3_site_b51.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -81,6 +81,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -92,6 +102,10 @@
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
 </ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
+</ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
 <li><a  href="account/follow-riders">My riders</a></li>
@@ -101,10 +115,10 @@
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="SelectNavCont "><div class="selectNav" ><form style="display: block; float: left; "><select style="" onChange="window.location.href=this.value; "><option value="race/renewi-tour/2025/" selected>- stage -</option>
-<option value="race/renewi-tour/2025/stage-1" >Stage 1 | Terneuzen - Breskens</option>
+<option value="race/renewi-tour/2025/stage-1" >Stage 1 | Terneuzen - Breskens (Sluis)</option>
 <option value="race/renewi-tour/2025/stage-2" >Stage 2 | Blankenberge - Ardooie</option>
 <option value="race/renewi-tour/2025/stage-3" >Stage 3 | Aalter - Geraardsbergen</option>
-<option value="race/renewi-tour/2025/stage-4" >Stage 4 | Riemst - Bilzen</option>
+<option value="race/renewi-tour/2025/stage-4" >Stage 4 | Riemst - Bilzen-Hoeselt</option>
 <option value="race/renewi-tour/2025/stage-5" >Stage 5 | Leuven - Leuven</option>
 </select></form><div class="clear"></div></div><div class="selectNav" ><a class="desk" href="race/renewi-tour/2024/statistics/start">2024</a><form style="display: block; float: left; "><select style="" onChange="window.location.href=this.value; "><option value="race/renewi-tour/2026/statistics/start" >2026</option>
 <option value="race/renewi-tour/2025/statistics/start" selected>2025</option>
@@ -154,7 +168,7 @@
 </ul></span>
 </div><div class="clear"></div>
 <div class="thumbnav"><span><a class="blue" href="race/renewi-tour">Renewi Tour</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/renewi-tour/2025">2025</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/renewi-tour/2025/statistics/start">Start</a></span></div>
-<div class="titleCont "><div class="page-title"><div class="title"><span class="flag be w32"></span><span class="flag c24 be "></span> <h1><span class="hideIfMobile">2025 &nbsp; &raquo; &nbsp; 20th </span>Renewi Tour</h1></div><div class="subtitle hide imob block"><h2>2025</h2></div><div class="clear"></div><div class="title-line2 hideIfMobile"><font class="blue">5 Stages</font> &nbsp; &raquo; &nbsp; <font class="red">Terneuzen &nbsp;&rsaquo;&nbsp; Leuven</font> &nbsp; <font class="red"style="font-weight: normal; ">(911.3km)</font></div></div><a class="toggleSideMenu" href="">menu</a></div>
+<div class="titleCont "><div class="page-title"><div class="title"><span class="flag be w32"></span><span class="flag c24 be "></span> <h1><span class="hideIfMobile">2025 &nbsp; &raquo; &nbsp; 20th </span>Renewi Tour</h1></div><div class="subtitle hide imob block"><h2>2025</h2></div><div class="clear"></div><div class="title-line2 hideIfMobile"><font class="blue">5 Stages</font> &nbsp; &raquo; &nbsp; <font class="red">Terneuzen &nbsp;&rsaquo;&nbsp; Leuven</font> &nbsp; <font class="red"style="font-weight: normal; ">(920.3km)</font></div></div><a class="toggleSideMenu" href="">menu</a></div>
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div>
 <div class="page-content noSideNav"  >
 <h2>Start</h2>
@@ -164,6 +178,24 @@
 </div>
 </div>
 <div class="borderbox w50 left mb_w100 mg_r2" >
+<div class="mt20">
+<h4>Result 2025</h4><table class=" basic" style="max-width: 450px; " ><thead><tr>
+<th class="w10 ">#</th>
+<th class="w40 ">Rider</th>
+<th class="w40 ">Team</th>
+<th class="w10 ">Time</th>
+</tr></thead><tbody>
+<tr class=""><td>1</td><td><span class="flag be"></span> <a  href="rider/arnaud-de-lie">DE LIE Arnaud</a></td><td><a  href="team/lotto-2025">Lotto</a></td><td>19:24:42</td></tr>
+<tr class=""><td>2</td><td><span class="flag nl"></span> <a  href="rider/mathieu-van-der-poel">VAN DER POEL Mathieu</a></td><td><a  href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></td><td>00:00:03</td></tr>
+<tr class=""><td>3</td><td><span class="flag be"></span> <a  href="rider/tim-wellens">WELLENS Tim</a></td><td><a  href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></td><td>00:00:31</td></tr>
+<tr class=""><td>4</td><td><span class="flag gb"></span> <a  href="rider/alfred-wright">WRIGHT Fred</a></td><td><a  href="team/bahrain-victorious-2025">Bahrain - Victorious</a></td><td>00:00:55</td></tr>
+<tr class=""><td>5</td><td><span class="flag nl"></span> <a  href="rider/olav-kooij">KOOIJ Olav</a></td><td><a  href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></td><td>00:00:57</td></tr>
+<tr class=""><td>6</td><td><span class="flag cz"></span> <a  href="rider/pavel-bittner">BITTNER Pavel</a></td><td><a  href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></td><td>00:00:59</td></tr>
+<tr class=""><td>7</td><td><span class="flag be"></span> <a  href="rider/dries-de-bondt">DE BONDT Dries</a></td><td><a  href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></td><td>,,</td></tr>
+<tr class=""><td>8</td><td><span class="flag it"></span> <a  href="rider/alberto-bettiol">BETTIOL Alberto</a></td><td><a  href="team/xds-astana-team-2025">XDS Astana Team</a></td><td>00:01:00</td></tr>
+<tr class=""><td>9</td><td><span class="flag nl"></span> <a  href="rider/tibor-del-grosso">DEL GROSSO Tibor</a></td><td><a  href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></td><td>00:01:03</td></tr>
+<tr class=""><td>10</td><td><span class="flag lv"></span> <a  href="rider/toms-skujins">SKUJIŅŠ Toms</a></td><td><a  href="team/lidl-trek-2025">Lidl - Trek</a></td><td>00:01:07</td></tr>
+</tbody></table></div>
 <div class="">
 <ul class="simple-list list horizontal">
 <li class="follow-up mr5 "><a  href="race/renewi-tour/2025/gc">Full results</a></li>
@@ -184,16 +216,16 @@
 </div>
 <div class="mt20">
 <h4>Top competitors</h4><ul class="list fs14"  style="max-width: 550px; " >
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 nl"></span> </div><div><a  href="rider/mathieu-van-der-poel">VAN DER POEL Mathieu</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 be"></span> </div><div><a  href="rider/tim-merlier">MERLIER Tim</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 nl"></span> </div><div><a  href="rider/olav-kooij">KOOIJ Olav</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 fr"></span> </div><div><a  href="rider/paul-magnier">MAGNIER Paul</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 be"></span> </div><div><a  href="rider/arnaud-de-lie">DE LIE Arnaud</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 be"></span> </div><div><a  href="rider/tim-wellens">WELLENS Tim</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 er"></span> </div><div><a  href="rider/biniam-girmay">GIRMAY Biniam</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 nl"></span> </div><div><a  href="rider/olav-kooij">KOOIJ Olav</a></div></li>
 <li class=""><div class=" fs14 pr5" ><span class="flag c16 be"></span> </div><div><a  href="rider/milan-fretin">FRETIN Milan</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 cz"></span> </div><div><a  href="rider/mathias-vacek">VACEK Mathias</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 pt"></span> </div><div><a  href="rider/antonio-morgado">MORGADO António</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 be"></span> </div><div><a  href="rider/jenno-berckmoes">BERCKMOES Jenno</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 si"></span> </div><div><a  href="rider/matej-mohoric">MOHORIČ Matej</a></div></li>
-<li class=""><div class=" fs14 pr5" ><span class="flag c16 fr"></span> </div><div><a  href="rider/alexis-renard">RENARD Alexis</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 be"></span> </div><div><a  href="rider/tim-wellens">WELLENS Tim</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 cz"></span> </div><div><a  href="rider/pavel-bittner">BITTNER Pavel</a></div></li>
+<li class=""><div class=" fs14 pr5" ><span class="flag c16 es"></span> </div><div><a  href="rider/roger-adria">ADRIÀ Roger</a></div></li>
 </ul>
 </div>
 <div class="">
@@ -203,28 +235,29 @@
 </ul><div class="clear"></div></div>
 <div class="mt40">
 <h4>Teams</h4><ul class="list "  style="max-width: 400px; " >
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team4000"></span></div><div class="fs14 mr5" ><a  href="team/ef-education-easypost-2025">EF Education - EasyPost</a></div><div class=" clr999 fs14" ></div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1100"></span></div><div class="fs14 mr5" ><a  href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></div><div class=" clr999 fs14" > (Rickaert)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1107"></span></div><div class="fs14 mr5" ><a  href="team/arkea-b-b-hotels-2025">Arkéa - B&B Hotels</a></div><div class=" clr999 fs14" ></div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1261"></span></div><div class="fs14 mr5" ><a  href="team/xds-astana-team-2025">XDS Astana Team</a></div><div class=" clr999 fs14" > (Bettiol)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team3814"></span></div><div class="fs14 mr5" ><a  href="team/bahrain-victorious-2025">Bahrain - Victorious</a></div><div class=" clr999 fs14" > (Mohorič, Govekar)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1136"></span></div><div class="fs14 mr5" ><a  href="team/cofidis-2025">Cofidis</a></div><div class=" clr999 fs14" > (Renard, Fretin)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1060"></span></div><div class="fs14 mr5" ><a  href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></div><div class=" clr999 fs14" > (Naesen, De Bondt)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1187"></span></div><div class="fs14 mr5" ><a  href="team/groupama-fdj-2025">Groupama - FDJ</a></div><div class=" clr999 fs14" ></div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1423"></span></div><div class="fs14 mr5" ><a  href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></div><div class=" clr999 fs14" ></div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1490"></span></div><div class="fs14 mr5" ><a  href="team/intermarche-wanty-2025">Intermarché - Wanty</a></div><div class=" clr999 fs14" ></div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1258"></span></div><div class="fs14 mr5" ><a  href="team/lidl-trek-2025">Lidl - Trek</a></div><div class=" clr999 fs14" > (Vacek, Teutenberg)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2040"></span></div><div class="fs14 mr5" ><a  href="team/movistar-team-2025">Movistar Team</a></div><div class=" clr999 fs14" ></div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1411"></span></div><div class="fs14 mr5" ><a  href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></div><div class=" clr999 fs14" ></div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1328"></span></div><div class="fs14 mr5" ><a  href="team/soudal-quick-step-2025">Soudal Quick-Step</a></div><div class=" clr999 fs14" > (Merlier)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1360"></span></div><div class="fs14 mr5" ><a  href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></div><div class=" clr999 fs14" ></div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1207"></span></div><div class="fs14 mr5" ><a  href="team/team-jayco-alula-2025">Team Jayco AlUla</a></div><div class=" clr999 fs14" > (Krijnsen)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1330"></span></div><div class="fs14 mr5" ><a  href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></div><div class=" clr999 fs14" > (Kooij)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1253"></span></div><div class="fs14 mr5" ><a  href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></div><div class=" clr999 fs14" > (Wellens, Morgado)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1482"></span></div><div class="fs14 mr5" ><a  href="team/wagner-bazin-wb-2025">Wagner Bazin WB</a></div><div class=" clr999 fs14" ></div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team10407"></span></div><div class="fs14 mr5" ><a  href="team/unibet-tietema-rockets-2025">Unibet Tietema Rockets</a></div><div class=" clr999 fs14" > (Kubiš)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1100"></span></div><div class="fs14 mr5" ><a  href="team/alpecin-deceuninck-2025">Alpecin - Deceuninck</a></div><div class=" clr999 fs14" > (van der Poel, Del Grosso)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1328"></span></div><div class="fs14 mr5" ><a  href="team/soudal-quick-step-2025">Soudal Quick-Step</a></div><div class=" clr999 fs14" > (Merlier, Magnier)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1330"></span></div><div class="fs14 mr5" ><a  href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></div><div class=" clr999 fs14" > (Kooij, Affini)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1490"></span></div><div class="fs14 mr5" ><a  href="team/intermarche-wanty-2025">Intermarché - Wanty</a></div><div class=" clr999 fs14" > (Rex, Girmay)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1258"></span></div><div class="fs14 mr5" ><a  href="team/lidl-trek-2025">Lidl - Trek</a></div><div class=" clr999 fs14" > (Vacek, Skujiņš)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team3814"></span></div><div class="fs14 mr5" ><a  href="team/bahrain-victorious-2025">Bahrain - Victorious</a></div><div class=" clr999 fs14" > (Wright, Mohorič)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1060"></span></div><div class="fs14 mr5" ><a  href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a></div><div class=" clr999 fs14" > (Tronchon, De Bondt)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team4000"></span></div><div class="fs14 mr5" ><a  href="team/ef-education-easypost-2025">EF Education - EasyPost</a></div><div class=" clr999 fs14" > (van den Berg, Albanese)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1411"></span></div><div class="fs14 mr5" ><a  href="team/red-bull-bora-hansgrohe-2025">Red Bull - BORA - hansgrohe</a></div><div class=" clr999 fs14" > (Van Gils, Adrià)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1423"></span></div><div class="fs14 mr5" ><a  href="team/ineos-grenadiers-2025">INEOS Grenadiers</a></div><div class=" clr999 fs14" > (Turner, Laurance)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1360"></span></div><div class="fs14 mr5" ><a  href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></div><div class=" clr999 fs14" > (van den Broek, Bittner)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1107"></span></div><div class="fs14 mr5" ><a  href="team/arkea-b-b-hotels-2025">Arkéa - B&B Hotels</a></div><div class=" clr999 fs14" > (Epis, Capiot)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1187"></span></div><div class="fs14 mr5" ><a  href="team/groupama-fdj-2025">Groupama - FDJ</a></div><div class=" clr999 fs14" > (Penhoët, Askey)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2040"></span></div><div class="fs14 mr5" ><a  href="team/movistar-team-2025">Movistar Team</a></div><div class=" clr999 fs14" > (Tesfatsion, Milesi)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1207"></span></div><div class="fs14 mr5" ><a  href="team/team-jayco-alula-2025">Team Jayco AlUla</a></div><div class=" clr999 fs14" > (Krijnsen, Groenewegen)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1261"></span></div><div class="fs14 mr5" ><a  href="team/xds-astana-team-2025">XDS Astana Team</a></div><div class=" clr999 fs14" > (Teunissen, Gate)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1136"></span></div><div class="fs14 mr5" ><a  href="team/cofidis-2025">Cofidis</a></div><div class=" clr999 fs14" > (Renard, Fretin)</div></li>
 <li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team2088"></span></div><div class="fs14 mr5" ><a  href="team/lotto-2025">Lotto</a></div><div class=" clr999 fs14" > (De Lie, Berckmoes)</div></li>
-<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team5649"></span></div><div class="fs14 mr5" ><a  href="team/tudor-pro-cycling-team-2025">Tudor Pro Cycling Team</a></div><div class=" clr999 fs14" > (Pluimers, Kelemen)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1453"></span></div><div class="fs14 mr5" ><a  href="team/team-flanders-baloise-2025">Team Flanders - Baloise</a></div><div class=" clr999 fs14" > (Van Hemelen, Geens)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team1482"></span></div><div class="fs14 mr5" ><a  href="team/wagner-bazin-wb-2025">Wagner Bazin WB</a></div><div class=" clr999 fs14" > (Desal, Barbier)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team5649"></span></div><div class="fs14 mr5" ><a  href="team/tudor-pro-cycling-team-2025">Tudor Pro Cycling Team</a></div><div class=" clr999 fs14" > (Pluimers, de Kleijn)</div></li>
+<li class=""><div class="pad1 mr5" ><span class="shirt_icon20 team10407"></span></div><div class="fs14 mr5" ><a  href="team/unibet-tietema-rockets-2025">Unibet Tietema Rockets</a></div><div class=" clr999 fs14" > (Kubiš, Huens)</div></li>
 </ul>
 </div>
 </div>
@@ -237,22 +270,22 @@
 <th class="w68 ">Stage</th>
 <th class="w8 ">KM</th>
 </tr></thead><tbody>
-<tr class=""><td>20/08</td><td>Wednesday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/renewi-tour/2025/stage-1">Stage 1 | Terneuzen - Breskens</a></td><td>182.7</td></tr>
-<tr class=""><td>21/08</td><td>Thursday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/renewi-tour/2025/stage-2">Stage 2 | Blankenberge - Ardooie</a></td><td>169.4</td></tr>
-<tr class=""><td>22/08</td><td>Friday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/renewi-tour/2025/stage-3">Stage 3 | Aalter - Geraardsbergen</a></td><td>178.2</td></tr>
-<tr class=""><td>23/08</td><td>Saturday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/renewi-tour/2025/stage-4">Stage 4 | Riemst - Bilzen</a></td><td>196</td></tr>
-<tr class=""><td>24/08</td><td>Sunday</td><td><span class="icon profile p2 mg_rp4 "></span></td><td><a  href="race/renewi-tour/2025/stage-5">Stage 5 | Leuven - Leuven</a></td><td>185</td></tr>
-<tr class="sum"><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">911.3</td></tr></tbody></table></div>
+<tr class=""><td>20/08</td><td>Wednesday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/renewi-tour/2025/stage-1">Stage 1 | Terneuzen - Breskens (Sluis)</a></td><td>182.6</td></tr>
+<tr class=""><td>21/08</td><td>Thursday</td><td><span class="icon profile p1 mg_rp4 "></span></td><td><a  href="race/renewi-tour/2025/stage-2">Stage 2 | Blankenberge - Ardooie</a></td><td>172.7</td></tr>
+<tr class=""><td>22/08</td><td>Friday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/renewi-tour/2025/stage-3">Stage 3 | Aalter - Geraardsbergen</a></td><td>181.8</td></tr>
+<tr class=""><td>23/08</td><td>Saturday</td><td><span class="icon profile p3 mg_rp4 "></span></td><td><a  href="race/renewi-tour/2025/stage-4">Stage 4 | Riemst - Bilzen-Hoeselt</a></td><td>198.5</td></tr>
+<tr class=""><td>24/08</td><td>Sunday</td><td><span class="icon profile p2 mg_rp4 "></span></td><td><a  href="race/renewi-tour/2025/stage-5">Stage 5 | Leuven - Leuven</a></td><td>184.7</td></tr>
+<tr class="sum"><td class=""></td><td class=""></td><td class=""></td><td class=""></td><td class="">920.3</td></tr></tbody></table></div>
 <div class="mt20">
 <h4>Stage winners</h4><table class=" basic" style="max-width: 700px; " ><thead><tr>
 <th class="w17 ">Stage</th>
 <th class="w83 ">Winner</th>
 </tr></thead><tbody>
-<tr class=""><td>Stage 1</td><td><a  href="rider/"></a></td></tr>
-<tr class=""><td>Stage 2</td><td><a  href="rider/"></a></td></tr>
-<tr class=""><td>Stage 3</td><td><a  href="rider/"></a></td></tr>
-<tr class=""><td>Stage 4</td><td><a  href="rider/"></a></td></tr>
-<tr class=""><td>Stage 5</td><td><a  href="rider/"></a></td></tr>
+<tr class=""><td>Stage 1</td><td><span class="flag be"></span> <a  href="rider/tim-merlier">MERLIER Tim</a></td></tr>
+<tr class=""><td>Stage 2</td><td><span class="flag nl"></span> <a  href="rider/olav-kooij">KOOIJ Olav</a></td></tr>
+<tr class=""><td>Stage 3</td><td><span class="flag nl"></span> <a  href="rider/mathieu-van-der-poel">VAN DER POEL Mathieu</a></td></tr>
+<tr class=""><td>Stage 4</td><td><span class="flag be"></span> <a  href="rider/tim-merlier">MERLIER Tim</a></td></tr>
+<tr class=""><td>Stage 5</td><td><span class="flag be"></span> <a  href="rider/arnaud-de-lie">DE LIE Arnaud</a></td></tr>
 </tbody></table></div>
 <div class="mt30">
 <h4>Sites</h4><ul class="simple-list list circle bluelink fs14">
@@ -263,6 +296,7 @@
 </ul><div class="clear"></div></div>
 <div class="mt20">
 <h4>Maps/profiles</h4><ul class="list" >
+<li class=""><div><a  href="race/renewi-tour/2025/route/overview-map"><img src="images/profiles/ca/eb/renewi-tour-2025-map.jpg"  style="max-height: 400px; max-width: 100%;" /></a></div></li>
 </ul>
 </div>
 </div>
@@ -328,7 +362,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0233s</span></li>
+<li><span>Pageload 0.0390s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script>
+<script src="search_list22.js"></script>

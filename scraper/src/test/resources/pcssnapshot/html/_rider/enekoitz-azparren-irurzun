@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -184,7 +198,7 @@
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;184</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;701</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -200,15 +214,15 @@
 <ul class="list topresults">
 <li><div class="nrs">11th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/paris-camembert/2023/result">Paris - Camembert</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 <li><div class="nrs">6th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/mediterranean-games-itt/2022/result">Mediterranean Games - ITT</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
-<li><div class="nrs">8th&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/course-de-la-paix-u23/2023/gc">Course de la Paix</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
+<li><div class="nrs">8th&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/course-de-la-paix-u23/2023/gc">Course de la Paix Grand Prix Jeseníky</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 <li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/nc-spain-itt-u23/2021/result">National Championships Spain MU - ITT</a><span class="clr777 fs11">&nbsp; ('21)</span></div></li>
-<li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/course-de-la-paix-u23/2023/stage-3-kom">Course de la Paix</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
+<li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/course-de-la-paix-u23/2023/stage-3-kom">Course de la Paix Grand Prix Jeseníky</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 <li><div class="nrs">4th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/nc-spain-u23/2022/result">National Championships Spain MU - Road Race</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
 <li><div class="nrs">6th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/nc-spain-itt-u23/2022/result">National Championships Spain MU - ITT</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
 <li><div class="nrs">9th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-de-l-avenir/2022/stage-7">Tour de l'Avenir</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
 <li><div class="nrs">10th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-de-l-avenir/2023/stage-5">Tour de l'Avenir</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
-<li><div class="nrs">10th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/course-de-la-paix-u23/2023/stage-2">Course de la Paix</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
-<li><div class="nrs">11th&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/course-de-la-paix-u23/2024/stage-4-kom">Course de la Paix</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
+<li><div class="nrs">10th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/course-de-la-paix-u23/2023/stage-2">Course de la Paix Grand Prix Jeseníky</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
+<li><div class="nrs">11th&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/course-de-la-paix-u23/2024/stage-4-kom">Course de la Paix Grand Prix Jeseníky</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">13th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/nc-spain-itt/2023/result">National Championships Spain ME - ITT</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 </ul></div>
 </div>
@@ -247,14 +261,8 @@
 <li class=""><a class="rdrFilterSeason" data-season="2021"  href="">2021</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2019"  href="">2019</a></li>
-<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2024" href="">2024</a></li>
-<li><a  class="rdrFilterSeason" data-season="2023" href="">2023</a></li>
-<li><a  class="rdrFilterSeason" data-season="2022" href="">2022</a></li>
-<li><a  class="rdrFilterSeason" data-season="2021" href="">2021</a></li>
-<li><a  class="rdrFilterSeason" data-season="2020" href="">2020</a></li>
-<li><a  class="rdrFilterSeason" data-season="2019" href="">2019</a></li>
-</ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
-<tr class="main"><td><span class="hideIfMobile">18.08 &rsaquo; 24.08</span><span class="showIfMobile fs12">18-24/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-de-l-avenir/2024/stage-1-gc"><span>Tour de l'Avenir</span> (2.Ncup)</a>  <div class="blue fs10">Spain</div></td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/enekoitz-azparren-irurzun/tour-de-l-avenir">more</a></td></tr>
+</ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td><span class="hideIfMobile">18.08 &rsaquo; 24.08</span><span class="showIfMobile fs12">18-24/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-de-l-avenir/2024/stage-1-gc"><span>Tour de l'Avenir</span> (2.Ncup)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/enekoitz-azparren-irurzun/tour-de-l-avenir">more</a></td></tr>
 <tr class="stage"><td>20.08</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-l-avenir/2024/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Mouchard &rsaquo; Plateau d'Hauteville</a>  </td><td>170.2</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>19.08</td><td>140</td><td>137</td><td><span class=""></span></td><td><a href="race/tour-de-l-avenir/2024/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Sarrebourg &rsaquo; Ronchamp-Champagney</a>  </td><td>184.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>18.08</td><td>135</td><td>135</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-de-l-avenir/2024/prologue"><span class="imob">Prologue</span><span class="idesk">Prologue</span> - Sarrebourg &rsaquo; Sarrebourg</a>  </td><td>7.1</td><td></td><td></td><td></td></tr>
@@ -407,9 +415,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0270s</span></li>
+<li><span>Pageload 0.0362s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script><script>
+<script src="search_list22.js"></script><script>
 var riderid = 241740;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

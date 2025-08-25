@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -129,11 +143,6 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
-<div class="">
-<ul class="list fs14" >
-<li class=""><div>Volta a Portugal em Bicicleta</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="rider-in-race/joseba-lopez-cuesta/volta-a-portugal/2025">Race stats</a></div><div class="blue" ><a  href="race/volta-a-portugal/2025/startlist">Startlist</a></div></li>
-</ul>
-</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -169,7 +178,7 @@
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w87 bg green left" ></div></div></div><div class="xvalue ac" >27</div><div class="xtitle" ><a  href="rider/joseba-lopez-cuesta/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w16 bg red left" ></div></div></div><div class="xvalue ac" >5</div><div class="xtitle" ><a  href="rider/joseba-lopez-cuesta/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg blue left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/joseba-lopez-cuesta/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg orange left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/joseba-lopez-cuesta/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w6 bg orange left" ></div></div></div><div class="xvalue ac" >2</div><div class="xtitle" ><a  href="rider/joseba-lopez-cuesta/results/career-points-sprint">Sprint</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w68 bg purple left" ></div></div></div><div class="xvalue ac" >21</div><div class="xtitle" ><a  href="rider/joseba-lopez-cuesta/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg pink left" ></div></div></div><div class="xvalue ac" >31</div><div class="xtitle" ><a  href="rider/joseba-lopez-cuesta/results/hills">Hills</a></div></li>
 </ul>
@@ -187,13 +196,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >2140</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1936</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >2128</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1932</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;744</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;85</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -210,15 +219,15 @@
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue"></span> <a href="race/trofeu-da-arrabida/2024/result">Classica da Arrabida - Cyclin'Portugal</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">6th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/itzulia-basque-country/2024/stage-4">Itzulia Basque Country</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue"></span> <a href="race/nc-spain-u23/2022/result">National Championships Spain MU - Road Race</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
-<li><div class="nrs">12th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-du-limousin/2024/stage-3">Tour du Limousin</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
+<li><div class="nrs">12th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-du-limousin/2024/stage-3">Tour du Limousin-Périgord - Nouvelle Aquitaine</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
+<li><div class="nrs">12th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/volta-a-portugal/2025/stage-8">Volta a Portugal</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
 <li><div class="nrs">12th&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/tour-de-luxembourg/2022/stage-5-kom">Tour de Luxembourg</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
 <li><div class="nrs">19th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/ronde-van-limburg/2024/result">Ronde van Limburg</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
+<li><div class="nrs">17th&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/volta-a-portugal/2025/kom">Volta a Portugal</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
 <li><div class="nrs">20th&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/vuelta-asturias/2023/stage-3-kom">Vuelta Asturias</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 <li><div class="nrs">22nd&nbsp;</div><div class="races"><span class="blue">Points GC</span> <a href="race/itzulia-basque-country/2024/stage-6-points">Itzulia Basque Country</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
+<li><div class="nrs">23rd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/4-jours-de-dunkerque/2025/stage-2">4 Jours de Dunkerque / Grand Prix des Hauts de Fra</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
 <li><div class="nrs">23rd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/volta-a-portugal/2022/stage-1">Volta a Portugal</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
-<li><div class="nrs">23rd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/4-jours-de-dunkerque/2025/stage-2">4 Jours de Dunkerque</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
-<li><div class="nrs">25th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/trofeo-calvia/2024/result">Trofeo Calvià</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
-<li><div class="nrs">27th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/itzulia-basque-country/2024/stage-3">Itzulia Basque Country</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 </ul></div>
 </div>
 <div class="borderbox right w25 mb_w100" >
@@ -258,14 +267,18 @@
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2021"  href="">2021</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
-<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2025" href="">2025</a></li>
-<li><a  class="rdrFilterSeason" data-season="2024" href="">2024</a></li>
-<li><a  class="rdrFilterSeason" data-season="2023" href="">2023</a></li>
-<li><a  class="rdrFilterSeason" data-season="2022" href="">2022</a></li>
-<li><a  class="rdrFilterSeason" data-season="2021" href="">2021</a></li>
-<li><a  class="rdrFilterSeason" data-season="2020" href="">2020</a></li>
-</ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
-<tr class="main"><td><span class="hideIfMobile">06.08 &rsaquo; 17.08</span><span class="showIfMobile fs12">6-17/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag pt"></span> <a href="race/volta-a-portugal/2025/stage-3-gc"><span>Volta a Portugal em Bicicleta</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/joseba-lopez-cuesta/volta-a-portugal">more</a></td></tr>
+</ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td><span class="hideIfMobile">06.08 &rsaquo; 17.08</span><span class="showIfMobile fs12">6-17/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag pt"></span> <a href="race/volta-a-portugal/2025/stage-1-gc"><span>Volta a Portugal em Bicicleta</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/joseba-lopez-cuesta/volta-a-portugal">more</a></td></tr>
+<tr class="stage"><td></td><td>17</td><td></td><td><span class="icon shirt w14 st7"></span></td><td><a href="race/volta-a-portugal/2025/kom"><span class="imob">Mountains classification</span><span class="idesk">Mountains classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td></td><td>43</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/volta-a-portugal/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td></td><td>62</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/volta-a-portugal/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>17.08</td><td>55</td><td></td><td><span class="iconv3 chrono"></span></td><td><a href="race/volta-a-portugal/2025/stage-10"><span class="imob">S10 (ITT)</span><span class="idesk">Stage 10 (ITT)</span> - Lisbon &rsaquo; Lisbon</a>  </td><td>16.7</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>16.08</td><td>77</td><td>62</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-9"><span class="imob">S9</span><span class="idesk">Stage 9</span> - Alcobaça &rsaquo; Montejunto</a>  </td><td>174.4</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>15.08</td><td>12</td><td>59</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Ferreira do Zêzere &rsaquo; Santarém</a>  </td><td>178.2</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>14.08</td><td>68</td><td>62</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Sabugal &rsaquo; Torre</a>  </td><td>179.3</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>13.08</td><td>44</td><td>57</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Águeda &rsaquo; Guarda</a>  </td><td>175.2</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>11.08</td><td>77</td><td>68</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Lamego &rsaquo; Viseu</a>  </td><td>155.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>10.08</td><td>82</td><td>63</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Bragança &rsaquo; Mondim de Basto (Senhora da Graça)</a>  </td><td>176.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>09.08</td><td>76</td><td>55</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Boticas &rsaquo; Bragança</a>  </td><td>185.2</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>08.08</td><td>36</td><td>46</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Felgueiras &rsaquo; Fafe</a>  </td><td>167.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>07.08</td><td>73</td><td>73</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Viana do Castelo &rsaquo; Braga (Sameiro)</a>  </td><td>162.3</td><td></td><td></td><td></td></tr>
@@ -303,7 +316,7 @@
 <tr class="main"><td>09.03</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/grote-prijs-jean-pierre-monsere/2025/result"><span>Grote prijs Jean - Pierre Monseré</span> (1.1)</a>  </td><td>201.6</td><td></td><td></td><td><a class="fs10" href="rider-in-race/joseba-lopez-cuesta/grote-prijs-jean-pierre-monsere">more</a></td></tr>
 <tr class="main"><td>08.03</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/grand-prix-criquielion/2025/result"><span>Grand Prix Criquielion</span> (1.1)</a>  </td><td>200</td><td></td><td></td><td><a class="fs10" href="rider-in-race/joseba-lopez-cuesta/grand-prix-criquielion">more</a></td></tr>
 <tr class="main"><td>05.03</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/trofeo-laigueglia/2025/result"><span>Trofeo Laigueglia</span> (1.Pro)</a>  </td><td>197</td><td></td><td></td><td><a class="fs10" href="rider-in-race/joseba-lopez-cuesta/trofeo-laigueglia">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">19.02 &rsaquo; 23.02</span><span class="showIfMobile fs12">19-23/2</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/ruta-del-sol/2025/stage-4-gc"><span>Vuelta a Andalucia Ruta Ciclista Del Sol</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/joseba-lopez-cuesta/ruta-del-sol">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">19.02 &rsaquo; 23.02</span><span class="showIfMobile fs12">19-23/2</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/ruta-del-sol/2025/stage-3-gc"><span>Vuelta a Andalucia Ruta Ciclista Del Sol</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/joseba-lopez-cuesta/ruta-del-sol">more</a></td></tr>
 <tr class="stage"><td>23.02</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/ruta-del-sol/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Benahavís &rsaquo; La Línea de la Concepción</a>  </td><td>168.1</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>22.02</td><td>74</td><td>88</td><td><span class=""></span></td><td><a href="race/ruta-del-sol/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Córdoba &rsaquo; Alhaurín de la Torre</a>  </td><td>194.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>21.02</td><td>97</td><td>100</td><td><span class=""></span></td><td><a href="race/ruta-del-sol/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Arjona &rsaquo; Pozoblanco</a>  </td><td>162.1</td><td></td><td></td><td></td></tr>
@@ -314,7 +327,7 @@
 <tr class="main"><td>02.02</td><td>56</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/gp-d-ouverture/2025/result"><span>Grand Prix Cycliste de Marseille La Marseillaise</span> (1.1)</a>  </td><td>164.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/joseba-lopez-cuesta/gp-d-ouverture">more</a></td></tr>
 <tr class="main"><td>26.01</td><td>109</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/gp-de-valence/2025/result"><span>Clàssica Comunitat Valenciana 1969 - Gran Premi València</span> (1.1)</a>  </td><td>184</td><td></td><td></td><td><a class="fs10" href="rider-in-race/joseba-lopez-cuesta/gp-de-valence">more</a></td></tr>
 <tr class="main"><td>25.01</td><td>32</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/ruta-de-la-ceramica-gran-premio-castellon/2025/result"><span>Gran Premio Castellón - Ruta de la Cerámica</span> (1.1)</a>  </td><td>171.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/joseba-lopez-cuesta/ruta-de-la-ceramica-gran-premio-castellon">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>6630 km in <b>43</b> days | PCS points: <b>5</b> | UCI points: <b>3</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>7686 km in <b>50</b> days | PCS points: <b>5</b> | UCI points: <b>3</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -329,7 +342,7 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-08-10&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w12 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l12"  style="height: 12px; line-height: 12px; " >5</div></div></td><td class="fs11 " >1688</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-08-25&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w12 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l12"  style="height: 12px; line-height: 12px; " >5</div></div></td><td class="fs11 " >1732</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >34</div></div></td><td class="fs11 " >944</td></tr>
 </tbody></table></div>
 </div>
@@ -398,9 +411,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0288s</span></li>
+<li><span>Pageload 0.0397s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script><script>
+<script src="search_list22.js"></script><script>
 var riderid = 260691;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

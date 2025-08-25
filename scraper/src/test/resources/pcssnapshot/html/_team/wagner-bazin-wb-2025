@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -29,7 +29,7 @@
 <div class="wrapper"><header>
 <div class="cont">
 <a class="logo" href="index.php"></a>
-<div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="" data-url="" placeholder="search" autocomplete="off" /></form></div> 
+<div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="team" data-url="team/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
 <div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -149,9 +163,9 @@
 <div class="mb5">
 <ul class="list horizontal teamkpi" >
 <li class=""><div class="title ">Victories </div><div class=" value" ><a  href="team/wagner-bazin-wb-2025/wins">1</a></div></li>
-<li><div class="title ">Points </div><div class=" value" ><a  href="team/wagner-bazin-wb-2025/season/points-per-rider">359</a></div></li>
+<li><div class="title ">Points </div><div class=" value" ><a  href="team/wagner-bazin-wb-2025/season/points-per-rider">400</a></div></li>
 <li><div class="title ">PCS# </div><div class=" value" ><a  href="rankings/me/season-teams">46</a></div></li>
-<li><div class="title ">UCI# </div><div class=" value" ><a  href="rankings/me/uci-teams">65</a></div></li>
+<li><div class="title ">UCI# </div><div class=" value" ><a  href="rankings/me/uci-teams">66</a></div></li>
 <li><div class="title ">Incoming </div><div class=" value" ><a  href="team/wagner-bazin-wb-2025/transfers/this-year">9</a></div></li>
 <li><div class="title ">Outgoing </div><div class=" value" ><a  href="team/wagner-bazin-wb-2025/transfers/this-year">8</a></div></li>
 <li></li>
@@ -203,24 +217,24 @@
 <th class="w13 ">rnk</th>
 <th class="w13 ">points</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag it"></span> <a  href="rider/marco-tizza">TIZZA Marco</a></td><td>448</td><td>129</td></tr>
-<tr class=""><td>2</td><td><span class="flag be"></span> <a  href="rider/floris-de-tier">DE TIER Floris</a></td><td>531</td><td>98</td></tr>
-<tr class=""><td>3</td><td><span class="flag fr"></span> <a  href="rider/pierre-barbier">BARBIER Pierre</a></td><td>587</td><td>84</td></tr>
-<tr class=""><td>4</td><td><span class="flag it"></span> <a  href="rider/davide-persico">PERSICO Davide</a></td><td>738</td><td>57</td></tr>
-<tr class=""><td>5</td><td><span class="flag be"></span> <a  href="rider/johan-meens">MEENS Johan</a></td><td>769</td><td>54</td></tr>
-<tr class=""><td>6</td><td><span class="flag be"></span> <a  href="rider/michiel-lambrecht">LAMBRECHT Michiel</a></td><td>858</td><td>44</td></tr>
-<tr class=""><td>7</td><td><span class="flag be"></span> <a  href="rider/jens-reynders">REYNDERS Jens</a></td><td>973</td><td>34</td></tr>
-<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/ceriel-desal">DESAL Ceriel</a></td><td>974</td><td>34</td></tr>
-<tr class=""><td>9</td><td><span class="flag be"></span> <a  href="rider/leander-van-hautegem">VAN HAUTEGEM Leander</a></td><td>1056</td><td>29</td></tr>
-<tr class=""><td>10</td><td><span class="flag be"></span> <a  href="rider/kenneth-van-rooy">VAN ROOY Kenneth</a></td><td>1061</td><td>28</td></tr>
-<tr class=""><td>11</td><td><span class="flag be"></span> <a  href="rider/sasha-weemaes">WEEMAES Sasha</a></td><td>1080</td><td>27</td></tr>
-<tr class=""><td>12</td><td><span class="flag it"></span> <a  href="rider/giacomo-villa">VILLA Giacomo</a></td><td>1155</td><td>23</td></tr>
-<tr class=""><td>13</td><td><span class="flag be"></span> <a  href="rider/luca-de-meester">DE MEESTER Luca</a></td><td>1209</td><td>20</td></tr>
-<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/henri-francois-renard-haquin">RENARD-HAQUIN Henri-François</a></td><td>1289</td><td>17</td></tr>
-<tr class=""><td>15</td><td><span class="flag be"></span> <a  href="rider/loic-vliegen">VLIEGEN Loïc</a></td><td>1880</td><td>5</td></tr>
-<tr class=""><td>16</td><td><span class="flag be"></span> <a  href="rider/jelle-vermoote">VERMOOTE Jelle</a></td><td>1930</td><td>5</td></tr>
-<tr class=""><td>17</td><td><span class="flag fr"></span> <a  href="rider/quentin-bezza">BEZZA Quentin</a></td><td>1900</td><td>5</td></tr>
-<tr class=""><td>18</td><td><span class="flag gb"></span> <a  href="rider/tom-portsmouth">PORTSMOUTH Tom</a></td><td>2392</td><td>1</td></tr>
+<tr class=""><td>1</td><td><span class="flag it"></span> <a  href="rider/marco-tizza">TIZZA Marco</a></td><td>433</td><td>133</td></tr>
+<tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="rider/pierre-barbier">BARBIER Pierre</a></td><td>591</td><td>84</td></tr>
+<tr class=""><td>3</td><td><span class="flag it"></span> <a  href="rider/davide-persico">PERSICO Davide</a></td><td>763</td><td>54</td></tr>
+<tr class=""><td>4</td><td><span class="flag be"></span> <a  href="rider/floris-de-tier">DE TIER Floris</a></td><td>773</td><td>53</td></tr>
+<tr class=""><td>5</td><td><span class="flag be"></span> <a  href="rider/johan-meens">MEENS Johan</a></td><td>868</td><td>43</td></tr>
+<tr class=""><td>6</td><td><span class="flag it"></span> <a  href="rider/giacomo-villa">VILLA Giacomo</a></td><td>910</td><td>40</td></tr>
+<tr class=""><td>7</td><td><span class="flag be"></span> <a  href="rider/leander-van-hautegem">VAN HAUTEGEM Leander</a></td><td>979</td><td>34</td></tr>
+<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/jens-reynders">REYNDERS Jens</a></td><td>974</td><td>34</td></tr>
+<tr class=""><td>9</td><td><span class="flag be"></span> <a  href="rider/ceriel-desal">DESAL Ceriel</a></td><td>975</td><td>34</td></tr>
+<tr class=""><td>10</td><td><span class="flag be"></span> <a  href="rider/kenneth-van-rooy">VAN ROOY Kenneth</a></td><td>984</td><td>33</td></tr>
+<tr class=""><td>11</td><td><span class="flag be"></span> <a  href="rider/michiel-lambrecht">LAMBRECHT Michiel</a></td><td>1055</td><td>29</td></tr>
+<tr class=""><td>12</td><td><span class="flag be"></span> <a  href="rider/sasha-weemaes">WEEMAES Sasha</a></td><td>1080</td><td>27</td></tr>
+<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/henri-francois-renard-haquin">RENARD-HAQUIN Henri-François</a></td><td>1281</td><td>17</td></tr>
+<tr class=""><td>14</td><td><span class="flag be"></span> <a  href="rider/luca-de-meester">DE MEESTER Luca</a></td><td>1354</td><td>15</td></tr>
+<tr class=""><td>15</td><td><span class="flag be"></span> <a  href="rider/loic-vliegen">VLIEGEN Loïc</a></td><td>1874</td><td>5</td></tr>
+<tr class=""><td>16</td><td><span class="flag be"></span> <a  href="rider/jelle-vermoote">VERMOOTE Jelle</a></td><td>1926</td><td>5</td></tr>
+<tr class=""><td>17</td><td><span class="flag fr"></span> <a  href="rider/quentin-bezza">BEZZA Quentin</a></td><td>1895</td><td>5</td></tr>
+<tr class=""><td>18</td><td><span class="flag gb"></span> <a  href="rider/tom-portsmouth">PORTSMOUTH Tom</a></td><td>2395</td><td>1</td></tr>
 <tr class=""><td>19</td><td><span class="flag be"></span> <a  href="rider/louka-matthys">MATTHYS Louka</a></td><td></td><td></td></tr>
 <tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/jocelyn-baguelin">BAGUELIN Jocelyn</a></td><td></td><td></td></tr>
 <tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/victor-papon">PAPON Victor</a></td><td></td><td></td></tr>
@@ -233,18 +247,18 @@
 <th class="w27 ">points</th>
 </tr></thead><tbody>
 <tr class=""><td>1</td><td><span class="flag be"></span> <a  href="rider/loic-vliegen">VLIEGEN Loïc</a></td><td>1865</td></tr>
-<tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/marco-tizza">TIZZA Marco</a></td><td>1227</td></tr>
+<tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/marco-tizza">TIZZA Marco</a></td><td>1231</td></tr>
 <tr class=""><td>3</td><td><span class="flag be"></span> <a  href="rider/floris-de-tier">DE TIER Floris</a></td><td>1006</td></tr>
 <tr class=""><td>4</td><td><span class="flag fr"></span> <a  href="rider/pierre-barbier">BARBIER Pierre</a></td><td>1006</td></tr>
-<tr class=""><td>5</td><td><span class="flag be"></span> <a  href="rider/kenneth-van-rooy">VAN ROOY Kenneth</a></td><td>973</td></tr>
+<tr class=""><td>5</td><td><span class="flag be"></span> <a  href="rider/kenneth-van-rooy">VAN ROOY Kenneth</a></td><td>978</td></tr>
 <tr class=""><td>6</td><td><span class="flag be"></span> <a  href="rider/sasha-weemaes">WEEMAES Sasha</a></td><td>570</td></tr>
 <tr class=""><td>7</td><td><span class="flag be"></span> <a  href="rider/jens-reynders">REYNDERS Jens</a></td><td>396</td></tr>
-<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/ceriel-desal">DESAL Ceriel</a></td><td>256</td></tr>
+<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/ceriel-desal">DESAL Ceriel</a></td><td>261</td></tr>
 <tr class=""><td>9</td><td><span class="flag it"></span> <a  href="rider/davide-persico">PERSICO Davide</a></td><td>227</td></tr>
 <tr class=""><td>10</td><td><span class="flag be"></span> <a  href="rider/johan-meens">MEENS Johan</a></td><td>183</td></tr>
-<tr class=""><td>11</td><td><span class="flag it"></span> <a  href="rider/giacomo-villa">VILLA Giacomo</a></td><td>78</td></tr>
-<tr class=""><td>12</td><td><span class="flag be"></span> <a  href="rider/michiel-lambrecht">LAMBRECHT Michiel</a></td><td>62</td></tr>
-<tr class=""><td>13</td><td><span class="flag be"></span> <a  href="rider/leander-van-hautegem">VAN HAUTEGEM Leander</a></td><td>47</td></tr>
+<tr class=""><td>11</td><td><span class="flag it"></span> <a  href="rider/giacomo-villa">VILLA Giacomo</a></td><td>95</td></tr>
+<tr class=""><td>12</td><td><span class="flag be"></span> <a  href="rider/michiel-lambrecht">LAMBRECHT Michiel</a></td><td>67</td></tr>
+<tr class=""><td>13</td><td><span class="flag be"></span> <a  href="rider/leander-van-hautegem">VAN HAUTEGEM Leander</a></td><td>52</td></tr>
 <tr class=""><td>14</td><td><span class="flag be"></span> <a  href="rider/luca-de-meester">DE MEESTER Luca</a></td><td>46</td></tr>
 <tr class=""><td>15</td><td><span class="flag be"></span> <a  href="rider/jelle-vermoote">VERMOOTE Jelle</a></td><td>41</td></tr>
 <tr class=""><td>16</td><td><span class="flag be"></span> <a  href="rider/louka-matthys">MATTHYS Louka</a></td><td>27</td></tr>
@@ -290,28 +304,28 @@
 <th class="w67 ">ridername</th>
 <th class="w27 ">age</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag be"></span> <a  href="rider/floris-de-tier">DE TIER Floris</a></td><td>33y + 202d</td></tr>
-<tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/marco-tizza">TIZZA Marco</a></td><td>33y + 185d</td></tr>
-<tr class=""><td>3</td><td><span class="flag be"></span> <a  href="rider/kenneth-van-rooy">VAN ROOY Kenneth</a></td><td>31y + 306d</td></tr>
-<tr class=""><td>4</td><td><span class="flag be"></span> <a  href="rider/loic-vliegen">VLIEGEN Loïc</a></td><td>31y + 233d</td></tr>
-<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/pierre-barbier">BARBIER Pierre</a></td><td>27y + 319d</td></tr>
-<tr class=""><td>6</td><td><span class="flag be"></span> <a  href="rider/sasha-weemaes">WEEMAES Sasha</a></td><td>27y + 182d</td></tr>
-<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="rider/quentin-bezza">BEZZA Quentin</a></td><td>27y + 139d</td></tr>
-<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/jens-reynders">REYNDERS Jens</a></td><td>27y + 77d</td></tr>
-<tr class=""><td>9</td><td><span class="flag fr"></span> <a  href="rider/jocelyn-baguelin">BAGUELIN Jocelyn</a></td><td>26y + 82d</td></tr>
-<tr class=""><td>10</td><td><span class="flag be"></span> <a  href="rider/johan-meens">MEENS Johan</a></td><td>26y + 34d</td></tr>
-<tr class=""><td>11</td><td><span class="flag be"></span> <a  href="rider/ceriel-desal">DESAL Ceriel</a></td><td>25y + 294d</td></tr>
-<tr class=""><td>12</td><td><span class="flag be"></span> <a  href="rider/louka-matthys">MATTHYS Louka</a></td><td>25y + 222d</td></tr>
-<tr class=""><td>13</td><td><span class="flag be"></span> <a  href="rider/luca-de-meester">DE MEESTER Luca</a></td><td>25y + 200d</td></tr>
-<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/victor-papon">PAPON Victor</a></td><td>24y + 197d</td></tr>
-<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/davide-persico">PERSICO Davide</a></td><td>24y + 131d</td></tr>
-<tr class=""><td>16</td><td><span class="flag be"></span> <a  href="rider/jelle-vermoote">VERMOOTE Jelle</a></td><td>23y + 346d</td></tr>
-<tr class=""><td>17</td><td><span class="flag gb"></span> <a  href="rider/tom-portsmouth">PORTSMOUTH Tom</a></td><td>23y + 234d</td></tr>
-<tr class=""><td>18</td><td><span class="flag be"></span> <a  href="rider/axandre-van-petegem">VAN PETEGEM Axandre</a></td><td>23y + 209d</td></tr>
-<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/giacomo-villa">VILLA Giacomo</a></td><td>23y + 193d</td></tr>
-<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/henri-francois-renard-haquin">RENARD-HAQUIN Henri-François</a></td><td>22y + 241d</td></tr>
-<tr class=""><td>21</td><td><span class="flag be"></span> <a  href="rider/michiel-lambrecht">LAMBRECHT Michiel</a></td><td>22y + 181d</td></tr>
-<tr class=""><td>22</td><td><span class="flag be"></span> <a  href="rider/leander-van-hautegem">VAN HAUTEGEM Leander</a></td><td>22y + 154d</td></tr>
+<tr class=""><td>1</td><td><span class="flag be"></span> <a  href="rider/floris-de-tier">DE TIER Floris</a></td><td>33y + 217d</td></tr>
+<tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/marco-tizza">TIZZA Marco</a></td><td>33y + 200d</td></tr>
+<tr class=""><td>3</td><td><span class="flag be"></span> <a  href="rider/kenneth-van-rooy">VAN ROOY Kenneth</a></td><td>31y + 321d</td></tr>
+<tr class=""><td>4</td><td><span class="flag be"></span> <a  href="rider/loic-vliegen">VLIEGEN Loïc</a></td><td>31y + 248d</td></tr>
+<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/pierre-barbier">BARBIER Pierre</a></td><td>27y + 334d</td></tr>
+<tr class=""><td>6</td><td><span class="flag be"></span> <a  href="rider/sasha-weemaes">WEEMAES Sasha</a></td><td>27y + 197d</td></tr>
+<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="rider/quentin-bezza">BEZZA Quentin</a></td><td>27y + 154d</td></tr>
+<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/jens-reynders">REYNDERS Jens</a></td><td>27y + 92d</td></tr>
+<tr class=""><td>9</td><td><span class="flag fr"></span> <a  href="rider/jocelyn-baguelin">BAGUELIN Jocelyn</a></td><td>26y + 97d</td></tr>
+<tr class=""><td>10</td><td><span class="flag be"></span> <a  href="rider/johan-meens">MEENS Johan</a></td><td>26y + 49d</td></tr>
+<tr class=""><td>11</td><td><span class="flag be"></span> <a  href="rider/ceriel-desal">DESAL Ceriel</a></td><td>25y + 309d</td></tr>
+<tr class=""><td>12</td><td><span class="flag be"></span> <a  href="rider/louka-matthys">MATTHYS Louka</a></td><td>25y + 237d</td></tr>
+<tr class=""><td>13</td><td><span class="flag be"></span> <a  href="rider/luca-de-meester">DE MEESTER Luca</a></td><td>25y + 215d</td></tr>
+<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/victor-papon">PAPON Victor</a></td><td>24y + 212d</td></tr>
+<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/davide-persico">PERSICO Davide</a></td><td>24y + 146d</td></tr>
+<tr class=""><td>16</td><td><span class="flag be"></span> <a  href="rider/jelle-vermoote">VERMOOTE Jelle</a></td><td>23y + 361d</td></tr>
+<tr class=""><td>17</td><td><span class="flag gb"></span> <a  href="rider/tom-portsmouth">PORTSMOUTH Tom</a></td><td>23y + 249d</td></tr>
+<tr class=""><td>18</td><td><span class="flag be"></span> <a  href="rider/axandre-van-petegem">VAN PETEGEM Axandre</a></td><td>23y + 224d</td></tr>
+<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/giacomo-villa">VILLA Giacomo</a></td><td>23y + 208d</td></tr>
+<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/henri-francois-renard-haquin">RENARD-HAQUIN Henri-François</a></td><td>22y + 256d</td></tr>
+<tr class=""><td>21</td><td><span class="flag be"></span> <a  href="rider/michiel-lambrecht">LAMBRECHT Michiel</a></td><td>22y + 196d</td></tr>
+<tr class=""><td>22</td><td><span class="flag be"></span> <a  href="rider/leander-van-hautegem">VAN HAUTEGEM Leander</a></td><td>22y + 169d</td></tr>
 </tbody></table></div>
 <div class="stab name riderlistcont">
 <ul class="teamlist list lineh18" >
@@ -321,7 +335,7 @@
 <li class=""><div class="w10" >4</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/luca-de-meester">DE MEESTER Luca</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >25</div></li>
 <li class=""><div class="w10" >5</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/floris-de-tier">DE TIER Floris</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >33</div></li>
 <li class=""><div class="w10" >6</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/ceriel-desal">DESAL Ceriel</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >25</div></li>
-<li class=""><div class="w10" >7</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/michiel-lambrecht">LAMBRECHT Michiel</a></div><div class="fs10 clr999" ></div><div><span class="outWithInjury">out</span></div></div><div class="w10" >22</div></li>
+<li class=""><div class="w10" >7</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/michiel-lambrecht">LAMBRECHT Michiel</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >22</div></li>
 <li class=""><div class="w10" >8</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/louka-matthys">MATTHYS Louka</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >25</div></li>
 <li class=""><div class="w10" >9</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/johan-meens">MEENS Johan</a></div><div class="fs10 clr999" ></div><div><span class="outWithInjury">out</span></div></div><div class="w10" >26</div></li>
 <li class=""><div class="w10" >10</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/victor-papon">PAPON Victor</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >24</div></li>
@@ -331,7 +345,7 @@
 <li class=""><div class="w10" >14</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/jens-reynders">REYNDERS Jens</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >27</div></li>
 <li class=""><div class="w10" >15</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/marco-tizza">TIZZA Marco</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >33</div></li>
 <li class=""><div class="w10" >16</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/leander-van-hautegem">VAN HAUTEGEM Leander</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >22</div></li>
-<li class=""><div class="w10" >17</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/axandre-van-petegem">VAN PETEGEM Axandre</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >23</div></li>
+<li class=""><div class="w10" >17</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/axandre-van-petegem">VAN PETEGEM Axandre</a></div><div class="fs10 clr999" ></div><div><span class="outWithInjury">out</span></div></div><div class="w10" >23</div></li>
 <li class=""><div class="w10" >18</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/kenneth-van-rooy">VAN ROOY Kenneth</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >31</div></li>
 <li class=""><div class="w10" >19</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/jelle-vermoote">VERMOOTE Jelle</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >23</div></li>
 <li class=""><div class="w10" >20</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/giacomo-villa">VILLA Giacomo</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >23</div></li>
@@ -404,15 +418,11 @@
 <th class="w8 cu600">Class</th>
 <th class="w32 cu600 fs10 clr555">Riders</th>
 </tr></thead><tbody>
-<tr class=""><td class="cu600" >15/08</td><td class="cs600 hide" >15/08</td><td><span class="flag be"></span> <a  href="race/circuit-franco-belge/2025">Circuit Franco-Belge</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" >De Meester, Desal, Portsmouth, Reynders, Van Rooy, Vermoote, Renard-Haquin</td></tr>
-<tr class=""><td class="cu600" >17/08</td><td class="cs600 hide" >17/08</td><td><span class="flag fr"></span> <a  href="race/la-poly-normande/2025">La Polynormande</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Baguelin</td></tr>
-<tr class=""><td class="cu600" >19/08 - 22/08</td><td class="cs600 hide" >19/08 - 22/08</td><td><span class="flag fr"></span> <a  href="race/tour-du-limousin/2025">Tour du Limousin-Périgord - Nouvelle Aquitaine</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" >Baguelin</td></tr>
-<tr class=""><td class="cu600" >20/08 - 24/08</td><td class="cs600 hide" >20/08 - 24/08</td><td><span class="flag be"></span> <a  href="race/renewi-tour/2025">Renewi Tour</a></td><td class="cu600" >2.UWT</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class=""><td class="cu600" >26/08 - 29/08</td><td class="cs600 hide" >26/08 - 29/08</td><td><span class="flag fr"></span> <a  href="race/tour-du-poitou-charentes-et-de-la-vienne/2025">Tour Poitou - Charentes en Nouvelle Aquitaine</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >27/08</td><td class="cs600 hide" >27/08</td><td><span class="flag be"></span> <a  href="race/muur-classic-geraardsbergen/2025">Muur Classic Geraardsbergen</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Bezza, De Tier, Meens, Papon, Tizza, Villa, Vliegen</td></tr>
-<tr class="hide"><td class="cu600" >10/09</td><td class="cs600 hide" >10/09</td><td><span class="flag it"></span> <a  href="race/giro-di-toscana/2025">Giro della Toscana - Memorial Alfredo Martini</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >11/09</td><td class="cs600 hide" >11/09</td><td><span class="flag it"></span> <a  href="race/gp-citta-di-peccioli/2025">Gran Premio città di Peccioli - Coppa Sabatini</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >13/09</td><td class="cs600 hide" >13/09</td><td><span class="flag it"></span> <a  href="race/memorial-marco-pantani/2025">Memorial Marco Pantani</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class=""><td class="cu600" >27/08</td><td class="cs600 hide" >27/08</td><td><span class="flag be"></span> <a  href="race/muur-classic-geraardsbergen/2025">Muur Classic Geraardsbergen</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Bezza, De Tier, Meens, Papon, Tizza, Villa, Vliegen</td></tr>
+<tr class=""><td class="cu600" >31/08</td><td class="cs600 hide" >31/08</td><td><span class="flag be"></span> <a  href="race/grote-prijs-stad-halle/2025">IXINA Classic - Grote Prijs van de Stad Halle</a></td><td class="cu600" >1.2</td><td class="cu600 fs10 clr555" >Desal, Lambrecht, De Meester, Van Rooy, Vermoote, Weemaes</td></tr>
+<tr class=""><td class="cu600" >10/09</td><td class="cs600 hide" >10/09</td><td><span class="flag it"></span> <a  href="race/giro-di-toscana/2025">Giro della Toscana - Memorial Alfredo Martini</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class=""><td class="cu600" >11/09</td><td class="cs600 hide" >11/09</td><td><span class="flag it"></span> <a  href="race/gp-citta-di-peccioli/2025">Gran Premio città di Peccioli - Coppa Sabatini</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class=""><td class="cu600" >13/09</td><td class="cs600 hide" >13/09</td><td><span class="flag it"></span> <a  href="race/memorial-marco-pantani/2025">Memorial Marco Pantani</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag it"></span> <a  href="race/trofeo-matteotti/2025">Trofeo Matteotti</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag fr"></span> <a  href="race/gp-de-fourmies/2025">GP de Fourmies / La Voix du Nord</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >17/09</td><td class="cs600 hide" >17/09</td><td><span class="flag be"></span> <a  href="race/gp-de-wallonie/2025">Grand Prix de Wallonie</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
@@ -429,7 +439,7 @@
 <tr class="hide"><td class="cu600" >07/10</td><td class="cs600 hide" >07/10</td><td><span class="flag be"></span> <a  href="race/memorial-frank-vandenbroucke/2025">Binche - Chimay - Binche / Mémorial Frank Vandenbroucke</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >09/10</td><td class="cs600 hide" >09/10</td><td><span class="flag it"></span> <a  href="race/gran-piemonte/2025">Gran Piemonte</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >12/10</td><td class="cs600 hide" >12/10</td><td><span class="flag fr"></span> <a  href="race/paris-tours/2025">Paris - Tours Elite</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-</tbody></table><a class="show-all" href="">show 20 more lines</a></div>
+</tbody></table><a class="show-all-link show-all" href="">show 16 more lines</a></div>
 <div class="mt20">
 <h4>Last victories</h4><table class=" basic"><thead><tr>
 <th class="w8 ">#</th>
@@ -452,22 +462,22 @@
 <tr class=""><td>13</td><td><span class="flag be"></span> <a  href="race/brussels-cycling-classic/2025/result">Brussels Cycling Classic</a></td><td>1.Pro</td><td><a  href="rider/giacomo-villa">VILLA Giacomo</a></td><td>16</td></tr>
 <tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="race/boucles-de-l-aulne/2025/result">Boucles de l'Aulne - Châteaulin</a></td><td>1.1</td><td><a  href="rider/johan-meens">MEENS Johan</a></td><td>14</td></tr>
 <tr class=""><td>10</td><td><span class="flag be"></span> <a  href="race/antwerp-port-epic/2025/result">Antwerp Port Epic / Sels Trophy</a></td><td>1.1</td><td><a  href="rider/jens-reynders">REYNDERS Jens</a></td><td>14</td></tr>
+<tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="race/la-poly-normande/2025/result">La Polynormande</a></td><td>1.1</td><td><a  href="rider/giacomo-villa">VILLA Giacomo</a></td><td>14</td></tr>
 <tr class=""><td>11</td><td><span class="flag fr"></span> <a  href="race/gp-d-ouverture/2025/result">Grand Prix Cycliste de Marseille La Marseillaise</a></td><td>1.1</td><td><a  href="rider/marco-tizza">TIZZA Marco</a></td><td>12</td></tr>
 <tr class=""><td>3</td><td><span class="flag tr"></span> <a  href="race/tour-of-turkey/2025/stage-7">Presidential Cycling Tour of Turkiye | Stage 7</a></td><td>2.Pro</td><td><a  href="rider/davide-persico">PERSICO Davide</a></td><td>12</td></tr>
 <tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="race/tour-cycliste-international-la-provence/2025/gc">Tour de la Provence | General classification</a></td><td>2.1</td><td><a  href="rider/marco-tizza">TIZZA Marco</a></td><td>10</td></tr>
 <tr class=""><td>12</td><td><span class="flag be"></span> <a  href="race/circuit-des-xi-villes/2025/result">Elfstedenronde Brugge</a></td><td>1.1</td><td><a  href="rider/leander-van-hautegem">VAN HAUTEGEM Leander</a></td><td>10</td></tr>
-<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="race/classique-dunkerque/2025/result">Classique Dunkerque / Grand prix des Hauts de France</a></td><td>1.Pro</td><td><a  href="rider/leander-van-hautegem">VAN HAUTEGEM Leander</a></td><td>8</td></tr>
 <tr class="hide"><td>13</td><td><span class="flag fr"></span> <a  href="race/tour-du-finistere/2025/result">Tour du Finistère Pays de Quimper</a></td><td>1.1</td><td><a  href="rider/johan-meens">MEENS Johan</a></td><td>8</td></tr>
-<tr class="hide"><td>14</td><td><span class="flag fr"></span> <a  href="race/tour-du-doubs/2025/result">Tour du Doubs</a></td><td>1.1</td><td><a  href="rider/johan-meens">MEENS Johan</a></td><td>7</td></tr>
+<tr class="hide"><td>18</td><td><span class="flag fr"></span> <a  href="race/classique-dunkerque/2025/result">Classique Dunkerque / Grand prix des Hauts de France</a></td><td>1.Pro</td><td><a  href="rider/leander-van-hautegem">VAN HAUTEGEM Leander</a></td><td>8</td></tr>
 <tr class="hide"><td>14</td><td><span class="flag fr"></span> <a  href="race/tour-du-jura-cycliste/2025/result">Tour du Jura Cycliste</a></td><td>1.1</td><td><a  href="rider/floris-de-tier">DE TIER Floris</a></td><td>7</td></tr>
 <tr class="hide"><td>14</td><td><span class="flag fr"></span> <a  href="race/route-adelie-de-vitre/2025/result">La Route Adélie de Vitré</a></td><td>1.1</td><td><a  href="rider/henri-francois-renard-haquin">RENARD-HAQUIN Henri-François</a></td><td>7</td></tr>
+<tr class="hide"><td>14</td><td><span class="flag fr"></span> <a  href="race/tour-du-doubs/2025/result">Tour du Doubs</a></td><td>1.1</td><td><a  href="rider/johan-meens">MEENS Johan</a></td><td>7</td></tr>
 <tr class="hide"><td>21</td><td><span class="flag it"></span> <a  href="race/trofeo-laigueglia/2025/result">Trofeo Laigueglia</a></td><td>1.Pro</td><td><a  href="rider/marco-tizza">TIZZA Marco</a></td><td>5</td></tr>
 <tr class="hide"><td>16</td><td><span class="flag fr"></span> <a  href="race/classic-grand-besancon-doubs/2025/result">Classic Grand Besançon Doubs</a></td><td>1.1</td><td><a  href="rider/floris-de-tier">DE TIER Floris</a></td><td>5</td></tr>
 <tr class="hide"><td>21</td><td><span class="flag be"></span> <a  href="race/dwars-door-het-hageland/2025/result">Duracell Dwars door het Hageland</a></td><td>1.Pro</td><td><a  href="rider/jens-reynders">REYNDERS Jens</a></td><td>5</td></tr>
 <tr class="hide"><td>16</td><td><span class="flag fr"></span> <a  href="race/etoile-de-besseges/2025/gc">Etoile de Bessèges - Tour du Gard | General classification</a></td><td>2.1</td><td><a  href="rider/marco-tizza">TIZZA Marco</a></td><td>5</td></tr>
 <tr class="hide"><td>1</td><td><span class="flag ae"></span> <a  href="race/tour-of-sharjah/2025/stage-3">Tour of Sharjah | Stage 3 (ITT)</a></td><td>2.2</td><td><a  href="rider/quentin-bezza">BEZZA Quentin</a></td><td>5</td></tr>
-<tr class="hide"><td>17</td><td><span class="flag nl"></span> <a  href="race/volta-nxt-classic/2025/result">Volta NXT Classic ME</a></td><td>1.1</td><td><a  href="rider/giacomo-villa">VILLA Giacomo</a></td><td>4</td></tr>
-</tbody></table><a class="show-all" href="">show 10 more lines</a></div>
+</tbody></table><a class="show-all-link show-all" href="">show 10 more lines</a></div>
 </div>
 <div class="borderbox w30 right mb_w100" >
 <div class="">
@@ -582,7 +592,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0771s</span></li>
+<li><span>Pageload 0.1187s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script>
+<script src="search_list22.js"></script>

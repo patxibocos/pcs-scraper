@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -91,6 +101,10 @@
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
 </ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
+</ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
 <li><a  href="account/follow-riders">My riders</a></li>
@@ -101,12 +115,12 @@
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="SelectNavCont "><div class="selectNav" ><form style="display: block; float: left; "><select style="max-width: 150px;" onChange="window.location.href=this.value; "><option value="race/vuelta-a-espana/2025/result/result" selected>ME</option>
 <option value="race/vuelta-espana-femenina/2025/result/result" >WE</option>
-</select></form><div class="clear"></div></div><div class="selectNav" ><a class="" href="race/vuelta-a-espana/2025/stage-14/result/result"><span class="hideIfMobile">PREV</span><span class="showIfMobile">&laquo;</span></a><form style="display: block; float: left; "><select style="" onChange="window.location.href=this.value; "><option value="race/vuelta-a-espana/2025/stage-1/result/result" >Stage 1 | Torino - Reggia di Venaria-Novara</option>
-<option value="race/vuelta-a-espana/2025/stage-2/result/result" >Stage 2 | Alba-Puerto Limone</option>
+</select></form><div class="clear"></div></div><div class="selectNav" ><a class="" href="race/vuelta-a-espana/2025/stage-14/result/result"><span class="hideIfMobile">PREV</span><span class="showIfMobile">&laquo;</span></a><form style="display: block; float: left; "><select style="" onChange="window.location.href=this.value; "><option value="race/vuelta-a-espana/2025/stage-1/result/result" >Stage 1 | Torino-Reggia di Venaria-Novara</option>
+<option value="race/vuelta-a-espana/2025/stage-2/result/result" >Stage 2 | Alba-Limone Piemonte</option>
 <option value="race/vuelta-a-espana/2025/stage-3/result/result" >Stage 3 | San Maurizio Canavese-Ceres</option>
 <option value="race/vuelta-a-espana/2025/stage-4/result/result" >Stage 4 | Susa-Voiron</option>
 <option value="race/vuelta-a-espana/2025/stage-5/result/result" >Stage 5 (TTT) | Figueres-Figueres</option>
-<option value="race/vuelta-a-espana/2025/stage-6/result/result" >Stage 6 | Olot-Pal</option>
+<option value="race/vuelta-a-espana/2025/stage-6/result/result" >Stage 6 | Olot-Pal. Andorra</option>
 <option value="race/vuelta-a-espana/2025/stage-7/result/result" >Stage 7 | Andorra la Vella-Cerler. Huesca La Magia</option>
 <option value="race/vuelta-a-espana/2025/stage-8/result/result" >Stage 8 | Monzón Templario-Zaragoza</option>
 <option value="race/vuelta-a-espana/2025/stage-9/result/result" >Stage 9 | Alfaro-Estación de Esquí de Valdezcaray</option>
@@ -114,9 +128,9 @@
 <option value="race/vuelta-a-espana/2025/stage-11/result/result" >Stage 11 | Bilbao-Bilbao</option>
 <option value="race/vuelta-a-espana/2025/stage-12/result/result" >Stage 12 | Laredo-Los Corrales de Buelna</option>
 <option value="race/vuelta-a-espana/2025/stage-13/result/result" >Stage 13 | Cabezón de la Sal-L'Angliru</option>
-<option value="race/vuelta-a-espana/2025/stage-14/result/result" >Stage 14 | Avilés-Alto de la Farrapona</option>
+<option value="race/vuelta-a-espana/2025/stage-14/result/result" >Stage 14 | Avilés-La Farrapona. Lagos de Somiedo</option>
 <option value="race/vuelta-a-espana/2025/stage-15/result/result" selected>Stage 15 | A Veiga/Vegadeo-Monforte de Lemos</option>
-<option value="race/vuelta-a-espana/2025/stage-16/result/result" >Stage 16 | Poio-Mos.Castro de Herville</option>
+<option value="race/vuelta-a-espana/2025/stage-16/result/result" >Stage 16 | Poio-Mos. Castro de Herville</option>
 <option value="race/vuelta-a-espana/2025/stage-17/result/result" >Stage 17 | O Barco de Valdeorras-Alto de El Morredero</option>
 <option value="race/vuelta-a-espana/2025/stage-18/result/result" >Stage 18 (ITT) | Valladolid-Valladolid</option>
 <option value="race/vuelta-a-espana/2025/stage-19/result/result" >Stage 19 | Rueda-Guijuelo</option>
@@ -228,9 +242,9 @@
 <li><a href="race/vuelta-a-espana/2025/stage-15/more/contribute-sites">Contribute site(s)</a></li>
 </ul></span>
 </div><div class="clear"></div>
-<div class="thumbnav"><span><a class="blue" href="race/vuelta-a-espana">La Vuelta Ciclista a España</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/vuelta-a-espana/2025">2025</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/vuelta-a-espana/2025/stage-15">Stage 15</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/vuelta-a-espana/2025/stage-15/result/result">Results</a></span></div>
+<div class="thumbnav"><span><a class="blue" href="race/vuelta-a-espana">Vuelta a España</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/vuelta-a-espana/2025">2025</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/vuelta-a-espana/2025/stage-15">Stage 15</a></span><span>&nbsp; &raquo; &nbsp;</span><span><a class="blue" href="race/vuelta-a-espana/2025/stage-15/result/result">Results</a></span></div>
 <div class="titleCont "><div class="page-title"><div class="title"><span class="flag es w32"></span><span class="flag c24 es "></span><h1><font class="hideIfMobile">2025 &nbsp; &raquo;  &nbsp; 80th </font>La Vuelta Ciclista a España <font class="hideIfMobile">(2.UWT)</font></h1>
-</div><div class="clear"></div><div class="title-line2 hideIfMobile"><font class="blue">Stage 15</font> &nbsp; &raquo; &nbsp; <font class="red">A Veiga/Vegadeo &nbsp;&rsaquo;&nbsp; Monforte de Lemos</font> &nbsp; <font class="red"style="font-weight: normal; ">(167km)</font></div><div class="imob block" style="text-align: center; letter-spacing: 0; ">2025 | Stage 15</div><div class="imob block red  fs14" style="text-align: center; letter-spacing: 0; " ><b>A Veiga/Vegadeo &rsaquo; Monforte de Lemos</b> (167km)</div></div><a class="toggleSideMenu" href="">menu</a></div>
+</div><div class="clear"></div><div class="title-line2 hideIfMobile"><font class="blue">Stage 15</font> &nbsp; &raquo; &nbsp; <font class="red">A Veiga/Vegadeo &nbsp;&rsaquo;&nbsp; Monforte de Lemos</font> &nbsp; <font class="red"style="font-weight: normal; ">(167.8km)</font></div><div class="imob block" style="text-align: center; letter-spacing: 0; ">2025 | Stage 15</div><div class="imob block red  fs14" style="text-align: center; letter-spacing: 0; " ><b>A Veiga/Vegadeo &rsaquo; Monforte de Lemos</b> (167.8km)</div></div><a class="toggleSideMenu" href="">menu</a></div>
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-race"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w68 left mb_w100" >
@@ -257,7 +271,8 @@
 <option value="team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</option>
 <option value="uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</option>
 <option value="xds-astana-team-2025">XDS Astana Team</option>
-</select> <select class="filterResults right" data-type="nation"><option value="">all nations</option><option value="au">Australia</option>
+</select> <select class="filterResults right" data-type="nation"><option value="">all nations</option><option value="ar">Argentina</option>
+<option value="au">Australia</option>
 <option value="at">Austria</option>
 <option value="be">Belgium</option>
 <option value="ca">Canada</option>
@@ -265,20 +280,31 @@
 <option value="cz">Czech Republic</option>
 <option value="dk">Denmark</option>
 <option value="ec">Ecuador</option>
+<option value="er">Eritrea</option>
+<option value="ee">Estonia</option>
 <option value="fr">France</option>
+<option value="de">Germany</option>
 <option value="gb">Great Britain</option>
-<option value="hu">Hungary</option>
+<option value="gt">Guatemala</option>
 <option value="ie">Ireland</option>
 <option value="il">Israel</option>
 <option value="it">Italy</option>
+<option value="kz">Kazakhstan</option>
+<option value="lu">Luxembourg</option>
+<option value="mc">Monaco</option>
 <option value="nl">Netherlands</option>
+<option value="nz">New Zealand</option>
+<option value="no">Norway</option>
 <option value="pl">Poland</option>
 <option value="pt">Portugal</option>
 <option value="ru">Russia</option>
 <option value="si">Slovenia</option>
+<option value="za">South Africa</option>
 <option value="es">Spain</option>
+<option value="ch">Switzerland</option>
 <option value="us">United States</option>
 <option value="uy">Uruguay</option>
+<option value="ve">Venezuela</option>
 </select> <select class="filterResults right" data-type="custom"><option value="">all</option><option value="age_u23">Age U23</option>
 <option value="age_u25">Age U25</option>
 <option value="age_o30">Age 30+</option>
@@ -301,21 +327,21 @@
 <div class="left w70">
 <h4>Race information</h4><ul class="list keyvalueList lineh16 fs12" >
 <li class=""><div class="title ">Date:  </div><div class=" value" >07 September 2025</div></li>
-<li><div class="title ">Start time: </div><div class=" value" >-</div></li>
+<li><div class="title ">Start time: </div><div class=" value" >13:12 </div></li>
 <li><div class="title ">Avg. speed winner: </div><div class=" value" >-</div></li>
 <li><div class="title ">Classification: </div><div class=" value" >2.UWT</div></li>
 <li><div class="title ">Race category: </div><div class=" value" >ME - Men Elite</div></li>
-<li><div class="title ">Distance: </div><div class=" value" >167 km</div></li>
+<li><div class="title ">Distance: </div><div class=" value" >167.8 km</div></li>
 <li><div class="title ">Points scale: </div><div class=" value" ><a  href="info.php?s=point-scales&season=2025&category=1&scale=8">GT.B.Stage</a></div></li>
 <li><div class="title ">UCI scale: </div><div class=" value" ><a  href="info.php?s=point-scales&season=2025&category=1&scale=9863">UCI.WR.GT.B.Stage</a></div></li>
 <li><div class="title ">Parcours type: </div><div class=" value" ><span class="icon profile p2 mg_rp4 "></span></div></li>
-<li><div class="title ">Gradient final km: </div><div class=" value" >0.1%</div></li>
-<li><div class="title ">ProfileScore: </div><div class=" value" >98</div></li>
-<li><div class="title ">Vertical meters: </div><div class=" value" >3253</div></li>
+<li><div class="title ">Gradient final km: </div><div class=" value" >0.3%</div></li>
+<li><div class="title ">ProfileScore: </div><div class=" value" >85</div></li>
+<li><div class="title ">Vertical meters: </div><div class=" value" >3099</div></li>
 <li><div class="title ">Departure: </div><div class=" value" ><a  href="location/vegadeo">A Veiga/Vegadeo</a></div></li>
 <li><div class="title ">Arrival: </div><div class=" value" ><a  href="location/monforte-de-lemos">Monforte de Lemos</a></div></li>
-<li><div class="title ">Race ranking: </div><div class=" value" ><a  href="rankings/me/races"></a></div></li>
-<li><div class="title ">Startlist quality score: </div><div class=" value" ><a  href="race/vuelta-a-espana/2025/startlist/startlist-quality">585</a></div></li>
+<li><div class="title ">Race ranking: </div><div class=" value" ><a  href="rankings/me/races">11</a></div></li>
+<li><div class="title ">Startlist quality score: </div><div class=" value" ><a  href="race/vuelta-a-espana/2025/startlist/startlist-quality">872</a></div></li>
 <li><div class="title ">Won how: </div><div class=" value" >-</div></li>
 <li><div class="title ">Avg. temperature: </div><div class=" value" ><a  href="race/vuelta-a-espana/2025/results/hottest-stages"></a></div></li>
 <li></li>
@@ -329,7 +355,7 @@
 </ul><div class="clear"></div></div>
 <div class="mt10">
 <h4>Race profile</h4><ul class="list" >
-<li class=""><div><a  href="race/vuelta-a-espana/2025/stage-15/info/profiles"><img src="images/profiles/ca/bb/vuelta-a-espana-2025-stage-15-profile.jpg"  style="max-height: 200px; max-width: 100%;" /></a></div></li>
+<li class=""><div><a  href="race/vuelta-a-espana/2025/stage-15/info/profiles"><img src="images/profiles/ca/bb/vuelta-a-espana-2025-stage-15-profile-n2.jpg"  style="max-height: 200px; max-width: 100%;" /></a></div></li>
 </ul>
 </div>
 <div class="mt10">
@@ -337,6 +363,12 @@
 <li class=""><div class="mr5 " ><a target="_blank"  href="https://www.lavuelta.es/en/"><span class="iconv3 site14"></span></a></div><div class="fs12 mr5 uppercase" ><a target="_blank"  href="https://www.lavuelta.es/en/">Site</a></div></li>
 <li class=""><div class="mr5 " ><a target="_blank"  href="http://www.x.com/lavuelta"><span class="iconv3 x-logo14"></span></a></div><div class="fs12 mr5 uppercase" ><a target="_blank"  href="http://www.x.com/lavuelta">Twitter</a></div></li>
 <li class=""><div class="mr5 " ><a target="_blank"  href="https://www.facebook.com/lavuelta"><span class="iconv3 facebook14"></span></a></div><div class="fs12 mr5 uppercase" ><a target="_blank"  href="https://www.facebook.com/lavuelta">Facebook</a></div></li>
+</ul>
+</div>
+<div class="mt10">
+<h4>Climbs</h4><ul class="list circle" >
+<li class=""><div><a  href="location/alto-da-garganta">Puerto a Garganta</a></div></li>
+<li class=""><div><a  href="location/alto-de-barbeitos">Alto de Barbeitos</a></div></li>
 </ul>
 </div>
 <div class="mt40">
@@ -416,7 +448,7 @@ NR = No result<br />
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0245s</span></li>
+<li><span>Pageload 0.0572s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script>
+<script src="search_list22.js"></script>

@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -184,13 +198,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1846</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1209</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1888</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1354</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;47</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;100</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -206,7 +220,7 @@
 <ul class="list topresults">
 <li><div class="nrs">12th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/omloop-van-het-houtland-lichtervelde/2024/result">Omloop van het Houtland</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">16th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/paris-chauny-classique/2024/result">Paris-Chauny</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
-<li><div class="nrs">5th&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/4-jours-de-dunkerque/2025/kom">4 Jours de Dunkerque</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
+<li><div class="nrs">5th&nbsp;</div><div class="races"><span class="blue">KOM</span> <a href="race/4-jours-de-dunkerque/2025/kom">4 Jours de Dunkerque / Grand Prix des Hauts de Fra</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
 <li><div class="nrs">7th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/gp-de-la-ville-de-lillers/2022/result">Grand Prix de la Ville de Lillers Souvenir Bruno C</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
 <li><div class="nrs">8th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/paris-tours-espoirs/2022/result">Paris-Tours Espoirs</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
 <li><div class="nrs">8th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/olympias-tour/2022/stage-1b">Olympia's Tour</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
@@ -235,7 +249,7 @@
 </ul></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >15.08</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/circuit-franco-belge/2025/startlist">Circuit Franco-Belge</a></div><div class="blue fs10" ><a  href="rider-in-race/luca-de-meester/circuit-franco-belge">more</a></div></li>
+<li class=""><div class="bold mr5" >31.08</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/grote-prijs-stad-halle/2025/startlist">IXINA Classic - Grote Prijs van de Stad Halle</a></div><div class="blue fs10" ><a  href="rider-in-race/luca-de-meester/grote-prijs-stad-halle">more</a></div></li>
 </ul>
 </div>
 <div class="mt20">
@@ -256,16 +270,8 @@
 <li class=""><a class="rdrFilterSeason" data-season="2019"  href="">2019</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2018"  href="">2018</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2017"  href="">2017</a></li>
-<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2025" href="">2025</a></li>
-<li><a  class="rdrFilterSeason" data-season="2024" href="">2024</a></li>
-<li><a  class="rdrFilterSeason" data-season="2023" href="">2023</a></li>
-<li><a  class="rdrFilterSeason" data-season="2022" href="">2022</a></li>
-<li><a  class="rdrFilterSeason" data-season="2021" href="">2021</a></li>
-<li><a  class="rdrFilterSeason" data-season="2020" href="">2020</a></li>
-<li><a  class="rdrFilterSeason" data-season="2019" href="">2019</a></li>
-<li><a  class="rdrFilterSeason" data-season="2018" href="">2018</a></li>
-<li><a  class="rdrFilterSeason" data-season="2017" href="">2017</a></li>
-</ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+</ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>15.08</td><td>104</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/circuit-franco-belge/2025/result"><span>Circuit Franco-Belge</span> (1.Pro)</a>  </td><td>206.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/luca-de-meester/circuit-franco-belge">more</a></td></tr>
 <tr class="main"><td>29.06</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/nc-belgium/2025/result"><span>National Championships Belgium ME - Road Race</span> (NC)</a>  </td><td>230</td><td></td><td></td><td><a class="fs10" href="rider-in-race/luca-de-meester/nc-belgium">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">18.06 &rsaquo; 22.06</span><span class="showIfMobile fs12">18-22/6</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/tour-of-belgium/2025/stage-4-gc"><span>Baloise Belgium Tour</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/luca-de-meester/tour-of-belgium">more</a></td></tr>
 <tr class="stage"><td></td><td>112</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-belgium/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
@@ -279,7 +285,7 @@
 <tr class="main"><td>09.06</td><td>23</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/antwerp-port-epic/2025/result"><span>Antwerp Port Epic / Sels Trophy</span> (1.1)</a>  </td><td>182.2</td><td></td><td>3</td><td><a class="fs10" href="rider-in-race/luca-de-meester/antwerp-port-epic">more</a></td></tr>
 <tr class="main"><td>07.06</td><td>34</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/heist-op-den-berg/2025/result"><span>Heylen Vastgoed Heistse Pijl</span> (1.1)</a>  </td><td>189.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/luca-de-meester/heist-op-den-berg">more</a></td></tr>
 <tr class="main"><td>03.06</td><td>26</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="national-race/gullegem-koerse-eeg-classic/2025/result"><span>Gullegem Koerse - EEG Classic</span> (NAT)</a>  </td><td>176.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/luca-de-meester/gullegem-koerse-eeg-classic">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">14.05 &rsaquo; 18.05</span><span class="showIfMobile fs12">14-18/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/4-jours-de-dunkerque/2025/stage-1-gc"><span>4 Jours de Dunkerque / Grand Prix des Hauts de France</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/luca-de-meester/4-jours-de-dunkerque">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">14.05 &rsaquo; 18.05</span><span class="showIfMobile fs12">14-18/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/4-jours-de-dunkerque/2025/stage-3-gc"><span>4 Jours de Dunkerque / Grand Prix des Hauts de France</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/luca-de-meester/4-jours-de-dunkerque">more</a></td></tr>
 <tr class="stage"><td></td><td>5</td><td></td><td><span class="icon shirt w14 st7"></span></td><td><a href="race/4-jours-de-dunkerque/2025/kom"><span class="imob">Mountains classification</span><span class="idesk">Mountains classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>98</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/4-jours-de-dunkerque/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>18.05</td><td>60</td><td></td><td><span class=""></span></td><td><a href="race/4-jours-de-dunkerque/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Wormhout &rsaquo; Dunkerque</a>  </td><td>185.6</td><td></td><td></td><td></td></tr>
@@ -302,7 +308,7 @@
 <tr class="stage"><td>26.01</td><td>40</td><td>64</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-of-sharjah/2025/stage-3"><span class="imob">S3 (ITT)</span><span class="idesk">Stage 3 (ITT)</span> - Sharjah University City &rsaquo; Sharjah University City</a>  </td><td>11.16</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>25.01</td><td>141</td><td>85</td><td><span class=""></span></td><td><a href="race/tour-of-sharjah/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Wheat Farm, Maliha &rsaquo; Al Dhaid University</a>  </td><td>127</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>24.01</td><td>65</td><td>66</td><td><span class=""></span></td><td><a href="race/tour-of-sharjah/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Almajaz Amphitheatre, Sharjah &rsaquo; Hanging Gardens, Kalba</a>  </td><td>133.2</td><td></td><td></td><td></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>4315 km in <b>29</b> days | PCS points: <b>0</b> | UCI points: <b>3</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>4522 km in <b>30</b> days | PCS points: <b>0</b> | UCI points: <b>3</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -391,9 +397,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0399s</span></li>
+<li><span>Pageload 0.0434s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script><script>
+<script src="search_list22.js"></script><script>
 var riderid = 207942;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

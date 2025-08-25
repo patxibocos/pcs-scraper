@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -29,7 +29,7 @@
 <div class="wrapper"><header>
 <div class="cont">
 <a class="logo" href="index.php"></a>
-<div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="" data-url="" placeholder="search" autocomplete="off" /></form></div> 
+<div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="team" data-url="team/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
 <div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -148,13 +162,14 @@
 <div class=""><div class="borderbox w100" >
 <div class="">
 <ul class="simple-list list circle bluelink horizontal fs14">
+<li class=""><a  href="team-in-race/team-novo-nordisk-2025/tour-du-poitou-charentes-et-de-la-vienne">Tour Poitou - Charentes en Nouvelle Aquitaine</a></li>
 </ul><div class="clear"></div></div>
 <div class="mb5">
 <ul class="list horizontal teamkpi" >
 <li class=""><div class="title ">Victories </div><div class=" value" ><a  href="team/team-novo-nordisk-2025/wins">0</a></div></li>
-<li><div class="title ">Points </div><div class=" value" ><a  href="team/team-novo-nordisk-2025/season/points-per-rider">198</a></div></li>
-<li><div class="title ">PCS# </div><div class=" value" ><a  href="rankings/me/season-teams">52</a></div></li>
-<li><div class="title ">UCI# </div><div class=" value" ><a  href="rankings/me/uci-teams">72</a></div></li>
+<li><div class="title ">Points </div><div class=" value" ><a  href="team/team-novo-nordisk-2025/season/points-per-rider">254</a></div></li>
+<li><div class="title ">PCS# </div><div class=" value" ><a  href="rankings/me/season-teams">49</a></div></li>
+<li><div class="title ">UCI# </div><div class=" value" ><a  href="rankings/me/uci-teams">71</a></div></li>
 <li><div class="title ">Incoming </div><div class=" value" ><a  href="team/team-novo-nordisk-2025/transfers/this-year">5</a></div></li>
 <li><div class="title ">Outgoing </div><div class=" value" ><a  href="team/team-novo-nordisk-2025/transfers/this-year">5</a></div></li>
 <li></li>
@@ -204,14 +219,14 @@
 <th class="w13 ">rnk</th>
 <th class="w13 ">points</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag cz"></span> <a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>306</td><td>217</td></tr>
-<tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="rider/celestin-wattelle">WATTELLE Célestin</a></td><td>1487</td><td>12</td></tr>
+<tr class=""><td>1</td><td><span class="flag cz"></span> <a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>266</td><td>253</td></tr>
+<tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="rider/celestin-wattelle">WATTELLE Célestin</a></td><td>1484</td><td>12</td></tr>
 <tr class=""><td>3</td><td><span class="flag it"></span> <a  href="rider/andrea-peron">PERON Andrea</a></td><td>1540</td><td>10</td></tr>
-<tr class=""><td>4</td><td><span class="flag it"></span> <a  href="rider/alessandro-perracchione">PERRACCHIONE Alessandro</a></td><td>1700</td><td>8</td></tr>
-<tr class=""><td>5</td><td><span class="flag es"></span> <a  href="rider/david-lozano">LOZANO David</a></td><td>1866</td><td>5</td></tr>
-<tr class=""><td>6</td><td><span class="flag gb"></span> <a  href="rider/sam-brand">BRAND Sam</a></td><td>1894</td><td>5</td></tr>
-<tr class=""><td>7</td><td><span class="flag it"></span> <a  href="rider/filippo-ridolfo">RIDOLFO Filippo</a></td><td>2187</td><td>2</td></tr>
-<tr class=""><td>8</td><td><span class="flag nz"></span> <a  href="rider/hamish-beadle">BEADLE Hamish</a></td><td>2176</td><td>2</td></tr>
+<tr class=""><td>4</td><td><span class="flag it"></span> <a  href="rider/alessandro-perracchione">PERRACCHIONE Alessandro</a></td><td>1701</td><td>8</td></tr>
+<tr class=""><td>5</td><td><span class="flag es"></span> <a  href="rider/david-lozano">LOZANO David</a></td><td>1864</td><td>5</td></tr>
+<tr class=""><td>6</td><td><span class="flag gb"></span> <a  href="rider/sam-brand">BRAND Sam</a></td><td>1890</td><td>5</td></tr>
+<tr class=""><td>7</td><td><span class="flag it"></span> <a  href="rider/filippo-ridolfo">RIDOLFO Filippo</a></td><td>2190</td><td>2</td></tr>
+<tr class=""><td>8</td><td><span class="flag nz"></span> <a  href="rider/hamish-beadle">BEADLE Hamish</a></td><td>2178</td><td>2</td></tr>
 <tr class=""><td>9</td><td><span class="flag it"></span> <a  href="rider/jacopo-colladon">COLLADON Jacopo</a></td><td></td><td></td></tr>
 <tr class=""><td>10</td><td><span class="flag fr"></span> <a  href="rider/anton-muller">MULLER Anton</a></td><td></td><td></td></tr>
 <tr class=""><td>11</td><td><span class="flag au"></span> <a  href="rider/bailey-mcdonald">MCDONALD Bailey</a></td><td></td><td></td></tr>
@@ -231,7 +246,7 @@
 <th class="w67 ">ridername</th>
 <th class="w27 ">points</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag cz"></span> <a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>449</td></tr>
+<tr class=""><td>1</td><td><span class="flag cz"></span> <a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>505</td></tr>
 <tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/andrea-peron">PERON Andrea</a></td><td>347</td></tr>
 <tr class=""><td>3</td><td><span class="flag es"></span> <a  href="rider/david-lozano">LOZANO David</a></td><td>267</td></tr>
 <tr class=""><td>4</td><td><span class="flag gb"></span> <a  href="rider/sam-brand">BRAND Sam</a></td><td>60</td></tr>
@@ -285,26 +300,26 @@
 <th class="w67 ">ridername</th>
 <th class="w27 ">age</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag it"></span> <a  href="rider/andrea-peron">PERON Andrea</a></td><td>36y + 286d</td></tr>
-<tr class=""><td>2</td><td><span class="flag es"></span> <a  href="rider/david-lozano">LOZANO David</a></td><td>36y + 232d</td></tr>
-<tr class=""><td>3</td><td><span class="flag gb"></span> <a  href="rider/sam-brand">BRAND Sam</a></td><td>34y + 164d</td></tr>
-<tr class=""><td>4</td><td><span class="flag us"></span> <a  href="rider/logan-phippen">PHIPPEN Logan</a></td><td>33y + 92d</td></tr>
-<tr class=""><td>5</td><td><span class="flag it"></span> <a  href="rider/umberto-poli">POLI Umberto</a></td><td>28y + 348d</td></tr>
-<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/lucas-dauge">DAUGE Lucas</a></td><td>28y + 225d</td></tr>
-<tr class=""><td>7</td><td><span class="flag nz"></span> <a  href="rider/hamish-beadle">BEADLE Hamish</a></td><td>27y + 130d</td></tr>
-<tr class=""><td>8</td><td><span class="flag fr"></span> <a  href="rider/anton-muller">MULLER Anton</a></td><td>27y + 68d</td></tr>
-<tr class=""><td>9</td><td><span class="flag au"></span> <a  href="rider/declan-irvine">IRVINE Declan</a></td><td>26y + 152d</td></tr>
-<tr class=""><td>10</td><td><span class="flag it"></span> <a  href="rider/antonio-polga">POLGA Antonio</a></td><td>26y + 137d</td></tr>
-<tr class=""><td>11</td><td><span class="flag fr"></span> <a  href="rider/doriand-percrule">PERCRULE Doriand</a></td><td>26y + 81d</td></tr>
-<tr class=""><td>12</td><td><span class="flag gb"></span> <a  href="rider/nathan-smith">SMITH Nathan</a></td><td>24y + 348d</td></tr>
-<tr class=""><td>13</td><td><span class="flag be"></span> <a  href="rider/quinten-de-graeve">DE GRAEVE Quinten</a></td><td>24y + 290d</td></tr>
-<tr class=""><td>14</td><td><span class="flag it"></span> <a  href="rider/filippo-ridolfo">RIDOLFO Filippo</a></td><td>23y + 275d</td></tr>
-<tr class=""><td>15</td><td><span class="flag gb"></span> <a  href="rider/hamish-armitt">ARMITT Hamish</a></td><td>23y + 47d</td></tr>
-<tr class=""><td>16</td><td><span class="flag cz"></span> <a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>22y + 203d</td></tr>
-<tr class=""><td>17</td><td><span class="flag it"></span> <a  href="rider/jacopo-colladon">COLLADON Jacopo</a></td><td>22y + 132d</td></tr>
-<tr class=""><td>18</td><td><span class="flag au"></span> <a  href="rider/bailey-mcdonald">MCDONALD Bailey</a></td><td>22y + 100d</td></tr>
-<tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/celestin-wattelle">WATTELLE Célestin</a></td><td>22y + 87d</td></tr>
-<tr class=""><td>20</td><td><span class="flag it"></span> <a  href="rider/alessandro-perracchione">PERRACCHIONE Alessandro</a></td><td>20y + 182d</td></tr>
+<tr class=""><td>1</td><td><span class="flag it"></span> <a  href="rider/andrea-peron">PERON Andrea</a></td><td>36y + 301d</td></tr>
+<tr class=""><td>2</td><td><span class="flag es"></span> <a  href="rider/david-lozano">LOZANO David</a></td><td>36y + 247d</td></tr>
+<tr class=""><td>3</td><td><span class="flag gb"></span> <a  href="rider/sam-brand">BRAND Sam</a></td><td>34y + 179d</td></tr>
+<tr class=""><td>4</td><td><span class="flag us"></span> <a  href="rider/logan-phippen">PHIPPEN Logan</a></td><td>33y + 107d</td></tr>
+<tr class=""><td>5</td><td><span class="flag it"></span> <a  href="rider/umberto-poli">POLI Umberto</a></td><td>28y + 363d</td></tr>
+<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/lucas-dauge">DAUGE Lucas</a></td><td>28y + 240d</td></tr>
+<tr class=""><td>7</td><td><span class="flag nz"></span> <a  href="rider/hamish-beadle">BEADLE Hamish</a></td><td>27y + 145d</td></tr>
+<tr class=""><td>8</td><td><span class="flag fr"></span> <a  href="rider/anton-muller">MULLER Anton</a></td><td>27y + 83d</td></tr>
+<tr class=""><td>9</td><td><span class="flag au"></span> <a  href="rider/declan-irvine">IRVINE Declan</a></td><td>26y + 167d</td></tr>
+<tr class=""><td>10</td><td><span class="flag it"></span> <a  href="rider/antonio-polga">POLGA Antonio</a></td><td>26y + 152d</td></tr>
+<tr class=""><td>11</td><td><span class="flag fr"></span> <a  href="rider/doriand-percrule">PERCRULE Doriand</a></td><td>26y + 96d</td></tr>
+<tr class=""><td>12</td><td><span class="flag gb"></span> <a  href="rider/nathan-smith">SMITH Nathan</a></td><td>24y + 363d</td></tr>
+<tr class=""><td>13</td><td><span class="flag be"></span> <a  href="rider/quinten-de-graeve">DE GRAEVE Quinten</a></td><td>24y + 305d</td></tr>
+<tr class=""><td>14</td><td><span class="flag it"></span> <a  href="rider/filippo-ridolfo">RIDOLFO Filippo</a></td><td>23y + 290d</td></tr>
+<tr class=""><td>15</td><td><span class="flag gb"></span> <a  href="rider/hamish-armitt">ARMITT Hamish</a></td><td>23y + 62d</td></tr>
+<tr class=""><td>16</td><td><span class="flag cz"></span> <a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>22y + 218d</td></tr>
+<tr class=""><td>17</td><td><span class="flag it"></span> <a  href="rider/jacopo-colladon">COLLADON Jacopo</a></td><td>22y + 147d</td></tr>
+<tr class=""><td>18</td><td><span class="flag au"></span> <a  href="rider/bailey-mcdonald">MCDONALD Bailey</a></td><td>22y + 115d</td></tr>
+<tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/celestin-wattelle">WATTELLE Célestin</a></td><td>22y + 102d</td></tr>
+<tr class=""><td>20</td><td><span class="flag it"></span> <a  href="rider/alessandro-perracchione">PERRACCHIONE Alessandro</a></td><td>20y + 197d</td></tr>
 </tbody></table></div>
 <div class="stab name riderlistcont">
 <ul class="teamlist list lineh18" >
@@ -365,7 +380,7 @@
 </div>
 <div class="mt20">
 <h4>Related teams</h4><ul class="list fs14" >
-<li class=""><div class="blue" ><a  href="team/team-novo-nordisk-development-2025">Team Novo Nordisk Development (CT)</a></div><div class="fs10" ></div></li>
+<li class=""><div class="blue" ><a  href="team/team-novo-nordisk-development-2025">Team Novo Nordisk Development (CT)</a></div><div class="fs12" >devo</div></li>
 </ul>
 </div>
 <div class="mt20">
@@ -396,12 +411,11 @@
 <th class="w8 cu600">Class</th>
 <th class="w32 cu600 fs10 clr555">Riders</th>
 </tr></thead><tbody>
-<tr class=""><td class="cu600" >12/08 - 16/08</td><td class="cs600 hide" >12/08 - 16/08</td><td><span class="flag dk"></span> <a  href="race/tour-of-denmark/2025">PostNord Tour of Denmark</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" >Kopecký, Lozano, Muller, Peron, Polga, Ridolfo, McDonald</td></tr>
-<tr class=""><td class="cu600" >14/08 - 17/08</td><td class="cs600 hide" >14/08 - 17/08</td><td><span class="flag cz"></span> <a  href="race/czech-tour/2025">Czech Tour</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" >Armitt, Beadle, Brand, Posnic, Terrier, López, De Graeve</td></tr>
-<tr class=""><td class="cu600" >21/08 - 24/08</td><td class="cs600 hide" >21/08 - 24/08</td><td><span class="flag cz"></span> <a  href="race/west-bohemia-tour/2025">West Bohemia Tour</a></td><td class="cu600" >2.2U</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class=""><td class="cu600" >26/08 - 29/08</td><td class="cs600 hide" >26/08 - 29/08</td><td><span class="flag fr"></span> <a  href="race/tour-du-poitou-charentes-et-de-la-vienne/2025">Tour Poitou - Charentes en Nouvelle Aquitaine</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" >Armitt, Lozano, Muller, Peron, Polga, Ridolfo</td></tr>
+<tr class=""><td class="cu600" >05/09 - 07/09</td><td class="cs600 hide" >05/09 - 07/09</td><td><span class="flag cn"></span> <a  href="race/your-of-shnghai/2025">Tour of Shanghai</a></td><td class="cu600" >2.2</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class=""><td class="cu600" >06/09</td><td class="cs600 hide" >06/09</td><td><span class="flag us"></span> <a  href="race/maryland-cycling-classic/2025">Maryland Cycling Classic</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class=""><td class="cu600" >07/09</td><td class="cs600 hide" >07/09</td><td><span class="flag it"></span> <a  href="race/gp-industria-artigianato/2025">GP Industria & Artigianato</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >10/09</td><td class="cs600 hide" >10/09</td><td><span class="flag it"></span> <a  href="race/giro-di-toscana/2025">Giro della Toscana - Memorial Alfredo Martini</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
+<tr class=""><td class="cu600" >10/09</td><td class="cs600 hide" >10/09</td><td><span class="flag it"></span> <a  href="race/giro-di-toscana/2025">Giro della Toscana - Memorial Alfredo Martini</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >11/09</td><td class="cs600 hide" >11/09</td><td><span class="flag it"></span> <a  href="race/gp-citta-di-peccioli/2025">Gran Premio città di Peccioli - Coppa Sabatini</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >17/09 - 21/09</td><td class="cs600 hide" >17/09 - 21/09</td><td><span class="flag sk"></span> <a  href="race/okolo-slovenska/2025">Okolo Slovenska / Tour de Slovaquie</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >03/10</td><td class="cs600 hide" >03/10</td><td><span class="flag de"></span> <a  href="race/munsterland-giro/2025">Sparkassen Münsterland Giro</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
@@ -409,7 +423,7 @@
 <tr class="hide"><td class="cu600" >09/10 - 12/10</td><td class="cs600 hide" >09/10 - 12/10</td><td><span class="flag cn"></span> <a  href="race/tour-of-taihu-lake/2025">Tour of Taihu Lake</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >11/10</td><td class="cs600 hide" >11/10</td><td><span class="flag fr"></span> <a  href="race/tour-de-vendee/2025">Tour de Vendée</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
 <tr class="hide"><td class="cu600" >19/10</td><td class="cs600 hide" >19/10</td><td><span class="flag jp"></span> <a  href="race/japan-cup/2025">Utsunomiya Japan Cup Road Race</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-</tbody></table><a class="show-all" href="">show 8 more lines</a></div>
+</tbody></table><a class="show-all-link show-all" href="">show 7 more lines</a></div>
 <div class="mt20">
 <h4>Last victories</h4><table class=" basic"><thead><tr>
 <th class="w8 ">#</th>
@@ -426,6 +440,7 @@
 <th class="w29 ">Rider</th>
 <th class="w7 ">Points</th>
 </tr></thead><tbody>
+<tr class=""><td>9</td><td><span class="flag dk"></span> <a  href="race/tour-of-denmark/2025/gc">PostNord Tour of Denmark | General classification</a></td><td>2.Pro</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>45</td></tr>
 <tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="race/route-adelie-de-vitre/2025/result">La Route Adélie de Vitré</a></td><td>1.1</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>28</td></tr>
 <tr class=""><td>6</td><td><span class="flag ee"></span> <a  href="race/tour-of-estonia/2025/gc">Tour of Estonia | General classification</a></td><td>2.1</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>24</td></tr>
 <tr class=""><td>11</td><td><span class="flag be"></span> <a  href="race/dwars-door-het-hageland/2025/result">Duracell Dwars door het Hageland</a></td><td>1.Pro</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>20</td></tr>
@@ -435,18 +450,17 @@
 <tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="race/region-pays-de-la-loire/2025/gc">Région Pays de la Loire Tour | General classification</a></td><td>2.1</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>10</td></tr>
 <tr class=""><td>12</td><td><span class="flag be"></span> <a  href="race/ronde-van-limburg/2025/result">Ronde van Limburg</a></td><td>1.1</td><td><a  href="rider/andrea-peron">PERON Andrea</a></td><td>10</td></tr>
 <tr class=""><td>2</td><td><span class="flag cz"></span> <a  href="race/nc-czech-republic2/2025/result">National Championships Czech Republic ME - Road Race</a></td><td>NC</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>10</td></tr>
-<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="race/cholet-pays-de-loire/2025/result">Cholet Agglo Tour</a></td><td>1.1</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>8</td></tr>
+<tr class="hide"><td>13</td><td><span class="flag fr"></span> <a  href="race/cholet-pays-de-loire/2025/result">Cholet Agglo Tour</a></td><td>1.1</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>8</td></tr>
 <tr class="hide"><td>4</td><td><span class="flag hu"></span> <a  href="race/tour-de-hongrie/2025/stage-2">Tour de Hongrie | Stage 2</a></td><td>2.Pro</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>7</td></tr>
+<tr class="hide"><td>4</td><td><span class="flag dk"></span> <a  href="race/tour-of-denmark/2025/stage-5">PostNord Tour of Denmark | Stage 5</a></td><td>2.Pro</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>7</td></tr>
 <tr class="hide"><td>21</td><td><span class="flag be"></span> <a  href="race/brabantse-pijl/2025/result">De Brabantse Pijl - La Flèche Brabançonne ME</a></td><td>1.Pro</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>5</td></tr>
 <tr class="hide"><td>4</td><td><span class="flag ee"></span> <a  href="race/tour-of-estonia/2025/stage-1">Tour of Estonia | Stage 1</a></td><td>2.1</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>5</td></tr>
 <tr class="hide"><td>5</td><td><span class="flag hu"></span> <a  href="race/tour-de-hongrie/2025/stage-5">Tour de Hongrie | Stage 5</a></td><td>2.Pro</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>4</td></tr>
+<tr class="hide"><td>5</td><td><span class="flag dk"></span> <a  href="race/tour-of-denmark/2025/stage-4">PostNord Tour of Denmark | Stage 4</a></td><td>2.Pro</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>4</td></tr>
 <tr class="hide"><td>6</td><td><span class="flag gr"></span> <a  href="race/international-tour-of-hellas/2025/stage-5">ΔΕΗ Tour of Hellas | Stage 5</a></td><td>2.1</td><td><a  href="rider/alessandro-perracchione">PERRACCHIONE Alessandro</a></td><td>3</td></tr>
 <tr class="hide"><td>6</td><td><span class="flag be"></span> <a  href="race/tour-of-belgium/2025/stage-2">Baloise Belgium Tour | Stage 2</a></td><td>2.Pro</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>3</td></tr>
 <tr class="hide"><td>6</td><td><span class="flag fr"></span> <a  href="race/tour-cycliste-international-la-provence/2025/stage-3">Tour de la Provence | Stage 3</a></td><td>2.1</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>3</td></tr>
-<tr class="hide"><td>7</td><td><span class="flag fr"></span> <a  href="race/region-pays-de-la-loire/2025/stage-4">Région Pays de la Loire Tour | Stage 4</a></td><td>2.1</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>2</td></tr>
-<tr class="hide"><td>7</td><td><span class="flag ee"></span> <a  href="race/tour-of-estonia/2025/stage-2">Tour of Estonia | Stage 2</a></td><td>2.1</td><td><a  href="rider/filippo-ridolfo">RIDOLFO Filippo</a></td><td>2</td></tr>
-<tr class="hide"><td>24</td><td><span class="flag be"></span> <a  href="race/bredene-koksijde-classic/2025/result">Bredene Koksijde Classic</a></td><td>1.Pro</td><td><a  href="rider/matyas-kopecky">KOPECKÝ Matyáš</a></td><td>2</td></tr>
-</tbody></table><a class="show-all" href="">show 10 more lines</a></div>
+</tbody></table><a class="show-all-link show-all" href="">show 10 more lines</a></div>
 </div>
 <div class="borderbox w30 right mb_w100" >
 <div class="">
@@ -565,7 +579,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0508s</span></li>
+<li><span>Pageload 0.1218s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script>
+<script src="search_list22.js"></script>

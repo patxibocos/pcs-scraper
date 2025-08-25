@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -129,11 +143,6 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
-<div class="">
-<ul class="list fs14" >
-<li class=""><div>Volta a Portugal em Bicicleta</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="rider-in-race/iuri-leitao/volta-a-portugal/2025">Race stats</a></div><div class="blue" ><a  href="race/volta-a-portugal/2025/startlist">Startlist</a></div></li>
-</ul>
-</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -171,7 +180,7 @@
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w34 bg blue left" ></div></div></div><div class="xvalue ac" >143</div><div class="xtitle" ><a  href="rider/iuri-leitao/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >418</div><div class="xtitle" ><a  href="rider/iuri-leitao/results/career-points-sprint">Sprint</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w3 bg purple left" ></div></div></div><div class="xvalue ac" >13</div><div class="xtitle" ><a  href="rider/iuri-leitao/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w46 bg pink left" ></div></div></div><div class="xvalue ac" >191</div><div class="xtitle" ><a  href="rider/iuri-leitao/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w50 bg pink left" ></div></div></div><div class="xvalue ac" >207</div><div class="xtitle" ><a  href="rider/iuri-leitao/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -190,13 +199,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >432</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >429</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >422</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >413</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;4773</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;3901</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -260,21 +269,16 @@
 <li class=""><a class="rdrFilterSeason" data-season="2021"  href="">2021</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2019"  href="">2019</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2018"  href="">2018</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2017"  href="">2017</a></li>
-<li class=""><a class="rdrFilterSeason" data-season="2016"  href="">2016</a></li>
-<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2025" href="">2025</a></li>
-<li><a  class="rdrFilterSeason" data-season="2024" href="">2024</a></li>
-<li><a  class="rdrFilterSeason" data-season="2023" href="">2023</a></li>
-<li><a  class="rdrFilterSeason" data-season="2022" href="">2022</a></li>
-<li><a  class="rdrFilterSeason" data-season="2021" href="">2021</a></li>
-<li><a  class="rdrFilterSeason" data-season="2020" href="">2020</a></li>
-<li><a  class="rdrFilterSeason" data-season="2019" href="">2019</a></li>
-<li><a  class="rdrFilterSeason" data-season="2018" href="">2018</a></li>
+<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2018" href="">2018</a></li>
 <li><a  class="rdrFilterSeason" data-season="2017" href="">2017</a></li>
 <li><a  class="rdrFilterSeason" data-season="2016" href="">2016</a></li>
 </ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
-<tr class="main"><td><span class="hideIfMobile">06.08 &rsaquo; 17.08</span><span class="showIfMobile fs12">6-17/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag pt"></span> <a href="race/volta-a-portugal/2025/stage-3-gc"><span>Volta a Portugal em Bicicleta</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/volta-a-portugal">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">06.08 &rsaquo; 17.08</span><span class="showIfMobile fs12">6-17/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag pt"></span> <a href="race/volta-a-portugal/2025/stage-4-gc"><span>Volta a Portugal em Bicicleta</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/volta-a-portugal">more</a></td></tr>
+<tr class="stage"><td>15.08</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Ferreira do Zêzere &rsaquo; Santarém</a>  </td><td>178.2</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>14.08</td><td>89</td><td>85</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Sabugal &rsaquo; Torre</a>  </td><td>179.3</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>13.08</td><td>90</td><td>77</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Águeda &rsaquo; Guarda</a>  </td><td>175.2</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>11.08</td><td>3</td><td>64</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Lamego &rsaquo; Viseu</a>  </td><td>155.5</td><td>7</td><td>3</td><td></td></tr>
+<tr class="stage"><td>10.08</td><td>83</td><td>77</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Bragança &rsaquo; Mondim de Basto (Senhora da Graça)</a>  </td><td>176.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>09.08</td><td>4</td><td>72</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Boticas &rsaquo; Bragança</a>  </td><td>185.2</td><td>5</td><td></td><td></td></tr>
 <tr class="stage"><td>08.08</td><td>63</td><td>86</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Felgueiras &rsaquo; Fafe</a>  </td><td>167.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>07.08</td><td>88</td><td>87</td><td><span class=""></span></td><td><a href="race/volta-a-portugal/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Viana do Castelo &rsaquo; Braga (Sameiro)</a>  </td><td>162.3</td><td></td><td></td><td></td></tr>
@@ -291,7 +295,7 @@
 <tr class="stage"><td>29.05</td><td>58</td><td>58</td><td><span class="iconv3 chrono"></span></td><td><a href="race/boucles-de-la-mayenne/2025/prologue"><span class="imob">Prologue</span><span class="idesk">Prologue</span> - Espace Mayenne - Laval &rsaquo; Espace Mayenne - Laval</a>  </td><td>5.4</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>18.04</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/brabantse-pijl/2025/result"><span>De Brabantse Pijl - La Flèche Brabançonne ME</span> (1.Pro)</a> <span title="107 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>107k</span> </td><td>162.6</td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/brabantse-pijl">more</a></td></tr>
 <tr class="main"><td>16.04</td><td>24</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/ronde-van-limburg/2025/result"><span>Ronde van Limburg</span> (1.1)</a>  </td><td>178.6</td><td></td><td>3</td><td><a class="fs10" href="rider-in-race/iuri-leitao/ronde-van-limburg">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">07.04 &rsaquo; 12.04</span><span class="showIfMobile fs12">7-12/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2025/stage-1-gc"><span>Itzulia Basque Country</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/itzulia-basque-country">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">07.04 &rsaquo; 12.04</span><span class="showIfMobile fs12">7-12/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/itzulia-basque-country/2025/stage-2-gc"><span>Itzulia Basque Country</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/itzulia-basque-country">more</a></td></tr>
 <tr class="stage"><td>09.04</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/itzulia-basque-country/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Zarautz &rsaquo; Beasain</a>  </td><td>156.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>08.04</td><td>5</td><td>136</td><td><span class=""></span></td><td><a href="race/itzulia-basque-country/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Pamplona-Iruña &rsaquo; Lodosa</a>  </td><td>186.6</td><td>10</td><td>15</td><td></td></tr>
 <tr class="stage"><td>07.04</td><td>136</td><td>136</td><td><span class="iconv3 chrono"></span></td><td><a href="race/itzulia-basque-country/2025/stage-1"><span class="imob">S1 (ITT)</span><span class="idesk">Stage 1 (ITT)</span> - Vitoria-Gasteiz &rsaquo; Vitoria-Gasteiz (Baskonia-Alavés)</a>  </td><td>16.5</td><td></td><td></td><td></td></tr>
@@ -299,7 +303,7 @@
 <tr class="main"><td>02.04</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-camembert/2025/result"><span>Paris - Camembert</span> (1.1)</a>  </td><td>198</td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/paris-camembert">more</a></td></tr>
 <tr class="main"><td>30.03</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/la-roue-tourangelle/2025/result"><span>La Roue Tourangelle Centre Val de Loire - Groupama P.V.L.</span> (1.1)</a>  </td><td>197</td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/la-roue-tourangelle">more</a></td></tr>
 <tr class="main"><td>23.03</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/cholet-pays-de-loire/2025/result"><span>Cholet Agglo Tour</span> (1.1)</a>  </td><td>205</td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/cholet-pays-de-loire">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">09.03 &rsaquo; 16.03</span><span class="showIfMobile fs12">9-16/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-nice/2025/stage-5-gc"><span>Paris-Nice</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/paris-nice">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">09.03 &rsaquo; 16.03</span><span class="showIfMobile fs12">9-16/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-nice/2025/stage-1-gc"><span>Paris-Nice</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/paris-nice">more</a></td></tr>
 <tr class="stage"><td>16.03</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Nice &rsaquo; Nice</a>  </td><td>119.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>15.03</td><td>88</td><td>113</td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Nice &rsaquo; Auron</a>  </td><td>109.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>14.03</td><td>131</td><td>129</td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Saint-Julien-en-Saint-Alban &rsaquo; Berre l'Étang</a>  </td><td>209.8</td><td></td><td></td><td></td></tr>
@@ -308,7 +312,7 @@
 <tr class="stage"><td>11.03</td><td>22</td><td>71</td><td><span class="iconv3 chrono"></span></td><td><a href="race/paris-nice/2025/stage-3"><span class="imob">S3 (TTT)</span><span class="idesk">Stage 3 (TTT)</span> - Circuit Nevers Magny-Cours &rsaquo; Nevers</a>  </td><td>28.4</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>10.03</td><td>13</td><td>20</td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Montesson &rsaquo; Bellegarde</a>  </td><td>183.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>09.03</td><td>22</td><td>25</td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Le Perray-en-Yvelines &rsaquo; Le Perray-en-Yvelines</a>  </td><td>156.1</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">19.02 &rsaquo; 23.02</span><span class="showIfMobile fs12">19-23/2</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag pt"></span> <a href="race/volta-ao-algarve/2025/stage-2-gc"><span>Volta ao Algarve em Bicicleta</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/volta-ao-algarve">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">19.02 &rsaquo; 23.02</span><span class="showIfMobile fs12">19-23/2</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag pt"></span> <a href="race/volta-ao-algarve/2025/stage-3-gc"><span>Volta ao Algarve em Bicicleta</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/iuri-leitao/volta-ao-algarve">more</a></td></tr>
 <tr class="stage"><td>22.02</td><td>DNS</td><td></td><td><span class=""></span></td><td><a href="race/volta-ao-algarve/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Albufeira &rsaquo; Faro</a>  </td><td>175.2</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>21.02</td><td>146</td><td>137</td><td><span class=""></span></td><td><a href="race/volta-ao-algarve/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Vila Real Santo António &rsaquo; Tavira</a>  </td><td>183.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>20.02</td><td>131</td><td>131</td><td><span class=""></span></td><td><a href="race/volta-ao-algarve/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Lagoa &rsaquo; Alto da Foia</a>  </td><td>177.6</td><td></td><td></td><td></td></tr>
@@ -321,7 +325,7 @@
 <tr class="stage"><td>05.02</td><td>13</td><td>76</td><td><span class="iconv3 chrono"></span></td><td><a href="race/vuelta-a-la-comunidad-valenciana/2025/stage-1"><span class="imob">S1 (TTT)</span><span class="idesk">Stage 1 (TTT)</span> - Orihuela &rsaquo; Orihuela</a>  </td><td>34.3</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>02.02</td><td>1</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/trofeo-palma/2025/result"><span>Trofeo Palma</span> (1.1)</a>  </td><td>149.9</td><td>75</td><td>125</td><td><a class="fs10" href="rider-in-race/iuri-leitao/trofeo-palma">more</a></td></tr>
 <tr class="main"><td>30.01</td><td>15</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/trofeo-ses-salines-felanitx/2025/result"><span>Trofeo Ses Salines</span> (1.1)</a>  </td><td>184.5</td><td>6</td><td>5</td><td><a class="fs10" href="rider-in-race/iuri-leitao/trofeo-ses-salines-felanitx">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>5291 km in <b>41</b> days | PCS points: <b>139</b> | UCI points: <b>194</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>6067 km in <b>46</b> days | PCS points: <b>146</b> | UCI points: <b>197</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -336,7 +340,7 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-08-10&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w52 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l52"  style="height: 12px; line-height: 12px; " >139</div></div></td><td class="fs11 " >321</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-08-25&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w55 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l55"  style="height: 12px; line-height: 12px; " >146</div></div></td><td class="fs11 " >330</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w24 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l24"  style="height: 12px; line-height: 12px; " >64</div></div></td><td class="fs11 " >692</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >212</div></div></td><td class="fs11 " >295</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w8 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l8"  style="height: 12px; line-height: 12px; " >22</div></div></td><td class="fs11 " >1153</td></tr>
@@ -408,9 +412,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0355s</span></li>
+<li><span>Pageload 0.0352s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script><script>
+<script src="search_list22.js"></script><script>
 var riderid = 203405;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

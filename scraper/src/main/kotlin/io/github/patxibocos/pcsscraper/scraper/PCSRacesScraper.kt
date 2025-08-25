@@ -45,9 +45,9 @@ class PCSRacesScraper(
     }
 
     private suspend fun getRacesUrls(season: Int): List<String> {
-        val calendarUrl = buildURL("races.php?season=$season&category=1&s=calendar-plus-filters")
+        val calendarUrl = buildURL("races.php?s=&year=$season&circuit=1&class=&filter=Filter")
         val calendarDoc = docFetcher.getDoc(calendarUrl)
-        return calendarDoc.findAll("table tr:not(.striked) > td:nth-child(2) > a").map { it.attribute("href") }
+        return calendarDoc.findAll("table > tbody > tr > td:nth-child(3) > a").map { it.attribute("href") }
             .map { it.substring(0, it.lastIndexOf("/$season")) + "/$season" }
     }
 

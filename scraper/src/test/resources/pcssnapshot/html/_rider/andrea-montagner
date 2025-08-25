@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v36.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v81.css" />
+<script src="v3_scripts_v37.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v97.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -80,6 +80,16 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
+<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
+<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
+<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
+<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
+<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
+</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
@@ -90,6 +100,10 @@
 <li><a  href="info/sitemap">Sitemap</a></li>
 <li><a  href="info/profile-score-explained">Profile Score</a></li>
 <li><a  href="info/terminology-list">Terminology list</a></li>
+</ul></li>
+<li class="pro" ><a class="menu" href="premium.php">Pro<span class="more" href="">&#x25BC;</span></a>
+<ul><li><a  href="">Dashboard</a></li>
+<li><a  href="">Lists</a></li>
 </ul></li>
 <li class="account" ><a class="menu" href="account.php">Account<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="account/overview">My account</a></li>
@@ -131,7 +145,7 @@
 <div class=""><div class="borderbox w100" >
 <div class="">
 <ul class="list fs14" >
-<li class=""><div>Gran Premio Sportivi di Poggiana-Trofeo Bonin Costruzioni</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="rider-in-race/andrea-montagner/gp-di-poggiana/2025">Race stats</a></div><div class="blue" ><a  href="race/gp-di-poggiana/2025/startlist">Startlist</a></div></li>
+<li class=""><div>Tour Poitou - Charentes en Nouvelle Aquitaine</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="rider-in-race/andrea-montagner/tour-du-poitou-charentes-et-de-la-vienne/2025">Race stats</a></div><div class="blue" ><a  href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/startlist">Startlist</a></div></li>
 </ul>
 </div>
 </div>
@@ -181,7 +195,7 @@
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;42</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;56</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -218,7 +232,7 @@
 </ul></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >10.08</div><div class="ellipsis" ><span class="flag it"></span> <a  href="race/gp-di-poggiana/2025/startlist">Gran Premio Sportivi di Poggiana-Trofeo Bonin Costruzioni</a></div><div class="blue fs10" ><a  href="rider-in-race/andrea-montagner/gp-di-poggiana">more</a></div></li>
+<li class=""><div class="bold mr5" >26.08</div><div class="ellipsis" ><span class="flag fr"></span> <a  href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/startlist">Tour Poitou - Charentes en Nouvelle Aquitaine</a></div><div class="blue fs10" ><a  href="rider-in-race/andrea-montagner/tour-du-poitou-charentes-et-de-la-vienne">more</a></div></li>
 </ul>
 </div>
 <div class="mt20">
@@ -233,10 +247,9 @@
 <div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="289962" /><input type="hidden" id="seo" value="andrea-montagner" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
-<li class="more"><span>more</span><ul><li><a  class="rdrFilterSeason" data-season="2025" href="">2025</a></li>
-<li><a  class="rdrFilterSeason" data-season="2024" href="">2024</a></li>
-<li><a  class="rdrFilterSeason" data-season="2023" href="">2023</a></li>
-</ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+</ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>16.08</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gp-capodarco/2025/result"><span>GP Capodarco Comunita Di Capodarco</span> (1.2U)</a>  </td><td>175.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-montagner/gp-capodarco">more</a></td></tr>
+<tr class="main"><td>10.08</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gp-di-poggiana/2025/result"><span>Gran Premio Sportivi di Poggiana-Trofeo Bonin Costruzioni</span> (1.2U)</a>  </td><td>164.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-montagner/gp-di-poggiana">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">16.07 &rsaquo; 20.07</span><span class="showIfMobile fs12">16-20/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2025/stage-4-gc"><span>Giro Ciclistico della Valle d'Aosta - Mont Blanc</span> (2.2U)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-montagner/giro-ciclistico-della-valle-d-aosta-mont-blanc">more</a></td></tr>
 <tr class="stage"><td></td><td>14</td><td></td><td><span class="icon shirt w14 st6"></span></td><td><a href="race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2025/youth"><span class="imob">Youth classification</span><span class="idesk">Youth classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>60</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
@@ -246,7 +259,7 @@
 <tr class="stage"><td>16.07</td><td>116</td><td>116</td><td><span class=""></span></td><td><a href="race/giro-ciclistico-della-valle-d-aosta-mont-blanc/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Aosta &rsaquo; Aosta</a>  </td><td>85.4</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>06.07</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-del-medio-brenta/2025/result"><span>Giro del Medio Brenta</span> (1.2)</a>  </td><td>175.4</td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-montagner/giro-del-medio-brenta">more</a></td></tr>
 <tr class="main"><td>02.06</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/trofeo-alcide-degasperi/2025/result"><span>TrofeoAlcide De Gasperi</span> (1.2)</a>  </td><td>159.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-montagner/trofeo-alcide-degasperi">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">14.05 &rsaquo; 18.05</span><span class="showIfMobile fs12">14-18/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag hu"></span> <a href="race/tour-de-hongrie/2025/stage-1-gc"><span>Tour de Hongrie</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-montagner/tour-de-hongrie">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">14.05 &rsaquo; 18.05</span><span class="showIfMobile fs12">14-18/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag hu"></span> <a href="race/tour-de-hongrie/2025/stage-3-gc"><span>Tour de Hongrie</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-montagner/tour-de-hongrie">more</a></td></tr>
 <tr class="stage"><td></td><td>68</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-hongrie/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>18.05</td><td>98</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-hongrie/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Etyek &rsaquo; Esztergom</a>  </td><td>169.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>17.05</td><td>104</td><td>64</td><td><span class=""></span></td><td><a href="race/tour-de-hongrie/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Tata &rsaquo; Székesfehérvár</a>  </td><td>153.6</td><td></td><td></td><td></td></tr>
@@ -264,7 +277,7 @@
 <tr class="stage"><td>13.03</td><td>40</td><td>40</td><td><span class="iconv3 chrono"></span></td><td><a href="race/istrian-spring-tour/2025/prologue"><span class="imob">Prologue</span><span class="idesk">Prologue</span> - Vrsar &rsaquo; Vrsar</a>  </td><td>1.4</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>09.03</td><td>26</td><td></td><td><span class=""></span></td><td><span class="flag hr"></span> <a href="race/porec-trophy/2025/result"><span>POREČ Classic</span> (1.2)</a>  </td><td>146.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-montagner/porec-trophy">more</a></td></tr>
 <tr class="main"><td>16.02</td><td>80</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/clasica-de-almeria/2025/result"><span>Clasica de Almeria ME</span> (1.Pro)</a>  </td><td>189.1</td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-montagner/clasica-de-almeria">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>2505 km in <b>20</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>2675 km in <b>23</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -339,9 +352,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0387s</span></li>
+<li><span>Pageload 0.0358s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list21.js"></script><script>
+<script src="search_list22.js"></script><script>
 var riderid = 289962;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>
