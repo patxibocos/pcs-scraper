@@ -13,6 +13,7 @@ import mu.KotlinLogging
 import org.slf4j.Logger
 import java.net.URI
 import java.net.URL
+import kotlin.collections.first
 
 class PCSTeamsScraper(
     private val docFetcher: DocFetcher,
@@ -76,7 +77,7 @@ class PCSTeamsScraper(
     }
 
     private fun getTeamRiders(teamDoc: Doc): List<String> =
-        teamDoc.findFirst(".ridersTab[data-code=name]").findAll("a").map { it.attribute("href") }
+        teamDoc.findFirst(".teamlist").findAll("a").map { it.attribute("href") }
 
     private fun pcsTeamToTeam(pcsTeam: PCSTeam): Team? {
         val teamStatus = try {
