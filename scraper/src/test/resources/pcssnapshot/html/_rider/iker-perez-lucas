@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=eccfa04ae86d2dc6c0173b0e5ee0711c612b69de30fe0c039ab4769eeba8758b">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/iker-perez-lucas/start">Overview</a></span>
 <span><a class="" href="rider/iker-perez-lucas/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/iker-perez-lucas/statistics/overview">Overview</a></li>
 <li><a href="rider/iker-perez-lucas/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/iker-perez-lucas/statistics/key-events">Key events</a></li>
+<li><a href="rider/iker-perez-lucas/statistics/badges">Badges</a></li>
 <li><a href="rider/iker-perez-lucas/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/iker-perez-lucas/statistics/wins">Wins</a></li>
 <li><a href="rider/iker-perez-lucas/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -157,7 +148,7 @@
 </div>
 <div class="">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >20th</div><div class="mr3" >October</div><div class="mr3" >2004</div><div>(</div><div>20</div><div>)</div></li>
+<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >20th</div><div class="mr3" >October</div><div class="mr3" >2004</div><div>(</div><div>21</div><div>)</div></li>
 </ul>
 </div>
 <div class="">
@@ -180,11 +171,11 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg green left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/iker-perez-lucas/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg green2 left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/iker-perez-lucas/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg red left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/iker-perez-lucas/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg blue left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/iker-perez-lucas/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg orange left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/iker-perez-lucas/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg purple left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/iker-perez-lucas/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg purple1 left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/iker-perez-lucas/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg pink left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/iker-perez-lucas/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -200,7 +191,7 @@
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;37</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;5</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -246,12 +237,15 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="272958" /><input type="hidden" id="seo" value="iker-perez-lucas" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="272958" /><input type="hidden" id="seo" value="iker-perez-lucas" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2021"  href="">2021</a></li>
-</ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div class="simpleDropdown" style="">ROAD<ul><li><a class="rdrFilterDiscipline" data-discipline="pcs" href="">ROAD</a></li><li><a class="rdrFilterDiscipline" data-discipline="cx" href="">CROSS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+</ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>19.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/veneto-classic/2025/result"><span>Veneto Classic</span> (1.Pro)</a>  <div class="blue fs10">Caja Rural - Seguros RGA</div></td><td>178.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/iker-perez-lucas/veneto-classic">more</a></td></tr>
+<tr class="main"><td>15.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-del-veneto/2025/result"><span>Giro del Veneto</span> (1.Pro)</a>  <div class="blue fs10">Caja Rural - Seguros RGA</div></td><td>161.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/iker-perez-lucas/giro-del-veneto">more</a></td></tr>
+<tr class="main"><td>12.10</td><td>60</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/trofeo-baracchi/2025/result"><span>Trofeo Tessile & Moda - Valdengo Oropa</span> (1.1)</a>  <div class="blue fs10">Caja Rural - Seguros RGA</div></td><td>170.9</td><td></td><td></td><td><a class="fs10" href="rider-in-race/iker-perez-lucas/trofeo-baracchi">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">11.09 &rsaquo; 14.09</span><span class="showIfMobile fs12">11-14/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="national-race/volta-ciclista-a-galicia/2025/gc"><span>Volta ciclista a Galicia</span> (NAT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/iker-perez-lucas/volta-ciclista-a-galicia">more</a></td></tr>
 <tr class="stage"><td></td><td>29</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="national-race/volta-ciclista-a-galicia/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>14.09</td><td>39</td><td></td><td><span class=""></span></td><td><a href="national-race/volta-ciclista-a-galicia/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Ferrol &rsaquo; Ferrol</a>  </td><td>130</td><td></td><td></td><td></td></tr>
@@ -287,7 +281,7 @@
 <tr class="stage"><td>14.03</td><td>64</td><td></td><td><span class=""></span></td><td><a href="national-race/vuelta-extremadura/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Elvas &rsaquo; Badajoz</a>  </td><td>144.2</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>23.02</td><td>124</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="national-race/circuito-del-guadiana/2025/result"><span>Circuito del Guadiana - Don Benito</span> (NAT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/iker-perez-lucas/circuito-del-guadiana">more</a></td></tr>
 <tr class="main"><td>08.02</td><td>76</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/ronde-du-pays-basque/2025/result"><span>Ronde du Pays Basque</span> (NAT)</a>  </td><td>94</td><td></td><td></td><td><a class="fs10" href="rider-in-race/iker-perez-lucas/ronde-du-pays-basque">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>2911 km in <b>28</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>3252 km in <b>31</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -362,9 +356,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0483s</span></li>
+<li><span>Pageload 0.0500s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 272958;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

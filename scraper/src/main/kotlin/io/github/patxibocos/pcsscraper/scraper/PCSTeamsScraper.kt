@@ -13,7 +13,6 @@ import mu.KotlinLogging
 import org.slf4j.Logger
 import java.net.URI
 import java.net.URL
-import kotlin.collections.first
 
 class PCSTeamsScraper(
     private val docFetcher: DocFetcher,
@@ -36,12 +35,28 @@ class PCSTeamsScraper(
     }
 
     private suspend fun getTeam(teamUrl: String, season: Int): PCSTeam {
+        // For some reason the URL on teams page is wrong
+        val teamUrl = if (teamUrl == "team/q365-pro-cycing-team-2025") {
+            "team/q365-pro-cycling-team-2025"
+        } else {
+            teamUrl
+        }
         val teamURL = buildURL(teamUrl)
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
-        val infoList = teamDoc.ul { withClass = "infolist"; this }
-        val status = infoList.findFirst("li").findSecond("div").ownText
-        val abbreviation = infoList.findSecond("li").findSecond("div").ownText.uppercase()
-        val bike = infoList.findFirst("a[href^='brand']").ownText
+        val status: String
+        val abbreviation: String
+        val bike: String
+        // Workaround because currently this section is missing for this team
+        if (teamUrl == "team/q365-pro-cycling-team-2025") {
+            status = "PRT"
+            abbreviation = "Q36"
+            bike = "SCOTT"
+        } else {
+            val infoList = teamDoc.ul { withClass = "infolist"; this }
+            status = infoList.findFirst("li").findSecond("div").ownText
+            abbreviation = infoList.findSecond("li").findSecond("div").ownText.uppercase()
+            bike = infoList.findFirst("a[href^='brand']").ownText
+        }
         val website = teamDoc.findAll { filter { it.findFirst("a").text == "SITE" } }.firstOrNull()
             ?.a { findFirst { attribute("href") } }
 

@@ -18,8 +18,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -32,7 +32,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="team" data-url="team/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -81,21 +81,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -111,7 +101,7 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=04ac6be77de9cf3005c583731598f7ef4280a17c8bd3bd25096e61a9c4c85fbe">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="SelectNavCont "><div class="selectNav" ><a class="" href="team/cofidis-2024/overview/start">2024</a><form style="display: block; float: left; "><select style="" onChange="window.location.href=this.value; "><option value="team/cofidis-2028/overview/start" >2028 | Cofidis</option>
@@ -176,15 +166,11 @@
 <div class=""><div class="borderbox w100" >
 <div class="">
 <ul class="simple-list list circle bluelink horizontal fs14">
-<li class=""><a  href="team-in-race/cofidis-2025/vuelta-a-espana">La Vuelta Ciclista a España</a></li>
-<li class=""><a  href="team-in-race/cofidis-2025/gp-montreal">Grand Prix Cycliste de Montréal</a></li>
-<li class=""><a  href="team-in-race/cofidis-2025/gp-de-fourmies">GP de Fourmies / La Voix du Nord</a></li>
-<li class=""><a  href="team-in-race/cofidis-2025/trofeo-matteotti">Trofeo Matteotti</a></li>
 </ul><div class="clear"></div></div>
 <div class="mb5">
 <ul class="list horizontal teamkpi" >
 <li class=""><div class="title ">Victories </div><div class=" value" ><a  href="team/cofidis-2025/wins">9</a></div></li>
-<li><div class="title ">Points </div><div class=" value" ><a  href="team/cofidis-2025/season/points-per-rider">4844</a></div></li>
+<li><div class="title ">Points </div><div class=" value" ><a  href="team/cofidis-2025/season/points-per-rider">5834</a></div></li>
 <li><div class="title ">PCS# </div><div class=" value" ><a  href="rankings/me/season-teams">21</a></div></li>
 <li><div class="title ">UCI# </div><div class=" value" ><a  href="rankings/me/uci-teams">20</a></div></li>
 <li><div class="title ">Incoming </div><div class=" value" ><a  href="team/cofidis-2025/transfers/this-year">13</a></div></li>
@@ -203,13 +189,13 @@
 <li class=""><div><a  href="rider/emanuel-buchmann"><img src="images/riders/bp/af/emanuel-buchmann-2025.jpeg"  style="" /></a></div><div class="name" >BUCHMANN Emanuel</div></li>
 <li class=""><div><a  href="rider/alex-aranburu"><img src="images/riders/bp/ba/alex-aranburu-2025.jpeg"  style="" /></a></div><div class="name" >ARANBURU Alex</div></li>
 <li class=""><div><a  href="rider/benjamin-thomas-2"><img src="images/riders/bp/ef/benjamin-thomas-2-2025.jpeg"  style="" /></a></div><div class="name" >THOMAS Benjamin</div></li>
+<li class=""><div><a  href="rider/stanislaw-aniolkowski"><img src="images/riders/bp/fd/stanislaw-aniolkowski-2025.jpeg"  style="" /></a></div><div class="name" >ANIOŁKOWSKI Stanisław</div></li>
 <li class=""><div><a  href="rider/aime-de-gendt"><img src="images/riders/bp/ac/aime-de-gendt-2025.jpeg"  style="" /></a></div><div class="name" >DE GENDT Aimé</div></li>
 <li class=""><div><a  href="rider/piet-allegaert"><img src="images/riders/bp/fd/piet-allegaert-2025.jpeg"  style="" /></a></div><div class="name" >ALLEGAERT Piet</div></li>
-<li class=""><div><a  href="rider/stanislaw-aniolkowski"><img src="images/riders/bp/fd/stanislaw-aniolkowski-2025.jpeg"  style="" /></a></div><div class="name" >ANIOŁKOWSKI Stanisław</div></li>
-<li class=""><div><a  href="rider/jonathan-lastra"><img src="images/riders/bp/ed/jonathan-lastra-2025.jpeg"  style="" /></a></div><div class="name" >LASTRA Jonathan</div></li>
-<li class=""><div><a  href="rider/anthony-perez"><img src="images/riders/bp/fc/anthony-perez-2025.jpeg"  style="" /></a></div><div class="name" >PEREZ Anthony</div></li>
-<li class=""><div><a  href="rider/stefano-oldani"><img src="images/riders/bp/cd/stefano-oldani-2025.jpeg"  style="" /></a></div><div class="name" >OLDANI Stefano</div></li>
 <li class=""><div><a  href="rider/milan-fretin"><img src="images/riders/bp/dd/milan-fretin-2025.jpeg"  style="" /></a></div><div class="name" >FRETIN Milan</div></li>
+<li class=""><div><a  href="rider/jonathan-lastra"><img src="images/riders/bp/ed/jonathan-lastra-2025.jpeg"  style="" /></a></div><div class="name" >LASTRA Jonathan</div></li>
+<li class=""><div><a  href="rider/stefano-oldani"><img src="images/riders/bp/cd/stefano-oldani-2025.jpeg"  style="" /></a></div><div class="name" >OLDANI Stefano</div></li>
+<li class=""><div><a  href="rider/anthony-perez"><img src="images/riders/bp/fc/anthony-perez-2025.jpeg"  style="" /></a></div><div class="name" >PEREZ Anthony</div></li>
 <li class=""><div><a  href="rider/damien-touze"><img src="images/riders/bp/aa/damien-touze-2025.jpeg"  style="" /></a></div><div class="name" >TOUZÉ Damien</div></li>
 <li class=""><div><a  href="rider/alexis-renard"><img src="images/riders/bp/af/alexis-renard-2025.jpeg"  style="" /></a></div><div class="name" >RENARD Alexis</div></li>
 <li class=""><div><a  href="rider/sylvain-moniquet"><img src="images/riders/bp/dd/sylvain-moniquet-2025.jpeg"  style="" /></a></div><div class="name" >MONIQUET Sylvain</div></li>
@@ -220,8 +206,8 @@
 <li class=""><div><a  href="rider/ludovic-robeet"><img src="images/riders/bp/ea/ludovic-robeet-2025.jpeg"  style="" /></a></div><div class="name" >ROBEET Ludovic</div></li>
 <li class=""><div><a  href="rider/jan-maas"><img src="images/riders/bp/fe/jan-maas-2025.jpeg"  style="" /></a></div><div class="name" >MAAS Jan</div></li>
 <li class=""><div><a  href="rider/oliver-knight"><img src="images/riders/bp/ab/oliver-knight-2025.jpeg"  style="" /></a></div><div class="name" >KNIGHT Oliver</div></li>
-<li class=""><div><a  href="rider/clement-izquierdo"><img src="images/riders/bp/fa/clement-izquierdo-2025.jpeg"  style="" /></a></div><div class="name" >IZQUIERDO Clément</div></li>
 <li class=""><div><a  href="rider/sam-maisonobe"><img src="images/riders/bp/af/sam-maisonobe-2025.jpeg"  style="" /></a></div><div class="name" >MAISONOBE Sam</div></li>
+<li class=""><div><a  href="rider/clement-izquierdo"><img src="images/riders/bp/fa/clement-izquierdo-2025.jpeg"  style="" /></a></div><div class="name" >IZQUIERDO Clément</div></li>
 <li class=""><div><a  href="rider/nicolas-debeaumarche"><img src="images/riders/bp/fc/nicolas-debeaumarche-2025.jpeg"  style="" /></a></div><div class="name" >DEBEAUMARCHÉ Nicolas</div></li>
 <li class=""><div><a  href="rider/nolann-mahoudo"><img src="images/riders/bp/ef/nolann-mahoudo-2025.jpeg"  style="" /></a></div><div class="name" >MAHOUDO Nolann</div></li>
 <li class=""><div><a  href="rider/hugo-toumire"><img src="images/riders/bp/ba/hugo-toumire-2025.jpeg"  style="" /></a></div><div class="name" >TOUMIRE Hugo</div></li>
@@ -247,38 +233,38 @@
 <th class="w13 ">rnk</th>
 <th class="w13 ">points</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>45</td><td>866</td></tr>
-<tr class=""><td>2</td><td><span class="flag be"></span> <a  href="rider/milan-fretin">FRETIN Milan</a></td><td>55</td><td>766</td></tr>
-<tr class=""><td>3</td><td><span class="flag fr"></span> <a  href="rider/alexis-renard">RENARD Alexis</a></td><td>112</td><td>487</td></tr>
-<tr class=""><td>4</td><td><span class="flag fr"></span> <a  href="rider/bryan-coquard">COQUARD Bryan</a></td><td>143</td><td>421</td></tr>
-<tr class=""><td>5</td><td><span class="flag es"></span> <a  href="rider/ion-izagirre">IZAGIRRE Ion</a></td><td>188</td><td>343</td></tr>
-<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/benjamin-thomas-2">THOMAS Benjamin</a></td><td>198</td><td>327</td></tr>
-<tr class=""><td>7</td><td><span class="flag pl"></span> <a  href="rider/stanislaw-aniolkowski">ANIOŁKOWSKI Stanisław</a></td><td>228</td><td>289</td></tr>
-<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/dylan-teuns">TEUNS Dylan</a></td><td>257</td><td>262</td></tr>
-<tr class=""><td>9</td><td><span class="flag be"></span> <a  href="rider/sylvain-moniquet">MONIQUET Sylvain</a></td><td>272</td><td>245</td></tr>
-<tr class=""><td>10</td><td><span class="flag es"></span> <a  href="rider/jesus-herrada-lopez">HERRADA Jesús</a></td><td>301</td><td>217</td></tr>
-<tr class=""><td>11</td><td><span class="flag de"></span> <a  href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td>343</td><td>186</td></tr>
-<tr class=""><td>12</td><td><span class="flag be"></span> <a  href="rider/piet-allegaert">ALLEGAERT Piet</a></td><td>401</td><td>150</td></tr>
-<tr class=""><td>13</td><td><span class="flag gb"></span> <a  href="rider/oliver-knight">KNIGHT Oliver</a></td><td>406</td><td>149</td></tr>
-<tr class=""><td>14</td><td><span class="flag be"></span> <a  href="rider/aime-de-gendt">DE GENDT Aimé</a></td><td>415</td><td>144</td></tr>
-<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/stefano-oldani">OLDANI Stefano</a></td><td>436</td><td>132</td></tr>
-<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/damien-touze">TOUZÉ Damien</a></td><td>485</td><td>115</td></tr>
-<tr class=""><td>17</td><td><span class="flag fr"></span> <a  href="rider/clement-izquierdo">IZQUIERDO Clément</a></td><td>500</td><td>110</td></tr>
-<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/valentin-ferron">FERRON Valentin</a></td><td>543</td><td>96</td></tr>
-<tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/paul-ourselin">OURSELIN Paul</a></td><td>558</td><td>90</td></tr>
-<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/sam-maisonobe">MAISONOBE Sam</a></td><td>574</td><td>88</td></tr>
-<tr class=""><td>21</td><td><span class="flag nl"></span> <a  href="rider/jan-maas">MAAS Jan</a></td><td>604</td><td>80</td></tr>
-<tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/anthony-perez">PEREZ Anthony</a></td><td>625</td><td>77</td></tr>
-<tr class=""><td>23</td><td><span class="flag es"></span> <a  href="rider/sergio-samitier">SAMITIER Sergio</a></td><td>659</td><td>69</td></tr>
-<tr class=""><td>24</td><td><span class="flag es"></span> <a  href="rider/jonathan-lastra">LASTRA Jonathan</a></td><td>670</td><td>67</td></tr>
-<tr class=""><td>25</td><td><span class="flag be"></span> <a  href="rider/ludovic-robeet">ROBEET Ludovic</a></td><td>905</td><td>40</td></tr>
-<tr class=""><td>26</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>1010</td><td>32</td></tr>
-<tr class=""><td>27</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>1010</td><td>32</td></tr>
-<tr class=""><td>28</td><td><span class="flag fr"></span> <a  href="rider/nolann-mahoudo">MAHOUDO Nolann</a></td><td>1126</td><td>25</td></tr>
-<tr class=""><td>29</td><td><span class="flag fr"></span> <a  href="rider/nicolas-debeaumarche">DEBEAUMARCHÉ Nicolas</a></td><td>1214</td><td>20</td></tr>
-<tr class=""><td>30</td><td><span class="flag it"></span> <a  href="rider/tommaso-dati">DATI Tommaso</a></td><td>1223</td><td>20</td></tr>
-<tr class=""><td>31</td><td><span class="flag gb"></span> <a  href="rider/simon-carr">CARR Simon</a></td><td>1431</td><td>14</td></tr>
-<tr class=""><td>32</td><td><span class="flag fr"></span> <a  href="rider/hugo-toumire">TOUMIRE Hugo</a></td><td>1906</td><td>5</td></tr>
+<tr class=""><td>1</td><td><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>55</td><td>754</td></tr>
+<tr class=""><td>2</td><td><span class="flag be"></span> <a  href="rider/milan-fretin">FRETIN Milan</a></td><td>73</td><td>645</td></tr>
+<tr class=""><td>3</td><td><span class="flag pl"></span> <a  href="rider/stanislaw-aniolkowski">ANIOŁKOWSKI Stanisław</a></td><td>122</td><td>472</td></tr>
+<tr class=""><td>4</td><td><span class="flag fr"></span> <a  href="rider/bryan-coquard">COQUARD Bryan</a></td><td>140</td><td>440</td></tr>
+<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/alexis-renard">RENARD Alexis</a></td><td>141</td><td>436</td></tr>
+<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/benjamin-thomas-2">THOMAS Benjamin</a></td><td>176</td><td>366</td></tr>
+<tr class=""><td>7</td><td><span class="flag es"></span> <a  href="rider/ion-izagirre">IZAGIRRE Ion</a></td><td>224</td><td>286</td></tr>
+<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/dylan-teuns">TEUNS Dylan</a></td><td>241</td><td>269</td></tr>
+<tr class=""><td>9</td><td><span class="flag be"></span> <a  href="rider/sylvain-moniquet">MONIQUET Sylvain</a></td><td>267</td><td>241</td></tr>
+<tr class=""><td>10</td><td><span class="flag es"></span> <a  href="rider/jesus-herrada-lopez">HERRADA Jesús</a></td><td>293</td><td>222</td></tr>
+<tr class=""><td>11</td><td><span class="flag de"></span> <a  href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td>303</td><td>211</td></tr>
+<tr class=""><td>12</td><td><span class="flag gb"></span> <a  href="rider/oliver-knight">KNIGHT Oliver</a></td><td>372</td><td>164</td></tr>
+<tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/stefano-oldani">OLDANI Stefano</a></td><td>384</td><td>157</td></tr>
+<tr class=""><td>14</td><td><span class="flag be"></span> <a  href="rider/aime-de-gendt">DE GENDT Aimé</a></td><td>417</td><td>144</td></tr>
+<tr class=""><td>15</td><td><span class="flag be"></span> <a  href="rider/piet-allegaert">ALLEGAERT Piet</a></td><td>433</td><td>136</td></tr>
+<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/sam-maisonobe">MAISONOBE Sam</a></td><td>463</td><td>127</td></tr>
+<tr class=""><td>17</td><td><span class="flag fr"></span> <a  href="rider/damien-touze">TOUZÉ Damien</a></td><td>475</td><td>119</td></tr>
+<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/clement-izquierdo">IZQUIERDO Clément</a></td><td>498</td><td>112</td></tr>
+<tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/valentin-ferron">FERRON Valentin</a></td><td>552</td><td>96</td></tr>
+<tr class=""><td>20</td><td><span class="flag es"></span> <a  href="rider/sergio-samitier">SAMITIER Sergio</a></td><td>593</td><td>84</td></tr>
+<tr class=""><td>21</td><td><span class="flag nl"></span> <a  href="rider/jan-maas">MAAS Jan</a></td><td>629</td><td>75</td></tr>
+<tr class=""><td>22</td><td><span class="flag es"></span> <a  href="rider/jonathan-lastra">LASTRA Jonathan</a></td><td>670</td><td>67</td></tr>
+<tr class=""><td>23</td><td><span class="flag fr"></span> <a  href="rider/anthony-perez">PEREZ Anthony</a></td><td>752</td><td>55</td></tr>
+<tr class=""><td>24</td><td><span class="flag be"></span> <a  href="rider/ludovic-robeet">ROBEET Ludovic</a></td><td>947</td><td>35</td></tr>
+<tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/paul-ourselin">OURSELIN Paul</a></td><td>946</td><td>35</td></tr>
+<tr class=""><td>26</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>999</td><td>32</td></tr>
+<tr class=""><td>27</td><td><span class="flag it"></span> <a  href="rider/tommaso-dati">DATI Tommaso</a></td><td>992</td><td>32</td></tr>
+<tr class=""><td>28</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>999</td><td>32</td></tr>
+<tr class=""><td>29</td><td><span class="flag fr"></span> <a  href="rider/nolann-mahoudo">MAHOUDO Nolann</a></td><td>1065</td><td>28</td></tr>
+<tr class=""><td>30</td><td><span class="flag fr"></span> <a  href="rider/nicolas-debeaumarche">DEBEAUMARCHÉ Nicolas</a></td><td>1104</td><td>25</td></tr>
+<tr class=""><td>31</td><td><span class="flag gb"></span> <a  href="rider/simon-carr">CARR Simon</a></td><td>1426</td><td>14</td></tr>
+<tr class=""><td>32</td><td><span class="flag fr"></span> <a  href="rider/hugo-toumire">TOUMIRE Hugo</a></td><td>1895</td><td>5</td></tr>
 <tr class=""><td>33</td><td><span class="flag fr"></span> <a  href="rider/eddy-fine">FINÉ Eddy</a></td><td></td><td></td></tr>
 <tr class=""><td>34</td><td><span class="flag fr"></span> <a  href="rider/leandre-huck">HUCK Léandre</a></td><td></td><td></td></tr>
 </tbody></table></div>
@@ -288,37 +274,37 @@
 <th class="w67 ">ridername</th>
 <th class="w27 ">points</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag es"></span> <a  href="rider/ion-izagirre">IZAGIRRE Ion</a></td><td>9580</td></tr>
-<tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="rider/bryan-coquard">COQUARD Bryan</a></td><td>7885</td></tr>
-<tr class=""><td>3</td><td><span class="flag be"></span> <a  href="rider/dylan-teuns">TEUNS Dylan</a></td><td>6444</td></tr>
-<tr class=""><td>4</td><td><span class="flag es"></span> <a  href="rider/jesus-herrada-lopez">HERRADA Jesús</a></td><td>5728</td></tr>
-<tr class=""><td>5</td><td><span class="flag de"></span> <a  href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td>4781</td></tr>
-<tr class=""><td>6</td><td><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>4513</td></tr>
-<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="rider/benjamin-thomas-2">THOMAS Benjamin</a></td><td>1988</td></tr>
-<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/aime-de-gendt">DE GENDT Aimé</a></td><td>1750</td></tr>
-<tr class=""><td>9</td><td><span class="flag be"></span> <a  href="rider/piet-allegaert">ALLEGAERT Piet</a></td><td>1739</td></tr>
-<tr class=""><td>10</td><td><span class="flag pl"></span> <a  href="rider/stanislaw-aniolkowski">ANIOŁKOWSKI Stanisław</a></td><td>1639</td></tr>
-<tr class=""><td>11</td><td><span class="flag es"></span> <a  href="rider/jonathan-lastra">LASTRA Jonathan</a></td><td>1444</td></tr>
-<tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="rider/anthony-perez">PEREZ Anthony</a></td><td>1375</td></tr>
-<tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/stefano-oldani">OLDANI Stefano</a></td><td>1360</td></tr>
-<tr class=""><td>14</td><td><span class="flag be"></span> <a  href="rider/milan-fretin">FRETIN Milan</a></td><td>1355</td></tr>
-<tr class=""><td>15</td><td><span class="flag fr"></span> <a  href="rider/damien-touze">TOUZÉ Damien</a></td><td>1201</td></tr>
-<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/alexis-renard">RENARD Alexis</a></td><td>1140</td></tr>
-<tr class=""><td>17</td><td><span class="flag be"></span> <a  href="rider/sylvain-moniquet">MONIQUET Sylvain</a></td><td>1121</td></tr>
+<tr class=""><td>1</td><td><span class="flag es"></span> <a  href="rider/ion-izagirre">IZAGIRRE Ion</a></td><td>9746</td></tr>
+<tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="rider/bryan-coquard">COQUARD Bryan</a></td><td>7911</td></tr>
+<tr class=""><td>3</td><td><span class="flag be"></span> <a  href="rider/dylan-teuns">TEUNS Dylan</a></td><td>6492</td></tr>
+<tr class=""><td>4</td><td><span class="flag es"></span> <a  href="rider/jesus-herrada-lopez">HERRADA Jesús</a></td><td>5753</td></tr>
+<tr class=""><td>5</td><td><span class="flag de"></span> <a  href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td>4806</td></tr>
+<tr class=""><td>6</td><td><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>4615</td></tr>
+<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="rider/benjamin-thomas-2">THOMAS Benjamin</a></td><td>2034</td></tr>
+<tr class=""><td>8</td><td><span class="flag pl"></span> <a  href="rider/stanislaw-aniolkowski">ANIOŁKOWSKI Stanisław</a></td><td>1900</td></tr>
+<tr class=""><td>9</td><td><span class="flag be"></span> <a  href="rider/aime-de-gendt">DE GENDT Aimé</a></td><td>1753</td></tr>
+<tr class=""><td>10</td><td><span class="flag be"></span> <a  href="rider/piet-allegaert">ALLEGAERT Piet</a></td><td>1744</td></tr>
+<tr class=""><td>11</td><td><span class="flag be"></span> <a  href="rider/milan-fretin">FRETIN Milan</a></td><td>1453</td></tr>
+<tr class=""><td>12</td><td><span class="flag es"></span> <a  href="rider/jonathan-lastra">LASTRA Jonathan</a></td><td>1444</td></tr>
+<tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/stefano-oldani">OLDANI Stefano</a></td><td>1385</td></tr>
+<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/anthony-perez">PEREZ Anthony</a></td><td>1375</td></tr>
+<tr class=""><td>15</td><td><span class="flag fr"></span> <a  href="rider/damien-touze">TOUZÉ Damien</a></td><td>1205</td></tr>
+<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/alexis-renard">RENARD Alexis</a></td><td>1160</td></tr>
+<tr class=""><td>17</td><td><span class="flag be"></span> <a  href="rider/sylvain-moniquet">MONIQUET Sylvain</a></td><td>1158</td></tr>
 <tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/valentin-ferron">FERRON Valentin</a></td><td>937</td></tr>
 <tr class=""><td>19</td><td><span class="flag gb"></span> <a  href="rider/simon-carr">CARR Simon</a></td><td>800</td></tr>
-<tr class=""><td>20</td><td><span class="flag es"></span> <a  href="rider/sergio-samitier">SAMITIER Sergio</a></td><td>489</td></tr>
+<tr class=""><td>20</td><td><span class="flag es"></span> <a  href="rider/sergio-samitier">SAMITIER Sergio</a></td><td>514</td></tr>
 <tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/paul-ourselin">OURSELIN Paul</a></td><td>474</td></tr>
 <tr class=""><td>22</td><td><span class="flag be"></span> <a  href="rider/ludovic-robeet">ROBEET Ludovic</a></td><td>426</td></tr>
-<tr class=""><td>23</td><td><span class="flag nl"></span> <a  href="rider/jan-maas">MAAS Jan</a></td><td>385</td></tr>
+<tr class=""><td>23</td><td><span class="flag nl"></span> <a  href="rider/jan-maas">MAAS Jan</a></td><td>390</td></tr>
 <tr class=""><td>24</td><td><span class="flag fr"></span> <a  href="rider/eddy-fine">FINÉ Eddy</a></td><td>280</td></tr>
-<tr class=""><td>25</td><td><span class="flag gb"></span> <a  href="rider/oliver-knight">KNIGHT Oliver</a></td><td>163</td></tr>
-<tr class=""><td>26</td><td><span class="flag fr"></span> <a  href="rider/clement-izquierdo">IZQUIERDO Clément</a></td><td>121</td></tr>
-<tr class=""><td>27</td><td><span class="flag fr"></span> <a  href="rider/sam-maisonobe">MAISONOBE Sam</a></td><td>118</td></tr>
-<tr class=""><td>28</td><td><span class="flag fr"></span> <a  href="rider/nicolas-debeaumarche">DEBEAUMARCHÉ Nicolas</a></td><td>109</td></tr>
-<tr class=""><td>29</td><td><span class="flag fr"></span> <a  href="rider/nolann-mahoudo">MAHOUDO Nolann</a></td><td>99</td></tr>
+<tr class=""><td>25</td><td><span class="flag gb"></span> <a  href="rider/oliver-knight">KNIGHT Oliver</a></td><td>183</td></tr>
+<tr class=""><td>26</td><td><span class="flag fr"></span> <a  href="rider/sam-maisonobe">MAISONOBE Sam</a></td><td>157</td></tr>
+<tr class=""><td>27</td><td><span class="flag fr"></span> <a  href="rider/clement-izquierdo">IZQUIERDO Clément</a></td><td>123</td></tr>
+<tr class=""><td>28</td><td><span class="flag fr"></span> <a  href="rider/nicolas-debeaumarche">DEBEAUMARCHÉ Nicolas</a></td><td>114</td></tr>
+<tr class=""><td>29</td><td><span class="flag fr"></span> <a  href="rider/nolann-mahoudo">MAHOUDO Nolann</a></td><td>102</td></tr>
 <tr class=""><td>30</td><td><span class="flag fr"></span> <a  href="rider/hugo-toumire">TOUMIRE Hugo</a></td><td>98</td></tr>
-<tr class=""><td>31</td><td><span class="flag it"></span> <a  href="rider/tommaso-dati">DATI Tommaso</a></td><td>36</td></tr>
+<tr class=""><td>31</td><td><span class="flag it"></span> <a  href="rider/tommaso-dati">DATI Tommaso</a></td><td>48</td></tr>
 <tr class=""><td>32</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>32</td></tr>
 <tr class=""><td>33</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>32</td></tr>
 <tr class=""><td>34</td><td><span class="flag fr"></span> <a  href="rider/leandre-huck">HUCK Léandre</a></td><td>0</td></tr>
@@ -339,7 +325,7 @@
 <tr class=""><td>8</td><td><span class="flag es"></span> <a  href="rider/jonathan-lastra">LASTRA Jonathan</a></td><td>32</td></tr>
 <tr class=""><td>9</td><td><span class="flag es"></span> <a  href="rider/sergio-samitier">SAMITIER Sergio</a></td><td>30</td></tr>
 <tr class=""><td>10</td><td><span class="flag es"></span> <a  href="rider/ion-izagirre">IZAGIRRE Ion</a></td><td>36</td></tr>
-<tr class=""><td>11</td><td><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>29</td></tr>
+<tr class=""><td>11</td><td><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>30</td></tr>
 <tr class=""><td>12</td><td><span class="flag es"></span> <a  href="rider/jesus-herrada-lopez">HERRADA Jesús</a></td><td>35</td></tr>
 <tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/sam-maisonobe">MAISONOBE Sam</a></td><td>22</td></tr>
 <tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/clement-izquierdo">IZQUIERDO Clément</a></td><td>23</td></tr>
@@ -348,7 +334,7 @@
 <tr class=""><td>17</td><td><span class="flag fr"></span> <a  href="rider/leandre-huck">HUCK Léandre</a></td><td>25</td></tr>
 <tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/valentin-ferron">FERRON Valentin</a></td><td>27</td></tr>
 <tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/damien-touze">TOUZÉ Damien</a></td><td>29</td></tr>
-<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/hugo-toumire">TOUMIRE Hugo</a></td><td>23</td></tr>
+<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/hugo-toumire">TOUMIRE Hugo</a></td><td>24</td></tr>
 <tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/benjamin-thomas-2">THOMAS Benjamin</a></td><td>30</td></tr>
 <tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/nolann-mahoudo">MAHOUDO Nolann</a></td><td>22</td></tr>
 <tr class=""><td>23</td><td><span class="flag fr"></span> <a  href="rider/nicolas-debeaumarche">DEBEAUMARCHÉ Nicolas</a></td><td>27</td></tr>
@@ -370,46 +356,46 @@
 <th class="w67 ">ridername</th>
 <th class="w27 ">age</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag es"></span> <a  href="rider/ion-izagirre">IZAGIRRE Ion</a></td><td>36y + 222d</td></tr>
-<tr class=""><td>2</td><td><span class="flag es"></span> <a  href="rider/jesus-herrada-lopez">HERRADA Jesús</a></td><td>35y + 50d</td></tr>
-<tr class=""><td>3</td><td><span class="flag fr"></span> <a  href="rider/anthony-perez">PEREZ Anthony</a></td><td>34y + 145d</td></tr>
-<tr class=""><td>4</td><td><span class="flag be"></span> <a  href="rider/dylan-teuns">TEUNS Dylan</a></td><td>33y + 197d</td></tr>
-<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/bryan-coquard">COQUARD Bryan</a></td><td>33y + 142d</td></tr>
-<tr class=""><td>6</td><td><span class="flag de"></span> <a  href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td>32y + 300d</td></tr>
-<tr class=""><td>7</td><td><span class="flag es"></span> <a  href="rider/jonathan-lastra">LASTRA Jonathan</a></td><td>32y + 103d</td></tr>
-<tr class=""><td>8</td><td><span class="flag fr"></span> <a  href="rider/paul-ourselin">OURSELIN Paul</a></td><td>31y + 154d</td></tr>
-<tr class=""><td>9</td><td><span class="flag be"></span> <a  href="rider/ludovic-robeet">ROBEET Ludovic</a></td><td>31y + 115d</td></tr>
-<tr class=""><td>10</td><td><span class="flag be"></span> <a  href="rider/aime-de-gendt">DE GENDT Aimé</a></td><td>31y + 89d</td></tr>
-<tr class=""><td>11</td><td><span class="flag be"></span> <a  href="rider/piet-allegaert">ALLEGAERT Piet</a></td><td>30y + 237d</td></tr>
-<tr class=""><td>12</td><td><span class="flag es"></span> <a  href="rider/sergio-samitier">SAMITIER Sergio</a></td><td>30y + 14d</td></tr>
-<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/benjamin-thomas-2">THOMAS Benjamin</a></td><td>30y + 2d</td></tr>
-<tr class=""><td>14</td><td><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>29y + 360d</td></tr>
-<tr class=""><td>15</td><td><span class="flag nl"></span> <a  href="rider/jan-maas">MAAS Jan</a></td><td>29y + 207d</td></tr>
-<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/damien-touze">TOUZÉ Damien</a></td><td>29y + 69d</td></tr>
-<tr class=""><td>17</td><td><span class="flag pl"></span> <a  href="rider/stanislaw-aniolkowski">ANIOŁKOWSKI Stanisław</a></td><td>28y + 237d</td></tr>
-<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/eddy-fine">FINÉ Eddy</a></td><td>27y + 298d</td></tr>
-<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/stefano-oldani">OLDANI Stefano</a></td><td>27y + 247d</td></tr>
-<tr class=""><td>20</td><td><span class="flag be"></span> <a  href="rider/sylvain-moniquet">MONIQUET Sylvain</a></td><td>27y + 243d</td></tr>
-<tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/valentin-ferron">FERRON Valentin</a></td><td>27y + 218d</td></tr>
-<tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/nicolas-debeaumarche">DEBEAUMARCHÉ Nicolas</a></td><td>27y + 202d</td></tr>
-<tr class=""><td>23</td><td><span class="flag gb"></span> <a  href="rider/simon-carr">CARR Simon</a></td><td>27y + 16d</td></tr>
-<tr class=""><td>24</td><td><span class="flag fr"></span> <a  href="rider/alexis-renard">RENARD Alexis</a></td><td>26y + 105d</td></tr>
-<tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/leandre-huck">HUCK Léandre</a></td><td>25y + 46d</td></tr>
-<tr class=""><td>26</td><td><span class="flag gb"></span> <a  href="rider/oliver-knight">KNIGHT Oliver</a></td><td>24y + 232d</td></tr>
-<tr class=""><td>27</td><td><span class="flag be"></span> <a  href="rider/milan-fretin">FRETIN Milan</a></td><td>24y + 179d</td></tr>
-<tr class=""><td>28</td><td><span class="flag fr"></span> <a  href="rider/hugo-toumire">TOUMIRE Hugo</a></td><td>23y + 344d</td></tr>
-<tr class=""><td>29</td><td><span class="flag fr"></span> <a  href="rider/clement-izquierdo">IZQUIERDO Clément</a></td><td>23y + 210d</td></tr>
-<tr class=""><td>30</td><td><span class="flag it"></span> <a  href="rider/tommaso-dati">DATI Tommaso</a></td><td>23y + 63d</td></tr>
-<tr class=""><td>31</td><td><span class="flag fr"></span> <a  href="rider/nolann-mahoudo">MAHOUDO Nolann</a></td><td>22y + 301d</td></tr>
-<tr class=""><td>32</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>22y + 8d</td></tr>
-<tr class=""><td>33</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>22y + 8d</td></tr>
-<tr class=""><td>34</td><td><span class="flag fr"></span> <a  href="rider/sam-maisonobe">MAISONOBE Sam</a></td><td>22y + 6d</td></tr>
+<tr class=""><td>1</td><td><span class="flag es"></span> <a  href="rider/ion-izagirre">IZAGIRRE Ion</a></td><td>36y + 277d</td></tr>
+<tr class=""><td>2</td><td><span class="flag es"></span> <a  href="rider/jesus-herrada-lopez">HERRADA Jesús</a></td><td>35y + 105d</td></tr>
+<tr class=""><td>3</td><td><span class="flag fr"></span> <a  href="rider/anthony-perez">PEREZ Anthony</a></td><td>34y + 200d</td></tr>
+<tr class=""><td>4</td><td><span class="flag be"></span> <a  href="rider/dylan-teuns">TEUNS Dylan</a></td><td>33y + 252d</td></tr>
+<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/bryan-coquard">COQUARD Bryan</a></td><td>33y + 197d</td></tr>
+<tr class=""><td>6</td><td><span class="flag de"></span> <a  href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td>32y + 355d</td></tr>
+<tr class=""><td>7</td><td><span class="flag es"></span> <a  href="rider/jonathan-lastra">LASTRA Jonathan</a></td><td>32y + 158d</td></tr>
+<tr class=""><td>8</td><td><span class="flag fr"></span> <a  href="rider/paul-ourselin">OURSELIN Paul</a></td><td>31y + 209d</td></tr>
+<tr class=""><td>9</td><td><span class="flag be"></span> <a  href="rider/ludovic-robeet">ROBEET Ludovic</a></td><td>31y + 170d</td></tr>
+<tr class=""><td>10</td><td><span class="flag be"></span> <a  href="rider/aime-de-gendt">DE GENDT Aimé</a></td><td>31y + 144d</td></tr>
+<tr class=""><td>11</td><td><span class="flag be"></span> <a  href="rider/piet-allegaert">ALLEGAERT Piet</a></td><td>30y + 292d</td></tr>
+<tr class=""><td>12</td><td><span class="flag es"></span> <a  href="rider/sergio-samitier">SAMITIER Sergio</a></td><td>30y + 69d</td></tr>
+<tr class=""><td>13</td><td><span class="flag fr"></span> <a  href="rider/benjamin-thomas-2">THOMAS Benjamin</a></td><td>30y + 57d</td></tr>
+<tr class=""><td>14</td><td><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>30y + 50d</td></tr>
+<tr class=""><td>15</td><td><span class="flag nl"></span> <a  href="rider/jan-maas">MAAS Jan</a></td><td>29y + 262d</td></tr>
+<tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/damien-touze">TOUZÉ Damien</a></td><td>29y + 124d</td></tr>
+<tr class=""><td>17</td><td><span class="flag pl"></span> <a  href="rider/stanislaw-aniolkowski">ANIOŁKOWSKI Stanisław</a></td><td>28y + 292d</td></tr>
+<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/eddy-fine">FINÉ Eddy</a></td><td>27y + 353d</td></tr>
+<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/stefano-oldani">OLDANI Stefano</a></td><td>27y + 302d</td></tr>
+<tr class=""><td>20</td><td><span class="flag be"></span> <a  href="rider/sylvain-moniquet">MONIQUET Sylvain</a></td><td>27y + 298d</td></tr>
+<tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/valentin-ferron">FERRON Valentin</a></td><td>27y + 273d</td></tr>
+<tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/nicolas-debeaumarche">DEBEAUMARCHÉ Nicolas</a></td><td>27y + 257d</td></tr>
+<tr class=""><td>23</td><td><span class="flag gb"></span> <a  href="rider/simon-carr">CARR Simon</a></td><td>27y + 71d</td></tr>
+<tr class=""><td>24</td><td><span class="flag fr"></span> <a  href="rider/alexis-renard">RENARD Alexis</a></td><td>26y + 160d</td></tr>
+<tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/leandre-huck">HUCK Léandre</a></td><td>25y + 101d</td></tr>
+<tr class=""><td>26</td><td><span class="flag gb"></span> <a  href="rider/oliver-knight">KNIGHT Oliver</a></td><td>24y + 287d</td></tr>
+<tr class=""><td>27</td><td><span class="flag be"></span> <a  href="rider/milan-fretin">FRETIN Milan</a></td><td>24y + 234d</td></tr>
+<tr class=""><td>28</td><td><span class="flag fr"></span> <a  href="rider/hugo-toumire">TOUMIRE Hugo</a></td><td>24y + 34d</td></tr>
+<tr class=""><td>29</td><td><span class="flag fr"></span> <a  href="rider/clement-izquierdo">IZQUIERDO Clément</a></td><td>23y + 265d</td></tr>
+<tr class=""><td>30</td><td><span class="flag it"></span> <a  href="rider/tommaso-dati">DATI Tommaso</a></td><td>23y + 118d</td></tr>
+<tr class=""><td>31</td><td><span class="flag fr"></span> <a  href="rider/nolann-mahoudo">MAHOUDO Nolann</a></td><td>22y + 356d</td></tr>
+<tr class=""><td>32</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>22y + 63d</td></tr>
+<tr class=""><td>33</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>22y + 63d</td></tr>
+<tr class=""><td>34</td><td><span class="flag fr"></span> <a  href="rider/sam-maisonobe">MAISONOBE Sam</a></td><td>22y + 61d</td></tr>
 </tbody></table></div>
 <div class="stab name riderlistcont">
 <ul class="teamlist list lineh18" >
 <li class=""><div class="w10" >1</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/piet-allegaert">ALLEGAERT Piet</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >30</div></li>
 <li class=""><div class="w10" >2</div><div class="w80" ><div class="mr5" ><span class="flag pl"></span> <a  href="rider/stanislaw-aniolkowski">ANIOŁKOWSKI Stanisław</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >28</div></li>
-<li class=""><div class="w10" >3</div><div class="w80" ><div class="mr5" ><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >29</div></li>
+<li class=""><div class="w10" >3</div><div class="w80" ><div class="mr5" ><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >30</div></li>
 <li class=""><div class="w10" >4</div><div class="w80" ><div class="mr5" ><span class="flag de"></span> <a  href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >32</div></li>
 <li class=""><div class="w10" >5</div><div class="w80" ><div class="mr5" ><span class="flag gb"></span> <a  href="rider/simon-carr">CARR Simon</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >27</div></li>
 <li class=""><div class="w10" >6</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/bryan-coquard">COQUARD Bryan</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >33</div></li>
@@ -439,7 +425,7 @@
 <li class=""><div class="w10" >30</div><div class="w80" ><div class="mr5" ><span class="flag es"></span> <a  href="rider/sergio-samitier">SAMITIER Sergio</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >30</div></li>
 <li class=""><div class="w10" >31</div><div class="w80" ><div class="mr5" ><span class="flag be"></span> <a  href="rider/dylan-teuns">TEUNS Dylan</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >33</div></li>
 <li class=""><div class="w10" >32</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/benjamin-thomas-2">THOMAS Benjamin</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >30</div></li>
-<li class=""><div class="w10" >33</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/hugo-toumire">TOUMIRE Hugo</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >23</div></li>
+<li class=""><div class="w10" >33</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/hugo-toumire">TOUMIRE Hugo</a></div><div class="fs10 clr999" ></div><div><span class="outWithInjury">out</span></div></div><div class="w10" >24</div></li>
 <li class=""><div class="w10" >34</div><div class="w80" ><div class="mr5" ><span class="flag fr"></span> <a  href="rider/damien-touze">TOUZÉ Damien</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >29</div></li>
 </ul>
 </div>
@@ -450,37 +436,37 @@
 <th class="w27 ">specialty</th>
 </tr></thead><tbody>
 <tr class=""><td>1</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>Climber</td></tr>
-<tr class=""><td>2</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>Climber</td></tr>
-<tr class=""><td>3</td><td><span class="flag gb"></span> <a  href="rider/simon-carr">CARR Simon</a></td><td>Climber</td></tr>
-<tr class=""><td>4</td><td><span class="flag de"></span> <a  href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td>GC</td></tr>
-<tr class=""><td>5</td><td><span class="flag fr"></span> <a  href="rider/sam-maisonobe">MAISONOBE Sam</a></td><td>GC</td></tr>
-<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/hugo-toumire">TOUMIRE Hugo</a></td><td>GC</td></tr>
-<tr class=""><td>7</td><td><span class="flag be"></span> <a  href="rider/sylvain-moniquet">MONIQUET Sylvain</a></td><td>GC</td></tr>
-<tr class=""><td>8</td><td><span class="flag es"></span> <a  href="rider/sergio-samitier">SAMITIER Sergio</a></td><td>GC</td></tr>
-<tr class=""><td>9</td><td><span class="flag es"></span> <a  href="rider/jonathan-lastra">LASTRA Jonathan</a></td><td>GC</td></tr>
-<tr class=""><td>10</td><td><span class="flag nl"></span> <a  href="rider/jan-maas">MAAS Jan</a></td><td>GC</td></tr>
-<tr class=""><td>11</td><td><span class="flag be"></span> <a  href="rider/dylan-teuns">TEUNS Dylan</a></td><td>GC</td></tr>
-<tr class=""><td>12</td><td><span class="flag fr"></span> <a  href="rider/paul-ourselin">OURSELIN Paul</a></td><td>GC</td></tr>
-<tr class=""><td>13</td><td><span class="flag es"></span> <a  href="rider/ion-izagirre">IZAGIRRE Ion</a></td><td>GC</td></tr>
-<tr class=""><td>14</td><td><span class="flag es"></span> <a  href="rider/jesus-herrada-lopez">HERRADA Jesús</a></td><td>GC</td></tr>
-<tr class=""><td>15</td><td><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>Hills</td></tr>
+<tr class=""><td>2</td><td><span class="flag be"></span> <a  href="rider/dylan-teuns">TEUNS Dylan</a></td><td>Climber</td></tr>
+<tr class=""><td>3</td><td><span class="flag ie"></span> <a  href="rider/jamie-meehan">MEEHAN Jamie</a></td><td>Climber</td></tr>
+<tr class=""><td>4</td><td><span class="flag gb"></span> <a  href="rider/simon-carr">CARR Simon</a></td><td>Climber</td></tr>
+<tr class=""><td>5</td><td><span class="flag de"></span> <a  href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td>GC</td></tr>
+<tr class=""><td>6</td><td><span class="flag fr"></span> <a  href="rider/sam-maisonobe">MAISONOBE Sam</a></td><td>GC</td></tr>
+<tr class=""><td>7</td><td><span class="flag fr"></span> <a  href="rider/hugo-toumire">TOUMIRE Hugo</a></td><td>GC</td></tr>
+<tr class=""><td>8</td><td><span class="flag be"></span> <a  href="rider/sylvain-moniquet">MONIQUET Sylvain</a></td><td>GC</td></tr>
+<tr class=""><td>9</td><td><span class="flag es"></span> <a  href="rider/sergio-samitier">SAMITIER Sergio</a></td><td>GC</td></tr>
+<tr class=""><td>10</td><td><span class="flag es"></span> <a  href="rider/jonathan-lastra">LASTRA Jonathan</a></td><td>GC</td></tr>
+<tr class=""><td>11</td><td><span class="flag nl"></span> <a  href="rider/jan-maas">MAAS Jan</a></td><td>GC</td></tr>
+<tr class=""><td>12</td><td><span class="flag be"></span> <a  href="rider/dylan-teuns">TEUNS Dylan</a></td><td>GC</td></tr>
+<tr class=""><td>13</td><td><span class="flag es"></span> <a  href="rider/jesus-herrada-lopez">HERRADA Jesús</a></td><td>GC</td></tr>
+<tr class=""><td>14</td><td><span class="flag fr"></span> <a  href="rider/paul-ourselin">OURSELIN Paul</a></td><td>GC</td></tr>
+<tr class=""><td>15</td><td><span class="flag es"></span> <a  href="rider/ion-izagirre">IZAGIRRE Ion</a></td><td>GC</td></tr>
 <tr class=""><td>16</td><td><span class="flag fr"></span> <a  href="rider/clement-izquierdo">IZQUIERDO Clément</a></td><td>Hills</td></tr>
 <tr class=""><td>17</td><td><span class="flag it"></span> <a  href="rider/stefano-oldani">OLDANI Stefano</a></td><td>Hills</td></tr>
-<tr class=""><td>18</td><td><span class="flag it"></span> <a  href="rider/tommaso-dati">DATI Tommaso</a></td><td>Hills</td></tr>
-<tr class=""><td>19</td><td><span class="flag fr"></span> <a  href="rider/alexis-renard">RENARD Alexis</a></td><td>Oneday</td></tr>
-<tr class=""><td>20</td><td><span class="flag be"></span> <a  href="rider/aime-de-gendt">DE GENDT Aimé</a></td><td>Oneday</td></tr>
-<tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/anthony-perez">PEREZ Anthony</a></td><td>Oneday</td></tr>
-<tr class=""><td>22</td><td><span class="flag fr"></span> <a  href="rider/nolann-mahoudo">MAHOUDO Nolann</a></td><td>Oneday</td></tr>
-<tr class=""><td>23</td><td><span class="flag it"></span> <a  href="rider/tommaso-dati">DATI Tommaso</a></td><td>Oneday</td></tr>
-<tr class=""><td>24</td><td><span class="flag fr"></span> <a  href="rider/damien-touze">TOUZÉ Damien</a></td><td>Oneday</td></tr>
-<tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/valentin-ferron">FERRON Valentin</a></td><td>Oneday</td></tr>
-<tr class=""><td>26</td><td><span class="flag fr"></span> <a  href="rider/nicolas-debeaumarche">DEBEAUMARCHÉ Nicolas</a></td><td>Oneday</td></tr>
-<tr class=""><td>27</td><td><span class="flag be"></span> <a  href="rider/piet-allegaert">ALLEGAERT Piet</a></td><td>Oneday</td></tr>
-<tr class=""><td>28</td><td><span class="flag fr"></span> <a  href="rider/eddy-fine">FINÉ Eddy</a></td><td>Oneday</td></tr>
+<tr class=""><td>18</td><td><span class="flag fr"></span> <a  href="rider/alexis-renard">RENARD Alexis</a></td><td>Oneday</td></tr>
+<tr class=""><td>19</td><td><span class="flag be"></span> <a  href="rider/aime-de-gendt">DE GENDT Aimé</a></td><td>Oneday</td></tr>
+<tr class=""><td>20</td><td><span class="flag fr"></span> <a  href="rider/anthony-perez">PEREZ Anthony</a></td><td>Oneday</td></tr>
+<tr class=""><td>21</td><td><span class="flag fr"></span> <a  href="rider/nolann-mahoudo">MAHOUDO Nolann</a></td><td>Oneday</td></tr>
+<tr class=""><td>22</td><td><span class="flag it"></span> <a  href="rider/tommaso-dati">DATI Tommaso</a></td><td>Oneday</td></tr>
+<tr class=""><td>23</td><td><span class="flag fr"></span> <a  href="rider/damien-touze">TOUZÉ Damien</a></td><td>Oneday</td></tr>
+<tr class=""><td>24</td><td><span class="flag fr"></span> <a  href="rider/valentin-ferron">FERRON Valentin</a></td><td>Oneday</td></tr>
+<tr class=""><td>25</td><td><span class="flag fr"></span> <a  href="rider/nicolas-debeaumarche">DEBEAUMARCHÉ Nicolas</a></td><td>Oneday</td></tr>
+<tr class=""><td>26</td><td><span class="flag be"></span> <a  href="rider/piet-allegaert">ALLEGAERT Piet</a></td><td>Oneday</td></tr>
+<tr class=""><td>27</td><td><span class="flag fr"></span> <a  href="rider/eddy-fine">FINÉ Eddy</a></td><td>Oneday</td></tr>
+<tr class=""><td>28</td><td><span class="flag es"></span> <a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>Oneday</td></tr>
 <tr class=""><td>29</td><td><span class="flag be"></span> <a  href="rider/ludovic-robeet">ROBEET Ludovic</a></td><td>Oneday</td></tr>
-<tr class=""><td>30</td><td><span class="flag fr"></span> <a  href="rider/bryan-coquard">COQUARD Bryan</a></td><td>Sprint</td></tr>
-<tr class=""><td>31</td><td><span class="flag be"></span> <a  href="rider/milan-fretin">FRETIN Milan</a></td><td>Sprint</td></tr>
-<tr class=""><td>32</td><td><span class="flag pl"></span> <a  href="rider/stanislaw-aniolkowski">ANIOŁKOWSKI Stanisław</a></td><td>Sprint</td></tr>
+<tr class=""><td>30</td><td><span class="flag pl"></span> <a  href="rider/stanislaw-aniolkowski">ANIOŁKOWSKI Stanisław</a></td><td>Sprint</td></tr>
+<tr class=""><td>31</td><td><span class="flag fr"></span> <a  href="rider/bryan-coquard">COQUARD Bryan</a></td><td>Sprint</td></tr>
+<tr class=""><td>32</td><td><span class="flag be"></span> <a  href="rider/milan-fretin">FRETIN Milan</a></td><td>Sprint</td></tr>
 <tr class=""><td>33</td><td><span class="flag fr"></span> <a  href="rider/leandre-huck">HUCK Léandre</a></td><td>TT</td></tr>
 <tr class=""><td>34</td><td><span class="flag gb"></span> <a  href="rider/oliver-knight">KNIGHT Oliver</a></td><td>TT</td></tr>
 <tr class=""><td>35</td><td><span class="flag fr"></span> <a  href="rider/benjamin-thomas-2">THOMAS Benjamin</a></td><td>TT</td></tr>
@@ -525,27 +511,8 @@
 <th class="w8 cu600">Class</th>
 <th class="w32 cu600 fs10 clr555">Riders</th>
 </tr></thead><tbody>
-<tr class=""><td class="cu600" >23/08 - 14/09</td><td class="cs600 hide" >23/08 - 14/09</td><td><span class="flag es"></span> <a  href="race/vuelta-a-espana/2025">La Vuelta Ciclista a España</a></td><td class="cu600" >2.UWT</td><td class="cu600 fs10 clr555" >Carr, Aniołkowski, Buchmann, Coquard, Herrada, Knight, Ourselin, Samitier</td></tr>
-<tr class=""><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag ca"></span> <a  href="race/gp-montreal/2025">Grand Prix Cycliste de Montréal</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" >Izagirre, Aranburu, Debeaumarché, Maisonobe, Perez, Knight, Touzé</td></tr>
-<tr class=""><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag fr"></span> <a  href="race/gp-de-fourmies/2025">GP de Fourmies / La Voix du Nord</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" >Fretin, Renard, Allegaert, De Gendt, Huck, Maas, Mahoudo</td></tr>
-<tr class=""><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag it"></span> <a  href="race/trofeo-matteotti/2025">Trofeo Matteotti</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Izquierdo, Lastra, Moniquet, Dati, Oldani, Carr, Thomas</td></tr>
-<tr class=""><td class="cu600" >17/09</td><td class="cs600 hide" >17/09</td><td><span class="flag be"></span> <a  href="race/gp-de-wallonie/2025">Grand Prix de Wallonie</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" >Coquard, De Gendt, Maisonobe, Moniquet, Teuns, Touzé, Aranburu</td></tr>
-<tr class="hide"><td class="cu600" >19/09</td><td class="cs600 hide" >19/09</td><td><span class="flag be"></span> <a  href="race/kampioenschap-van-vlaanderen1/2025">Kampioenschap van Vlaanderen</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Fretin, Renard, Allegaert, De Gendt, Mahoudo, Robeet</td></tr>
-<tr class="hide"><td class="cu600" >20/09</td><td class="cs600 hide" >20/09</td><td><span class="flag be"></span> <a  href="race/gp-impanis-van-petegem/2025">SUPER 8 Classic</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" >Allegaert, Coquard, De Gendt, Renard, Robeet, Teuns, Touzé</td></tr>
-<tr class="hide"><td class="cu600" >21/09</td><td class="cs600 hide" >21/09</td><td><span class="flag fr"></span> <a  href="race/gp-d-isbergues/2025">Grand Prix d'Isbergues - Pas de Calais</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Renard</td></tr>
-<tr class="hide"><td class="cu600" >21/09</td><td class="cs600 hide" >21/09</td><td><span class="flag be"></span> <a  href="race/gooikse-pijl/2025">Gooikse Pijl</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Fretin, Allegaert</td></tr>
-<tr class="hide"><td class="cu600" >24/09</td><td class="cs600 hide" >24/09</td><td><span class="flag be"></span> <a  href="race/omloop-van-het-houtland-lichtervelde/2025">Omloop van het Houtland</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Fretin, Renard, Allegaert, Mahoudo, Robeet, Touzé</td></tr>
-<tr class="hide"><td class="cu600" >28/09</td><td class="cs600 hide" >28/09</td><td><span class="flag fr"></span> <a  href="race/paris-chauny-classique/2025">Paris-Chauny</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Fretin, Renard, Allegaert</td></tr>
-<tr class="hide"><td class="cu600" >03/10</td><td class="cs600 hide" >03/10</td><td><span class="flag de"></span> <a  href="race/munsterland-giro/2025">Sparkassen Münsterland Giro</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" >Fretin, Renard, Allegaert</td></tr>
-<tr class="hide"><td class="cu600" >07/10</td><td class="cs600 hide" >07/10</td><td><span class="flag be"></span> <a  href="race/memorial-frank-vandenbroucke/2025">Binche - Chimay - Binche / Mémorial Frank Vandenbroucke</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Fretin, Renard</td></tr>
-<tr class="hide"><td class="cu600" >07/10</td><td class="cs600 hide" >07/10</td><td><span class="flag it"></span> <a  href="race/tre-valli-varesine/2025">Tre Valli Varesine</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >09/10 - 12/10</td><td class="cs600 hide" >09/10 - 12/10</td><td><span class="flag cn"></span> <a  href="race/tour-of-taihu-lake/2025">Tour of Taihu Lake</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" >Maas</td></tr>
-<tr class="hide"><td class="cu600" >11/10</td><td class="cs600 hide" >11/10</td><td><span class="flag fr"></span> <a  href="race/tour-de-vendee/2025">Tour de Vendée</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >11/10</td><td class="cs600 hide" >11/10</td><td><span class="flag it"></span> <a  href="race/il-lombardia/2025">Il Lombardia</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >12/10</td><td class="cs600 hide" >12/10</td><td><span class="flag fr"></span> <a  href="race/paris-tours/2025">Paris - Tours Elite</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" >Renard</td></tr>
-<tr class="hide"><td class="cu600" >14/10 - 19/10</td><td class="cs600 hide" >14/10 - 19/10</td><td><span class="flag cn"></span> <a  href="race/tour-of-guangxi/2025">Gree-Tour of Guangxi</a></td><td class="cu600" >2.UWT</td><td class="cu600 fs10 clr555" >Allegaert, Buchmann, Maas</td></tr>
-<tr class="hide"><td class="cu600" >19/10</td><td class="cs600 hide" >19/10</td><td><span class="flag jp"></span> <a  href="race/japan-cup/2025">Utsunomiya Japan Cup Road Race</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-</tbody></table><a class="show-all-link show-all" href="">show 15 more lines</a></div>
+<tr class=""><td class="cu600" >04/02 - 08/02</td><td class="cs600 hide" >04/02 - 08/02</td><td><span class="flag fr"></span> <a  href="race/etoile-de-besseges/2026">Etoile de Bessèges - Tour du Gard</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" ></td></tr>
+</tbody></table></div>
 <div class="mt20">
 <h4>Last victories</h4><table class=" basic"><thead><tr>
 <th class="w8 ">#</th>
@@ -573,24 +540,24 @@
 </tr></thead><tbody>
 <tr class=""><td>2</td><td><span class="flag dk"></span> <a  href="race/copenhagen-sprint/2025/result">Copenhagen Sprint</a></td><td>1.UWT</td><td><a  href="rider/alexis-renard">RENARD Alexis</a></td><td>150</td></tr>
 <tr class=""><td>1</td><td><span class="flag es"></span> <a  href="race/clasica-de-almeria/2025/result">Clasica de Almeria ME</a></td><td>1.Pro</td><td><a  href="rider/milan-fretin">FRETIN Milan</a></td><td>125</td></tr>
+<tr class=""><td>2</td><td><span class="flag cn"></span> <a  href="race/tour-of-taihu-lake/2025/gc">Tour of Taihu Lake | General classification</a></td><td>2.Pro</td><td><a  href="rider/stanislaw-aniolkowski">ANIOŁKOWSKI Stanisław</a></td><td>110</td></tr>
 <tr class=""><td>7</td><td><span class="flag es"></span> <a  href="race/itzulia-basque-country/2025/gc">Itzulia Basque Country | General classification</a></td><td>2.UWT</td><td><a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>100</td></tr>
 <tr class=""><td>3</td><td><span class="flag be"></span> <a  href="race/tour-de-wallonie/2025/gc">Ethias-Tour de Wallonie | General classification</a></td><td>2.Pro</td><td><a  href="rider/oliver-knight">KNIGHT Oliver</a></td><td>90</td></tr>
 <tr class=""><td>2</td><td><span class="flag it"></span> <a  href="race/gp-citta-di-peccioli/2025/result">Gran Premio città di Peccioli - Coppa Sabatini</a></td><td>1.Pro</td><td><a  href="rider/benjamin-thomas-2">THOMAS Benjamin</a></td><td>85</td></tr>
 <tr class=""><td>2</td><td><span class="flag be"></span> <a  href="race/brussels-cycling-classic/2025/result">Brussels Cycling Classic</a></td><td>1.Pro</td><td><a  href="rider/alexis-renard">RENARD Alexis</a></td><td>85</td></tr>
-<tr class=""><td>1</td><td><span class="flag be"></span> <a  href="race/ronde-van-limburg/2025/result">Ronde van Limburg</a></td><td>1.1</td><td><a  href="rider/milan-fretin">FRETIN Milan</a></td><td>75</td></tr>
 <tr class=""><td>1</td><td><span class="flag fr"></span> <a  href="race/gp-d-ouverture/2025/result">Grand Prix Cycliste de Marseille La Marseillaise</a></td><td>1.1</td><td><a  href="rider/valentin-ferron">FERRON Valentin</a></td><td>75</td></tr>
+<tr class=""><td>1</td><td><span class="flag be"></span> <a  href="race/ronde-van-limburg/2025/result">Ronde van Limburg</a></td><td>1.1</td><td><a  href="rider/milan-fretin">FRETIN Milan</a></td><td>75</td></tr>
 <tr class=""><td>2</td><td><span class="flag fr"></span> <a  href="race/etoile-de-besseges/2025/gc">Etoile de Bessèges - Tour du Gard | General classification</a></td><td>2.1</td><td><a  href="rider/dylan-teuns">TEUNS Dylan</a></td><td>70</td></tr>
-<tr class=""><td>11</td><td><span class="flag fr"></span> <a  href="race/dauphine/2025/gc">Critérium du Dauphiné | General classification</a></td><td>2.UWT</td><td><a  href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td>60</td></tr>
-<tr class="hide"><td>7</td><td><span class="flag be"></span> <a  href="race/e3-harelbeke/2025/result">E3 Saxo Classic ME</a></td><td>1.UWT</td><td><a  href="rider/aime-de-gendt">DE GENDT Aimé</a></td><td>60</td></tr>
-<tr class="hide"><td>7</td><td><span class="flag be"></span> <a  href="race/omloop-het-nieuwsblad/2025/result">Omloop Nieuwsblad ME</a></td><td>1.UWT</td><td><a  href="rider/piet-allegaert">ALLEGAERT Piet</a></td><td>60</td></tr>
-<tr class="hide"><td>7</td><td><span class="flag de"></span> <a  href="race/eschborn-frankfurt/2025/result">Eschborn-Frankfurt</a></td><td>1.UWT</td><td><a  href="rider/stefano-oldani">OLDANI Stefano</a></td><td>60</td></tr>
 <tr class="hide"><td>7</td><td><span class="flag be"></span> <a  href="race/classic-brugge-de-panne/2025/result">Classic Brugge-De Panne ME</a></td><td>1.UWT</td><td><a  href="rider/alexis-renard">RENARD Alexis</a></td><td>60</td></tr>
+<tr class="hide"><td>7</td><td><span class="flag be"></span> <a  href="race/omloop-het-nieuwsblad/2025/result">Omloop Nieuwsblad ME</a></td><td>1.UWT</td><td><a  href="rider/piet-allegaert">ALLEGAERT Piet</a></td><td>60</td></tr>
+<tr class="hide"><td>3</td><td><span class="flag jp"></span> <a  href="race/japan-cup/2025/result">Utsunomiya Japan Cup Road Race</a></td><td>1.Pro</td><td><a  href="rider/ion-izagirre">IZAGIRRE Ion</a></td><td>60</td></tr>
+<tr class="hide"><td>7</td><td><span class="flag be"></span> <a  href="race/e3-harelbeke/2025/result">E3 Saxo Classic ME</a></td><td>1.UWT</td><td><a  href="rider/aime-de-gendt">DE GENDT Aimé</a></td><td>60</td></tr>
+<tr class="hide"><td>11</td><td><span class="flag fr"></span> <a  href="race/dauphine/2025/gc">Critérium du Dauphiné | General classification</a></td><td>2.UWT</td><td><a  href="rider/emanuel-buchmann">BUCHMANN Emanuel</a></td><td>60</td></tr>
+<tr class="hide"><td>7</td><td><span class="flag de"></span> <a  href="race/eschborn-frankfurt/2025/result">Eschborn-Frankfurt</a></td><td>1.UWT</td><td><a  href="rider/stefano-oldani">OLDANI Stefano</a></td><td>60</td></tr>
 <tr class="hide"><td>2</td><td><span class="flag fr"></span> <a  href="race/la-roue-tourangelle/2025/result">La Roue Tourangelle Centre Val de Loire - Groupama P.V.L.</a></td><td>1.1</td><td><a  href="rider/bryan-coquard">COQUARD Bryan</a></td><td>55</td></tr>
 <tr class="hide"><td>2</td><td><span class="flag es"></span> <a  href="race/vuelta-a-castilla-y-leon/2025/result">Vuelta a Castilla y Leon</a></td><td>1.1</td><td><a  href="rider/jesus-herrada-lopez">HERRADA Jesús</a></td><td>55</td></tr>
 <tr class="hide"><td>2</td><td><span class="flag es"></span> <a  href="race/trofeo-palma/2025/result">Trofeo Palma</a></td><td>1.1</td><td><a  href="rider/stanislaw-aniolkowski">ANIOŁKOWSKI Stanisław</a></td><td>55</td></tr>
 <tr class="hide"><td>2</td><td><span class="flag fr"></span> <a  href="race/cholet-pays-de-loire/2025/result">Cholet Agglo Tour</a></td><td>1.1</td><td><a  href="rider/benjamin-thomas-2">THOMAS Benjamin</a></td><td>55</td></tr>
-<tr class="hide"><td>4</td><td><span class="flag be"></span> <a  href="race/brabantse-pijl/2025/result">De Brabantse Pijl - La Flèche Brabançonne ME</a></td><td>1.Pro</td><td><a  href="rider/alex-aranburu">ARANBURU Alex</a></td><td>50</td></tr>
-<tr class="hide"><td>1</td><td><span class="flag au"></span> <a  href="race/tour-down-under/2025/stage-4">Santos Tour Down Under | Stage 4</a></td><td>2.UWT</td><td><a  href="rider/bryan-coquard">COQUARD Bryan</a></td><td>50</td></tr>
 </tbody></table><a class="show-all-link show-all" href="">show 10 more lines</a></div>
 </div>
 <div class="borderbox w30 right mb_w100" >
@@ -602,7 +569,8 @@
 <th class="w50 ">Name</th>
 <th class="w50 ">Functions</th>
 </tr></thead><tbody>
-<tr class=""><td><span class="flag fr"></span> <a  href="staff/cedric-vasseur">Cédric  Vasseur </a></td><td>General manager</td></tr>
+<tr class=""><td><span class="flag fr"></span> <a  href="staff/cedric-vasseur">Cédric  Vasseur (until 2025-09-29)</a></td><td>General manager</td></tr>
+<tr class=""><td><span class="flag fr"></span> <a  href="staff/raphael-jeune">Raphael  Jeune (from 2025-09-30)</a></td><td>General manager</td></tr>
 <tr class=""><td><span class="flag es"></span> <a  href="staff/bingen-fernandez-bustinza">Bingen  Fernández </a></td><td>Sports Director</td></tr>
 <tr class=""><td><span class="flag fr"></span> <a  href="staff/benjamin-giraud">Benjamin  Giraud </a></td><td>Ass. Sports Director</td></tr>
 <tr class=""><td><span class="flag es"></span> <a  href="staff/gorka-gerrikagoitia">Gorka  Gerrikagoitia </a></td><td>Ass. Sports Director</td></tr>
@@ -715,7 +683,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.4051s</span></li>
+<li><span>Pageload 0.3731s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script>
+<script src="search_list23.js"></script>

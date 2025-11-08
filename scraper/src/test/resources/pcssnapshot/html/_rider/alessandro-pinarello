@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=8d707878b56e5619fbc1b24d0624735e0c226b46420888af7af2b35c2d8fada5">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/alessandro-pinarello/start">Overview</a></span>
 <span><a class="" href="rider/alessandro-pinarello/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/alessandro-pinarello/statistics/overview">Overview</a></li>
 <li><a href="rider/alessandro-pinarello/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/alessandro-pinarello/statistics/key-events">Key events</a></li>
+<li><a href="rider/alessandro-pinarello/statistics/badges">Badges</a></li>
 <li><a href="rider/alessandro-pinarello/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/alessandro-pinarello/statistics/wins">Wins</a></li>
 <li><a href="rider/alessandro-pinarello/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -143,11 +134,6 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
-<div class="">
-<ul class="list fs14" >
-<li class=""><div>Trofeo Matteotti</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="race/trofeo-matteotti/2025/result/live">LiveStats</a></div><div class="blue mr10" ><a  href="rider-in-race/alessandro-pinarello/trofeo-matteotti/2025">Race stats</a></div><div class="blue" ><a  href="race/trofeo-matteotti/2025/startlist">Startlist</a></div></li>
-</ul>
-</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -185,12 +171,12 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg green left" ></div></div></div><div class="xvalue ac" >197</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/career-points-one-day-races">Onedayraces</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w69 bg red left" ></div></div></div><div class="xvalue ac" >135</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/career-points-gc">GC</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w3 bg blue left" ></div></div></div><div class="xvalue ac" >5</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w30 bg orange left" ></div></div></div><div class="xvalue ac" >60</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w66 bg purple left" ></div></div></div><div class="xvalue ac" >131</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w92 bg pink left" ></div></div></div><div class="xvalue ac" >181</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg green2 left" ></div></div></div><div class="xvalue ac" >252</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w54 bg red left" ></div></div></div><div class="xvalue ac" >135</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/career-points-gc">GC</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w2 bg blue left" ></div></div></div><div class="xvalue ac" >5</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/career-points-time-trial">TT</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w12 bg orange left" ></div></div></div><div class="xvalue ac" >30</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w54 bg purple1 left" ></div></div></div><div class="xvalue ac" >135</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w80 bg pink left" ></div></div></div><div class="xvalue ac" >202</div><div class="xtitle" ><a  href="rider/alessandro-pinarello/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -207,13 +193,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >411</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >327</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >340</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >322</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;3972</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;91</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -236,9 +222,9 @@
 <li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/gp-palio-del-recioto/2023/result">GP Palio del Recioto</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 <li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/ruota-d-oro-gp-festa-del-perdono/2024/result">Ruota d'Oro - GP Festa del Perdono</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/gran-premio-della-liberazione/2023/result">Gran Premio della Liberazione</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
+<li><div class="nrs">6th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/giro-di-romagna/2025/result">Giro della Romagna</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
 <li><div class="nrs">4th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/settimana-internazionale-coppi-e-bartali/2025/stage-3">Settimana Internazionale Coppi e Bartali</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
 <li><div class="nrs">8th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/gp-de-valence/2025/result">Clàssica Comunitat Valenciana 1969 - Gran Premio V</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
-<li><div class="nrs">4th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/circuito-belvedere/2024/result">Giro del Belvedere</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 </ul></div>
 </div>
 <div class="borderbox right w25 mb_w100" >
@@ -248,34 +234,48 @@
 <div class="">
 <span class="table-cont">
 <ul class="rdr-teams2  "  >
+<li class="main hideifmob "><div class="season">2027</div><div class="name"><a href="team/unknown-2027">??</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main  "><div class="season">2026</div><div class="name"><a href="team/unknown-2026">?? </a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2025</div><div class="name"><a href="team/vf-group-bardiani-csf-faizane-2025">VF Group - Bardiani CSF - Faizanè</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2024</div><div class="name"><a href="team/vf-group-bardiani-csf-faizane-2024">VF Group - Bardiani CSF - Faizanè</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2023</div><div class="name"><a href="team/green-project-bardiani-csf-faizane-2023">Green Project - Bardiani CSF - Faizanè</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
-<li class="main  "><div class="season">2022</div><div class="name"><a href="team/bardiani-csf-faizane-2022">Bardiani-CSF-Faizanè</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
-<li class="main  "><div class="season">2021</div><div class="name"><a href="team/borgo-molino-rinascita-ormelle-2021">Borgo Molino Rinascita Ormelle</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li>
-<li class="main  "><div class="season">2020</div><div class="name"><a href="team/borgo-molino-rinascita-ormelle-2020">Borgo Molino Rinascita Ormelle</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li>
-</ul></span></div>
+<li class="main  old"><div class="season">2022</div><div class="name"><a href="team/bardiani-csf-faizane-2022">Bardiani-CSF-Faizanè</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main  old"><div class="season">2021</div><div class="name"><a href="team/borgo-molino-rinascita-ormelle-2021">Borgo Molino Rinascita Ormelle</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main  old"><div class="season">2020</div><div class="name"><a href="team/borgo-molino-rinascita-ormelle-2020">Borgo Molino Rinascita Ormelle</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li>
+</ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >14.09</div><div class="ellipsis" ><span class="flag it"></span> <a  href="race/trofeo-matteotti/2025/startlist">Trofeo Matteotti</a></div><div class="blue fs10" ><a  href="rider-in-race/alessandro-pinarello/trofeo-matteotti">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
 <li class=""><div class="kpi" >0</div><div class="title" ><a  href="rider/alessandro-pinarello/statistics/wins">Wins</a></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div></li>
 <li class=""><div class="kpi" >1</div><div class="title" ><a  href="rider/alessandro-pinarello/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11" >tour (0) giro (1) vuelta(0)</div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div></li>
-<li class=""><div class="kpi" >1</div><div class="title" ><a  href="rider/alessandro-pinarello/statistics/top-classic-results">Classics</a></div><div class="info fs11" >RBX(0)</div><div class="info fs11" >MSR(0)</div><div class="info fs11" >RVV(0)</div><div class="info fs11" >LBL(0)</div><div class="info fs11" >LOM(1)</div></li>
+<li class=""><div class="kpi" >2</div><div class="title" ><a  href="rider/alessandro-pinarello/statistics/top-classic-results">Classics</a></div><div class="info fs11" >RBX(0)</div><div class="info fs11" >MSR(0)</div><div class="info fs11" >RVV(0)</div><div class="info fs11" >LBL(0)</div><div class="info fs11" >LOM(2)</div></li>
 </ul>
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="261443" /><input type="hidden" id="seo" value="alessandro-pinarello" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="261443" /><input type="hidden" id="seo" value="alessandro-pinarello" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2021"  href="">2021</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>19.10</td><td>72</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/veneto-classic/2025/result"><span>Veneto Classic</span> (1.Pro)</a>  </td><td>178.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/veneto-classic">more</a></td></tr>
+<tr class="main"><td>15.10</td><td>15</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-del-veneto/2025/result"><span>Giro del Veneto</span> (1.Pro)</a>  </td><td>161.2</td><td>12</td><td>10</td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/giro-del-veneto">more</a></td></tr>
+<tr class="main"><td>11.10</td><td>81</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/il-lombardia/2025/result"><span>Il Lombardia</span> (1.UWT)</a>  </td><td>241</td><td>5</td><td></td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/il-lombardia">more</a></td></tr>
+<tr class="main"><td>09.10</td><td>14</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gran-piemonte/2025/result"><span>Gran Piemonte</span> (1.Pro)</a>  </td><td>179</td><td>14</td><td>15</td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/gran-piemonte">more</a></td></tr>
+<tr class="main"><td>07.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/tre-valli-varesine/2025/result"><span>Tre Valli Varesine</span> (1.Pro)</a>  </td><td>200.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/tre-valli-varesine">more</a></td></tr>
+<tr class="main"><td>06.10</td><td>34</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/coppa-bernocchi/2025/result"><span>Coppa Bernocchi - GP Banco BPM</span> (1.Pro)</a>  </td><td>191.6</td><td></td><td>3</td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/coppa-bernocchi">more</a></td></tr>
+<tr class="main"><td>04.10</td><td>35</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-dell-emilia/2025/result"><span>Giro dell'Emilia</span> (1.Pro)</a>  </td><td>199.2</td><td></td><td>3</td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/giro-dell-emilia">more</a></td></tr>
+<tr class="main"><td>30.09</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/ruota-d-oro-gp-festa-del-perdono/2025/result"><span>Ruota d'Oro - GP Festa del Perdono</span> (1.2U)</a>  </td><td>173.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/ruota-d-oro-gp-festa-del-perdono">more</a></td></tr>
+<tr class="main"><td>21.09</td><td>6</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-di-romagna/2025/result"><span>Giro della Romagna</span> (1.1)</a>  </td><td>197.4</td><td>24</td><td>40</td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/giro-di-romagna">more</a></td></tr>
+<tr class="main"><td>14.09</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/trofeo-matteotti/2025/result"><span>Trofeo Matteotti</span> (1.1)</a>  </td><td>195</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/trofeo-matteotti">more</a></td></tr>
 <tr class="main"><td>13.09</td><td>29</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/memorial-marco-pantani/2025/result"><span>Memorial Marco Pantani</span> (1.1)</a>  </td><td>195.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/memorial-marco-pantani">more</a></td></tr>
 <tr class="main"><td>10.09</td><td>4</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-di-toscana/2025/result"><span>Giro della Toscana - Memorial Alfredo Martini</span> (1.1)</a>  </td><td>189.4</td><td>32</td><td>60</td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/giro-di-toscana">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">04.09 &rsaquo; 07.09</span><span class="showIfMobile fs12">4-7/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-della-regione-friuli-venezia-giulia/2025/stage-3-gc"><span>Giro della Regione Friuli Venezia Giulia</span> (2.2)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/giro-della-regione-friuli-venezia-giulia">more</a></td></tr>
@@ -285,7 +285,7 @@
 <tr class="stage"><td>05.09</td><td>99</td><td>101</td><td><span class=""></span></td><td><a href="race/giro-della-regione-friuli-venezia-giulia/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Porpetto &rsaquo; Teor</a>  </td><td>167</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>04.09</td><td>111</td><td>111</td><td><span class=""></span></td><td><a href="race/giro-della-regione-friuli-venezia-giulia/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Palazzolo dello Stella &rsaquo; Buttrio</a>  </td><td>156</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>31.08</td><td>52</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/grand-prix-de-plouay/2025/result"><span>Grand Prix de Plouay</span> (1.2)</a>  </td><td>186.9</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/grand-prix-de-plouay">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">09.05 &rsaquo; 01.06</span><span class="showIfMobile fs12">9-1/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-d-italia/2025/stage-1-gc"><span>Giro d'Italia</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/giro-d-italia">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">09.05 &rsaquo; 01.06</span><span class="showIfMobile fs12">9-1/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-d-italia/2025/stage-4-gc"><span>Giro d'Italia</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/giro-d-italia">more</a></td></tr>
 <tr class="stage"><td>15.05</td><td>DNS</td><td></td><td><span class=""></span></td><td><a href="race/giro-d-italia/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Potenza &rsaquo; Napoli</a>  </td><td>227</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>14.05</td><td>118</td><td>67</td><td><span class=""></span></td><td><a href="race/giro-d-italia/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Ceglie Messapica &rsaquo; Matera</a>  </td><td>151</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>13.05</td><td>94</td><td>41</td><td><span class=""></span></td><td><a href="race/giro-d-italia/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Alberobello (Pietramadre) &rsaquo; Lecce</a>  </td><td>189</td><td></td><td></td><td></td></tr>
@@ -335,7 +335,7 @@
 <tr class="main"><td>31.01</td><td>12</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/deia-trophy/2025/result"><span>Trofeo Serra Tramuntana</span> (1.1)</a>  </td><td>151.3</td><td>10</td><td>10</td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/deia-trophy">more</a></td></tr>
 <tr class="main"><td>29.01</td><td>39</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/trofeo-calvia/2025/result"><span>Trofeo Calvià</span> (1.1)</a>  </td><td>149.6</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/trofeo-calvia">more</a></td></tr>
 <tr class="main"><td>26.01</td><td>8</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/gp-de-valence/2025/result"><span>Clàssica Comunitat Valenciana 1969 - Gran Premi València</span> (1.1)</a>  </td><td>184</td><td>18</td><td>30</td><td><a class="fs10" href="rider-in-race/alessandro-pinarello/gp-de-valence">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>6270 km in <b>43</b> days | PCS points: <b>143</b> | UCI points: <b>185</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>7902 km in <b>53</b> days | PCS points: <b>198</b> | UCI points: <b>256</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -350,9 +350,9 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w63 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l63"  style="height: 12px; line-height: 12px; " >143</div></div></td><td class="fs11 " >358</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >182</div></div></td><td class="fs11 " >346</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w12 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l12"  style="height: 12px; line-height: 12px; " >28</div></div></td><td class="fs11 " >1116</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >198</div></div></td><td class="fs11 " >321</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w74 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l74"  style="height: 12px; line-height: 12px; " >182</div></div></td><td class="fs11 " >346</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w11 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l11"  style="height: 12px; line-height: 12px; " >28</div></div></td><td class="fs11 " >1115</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w0 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l0"  style="height: 12px; line-height: 12px; " >1</div></div></td><td class="fs11 " >2310</td></tr>
 </tbody></table></div>
 </div>
@@ -421,9 +421,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0631s</span></li>
+<li><span>Pageload 0.0979s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 261443;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

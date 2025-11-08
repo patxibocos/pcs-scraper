@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=f7a6173a7c59eb3a77e9ae2be405913348eea9ce1341dcb50d80ae1173c53c56">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/andrea-peron/start">Overview</a></span>
 <span><a class="" href="rider/andrea-peron/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/andrea-peron/statistics/overview">Overview</a></li>
 <li><a href="rider/andrea-peron/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/andrea-peron/statistics/key-events">Key events</a></li>
+<li><a href="rider/andrea-peron/statistics/badges">Badges</a></li>
 <li><a href="rider/andrea-peron/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/andrea-peron/statistics/wins">Wins</a></li>
 <li><a href="rider/andrea-peron/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -157,7 +148,7 @@
 </div>
 <div class="">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >28th</div><div class="mr3" >October</div><div class="mr3" >1988</div><div>(</div><div>36</div><div>)</div></li>
+<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >28th</div><div class="mr3" >October</div><div class="mr3" >1988</div><div>(</div><div>37</div><div>)</div></li>
 </ul>
 </div>
 <div class="">
@@ -180,12 +171,12 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w34 bg green left" ></div></div></div><div class="xvalue ac" >161</div><div class="xtitle" ><a  href="rider/andrea-peron/results/career-points-one-day-races">Onedayraces</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w16 bg red left" ></div></div></div><div class="xvalue ac" >78</div><div class="xtitle" ><a  href="rider/andrea-peron/results/career-points-gc">GC</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w6 bg blue left" ></div></div></div><div class="xvalue ac" >30</div><div class="xtitle" ><a  href="rider/andrea-peron/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >473</div><div class="xtitle" ><a  href="rider/andrea-peron/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w1 bg purple left" ></div></div></div><div class="xvalue ac" >4</div><div class="xtitle" ><a  href="rider/andrea-peron/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w35 bg pink left" ></div></div></div><div class="xvalue ac" >164</div><div class="xtitle" ><a  href="rider/andrea-peron/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w21 bg green2 left" ></div></div></div><div class="xvalue ac" >161</div><div class="xtitle" ><a  href="rider/andrea-peron/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w10 bg red left" ></div></div></div><div class="xvalue ac" >78</div><div class="xtitle" ><a  href="rider/andrea-peron/results/career-points-gc">GC</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w4 bg blue left" ></div></div></div><div class="xvalue ac" >30</div><div class="xtitle" ><a  href="rider/andrea-peron/results/career-points-time-trial">TT</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >768</div><div class="xtitle" ><a  href="rider/andrea-peron/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w1 bg purple1 left" ></div></div></div><div class="xvalue ac" >4</div><div class="xtitle" ><a  href="rider/andrea-peron/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w23 bg pink left" ></div></div></div><div class="xvalue ac" >173</div><div class="xtitle" ><a  href="rider/andrea-peron/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -202,13 +193,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >2226</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1479</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >2196</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1296</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;14</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;378</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -243,10 +234,11 @@
 <div class="">
 <span class="table-cont">
 <ul class="rdr-teams2  "  >
+<li class="main  "><div class="season">2026</div><div class="name"><a href="team/team-novo-nordisk-2026">Team Novo Nordisk</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2025</div><div class="name"><a href="team/team-novo-nordisk-2025">Team Novo Nordisk</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2024</div><div class="name"><a href="team/team-novo-nordisk-2024">Team Novo Nordisk</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2023</div><div class="name"><a href="team/team-novo-nordisk-2023">Team Novo Nordisk</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
-<li class="main  "><div class="season">2022</div><div class="name"><a href="team/team-novo-nordisk-2022">Team Novo Nordisk</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main  old"><div class="season">2022</div><div class="name"><a href="team/team-novo-nordisk-2022">Team Novo Nordisk</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  old"><div class="season">2021</div><div class="name"><a href="team/team-novo-nordisk-2021">Team Novo Nordisk</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  old"><div class="season">2020</div><div class="name"><a href="team/team-novo-nordisk-2020">Team Novo Nordisk</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  old"><div class="season">2019</div><div class="name"><a href="team/team-novo-nordisk-2019">Team Novo Nordisk</a> (PCT)<span class="fs10 "></span></div><div class="clear"></div></li>
@@ -259,8 +251,10 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >17.09</div><div class="ellipsis" ><span class="flag sk"></span> <a  href="race/okolo-slovenska/2025/startlist">Okolo Slovenska / Tour de Slovaquie</a></div><div class="blue fs10" ><a  href="rider-in-race/andrea-peron/okolo-slovenska">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -271,7 +265,7 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="122619" /><input type="hidden" id="seo" value="andrea-peron" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="122619" /><input type="hidden" id="seo" value="andrea-peron" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -287,15 +281,28 @@
 <li><a  class="rdrFilterSeason" data-season="2010" href="">2010</a></li>
 <li><a  class="rdrFilterSeason" data-season="2006" href="">2006</a></li>
 </ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td><span class="hideIfMobile">09.10 &rsaquo; 12.10</span><span class="showIfMobile fs12">9-12/10</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cn"></span> <a href="race/tour-of-taihu-lake/2025/stage-3-gc"><span>Tour of Taihu Lake</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-peron/tour-of-taihu-lake">more</a></td></tr>
+<tr class="stage"><td></td><td>53</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-taihu-lake/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>12.10</td><td>14</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-taihu-lake/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Wuxi &rsaquo; Wuxi</a>  </td><td>137.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>11.10</td><td>15</td><td>57</td><td><span class=""></span></td><td><a href="race/tour-of-taihu-lake/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Huilongzhen &rsaquo; Binhan Village</a>  </td><td>79.16</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>10.10</td><td>74</td><td>63</td><td><span class=""></span></td><td><a href="race/tour-of-taihu-lake/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Suzhou Wujiang &rsaquo; Suzhou Wujiang</a>  </td><td>122</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>09.10</td><td>51</td><td>52</td><td><span class=""></span></td><td><a href="race/tour-of-taihu-lake/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Nanjing &rsaquo; Nanjing</a>  </td><td>96.5</td><td></td><td></td><td></td></tr>
+<tr class="main"><td>03.10</td><td>97</td><td></td><td><span class=""></span></td><td><span class="flag de"></span> <a href="race/munsterland-giro/2025/result"><span>Sparkassen Münsterland Giro</span> (1.Pro)</a>  </td><td>192</td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-peron/munsterland-giro">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">17.09 &rsaquo; 21.09</span><span class="showIfMobile fs12">17-21/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag sk"></span> <a href="race/okolo-slovenska/2025/stage-4-gc"><span>Okolo Slovenska / Tour de Slovaquie</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-peron/okolo-slovenska">more</a></td></tr>
+<tr class="stage"><td>21.09</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/okolo-slovenska/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Nová Dubnica &rsaquo; Kohútka</a>  </td><td>124</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>20.09</td><td>5</td><td>15</td><td><span class=""></span></td><td><a href="race/okolo-slovenska/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Vráble &rsaquo; Sládkovičovo</a>  </td><td>169.1</td><td>4</td><td></td><td></td></tr>
+<tr class="stage"><td>19.09</td><td>13</td><td>19</td><td><span class=""></span></td><td><a href="race/okolo-slovenska/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Kežmarok &rsaquo; Banská Bystrica</a>  </td><td>191.7</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>18.09</td><td>10</td><td>17</td><td><span class=""></span></td><td><a href="race/okolo-slovenska/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Svidník &rsaquo; Košice</a>  </td><td>169.4</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>17.09</td><td>26</td><td>28</td><td><span class=""></span></td><td><a href="race/okolo-slovenska/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Bardejov &rsaquo; Bardejov</a>  </td><td>141.2</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>06.09</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag us"></span> <a href="race/maryland-cycling-classic/2025/result"><span>Maryland Cycling Classic</span> (1.Pro)</a>  </td><td>172.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-peron/maryland-cycling-classic">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">26.08 &rsaquo; 29.08</span><span class="showIfMobile fs12">26-29/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-1-gc"><span>Tour Poitou - Charentes en Nouvelle Aquitaine</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-peron/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">26.08 &rsaquo; 29.08</span><span class="showIfMobile fs12">26-29/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-2-gc"><span>Tour Poitou - Charentes en Nouvelle Aquitaine</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-peron/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
 <tr class="stage"><td></td><td>21</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>44</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>29.08</td><td>45</td><td></td><td><span class=""></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - La Rochefoucauld &rsaquo; Poitiers</a>  </td><td>185.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>28.08</td><td>70</td><td>56</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-3"><span class="imob">S3 (ITT)</span><span class="idesk">Stage 3 (ITT)</span> - Chauvigny &rsaquo; Jardres</a>  </td><td>27.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>27.08</td><td>63</td><td>35</td><td><span class=""></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Jonzac &rsaquo; Gond Pontouvre</a>  </td><td>175.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>26.08</td><td>7</td><td>10</td><td><span class=""></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Sauzé-entre-Bois &rsaquo; La Génétouze</a>  </td><td>193.3</td><td>2</td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">12.08 &rsaquo; 16.08</span><span class="showIfMobile fs12">12-16/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="race/tour-of-denmark/2025/stage-4-gc"><span>PostNord Tour of Denmark</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-peron/tour-of-denmark">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">12.08 &rsaquo; 16.08</span><span class="showIfMobile fs12">12-16/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="race/tour-of-denmark/2025/stage-1-gc"><span>PostNord Tour of Denmark</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-peron/tour-of-denmark">more</a></td></tr>
 <tr class="stage"><td></td><td>71</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-denmark/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>16.08</td><td>42</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-denmark/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Hobro &rsaquo; Silkeborg</a>  </td><td>157.4</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>15.08</td><td>82</td><td>82</td><td><span class=""></span></td><td><a href="race/tour-of-denmark/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Svendborg &rsaquo; Vejle</a>  </td><td>226.9</td><td></td><td></td><td></td></tr>
@@ -318,7 +325,7 @@
 <tr class="main"><td><span class="hideIfMobile">30.05 &rsaquo; 31.05</span><span class="showIfMobile fs12">30-31/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag ee"></span> <a href="race/tour-of-estonia/2025/stage-1-gc"><span>Tour of Estonia</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-peron/tour-of-estonia">more</a></td></tr>
 <tr class="stage"><td>31.05</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-estonia/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Tartu &rsaquo; Tartu</a>  </td><td>164.8</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>30.05</td><td>53</td><td>54</td><td><span class=""></span></td><td><a href="race/tour-of-estonia/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Tallinn &rsaquo; Tartu</a>  </td><td>196.4</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">27.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">27-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-turkey/2025/stage-1-gc"><span>Presidential Cycling Tour of Turkiye</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-peron/tour-of-turkey">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">27.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">27-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-turkey/2025/stage-3-gc"><span>Presidential Cycling Tour of Turkiye</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/andrea-peron/tour-of-turkey">more</a></td></tr>
 <tr class="stage"><td></td><td>46</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-of-turkey/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>83</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-turkey/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>04.05</td><td>32</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Çeşme &rsaquo; İzmir (Karşıyaka)</a>  </td><td>105.7</td><td></td><td></td><td></td></tr>
@@ -342,7 +349,7 @@
 <tr class="stage"><td>16.02</td><td>55</td><td></td><td><span class=""></span></td><td><a href="race/tour-cycliste-international-la-provence/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Rognac &rsaquo; Arles</a>  </td><td>190.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>15.02</td><td>78</td><td>92</td><td><span class=""></span></td><td><a href="race/tour-cycliste-international-la-provence/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Forcalquier &rsaquo; Manosque</a>  </td><td>167.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>14.02</td><td>89</td><td>89</td><td><span class=""></span></td><td><a href="race/tour-cycliste-international-la-provence/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Marseille &rsaquo; Saint-Victoret</a>  </td><td>169.3</td><td></td><td></td><td></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>5662 km in <b>39</b> days | PCS points: <b>12</b> | UCI points: <b>10</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>7023 km in <b>49</b> days | PCS points: <b>16</b> | UCI points: <b>10</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -357,9 +364,9 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w14 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l14"  style="height: 12px; line-height: 12px; " >12</div></div></td><td class="fs11 " >1385</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w19 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l19"  style="height: 12px; line-height: 12px; " >16</div></div></td><td class="fs11 " >1295</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w7 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l7"  style="height: 12px; line-height: 12px; " >6</div></div></td><td class="fs11 " >1837</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w41 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l41"  style="height: 12px; line-height: 12px; " >35</div></div></td><td class="fs11 " >1008</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w41 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l41"  style="height: 12px; line-height: 12px; " >35</div></div></td><td class="fs11 " >1007</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w46 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l46"  style="height: 12px; line-height: 12px; " >40</div></div></td><td class="fs11 " >866</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w13 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l13"  style="height: 12px; line-height: 12px; " >11</div></div></td><td class="fs11 " >1344</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2020-12-31&filter=1&p=me&s=season-individual">2020</a></td><td><div class="valuebar"><div class="w2 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l2"  style="height: 12px; line-height: 12px; " >2</div></div></td><td class="fs11 " >1534</td></tr>
@@ -367,8 +374,8 @@
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2018-12-31&filter=1&p=me&s=season-individual">2018</a></td><td><div class="valuebar"><div class="w24 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l24"  style="height: 12px; line-height: 12px; " >21</div></div></td><td class="fs11 " >1396</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2017-12-31&filter=1&p=me&s=season-individual">2017</a></td><td><div class="valuebar"><div class="w31 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l31"  style="height: 12px; line-height: 12px; " >27</div></div></td><td class="fs11 " >1256</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2016-12-31&filter=1&p=me&s=season-individual">2016</a></td><td><div class="valuebar"><div class="w13 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l13"  style="height: 12px; line-height: 12px; " >11</div></div></td><td class="fs11 " >1666</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2015-12-31&filter=1&p=me&s=season-individual">2015</a></td><td><div class="valuebar"><div class="w42 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l42"  style="height: 12px; line-height: 12px; " >36</div></div></td><td class="fs11 " >1049</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2014-12-31&filter=1&p=me&s=season-individual">2014</a></td><td><div class="valuebar"><div class="w36 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l36"  style="height: 12px; line-height: 12px; " >31</div></div></td><td class="fs11 " >1086</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2015-12-31&filter=1&p=me&s=season-individual">2015</a></td><td><div class="valuebar"><div class="w42 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l42"  style="height: 12px; line-height: 12px; " >36</div></div></td><td class="fs11 " >1048</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2014-12-31&filter=1&p=me&s=season-individual">2014</a></td><td><div class="valuebar"><div class="w36 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l36"  style="height: 12px; line-height: 12px; " >31</div></div></td><td class="fs11 " >1085</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2013-12-31&filter=1&p=me&s=season-individual">2013</a></td><td><div class="valuebar"><div class="w56 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l56"  style="height: 12px; line-height: 12px; " >48</div></div></td><td class="fs11 " >859</td></tr>
 </tbody></table></div>
 </div>
@@ -437,9 +444,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0934s</span></li>
+<li><span>Pageload 0.0895s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 122619;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

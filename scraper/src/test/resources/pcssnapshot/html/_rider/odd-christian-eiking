@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=dc85216f45d088f259d7916b58a49c8180c17cb7bce0d97d57e5f89ea9b86a1c">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/odd-christian-eiking/start">Overview</a></span>
 <span><a class="" href="rider/odd-christian-eiking/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/odd-christian-eiking/statistics/overview">Overview</a></li>
 <li><a href="rider/odd-christian-eiking/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/odd-christian-eiking/statistics/key-events">Key events</a></li>
+<li><a href="rider/odd-christian-eiking/statistics/badges">Badges</a></li>
 <li><a href="rider/odd-christian-eiking/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/odd-christian-eiking/statistics/wins">Wins</a></li>
 <li><a href="rider/odd-christian-eiking/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -180,12 +171,12 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w69 bg green left" ></div></div></div><div class="xvalue ac" >851</div><div class="xtitle" ><a  href="rider/odd-christian-eiking/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w69 bg green2 left" ></div></div></div><div class="xvalue ac" >851</div><div class="xtitle" ><a  href="rider/odd-christian-eiking/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg red left" ></div></div></div><div class="xvalue ac" >1225</div><div class="xtitle" ><a  href="rider/odd-christian-eiking/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w4 bg blue left" ></div></div></div><div class="xvalue ac" >55</div><div class="xtitle" ><a  href="rider/odd-christian-eiking/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w17 bg orange left" ></div></div></div><div class="xvalue ac" >212</div><div class="xtitle" ><a  href="rider/odd-christian-eiking/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w73 bg purple left" ></div></div></div><div class="xvalue ac" >895</div><div class="xtitle" ><a  href="rider/odd-christian-eiking/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w78 bg pink left" ></div></div></div><div class="xvalue ac" >953</div><div class="xtitle" ><a  href="rider/odd-christian-eiking/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w2 bg orange left" ></div></div></div><div class="xvalue ac" >22</div><div class="xtitle" ><a  href="rider/odd-christian-eiking/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w77 bg purple1 left" ></div></div></div><div class="xvalue ac" >939</div><div class="xtitle" ><a  href="rider/odd-christian-eiking/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w78 bg pink left" ></div></div></div><div class="xvalue ac" >956</div><div class="xtitle" ><a  href="rider/odd-christian-eiking/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -203,13 +194,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >360</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >307</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >376</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >328</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;1282</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;1774</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -244,10 +235,11 @@
 <div class="">
 <span class="table-cont">
 <ul class="rdr-teams2  "  >
+<li class="main  "><div class="season">2026</div><div class="name"><a href="team/unibet-rose-rockets-2026">Unibet Rose Rockets</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2025</div><div class="name"><a href="team/unibet-tietema-rockets-2025">Unibet Tietema Rockets</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2024</div><div class="name"><a href="team/uno-x-mobility-2024">Uno-X Mobility</a> (PRT)<span class="fs10 "> as from 08/02</span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2023</div><div class="name"><a href="team/ef-education-easypost-2023">EF Education - EasyPost</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
-<li class="main  "><div class="season">2022</div><div class="name"><a href="team/ef-education-easypost-2022">EF Education - EasyPost</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main  old"><div class="season">2022</div><div class="name"><a href="team/ef-education-easypost-2022">EF Education - EasyPost</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  old"><div class="season">2021</div><div class="name"><a href="team/intermarche-wanty-gobert-materiaux-2021">Intermarché - Wanty - Gobert Matériaux</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  old"><div class="season">2020</div><div class="name"><a href="team/circus-wanty-gobert-2020">Circus - Wanty Gobert</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  old"><div class="season">2019</div><div class="name"><a href="team/wanty-gobert-cycling-team-2019">Wanty - Gobert Cycling Team</a> (PCT)<span class="fs10 "></span></div><div class="clear"></div></li>
@@ -261,8 +253,10 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >28.09</div><div class="ellipsis" ><span class="flag my"></span> <a  href="race/tour-de-langkawi/2025/startlist">Petronas Le Tour de Langkawi</a></div><div class="blue fs10" ><a  href="rider-in-race/odd-christian-eiking/tour-de-langkawi">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -273,7 +267,7 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="170313" /><input type="hidden" id="seo" value="odd-christian-eiking" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="170313" /><input type="hidden" id="seo" value="odd-christian-eiking" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -288,6 +282,15 @@
 <li><a  class="rdrFilterSeason" data-season="2013" href="">2013</a></li>
 <li><a  class="rdrFilterSeason" data-season="2012" href="">2012</a></li>
 </ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>12.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/trofeo-baracchi/2025/result"><span>Trofeo Tessile & Moda - Valdengo Oropa</span> (1.1)</a>  </td><td>170.9</td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/trofeo-baracchi">more</a></td></tr>
+<tr class="main"><td>09.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gran-piemonte/2025/result"><span>Gran Piemonte</span> (1.Pro)</a> <span title="105 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>105k</span> </td><td>179</td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/gran-piemonte">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">28.09 &rsaquo; 05.10</span><span class="showIfMobile fs12">28-5/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag my"></span> <a href="race/tour-de-langkawi/2025/stage-5-gc"><span>Petronas Le Tour de Langkawi</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/tour-de-langkawi">more</a></td></tr>
+<tr class="stage"><td>03.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Shah Alam &rsaquo; Port Dickson</a>  </td><td>123.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>02.10</td><td>7</td><td>12</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Temerloh &rsaquo; Fraser's Hill</a>  </td><td>123.1</td><td>2</td><td></td><td></td></tr>
+<tr class="stage"><td>01.10</td><td>41</td><td>43</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Kuala Terengganu &rsaquo; Kemaman</a>  </td><td>141.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>30.09</td><td>37</td><td>52</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Gerik &rsaquo; Pasir Puteh</a>  </td><td>198.2</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>29.09</td><td>86</td><td>83</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Padang Besar &rsaquo; Kepala Batas</a>  </td><td>162.8</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>28.09</td><td>74</td><td>78</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Langkawi (Kuah) &rsaquo; Langkawi (Kuah)</a>  </td><td>96.7</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>07.09</td><td>15</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gp-industria-artigianato/2025/result"><span>GP Industria & Artigianato</span> (1.Pro)</a>  </td><td>196.3</td><td>12</td><td>10</td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/gp-industria-artigianato">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">06.08 &rsaquo; 08.08</span><span class="showIfMobile fs12">6-8/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-de-l-ain/2025/stage-2-gc"><span>Tour de l'Ain</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/tour-de-l-ain">more</a></td></tr>
 <tr class="stage"><td></td><td>17</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-de-l-ain/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
@@ -307,7 +310,7 @@
 <tr class="stage"><td>04.07</td><td>3</td><td>3</td><td><span class=""></span></td><td><a href="race/sibiu-cycling-tour/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Sibiu &rsaquo; Bâlea Lac </a>  </td><td>203.5</td><td>7</td><td>3</td><td></td></tr>
 <tr class="stage"><td>03.07</td><td>27</td><td>29</td><td><span class=""></span></td><td><a href="race/sibiu-cycling-tour/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Șura Mică &rsaquo; Sibiu</a>  </td><td>215.3</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>22.06</td><td>25</td><td></td><td><span class=""></span></td><td><span class="flag ad"></span> <a href="race/andorra-morabanc-classica/2025/result"><span>Andorra MoraBanc Clàssica</span> (1.1)</a> <span title="55 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>55k</span> </td><td>114.7</td><td></td><td>3</td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/andorra-morabanc-classica">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">18.06 &rsaquo; 21.06</span><span class="showIfMobile fs12">18-21/6</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/la-route-d-occitanie/2025/stage-1-gc"><span>La Route d'Occitanie - CIC</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/la-route-d-occitanie">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">18.06 &rsaquo; 21.06</span><span class="showIfMobile fs12">18-21/6</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/la-route-d-occitanie/2025/stage-3-gc"><span>La Route d'Occitanie - CIC</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/la-route-d-occitanie">more</a></td></tr>
 <tr class="stage"><td></td><td>16</td><td></td><td><span class="icon shirt w14 st7"></span></td><td><a href="race/la-route-d-occitanie/2025/kom"><span class="imob">Mountains classification</span><span class="idesk">Mountains classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>31</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/la-route-d-occitanie/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>8</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/la-route-d-occitanie/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>18</td><td>30</td><td></td></tr>
@@ -322,7 +325,7 @@
 <tr class="stage"><td>31.05</td><td>9</td><td>34</td><td><span class=""></span></td><td><a href="race/tour-of-norway/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Jørpeland &rsaquo; Heja</a>  </td><td>141.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>30.05</td><td>11</td><td>52</td><td><span class=""></span></td><td><a href="race/tour-of-norway/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Egersund &rsaquo; Oltedal</a>  </td><td>208.1</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>29.05</td><td>63</td><td>63</td><td><span class=""></span></td><td><a href="race/tour-of-norway/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Solakrossen &rsaquo; Solakrossen</a>  </td><td>179.2</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">14.05 &rsaquo; 18.05</span><span class="showIfMobile fs12">14-18/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag hu"></span> <a href="race/tour-de-hongrie/2025/stage-1-gc"><span>Tour de Hongrie</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/tour-de-hongrie">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">14.05 &rsaquo; 18.05</span><span class="showIfMobile fs12">14-18/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag hu"></span> <a href="race/tour-de-hongrie/2025/stage-4-gc"><span>Tour de Hongrie</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/tour-de-hongrie">more</a></td></tr>
 <tr class="stage"><td></td><td>29</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-de-hongrie/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>9</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-hongrie/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>45</td><td>40</td><td></td></tr>
 <tr class="stage"><td>18.05</td><td>35</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-hongrie/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Etyek &rsaquo; Esztergom</a>  </td><td>169.5</td><td></td><td></td><td></td></tr>
@@ -333,7 +336,7 @@
 <tr class="main"><td>20.04</td><td>58</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-du-doubs/2025/result"><span>Tour du Doubs</span> (1.1)</a>  </td><td>196.9</td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/tour-du-doubs">more</a></td></tr>
 <tr class="main"><td>19.04</td><td>7</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-du-jura-cycliste/2025/result"><span>Tour du Jura Cycliste</span> (1.1)</a> <span title="159 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>159k</span> </td><td>176.4</td><td>20</td><td>35</td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/tour-du-jura-cycliste">more</a></td></tr>
 <tr class="main"><td>18.04</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/classic-grand-besancon-doubs/2025/result"><span>Classic Grand Besançon Doubs</span> (1.1)</a>  </td><td>168.65</td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/classic-grand-besancon-doubs">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">02.04 &rsaquo; 06.04</span><span class="showIfMobile fs12">2-6/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag gr"></span> <a href="race/international-tour-of-hellas/2025/stage-1-gc"><span>ΔΕΗ Tour of Hellas</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/international-tour-of-hellas">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">02.04 &rsaquo; 06.04</span><span class="showIfMobile fs12">2-6/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag gr"></span> <a href="race/international-tour-of-hellas/2025/stage-2-gc"><span>ΔΕΗ Tour of Hellas</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/international-tour-of-hellas">more</a></td></tr>
 <tr class="stage"><td></td><td>33</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/international-tour-of-hellas/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>12</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/international-tour-of-hellas/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>10</td><td>10</td><td></td></tr>
 <tr class="stage"><td>06.04</td><td>36</td><td></td><td><span class=""></span></td><td><a href="race/international-tour-of-hellas/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Marathon &rsaquo; Syntagma, Athens</a>  </td><td>155.57</td><td></td><td></td><td></td></tr>
@@ -359,7 +362,7 @@
 <tr class="main"><td>01.02</td><td>NR</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/trofeo-pollenca-port-d-andratx/2025/result"><span>Trofeo Andratx - Pollença</span> (1.1)</a>  </td><td><s>151.5</s> 23</td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/trofeo-pollenca-port-d-andratx">more</a></td></tr>
 <tr class="main"><td>31.01</td><td>48</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/deia-trophy/2025/result"><span>Trofeo Serra Tramuntana</span> (1.1)</a>  </td><td>151.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/deia-trophy">more</a></td></tr>
 <tr class="main"><td>29.01</td><td>34</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/trofeo-calvia/2025/result"><span>Trofeo Calvià</span> (1.1)</a>  </td><td>149.6</td><td></td><td></td><td><a class="fs10" href="rider-in-race/odd-christian-eiking/trofeo-calvia">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>7036 km in <b>47</b> days | PCS points: <b>188</b> | UCI points: <b>228</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>7995 km in <b>55</b> days | PCS points: <b>190</b> | UCI points: <b>228</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -374,10 +377,10 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w33 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l33"  style="height: 12px; line-height: 12px; " >188</div></div></td><td class="fs11 " >286</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w34 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l34"  style="height: 12px; line-height: 12px; " >190</div></div></td><td class="fs11 " >331</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w28 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l28"  style="height: 12px; line-height: 12px; " >159</div></div></td><td class="fs11 " >390</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w26 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l26"  style="height: 12px; line-height: 12px; " >149</div></div></td><td class="fs11 " >408</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w24 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l24"  style="height: 12px; line-height: 12px; " >136</div></div></td><td class="fs11 " >375</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w24 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l24"  style="height: 12px; line-height: 12px; " >136</div></div></td><td class="fs11 " >374</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >450</div></div></td><td class="fs11 " >116</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2020-12-31&filter=1&p=me&s=season-individual">2020</a></td><td><div class="valuebar"><div class="w5 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l5"  style="height: 12px; line-height: 12px; " >26</div></div></td><td class="fs11 " >783</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w67 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l67"  style="height: 12px; line-height: 12px; " >375</div></div></td><td class="fs11 " >171</td></tr>
@@ -385,8 +388,8 @@
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2017-12-31&filter=1&p=me&s=season-individual">2017</a></td><td><div class="valuebar"><div class="w41 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l41"  style="height: 12px; line-height: 12px; " >231</div></div></td><td class="fs11 " >278</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2016-12-31&filter=1&p=me&s=season-individual">2016</a></td><td><div class="valuebar"><div class="w43 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l43"  style="height: 12px; line-height: 12px; " >243</div></div></td><td class="fs11 " >266</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2015-12-31&filter=1&p=me&s=season-individual">2015</a></td><td><div class="valuebar"><div class="w25 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l25"  style="height: 12px; line-height: 12px; " >141</div></div></td><td class="fs11 " >462</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2014-12-31&filter=1&p=me&s=season-individual">2014</a></td><td><div class="valuebar"><div class="w12 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l12"  style="height: 12px; line-height: 12px; " >66</div></div></td><td class="fs11 " >741</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2013-12-31&filter=1&p=me&s=season-individual">2013</a></td><td><div class="valuebar"><div class="w1 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l1"  style="height: 12px; line-height: 12px; " >7</div></div></td><td class="fs11 " >1830</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2014-12-31&filter=1&p=me&s=season-individual">2014</a></td><td><div class="valuebar"><div class="w12 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l12"  style="height: 12px; line-height: 12px; " >66</div></div></td><td class="fs11 " >740</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2013-12-31&filter=1&p=me&s=season-individual">2013</a></td><td><div class="valuebar"><div class="w1 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l1"  style="height: 12px; line-height: 12px; " >7</div></div></td><td class="fs11 " >1829</td></tr>
 </tbody></table></div>
 </div>
 <div class="">
@@ -454,9 +457,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0666s</span></li>
+<li><span>Pageload 0.0578s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 170313;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

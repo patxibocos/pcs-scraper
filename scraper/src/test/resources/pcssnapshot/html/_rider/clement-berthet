@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=fd2c8b2e6bdae413d4b01d46dcafa0409e76cc2581c575882f946c9becf52327">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/clement-berthet/start">Overview</a></span>
 <span><a class="" href="rider/clement-berthet/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/clement-berthet/statistics/overview">Overview</a></li>
 <li><a href="rider/clement-berthet/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/clement-berthet/statistics/key-events">Key events</a></li>
+<li><a href="rider/clement-berthet/statistics/badges">Badges</a></li>
 <li><a href="rider/clement-berthet/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/clement-berthet/statistics/wins">Wins</a></li>
 <li><a href="rider/clement-berthet/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -143,11 +134,6 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
-<div class="">
-<ul class="list fs14" >
-<li class=""><div>Grand Prix Cycliste de Montréal</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="race/gp-montreal/2025/result/live">LiveStats</a></div><div class="blue mr10" ><a  href="rider-in-race/clement-berthet/gp-montreal/2025">Race stats</a></div><div class="blue" ><a  href="race/gp-montreal/2025/startlist">Startlist</a></div></li>
-</ul>
-</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -185,12 +171,12 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w83 bg green left" ></div></div></div><div class="xvalue ac" >583</div><div class="xtitle" ><a  href="rider/clement-berthet/results/career-points-one-day-races">Onedayraces</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg red left" ></div></div></div><div class="xvalue ac" >703</div><div class="xtitle" ><a  href="rider/clement-berthet/results/career-points-gc">GC</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w86 bg green2 left" ></div></div></div><div class="xvalue ac" >622</div><div class="xtitle" ><a  href="rider/clement-berthet/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w98 bg red left" ></div></div></div><div class="xvalue ac" >703</div><div class="xtitle" ><a  href="rider/clement-berthet/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w9 bg blue left" ></div></div></div><div class="xvalue ac" >66</div><div class="xtitle" ><a  href="rider/clement-berthet/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg orange left" ></div></div></div><div class="xvalue ac" >2</div><div class="xtitle" ><a  href="rider/clement-berthet/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg purple left" ></div></div></div><div class="xvalue ac" >704</div><div class="xtitle" ><a  href="rider/clement-berthet/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w47 bg pink left" ></div></div></div><div class="xvalue ac" >334</div><div class="xtitle" ><a  href="rider/clement-berthet/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg purple1 left" ></div></div></div><div class="xvalue ac" >720</div><div class="xtitle" ><a  href="rider/clement-berthet/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w46 bg pink left" ></div></div></div><div class="xvalue ac" >334</div><div class="xtitle" ><a  href="rider/clement-berthet/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -209,13 +195,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >125</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >107</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >151</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >134</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;197</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;296</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -250,10 +236,10 @@
 <div class="">
 <span class="table-cont">
 <ul class="rdr-teams2  "  >
-<li class="showifmob combiLine"><div class="season">2026-2028</div><div class="name2"><a class="blue" href="team/groupama-fdj-2026">Groupama - FDJ</a> (WT)</div><div class="clear"></div></li>
-<li class="main hideifmob "><div class="season">2028</div><div class="name"><a href="team/groupama-fdj-2028">Groupama - FDJ</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
-<li class="main hideifmob "><div class="season">2027</div><div class="name"><a href="team/groupama-fdj-2027">Groupama - FDJ</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
-<li class="main hideifmob "><div class="season">2026</div><div class="name"><a href="team/groupama-fdj-2026">Groupama - FDJ</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="showifmob combiLine"><div class="season">2026-2028</div><div class="name2"><a class="blue" href="team/groupama-fdj-united-2026">Groupama - FDJ United</a> (WT)</div><div class="clear"></div></li>
+<li class="main hideifmob "><div class="season">2028</div><div class="name"><a href="team/groupama-fdj-united-2028">Groupama - FDJ United</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main hideifmob "><div class="season">2027</div><div class="name"><a href="team/groupama-fdj-united-2027">Groupama - FDJ United</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main hideifmob "><div class="season">2026</div><div class="name"><a href="team/groupama-fdj-united-2026">Groupama - FDJ United</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2025</div><div class="name"><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2024</div><div class="name"><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2023</div><div class="name"><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
@@ -263,24 +249,31 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >14.09</div><div class="ellipsis" ><span class="flag ca"></span> <a  href="race/gp-montreal/2025/startlist">Grand Prix Cycliste de Montréal</a></div><div class="blue fs10" ><a  href="rider-in-race/clement-berthet/gp-montreal">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
 <li class=""><div class="kpi" >0</div><div class="title" ><a  href="rider/clement-berthet/statistics/wins">Wins</a></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div></li>
 <li class=""><div class="kpi" >3</div><div class="title" ><a  href="rider/clement-berthet/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11" >tour (2) giro (0) vuelta(1)</div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div></li>
-<li class=""><div class="kpi" >7</div><div class="title" ><a  href="rider/clement-berthet/statistics/top-classic-results">Classics</a></div><div class="info fs11" >RBX(0)</div><div class="info fs11" >MSR(0)</div><div class="info fs11" >RVV(0)</div><div class="info fs11" >LBL(3)</div><div class="info fs11" >LOM(4)</div></li>
+<li class=""><div class="kpi" >8</div><div class="title" ><a  href="rider/clement-berthet/statistics/top-classic-results">Classics</a></div><div class="info fs11" >RBX(0)</div><div class="info fs11" >MSR(0)</div><div class="info fs11" >RVV(0)</div><div class="info fs11" >LBL(3)</div><div class="info fs11" >LOM(5)</div></li>
 </ul>
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="262718" /><input type="hidden" id="seo" value="clement-berthet" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="262718" /><input type="hidden" id="seo" value="clement-berthet" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2021"  href="">2021</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>11.10</td><td>48</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/il-lombardia/2025/result"><span>Il Lombardia</span> (1.UWT)</a>  </td><td>241</td><td>5</td><td>15</td><td><a class="fs10" href="rider-in-race/clement-berthet/il-lombardia">more</a></td></tr>
+<tr class="main"><td>07.10</td><td>44</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/tre-valli-varesine/2025/result"><span>Tre Valli Varesine</span> (1.Pro)</a>  </td><td>200.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/clement-berthet/tre-valli-varesine">more</a></td></tr>
+<tr class="main"><td>05.10</td><td>23</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/coppa-agostoni/2025/result"><span>Coppa Agostoni - Giro delle Brianze</span> (1.1)</a>  </td><td>166.7</td><td></td><td>3</td><td><a class="fs10" href="rider-in-race/clement-berthet/coppa-agostoni">more</a></td></tr>
+<tr class="main"><td>04.10</td><td>16</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-dell-emilia/2025/result"><span>Giro dell'Emilia</span> (1.Pro)</a>  </td><td>199.2</td><td>10</td><td>5</td><td><a class="fs10" href="rider-in-race/clement-berthet/giro-dell-emilia">more</a></td></tr>
+<tr class="main"><td>14.09</td><td>21</td><td></td><td><span class=""></span></td><td><span class="flag ca"></span> <a href="race/gp-montreal/2025/result"><span>Grand Prix Cycliste de Montréal</span> (1.UWT)</a>  </td><td>209.1</td><td>14</td><td>20</td><td><a class="fs10" href="rider-in-race/clement-berthet/gp-montreal">more</a></td></tr>
 <tr class="main"><td>12.09</td><td>42</td><td></td><td><span class=""></span></td><td><span class="flag ca"></span> <a href="race/gp-quebec/2025/result"><span>Grand Prix Cycliste de Québec</span> (1.UWT)</a>  </td><td>216</td><td>5</td><td>10</td><td><a class="fs10" href="rider-in-race/clement-berthet/gp-quebec">more</a></td></tr>
 <tr class="main"><td>31.08</td><td>100</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/bretagne-classic/2025/result"><span>Bretagne Classic - Ouest-France</span> (1.UWT)</a>  </td><td>261.7</td><td>5</td><td></td><td><a class="fs10" href="rider-in-race/clement-berthet/bretagne-classic">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">26.08 &rsaquo; 29.08</span><span class="showIfMobile fs12">26-29/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-1-gc"><span>Tour Poitou - Charentes en Nouvelle Aquitaine</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/clement-berthet/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
@@ -359,7 +352,7 @@
 <tr class="stage"><td>19.02</td><td>5</td><td>5</td><td><span class=""></span></td><td><a href="race/ruta-del-sol/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Torrox &rsaquo; Cueva de Nerja</a>  </td><td>162.6</td><td>4</td><td>3</td><td></td></tr>
 <tr class="main"><td>17.02</td><td>7</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/clasica-jaen-paraiso-interior/2025/result"><span>Clásica Jaén</span> (1.1)</a>  </td><td>169.2</td><td>20</td><td>35</td><td><a class="fs10" href="rider-in-race/clement-berthet/clasica-jaen-paraiso-interior">more</a></td></tr>
 <tr class="main"><td>15.02</td><td>14</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/vuelta-ciclista-a-la-region-de-murcia/2025/result"><span>Vuelta a la Región de Murcia ''Costa Cálida''</span> (1.1)</a> <span title="74 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>74k</span> </td><td>199.6</td><td>7</td><td>5</td><td><a class="fs10" href="rider-in-race/clement-berthet/vuelta-ciclista-a-la-region-de-murcia">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>9623 km in <b>61</b> days | PCS points: <b>417</b> | UCI points: <b>581</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>10639 km in <b>66</b> days | PCS points: <b>446</b> | UCI points: <b>624</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -374,11 +367,11 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >417</div></div></td><td class="fs11 " >111</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w64 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l64"  style="height: 12px; line-height: 12px; " >335</div></div></td><td class="fs11 " >200</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w75 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l75"  style="height: 12px; line-height: 12px; " >389</div></div></td><td class="fs11 " >160</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w30 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l30"  style="height: 12px; line-height: 12px; " >156</div></div></td><td class="fs11 " >345</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w19 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l19"  style="height: 12px; line-height: 12px; " >97</div></div></td><td class="fs11 " >472</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >446</div></div></td><td class="fs11 " >134</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w60 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l60"  style="height: 12px; line-height: 12px; " >335</div></div></td><td class="fs11 " >200</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w70 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l70"  style="height: 12px; line-height: 12px; " >389</div></div></td><td class="fs11 " >160</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w28 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l28"  style="height: 12px; line-height: 12px; " >156</div></div></td><td class="fs11 " >344</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w17 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l17"  style="height: 12px; line-height: 12px; " >97</div></div></td><td class="fs11 " >472</td></tr>
 </tbody></table></div>
 <div class="mt20">
 <h4>H2H Suggestions</h4><ul class="list" >
@@ -455,9 +448,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0688s</span></li>
+<li><span>Pageload 0.1006s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 262718;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

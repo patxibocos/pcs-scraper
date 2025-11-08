@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=7297e3e256b66cd5b3a0c5916a192150ec9b283bf976cc785e8e6d35a8ac3713">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/manuel-penalver/start">Overview</a></span>
 <span><a class="" href="rider/manuel-penalver/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/manuel-penalver/statistics/overview">Overview</a></li>
 <li><a href="rider/manuel-penalver/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/manuel-penalver/statistics/key-events">Key events</a></li>
+<li><a href="rider/manuel-penalver/statistics/badges">Badges</a></li>
 <li><a href="rider/manuel-penalver/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/manuel-penalver/statistics/wins">Wins</a></li>
 <li><a href="rider/manuel-penalver/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -143,11 +134,6 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
-<div class="">
-<ul class="list fs14" >
-<li class=""><div>GP Rik Van Looy</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="rider-in-race/manuel-penalver/grote-prijs-rik-van-looy/2025">Race stats</a></div><div class="blue" ><a  href="race/grote-prijs-rik-van-looy/2025/startlist">Startlist</a></div></li>
-</ul>
-</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -185,12 +171,12 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w18 bg green left" ></div></div></div><div class="xvalue ac" >192</div><div class="xtitle" ><a  href="rider/manuel-penalver/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w16 bg green2 left" ></div></div></div><div class="xvalue ac" >200</div><div class="xtitle" ><a  href="rider/manuel-penalver/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg red left" ></div></div></div><div class="xvalue ac" >4</div><div class="xtitle" ><a  href="rider/manuel-penalver/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg blue left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/manuel-penalver/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >1087</div><div class="xtitle" ><a  href="rider/manuel-penalver/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w1 bg purple left" ></div></div></div><div class="xvalue ac" >16</div><div class="xtitle" ><a  href="rider/manuel-penalver/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w28 bg pink left" ></div></div></div><div class="xvalue ac" >304</div><div class="xtitle" ><a  href="rider/manuel-penalver/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >1234</div><div class="xtitle" ><a  href="rider/manuel-penalver/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w1 bg purple1 left" ></div></div></div><div class="xvalue ac" >16</div><div class="xtitle" ><a  href="rider/manuel-penalver/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w28 bg pink left" ></div></div></div><div class="xvalue ac" >342</div><div class="xtitle" ><a  href="rider/manuel-penalver/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -209,13 +195,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >420</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >291</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >379</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >287</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;450</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;90</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -232,15 +218,15 @@
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue">stage</span> <a href="race/tour-of-magnificent-qinghai/2025/stage-1">Tour of Magnificent Qinghai</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue">stage</span> <a href="race/tour-of-china/2018/stage-7">Tour of China I</a><span class="clr777 fs11">&nbsp; ('18)</span></div></li>
 <li><div class="nrs"><b>2x</b>&nbsp;2nd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-of-magnificent-qinghai/2025/stage-3">Tour of Magnificent Qinghai</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
+<li><div class="nrs"><b>2x</b>&nbsp;2nd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-de-langkawi/2024/stage-2">Tour de Langkawi</a><span class="clr777 fs11">&nbsp; ('25, '24)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/vuelta-a-la-comunidad-valenciana/2022/stage-4">Volta a la Comunitat Valenciana</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
-<li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-de-langkawi/2024/stage-2">Tour de Langkawi</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-of-hainan/2025/stage-5">Tour of Hainan</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
+<li><div class="nrs"><b>2x</b>&nbsp;3rd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-de-langkawi/2024/stage-4">Tour de Langkawi</a><span class="clr777 fs11">&nbsp; ('25, '24)</span></div></li>
 <li><div class="nrs"><b>3x</b>&nbsp;3rd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-de-taiwan/2020/stage-1">Tour de Taiwan</a><span class="clr777 fs11">&nbsp; ('24, '20)</span></div></li>
 <li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-of-turkey/2024/stage-7">Presidential Cycling Tour of Türkiye</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-of-slovenia/2025/stage-1">Tour of Slovenia</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
-<li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-de-langkawi/2024/stage-4">Tour de Langkawi</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">6th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/gp-de-plumelec/2021/result">Grand Prix du Morbihan</a><span class="clr777 fs11">&nbsp; ('21)</span></div></li>
-<li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/region-pays-de-la-loire/2023/stage-1">Région Pays de la Loire Tour</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
+<li><div class="nrs"><b>3x</b>&nbsp;4th&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-de-langkawi/2024/stage-6">Tour de Langkawi</a><span class="clr777 fs11">&nbsp; ('25, '24)</span></div></li>
 </ul></div>
 </div>
 <div class="borderbox right w25 mb_w100" >
@@ -263,10 +249,10 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >14.09</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/grote-prijs-rik-van-looy/2025/startlist">GP Rik Van Looy</a></div><div class="blue fs10" ><a  href="rider-in-race/manuel-penalver/grote-prijs-rik-van-looy">more</a></div></li>
-<li class=""><div class="bold mr5" >17.09</div><div class="ellipsis" ><span class="flag lu"></span> <a  href="race/tour-de-luxembourg/2025/startlist">Skoda Tour de Luxembourg</a></div><div class="blue fs10" ><a  href="rider-in-race/manuel-penalver/tour-de-luxembourg">more</a></div></li>
-<li class=""><div class="bold mr5" >28.09</div><div class="ellipsis" ><span class="flag my"></span> <a  href="race/tour-de-langkawi/2025/startlist">Petronas Le Tour de Langkawi</a></div><div class="blue fs10" ><a  href="rider-in-race/manuel-penalver/tour-de-langkawi">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -277,7 +263,7 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="210923" /><input type="hidden" id="seo" value="manuel-penalver" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="210923" /><input type="hidden" id="seo" value="manuel-penalver" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -287,28 +273,53 @@
 <li class=""><a class="rdrFilterSeason" data-season="2018"  href="">2018</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2017"  href="">2017</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
-<tr class="main"><td><span class="hideIfMobile">04.09 &rsaquo; 07.09</span><span class="showIfMobile fs12">4-7/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-della-regione-friuli-venezia-giulia/2025/stage-3-gc"><span>Giro della Regione Friuli Venezia Giulia</span> (2.2)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/giro-della-regione-friuli-venezia-giulia">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">14.10 &rsaquo; 19.10</span><span class="showIfMobile fs12">14-19/10</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag nl"></span> <a href="race/tour-of-holland/2025/prologue-gc"><span>NIBC Tour of Holland</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-of-holland">more</a></td></tr>
+<tr class="stage"><td></td><td>66</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-holland/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>19.10</td><td>90</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-holland/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Arnhem &rsaquo; Arnhem</a>  </td><td>148</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>18.10</td><td>57</td><td>60</td><td><span class=""></span></td><td><a href="race/tour-of-holland/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Emmen &rsaquo; VAM-Berg</a>  </td><td>159</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>17.10</td><td>NR</td><td>87</td><td><span class=""></span></td><td><a href="race/tour-of-holland/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Sittard &rsaquo; Watersley</a>  </td><td><s>149</s> 40.3</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>16.10</td><td>99</td><td>88</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-of-holland/2025/stage-2"><span class="imob">S2 (ITT)</span><span class="idesk">Stage 2 (ITT)</span> - Etten-Leur &rsaquo; Etten-Leur</a>  </td><td>14.8</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>15.10</td><td>41</td><td>80</td><td><span class=""></span></td><td><a href="race/tour-of-holland/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Dordrecht &rsaquo; Dordrecht</a>  </td><td>118.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>14.10</td><td>96</td><td>96</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-of-holland/2025/prologue"><span class="imob">Prologue (ITT)</span><span class="idesk">Prologue (ITT)</span> - The Hague &rsaquo; The Hague</a>  </td><td>4</td><td></td><td></td><td></td></tr>
+<tr class="main"><td>11.10</td><td>20</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-de-vendee/2025/result"><span>Tour de Vendée</span> (1.1)</a>  </td><td>202.7</td><td>1</td><td>3</td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-de-vendee">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">28.09 &rsaquo; 05.10</span><span class="showIfMobile fs12">28-5/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag my"></span> <a href="race/tour-de-langkawi/2025/stage-1-gc"><span>Petronas Le Tour de Langkawi</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-de-langkawi">more</a></td></tr>
+<tr class="stage"><td></td><td>3</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-de-langkawi/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td></td><td>61</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-langkawi/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>05.10</td><td>38</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Tangkak &rsaquo; Kuala Lumpur</a>  </td><td>180.2</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>04.10</td><td>5</td><td>64</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Melaka &rsaquo; Medini</a>  </td><td>214.9</td><td>4</td><td>3</td><td></td></tr>
+<tr class="stage"><td>03.10</td><td>3</td><td>66</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Shah Alam &rsaquo; Port Dickson</a>  </td><td>123.5</td><td>12</td><td>10</td><td></td></tr>
+<tr class="stage"><td>02.10</td><td>96</td><td>69</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Temerloh &rsaquo; Fraser's Hill</a>  </td><td>123.1</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>01.10</td><td>2</td><td>6</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Kuala Terengganu &rsaquo; Kemaman</a>  </td><td>141.5</td><td>18</td><td>15</td><td></td></tr>
+<tr class="stage"><td>30.09</td><td>4</td><td>16</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Gerik &rsaquo; Pasir Puteh</a>  </td><td>198.2</td><td>7</td><td>5</td><td></td></tr>
+<tr class="stage"><td>29.09</td><td>9</td><td>16</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Padang Besar &rsaquo; Kepala Batas</a>  </td><td>162.8</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>28.09</td><td>4</td><td>8</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Langkawi (Kuah) &rsaquo; Langkawi (Kuah)</a>  </td><td>96.7</td><td>7</td><td>5</td><td></td></tr>
+<tr class="main"><td><span class="hideIfMobile">17.09 &rsaquo; 21.09</span><span class="showIfMobile fs12">17-21/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag lu"></span> <a href="race/tour-de-luxembourg/2025/stage-1-gc"><span>Skoda Tour de Luxembourg</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-de-luxembourg">more</a></td></tr>
+<tr class="stage"><td>19.09</td><td>DNS</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Mertert &rsaquo; Vianden</a>  </td><td>170.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>18.09</td><td>11</td><td>109</td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Remich &rsaquo; Mamer</a>  </td><td>168.4</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>17.09</td><td>116</td><td>116</td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Luxembourg &rsaquo; Luxembourg</a>  </td><td>152.8</td><td></td><td></td><td></td></tr>
+<tr class="main"><td>14.09</td><td>3</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/grote-prijs-rik-van-looy/2025/result"><span>GP Rik Van Looy</span> (1.2)</a>  </td><td>185.2</td><td>7</td><td>25</td><td><a class="fs10" href="rider-in-race/manuel-penalver/grote-prijs-rik-van-looy">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">04.09 &rsaquo; 07.09</span><span class="showIfMobile fs12">4-7/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-della-regione-friuli-venezia-giulia/2025/stage-1-gc"><span>Giro della Regione Friuli Venezia Giulia</span> (2.2)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/giro-della-regione-friuli-venezia-giulia">more</a></td></tr>
 <tr class="stage"><td></td><td>10</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/giro-della-regione-friuli-venezia-giulia/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>128</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/giro-della-regione-friuli-venezia-giulia/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>07.09</td><td>128</td><td></td><td><span class=""></span></td><td><a href="race/giro-della-regione-friuli-venezia-giulia/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Cervignano del Friuli &rsaquo; San Daniele del Friuli</a>  </td><td>151</td><td></td><td></td><td></td></tr>
-<tr class="stage"><td>05.09</td><td>4</td><td>113</td><td><span class=""></span></td><td><a href="race/giro-della-regione-friuli-venezia-giulia/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Porpetto &rsaquo; Teor</a>  </td><td>167</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>05.09</td><td>4</td><td>113</td><td><span class=""></span></td><td><a href="race/giro-della-regione-friuli-venezia-giulia/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Porpetto &rsaquo; Teor</a>  </td><td>167</td><td></td><td><font class="red fs10">-5</font></td><td></td></tr>
 <tr class="stage"><td>04.09</td><td>118</td><td>118</td><td><span class=""></span></td><td><a href="race/giro-della-regione-friuli-venezia-giulia/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Palazzolo dello Stella &rsaquo; Buttrio</a>  </td><td>156</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>31.08</td><td>8</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/grand-prix-de-plouay/2025/result"><span>Grand Prix de Plouay</span> (1.2)</a>  </td><td>186.9</td><td></td><td>3</td><td><a class="fs10" href="rider-in-race/manuel-penalver/grand-prix-de-plouay">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">26.08 &rsaquo; 29.08</span><span class="showIfMobile fs12">26-29/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-3-gc"><span>Tour Poitou - Charentes en Nouvelle Aquitaine</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">26.08 &rsaquo; 29.08</span><span class="showIfMobile fs12">26-29/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-1-gc"><span>Tour Poitou - Charentes en Nouvelle Aquitaine</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-du-poitou-charentes-et-de-la-vienne">more</a></td></tr>
 <tr class="stage"><td></td><td>13</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>58</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>29.08</td><td>65</td><td></td><td><span class=""></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - La Rochefoucauld &rsaquo; Poitiers</a>  </td><td>185.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>28.08</td><td>84</td><td>63</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-3"><span class="imob">S3 (ITT)</span><span class="idesk">Stage 3 (ITT)</span> - Chauvigny &rsaquo; Jardres</a>  </td><td>27.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>27.08</td><td>12</td><td>11</td><td><span class=""></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Jonzac &rsaquo; Gond Pontouvre</a>  </td><td>175.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>26.08</td><td>6</td><td>9</td><td><span class=""></span></td><td><a href="race/tour-du-poitou-charentes-et-de-la-vienne/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Sauzé-entre-Bois &rsaquo; La Génétouze</a>  </td><td>193.3</td><td>3</td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">12.08 &rsaquo; 16.08</span><span class="showIfMobile fs12">12-16/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="race/tour-of-denmark/2025/stage-4-gc"><span>PostNord Tour of Denmark</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-of-denmark">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">12.08 &rsaquo; 16.08</span><span class="showIfMobile fs12">12-16/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="race/tour-of-denmark/2025/stage-1-gc"><span>PostNord Tour of Denmark</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-of-denmark">more</a></td></tr>
 <tr class="stage"><td></td><td>92</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-denmark/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>16.08</td><td>78</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-denmark/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Hobro &rsaquo; Silkeborg</a>  </td><td>157.4</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>15.08</td><td>96</td><td>96</td><td><span class=""></span></td><td><a href="race/tour-of-denmark/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Svendborg &rsaquo; Vejle</a>  </td><td>226.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>14.08</td><td>113</td><td>98</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-of-denmark/2025/stage-3"><span class="imob">S3 (ITT)</span><span class="idesk">Stage 3 (ITT)</span> - Kerteminde &rsaquo; Kerteminde</a>  </td><td>14.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>13.08</td><td>13</td><td>95</td><td><span class=""></span></td><td><a href="race/tour-of-denmark/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Rødovre &rsaquo; Gladsaxe</a>  </td><td>105.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>12.08</td><td>117</td><td>117</td><td><span class=""></span></td><td><a href="race/tour-of-denmark/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Nexø &rsaquo; Rønne</a>  </td><td>178.3</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">06.07 &rsaquo; 13.07</span><span class="showIfMobile fs12">6-13/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cn"></span> <a href="race/tour-of-magnificent-qinghai/2025/stage-5-gc"><span>Tour of Magnificent Qinghai</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-of-magnificent-qinghai">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">06.07 &rsaquo; 13.07</span><span class="showIfMobile fs12">6-13/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cn"></span> <a href="race/tour-of-magnificent-qinghai/2025/stage-1-gc"><span>Tour of Magnificent Qinghai</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-of-magnificent-qinghai">more</a></td></tr>
 <tr class="stage"><td></td><td>5</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-of-magnificent-qinghai/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>96</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-magnificent-qinghai/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>13.07</td><td>2</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-magnificent-qinghai/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Xihaizhen &rsaquo; Xihaizhen</a>  </td><td>121.3</td><td>18</td><td>15</td><td></td></tr>
@@ -320,13 +331,13 @@
 <tr class="stage"><td>07.07</td><td>135</td><td>111</td><td><span class=""></span></td><td><a href="race/tour-of-magnificent-qinghai/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Duoba &rsaquo; Huzhu</a>  </td><td>151.4</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>06.07</td><td>1</td><td>1</td><td><span class=""></span></td><td><a href="race/tour-of-magnificent-qinghai/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Xining &rsaquo; Xining</a>  </td><td>120.6</td><td>30</td><td>20 <span class="gc_pnt">+5</span></td><td></td></tr>
 <tr class="main"><td>22.06</td><td>13</td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="race/copenhagen-sprint/2025/result"><span>Copenhagen Sprint</span> (1.UWT)</a>  </td><td>235.6</td><td>30</td><td>30</td><td><a class="fs10" href="rider-in-race/manuel-penalver/copenhagen-sprint">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">04.06 &rsaquo; 08.06</span><span class="showIfMobile fs12">4-8/6</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag si"></span> <a href="race/tour-of-slovenia/2025/stage-4-gc"><span>Tour of Slovenia</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-of-slovenia">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">04.06 &rsaquo; 08.06</span><span class="showIfMobile fs12">4-8/6</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag si"></span> <a href="race/tour-of-slovenia/2025/stage-1-gc"><span>Tour of Slovenia</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-of-slovenia">more</a></td></tr>
 <tr class="stage"><td>08.06</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-slovenia/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Litija &rsaquo; Novo mesto</a>  </td><td>124.1</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>07.06</td><td>116</td><td>93</td><td><span class=""></span></td><td><a href="race/tour-of-slovenia/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Maribor &rsaquo; Golte</a>  </td><td>175</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>06.06</td><td>5</td><td>62</td><td><span class=""></span></td><td><a href="race/tour-of-slovenia/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Majšperk &rsaquo; Ormož</a>  </td><td>172</td><td>4</td><td>3</td><td></td></tr>
 <tr class="stage"><td>05.06</td><td>122</td><td>63</td><td><span class=""></span></td><td><a href="race/tour-of-slovenia/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Velenje &rsaquo; Rogaška Slatina</a>  </td><td>162.7</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>04.06</td><td>3</td><td>4</td><td><span class=""></span></td><td><a href="race/tour-of-slovenia/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Piran &rsaquo; Škofljica</a>  </td><td>170.6</td><td>12</td><td>10</td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">14.05 &rsaquo; 18.05</span><span class="showIfMobile fs12">14-18/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag hu"></span> <a href="race/tour-de-hongrie/2025/stage-4-gc"><span>Tour de Hongrie</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-de-hongrie">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">14.05 &rsaquo; 18.05</span><span class="showIfMobile fs12">14-18/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag hu"></span> <a href="race/tour-de-hongrie/2025/stage-1-gc"><span>Tour de Hongrie</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-de-hongrie">more</a></td></tr>
 <tr class="stage"><td></td><td>23</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-de-hongrie/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>96</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-hongrie/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>18.05</td><td>77</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-hongrie/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Etyek &rsaquo; Esztergom</a>  </td><td>169.5</td><td></td><td></td><td></td></tr>
@@ -334,7 +345,7 @@
 <tr class="stage"><td>16.05</td><td>113</td><td>109</td><td><span class=""></span></td><td><a href="race/tour-de-hongrie/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Gödöllő &rsaquo; Gyöngyös-Kékestető</a>  </td><td>162.8</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>15.05</td><td>6</td><td>14</td><td><span class=""></span></td><td><a href="race/tour-de-hongrie/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Veszprém &rsaquo; Siófok</a>  </td><td>177.5</td><td>3</td><td></td><td></td></tr>
 <tr class="stage"><td>14.05</td><td>11</td><td>15</td><td><span class=""></span></td><td><a href="race/tour-de-hongrie/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Budapest &rsaquo; Győr</a>  </td><td>210.3</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">27.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">27-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-turkey/2025/stage-5-gc"><span>Presidential Cycling Tour of Turkiye</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-of-turkey">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">27.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">27-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-turkey/2025/stage-1-gc"><span>Presidential Cycling Tour of Turkiye</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-of-turkey">more</a></td></tr>
 <tr class="stage"><td></td><td>41</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-of-turkey/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>122</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-turkey/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>04.05</td><td>97</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Çeşme &rsaquo; İzmir (Karşıyaka)</a>  </td><td>105.7</td><td></td><td></td><td></td></tr>
@@ -344,7 +355,7 @@
 <tr class="stage"><td>29.04</td><td>133</td><td>145</td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Fethiye &rsaquo; Marmaris</a>  </td><td>175.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>28.04</td><td>142</td><td>141</td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Kemer &rsaquo; Kalkan</a>  </td><td>167.4</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>27.04</td><td>77</td><td>79</td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Antalya &rsaquo; Antalya</a>  </td><td>132</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">07.04 &rsaquo; 11.04</span><span class="showIfMobile fs12">7-11/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cn"></span> <a href="race/tour-of-hainan/2025/stage-4-gc"><span>Tour of Hainan</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-of-hainan">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">07.04 &rsaquo; 11.04</span><span class="showIfMobile fs12">7-11/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cn"></span> <a href="race/tour-of-hainan/2025/stage-1-gc"><span>Tour of Hainan</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/tour-of-hainan">more</a></td></tr>
 <tr class="stage"><td></td><td>8</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-of-hainan/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>64</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-hainan/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>11.04</td><td>2</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-hainan/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Changjiang &rsaquo; Sanya</a>  </td><td>182.8</td><td>18</td><td>15</td><td></td></tr>
@@ -352,13 +363,13 @@
 <tr class="stage"><td>09.04</td><td>49</td><td>43</td><td><span class=""></span></td><td><a href="race/tour-of-hainan/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Lingshui &rsaquo; Baoting</a>  </td><td>212.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>08.04</td><td>6</td><td>15</td><td><span class=""></span></td><td><a href="race/tour-of-hainan/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Qionghai &rsaquo; Lingshui</a>  </td><td>178.1</td><td>3</td><td></td><td></td></tr>
 <tr class="stage"><td>07.04</td><td>11</td><td>14</td><td><span class=""></span></td><td><a href="race/tour-of-hainan/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Qionghai &rsaquo; Qionghai</a>  </td><td>90.34</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">25.03 &rsaquo; 29.03</span><span class="showIfMobile fs12">25-29/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/settimana-internazionale-coppi-e-bartali/2025/stage-2-gc"><span>Settimana Internazionale Coppi e Bartali</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/settimana-internazionale-coppi-e-bartali">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">25.03 &rsaquo; 29.03</span><span class="showIfMobile fs12">25-29/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/settimana-internazionale-coppi-e-bartali/2025/stage-1-gc"><span>Settimana Internazionale Coppi e Bartali</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/settimana-internazionale-coppi-e-bartali">more</a></td></tr>
 <tr class="stage"><td>27.03</td><td>OTL</td><td></td><td><span class=""></span></td><td><a href="race/settimana-internazionale-coppi-e-bartali/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Riccione &rsaquo; Cesena</a>  </td><td>142.1</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>26.03</td><td>152</td><td>151</td><td><span class=""></span></td><td><a href="race/settimana-internazionale-coppi-e-bartali/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Riccione &rsaquo; Sogliano al Rubicone</a>  </td><td>163.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>25.03</td><td>14</td><td>14</td><td><span class=""></span></td><td><a href="race/settimana-internazionale-coppi-e-bartali/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Ferrara &rsaquo; Bondeno</a>  </td><td>174.5</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>23.03</td><td>42</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/cholet-pays-de-loire/2025/result"><span>Cholet Agglo Tour</span> (1.1)</a>  </td><td>205</td><td></td><td></td><td><a class="fs10" href="rider-in-race/manuel-penalver/cholet-pays-de-loire">more</a></td></tr>
 <tr class="main"><td>16.02</td><td>8</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/clasica-de-almeria/2025/result"><span>Clasica de Almeria ME</span> (1.Pro)</a>  </td><td>189.1</td><td>30</td><td>50</td><td><a class="fs10" href="rider-in-race/manuel-penalver/clasica-de-almeria">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>7826 km in <b>51</b> days | PCS points: <b>171</b> | UCI points: <b>166</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>10261 km in <b>70</b> days | PCS points: <b>227</b> | UCI points: <b>232</b> <span class="red" title="Penalty points">(-5)</span></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -373,14 +384,14 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >171</div></div></td><td class="fs11 " >311</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w50 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l50"  style="height: 12px; line-height: 12px; " >107</div></div></td><td class="fs11 " >527</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w16 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l16"  style="height: 12px; line-height: 12px; " >35</div></div></td><td class="fs11 " >1003</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w24 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l24"  style="height: 12px; line-height: 12px; " >52</div></div></td><td class="fs11 " >732</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w32 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l32"  style="height: 12px; line-height: 12px; " >68</div></div></td><td class="fs11 " >591</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2020-12-31&filter=1&p=me&s=season-individual">2020</a></td><td><div class="valuebar"><div class="w13 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l13"  style="height: 12px; line-height: 12px; " >27</div></div></td><td class="fs11 " >764</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w11 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l11"  style="height: 12px; line-height: 12px; " >24</div></div></td><td class="fs11 " >1268</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2018-12-31&filter=1&p=me&s=season-individual">2018</a></td><td><div class="valuebar"><div class="w23 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l23"  style="height: 12px; line-height: 12px; " >49</div></div></td><td class="fs11 " >945</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >227</div></div></td><td class="fs11 " >287</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w38 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l38"  style="height: 12px; line-height: 12px; " >107</div></div></td><td class="fs11 " >527</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w12 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l12"  style="height: 12px; line-height: 12px; " >35</div></div></td><td class="fs11 " >1002</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w18 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l18"  style="height: 12px; line-height: 12px; " >52</div></div></td><td class="fs11 " >732</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w24 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l24"  style="height: 12px; line-height: 12px; " >68</div></div></td><td class="fs11 " >591</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2020-12-31&filter=1&p=me&s=season-individual">2020</a></td><td><div class="valuebar"><div class="w10 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l10"  style="height: 12px; line-height: 12px; " >27</div></div></td><td class="fs11 " >764</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w8 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l8"  style="height: 12px; line-height: 12px; " >24</div></div></td><td class="fs11 " >1268</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2018-12-31&filter=1&p=me&s=season-individual">2018</a></td><td><div class="valuebar"><div class="w17 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l17"  style="height: 12px; line-height: 12px; " >49</div></div></td><td class="fs11 " >945</td></tr>
 </tbody></table></div>
 </div>
 <div class="">
@@ -448,9 +459,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0592s</span></li>
+<li><span>Pageload 0.1037s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 210923;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

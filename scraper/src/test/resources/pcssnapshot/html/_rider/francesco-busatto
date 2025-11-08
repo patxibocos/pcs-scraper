@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=aa77c535c4622b516bea0cdb9ef2bd48907e6abe16e90e6222ead150d63213a0">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/francesco-busatto/start">Overview</a></span>
 <span><a class="" href="rider/francesco-busatto/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/francesco-busatto/statistics/overview">Overview</a></li>
 <li><a href="rider/francesco-busatto/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/francesco-busatto/statistics/key-events">Key events</a></li>
+<li><a href="rider/francesco-busatto/statistics/badges">Badges</a></li>
 <li><a href="rider/francesco-busatto/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/francesco-busatto/statistics/wins">Wins</a></li>
 <li><a href="rider/francesco-busatto/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -157,7 +148,7 @@
 </div>
 <div class="">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >1st</div><div class="mr3" >November</div><div class="mr3" >2002</div><div>(</div><div>22</div><div>)</div></li>
+<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >1st</div><div class="mr3" >November</div><div class="mr3" >2002</div><div>(</div><div>23</div><div>)</div></li>
 </ul>
 </div>
 <div class="">
@@ -180,12 +171,12 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg green left" ></div></div></div><div class="xvalue ac" >518</div><div class="xtitle" ><a  href="rider/francesco-busatto/results/career-points-one-day-races">Onedayraces</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w15 bg red left" ></div></div></div><div class="xvalue ac" >78</div><div class="xtitle" ><a  href="rider/francesco-busatto/results/career-points-gc">GC</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg green2 left" ></div></div></div><div class="xvalue ac" >540</div><div class="xtitle" ><a  href="rider/francesco-busatto/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w15 bg red left" ></div></div></div><div class="xvalue ac" >83</div><div class="xtitle" ><a  href="rider/francesco-busatto/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg blue left" ></div></div></div><div class="xvalue ac" >2</div><div class="xtitle" ><a  href="rider/francesco-busatto/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w6 bg orange left" ></div></div></div><div class="xvalue ac" >29</div><div class="xtitle" ><a  href="rider/francesco-busatto/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w34 bg purple left" ></div></div></div><div class="xvalue ac" >178</div><div class="xtitle" ><a  href="rider/francesco-busatto/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w76 bg pink left" ></div></div></div><div class="xvalue ac" >395</div><div class="xtitle" ><a  href="rider/francesco-busatto/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w5 bg orange left" ></div></div></div><div class="xvalue ac" >29</div><div class="xtitle" ><a  href="rider/francesco-busatto/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w33 bg purple1 left" ></div></div></div><div class="xvalue ac" >178</div><div class="xtitle" ><a  href="rider/francesco-busatto/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w76 bg pink left" ></div></div></div><div class="xvalue ac" >409</div><div class="xtitle" ><a  href="rider/francesco-busatto/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -204,13 +195,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >255</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >261</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >324</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >335</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;1437</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;247</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -253,8 +244,10 @@
 </ul></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >17.09</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/gp-de-wallonie/2025/startlist">Grand Prix de Wallonie</a></div><div class="blue fs10" ><a  href="rider-in-race/francesco-busatto/gp-de-wallonie">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -265,7 +258,7 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="245080" /><input type="hidden" id="seo" value="francesco-busatto" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="245080" /><input type="hidden" id="seo" value="francesco-busatto" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -273,6 +266,18 @@
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2019"  href="">2019</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td><span class="hideIfMobile">14.10 &rsaquo; 19.10</span><span class="showIfMobile fs12">14-19/10</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cn"></span> <a href="race/tour-of-guangxi/2025/stage-1-gc"><span>Tour of Guangxi</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/francesco-busatto/tour-of-guangxi">more</a></td></tr>
+<tr class="stage"><td></td><td>26</td><td></td><td><span class="icon shirt w14 st6"></span></td><td><a href="race/tour-of-guangxi/2025/youth"><span class="imob">Youth classification</span><span class="idesk">Youth classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td></td><td>56</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-guangxi/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>5</td><td>1</td><td></td></tr>
+<tr class="stage"><td>19.10</td><td>79</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Nanning &rsaquo; Nanning</a>  </td><td>134.3</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>18.10</td><td>56</td><td>54</td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Yizhou &rsaquo; Nongla</a>  </td><td>165.8</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>17.10</td><td>96</td><td>84</td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Bama &rsaquo; Jinchengjiang</a>  </td><td>176.8</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>16.10</td><td>100</td><td>85</td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Jingxi &rsaquo; Bama</a>  </td><td>214</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>15.10</td><td>92</td><td>70</td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Chongzuo &rsaquo; Jingxi</a>  </td><td>177.4</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>14.10</td><td>46</td><td>50</td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Fangchenggang &rsaquo; Fangchenggang</a>  </td><td>149.4</td><td></td><td></td><td></td></tr>
+<tr class="main"><td>09.10</td><td>74</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gran-piemonte/2025/result"><span>Gran Piemonte</span> (1.Pro)</a>  </td><td>179</td><td></td><td></td><td><a class="fs10" href="rider-in-race/francesco-busatto/gran-piemonte">more</a></td></tr>
+<tr class="main"><td>06.10</td><td>10</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/coppa-bernocchi/2025/result"><span>Coppa Bernocchi - GP Banco BPM</span> (1.Pro)</a>  </td><td>191.6</td><td>22</td><td>35</td><td><a class="fs10" href="rider-in-race/francesco-busatto/coppa-bernocchi">more</a></td></tr>
+<tr class="main"><td>17.09</td><td>61</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/gp-de-wallonie/2025/result"><span>Grand Prix de Wallonie</span> (1.Pro)</a>  </td><td>187.1</td><td></td><td></td><td><a class="fs10" href="rider-in-race/francesco-busatto/gp-de-wallonie">more</a></td></tr>
 <tr class="main"><td>11.09</td><td>11</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gp-citta-di-peccioli/2025/result"><span>Gran Premio città di Peccioli - Coppa Sabatini</span> (1.Pro)</a>  </td><td>197.6</td><td>20</td><td>30</td><td><a class="fs10" href="rider-in-race/francesco-busatto/gp-citta-di-peccioli">more</a></td></tr>
 <tr class="main"><td>10.09</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-di-toscana/2025/result"><span>Giro della Toscana - Memorial Alfredo Martini</span> (1.1)</a>  </td><td>189.4</td><td></td><td></td><td><a class="fs10" href="rider-in-race/francesco-busatto/giro-di-toscana">more</a></td></tr>
 <tr class="main"><td>07.09</td><td>17</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gp-industria-artigianato/2025/result"><span>GP Industria & Artigianato</span> (1.Pro)</a>  </td><td>196.3</td><td>9</td><td>5</td><td><a class="fs10" href="rider-in-race/francesco-busatto/gp-industria-artigianato">more</a></td></tr>
@@ -351,7 +356,7 @@
 <tr class="stage"><td>22.01</td><td>74</td><td>76</td><td><span class=""></span></td><td><a href="race/tour-down-under/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Tanunda &rsaquo; Tanunda</a>  </td><td>128.8</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>21.01</td><td>74</td><td>75</td><td><span class=""></span></td><td><a href="race/tour-down-under/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Prospect &rsaquo; Gumeracha</a>  </td><td>150.7</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>18.01</td><td>31</td><td></td><td><span class=""></span></td><td><span class="flag au"></span> <a href="national-race/schwalbe-classic/2025/result"><span>Villawood Men's Classic</span> (NAT)</a>  </td><td>55.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/francesco-busatto/schwalbe-classic">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>10337 km in <b>63</b> days | PCS points: <b>161</b> | UCI points: <b>235</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>11912 km in <b>72</b> days | PCS points: <b>188</b> | UCI points: <b>271</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -366,7 +371,7 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w52 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l52"  style="height: 12px; line-height: 12px; " >161</div></div></td><td class="fs11 " >325</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w61 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l61"  style="height: 12px; line-height: 12px; " >188</div></div></td><td class="fs11 " >334</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >246</div></div></td><td class="fs11 " >263</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w60 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l60"  style="height: 12px; line-height: 12px; " >183</div></div></td><td class="fs11 " >334</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w19 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l19"  style="height: 12px; line-height: 12px; " >57</div></div></td><td class="fs11 " >698</td></tr>
@@ -437,9 +442,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0672s</span></li>
+<li><span>Pageload 0.0609s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 245080;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

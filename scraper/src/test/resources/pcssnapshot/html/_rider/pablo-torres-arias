@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=f4fc0a70715a3f5e1bb07b9a694402b908636ec61f6784ef8068a60d97e11b20">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/pablo-torres-arias/start">Overview</a></span>
 <span><a class="" href="rider/pablo-torres-arias/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/pablo-torres-arias/statistics/overview">Overview</a></li>
 <li><a href="rider/pablo-torres-arias/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/pablo-torres-arias/statistics/key-events">Key events</a></li>
+<li><a href="rider/pablo-torres-arias/statistics/badges">Badges</a></li>
 <li><a href="rider/pablo-torres-arias/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/pablo-torres-arias/statistics/wins">Wins</a></li>
 <li><a href="rider/pablo-torres-arias/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -180,12 +171,12 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg green left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/pablo-torres-arias/results/career-points-one-day-races">Onedayraces</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg red left" ></div></div></div><div class="xvalue ac" >149</div><div class="xtitle" ><a  href="rider/pablo-torres-arias/results/career-points-gc">GC</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w22 bg blue left" ></div></div></div><div class="xvalue ac" >33</div><div class="xtitle" ><a  href="rider/pablo-torres-arias/results/career-points-time-trial">TT</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg green2 left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/pablo-torres-arias/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg red left" ></div></div></div><div class="xvalue ac" >153</div><div class="xtitle" ><a  href="rider/pablo-torres-arias/results/career-points-gc">GC</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w33 bg blue left" ></div></div></div><div class="xvalue ac" >51</div><div class="xtitle" ><a  href="rider/pablo-torres-arias/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg orange left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/pablo-torres-arias/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w74 bg purple left" ></div></div></div><div class="xvalue ac" >110</div><div class="xtitle" ><a  href="rider/pablo-torres-arias/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w34 bg pink left" ></div></div></div><div class="xvalue ac" >50</div><div class="xtitle" ><a  href="rider/pablo-torres-arias/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w75 bg purple1 left" ></div></div></div><div class="xvalue ac" >114</div><div class="xtitle" ><a  href="rider/pablo-torres-arias/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w33 bg pink left" ></div></div></div><div class="xvalue ac" >50</div><div class="xtitle" ><a  href="rider/pablo-torres-arias/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -193,6 +184,7 @@
 <li class=""><div class="mr3" ><a target="_blank"  href="https://www.strava.com/athletes/38060655"><span class="iconv3 strava14"></span></a></div><div class="mr5 fs10" ><a target="_blank"  href="https://www.strava.com/athletes/38060655">STRAVA</a></div></li>
 <li class=""><div class="mr3" ><a target="_blank"  href="https://www.instagram.com/paablo.torress/"><span class="iconv3 insta14"></span></a></div><div class="mr5 fs10" ><a target="_blank"  href="https://www.instagram.com/paablo.torress/">INSTA</a></div></li>
 <li class=""><div class="mr3" ><a target="_blank"  href="https://en.wikipedia.org/wiki/Pablo_Torres_(cyclist,_born_2005)"><span class="iconv3 wiki14"></span></a></div><div class="mr5 fs10" ><a target="_blank"  href="https://en.wikipedia.org/wiki/Pablo_Torres_(cyclist,_born_2005)">WIKI</a></div></li>
+<li class=""><div class="mr3" ><a target="_blank"  href="https://x.com/pablotorres_22/"><span class="iconv3 x-logo14"></span></a></div><div class="mr5 fs10" ><a target="_blank"  href="https://x.com/pablotorres_22/">X</a></div></li>
 </ul>
 </div>
 <div class="">
@@ -202,13 +194,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >482</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >545</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >478</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >542</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;982</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;410</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -256,8 +248,10 @@
 </ul></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >17.09</div><div class="ellipsis" ><span class="flag lu"></span> <a  href="race/tour-de-luxembourg/2025/startlist">Skoda Tour de Luxembourg</a></div><div class="blue fs10" ><a  href="rider-in-race/pablo-torres-arias/tour-de-luxembourg">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -268,11 +262,25 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="284952" /><input type="hidden" id="seo" value="pablo-torres-arias" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="284952" /><input type="hidden" id="seo" value="pablo-torres-arias" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>19.10</td><td>58</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/veneto-classic/2025/result"><span>Veneto Classic</span> (1.Pro)</a>  </td><td>178.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/veneto-classic">more</a></td></tr>
+<tr class="main"><td>15.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-del-veneto/2025/result"><span>Giro del Veneto</span> (1.Pro)</a>  </td><td>161.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/giro-del-veneto">more</a></td></tr>
+<tr class="main"><td>12.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/trofeo-baracchi/2025/result"><span>Trofeo Tessile & Moda - Valdengo Oropa</span> (1.1)</a>  </td><td>170.9</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/trofeo-baracchi">more</a></td></tr>
+<tr class="main"><td>09.10</td><td>78</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gran-piemonte/2025/result"><span>Gran Piemonte</span> (1.Pro)</a>  </td><td>179</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/gran-piemonte">more</a></td></tr>
+<tr class="main"><td>07.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/tre-valli-varesine/2025/result"><span>Tre Valli Varesine</span> (1.Pro)</a>  </td><td>200.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/tre-valli-varesine">more</a></td></tr>
+<tr class="main"><td>05.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/uec-road-european-championships/2025/result"><span>European Continental Championships ME - Road Race</span> (CC)</a>  </td><td>202.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/uec-road-european-championships">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">17.09 &rsaquo; 21.09</span><span class="showIfMobile fs12">17-21/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag lu"></span> <a href="race/tour-de-luxembourg/2025/stage-1-gc"><span>Skoda Tour de Luxembourg</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/tour-de-luxembourg">more</a></td></tr>
+<tr class="stage"><td></td><td>11</td><td></td><td><span class="icon shirt w14 st6"></span></td><td><a href="race/tour-de-luxembourg/2025/youth"><span class="imob">Youth classification</span><span class="idesk">Youth classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td></td><td>22</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-luxembourg/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>4</td><td>5</td><td></td></tr>
+<tr class="stage"><td>21.09</td><td>58</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Mersch &rsaquo; Luxembourg </a>  </td><td>176.4</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>20.09</td><td>13</td><td>19</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-de-luxembourg/2025/stage-4"><span class="imob">S4 (ITT)</span><span class="idesk">Stage 4 (ITT)</span> - Niederanven &rsaquo; Niederanven</a>  </td><td>26.3</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>19.09</td><td>18</td><td>23</td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Mertert &rsaquo; Vianden</a>  </td><td>170.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>18.09</td><td>69</td><td>54</td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Remich &rsaquo; Mamer</a>  </td><td>168.4</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>17.09</td><td>55</td><td>56</td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Luxembourg &rsaquo; Luxembourg</a>  </td><td>152.8</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>11.09</td><td>39</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gp-citta-di-peccioli/2025/result"><span>Gran Premio città di Peccioli - Coppa Sabatini</span> (1.Pro)</a>  </td><td>197.6</td><td></td><td>3</td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/gp-citta-di-peccioli">more</a></td></tr>
 <tr class="main"><td>10.09</td><td>56</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-di-toscana/2025/result"><span>Giro della Toscana - Memorial Alfredo Martini</span> (1.1)</a>  </td><td>189.4</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/giro-di-toscana">more</a></td></tr>
 <tr class="main"><td>07.09</td><td>71</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gp-industria-artigianato/2025/result"><span>GP Industria & Artigianato</span> (1.Pro)</a>  </td><td>196.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/gp-industria-artigianato">more</a></td></tr>
@@ -297,7 +305,7 @@
 <tr class="main"><td><span class="hideIfMobile">14.05 &rsaquo; 18.05</span><span class="showIfMobile fs12">14-18/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag hu"></span> <a href="race/tour-de-hongrie/2025/stage-1-gc"><span>Tour de Hongrie</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/tour-de-hongrie">more</a></td></tr>
 <tr class="stage"><td>15.05</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-hongrie/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Veszprém &rsaquo; Siófok</a>  </td><td>177.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>14.05</td><td>32</td><td>36</td><td><span class=""></span></td><td><a href="race/tour-de-hongrie/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Budapest &rsaquo; Győr</a>  </td><td>210.3</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">29.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">29-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag ch"></span> <a href="race/tour-de-romandie/2025/stage-3-gc"><span>Tour de Romandie</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/tour-de-romandie">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">29.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">29-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag ch"></span> <a href="race/tour-de-romandie/2025/prologue-gc"><span>Tour de Romandie</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/tour-de-romandie">more</a></td></tr>
 <tr class="stage"><td></td><td>10</td><td></td><td><span class="icon shirt w14 st6"></span></td><td><a href="race/tour-de-romandie/2025/youth"><span class="imob">Youth classification</span><span class="idesk">Youth classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>23</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-romandie/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>14</td><td>20</td><td></td></tr>
 <tr class="stage"><td>04.05</td><td>33</td><td></td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-de-romandie/2025/stage-5"><span class="imob">S5 (ITT)</span><span class="idesk">Stage 5 (ITT)</span> - Genève &rsaquo; Genève</a>  </td><td>17.1</td><td></td><td></td><td></td></tr>
@@ -344,7 +352,7 @@
 <tr class="stage"><td>22.01</td><td>49</td><td>42</td><td><span class=""></span></td><td><a href="race/tour-down-under/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Tanunda &rsaquo; Tanunda</a>  </td><td>128.8</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>21.01</td><td>37</td><td>41</td><td><span class=""></span></td><td><a href="race/tour-down-under/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Prospect &rsaquo; Gumeracha</a>  </td><td>150.7</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>18.01</td><td>28</td><td></td><td><span class=""></span></td><td><span class="flag au"></span> <a href="national-race/schwalbe-classic/2025/result"><span>Villawood Men's Classic</span> (NAT)</a>  </td><td>55.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-torres-arias/schwalbe-classic">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>6559 km in <b>47</b> days | PCS points: <b>96</b> | UCI points: <b>159</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>7979 km in <b>58</b> days | PCS points: <b>100</b> | UCI points: <b>164</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -359,8 +367,8 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >96</div></div></td><td class="fs11 " >483</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w66 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l66"  style="height: 12px; line-height: 12px; " >79</div></div></td><td class="fs11 " >615</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >100</div></div></td><td class="fs11 " >538</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w63 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l63"  style="height: 12px; line-height: 12px; " >79</div></div></td><td class="fs11 " >615</td></tr>
 </tbody></table></div>
 <div class="mt20">
 <h4>Family</h4><ul class="list" >
@@ -434,9 +442,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0886s</span></li>
+<li><span>Pageload 0.1047s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 284952;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

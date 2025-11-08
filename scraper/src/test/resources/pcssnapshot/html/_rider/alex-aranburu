@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=fd2c8b2e6bdae413d4b01d46dcafa0409e76cc2581c575882f946c9becf52327">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/alex-aranburu/start">Overview</a></span>
 <span><a class="" href="rider/alex-aranburu/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/alex-aranburu/statistics/overview">Overview</a></li>
 <li><a href="rider/alex-aranburu/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/alex-aranburu/statistics/key-events">Key events</a></li>
+<li><a href="rider/alex-aranburu/statistics/badges">Badges</a></li>
 <li><a href="rider/alex-aranburu/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/alex-aranburu/statistics/wins">Wins</a></li>
 <li><a href="rider/alex-aranburu/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -143,11 +134,6 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
-<div class="">
-<ul class="list fs14" >
-<li class=""><div>Grand Prix Cycliste de Montréal</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="race/gp-montreal/2025/result/live">LiveStats</a></div><div class="blue mr10" ><a  href="rider-in-race/alex-aranburu/gp-montreal/2025">Race stats</a></div><div class="blue" ><a  href="race/gp-montreal/2025/startlist">Startlist</a></div></li>
-</ul>
-</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -162,7 +148,7 @@
 </div>
 <div class="">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >19th</div><div class="mr3" >September</div><div class="mr3" >1995</div><div>(</div><div>29</div><div>)</div></li>
+<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >19th</div><div class="mr3" >September</div><div class="mr3" >1995</div><div>(</div><div>30</div><div>)</div></li>
 </ul>
 </div>
 <div class="">
@@ -185,12 +171,12 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w98 bg green left" ></div></div></div><div class="xvalue ac" >2492</div><div class="xtitle" ><a  href="rider/alex-aranburu/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg green2 left" ></div></div></div><div class="xvalue ac" >2594</div><div class="xtitle" ><a  href="rider/alex-aranburu/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w37 bg red left" ></div></div></div><div class="xvalue ac" >953</div><div class="xtitle" ><a  href="rider/alex-aranburu/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w12 bg blue left" ></div></div></div><div class="xvalue ac" >301</div><div class="xtitle" ><a  href="rider/alex-aranburu/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w16 bg orange left" ></div></div></div><div class="xvalue ac" >402</div><div class="xtitle" ><a  href="rider/alex-aranburu/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w69 bg purple left" ></div></div></div><div class="xvalue ac" >1769</div><div class="xtitle" ><a  href="rider/alex-aranburu/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg pink left" ></div></div></div><div class="xvalue ac" >2552</div><div class="xtitle" ><a  href="rider/alex-aranburu/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w15 bg orange left" ></div></div></div><div class="xvalue ac" >402</div><div class="xtitle" ><a  href="rider/alex-aranburu/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w70 bg purple1 left" ></div></div></div><div class="xvalue ac" >1828</div><div class="xtitle" ><a  href="rider/alex-aranburu/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg pink left" ></div></div></div><div class="xvalue ac" >2590</div><div class="xtitle" ><a  href="rider/alex-aranburu/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -209,14 +195,14 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/all-time">All time</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1065</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >56</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >45</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >63</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/all-time">All time</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1062</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >55</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;2802</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;179</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -234,7 +220,7 @@
 <li><div class="nrs"><b>2x</b>&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/itzulia-basque-country/2025/stage-3">Itzulia Basque Country</a><span class="clr777 fs11">&nbsp; ('25, '21)</span></div></li>
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue"></span> <a href="race/circuito-de-getxo/2018/result">Circuito de Getxo</a><span class="clr777 fs11">&nbsp; ('18)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/eschborn-frankfurt/2024/result">Eschborn-Frankfurt</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
-<li><div class="nrs"><b>3x</b>&nbsp;2nd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/vuelta-a-espana/2019/stage-12">Vuelta a España</a><span class="clr777 fs11">&nbsp; ('21, '19)</span></div></li>
+<li><div class="nrs"><b>3x</b>&nbsp;2nd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/vuelta-a-espana/2021/stage-1">Vuelta a España</a><span class="clr777 fs11">&nbsp; ('21, '19)</span></div></li>
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue">stage</span> <a href="race/tour-of-belgium/2024/stage-4">Baloise Belgium Tour</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue">stage</span> <a href="race/vuelta-a-burgos/2019/stage-4">Vuelta a Burgos</a><span class="clr777 fs11">&nbsp; ('19)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/gp-de-wallonie/2024/result">Grand Prix de Wallonie</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
@@ -251,9 +237,9 @@
 <div class="">
 <span class="table-cont">
 <ul class="rdr-teams2  "  >
-<li class="showifmob combiLine"><div class="season">2026-2027</div><div class="name2"><a class="blue" href="team/cofidis-2026">Cofidis</a> (WT)</div><div class="clear"></div></li>
-<li class="main hideifmob "><div class="season">2027</div><div class="name"><a href="team/cofidis-2027">Cofidis</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
-<li class="main hideifmob "><div class="season">2026</div><div class="name"><a href="team/cofidis-2026">Cofidis</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="showifmob combiLine"><div class="season">2026-2027</div><div class="name2"><a class="blue" href="team/cofidis-2026">Cofidis</a> (PRT)</div><div class="clear"></div></li>
+<li class="main hideifmob "><div class="season">2027</div><div class="name"><a href="team/cofidis-2027">Cofidis</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main hideifmob "><div class="season">2026</div><div class="name"><a href="team/cofidis-2026">Cofidis</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2025</div><div class="name"><a href="team/cofidis-2025">Cofidis</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2024</div><div class="name"><a href="team/movistar-team-2024">Movistar Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2023</div><div class="name"><a href="team/movistar-team-2023">Movistar Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
@@ -271,20 +257,21 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >14.09</div><div class="ellipsis" ><span class="flag ca"></span> <a  href="race/gp-montreal/2025/startlist">Grand Prix Cycliste de Montréal</a></div><div class="blue fs10" ><a  href="rider-in-race/alex-aranburu/gp-montreal">more</a></div></li>
-<li class=""><div class="bold mr5" >17.09</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/gp-de-wallonie/2025/startlist">Grand Prix de Wallonie</a></div><div class="blue fs10" ><a  href="rider-in-race/alex-aranburu/gp-de-wallonie">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
 <li class=""><div class="kpi" >9</div><div class="title" ><a  href="rider/alex-aranburu/statistics/wins">Wins</a></div><div class="info fs11" >GC (1)</div><div class="info fs11" >Oneday races (2)</div><div class="info fs11" >ITT (0)</div><div class="info fs11" ></div><div class="info fs11" ></div></li>
 <li class=""><div class="kpi" >8</div><div class="title" ><a  href="rider/alex-aranburu/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11" >tour (4) giro (0) vuelta(4)</div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div></li>
-<li class=""><div class="kpi" >11</div><div class="title" ><a  href="rider/alex-aranburu/statistics/top-classic-results">Classics</a></div><div class="info fs11" >RBX(0)</div><div class="info fs11" >MSR(5)</div><div class="info fs11" >RVV(1)</div><div class="info fs11" >LBL(4)</div><div class="info fs11" >LOM(1)</div></li>
+<li class=""><div class="kpi" >12</div><div class="title" ><a  href="rider/alex-aranburu/statistics/top-classic-results">Classics</a></div><div class="info fs11" >RBX(0)</div><div class="info fs11" >MSR(5)</div><div class="info fs11" >RVV(1)</div><div class="info fs11" >LBL(4)</div><div class="info fs11" >LOM(2)</div></li>
 </ul>
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="182127" /><input type="hidden" id="seo" value="alex-aranburu" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="182127" /><input type="hidden" id="seo" value="alex-aranburu" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -296,14 +283,22 @@
 <li><a  class="rdrFilterSeason" data-season="2016" href="">2016</a></li>
 <li><a  class="rdrFilterSeason" data-season="2015" href="">2015</a></li>
 <li><a  class="rdrFilterSeason" data-season="2013" href="">2013</a></li>
-</ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div class="simpleDropdown" style="">ROAD<ul><li><a class="rdrFilterDiscipline" data-discipline="pcs" href="">ROAD</a></li><li><a class="rdrFilterDiscipline" data-discipline="cx" href="">CROSS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+</ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>19.10</td><td>17</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/veneto-classic/2025/result"><span>Veneto Classic</span> (1.Pro)</a>  </td><td>178.8</td><td>9</td><td>5</td><td><a class="fs10" href="rider-in-race/alex-aranburu/veneto-classic">more</a></td></tr>
+<tr class="main"><td>15.10</td><td>49</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-del-veneto/2025/result"><span>Giro del Veneto</span> (1.Pro)</a>  </td><td>161.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alex-aranburu/giro-del-veneto">more</a></td></tr>
+<tr class="main"><td>11.10</td><td>55</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/il-lombardia/2025/result"><span>Il Lombardia</span> (1.UWT)</a>  </td><td>241</td><td>5</td><td>10</td><td><a class="fs10" href="rider-in-race/alex-aranburu/il-lombardia">more</a></td></tr>
+<tr class="main"><td>09.10</td><td>19</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gran-piemonte/2025/result"><span>Gran Piemonte</span> (1.Pro)</a>  </td><td>179</td><td>7</td><td>5</td><td><a class="fs10" href="rider-in-race/alex-aranburu/gran-piemonte">more</a></td></tr>
+<tr class="main"><td>06.10</td><td>21</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/coppa-bernocchi/2025/result"><span>Coppa Bernocchi - GP Banco BPM</span> (1.Pro)</a>  </td><td>191.6</td><td>5</td><td>5</td><td><a class="fs10" href="rider-in-race/alex-aranburu/coppa-bernocchi">more</a></td></tr>
+<tr class="main"><td>05.10</td><td>42</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/coppa-agostoni/2025/result"><span>Coppa Agostoni - Giro delle Brianze</span> (1.1)</a>  </td><td>166.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/alex-aranburu/coppa-agostoni">more</a></td></tr>
+<tr class="main"><td>17.09</td><td>9</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/gp-de-wallonie/2025/result"><span>Grand Prix de Wallonie</span> (1.Pro)</a>  </td><td>187.1</td><td>26</td><td>40</td><td><a class="fs10" href="rider-in-race/alex-aranburu/gp-de-wallonie">more</a></td></tr>
+<tr class="main"><td>14.09</td><td>8</td><td></td><td><span class=""></span></td><td><span class="flag ca"></span> <a href="race/gp-montreal/2025/result"><span>Grand Prix Cycliste de Montréal</span> (1.UWT)</a>  </td><td>209.1</td><td>50</td><td>125</td><td><a class="fs10" href="rider-in-race/alex-aranburu/gp-montreal">more</a></td></tr>
 <tr class="main"><td>12.09</td><td>24</td><td></td><td><span class=""></span></td><td><span class="flag ca"></span> <a href="race/gp-quebec/2025/result"><span>Grand Prix Cycliste de Québec</span> (1.UWT)</a>  </td><td>216</td><td>11</td><td>20</td><td><a class="fs10" href="rider-in-race/alex-aranburu/gp-quebec">more</a></td></tr>
 <tr class="main"><td>31.08</td><td>25</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/bretagne-classic/2025/result"><span>Bretagne Classic - Ouest-France</span> (1.UWT)</a>  </td><td>261.7</td><td>10</td><td>16</td><td><a class="fs10" href="rider-in-race/alex-aranburu/bretagne-classic">more</a></td></tr>
 <tr class="main"><td>17.08</td><td>11</td><td></td><td><span class=""></span></td><td><span class="flag de"></span> <a href="race/cyclassics-hamburg/2025/result"><span>ADAC Cyclassics</span> (1.UWT)</a>  </td><td>207.4</td><td>38</td><td>56</td><td><a class="fs10" href="rider-in-race/alex-aranburu/cyclassics-hamburg">more</a></td></tr>
 <tr class="main"><td>15.08</td><td>5</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/circuit-franco-belge/2025/result"><span>Circuit Franco-Belge</span> (1.Pro)</a>  </td><td>206.7</td><td>45</td><td>85</td><td><a class="fs10" href="rider-in-race/alex-aranburu/circuit-franco-belge">more</a></td></tr>
 <tr class="main"><td>03.08</td><td>3</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/circuito-de-getxo/2025/result"><span>Circuito de Getxo - Memorial Hermanos Otxoa</span> (1.1)</a>  </td><td>172.2</td><td>40</td><td>70</td><td><a class="fs10" href="rider-in-race/alex-aranburu/circuito-de-getxo">more</a></td></tr>
 <tr class="main"><td>02.08</td><td>23</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/san-sebastian/2025/result"><span>Donostia San Sebastian Klasikoa</span> (1.UWT)</a>  </td><td>211.4</td><td>12</td><td>16</td><td><a class="fs10" href="rider-in-race/alex-aranburu/san-sebastian">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">05.07 &rsaquo; 27.07</span><span class="showIfMobile fs12">5-27/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-de-france/2025/stage-14-gc"><span>Tour de France</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alex-aranburu/tour-de-france">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">05.07 &rsaquo; 27.07</span><span class="showIfMobile fs12">5-27/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-de-france/2025/stage-1-gc"><span>Tour de France</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alex-aranburu/tour-de-france">more</a></td></tr>
 <tr class="stage"><td></td><td>117</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-de-france/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>81</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-france/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>25</td><td></td><td></td></tr>
 <tr class="stage"><td>27.07</td><td>14</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-france/2025/stage-21"><span class="imob">S21</span><span class="idesk">Stage 21</span> - Mantes-la-Ville &rsaquo; Paris (Champs-Élysées)</a>  </td><td>132.3</td><td>2</td><td>10</td><td></td></tr>
@@ -349,7 +344,7 @@
 <tr class="stage"><td>07.04</td><td>68</td><td>68</td><td><span class="iconv3 chrono"></span></td><td><a href="race/itzulia-basque-country/2025/stage-1"><span class="imob">S1 (ITT)</span><span class="idesk">Stage 1 (ITT)</span> - Vitoria-Gasteiz &rsaquo; Vitoria-Gasteiz (Baskonia-Alavés)</a>  </td><td>16.5</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>05.04</td><td>5</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/gran-premio-miguel-indurain/2025/result"><span>Gran Premio Miguel Indurain</span> (1.Pro)</a>  </td><td>203.9</td><td>45</td><td>85</td><td><a class="fs10" href="rider-in-race/alex-aranburu/gran-premio-miguel-indurain">more</a></td></tr>
 <tr class="main"><td>22.03</td><td>15</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/milano-sanremo/2025/result"><span>Milano-Sanremo</span> (1.UWT)</a>  </td><td>289</td><td>30</td><td>55</td><td><a class="fs10" href="rider-in-race/alex-aranburu/milano-sanremo">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">10.03 &rsaquo; 16.03</span><span class="showIfMobile fs12">10-16/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/tirreno-adriatico/2025/stage-6-gc"><span>Tirreno-Adriatico</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alex-aranburu/tirreno-adriatico">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">10.03 &rsaquo; 16.03</span><span class="showIfMobile fs12">10-16/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/tirreno-adriatico/2025/stage-1-gc"><span>Tirreno-Adriatico</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/alex-aranburu/tirreno-adriatico">more</a></td></tr>
 <tr class="stage"><td></td><td>18</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tirreno-adriatico/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>29</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tirreno-adriatico/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>6</td><td>20</td><td></td></tr>
 <tr class="stage"><td>16.03</td><td>29</td><td></td><td><span class=""></span></td><td><a href="race/tirreno-adriatico/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Porto Potenza Picena &rsaquo; San Benedetto del Tronto</a>  </td><td>147</td><td></td><td></td><td></td></tr>
@@ -367,7 +362,7 @@
 <tr class="main"><td>29.01</td><td>8</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/trofeo-calvia/2025/result"><span>Trofeo Calvià</span> (1.1)</a>  </td><td>149.6</td><td>18</td><td>30</td><td><a class="fs10" href="rider-in-race/alex-aranburu/trofeo-calvia">more</a></td></tr>
 <tr class="main"><td>26.01</td><td>19</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/gp-de-valence/2025/result"><span>Clàssica Comunitat Valenciana 1969 - Gran Premi València</span> (1.1)</a>  </td><td>184</td><td>2</td><td>3</td><td><a class="fs10" href="rider-in-race/alex-aranburu/gp-de-valence">more</a></td></tr>
 <tr class="main"><td>25.01</td><td>14</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/ruta-de-la-ceramica-gran-premio-castellon/2025/result"><span>Gran Premio Castellón - Ruta de la Cerámica</span> (1.1)</a>  </td><td>171.7</td><td>7</td><td>5</td><td><a class="fs10" href="rider-in-race/alex-aranburu/ruta-de-la-ceramica-gran-premio-castellon">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>10101 km in <b>60</b> days | PCS points: <b>652</b> | UCI points: <b>977</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>11616 km in <b>68</b> days | PCS points: <b>754</b> | UCI points: <b>1167</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -382,7 +377,7 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w59 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l59"  style="height: 12px; line-height: 12px; " >652</div></div></td><td class="fs11 " >53</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w68 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l68"  style="height: 12px; line-height: 12px; " >754</div></div></td><td class="fs11 " >55</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >883</div></div></td><td class="fs11 " >42</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w73 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l73"  style="height: 12px; line-height: 12px; " >804</div></div></td><td class="fs11 " >56</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w49 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l49"  style="height: 12px; line-height: 12px; " >545</div></div></td><td class="fs11 " >90</td></tr>
@@ -390,9 +385,9 @@
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2020-12-31&filter=1&p=me&s=season-individual">2020</a></td><td><div class="valuebar"><div class="w30 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l30"  style="height: 12px; line-height: 12px; " >328</div></div></td><td class="fs11 " >110</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w32 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l32"  style="height: 12px; line-height: 12px; " >354</div></div></td><td class="fs11 " >187</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2018-12-31&filter=1&p=me&s=season-individual">2018</a></td><td><div class="valuebar"><div class="w23 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l23"  style="height: 12px; line-height: 12px; " >257</div></div></td><td class="fs11 " >254</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2017-12-31&filter=1&p=me&s=season-individual">2017</a></td><td><div class="valuebar"><div class="w5 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l5"  style="height: 12px; line-height: 12px; " >53</div></div></td><td class="fs11 " >911</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2017-12-31&filter=1&p=me&s=season-individual">2017</a></td><td><div class="valuebar"><div class="w5 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l5"  style="height: 12px; line-height: 12px; " >53</div></div></td><td class="fs11 " >910</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2016-12-31&filter=1&p=me&s=season-individual">2016</a></td><td><div class="valuebar"><div class="w2 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l2"  style="height: 12px; line-height: 12px; " >19</div></div></td><td class="fs11 " >1389</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2015-12-31&filter=1&p=me&s=season-individual">2015</a></td><td><div class="valuebar"><div class="w0 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l0"  style="height: 12px; line-height: 12px; " >2</div></div></td><td class="fs11 " >2496</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2015-12-31&filter=1&p=me&s=season-individual">2015</a></td><td><div class="valuebar"><div class="w0 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l0"  style="height: 12px; line-height: 12px; " >2</div></div></td><td class="fs11 " >2495</td></tr>
 </tbody></table></div>
 <div class="mt20">
 <h4>H2H Suggestions</h4><ul class="list" >
@@ -469,9 +464,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1159s</span></li>
+<li><span>Pageload 0.0934s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 182127;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>
