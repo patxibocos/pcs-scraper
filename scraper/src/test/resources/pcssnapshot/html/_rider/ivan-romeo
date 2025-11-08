@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=aa77c535c4622b516bea0cdb9ef2bd48907e6abe16e90e6222ead150d63213a0">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/ivan-romeo/start">Overview</a></span>
 <span><a class="" href="rider/ivan-romeo/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/ivan-romeo/statistics/overview">Overview</a></li>
 <li><a href="rider/ivan-romeo/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/ivan-romeo/statistics/key-events">Key events</a></li>
+<li><a href="rider/ivan-romeo/statistics/badges">Badges</a></li>
 <li><a href="rider/ivan-romeo/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/ivan-romeo/statistics/wins">Wins</a></li>
 <li><a href="rider/ivan-romeo/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -180,12 +171,12 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w32 bg green left" ></div></div></div><div class="xvalue ac" >161</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/career-points-one-day-races">Onedayraces</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w73 bg red left" ></div></div></div><div class="xvalue ac" >373</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/career-points-gc">GC</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg blue left" ></div></div></div><div class="xvalue ac" >508</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w11 bg orange left" ></div></div></div><div class="xvalue ac" >55</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w40 bg purple left" ></div></div></div><div class="xvalue ac" >204</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w39 bg pink left" ></div></div></div><div class="xvalue ac" >196</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w30 bg green2 left" ></div></div></div><div class="xvalue ac" >166</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w67 bg red left" ></div></div></div><div class="xvalue ac" >373</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/career-points-gc">GC</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg blue left" ></div></div></div><div class="xvalue ac" >558</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/career-points-time-trial">TT</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w10 bg orange left" ></div></div></div><div class="xvalue ac" >55</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w37 bg purple1 left" ></div></div></div><div class="xvalue ac" >204</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w35 bg pink left" ></div></div></div><div class="xvalue ac" >196</div><div class="xtitle" ><a  href="rider/ivan-romeo/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -203,13 +194,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >109</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >113</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >123</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >117</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;1075</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;99</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -270,13 +261,18 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="261360" /><input type="hidden" id="seo" value="ivan-romeo" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="261360" /><input type="hidden" id="seo" value="ivan-romeo" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2021"  href="">2021</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>07.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/tre-valli-varesine/2025/result"><span>Tre Valli Varesine</span> (1.Pro)</a>  </td><td>200.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/ivan-romeo/tre-valli-varesine">more</a></td></tr>
+<tr class="main"><td>06.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/coppa-bernocchi/2025/result"><span>Coppa Bernocchi - GP Banco BPM</span> (1.Pro)</a>  </td><td>191.6</td><td></td><td></td><td><a class="fs10" href="rider-in-race/ivan-romeo/coppa-bernocchi">more</a></td></tr>
+<tr class="main"><td>28.09</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag rw"></span> <a href="race/world-championship/2025/result"><span>World Championships ME - Road Race</span> (WC)</a>  </td><td>267.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/ivan-romeo/world-championship">more</a></td></tr>
+<tr class="main"><td>24.09</td><td>6</td><td></td><td><span class="iconv3 chrono"></span></td><td><span class="flag rw"></span> <a href="race/world-championship-mixed-relay-ttt/2025/result"><span>World Championships - Mixed Relay TTT</span> (WC)</a>  </td><td>41.8</td><td></td><td>33.33</td><td><a class="fs10" href="rider-in-race/ivan-romeo/world-championship-mixed-relay-ttt">more</a></td></tr>
+<tr class="main"><td>21.09</td><td>11</td><td></td><td><span class="iconv3 chrono"></span></td><td><span class="flag rw"></span> <a href="race/world-championship-itt/2025/result"><span>World Championships ME - ITT</span> (WC)</a>  </td><td>40.6</td><td>40</td><td>55</td><td><a class="fs10" href="rider-in-race/ivan-romeo/world-championship-itt">more</a></td></tr>
 <tr class="main"><td>31.08</td><td>56</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/bretagne-classic/2025/result"><span>Bretagne Classic - Ouest-France</span> (1.UWT)</a>  </td><td>261.7</td><td>5</td><td>2</td><td><a class="fs10" href="rider-in-race/ivan-romeo/bretagne-classic">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">20.08 &rsaquo; 24.08</span><span class="showIfMobile fs12">20-24/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag de"></span> <a href="race/deutschland-tour/2025/prologue-gc"><span>Lidl Deutschland Tour</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/ivan-romeo/deutschland-tour">more</a></td></tr>
 <tr class="stage"><td></td><td>7</td><td></td><td><span class="icon shirt w14 st6"></span></td><td><a href="race/deutschland-tour/2025/youth"><span class="imob">Youth classification</span><span class="idesk">Youth classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
@@ -372,7 +368,7 @@
 <tr class="stage"><td>07.02</td><td>1</td><td>6</td><td><span class=""></span></td><td><a href="race/vuelta-a-la-comunidad-valenciana/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Algemesí &rsaquo; Alpuente</a>  </td><td>180.3</td><td>30</td><td>20</td><td></td></tr>
 <tr class="stage"><td>06.02</td><td>10</td><td>9</td><td><span class=""></span></td><td><a href="race/vuelta-a-la-comunidad-valenciana/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - La Nucía &rsaquo; Benifato (Font de Partegat)</a>  </td><td>166</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>05.02</td><td>6</td><td>25</td><td><span class="iconv3 chrono"></span></td><td><a href="race/vuelta-a-la-comunidad-valenciana/2025/stage-1"><span class="imob">S1 (TTT)</span><span class="idesk">Stage 1 (TTT)</span> - Orihuela &rsaquo; Orihuela</a>  </td><td>34.3</td><td></td><td></td><td></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>9460 km in <b>65</b> days | PCS points: <b>451</b> | UCI points: <b>634.71</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>9851 km in <b>70</b> days | PCS points: <b>491</b> | UCI points: <b>723.04</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -387,10 +383,10 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >451</div></div></td><td class="fs11 " >98</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w31 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l31"  style="height: 12px; line-height: 12px; " >177</div></div></td><td class="fs11 " >359</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w18 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l18"  style="height: 12px; line-height: 12px; " >99</div></div></td><td class="fs11 " >555</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w2 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l2"  style="height: 12px; line-height: 12px; " >9</div></div></td><td class="fs11 " >1594</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >491</div></div></td><td class="fs11 " >117</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w29 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l29"  style="height: 12px; line-height: 12px; " >177</div></div></td><td class="fs11 " >359</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w16 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l16"  style="height: 12px; line-height: 12px; " >99</div></div></td><td class="fs11 " >555</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w1 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l1"  style="height: 12px; line-height: 12px; " >9</div></div></td><td class="fs11 " >1594</td></tr>
 </tbody></table></div>
 <div class="mt20">
 <h4>Family</h4><ul class="list" >
@@ -472,9 +468,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0895s</span></li>
+<li><span>Pageload 0.0808s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 261360;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

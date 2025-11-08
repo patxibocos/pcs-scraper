@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=dc85216f45d088f259d7916b58a49c8180c17cb7bce0d97d57e5f89ea9b86a1c">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/adam-mitchell1/start">Overview</a></span>
 <span><a class="" href="rider/adam-mitchell1/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/adam-mitchell1/statistics/overview">Overview</a></li>
 <li><a href="rider/adam-mitchell1/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/adam-mitchell1/statistics/key-events">Key events</a></li>
+<li><a href="rider/adam-mitchell1/statistics/badges">Badges</a></li>
 <li><a href="rider/adam-mitchell1/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/adam-mitchell1/statistics/wins">Wins</a></li>
 <li><a href="rider/adam-mitchell1/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -143,11 +134,6 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
-<div class="">
-<ul class="list fs14" >
-<li class=""><div>GP de Fourmies / La Voix du Nord</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="race/gp-de-fourmies/2025/result/live">LiveStats</a></div><div class="blue mr10" ><a  href="rider-in-race/adam-mitchell1/gp-de-fourmies/2025">Race stats</a></div><div class="blue" ><a  href="race/gp-de-fourmies/2025/startlist">Startlist</a></div></li>
-</ul>
-</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -180,11 +166,11 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg green left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/adam-mitchell1/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg green2 left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/adam-mitchell1/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w60 bg red left" ></div></div></div><div class="xvalue ac" >6</div><div class="xtitle" ><a  href="rider/adam-mitchell1/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg blue left" ></div></div></div><div class="xvalue ac" >10</div><div class="xtitle" ><a  href="rider/adam-mitchell1/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w70 bg orange left" ></div></div></div><div class="xvalue ac" >7</div><div class="xtitle" ><a  href="rider/adam-mitchell1/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w80 bg purple left" ></div></div></div><div class="xvalue ac" >8</div><div class="xtitle" ><a  href="rider/adam-mitchell1/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w80 bg purple1 left" ></div></div></div><div class="xvalue ac" >8</div><div class="xtitle" ><a  href="rider/adam-mitchell1/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w30 bg pink left" ></div></div></div><div class="xvalue ac" >3</div><div class="xtitle" ><a  href="rider/adam-mitchell1/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -200,7 +186,7 @@
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;192</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;23</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -243,9 +229,10 @@
 </ul></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >14.09</div><div class="ellipsis" ><span class="flag fr"></span> <a  href="race/gp-de-fourmies/2025/startlist">GP de Fourmies / La Voix du Nord</a></div><div class="blue fs10" ><a  href="rider-in-race/adam-mitchell1/gp-de-fourmies">more</a></div></li>
-<li class=""><div class="bold mr5" >28.09</div><div class="ellipsis" ><span class="flag my"></span> <a  href="race/tour-de-langkawi/2025/startlist">Petronas Le Tour de Langkawi</a></div><div class="blue fs10" ><a  href="rider-in-race/adam-mitchell1/tour-de-langkawi">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -256,15 +243,27 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="244333" /><input type="hidden" id="seo" value="adam-mitchell1" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="244333" /><input type="hidden" id="seo" value="adam-mitchell1" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2019"  href="">2019</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td><span class="hideIfMobile">28.09 &rsaquo; 05.10</span><span class="showIfMobile fs12">28-5/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag my"></span> <a href="race/tour-de-langkawi/2025/stage-7-gc"><span>Petronas Le Tour de Langkawi</span> (2.Pro)</a>  <div class="blue fs10">Team TotalEnergies</div></td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/tour-de-langkawi">more</a></td></tr>
+<tr class="stage"><td></td><td>65</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-langkawi/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>05.10</td><td>92</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Tangkak &rsaquo; Kuala Lumpur</a>  </td><td>180.2</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>04.10</td><td>85</td><td>54</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Melaka &rsaquo; Medini</a>  </td><td>214.9</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>03.10</td><td>97</td><td>55</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Shah Alam &rsaquo; Port Dickson</a>  </td><td>123.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>02.10</td><td>66</td><td>59</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Temerloh &rsaquo; Fraser's Hill</a>  </td><td>123.1</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>01.10</td><td>79</td><td>65</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Kuala Terengganu &rsaquo; Kemaman</a>  </td><td>141.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>30.09</td><td>72</td><td>67</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Gerik &rsaquo; Pasir Puteh</a>  </td><td>198.2</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>29.09</td><td>121</td><td>102</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Padang Besar &rsaquo; Kepala Batas</a>  </td><td>162.8</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>28.09</td><td>87</td><td>89</td><td><span class=""></span></td><td><a href="race/tour-de-langkawi/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Langkawi (Kuah) &rsaquo; Langkawi (Kuah)</a>  </td><td>96.7</td><td></td><td></td><td></td></tr>
+<tr class="main"><td>21.09</td><td>91</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/tour-de-rhuys/2025/result"><span>Tour de Rhuys</span> (NAT)</a>  </td><td>159.4</td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/tour-de-rhuys">more</a></td></tr>
+<tr class="main"><td>14.09</td><td>102</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/gp-de-fourmies/2025/result"><span>GP de Fourmies / La Voix du Nord</span> (1.Pro)</a>  <div class="blue fs10">Team TotalEnergies</div></td><td>193</td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/gp-de-fourmies">more</a></td></tr>
 <tr class="main"><td>08.09</td><td>13</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/grand-prix-de-fougeres/2025/result"><span>Grand Prix de Fougères</span> (NAT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/grand-prix-de-fougeres">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">04.09 &rsaquo; 07.09</span><span class="showIfMobile fs12">4-7/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-istanbul/2025/stage-3-gc"><span>Tour of İstanbul</span> (2.1)</a>  <div class="blue fs10">Team TotalEnergies</div></td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/tour-of-istanbul">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">04.09 &rsaquo; 07.09</span><span class="showIfMobile fs12">4-7/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-istanbul/2025/stage-1-gc"><span>Tour of İstanbul</span> (2.1)</a>  <div class="blue fs10">Team TotalEnergies</div></td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/tour-of-istanbul">more</a></td></tr>
 <tr class="stage"><td></td><td>47</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-istanbul/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>07.09</td><td>86</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-istanbul/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Fatih &rsaquo; Fatih</a>  </td><td>94.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>06.09</td><td>79</td><td>44</td><td><span class=""></span></td><td><a href="race/tour-of-istanbul/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Arnavutköy &rsaquo; Arnavutköy</a>  </td><td>104.2</td><td></td><td></td><td></td></tr>
@@ -277,7 +276,7 @@
 <tr class="stage"><td>24.08</td><td>6</td><td></td><td><span class="iconv3 chrono"></span></td><td><a href="national-race/saint-brieuc-agglo-tour/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Pordic &rsaquo; Pordic</a>  </td><td>9.1</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>23.08</td><td>34</td><td></td><td><span class=""></span></td><td><a href="national-race/saint-brieuc-agglo-tour/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Langueux &rsaquo; Plédran</a>  </td><td>153.1</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>18.08</td><td>63</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/circuit-des-2-provinces-le-pertre32/2025/result"><span>Circuit des 2 Provinces-Le Pertre</span> (NAT)</a>  </td><td>155</td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/circuit-des-2-provinces-le-pertre32">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">30.07 &rsaquo; 03.08</span><span class="showIfMobile fs12">30-3/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-alsace/2025/stage-1-gc"><span>Tour Alsace</span> (2.2)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/tour-alsace">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">30.07 &rsaquo; 03.08</span><span class="showIfMobile fs12">30-3/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-alsace/2025/stage-2-gc"><span>Tour Alsace</span> (2.2)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/tour-alsace">more</a></td></tr>
 <tr class="stage"><td>02.08</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/tour-alsace/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Ferrette &rsaquo; Altkirch</a>  </td><td>133.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>01.08</td><td>142</td><td>136</td><td><span class=""></span></td><td><a href="race/tour-alsace/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Velleminfroy &rsaquo; La Planche des Belles Filles</a>  </td><td>141.4</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>31.07</td><td>111</td><td>53</td><td><span class=""></span></td><td><a href="race/tour-alsace/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Rust (Europa-Park) &rsaquo; Sélestat</a>  </td><td>152.7</td><td></td><td></td><td></td></tr>
@@ -300,7 +299,7 @@
 <tr class="stage"><td>14.06</td><td>4</td><td></td><td><span class=""></span></td><td><a href="national-race/tour-du-beaujolais/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Denicé &rsaquo; Lacenas</a>  </td><td>167.4</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>13.06</td><td>26</td><td></td><td><span class=""></span></td><td><a href="national-race/tour-du-beaujolais/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Thizy-les-Bourgs &rsaquo; Thizy-les-Bourgs</a>  </td><td>130.8</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>09.06</td><td>97</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-troyes/2025/result"><span>Paris - Troyes</span> (1.2)</a>  </td><td>180</td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/paris-troyes">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">28.05 &rsaquo; 01.06</span><span class="showIfMobile fs12">28-1/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag lu"></span> <a href="race/fleche-du-sud/2025/stage-0-gc"><span>Flèche du Sud</span> (2.2)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/fleche-du-sud">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">28.05 &rsaquo; 01.06</span><span class="showIfMobile fs12">28-1/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag lu"></span> <a href="race/fleche-du-sud/2025/stage-2-gc"><span>Flèche du Sud</span> (2.2)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/fleche-du-sud">more</a></td></tr>
 <tr class="stage"><td>31.05</td><td>DNS</td><td></td><td><span class=""></span></td><td><a href="race/fleche-du-sud/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Canach &rsaquo; Canach</a>  </td><td>195.4</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>30.05</td><td>38</td><td>31</td><td><span class=""></span></td><td><a href="race/fleche-du-sud/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Sanem &rsaquo; Sanem</a>  </td><td>160.2</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>29.05</td><td>59</td><td>34</td><td><span class=""></span></td><td><a href="race/fleche-du-sud/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Rumelange &rsaquo; Rumelange</a>  </td><td>151.2</td><td></td><td></td><td></td></tr>
@@ -321,7 +320,7 @@
 <tr class="main"><td>08.02</td><td>73</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/ronde-du-pays-basque/2025/result"><span>Ronde du Pays Basque</span> (NAT)</a>  </td><td>94</td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/ronde-du-pays-basque">more</a></td></tr>
 <tr class="main"><td>02.02</td><td>10</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/circuit-de-l-essor/2025/result"><span>Circuit de l'Essor</span> (NAT)</a>  </td><td>110</td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/circuit-de-l-essor">more</a></td></tr>
 <tr class="main"><td>01.02</td><td>6</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/boucles-de-l-essor/2025/result"><span>Boucles de l'Essor</span> (NAT)</a>  </td><td>114.1</td><td></td><td></td><td><a class="fs10" href="rider-in-race/adam-mitchell1/boucles-de-l-essor">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>5251 km in <b>44</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>6845 km in <b>54</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -404,9 +403,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0478s</span></li>
+<li><span>Pageload 0.0570s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 244333;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

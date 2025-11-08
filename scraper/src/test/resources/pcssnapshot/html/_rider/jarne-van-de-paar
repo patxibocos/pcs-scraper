@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=4df229602a8629175a18567a71c5c0610e44bda58a3aaa730d138bff9cc46f49">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/jarne-van-de-paar/start">Overview</a></span>
 <span><a class="" href="rider/jarne-van-de-paar/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/jarne-van-de-paar/statistics/overview">Overview</a></li>
 <li><a href="rider/jarne-van-de-paar/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/jarne-van-de-paar/statistics/key-events">Key events</a></li>
+<li><a href="rider/jarne-van-de-paar/statistics/badges">Badges</a></li>
 <li><a href="rider/jarne-van-de-paar/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/jarne-van-de-paar/statistics/wins">Wins</a></li>
 <li><a href="rider/jarne-van-de-paar/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -157,7 +148,7 @@
 </div>
 <div class="">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >23rd</div><div class="mr3" >October</div><div class="mr3" >2000</div><div>(</div><div>24</div><div>)</div></li>
+<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >23rd</div><div class="mr3" >October</div><div class="mr3" >2000</div><div>(</div><div>25</div><div>)</div></li>
 </ul>
 </div>
 <div class="">
@@ -180,11 +171,11 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w44 bg green left" ></div></div></div><div class="xvalue ac" >275</div><div class="xtitle" ><a  href="rider/jarne-van-de-paar/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w44 bg green2 left" ></div></div></div><div class="xvalue ac" >275</div><div class="xtitle" ><a  href="rider/jarne-van-de-paar/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w19 bg red left" ></div></div></div><div class="xvalue ac" >117</div><div class="xtitle" ><a  href="rider/jarne-van-de-paar/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg blue left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/jarne-van-de-paar/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >622</div><div class="xtitle" ><a  href="rider/jarne-van-de-paar/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg purple left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/jarne-van-de-paar/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg purple1 left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/jarne-van-de-paar/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w3 bg pink left" ></div></div></div><div class="xvalue ac" >20</div><div class="xtitle" ><a  href="rider/jarne-van-de-paar/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -202,7 +193,7 @@
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;37</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;38</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -264,7 +255,7 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="208282" /><input type="hidden" id="seo" value="jarne-van-de-paar" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="208282" /><input type="hidden" id="seo" value="jarne-van-de-paar" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -274,10 +265,11 @@
 <li class=""><a class="rdrFilterSeason" data-season="2018"  href="">2018</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2017"  href="">2017</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>14.10</td><td>103</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="national-race/nationale-sluitingsprijs-putte-kapellen/2025/result"><span>Sluitingsprijs Putte-Kapellen</span> (NAT)</a>  </td><td>149.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/jarne-van-de-paar/nationale-sluitingsprijs-putte-kapellen">more</a></td></tr>
 <tr class="main"><td>18.05</td><td>101</td><td></td><td><span class=""></span></td><td><span class="flag nl"></span> <a href="race/omloop-der-kempen/2025/result"><span>VDL Groep Omloop der Kempen</span> (1.2)</a>  <div class="blue fs10">Lotto Development Team</div></td><td>182.9</td><td></td><td></td><td><a class="fs10" href="rider-in-race/jarne-van-de-paar/omloop-der-kempen">more</a></td></tr>
 <tr class="main"><td>13.05</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/classique-dunkerque/2025/result"><span>Classique Dunkerque / Grand prix des Hauts de France</span> (1.Pro)</a>  </td><td>193.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/jarne-van-de-paar/classique-dunkerque">more</a></td></tr>
 <tr class="main"><td>04.05</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/famenne-ardenne-classic/2025/result"><span>Lotto Famenne Ardenne Classic</span> (1.1)</a>  </td><td>186.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/jarne-van-de-paar/famenne-ardenne-classic">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>373 km in <b>3</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>523 km in <b>4</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -296,7 +288,7 @@
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >237</div></div></td><td class="fs11 " >276</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w0 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l0"  style="height: 12px; line-height: 12px; " >1</div></div></td><td class="fs11 " >2414</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2020-12-31&filter=1&p=me&s=season-individual">2020</a></td><td><div class="valuebar"><div class="w6 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l6"  style="height: 12px; line-height: 12px; " >17</div></div></td><td class="fs11 " >941</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w6 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l6"  style="height: 12px; line-height: 12px; " >17</div></div></td><td class="fs11 " >1433</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w6 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l6"  style="height: 12px; line-height: 12px; " >17</div></div></td><td class="fs11 " >1432</td></tr>
 </tbody></table></div>
 <div class="mt20">
 <h4>Family</h4><ul class="list" >
@@ -369,9 +361,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0507s</span></li>
+<li><span>Pageload 0.0681s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 208282;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

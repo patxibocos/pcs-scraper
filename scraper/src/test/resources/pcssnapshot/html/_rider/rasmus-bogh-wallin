@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=a618bcc0084be10ce28ebb3f6e37fc6efb0205111dc1cfca85f15d06b92efc87">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/rasmus-bogh-wallin/start">Overview</a></span>
 <span><a class="" href="rider/rasmus-bogh-wallin/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/rasmus-bogh-wallin/statistics/overview">Overview</a></li>
 <li><a href="rider/rasmus-bogh-wallin/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/rasmus-bogh-wallin/statistics/key-events">Key events</a></li>
+<li><a href="rider/rasmus-bogh-wallin/statistics/badges">Badges</a></li>
 <li><a href="rider/rasmus-bogh-wallin/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/rasmus-bogh-wallin/statistics/wins">Wins</a></li>
 <li><a href="rider/rasmus-bogh-wallin/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -143,11 +134,6 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
-<div class="">
-<ul class="list fs14" >
-<li class=""><div>GP de Fourmies / La Voix du Nord</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="race/gp-de-fourmies/2025/result/live">LiveStats</a></div><div class="blue mr10" ><a  href="rider-in-race/rasmus-bogh-wallin/gp-de-fourmies/2025">Race stats</a></div><div class="blue" ><a  href="race/gp-de-fourmies/2025/startlist">Startlist</a></div></li>
-</ul>
-</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -185,11 +171,11 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w66 bg green left" ></div></div></div><div class="xvalue ac" >310</div><div class="xtitle" ><a  href="rider/rasmus-bogh-wallin/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w66 bg green2 left" ></div></div></div><div class="xvalue ac" >310</div><div class="xtitle" ><a  href="rider/rasmus-bogh-wallin/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w32 bg red left" ></div></div></div><div class="xvalue ac" >149</div><div class="xtitle" ><a  href="rider/rasmus-bogh-wallin/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w9 bg blue left" ></div></div></div><div class="xvalue ac" >41</div><div class="xtitle" ><a  href="rider/rasmus-bogh-wallin/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >468</div><div class="xtitle" ><a  href="rider/rasmus-bogh-wallin/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w1 bg purple left" ></div></div></div><div class="xvalue ac" >5</div><div class="xtitle" ><a  href="rider/rasmus-bogh-wallin/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w1 bg purple1 left" ></div></div></div><div class="xvalue ac" >5</div><div class="xtitle" ><a  href="rider/rasmus-bogh-wallin/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w9 bg pink left" ></div></div></div><div class="xvalue ac" >42</div><div class="xtitle" ><a  href="rider/rasmus-bogh-wallin/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -207,13 +193,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >728</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >733</div></li>
 <li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >684</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;185</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;263</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -248,10 +234,11 @@
 <div class="">
 <span class="table-cont">
 <ul class="rdr-teams2  "  >
+<li class="main  "><div class="season">2026</div><div class="name"><a href="team/team-cranks-2026">Team Cranks</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2025</div><div class="name"><a href="team/uno-x-mobility-2025">Uno-X Mobility</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2024</div><div class="name"><a href="team/uno-x-mobility-2024">Uno-X Mobility</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2023</div><div class="name"><a href="team/restaurant-suri-carl-ras-2023">Restaurant Suri - Carl Ras</a> (CT)<span class="fs10 "></span></div><div class="clear"></div></li>
-<li class="main  "><div class="season">2022</div><div class="name"><a href="team/restaurant-suri-carl-ras-2022">Restaurant Suri - Carl Ras</a> (CT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main  old"><div class="season">2022</div><div class="name"><a href="team/restaurant-suri-carl-ras-2022">Restaurant Suri - Carl Ras</a> (CT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  old"><div class="season">2021</div><div class="name"><a href="team/team-co-play-giant-2021">Team CO:PLAY-Giant</a> (CLUB)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  old"><div class="season">2020</div><div class="name"><a href="team/team-synch-giant-2020">Team Synch - Giant</a> (CLUB)<span class="fs10 "> as from 11/08</span></div><div class="clear"></div></li>
 <li class="main  old"><div class="season">2020</div><div class="name"><a href="team/riwal-securitas-cycling-team-2020">Riwal Securitas Cycling Team</a> (PRT)<span class="fs10 "> until 11/08</span></div><div class="clear"></div></li>
@@ -265,10 +252,10 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >14.09</div><div class="ellipsis" ><span class="flag fr"></span> <a  href="race/gp-de-fourmies/2025/startlist">GP de Fourmies / La Voix du Nord</a></div><div class="blue fs10" ><a  href="rider-in-race/rasmus-bogh-wallin/gp-de-fourmies">more</a></div></li>
-<li class=""><div class="bold mr5" >19.09</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/kampioenschap-van-vlaanderen1/2025/startlist">Kampioenschap van Vlaanderen</a></div><div class="blue fs10" ><a  href="rider-in-race/rasmus-bogh-wallin/kampioenschap-van-vlaanderen1">more</a></div></li>
-<li class=""><div class="bold mr5" >24.09</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/omloop-van-het-houtland-lichtervelde/2025/startlist">Omloop van het Houtland</a></div><div class="blue fs10" ><a  href="rider-in-race/rasmus-bogh-wallin/omloop-van-het-houtland-lichtervelde">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -279,7 +266,7 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="189064" /><input type="hidden" id="seo" value="rasmus-bogh-wallin" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="189064" /><input type="hidden" id="seo" value="rasmus-bogh-wallin" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -293,13 +280,20 @@
 <li><a  class="rdrFilterSeason" data-season="2014" href="">2014</a></li>
 <li><a  class="rdrFilterSeason" data-season="2013" href="">2013</a></li>
 </ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>03.10</td><td>61</td><td></td><td><span class=""></span></td><td><span class="flag de"></span> <a href="race/munsterland-giro/2025/result"><span>Sparkassen Münsterland Giro</span> (1.Pro)</a> <span title="125 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>125k</span> </td><td>192</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/munsterland-giro">more</a></td></tr>
+<tr class="main"><td>28.09</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-chauny-classique/2025/result"><span>Paris-Chauny</span> (1.1)</a>  </td><td>188.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/paris-chauny-classique">more</a></td></tr>
+<tr class="main"><td>24.09</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/omloop-van-het-houtland-lichtervelde/2025/result"><span>Omloop van het Houtland</span> (1.1)</a>  </td><td>198.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/omloop-van-het-houtland-lichtervelde">more</a></td></tr>
+<tr class="main"><td>21.09</td><td>53</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/gooikse-pijl/2025/result"><span>Gooikse Pijl</span> (1.1)</a>  </td><td>195.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/gooikse-pijl">more</a></td></tr>
+<tr class="main"><td>19.09</td><td>45</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/kampioenschap-van-vlaanderen1/2025/result"><span>Kampioenschap van Vlaanderen</span> (1.1)</a>  </td><td>180.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/kampioenschap-van-vlaanderen1">more</a></td></tr>
+<tr class="main"><td>17.09</td><td>120</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/gp-de-wallonie/2025/result"><span>Grand Prix de Wallonie</span> (1.Pro)</a>  </td><td>187.1</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/gp-de-wallonie">more</a></td></tr>
+<tr class="main"><td>14.09</td><td>40</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/gp-de-fourmies/2025/result"><span>GP de Fourmies / La Voix du Nord</span> (1.Pro)</a>  </td><td>193</td><td></td><td>3</td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/gp-de-fourmies">more</a></td></tr>
 <tr class="main"><td>31.08</td><td>1</td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="national-race/fbl-fdm-sjællandsringen59/2025/result"><span>FBL - FDM Sjællandsringen</span> (NAT)</a>  </td><td>49</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/fbl-fdm-sjællandsringen59">more</a></td></tr>
 <tr class="main"><td>30.08</td><td>1</td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="national-race/gripgrab-lobet/2025/result"><span>GripGrab Løbet</span> (NAT)</a>  </td><td>112.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/gripgrab-lobet">more</a></td></tr>
 <tr class="main"><td>24.08</td><td>1</td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="national-race/roskilde-cr/2025/result"><span>Roskilde CR</span> (NAT)</a>  </td><td>132</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/roskilde-cr">more</a></td></tr>
 <tr class="main"><td>23.08</td><td>1</td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="national-race/sydbank-lobet-powered-by-cranks/2025/result"><span>Sydbank Løbet powered by Cranks</span> (NAT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/sydbank-lobet-powered-by-cranks">more</a></td></tr>
 <tr class="main"><td>18.08</td><td>2</td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="national-race/tour-de-charlottenlund/2025/result"><span>Tour de Charlottenlund</span> (NAT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/tour-de-charlottenlund">more</a></td></tr>
 <tr class="main"><td>17.08</td><td>8</td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="national-race/frederiksberg-criterium/2025/result"><span>Frederiksberg Criterium</span> (NAT)</a>  </td><td>67.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/frederiksberg-criterium">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">12.08 &rsaquo; 16.08</span><span class="showIfMobile fs12">12-16/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="race/tour-of-denmark/2025/stage-1-gc"><span>PostNord Tour of Denmark</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/tour-of-denmark">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">12.08 &rsaquo; 16.08</span><span class="showIfMobile fs12">12-16/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="race/tour-of-denmark/2025/stage-2-gc"><span>PostNord Tour of Denmark</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/tour-of-denmark">more</a></td></tr>
 <tr class="stage"><td></td><td>15</td><td></td><td><span class="icon shirt w14 st7"></span></td><td><a href="race/tour-of-denmark/2025/kom"><span class="imob">Mountains classification</span><span class="idesk">Mountains classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>95</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-denmark/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>16.08</td><td>64</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-denmark/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Hobro &rsaquo; Silkeborg</a>  </td><td>157.4</td><td></td><td></td><td></td></tr>
@@ -309,7 +303,7 @@
 <tr class="stage"><td>12.08</td><td>95</td><td>95</td><td><span class=""></span></td><td><a href="race/tour-of-denmark/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Nexø &rsaquo; Rønne</a>  </td><td>178.3</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>09.08</td><td>1</td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="national-race/herning-city-gadelobet/2025/result"><span>Herning City Gadeløbet</span> (NAT)</a>  </td><td>56</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/herning-city-gadelobet">more</a></td></tr>
 <tr class="main"><td>07.08</td><td>4</td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="national-race/hadsten-gadelob/2025/result"><span>Hadsten Gadeløb</span> (NAT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/hadsten-gadelob">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">26.07 &rsaquo; 30.07</span><span class="showIfMobile fs12">26-30/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/tour-de-wallonie/2025/stage-2-gc"><span>Ethias-Tour de Wallonie</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/tour-de-wallonie">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">26.07 &rsaquo; 30.07</span><span class="showIfMobile fs12">26-30/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/tour-de-wallonie/2025/stage-3-gc"><span>Ethias-Tour de Wallonie</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/tour-de-wallonie">more</a></td></tr>
 <tr class="stage"><td>29.07</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-wallonie/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Welkenraedt &rsaquo; Seraing</a>  </td><td>163.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>28.07</td><td>130</td><td>136</td><td><span class=""></span></td><td><a href="race/tour-de-wallonie/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Estinnes &rsaquo; Antoing</a> <span title="130 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>130k</span> </td><td>165.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>27.07</td><td>129</td><td>138</td><td><span class=""></span></td><td><a href="race/tour-de-wallonie/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Huy &rsaquo; Sambreville</a>  </td><td>153.1</td><td></td><td></td><td></td></tr>
@@ -319,7 +313,7 @@
 <tr class="main"><td>15.06</td><td>76</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/circuit-des-xi-villes/2025/result"><span>Elfstedenronde Brugge</span> (1.1)</a>  </td><td>196</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/circuit-des-xi-villes">more</a></td></tr>
 <tr class="main"><td>09.06</td><td>2</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/antwerp-port-epic/2025/result"><span>Antwerp Port Epic / Sels Trophy</span> (1.1)</a>  </td><td>182.2</td><td>55</td><td>85</td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/antwerp-port-epic">more</a></td></tr>
 <tr class="main"><td>07.06</td><td>124</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/heist-op-den-berg/2025/result"><span>Heylen Vastgoed Heistse Pijl</span> (1.1)</a>  </td><td>189.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/heist-op-den-berg">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">27.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">27-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-turkey/2025/stage-5-gc"><span>Presidential Cycling Tour of Turkiye</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/tour-of-turkey">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">27.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">27-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-turkey/2025/stage-7-gc"><span>Presidential Cycling Tour of Turkiye</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/tour-of-turkey">more</a></td></tr>
 <tr class="stage"><td></td><td>117</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-turkey/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>04.05</td><td>105</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Çeşme &rsaquo; İzmir (Karşıyaka)</a>  </td><td>105.7</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>03.05</td><td>33</td><td>117</td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Selçuk &rsaquo; Çeşme</a>  </td><td>144.2</td><td></td><td></td><td></td></tr>
@@ -346,14 +340,14 @@
 <tr class="stage"><td>09.02</td><td>97</td><td>106</td><td><span class=""></span></td><td><a href="race/tour-of-oman/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Al Rustaq Fort &rsaquo; Yitti Hills</a>  </td><td>202.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>08.02</td><td>115</td><td>116</td><td><span class=""></span></td><td><a href="race/tour-of-oman/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Bushar &rsaquo; Bimmah Sink Hole</a>  </td><td>177.7</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>07.02</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag om"></span> <a href="race/muscat-classic/2025/result"><span>Muscat Classic</span> (1.1)</a> <span title="127 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>127k</span> </td><td>170.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/muscat-classic">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">28.01 &rsaquo; 01.02</span><span class="showIfMobile fs12">28-1/1</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag sa"></span> <a href="race/alula-tour/2025/stage-4-gc"><span>AlUla Tour</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/alula-tour">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">28.01 &rsaquo; 01.02</span><span class="showIfMobile fs12">28-1/1</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag sa"></span> <a href="race/alula-tour/2025/stage-1-gc"><span>AlUla Tour</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/rasmus-bogh-wallin/alula-tour">more</a></td></tr>
 <tr class="stage"><td></td><td>79</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/alula-tour/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>01.02</td><td>70</td><td></td><td><span class=""></span></td><td><a href="race/alula-tour/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - AlUla Camel Cup Track &rsaquo; AlUla Camel Cup Track</a>  </td><td>169.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>31.01</td><td>82</td><td>83</td><td><span class=""></span></td><td><a href="race/alula-tour/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Maraya &rsaquo; Skyviews of Harrat Uwayrid</a>  </td><td>140.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>30.01</td><td>23</td><td>84</td><td><span class=""></span></td><td><a href="race/alula-tour/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Hegra &rsaquo; Tayma Fort</a>  </td><td>180.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>29.01</td><td>78</td><td>87</td><td><span class=""></span></td><td><a href="race/alula-tour/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - AlUla Old Town &rsaquo; Bir Jaydah Mountain Wirkah</a>  </td><td>130.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>28.01</td><td>95</td><td>96</td><td><span class=""></span></td><td><a href="race/alula-tour/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Al Manshiyah Train Station &rsaquo; Al Manshiyah Train Station</a>  </td><td>142.7</td><td></td><td></td><td></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>7285 km in <b>51</b> days | PCS points: <b>65</b> | UCI points: <b>91</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>8426 km in <b>58</b> days | PCS points: <b>65</b> | UCI points: <b>94</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -368,12 +362,12 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w26 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l26"  style="height: 12px; line-height: 12px; " >65</div></div></td><td class="fs11 " >610</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w26 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l26"  style="height: 12px; line-height: 12px; " >65</div></div></td><td class="fs11 " >683</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w15 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l15"  style="height: 12px; line-height: 12px; " >38</div></div></td><td class="fs11 " >896</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >201</div></div></td><td class="fs11 " >309</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w25 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l25"  style="height: 12px; line-height: 12px; " >64</div></div></td><td class="fs11 " >656</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w7 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l7"  style="height: 12px; line-height: 12px; " >17</div></div></td><td class="fs11 " >1145</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w8 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l8"  style="height: 12px; line-height: 12px; " >19</div></div></td><td class="fs11 " >1390</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w8 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l8"  style="height: 12px; line-height: 12px; " >19</div></div></td><td class="fs11 " >1389</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2018-12-31&filter=1&p=me&s=season-individual">2018</a></td><td><div class="valuebar"><div class="w31 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l31"  style="height: 12px; line-height: 12px; " >77</div></div></td><td class="fs11 " >735</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2017-12-31&filter=1&p=me&s=season-individual">2017</a></td><td><div class="valuebar"><div class="w11 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l11"  style="height: 12px; line-height: 12px; " >27</div></div></td><td class="fs11 " >1261</td></tr>
 </tbody></table></div>
@@ -443,9 +437,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0713s</span></li>
+<li><span>Pageload 0.0619s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 189064;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

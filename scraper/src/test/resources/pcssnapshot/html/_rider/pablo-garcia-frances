@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=7297e3e256b66cd5b3a0c5916a192150ec9b283bf976cc785e8e6d35a8ac3713">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/pablo-garcia-frances/start">Overview</a></span>
 <span><a class="" href="rider/pablo-garcia-frances/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/pablo-garcia-frances/statistics/overview">Overview</a></li>
 <li><a href="rider/pablo-garcia-frances/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/pablo-garcia-frances/statistics/key-events">Key events</a></li>
+<li><a href="rider/pablo-garcia-frances/statistics/badges">Badges</a></li>
 <li><a href="rider/pablo-garcia-frances/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/pablo-garcia-frances/statistics/wins">Wins</a></li>
 <li><a href="rider/pablo-garcia-frances/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -180,11 +171,11 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg green left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/pablo-garcia-frances/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg green2 left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/pablo-garcia-frances/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg red left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/pablo-garcia-frances/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg blue left" ></div></div></div><div class="xvalue ac" >9</div><div class="xtitle" ><a  href="rider/pablo-garcia-frances/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg orange left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/pablo-garcia-frances/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w44 bg purple left" ></div></div></div><div class="xvalue ac" >4</div><div class="xtitle" ><a  href="rider/pablo-garcia-frances/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w44 bg purple1 left" ></div></div></div><div class="xvalue ac" >4</div><div class="xtitle" ><a  href="rider/pablo-garcia-frances/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg pink left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/pablo-garcia-frances/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -200,7 +191,7 @@
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;139</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;17</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -245,8 +236,10 @@
 </ul></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >30.09</div><div class="ellipsis" ><span class="flag hr"></span> <a  href="race/tour-of-croatia/2025/startlist">CRO Race</a></div><div class="blue fs10" ><a  href="rider-in-race/pablo-garcia-frances/tour-of-croatia">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -257,7 +250,7 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="241668" /><input type="hidden" id="seo" value="pablo-garcia-frances" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="241668" /><input type="hidden" id="seo" value="pablo-garcia-frances" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -265,6 +258,10 @@
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2019"  href="">2019</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>12.10</td><td>74</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/trofeo-baracchi/2025/result"><span>Trofeo Tessile & Moda - Valdengo Oropa</span> (1.1)</a>  </td><td>170.9</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/trofeo-baracchi">more</a></td></tr>
+<tr class="main"><td>09.10</td><td>79</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/gran-piemonte/2025/result"><span>Gran Piemonte</span> (1.Pro)</a>  </td><td>179</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/gran-piemonte">more</a></td></tr>
+<tr class="main"><td>05.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/coppa-agostoni/2025/result"><span>Coppa Agostoni - Giro delle Brianze</span> (1.1)</a>  </td><td>166.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/coppa-agostoni">more</a></td></tr>
+<tr class="main"><td>04.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-dell-emilia/2025/result"><span>Giro dell'Emilia</span> (1.Pro)</a> <span title="105 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>105k</span> </td><td>199.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/giro-dell-emilia">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">04.09 &rsaquo; 07.09</span><span class="showIfMobile fs12">4-7/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/giro-della-regione-friuli-venezia-giulia/2025/stage-3-gc"><span>Giro della Regione Friuli Venezia Giulia</span> (2.2)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/giro-della-regione-friuli-venezia-giulia">more</a></td></tr>
 <tr class="stage"><td></td><td>97</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/giro-della-regione-friuli-venezia-giulia/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>07.09</td><td>73</td><td></td><td><span class=""></span></td><td><a href="race/giro-della-regione-friuli-venezia-giulia/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Cervignano del Friuli &rsaquo; San Daniele del Friuli</a>  </td><td>151</td><td></td><td></td><td></td></tr>
@@ -288,7 +285,7 @@
 <tr class="stage"><td>19.06</td><td>120</td><td>120</td><td><span class=""></span></td><td><a href="race/la-route-d-occitanie/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Gignac Vallée de L'Herault &rsaquo; Carmaux Ségala</a> <span title="178 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>178k</span> </td><td>195.8</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>18.06</td><td>59</td><td>59</td><td><span class="iconv3 chrono"></span></td><td><a href="race/la-route-d-occitanie/2025/stage-1"><span class="imob">S1 (ITT)</span><span class="idesk">Stage 1 (ITT)</span> - Saint-Affrique &rsaquo; Roquefort-sur-Soulzon</a>  </td><td>10.5</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>26.05</td><td>28</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/mercan-tour-classic-alpes-maritimes/2025/result"><span>Mercan'Tour Classic Alpes-Maritimes</span> (1.1)</a>  </td><td>152</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/mercan-tour-classic-alpes-maritimes">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">27.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">27-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-turkey/2025/stage-7-gc"><span>Presidential Cycling Tour of Turkiye</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/tour-of-turkey">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">27.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">27-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag tr"></span> <a href="race/tour-of-turkey/2025/stage-5-gc"><span>Presidential Cycling Tour of Turkiye</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/tour-of-turkey">more</a></td></tr>
 <tr class="stage"><td></td><td>81</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-turkey/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>04.05</td><td>133</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Çeşme &rsaquo; İzmir (Karşıyaka)</a>  </td><td>105.7</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>03.05</td><td>119</td><td>78</td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Selçuk &rsaquo; Çeşme</a>  </td><td>144.2</td><td></td><td></td><td></td></tr>
@@ -297,7 +294,7 @@
 <tr class="stage"><td>29.04</td><td>156</td><td>90</td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Fethiye &rsaquo; Marmaris</a>  </td><td>175.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>28.04</td><td>72</td><td>72</td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Kemer &rsaquo; Kalkan</a>  </td><td>167.4</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>27.04</td><td>150</td><td>150</td><td><span class=""></span></td><td><a href="race/tour-of-turkey/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Antalya &rsaquo; Antalya</a>  </td><td>132</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">07.04 &rsaquo; 11.04</span><span class="showIfMobile fs12">7-11/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cn"></span> <a href="race/tour-of-hainan/2025/stage-1-gc"><span>Tour of Hainan</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/tour-of-hainan">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">07.04 &rsaquo; 11.04</span><span class="showIfMobile fs12">7-11/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cn"></span> <a href="race/tour-of-hainan/2025/stage-4-gc"><span>Tour of Hainan</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/tour-of-hainan">more</a></td></tr>
 <tr class="stage"><td>11.04</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-hainan/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Changjiang &rsaquo; Sanya</a>  </td><td>182.8</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>10.04</td><td>94</td><td>66</td><td><span class=""></span></td><td><a href="race/tour-of-hainan/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Baoting &rsaquo; Dongfang</a>  </td><td>190.8</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>09.04</td><td>51</td><td>51</td><td><span class=""></span></td><td><a href="race/tour-of-hainan/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Lingshui &rsaquo; Baoting</a>  </td><td>212.6</td><td></td><td></td><td></td></tr>
@@ -310,7 +307,7 @@
 <tr class="main"><td>19.03</td><td>41</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/milano-torino/2025/result"><span>Milano - Torino</span> (1.Pro)</a>  </td><td>174</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/milano-torino">more</a></td></tr>
 <tr class="main"><td>26.01</td><td>93</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/gp-de-valence/2025/result"><span>Clàssica Comunitat Valenciana 1969 - Gran Premi València</span> (1.1)</a>  </td><td>184</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/gp-de-valence">more</a></td></tr>
 <tr class="main"><td>24.01</td><td>87</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/classica-camp-de-morvedre/2025/result"><span>Classica Camp de Morvedre</span> (1.2)</a>  </td><td>178.1</td><td></td><td></td><td><a class="fs10" href="rider-in-race/pablo-garcia-frances/classica-camp-de-morvedre">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>4726 km in <b>36</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>5259 km in <b>40</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -385,9 +382,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0569s</span></li>
+<li><span>Pageload 0.0529s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 241668;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

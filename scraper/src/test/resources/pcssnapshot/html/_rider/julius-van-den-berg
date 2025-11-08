@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=7b3fd7c67f1626aed6501d845022e534e0957799cb55cc347e56d751890a931b">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/julius-van-den-berg/start">Overview</a></span>
 <span><a class="" href="rider/julius-van-den-berg/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/julius-van-den-berg/statistics/overview">Overview</a></li>
 <li><a href="rider/julius-van-den-berg/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/julius-van-den-berg/statistics/key-events">Key events</a></li>
+<li><a href="rider/julius-van-den-berg/statistics/badges">Badges</a></li>
 <li><a href="rider/julius-van-den-berg/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/julius-van-den-berg/statistics/wins">Wins</a></li>
 <li><a href="rider/julius-van-den-berg/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -152,12 +143,12 @@
 <a href="rider/julius-van-den-berg/statistics"><img src="images/riders/bp/ec/julius-van-den-berg-2025.jpeg" style="width: 100%; " /></a></div>
 </div><div class="borderbox left w65" ><div class="">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Name:</div><div class="mr10" >Julius van den Berg </div></li>
+<li class=""><div class="bold mr5" >Name:</div><div class="mr10" >Julius van den Berg </div><div class="playRiderAudio fs10 grey" ><a  href="?x=1&url=nimda2/files/2025/09-30-2025-00-09-msg167-1759311474.mp3"><img src="images/icons/audio.svg" alt="Audio icon" height="15"></a></div></li>
 </ul>
 </div>
 <div class="">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >23rd</div><div class="mr3" >October</div><div class="mr3" >1996</div><div>(</div><div>28</div><div>)</div></li>
+<li class=""><div class="bold mr5" >Date of birth:</div><div class="mr3" >23rd</div><div class="mr3" >October</div><div class="mr3" >1996</div><div>(</div><div>29</div><div>)</div></li>
 </ul>
 </div>
 <div class="">
@@ -180,11 +171,11 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w70 bg green left" ></div></div></div><div class="xvalue ac" >197</div><div class="xtitle" ><a  href="rider/julius-van-den-berg/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w70 bg green2 left" ></div></div></div><div class="xvalue ac" >197</div><div class="xtitle" ><a  href="rider/julius-van-den-berg/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w77 bg red left" ></div></div></div><div class="xvalue ac" >216</div><div class="xtitle" ><a  href="rider/julius-van-den-berg/results/career-points-gc">GC</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w28 bg blue left" ></div></div></div><div class="xvalue ac" >78</div><div class="xtitle" ><a  href="rider/julius-van-den-berg/results/career-points-time-trial">TT</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w28 bg blue left" ></div></div></div><div class="xvalue ac" >79</div><div class="xtitle" ><a  href="rider/julius-van-den-berg/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >280</div><div class="xtitle" ><a  href="rider/julius-van-den-berg/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w3 bg purple left" ></div></div></div><div class="xvalue ac" >8</div><div class="xtitle" ><a  href="rider/julius-van-den-berg/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w3 bg purple1 left" ></div></div></div><div class="xvalue ac" >8</div><div class="xtitle" ><a  href="rider/julius-van-den-berg/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w18 bg pink left" ></div></div></div><div class="xvalue ac" >50</div><div class="xtitle" ><a  href="rider/julius-van-den-berg/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -204,13 +195,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1719</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >635</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1887</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >770</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;29</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;39</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -261,8 +252,10 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >24.09</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/omloop-van-het-houtland-lichtervelde/2025/startlist">Omloop van het Houtland</a></div><div class="blue fs10" ><a  href="rider-in-race/julius-van-den-berg/omloop-van-het-houtland-lichtervelde">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -273,7 +266,7 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="178987" /><input type="hidden" id="seo" value="julius-van-den-berg" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="178987" /><input type="hidden" id="seo" value="julius-van-den-berg" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -286,7 +279,19 @@
 <li><a  class="rdrFilterSeason" data-season="2015" href="">2015</a></li>
 <li><a  class="rdrFilterSeason" data-season="2014" href="">2014</a></li>
 <li><a  class="rdrFilterSeason" data-season="2013" href="">2013</a></li>
-</ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div class="simpleDropdown" style="">ROAD<ul><li><a class="rdrFilterDiscipline" data-discipline="pcs" href="">ROAD</a></li><li><a class="rdrFilterDiscipline" data-discipline="cx" href="">CROSS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+</ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td><span class="hideIfMobile">14.10 &rsaquo; 19.10</span><span class="showIfMobile fs12">14-19/10</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag nl"></span> <a href="race/tour-of-holland/2025/prologue-gc"><span>NIBC Tour of Holland</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/tour-of-holland">more</a></td></tr>
+<tr class="stage"><td></td><td>48</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-holland/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>19.10</td><td>84</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-holland/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Arnhem &rsaquo; Arnhem</a>  </td><td>148</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>18.10</td><td>39</td><td>39</td><td><span class=""></span></td><td><a href="race/tour-of-holland/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Emmen &rsaquo; VAM-Berg</a>  </td><td>159</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>17.10</td><td>NR</td><td>66</td><td><span class=""></span></td><td><a href="race/tour-of-holland/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Sittard &rsaquo; Watersley</a>  </td><td><s>149</s> 40.3</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>16.10</td><td>33</td><td>67</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-of-holland/2025/stage-2"><span class="imob">S2 (ITT)</span><span class="idesk">Stage 2 (ITT)</span> - Etten-Leur &rsaquo; Etten-Leur</a>  </td><td>14.8</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>15.10</td><td>93</td><td>91</td><td><span class=""></span></td><td><a href="race/tour-of-holland/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Dordrecht &rsaquo; Dordrecht</a>  </td><td>118.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>14.10</td><td>63</td><td>63</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-of-holland/2025/prologue"><span class="imob">Prologue (ITT)</span><span class="idesk">Prologue (ITT)</span> - The Hague &rsaquo; The Hague</a>  </td><td>4</td><td></td><td></td><td></td></tr>
+<tr class="main"><td>12.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-tours/2025/result"><span>Paris - Tours Elite</span> (1.Pro)</a>  </td><td>211.6</td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/paris-tours">more</a></td></tr>
+<tr class="main"><td>07.10</td><td>67</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/memorial-frank-vandenbroucke/2025/result"><span>Binche - Chimay - Binche / Mémorial Frank Vandenbroucke</span> (1.1)</a>  </td><td>203.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/memorial-frank-vandenbroucke">more</a></td></tr>
+<tr class="main"><td>03.10</td><td>139</td><td></td><td><span class=""></span></td><td><span class="flag de"></span> <a href="race/munsterland-giro/2025/result"><span>Sparkassen Münsterland Giro</span> (1.Pro)</a>  </td><td>192</td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/munsterland-giro">more</a></td></tr>
+<tr class="main"><td>24.09</td><td>56</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/omloop-van-het-houtland-lichtervelde/2025/result"><span>Omloop van het Houtland</span> (1.1)</a>  </td><td>198.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/omloop-van-het-houtland-lichtervelde">more</a></td></tr>
 <tr class="main"><td>22.06</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag dk"></span> <a href="race/copenhagen-sprint/2025/result"><span>Copenhagen Sprint</span> (1.UWT)</a>  </td><td>235.6</td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/copenhagen-sprint">more</a></td></tr>
 <tr class="main"><td>13.04</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-roubaix/2025/result"><span>Paris-Roubaix</span> (1.UWT)</a>  </td><td>259.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/paris-roubaix">more</a></td></tr>
 <tr class="main"><td>09.04</td><td>14</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/scheldeprijs/2025/result"><span>Scheldeprijs ME</span> (1.Pro)</a>  </td><td>202.8</td><td>14</td><td>15</td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/scheldeprijs">more</a></td></tr>
@@ -294,7 +299,7 @@
 <tr class="main"><td>28.03</td><td>70</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/e3-harelbeke/2025/result"><span>E3 Saxo Classic ME</span> (1.UWT)</a>  </td><td>208.8</td><td>5</td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/e3-harelbeke">more</a></td></tr>
 <tr class="main"><td>26.03</td><td>92</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/classic-brugge-de-panne/2025/result"><span>Classic Brugge-De Panne ME</span> (1.UWT)</a>  </td><td>195.6</td><td>5</td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/classic-brugge-de-panne">more</a></td></tr>
 <tr class="main"><td>21.03</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/bredene-koksijde-classic/2025/result"><span>Bredene Koksijde Classic</span> (1.Pro)</a>  </td><td>200.9</td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/bredene-koksijde-classic">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">09.03 &rsaquo; 16.03</span><span class="showIfMobile fs12">9-16/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-nice/2025/stage-6-gc"><span>Paris-Nice</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/paris-nice">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">09.03 &rsaquo; 16.03</span><span class="showIfMobile fs12">9-16/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-nice/2025/stage-7-gc"><span>Paris-Nice</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/paris-nice">more</a></td></tr>
 <tr class="stage"><td></td><td>89</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/paris-nice/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>5</td><td></td><td></td></tr>
 <tr class="stage"><td>16.03</td><td>95</td><td></td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-8"><span class="imob">S8</span><span class="idesk">Stage 8</span> - Nice &rsaquo; Nice</a>  </td><td>119.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>15.03</td><td>89</td><td>90</td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Nice &rsaquo; Auron</a>  </td><td>109.3</td><td></td><td></td><td></td></tr>
@@ -306,7 +311,7 @@
 <tr class="stage"><td>09.03</td><td>114</td><td>114</td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Le Perray-en-Yvelines &rsaquo; Le Perray-en-Yvelines</a>  </td><td>156.1</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>02.03</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/kuurne-brussel-kuurne/2025/result"><span>Kuurne - Brussel - Kuurne</span> (1.Pro)</a>  </td><td>196.9</td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/kuurne-brussel-kuurne">more</a></td></tr>
 <tr class="main"><td>01.03</td><td>60</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/omloop-het-nieuwsblad/2025/result"><span>Omloop Nieuwsblad ME</span> (1.UWT)</a> <span title="164 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>164k</span> </td><td>197</td><td>5</td><td>1</td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/omloop-het-nieuwsblad">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">17.02 &rsaquo; 23.02</span><span class="showIfMobile fs12">17-23/2</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag ae"></span> <a href="race/uae-tour/2025/stage-3-gc"><span>UAE Tour</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/uae-tour">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">17.02 &rsaquo; 23.02</span><span class="showIfMobile fs12">17-23/2</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag ae"></span> <a href="race/uae-tour/2025/stage-6-gc"><span>UAE Tour</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/uae-tour">more</a></td></tr>
 <tr class="stage"><td></td><td>109</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/uae-tour/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>5</td><td></td><td></td></tr>
 <tr class="stage"><td>23.02</td><td>66</td><td></td><td><span class=""></span></td><td><a href="race/uae-tour/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Al Ain Hazza Bin Zayed Stadium &rsaquo; Jebel Hafeet</a> <span title="85 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>85k</span> </td><td>176</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>22.02</td><td>124</td><td>124</td><td><span class=""></span></td><td><a href="race/uae-tour/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Abu Dhabi Cycling Club &rsaquo; Abu Dhabi Breakwater</a>  </td><td>165</td><td></td><td></td><td></td></tr>
@@ -326,7 +331,7 @@
 <tr class="stage"><td>22.01</td><td>82</td><td>96</td><td><span class=""></span></td><td><a href="race/tour-down-under/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Tanunda &rsaquo; Tanunda</a>  </td><td>128.8</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>21.01</td><td>111</td><td>111</td><td><span class=""></span></td><td><a href="race/tour-down-under/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Prospect &rsaquo; Gumeracha</a>  </td><td>150.7</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>18.01</td><td>110</td><td></td><td><span class=""></span></td><td><span class="flag au"></span> <a href="national-race/schwalbe-classic/2025/result"><span>Villawood Men's Classic</span> (NAT)</a>  </td><td>55.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/julius-van-den-berg/schwalbe-classic">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>4838 km in <b>33</b> days | PCS points: <b>54</b> | UCI points: <b>16</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>6022 km in <b>43</b> days | PCS points: <b>54</b> | UCI points: <b>16</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -341,16 +346,16 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w38 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l38"  style="height: 12px; line-height: 12px; " >54</div></div></td><td class="fs11 " >683</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w38 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l38"  style="height: 12px; line-height: 12px; " >54</div></div></td><td class="fs11 " >766</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w21 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l21"  style="height: 12px; line-height: 12px; " >30</div></div></td><td class="fs11 " >1001</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w56 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l56"  style="height: 12px; line-height: 12px; " >80</div></div></td><td class="fs11 " >645</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w58 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l58"  style="height: 12px; line-height: 12px; " >84</div></div></td><td class="fs11 " >548</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w56 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l56"  style="height: 12px; line-height: 12px; " >80</div></div></td><td class="fs11 " >644</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w58 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l58"  style="height: 12px; line-height: 12px; " >84</div></div></td><td class="fs11 " >547</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w65 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l65"  style="height: 12px; line-height: 12px; " >94</div></div></td><td class="fs11 " >479</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2020-12-31&filter=1&p=me&s=season-individual">2020</a></td><td><div class="valuebar"><div class="w21 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l21"  style="height: 12px; line-height: 12px; " >30</div></div></td><td class="fs11 " >735</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w26 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l26"  style="height: 12px; line-height: 12px; " >37</div></div></td><td class="fs11 " >1054</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2018-12-31&filter=1&p=me&s=season-individual">2018</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >115</div></div></td><td class="fs11 " >541</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2017-12-31&filter=1&p=me&s=season-individual">2017</a></td><td><div class="valuebar"><div class="w22 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l22"  style="height: 12px; line-height: 12px; " >32</div></div></td><td class="fs11 " >1162</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2016-12-31&filter=1&p=me&s=season-individual">2016</a></td><td><div class="valuebar"><div class="w1 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l1"  style="height: 12px; line-height: 12px; " >2</div></div></td><td class="fs11 " >2384</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2016-12-31&filter=1&p=me&s=season-individual">2016</a></td><td><div class="valuebar"><div class="w1 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l1"  style="height: 12px; line-height: 12px; " >2</div></div></td><td class="fs11 " >2383</td></tr>
 </tbody></table></div>
 </div>
 <div class="">
@@ -418,9 +423,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1082s</span></li>
+<li><span>Pageload 0.0933s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 178987;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

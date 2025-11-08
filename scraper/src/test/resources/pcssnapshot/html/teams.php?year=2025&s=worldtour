@@ -18,8 +18,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -32,7 +32,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="" data-url="" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -81,21 +81,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -111,7 +101,7 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=04ac6be77de9cf3005c583731598f7ef4280a17c8bd3bd25096e61a9c4c85fbe">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="clear"></div>
@@ -221,7 +211,7 @@
 <li class=""><div><span class="flag be"></span> <a  href="team/soudal-quick-step-2025">Soudal Quick-Step</a></div><div> (30)</div><div class="fs10" ></div></li>
 <li class=""><div><span class="flag au"></span> <a  href="team/team-jayco-alula-2025">Team Jayco AlUla</a></div><div> (30)</div><div class="fs10" ></div></li>
 <li class=""><div><span class="flag nl"></span> <a  href="team/team-picnic-postnl-2025">Team Picnic PostNL</a></div><div> (30)</div><div class="fs10" ></div></li>
-<li class=""><div><span class="flag nl"></span> <a  href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></div><div> (30)</div><div class="fs10" ></div></li>
+<li class=""><div><span class="flag nl"></span> <a  href="team/team-visma-lease-a-bike-2025">Team Visma | Lease a Bike</a></div><div> (29)</div><div class="fs10" ></div></li>
 <li class=""><div><span class="flag ae"></span> <a  href="team/uae-team-emirates-xrg-2025">UAE Team Emirates - XRG</a></div><div> (29)</div><div class="fs10" ></div></li>
 <li class=""><div><span class="flag kz"></span> <a  href="team/xds-astana-team-2025">XDS Astana Team</a></div><div> (30)</div><div class="fs10" ></div></li>
 </ul>
@@ -305,14 +295,13 @@
 <li class="" data-pro="0"><a href="teams/no-team-next-year">No next season contract</a></li>
 <li class="" data-pro="0"><a href="teams/retiring">Retiring riders</a></li>
 <li class="" data-pro="0"><a href="teams/uci-team-debutants">UCI team debutants</a></li>
-<li class="" data-pro="0"><a href="teams/trainees">Trainees</a></li>
-<li class="" data-pro="0"><a href="teams/alphabetical">Alphabetical</a></li>
 <li class="" data-pro="0"><a href="teams/worldtour-debutants">WorldTour debutants</a></li>
+<li class="" data-pro="0"><a href="teams/trainees">Trainees</a></li>
 <li class="" data-pro="0"><a href="teams/teams-riders-inout">Riders in/out per team</a></li>
 <li class="" data-pro="0"><a href="teams/favorite-jersey-vote">Vote for your favorite 2025 jersey</a></li>
 <li class="" data-pro="0"><a href="teams/favorite-jersey-ranking">Favorite jersey ranking</a></li>
-</ul></li><li><div class="sidenavTitle">Rankings and statistics</div><ul><li class="" data-pro="0"><a href="teams/points-teams-over-time">Points teams over time</a></li>
-<li class="" data-pro="0"><a href="teams/transfer-value-won-lost">Transfer value won/loss</a></li>
+<li class="" data-pro="0"><a href="teams/alphabetical">Alphabetical</a></li>
+</ul></li><li><div class="sidenavTitle">Rankings and statistics</div><ul><li class="" data-pro="0"><a href="teams/transfer-value-won-lost">Transfer value won/loss</a></li>
 <li class="" data-pro="0"><a href="teams/wins">Wins</a></li>
 <li class="" data-pro="0"><a href="teams/youngest-riders">Youngest riders</a></li>
 </ul></li><li><div class="sidenavTitle">Staff</div><ul><li class="" data-pro="0"><a href="teams/general-managers">General managers</a></li>
@@ -380,7 +369,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0647s</span></li>
+<li><span>Pageload 0.1255s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script>
+<script src="search_list23.js"></script>

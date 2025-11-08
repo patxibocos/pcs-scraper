@@ -18,8 +18,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -32,7 +32,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="team" data-url="team/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -81,21 +81,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -111,10 +101,11 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=04ac6be77de9cf3005c583731598f7ef4280a17c8bd3bd25096e61a9c4c85fbe">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
-<ul></span></div></div></header><div class="content"><div class="SelectNavCont "><div class="selectNav" ><a class="" href="team/vf-group-bardiani-csf-faizane-2024/overview/start">2024</a><form style="display: block; float: left; "><select style="" onChange="window.location.href=this.value; "><option value="team/vf-group-bardiani-csf-faizane-2028/overview/start" >2028 | VF Group - Bardiani CSF - Faizanè</option>
+<ul></span></div></div></header><div class="content"><div class="SelectNavCont "><div class="selectNav" ><a class="" href="team/vf-group-bardiani-csf-faizane-2024/overview/start">2024</a><form style="display: block; float: left; "><select style="" onChange="window.location.href=this.value; "><option value="team/vf-group-bardiani-csf-faizane-2029/overview/start" >2029 | VF Group - Bardiani CSF - Faizanè</option>
+<option value="team/vf-group-bardiani-csf-faizane-2028/overview/start" >2028 | VF Group - Bardiani CSF - Faizanè</option>
 <option value="team/vf-group-bardiani-csf-faizane-2027/overview/start" >2027 | VF Group - Bardiani CSF - Faizanè</option>
 <option value="team/vf-group-bardiani-csf-faizane-2026/overview/start" >2026 | VF Group - Bardiani CSF - Faizanè</option>
 <option value="team/vf-group-bardiani-csf-faizane-2025/overview/start" selected>2025 | VF Group - Bardiani CSF - Faizanè</option>
@@ -191,14 +182,13 @@
 <div class=""><div class="borderbox w100" >
 <div class="">
 <ul class="simple-list list circle bluelink horizontal fs14">
-<li class=""><a  href="team-in-race/vf-group-bardiani-csf-faizane-2025/trofeo-matteotti">Trofeo Matteotti</a></li>
 </ul><div class="clear"></div></div>
 <div class="mb5">
 <ul class="list horizontal teamkpi" >
 <li class=""><div class="title ">Victories </div><div class=" value" ><a  href="team/vf-group-bardiani-csf-faizane-2025/wins">4</a></div></li>
-<li><div class="title ">Points </div><div class=" value" ><a  href="team/vf-group-bardiani-csf-faizane-2025/season/points-per-rider">1433</a></div></li>
-<li><div class="title ">PCS# </div><div class=" value" ><a  href="rankings/me/season-teams">29</a></div></li>
-<li><div class="title ">UCI# </div><div class=" value" ><a  href="rankings/me/uci-teams">31</a></div></li>
+<li><div class="title ">Points </div><div class=" value" ><a  href="team/vf-group-bardiani-csf-faizane-2025/season/points-per-rider">1811</a></div></li>
+<li><div class="title ">PCS# </div><div class=" value" ><a  href="rankings/me/season-teams">30</a></div></li>
+<li><div class="title ">UCI# </div><div class=" value" ><a  href="rankings/me/uci-teams">30</a></div></li>
 <li><div class="title ">Incoming </div><div class=" value" ><a  href="team/vf-group-bardiani-csf-faizane-2025/transfers/this-year">6</a></div></li>
 <li><div class="title ">Outgoing </div><div class=" value" ><a  href="team/vf-group-bardiani-csf-faizane-2025/transfers/this-year">6</a></div></li>
 <li></li>
@@ -211,10 +201,10 @@
 <li class=""><div><a  href="rider/filippo-fiorelli"><img src="images/riders/bp/dd/filippo-fiorelli-2025.jpg"  style="" /></a></div><div class="name" >FIORELLI Filippo</div></li>
 <li class=""><div><a  href="rider/enrico-zanoncello"><img src="images/riders/bp/ee/enrico-zanoncello-2025.jpg"  style="" /></a></div><div class="name" >ZANONCELLO Enrico</div></li>
 <li class=""><div><a  href="rider/luca-covili"><img src="images/riders/bp/de/luca-covili-2025.jpg"  style="" /></a></div><div class="name" >COVILI Luca</div></li>
-<li class=""><div><a  href="rider/martin-marcellusi"><img src="images/riders/bp/bf/martin-marcellusi-2025.jpg"  style="" /></a></div><div class="name" >MARCELLUSI Martin</div></li>
 <li class=""><div><a  href="rider/filippo-magli2"><img src="images/riders/bp/ea/filippo-magli2-2025.jpg"  style="" /></a></div><div class="name" >MAGLI Filippo</div></li>
-<li class=""><div><a  href="rider/luca-colnaghi"><img src="images/riders/bp/ca/luca-colnaghi-2025.jpg"  style="" /></a></div><div class="name" >COLNAGHI Luca</div></li>
+<li class=""><div><a  href="rider/martin-marcellusi"><img src="images/riders/bp/bf/martin-marcellusi-2025.jpg"  style="" /></a></div><div class="name" >MARCELLUSI Martin</div></li>
 <li class=""><div><a  href="rider/alessandro-pinarello"><img src="images/riders/bp/de/alessandro-pinarello-2025.jpg"  style="" /></a></div><div class="name" >PINARELLO Alessandro</div></li>
+<li class=""><div><a  href="rider/luca-colnaghi"><img src="images/riders/bp/ca/luca-colnaghi-2025.jpg"  style="" /></a></div><div class="name" >COLNAGHI Luca</div></li>
 <li class=""><div><a  href="rider/manuele-tarozzi"><img src="images/riders/bp/dc/manuele-tarozzi-2025.jpg"  style="" /></a></div><div class="name" >TAROZZI Manuele</div></li>
 <li class=""><div><a  href="rider/alex-tolio"><img src="images/riders/bp/cb/alex-tolio-2025.jpg"  style="" /></a></div><div class="name" >TOLIO Alex</div></li>
 <li class=""><div><a  href="rider/alessio-martinelli"><img src="images/riders/bp/db/alessio-martinelli-2025.jpg"  style="" /></a></div><div class="name" >MARTINELLI Alessio</div></li>
@@ -222,11 +212,11 @@
 <li class=""><div><a  href="rider/lorenzo-conforti"><img src="images/riders/bp/be/lorenzo-conforti-2025.jpg"  style="" /></a></div><div class="name" >CONFORTI Lorenzo</div></li>
 <li class=""><div><a  href="rider/matteo-scalco"><img src="images/riders/bp/ec/matteo-scalco-2025.jpg"  style="" /></a></div><div class="name" >SCALCO Matteo</div></li>
 <li class=""><div><a  href="rider/filippo-turconi"><img src="images/riders/bp/de/filippo-turconi-2025.jpg"  style="" /></a></div><div class="name" >TURCONI Filippo</div></li>
-<li class=""><div><a  href="rider/mattia-pinazzi"><img src="images/riders/bp/db/mattia-pinazzi-2025.jpg"  style="" /></a></div><div class="name" >PINAZZI Mattia</div></li>
 <li class=""><div><a  href="rider/luca-paletti"><img src="images/riders/bp/ad/luca-paletti-2025.jpg"  style="" /></a></div><div class="name" >PALETTI Luca</div></li>
+<li class=""><div><a  href="rider/mattia-pinazzi"><img src="images/riders/bp/db/mattia-pinazzi-2025.jpg"  style="" /></a></div><div class="name" >PINAZZI Mattia</div></li>
+<li class=""><div><a  href="rider/martin-santiago-herreno"><img src="images/riders/bp/eb/martin-santiago-herreno-2025.jpg"  style="" /></a></div><div class="name" >HERREÑO Martin Santiago</div></li>
 <li class=""><div><a  href="rider/federico-biagini"><img src="images/riders/bp/dc/federico-biagini-2025.jpg"  style="" /></a></div><div class="name" >BIAGINI Federico</div></li>
 <li class=""><div><a  href="rider/santiago-ferraro"><img src="images/riders/bp/ce/santiago-ferraro-2025.jpg"  style="" /></a></div><div class="name" >FERRARO Santiago</div></li>
-<li class=""><div><a  href="rider/martin-santiago-herreno"><img src="images/riders/bp/eb/martin-santiago-herreno-2025.jpg"  style="" /></a></div><div class="name" >HERREÑO Martin Santiago</div></li>
 <li class=""><div><a  href="rider/andrea-montagner"><img src="images/riders/bp/ae/andrea-montagner-2025.jpg"  style="" /></a></div><div class="name" >MONTAGNER Andrea</div></li>
 <li class=""><div><a  href="rider/mattia-stenico"><img src="images/riders/bp/ab/mattia-stenico-2025.jpg"  style="" /></a></div><div class="name" >STENICO Mattia</div></li>
 <li class=""><div><a  href="rider/edward-martinez-cruz"><img src="images/riders/bp/ac/edward-martinez-cruz-2025.jpg"  style="" /></a></div><div class="name" >CRUZ Edward</div></li>
@@ -251,31 +241,31 @@
 <th class="w13 ">rnk</th>
 <th class="w13 ">points</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag it"></span> <a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>233</td><td>284</td></tr>
-<tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>317</td><td>200</td></tr>
-<tr class=""><td>3</td><td><span class="flag it"></span> <a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>327</td><td>195</td></tr>
-<tr class=""><td>4</td><td><span class="flag it"></span> <a  href="rider/martin-marcellusi">MARCELLUSI Martin</a></td><td>390</td><td>157</td></tr>
-<tr class=""><td>5</td><td><span class="flag it"></span> <a  href="rider/alex-tolio">TOLIO Alex</a></td><td>407</td><td>148</td></tr>
-<tr class=""><td>6</td><td><span class="flag it"></span> <a  href="rider/enrico-zanoncello">ZANONCELLO Enrico</a></td><td>463</td><td>123</td></tr>
-<tr class=""><td>7</td><td><span class="flag it"></span> <a  href="rider/luca-colnaghi">COLNAGHI Luca</a></td><td>534</td><td>99</td></tr>
-<tr class=""><td>8</td><td><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></td><td>536</td><td>98</td></tr>
-<tr class=""><td>9</td><td><span class="flag it"></span> <a  href="rider/matteo-scalco">SCALCO Matteo</a></td><td>597</td><td>82</td></tr>
-<tr class=""><td>10</td><td><span class="flag it"></span> <a  href="rider/manuele-tarozzi">TAROZZI Manuele</a></td><td>665</td><td>68</td></tr>
-<tr class=""><td>11</td><td><span class="flag it"></span> <a  href="rider/luca-covili">COVILI Luca</a></td><td>700</td><td>62</td></tr>
-<tr class=""><td>12</td><td><span class="flag it"></span> <a  href="rider/luca-paletti">PALETTI Luca</a></td><td>815</td><td>50</td></tr>
-<tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/lorenzo-conforti">CONFORTI Lorenzo</a></td><td>978</td><td>35</td></tr>
-<tr class=""><td>14</td><td><span class="flag it"></span> <a  href="rider/mattia-pinazzi">PINAZZI Mattia</a></td><td>1007</td><td>32</td></tr>
-<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/alessio-martinelli">MARTINELLI Alessio</a></td><td>1093</td><td>27</td></tr>
-<tr class=""><td>16</td><td><span class="flag cl"></span> <a  href="rider/vicente-rojas">ROJAS Vicente</a></td><td>1230</td><td>20</td></tr>
-<tr class=""><td>17</td><td><span class="flag it"></span> <a  href="rider/lorenzo-magli">MAGLI Lorenzo</a></td><td>1434</td><td>14</td></tr>
-<tr class=""><td>18</td><td><span class="flag it"></span> <a  href="rider/federico-biagini">BIAGINI Federico</a></td><td>1600</td><td>10</td></tr>
-<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/andrea-alfio-bruno">BRUNO Andrea Alfio</a></td><td>1760</td><td>7</td></tr>
-<tr class=""><td>20</td><td><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></td><td>2317</td><td>2</td></tr>
-<tr class=""><td>21</td><td><span class="flag it"></span> <a  href="rider/mattia-stenico">STENICO Mattia</a></td><td></td><td></td></tr>
-<tr class=""><td>22</td><td><span class="flag it"></span> <a  href="rider/andrea-montagner">MONTAGNER Andrea</a></td><td></td><td></td></tr>
-<tr class=""><td>23</td><td><span class="flag it"></span> <a  href="rider/filippo-cettolin">CETTOLIN Filippo</a></td><td></td><td></td></tr>
-<tr class=""><td>24</td><td><span class="flag co"></span> <a  href="rider/edward-martinez-cruz">CRUZ Edward</a></td><td></td><td></td></tr>
-<tr class=""><td>25</td><td><span class="flag co"></span> <a  href="rider/martin-santiago-herreno">HERREÑO Martin Santiago</a></td><td></td><td></td></tr>
+<tr class=""><td>1</td><td><span class="flag it"></span> <a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>253</td><td>254</td></tr>
+<tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>322</td><td>198</td></tr>
+<tr class=""><td>3</td><td><span class="flag it"></span> <a  href="rider/enrico-zanoncello">ZANONCELLO Enrico</a></td><td>329</td><td>190</td></tr>
+<tr class=""><td>4</td><td><span class="flag it"></span> <a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>330</td><td>190</td></tr>
+<tr class=""><td>5</td><td><span class="flag it"></span> <a  href="rider/martin-marcellusi">MARCELLUSI Martin</a></td><td>386</td><td>157</td></tr>
+<tr class=""><td>6</td><td><span class="flag it"></span> <a  href="rider/alex-tolio">TOLIO Alex</a></td><td>415</td><td>146</td></tr>
+<tr class=""><td>7</td><td><span class="flag it"></span> <a  href="rider/luca-colnaghi">COLNAGHI Luca</a></td><td>476</td><td>119</td></tr>
+<tr class=""><td>8</td><td><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></td><td>496</td><td>113</td></tr>
+<tr class=""><td>9</td><td><span class="flag it"></span> <a  href="rider/matteo-scalco">SCALCO Matteo</a></td><td>523</td><td>105</td></tr>
+<tr class=""><td>10</td><td><span class="flag it"></span> <a  href="rider/luca-covili">COVILI Luca</a></td><td>521</td><td>105</td></tr>
+<tr class=""><td>11</td><td><span class="flag it"></span> <a  href="rider/luca-paletti">PALETTI Luca</a></td><td>602</td><td>82</td></tr>
+<tr class=""><td>12</td><td><span class="flag co"></span> <a  href="rider/martin-santiago-herreno">HERREÑO Martin Santiago</a></td><td>871</td><td>42</td></tr>
+<tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/manuele-tarozzi">TAROZZI Manuele</a></td><td>925</td><td>37</td></tr>
+<tr class=""><td>14</td><td><span class="flag cl"></span> <a  href="rider/vicente-rojas">ROJAS Vicente</a></td><td>1121</td><td>25</td></tr>
+<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/lorenzo-conforti">CONFORTI Lorenzo</a></td><td>1147</td><td>23</td></tr>
+<tr class=""><td>16</td><td><span class="flag it"></span> <a  href="rider/alessio-martinelli">MARTINELLI Alessio</a></td><td>1163</td><td>22</td></tr>
+<tr class=""><td>17</td><td><span class="flag it"></span> <a  href="rider/lorenzo-magli">MAGLI Lorenzo</a></td><td>1311</td><td>16</td></tr>
+<tr class=""><td>18</td><td><span class="flag it"></span> <a  href="rider/federico-biagini">BIAGINI Federico</a></td><td>1592</td><td>10</td></tr>
+<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/andrea-alfio-bruno">BRUNO Andrea Alfio</a></td><td>1750</td><td>7</td></tr>
+<tr class=""><td>20</td><td><span class="flag it"></span> <a  href="rider/mattia-pinazzi">PINAZZI Mattia</a></td><td>1899</td><td>5</td></tr>
+<tr class=""><td>21</td><td><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></td><td>2305</td><td>2</td></tr>
+<tr class=""><td>22</td><td><span class="flag it"></span> <a  href="rider/mattia-stenico">STENICO Mattia</a></td><td></td><td></td></tr>
+<tr class=""><td>23</td><td><span class="flag it"></span> <a  href="rider/andrea-montagner">MONTAGNER Andrea</a></td><td></td><td></td></tr>
+<tr class=""><td>24</td><td><span class="flag it"></span> <a  href="rider/filippo-cettolin">CETTOLIN Filippo</a></td><td></td><td></td></tr>
+<tr class=""><td>25</td><td><span class="flag co"></span> <a  href="rider/edward-martinez-cruz">CRUZ Edward</a></td><td></td><td></td></tr>
 </tbody></table></div>
 <div class="stab points hide riderlistcont">
 <table class=" teamlist"><thead><tr>
@@ -284,30 +274,30 @@
 <th class="w27 ">points</th>
 </tr></thead><tbody>
 <tr class=""><td>1</td><td><span class="flag it"></span> <a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>1266</td></tr>
-<tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/enrico-zanoncello">ZANONCELLO Enrico</a></td><td>701</td></tr>
-<tr class=""><td>3</td><td><span class="flag it"></span> <a  href="rider/luca-covili">COVILI Luca</a></td><td>576</td></tr>
-<tr class=""><td>4</td><td><span class="flag it"></span> <a  href="rider/martin-marcellusi">MARCELLUSI Martin</a></td><td>521</td></tr>
-<tr class=""><td>5</td><td><span class="flag it"></span> <a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>467</td></tr>
-<tr class=""><td>6</td><td><span class="flag it"></span> <a  href="rider/luca-colnaghi">COLNAGHI Luca</a></td><td>386</td></tr>
-<tr class=""><td>7</td><td><span class="flag it"></span> <a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>354</td></tr>
+<tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/enrico-zanoncello">ZANONCELLO Enrico</a></td><td>768</td></tr>
+<tr class=""><td>3</td><td><span class="flag it"></span> <a  href="rider/luca-covili">COVILI Luca</a></td><td>631</td></tr>
+<tr class=""><td>4</td><td><span class="flag it"></span> <a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>522</td></tr>
+<tr class=""><td>5</td><td><span class="flag it"></span> <a  href="rider/martin-marcellusi">MARCELLUSI Martin</a></td><td>521</td></tr>
+<tr class=""><td>6</td><td><span class="flag it"></span> <a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>409</td></tr>
+<tr class=""><td>7</td><td><span class="flag it"></span> <a  href="rider/luca-colnaghi">COLNAGHI Luca</a></td><td>406</td></tr>
 <tr class=""><td>8</td><td><span class="flag it"></span> <a  href="rider/manuele-tarozzi">TAROZZI Manuele</a></td><td>306</td></tr>
-<tr class=""><td>9</td><td><span class="flag it"></span> <a  href="rider/alex-tolio">TOLIO Alex</a></td><td>302</td></tr>
+<tr class=""><td>9</td><td><span class="flag it"></span> <a  href="rider/alex-tolio">TOLIO Alex</a></td><td>304</td></tr>
 <tr class=""><td>10</td><td><span class="flag it"></span> <a  href="rider/alessio-martinelli">MARTINELLI Alessio</a></td><td>203</td></tr>
-<tr class=""><td>11</td><td><span class="flag cl"></span> <a  href="rider/vicente-rojas">ROJAS Vicente</a></td><td>163</td></tr>
+<tr class=""><td>11</td><td><span class="flag cl"></span> <a  href="rider/vicente-rojas">ROJAS Vicente</a></td><td>168</td></tr>
 <tr class=""><td>12</td><td><span class="flag it"></span> <a  href="rider/lorenzo-conforti">CONFORTI Lorenzo</a></td><td>153</td></tr>
-<tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/matteo-scalco">SCALCO Matteo</a></td><td>106</td></tr>
-<tr class=""><td>14</td><td><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></td><td>103</td></tr>
-<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/mattia-pinazzi">PINAZZI Mattia</a></td><td>78</td></tr>
-<tr class=""><td>16</td><td><span class="flag it"></span> <a  href="rider/luca-paletti">PALETTI Luca</a></td><td>63</td></tr>
-<tr class=""><td>17</td><td><span class="flag it"></span> <a  href="rider/federico-biagini">BIAGINI Federico</a></td><td>38</td></tr>
-<tr class=""><td>18</td><td><span class="flag it"></span> <a  href="rider/lorenzo-magli">MAGLI Lorenzo</a></td><td>14</td></tr>
-<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/andrea-alfio-bruno">BRUNO Andrea Alfio</a></td><td>7</td></tr>
-<tr class=""><td>20</td><td><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></td><td>2</td></tr>
-<tr class=""><td>21</td><td><span class="flag it"></span> <a  href="rider/mattia-stenico">STENICO Mattia</a></td><td>0</td></tr>
-<tr class=""><td>22</td><td><span class="flag it"></span> <a  href="rider/andrea-montagner">MONTAGNER Andrea</a></td><td>0</td></tr>
-<tr class=""><td>23</td><td><span class="flag it"></span> <a  href="rider/filippo-cettolin">CETTOLIN Filippo</a></td><td>0</td></tr>
-<tr class=""><td>24</td><td><span class="flag co"></span> <a  href="rider/edward-martinez-cruz">CRUZ Edward</a></td><td>0</td></tr>
-<tr class=""><td>25</td><td><span class="flag co"></span> <a  href="rider/martin-santiago-herreno">HERREÑO Martin Santiago</a></td><td>0</td></tr>
+<tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/matteo-scalco">SCALCO Matteo</a></td><td>134</td></tr>
+<tr class=""><td>14</td><td><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></td><td>121</td></tr>
+<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/luca-paletti">PALETTI Luca</a></td><td>95</td></tr>
+<tr class=""><td>16</td><td><span class="flag it"></span> <a  href="rider/mattia-pinazzi">PINAZZI Mattia</a></td><td>78</td></tr>
+<tr class=""><td>17</td><td><span class="flag co"></span> <a  href="rider/martin-santiago-herreno">HERREÑO Martin Santiago</a></td><td>42</td></tr>
+<tr class=""><td>18</td><td><span class="flag it"></span> <a  href="rider/federico-biagini">BIAGINI Federico</a></td><td>38</td></tr>
+<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/lorenzo-magli">MAGLI Lorenzo</a></td><td>16</td></tr>
+<tr class=""><td>20</td><td><span class="flag it"></span> <a  href="rider/andrea-alfio-bruno">BRUNO Andrea Alfio</a></td><td>7</td></tr>
+<tr class=""><td>21</td><td><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></td><td>2</td></tr>
+<tr class=""><td>22</td><td><span class="flag it"></span> <a  href="rider/mattia-stenico">STENICO Mattia</a></td><td>0</td></tr>
+<tr class=""><td>23</td><td><span class="flag it"></span> <a  href="rider/andrea-montagner">MONTAGNER Andrea</a></td><td>0</td></tr>
+<tr class=""><td>24</td><td><span class="flag it"></span> <a  href="rider/filippo-cettolin">CETTOLIN Filippo</a></td><td>0</td></tr>
+<tr class=""><td>25</td><td><span class="flag co"></span> <a  href="rider/edward-martinez-cruz">CRUZ Edward</a></td><td>0</td></tr>
 </tbody></table></div>
 <div class="stab country hide riderlistcont">
 <table class=" teamlist"><thead><tr>
@@ -326,15 +316,15 @@
 <tr class=""><td>9</td><td><span class="flag it"></span> <a  href="rider/lorenzo-conforti">CONFORTI Lorenzo</a></td><td>21</td></tr>
 <tr class=""><td>10</td><td><span class="flag it"></span> <a  href="rider/luca-paletti">PALETTI Luca</a></td><td>21</td></tr>
 <tr class=""><td>11</td><td><span class="flag it"></span> <a  href="rider/matteo-scalco">SCALCO Matteo</a></td><td>21</td></tr>
-<tr class=""><td>12</td><td><span class="flag it"></span> <a  href="rider/mattia-stenico">STENICO Mattia</a></td><td>18</td></tr>
+<tr class=""><td>12</td><td><span class="flag it"></span> <a  href="rider/mattia-stenico">STENICO Mattia</a></td><td>19</td></tr>
 <tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/andrea-montagner">MONTAGNER Andrea</a></td><td>19</td></tr>
-<tr class=""><td>14</td><td><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></td><td>18</td></tr>
+<tr class=""><td>14</td><td><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></td><td>19</td></tr>
 <tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/filippo-cettolin">CETTOLIN Filippo</a></td><td>19</td></tr>
 <tr class=""><td>16</td><td><span class="flag it"></span> <a  href="rider/martin-marcellusi">MARCELLUSI Martin</a></td><td>25</td></tr>
 <tr class=""><td>17</td><td><span class="flag it"></span> <a  href="rider/enrico-zanoncello">ZANONCELLO Enrico</a></td><td>28</td></tr>
 <tr class=""><td>18</td><td><span class="flag it"></span> <a  href="rider/alessio-martinelli">MARTINELLI Alessio</a></td><td>24</td></tr>
 <tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/manuele-tarozzi">TAROZZI Manuele</a></td><td>27</td></tr>
-<tr class=""><td>20</td><td><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></td><td>19</td></tr>
+<tr class=""><td>20</td><td><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></td><td>20</td></tr>
 <tr class=""><td>21</td><td><span class="flag it"></span> <a  href="rider/federico-biagini">BIAGINI Federico</a></td><td>22</td></tr>
 <tr class=""><td>22</td><td><span class="flag it"></span> <a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>30</td></tr>
 <tr class=""><td>23</td><td><span class="flag it"></span> <a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>22</td></tr>
@@ -347,31 +337,31 @@
 <th class="w67 ">ridername</th>
 <th class="w27 ">age</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag it"></span> <a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>30y + 299d</td></tr>
-<tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/luca-covili">COVILI Luca</a></td><td>28y + 216d</td></tr>
-<tr class=""><td>3</td><td><span class="flag it"></span> <a  href="rider/enrico-zanoncello">ZANONCELLO Enrico</a></td><td>28y + 43d</td></tr>
-<tr class=""><td>4</td><td><span class="flag it"></span> <a  href="rider/manuele-tarozzi">TAROZZI Manuele</a></td><td>27y + 86d</td></tr>
-<tr class=""><td>5</td><td><span class="flag it"></span> <a  href="rider/luca-colnaghi">COLNAGHI Luca</a></td><td>26y + 243d</td></tr>
-<tr class=""><td>6</td><td><span class="flag it"></span> <a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>26y + 138d</td></tr>
-<tr class=""><td>7</td><td><span class="flag it"></span> <a  href="rider/alex-tolio">TOLIO Alex</a></td><td>25y + 168d</td></tr>
-<tr class=""><td>8</td><td><span class="flag it"></span> <a  href="rider/martin-marcellusi">MARCELLUSI Martin</a></td><td>25y + 162d</td></tr>
-<tr class=""><td>9</td><td><span class="flag it"></span> <a  href="rider/mattia-pinazzi">PINAZZI Mattia</a></td><td>24y + 163d</td></tr>
-<tr class=""><td>10</td><td><span class="flag it"></span> <a  href="rider/alessio-martinelli">MARTINELLI Alessio</a></td><td>24y + 141d</td></tr>
-<tr class=""><td>11</td><td><span class="flag cl"></span> <a  href="rider/vicente-rojas">ROJAS Vicente</a></td><td>23y + 137d</td></tr>
-<tr class=""><td>12</td><td><span class="flag it"></span> <a  href="rider/lorenzo-magli">MAGLI Lorenzo</a></td><td>23y + 114d</td></tr>
-<tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/andrea-alfio-bruno">BRUNO Andrea Alfio</a></td><td>22y + 222d</td></tr>
-<tr class=""><td>14</td><td><span class="flag it"></span> <a  href="rider/federico-biagini">BIAGINI Federico</a></td><td>22y + 86d</td></tr>
-<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>22y + 64d</td></tr>
-<tr class=""><td>16</td><td><span class="flag it"></span> <a  href="rider/lorenzo-conforti">CONFORTI Lorenzo</a></td><td>21y + 115d</td></tr>
-<tr class=""><td>17</td><td><span class="flag it"></span> <a  href="rider/luca-paletti">PALETTI Luca</a></td><td>21y + 101d</td></tr>
-<tr class=""><td>18</td><td><span class="flag it"></span> <a  href="rider/matteo-scalco">SCALCO Matteo</a></td><td>21y + 81d</td></tr>
-<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></td><td>19y + 329d</td></tr>
-<tr class=""><td>20</td><td><span class="flag it"></span> <a  href="rider/andrea-montagner">MONTAGNER Andrea</a></td><td>19y + 211d</td></tr>
-<tr class=""><td>21</td><td><span class="flag it"></span> <a  href="rider/filippo-cettolin">CETTOLIN Filippo</a></td><td>19y + 83d</td></tr>
-<tr class=""><td>22</td><td><span class="flag co"></span> <a  href="rider/edward-martinez-cruz">CRUZ Edward</a></td><td>19y + 71d</td></tr>
-<tr class=""><td>23</td><td><span class="flag co"></span> <a  href="rider/martin-santiago-herreno">HERREÑO Martin Santiago</a></td><td>19y + 1d</td></tr>
-<tr class=""><td>24</td><td><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></td><td>18y + 359d</td></tr>
-<tr class=""><td>25</td><td><span class="flag it"></span> <a  href="rider/mattia-stenico">STENICO Mattia</a></td><td>18y + 353d</td></tr>
+<tr class=""><td>1</td><td><span class="flag it"></span> <a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>30y + 354d</td></tr>
+<tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/luca-covili">COVILI Luca</a></td><td>28y + 271d</td></tr>
+<tr class=""><td>3</td><td><span class="flag it"></span> <a  href="rider/enrico-zanoncello">ZANONCELLO Enrico</a></td><td>28y + 98d</td></tr>
+<tr class=""><td>4</td><td><span class="flag it"></span> <a  href="rider/manuele-tarozzi">TAROZZI Manuele</a></td><td>27y + 141d</td></tr>
+<tr class=""><td>5</td><td><span class="flag it"></span> <a  href="rider/luca-colnaghi">COLNAGHI Luca</a></td><td>26y + 298d</td></tr>
+<tr class=""><td>6</td><td><span class="flag it"></span> <a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>26y + 193d</td></tr>
+<tr class=""><td>7</td><td><span class="flag it"></span> <a  href="rider/alex-tolio">TOLIO Alex</a></td><td>25y + 223d</td></tr>
+<tr class=""><td>8</td><td><span class="flag it"></span> <a  href="rider/martin-marcellusi">MARCELLUSI Martin</a></td><td>25y + 217d</td></tr>
+<tr class=""><td>9</td><td><span class="flag it"></span> <a  href="rider/mattia-pinazzi">PINAZZI Mattia</a></td><td>24y + 218d</td></tr>
+<tr class=""><td>10</td><td><span class="flag it"></span> <a  href="rider/alessio-martinelli">MARTINELLI Alessio</a></td><td>24y + 196d</td></tr>
+<tr class=""><td>11</td><td><span class="flag cl"></span> <a  href="rider/vicente-rojas">ROJAS Vicente</a></td><td>23y + 192d</td></tr>
+<tr class=""><td>12</td><td><span class="flag it"></span> <a  href="rider/lorenzo-magli">MAGLI Lorenzo</a></td><td>23y + 169d</td></tr>
+<tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/andrea-alfio-bruno">BRUNO Andrea Alfio</a></td><td>22y + 277d</td></tr>
+<tr class=""><td>14</td><td><span class="flag it"></span> <a  href="rider/federico-biagini">BIAGINI Federico</a></td><td>22y + 141d</td></tr>
+<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>22y + 119d</td></tr>
+<tr class=""><td>16</td><td><span class="flag it"></span> <a  href="rider/lorenzo-conforti">CONFORTI Lorenzo</a></td><td>21y + 170d</td></tr>
+<tr class=""><td>17</td><td><span class="flag it"></span> <a  href="rider/luca-paletti">PALETTI Luca</a></td><td>21y + 156d</td></tr>
+<tr class=""><td>18</td><td><span class="flag it"></span> <a  href="rider/matteo-scalco">SCALCO Matteo</a></td><td>21y + 136d</td></tr>
+<tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></td><td>20y + 19d</td></tr>
+<tr class=""><td>20</td><td><span class="flag it"></span> <a  href="rider/andrea-montagner">MONTAGNER Andrea</a></td><td>19y + 266d</td></tr>
+<tr class=""><td>21</td><td><span class="flag it"></span> <a  href="rider/filippo-cettolin">CETTOLIN Filippo</a></td><td>19y + 138d</td></tr>
+<tr class=""><td>22</td><td><span class="flag co"></span> <a  href="rider/edward-martinez-cruz">CRUZ Edward</a></td><td>19y + 126d</td></tr>
+<tr class=""><td>23</td><td><span class="flag co"></span> <a  href="rider/martin-santiago-herreno">HERREÑO Martin Santiago</a></td><td>19y + 56d</td></tr>
+<tr class=""><td>24</td><td><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></td><td>19y + 49d</td></tr>
+<tr class=""><td>25</td><td><span class="flag it"></span> <a  href="rider/mattia-stenico">STENICO Mattia</a></td><td>19y + 43d</td></tr>
 </tbody></table></div>
 <div class="stab name riderlistcont">
 <ul class="teamlist list lineh18" >
@@ -382,7 +372,7 @@
 <li class=""><div class="w10" >5</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/lorenzo-conforti">CONFORTI Lorenzo</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >21</div></li>
 <li class=""><div class="w10" >6</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/luca-covili">COVILI Luca</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >28</div></li>
 <li class=""><div class="w10" >7</div><div class="w80" ><div class="mr5" ><span class="flag co"></span> <a  href="rider/edward-martinez-cruz">CRUZ Edward</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >19</div></li>
-<li class=""><div class="w10" >8</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >18</div></li>
+<li class=""><div class="w10" >8</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >19</div></li>
 <li class=""><div class="w10" >9</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >30</div></li>
 <li class=""><div class="w10" >10</div><div class="w80" ><div class="mr5" ><span class="flag co"></span> <a  href="rider/martin-santiago-herreno">HERREÑO Martin Santiago</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >19</div></li>
 <li class=""><div class="w10" >11</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/filippo-magli2">MAGLI Filippo</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >26</div></li>
@@ -395,10 +385,10 @@
 <li class=""><div class="w10" >18</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/mattia-pinazzi">PINAZZI Mattia</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >24</div></li>
 <li class=""><div class="w10" >19</div><div class="w80" ><div class="mr5" ><span class="flag cl"></span> <a  href="rider/vicente-rojas">ROJAS Vicente</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >23</div></li>
 <li class=""><div class="w10" >20</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/matteo-scalco">SCALCO Matteo</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >21</div></li>
-<li class=""><div class="w10" >21</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/mattia-stenico">STENICO Mattia</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >18</div></li>
+<li class=""><div class="w10" >21</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/mattia-stenico">STENICO Mattia</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >19</div></li>
 <li class=""><div class="w10" >22</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/manuele-tarozzi">TAROZZI Manuele</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >27</div></li>
 <li class=""><div class="w10" >23</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/alex-tolio">TOLIO Alex</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >25</div></li>
-<li class=""><div class="w10" >24</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >19</div></li>
+<li class=""><div class="w10" >24</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >20</div></li>
 <li class=""><div class="w10" >25</div><div class="w80" ><div class="mr5" ><span class="flag it"></span> <a  href="rider/enrico-zanoncello">ZANONCELLO Enrico</a></div><div class="fs10 clr999" ></div><div></div></div><div class="w10" >28</div></li>
 </ul>
 </div>
@@ -408,22 +398,22 @@
 <th class="w67 ">ridername</th>
 <th class="w27 ">specialty</th>
 </tr></thead><tbody>
-<tr class=""><td>1</td><td><span class="flag co"></span> <a  href="rider/martin-santiago-herreno">HERREÑO Martin Santiago</a></td><td>Climber</td></tr>
-<tr class=""><td>2</td><td><span class="flag co"></span> <a  href="rider/edward-martinez-cruz">CRUZ Edward</a></td><td>Climber</td></tr>
-<tr class=""><td>3</td><td><span class="flag it"></span> <a  href="rider/alessio-martinelli">MARTINELLI Alessio</a></td><td>Climber</td></tr>
+<tr class=""><td>1</td><td><span class="flag it"></span> <a  href="rider/alessio-martinelli">MARTINELLI Alessio</a></td><td>Climber</td></tr>
+<tr class=""><td>2</td><td><span class="flag it"></span> <a  href="rider/matteo-scalco">SCALCO Matteo</a></td><td>Climber</td></tr>
+<tr class=""><td>3</td><td><span class="flag co"></span> <a  href="rider/martin-santiago-herreno">HERREÑO Martin Santiago</a></td><td>GC</td></tr>
 <tr class=""><td>4</td><td><span class="flag it"></span> <a  href="rider/luca-covili">COVILI Luca</a></td><td>GC</td></tr>
 <tr class=""><td>5</td><td><span class="flag it"></span> <a  href="rider/manuele-tarozzi">TAROZZI Manuele</a></td><td>GC</td></tr>
 <tr class=""><td>6</td><td><span class="flag it"></span> <a  href="rider/alex-tolio">TOLIO Alex</a></td><td>GC</td></tr>
-<tr class=""><td>7</td><td><span class="flag it"></span> <a  href="rider/matteo-scalco">SCALCO Matteo</a></td><td>GC</td></tr>
-<tr class=""><td>8</td><td><span class="flag it"></span> <a  href="rider/luca-paletti">PALETTI Luca</a></td><td>GC</td></tr>
-<tr class=""><td>9</td><td><span class="flag it"></span> <a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>Hills</td></tr>
-<tr class=""><td>10</td><td><span class="flag it"></span> <a  href="rider/martin-marcellusi">MARCELLUSI Martin</a></td><td>Hills</td></tr>
-<tr class=""><td>11</td><td><span class="flag it"></span> <a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>Hills</td></tr>
-<tr class=""><td>12</td><td><span class="flag it"></span> <a  href="rider/federico-biagini">BIAGINI Federico</a></td><td>Hills</td></tr>
-<tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>Oneday</td></tr>
-<tr class=""><td>14</td><td><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></td><td>Oneday</td></tr>
-<tr class=""><td>15</td><td><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></td><td>Oneday</td></tr>
-<tr class=""><td>16</td><td><span class="flag cl"></span> <a  href="rider/vicente-rojas">ROJAS Vicente</a></td><td>Oneday</td></tr>
+<tr class=""><td>7</td><td><span class="flag co"></span> <a  href="rider/edward-martinez-cruz">CRUZ Edward</a></td><td>Hills</td></tr>
+<tr class=""><td>8</td><td><span class="flag it"></span> <a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>Hills</td></tr>
+<tr class=""><td>9</td><td><span class="flag it"></span> <a  href="rider/martin-marcellusi">MARCELLUSI Martin</a></td><td>Hills</td></tr>
+<tr class=""><td>10</td><td><span class="flag it"></span> <a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>Hills</td></tr>
+<tr class=""><td>11</td><td><span class="flag it"></span> <a  href="rider/federico-biagini">BIAGINI Federico</a></td><td>Hills</td></tr>
+<tr class=""><td>12</td><td><span class="flag it"></span> <a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>Oneday</td></tr>
+<tr class=""><td>13</td><td><span class="flag it"></span> <a  href="rider/santiago-ferraro">FERRARO Santiago</a></td><td>Oneday</td></tr>
+<tr class=""><td>14</td><td><span class="flag it"></span> <a  href="rider/filippo-turconi">TURCONI Filippo</a></td><td>Oneday</td></tr>
+<tr class=""><td>15</td><td><span class="flag cl"></span> <a  href="rider/vicente-rojas">ROJAS Vicente</a></td><td>Oneday</td></tr>
+<tr class=""><td>16</td><td><span class="flag it"></span> <a  href="rider/luca-paletti">PALETTI Luca</a></td><td>Oneday</td></tr>
 <tr class=""><td>17</td><td><span class="flag it"></span> <a  href="rider/lorenzo-conforti">CONFORTI Lorenzo</a></td><td>Sprint</td></tr>
 <tr class=""><td>18</td><td><span class="flag it"></span> <a  href="rider/andrea-alfio-bruno">BRUNO Andrea Alfio</a></td><td>Sprint</td></tr>
 <tr class=""><td>19</td><td><span class="flag it"></span> <a  href="rider/lorenzo-magli">MAGLI Lorenzo</a></td><td>Sprint</td></tr>
@@ -466,22 +456,7 @@
 <th class="w8 cu600">Class</th>
 <th class="w32 cu600 fs10 clr555">Riders</th>
 </tr></thead><tbody>
-<tr class=""><td class="cu600" >14/09</td><td class="cs600 hide" >14/09</td><td><span class="flag it"></span> <a  href="race/trofeo-matteotti/2025">Trofeo Matteotti</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" >Magli, Marcellusi, Paletti, Pinarello, Tarozzi, Conforti, Colnaghi</td></tr>
-<tr class=""><td class="cu600" >20/09</td><td class="cs600 hide" >20/09</td><td><span class="flag it"></span> <a  href="race/milano-rapallo/2025">Milano-Rapallo</a></td><td class="cu600" >1.2</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class=""><td class="cu600" >21/09</td><td class="cs600 hide" >21/09</td><td><span class="flag be"></span> <a  href="race/gooikse-pijl/2025">Gooikse Pijl</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class=""><td class="cu600" >21/09</td><td class="cs600 hide" >21/09</td><td><span class="flag it"></span> <a  href="race/giro-di-romagna/2025">Giro della Romagna</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class=""><td class="cu600" >28/09 - 05/10</td><td class="cs600 hide" >28/09 - 05/10</td><td><span class="flag my"></span> <a  href="race/tour-de-langkawi/2025">Petronas Le Tour de Langkawi</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" >Conforti, Covili, Pinazzi, Tarozzi, Tolio, Zanoncello</td></tr>
-<tr class="hide"><td class="cu600" >30/09 - 05/10</td><td class="cs600 hide" >30/09 - 05/10</td><td><span class="flag hr"></span> <a  href="race/tour-of-croatia/2025">CRO Race</a></td><td class="cu600" >2.1</td><td class="cu600 fs10 clr555" >Biagini, Colnaghi, Conforti, Magli, Paletti, Tolio, Zanoncello</td></tr>
-<tr class="hide"><td class="cu600" >04/10</td><td class="cs600 hide" >04/10</td><td><span class="flag it"></span> <a  href="race/giro-dell-emilia/2025">Giro dell'Emilia</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >05/10</td><td class="cs600 hide" >05/10</td><td><span class="flag it"></span> <a  href="race/coppa-agostoni/2025">Coppa Agostoni - Giro delle Brianze</a></td><td class="cu600" >1.1</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >06/10</td><td class="cs600 hide" >06/10</td><td><span class="flag it"></span> <a  href="race/coppa-bernocchi/2025">Coppa Bernocchi - GP Banco BPM</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >07/10</td><td class="cs600 hide" >07/10</td><td><span class="flag it"></span> <a  href="race/tre-valli-varesine/2025">Tre Valli Varesine</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >09/10 - 12/10</td><td class="cs600 hide" >09/10 - 12/10</td><td><span class="flag cn"></span> <a  href="race/tour-of-taihu-lake/2025">Tour of Taihu Lake</a></td><td class="cu600" >2.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >09/10</td><td class="cs600 hide" >09/10</td><td><span class="flag it"></span> <a  href="race/gran-piemonte/2025">Gran Piemonte</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >11/10</td><td class="cs600 hide" >11/10</td><td><span class="flag it"></span> <a  href="race/il-lombardia/2025">Il Lombardia</a></td><td class="cu600" >1.UWT</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >15/10</td><td class="cs600 hide" >15/10</td><td><span class="flag it"></span> <a  href="race/giro-del-veneto/2025">Giro del Veneto</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-<tr class="hide"><td class="cu600" >19/10</td><td class="cs600 hide" >19/10</td><td><span class="flag it"></span> <a  href="race/veneto-classic/2025">Veneto Classic</a></td><td class="cu600" >1.Pro</td><td class="cu600 fs10 clr555" ></td></tr>
-</tbody></table><a class="show-all-link show-all" href="">show 10 more lines</a></div>
+</tbody></table></div>
 <div class="mt20">
 <h4>Last victories</h4><table class=" basic"><thead><tr>
 <th class="w8 ">#</th>
@@ -505,23 +480,23 @@
 <tr class=""><td>1</td><td><span class="flag it"></span> <a  href="race/giro-di-reggio-calabria/2025/result">Giro della Città Metropolitana di Reggio Calabria</a></td><td>1.1</td><td><a  href="rider/luca-colnaghi">COLNAGHI Luca</a></td><td>75</td></tr>
 <tr class=""><td>6</td><td><span class="flag cn"></span> <a  href="race/tour-of-magnificent-qinghai/2025/gc">Tour of Magnificent Qinghai | General classification</a></td><td>2.Pro</td><td><a  href="rider/alex-tolio">TOLIO Alex</a></td><td>60</td></tr>
 <tr class=""><td>2</td><td><span class="flag es"></span> <a  href="race/deia-trophy/2025/result">Trofeo Serra Tramuntana</a></td><td>1.1</td><td><a  href="rider/martin-marcellusi">MARCELLUSI Martin</a></td><td>55</td></tr>
+<tr class=""><td>7</td><td><span class="flag my"></span> <a  href="race/tour-de-langkawi/2025/gc">Petronas Le Tour de Langkawi | General classification</a></td><td>2.Pro</td><td><a  href="rider/luca-covili">COVILI Luca</a></td><td>55</td></tr>
 <tr class=""><td>10</td><td><span class="flag be"></span> <a  href="race/tour-de-wallonie/2025/gc">Ethias-Tour de Wallonie | General classification</a></td><td>2.Pro</td><td><a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>40</td></tr>
 <tr class=""><td>10</td><td><span class="flag si"></span> <a  href="race/tour-of-slovenia/2025/gc">Tour of Slovenia | General classification</a></td><td>2.Pro</td><td><a  href="rider/alex-tolio">TOLIO Alex</a></td><td>40</td></tr>
+<tr class=""><td>10</td><td><span class="flag cn"></span> <a  href="race/tour-of-taihu-lake/2025/gc">Tour of Taihu Lake | General classification</a></td><td>2.Pro</td><td><a  href="rider/enrico-zanoncello">ZANONCELLO Enrico</a></td><td>40</td></tr>
 <tr class=""><td>11</td><td><span class="flag si"></span> <a  href="race/tour-of-slovenia/2025/gc">Tour of Slovenia | General classification</a></td><td>2.Pro</td><td><a  href="rider/matteo-scalco">SCALCO Matteo</a></td><td>36</td></tr>
-<tr class=""><td>4</td><td><span class="flag it"></span> <a  href="race/giro-di-toscana/2025/result">Giro della Toscana - Memorial Alfredo Martini</a></td><td>1.1</td><td><a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>32</td></tr>
 <tr class=""><td>4</td><td><span class="flag it"></span> <a  href="race/giro-di-reggio-calabria/2025/result">Giro della Città Metropolitana di Reggio Calabria</a></td><td>1.1</td><td><a  href="rider/martin-marcellusi">MARCELLUSI Martin</a></td><td>32</td></tr>
 <tr class=""><td>12</td><td><span class="flag hu"></span> <a  href="race/tour-de-hongrie/2025/gc">Tour de Hongrie | General classification</a></td><td>2.Pro</td><td><a  href="rider/alex-tolio">TOLIO Alex</a></td><td>32</td></tr>
-<tr class=""><td>5</td><td><span class="flag it"></span> <a  href="race/giro-d-abruzzo/2025/gc">Il Giro d'Abruzzo | General classification</a></td><td>2.1</td><td><a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>28</td></tr>
+<tr class="hide"><td>12</td><td><span class="flag my"></span> <a  href="race/tour-de-langkawi/2025/gc">Petronas Le Tour de Langkawi | General classification</a></td><td>2.Pro</td><td><a  href="rider/martin-santiago-herreno">HERREÑO Martin Santiago</a></td><td>32</td></tr>
+<tr class="hide"><td>4</td><td><span class="flag it"></span> <a  href="race/giro-di-toscana/2025/result">Giro della Toscana - Memorial Alfredo Martini</a></td><td>1.1</td><td><a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>32</td></tr>
+<tr class="hide"><td>8</td><td><span class="flag it"></span> <a  href="race/coppa-bernocchi/2025/result">Coppa Bernocchi - GP Banco BPM</a></td><td>1.Pro</td><td><a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>30</td></tr>
+<tr class="hide"><td>5</td><td><span class="flag it"></span> <a  href="race/giro-d-abruzzo/2025/gc">Il Giro d'Abruzzo | General classification</a></td><td>2.1</td><td><a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>28</td></tr>
 <tr class="hide"><td>5</td><td><span class="flag fr"></span> <a  href="race/cholet-pays-de-loire/2025/result">Cholet Agglo Tour</a></td><td>1.1</td><td><a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>28</td></tr>
 <tr class="hide"><td>14</td><td><span class="flag fr"></span> <a  href="race/bretagne-classic/2025/result">Bretagne Classic - Ouest-France</a></td><td>1.UWT</td><td><a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>26</td></tr>
 <tr class="hide"><td>4</td><td><span class="flag it"></span> <a  href="race/giro-d-italia/2025/stage-18">Giro d'Italia | Stage 18</a></td><td>2.UWT</td><td><a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>25</td></tr>
 <tr class="hide"><td>19</td><td><span class="flag ae"></span> <a  href="race/uae-tour/2025/gc">UAE Tour | General classification</a></td><td>2.UWT</td><td><a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>24</td></tr>
+<tr class="hide"><td>6</td><td><span class="flag it"></span> <a  href="race/giro-di-romagna/2025/result">Giro della Romagna</a></td><td>1.1</td><td><a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>24</td></tr>
 <tr class="hide"><td>10</td><td><span class="flag it"></span> <a  href="race/gp-industria-artigianato/2025/result">GP Industria & Artigianato</a></td><td>1.Pro</td><td><a  href="rider/filippo-magli2">MAGLI Filippo</a></td><td>22</td></tr>
-<tr class="hide"><td>7</td><td><span class="flag it"></span> <a  href="race/giro-di-reggio-calabria/2025/result">Giro della Città Metropolitana di Reggio Calabria</a></td><td>1.1</td><td><a  href="rider/enrico-zanoncello">ZANONCELLO Enrico</a></td><td>20</td></tr>
-<tr class="hide"><td>8</td><td><span class="flag es"></span> <a  href="race/gp-de-valence/2025/result">Clàssica Comunitat Valenciana 1969 - Gran Premi València</a></td><td>1.1</td><td><a  href="rider/alessandro-pinarello">PINARELLO Alessandro</a></td><td>18</td></tr>
-<tr class="hide"><td>8</td><td><span class="flag fr"></span> <a  href="race/route-adelie-de-vitre/2025/result">La Route Adélie de Vitré</a></td><td>1.1</td><td><a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>18</td></tr>
-<tr class="hide"><td>5</td><td><span class="flag it"></span> <a  href="race/giro-d-italia/2025/stage-5">Giro d'Italia | Stage 5</a></td><td>2.UWT</td><td><a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>18</td></tr>
-<tr class="hide"><td>8</td><td><span class="flag it"></span> <a  href="race/giro-di-reggio-calabria/2025/result">Giro della Città Metropolitana di Reggio Calabria</a></td><td>1.1</td><td><a  href="rider/filippo-fiorelli">FIORELLI Filippo</a></td><td>18</td></tr>
 </tbody></table><a class="show-all-link show-all" href="">show 10 more lines</a></div>
 </div>
 <div class="borderbox w30 right mb_w100" >
@@ -640,7 +615,7 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.3346s</span></li>
+<li><span>Pageload 0.5302s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script>
+<script src="search_list23.js"></script>

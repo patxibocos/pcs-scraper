@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=7b3fd7c67f1626aed6501d845022e534e0957799cb55cc347e56d751890a931b">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/kelland-brien/start">Overview</a></span>
 <span><a class="" href="rider/kelland-brien/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/kelland-brien/statistics/overview">Overview</a></li>
 <li><a href="rider/kelland-brien/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/kelland-brien/statistics/key-events">Key events</a></li>
+<li><a href="rider/kelland-brien/statistics/badges">Badges</a></li>
 <li><a href="rider/kelland-brien/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/kelland-brien/statistics/wins">Wins</a></li>
 <li><a href="rider/kelland-brien/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -143,11 +134,6 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
-<div class="">
-<ul class="list fs14" >
-<li class=""><div>Vuelta a España</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="race/vuelta-a-espana/2025/stage-21/live">LiveStats</a></div><div class="blue mr10" ><a  href="rider-in-race/kelland-brien/vuelta-a-espana/2025">Race stats</a></div><div class="blue" ><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></div></li>
-</ul>
-</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -185,11 +171,11 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w97 bg green left" ></div></div></div><div class="xvalue ac" >255</div><div class="xtitle" ><a  href="rider/kelland-brien/results/career-points-one-day-races">Onedayraces</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w36 bg red left" ></div></div></div><div class="xvalue ac" >96</div><div class="xtitle" ><a  href="rider/kelland-brien/results/career-points-gc">GC</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w97 bg green2 left" ></div></div></div><div class="xvalue ac" >255</div><div class="xtitle" ><a  href="rider/kelland-brien/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w44 bg red left" ></div></div></div><div class="xvalue ac" >116</div><div class="xtitle" ><a  href="rider/kelland-brien/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg blue left" ></div></div></div><div class="xvalue ac" >264</div><div class="xtitle" ><a  href="rider/kelland-brien/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w11 bg orange left" ></div></div></div><div class="xvalue ac" >28</div><div class="xtitle" ><a  href="rider/kelland-brien/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w3 bg purple left" ></div></div></div><div class="xvalue ac" >7</div><div class="xtitle" ><a  href="rider/kelland-brien/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w10 bg orange left" ></div></div></div><div class="xvalue ac" >26</div><div class="xtitle" ><a  href="rider/kelland-brien/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w3 bg purple1 left" ></div></div></div><div class="xvalue ac" >7</div><div class="xtitle" ><a  href="rider/kelland-brien/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w48 bg pink left" ></div></div></div><div class="xvalue ac" >128</div><div class="xtitle" ><a  href="rider/kelland-brien/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -207,13 +193,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1339</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >653</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >839</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >576</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;5548</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;72</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -259,9 +245,10 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >20.09</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/gp-impanis-van-petegem/2025/startlist">SUPER 8 Classic</a></div><div class="blue fs10" ><a  href="rider-in-race/kelland-brien/gp-impanis-van-petegem">more</a></div></li>
-<li class=""><div class="bold mr5" >24.09</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/omloop-van-het-houtland-lichtervelde/2025/startlist">Omloop van het Houtland</a></div><div class="blue fs10" ><a  href="rider-in-race/kelland-brien/omloop-van-het-houtland-lichtervelde">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -272,7 +259,7 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="207191" /><input type="hidden" id="seo" value="kelland-brien" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="207191" /><input type="hidden" id="seo" value="kelland-brien" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -284,7 +271,14 @@
 <li><a  class="rdrFilterSeason" data-season="2016" href="">2016</a></li>
 <li><a  class="rdrFilterSeason" data-season="2015" href="">2015</a></li>
 </ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>03.10</td><td>153</td><td></td><td><span class=""></span></td><td><span class="flag de"></span> <a href="race/munsterland-giro/2025/result"><span>Sparkassen Münsterland Giro</span> (1.Pro)</a>  </td><td>192</td><td></td><td></td><td><a class="fs10" href="rider-in-race/kelland-brien/munsterland-giro">more</a></td></tr>
+<tr class="main"><td>24.09</td><td>DNS</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/omloop-van-het-houtland-lichtervelde/2025/result"><span>Omloop van het Houtland</span> (1.1)</a>  </td><td>198.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/kelland-brien/omloop-van-het-houtland-lichtervelde">more</a></td></tr>
+<tr class="main"><td>21.09</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/gooikse-pijl/2025/result"><span>Gooikse Pijl</span> (1.1)</a>  </td><td>195.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/kelland-brien/gooikse-pijl">more</a></td></tr>
+<tr class="main"><td>20.09</td><td>88</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/gp-impanis-van-petegem/2025/result"><span>SUPER 8 Classic</span> (1.Pro)</a>  </td><td>200.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/kelland-brien/gp-impanis-van-petegem">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">23.08 &rsaquo; 14.09</span><span class="showIfMobile fs12">23-14/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2025/stage-1-gc"><span>La Vuelta Ciclista a España</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/kelland-brien/vuelta-a-espana">more</a></td></tr>
+<tr class="stage"><td></td><td>90</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/vuelta-a-espana/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td></td><td>94</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/vuelta-a-espana/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>20</td><td></td><td></td></tr>
+<tr class="stage"><td>14.09</td><td>NR</td><td></td><td><span class=""></span></td><td><a href="race/vuelta-a-espana/2025/stage-21"><span class="imob">S21</span><span class="idesk">Stage 21</span> - Alalpardo &rsaquo; Madrid</a>  </td><td><s>108</s> 51</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>13.09</td><td>81</td><td>94</td><td><span class=""></span></td><td><a href="race/vuelta-a-espana/2025/stage-20"><span class="imob">S20</span><span class="idesk">Stage 20</span> - Robledo de Chavela &rsaquo; Bola del Mundo. Puerto de Navacerrada</a> <span title="90 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>90k</span> </td><td>164.8</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>12.09</td><td>23</td><td>94</td><td><span class=""></span></td><td><a href="race/vuelta-a-espana/2025/stage-19"><span class="imob">S19</span><span class="idesk">Stage 19</span> - Rueda &rsaquo; Guijuelo</a>  </td><td>161.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>11.09</td><td>7</td><td>96</td><td><span class="iconv3 chrono"></span></td><td><a href="race/vuelta-a-espana/2025/stage-18"><span class="imob">S18 (ITT)</span><span class="idesk">Stage 18 (ITT)</span> - Valladolid &rsaquo; Valladolid</a>  </td><td>12.2</td><td>12</td><td>40</td><td></td></tr>
@@ -362,7 +356,7 @@
 <tr class="main"><td>18.01</td><td>125</td><td></td><td><span class=""></span></td><td><span class="flag au"></span> <a href="national-race/schwalbe-classic/2025/result"><span>Villawood Men's Classic</span> (NAT)</a>  </td><td>55.2</td><td></td><td></td><td><a class="fs10" href="rider-in-race/kelland-brien/schwalbe-classic">more</a></td></tr>
 <tr class="main"><td>12.01</td><td>15</td><td></td><td><span class=""></span></td><td><span class="flag au"></span> <a href="race/nc-australia/2025/result"><span>National Championships Australia ME - Road Race</span> (NC)</a>  </td><td>177</td><td></td><td>1</td><td><a class="fs10" href="rider-in-race/kelland-brien/nc-australia">more</a></td></tr>
 <tr class="main"><td>09.01</td><td>3</td><td></td><td><span class="iconv3 chrono"></span></td><td><span class="flag au"></span> <a href="race/australian-open-road-championships-itt/2025/result"><span>National Championships Australia ME - ITT</span> (NC)</a>  </td><td>38.4</td><td>2</td><td>20</td><td><a class="fs10" href="rider-in-race/kelland-brien/australian-open-road-championships-itt">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>9604 km in <b>64</b> days | PCS points: <b>70</b> | UCI points: <b>77.67</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>10146 km in <b>69</b> days | PCS points: <b>90</b> | UCI points: <b>77.67</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -377,12 +371,12 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w40 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l40"  style="height: 12px; line-height: 12px; " >70</div></div></td><td class="fs11 " >576</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w52 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l52"  style="height: 12px; line-height: 12px; " >90</div></div></td><td class="fs11 " >572</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >139</div></div></td><td class="fs11 " >436</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w50 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l50"  style="height: 12px; line-height: 12px; " >87</div></div></td><td class="fs11 " >599</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w56 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l56"  style="height: 12px; line-height: 12px; " >97</div></div></td><td class="fs11 " >491</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w56 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l56"  style="height: 12px; line-height: 12px; " >97</div></div></td><td class="fs11 " >490</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w7 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l7"  style="height: 12px; line-height: 12px; " >12</div></div></td><td class="fs11 " >1296</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w8 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l8"  style="height: 12px; line-height: 12px; " >14</div></div></td><td class="fs11 " >1587</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w8 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l8"  style="height: 12px; line-height: 12px; " >14</div></div></td><td class="fs11 " >1586</td></tr>
 </tbody></table></div>
 </div>
 <div class="">
@@ -450,9 +444,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0663s</span></li>
+<li><span>Pageload 0.0671s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 207191;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

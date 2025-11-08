@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=fd2c8b2e6bdae413d4b01d46dcafa0409e76cc2581c575882f946c9becf52327">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/nicolas-prodhomme/start">Overview</a></span>
 <span><a class="" href="rider/nicolas-prodhomme/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/nicolas-prodhomme/statistics/overview">Overview</a></li>
 <li><a href="rider/nicolas-prodhomme/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/nicolas-prodhomme/statistics/key-events">Key events</a></li>
+<li><a href="rider/nicolas-prodhomme/statistics/badges">Badges</a></li>
 <li><a href="rider/nicolas-prodhomme/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/nicolas-prodhomme/statistics/wins">Wins</a></li>
 <li><a href="rider/nicolas-prodhomme/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -180,12 +171,12 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w36 bg green left" ></div></div></div><div class="xvalue ac" >273</div><div class="xtitle" ><a  href="rider/nicolas-prodhomme/results/career-points-one-day-races">Onedayraces</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg red left" ></div></div></div><div class="xvalue ac" >760</div><div class="xtitle" ><a  href="rider/nicolas-prodhomme/results/career-points-gc">GC</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w39 bg green2 left" ></div></div></div><div class="xvalue ac" >303</div><div class="xtitle" ><a  href="rider/nicolas-prodhomme/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg red left" ></div></div></div><div class="xvalue ac" >784</div><div class="xtitle" ><a  href="rider/nicolas-prodhomme/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w4 bg blue left" ></div></div></div><div class="xvalue ac" >32</div><div class="xtitle" ><a  href="rider/nicolas-prodhomme/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w2 bg orange left" ></div></div></div><div class="xvalue ac" >15</div><div class="xtitle" ><a  href="rider/nicolas-prodhomme/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w91 bg purple left" ></div></div></div><div class="xvalue ac" >690</div><div class="xtitle" ><a  href="rider/nicolas-prodhomme/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w37 bg pink left" ></div></div></div><div class="xvalue ac" >280</div><div class="xtitle" ><a  href="rider/nicolas-prodhomme/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w94 bg purple1 left" ></div></div></div><div class="xvalue ac" >740</div><div class="xtitle" ><a  href="rider/nicolas-prodhomme/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w36 bg pink left" ></div></div></div><div class="xvalue ac" >286</div><div class="xtitle" ><a  href="rider/nicolas-prodhomme/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -204,13 +195,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >77</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >61</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >70</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >56</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;328</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;25</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -245,7 +236,7 @@
 <div class="">
 <span class="table-cont">
 <ul class="rdr-teams2  "  >
-<li class="main  "><div class="season">2026</div><div class="name"><a href="team/decathlon-cma-cgm-2026">Decathlon CMA CGM</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main  "><div class="season">2026</div><div class="name"><a href="team/decathlon-cma-cgm-team-2026">Decathlon CMA CGM Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2025</div><div class="name"><a href="team/decathlon-ag2r-la-mondiale-2025">Decathlon AG2R La Mondiale Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2024</div><div class="name"><a href="team/decathlon-ag2r-la-mondiale-2024">Decathlon AG2R La Mondiale Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2023</div><div class="name"><a href="team/ag2r-citroen-team-2023">AG2R Citroën Team</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
@@ -261,19 +252,21 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >17.09</div><div class="ellipsis" ><span class="flag lu"></span> <a  href="race/tour-de-luxembourg/2025/startlist">Skoda Tour de Luxembourg</a></div><div class="blue fs10" ><a  href="rider-in-race/nicolas-prodhomme/tour-de-luxembourg">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
 <li class=""><div class="kpi" >6</div><div class="title" ><a  href="rider/nicolas-prodhomme/statistics/wins">Wins</a></div><div class="info fs11" >GC (1)</div><div class="info fs11" >Oneday races (1)</div><div class="info fs11" >ITT (0)</div><div class="info fs11" ></div><div class="info fs11" ></div></li>
 <li class=""><div class="kpi" >7</div><div class="title" ><a  href="rider/nicolas-prodhomme/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11" >tour (1) giro (3) vuelta(3)</div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div></li>
-<li class=""><div class="kpi" >3</div><div class="title" ><a  href="rider/nicolas-prodhomme/statistics/top-classic-results">Classics</a></div><div class="info fs11" >RBX(0)</div><div class="info fs11" >MSR(0)</div><div class="info fs11" >RVV(0)</div><div class="info fs11" >LBL(1)</div><div class="info fs11" >LOM(2)</div></li>
+<li class=""><div class="kpi" >4</div><div class="title" ><a  href="rider/nicolas-prodhomme/statistics/top-classic-results">Classics</a></div><div class="info fs11" >RBX(0)</div><div class="info fs11" >MSR(0)</div><div class="info fs11" >RVV(0)</div><div class="info fs11" >LBL(1)</div><div class="info fs11" >LOM(3)</div></li>
 </ul>
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="184468" /><input type="hidden" id="seo" value="nicolas-prodhomme" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="184468" /><input type="hidden" id="seo" value="nicolas-prodhomme" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -285,7 +278,17 @@
 <li><a  class="rdrFilterSeason" data-season="2016" href="">2016</a></li>
 <li><a  class="rdrFilterSeason" data-season="2015" href="">2015</a></li>
 <li><a  class="rdrFilterSeason" data-season="2014" href="">2014</a></li>
-</ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div class="simpleDropdown" style="">ROAD<ul><li><a class="rdrFilterDiscipline" data-discipline="pcs" href="">ROAD</a></li><li><a class="rdrFilterDiscipline" data-discipline="cx" href="">CROSS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+</ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>11.10</td><td>49</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/il-lombardia/2025/result"><span>Il Lombardia</span> (1.UWT)</a>  </td><td>241</td><td>5</td><td>15</td><td><a class="fs10" href="rider-in-race/nicolas-prodhomme/il-lombardia">more</a></td></tr>
+<tr class="main"><td>05.10</td><td>12</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/uec-road-european-championships/2025/result"><span>European Continental Championships ME - Road Race</span> (CC)</a> <span title="82 kilometre in a group before the peloton" class="fs11" style="color: #f55733;  "> <div class="svg_shield"></div>82k</span> </td><td>202.5</td><td>20</td><td>35</td><td><a class="fs10" href="rider-in-race/nicolas-prodhomme/uec-road-european-championships">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">17.09 &rsaquo; 21.09</span><span class="showIfMobile fs12">17-21/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag lu"></span> <a href="race/tour-de-luxembourg/2025/stage-1-gc"><span>Skoda Tour de Luxembourg</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/nicolas-prodhomme/tour-de-luxembourg">more</a></td></tr>
+<tr class="stage"><td></td><td>23</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-de-luxembourg/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td></td><td>14</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-luxembourg/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>24</td><td>15</td><td></td></tr>
+<tr class="stage"><td>21.09</td><td>15</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Mersch &rsaquo; Luxembourg </a>  </td><td>176.4</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>20.09</td><td>56</td><td>18</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-de-luxembourg/2025/stage-4"><span class="imob">S4 (ITT)</span><span class="idesk">Stage 4 (ITT)</span> - Niederanven &rsaquo; Niederanven</a>  </td><td>26.3</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>19.09</td><td>7</td><td>8</td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Mertert &rsaquo; Vianden</a>  </td><td>170.5</td><td>2</td><td></td><td></td></tr>
+<tr class="stage"><td>18.09</td><td>63</td><td>31</td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Remich &rsaquo; Mamer</a>  </td><td>168.4</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>17.09</td><td>22</td><td>22</td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Luxembourg &rsaquo; Luxembourg</a>  </td><td>152.8</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>31.08</td><td>73</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/bretagne-classic/2025/result"><span>Bretagne Classic - Ouest-France</span> (1.UWT)</a>  </td><td>261.7</td><td>5</td><td></td><td><a class="fs10" href="rider-in-race/nicolas-prodhomme/bretagne-classic">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">19.08 &rsaquo; 22.08</span><span class="showIfMobile fs12">19-22/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-du-limousin/2025/stage-1-gc"><span>Tour du Limousin-Périgord - Nouvelle Aquitaine</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/nicolas-prodhomme/tour-du-limousin">more</a></td></tr>
 <tr class="stage"><td></td><td>5</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-du-limousin/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>28</td><td>50</td><td></td></tr>
@@ -372,7 +375,7 @@
 <tr class="stage"><td>06.02</td><td>46</td><td>43</td><td><span class=""></span></td><td><a href="race/etoile-de-besseges/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Domessargues &rsaquo; Marguerittes</a>  </td><td>165.83</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>05.02</td><td>55</td><td>55</td><td><span class=""></span></td><td><a href="race/etoile-de-besseges/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Bellegarde &rsaquo; Bellegarde</a>  </td><td>159.07</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>02.02</td><td>7</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/gp-d-ouverture/2025/result"><span>Grand Prix Cycliste de Marseille La Marseillaise</span> (1.1)</a>  </td><td>164.2</td><td>20</td><td>35</td><td><a class="fs10" href="rider-in-race/nicolas-prodhomme/gp-d-ouverture">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>9687 km in <b>61</b> days | PCS points: <b>702</b> | UCI points: <b>1043</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>10825 km in <b>68</b> days | PCS points: <b>753</b> | UCI points: <b>1108</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -387,9 +390,9 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >702</div></div></td><td class="fs11 " >48</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w21 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l21"  style="height: 12px; line-height: 12px; " >182</div></div></td><td class="fs11 " >347</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w26 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l26"  style="height: 12px; line-height: 12px; " >227</div></div></td><td class="fs11 " >280</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >753</div></div></td><td class="fs11 " >56</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w19 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l19"  style="height: 12px; line-height: 12px; " >182</div></div></td><td class="fs11 " >347</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w24 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l24"  style="height: 12px; line-height: 12px; " >227</div></div></td><td class="fs11 " >280</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w6 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l6"  style="height: 12px; line-height: 12px; " >54</div></div></td><td class="fs11 " >725</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w8 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l8"  style="height: 12px; line-height: 12px; " >73</div></div></td><td class="fs11 " >560</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2020-12-31&filter=1&p=me&s=season-individual">2020</a></td><td><div class="valuebar"><div class="w0 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l0"  style="height: 12px; line-height: 12px; " >2</div></div></td><td class="fs11 " >1535</td></tr>
@@ -470,9 +473,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0976s</span></li>
+<li><span>Pageload 0.0677s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 184468;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

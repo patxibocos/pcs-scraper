@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=dc85216f45d088f259d7916b58a49c8180c17cb7bce0d97d57e5f89ea9b86a1c">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/matheo-barusseau/start">Overview</a></span>
 <span><a class="" href="rider/matheo-barusseau/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/matheo-barusseau/statistics/overview">Overview</a></li>
 <li><a href="rider/matheo-barusseau/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/matheo-barusseau/statistics/key-events">Key events</a></li>
+<li><a href="rider/matheo-barusseau/statistics/badges">Badges</a></li>
 <li><a href="rider/matheo-barusseau/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/matheo-barusseau/statistics/wins">Wins</a></li>
 <li><a href="rider/matheo-barusseau/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -175,11 +166,11 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg green left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/matheo-barusseau/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg green2 left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/matheo-barusseau/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg red left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/matheo-barusseau/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w0 bg blue left" ></div></div></div><div class="xvalue ac" >0</div><div class="xtitle" ><a  href="rider/matheo-barusseau/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >3</div><div class="xtitle" ><a  href="rider/matheo-barusseau/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w67 bg purple left" ></div></div></div><div class="xvalue ac" >2</div><div class="xtitle" ><a  href="rider/matheo-barusseau/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w67 bg purple1 left" ></div></div></div><div class="xvalue ac" >2</div><div class="xtitle" ><a  href="rider/matheo-barusseau/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w67 bg pink left" ></div></div></div><div class="xvalue ac" >2</div><div class="xtitle" ><a  href="rider/matheo-barusseau/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -198,7 +189,7 @@
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;103</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-equal">-</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -242,8 +233,10 @@
 </ul></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >17.09</div><div class="ellipsis" ><span class="flag lu"></span> <a  href="race/tour-de-luxembourg/2025/startlist">Skoda Tour de Luxembourg</a></div><div class="blue fs10" ><a  href="rider-in-race/matheo-barusseau/tour-de-luxembourg">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -254,11 +247,21 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="279060" /><input type="hidden" id="seo" value="matheo-barusseau" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="279060" /><input type="hidden" id="seo" value="matheo-barusseau" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>04.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/piccolo-giro-di-lombardia/2025/result"><span>Il Lombardia Under 23</span> (1.2U)</a>  </td><td>170.6</td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/piccolo-giro-di-lombardia">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">17.09 &rsaquo; 21.09</span><span class="showIfMobile fs12">17-21/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag lu"></span> <a href="race/tour-de-luxembourg/2025/stage-4-gc"><span>Skoda Tour de Luxembourg</span> (2.Pro)</a>  <div class="blue fs10">Team TotalEnergies</div></td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/tour-de-luxembourg">more</a></td></tr>
+<tr class="stage"><td></td><td>52</td><td></td><td><span class="icon shirt w14 st6"></span></td><td><a href="race/tour-de-luxembourg/2025/youth"><span class="imob">Youth classification</span><span class="idesk">Youth classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td></td><td>98</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-luxembourg/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>21.09</td><td>89</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Mersch &rsaquo; Luxembourg </a>  </td><td>176.4</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>20.09</td><td>89</td><td>103</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-de-luxembourg/2025/stage-4"><span class="imob">S4 (ITT)</span><span class="idesk">Stage 4 (ITT)</span> - Niederanven &rsaquo; Niederanven</a>  </td><td>26.3</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>19.09</td><td>100</td><td>101</td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Mertert &rsaquo; Vianden</a>  </td><td>170.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>18.09</td><td>100</td><td>97</td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Remich &rsaquo; Mamer</a>  </td><td>168.4</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>17.09</td><td>103</td><td>103</td><td><span class=""></span></td><td><a href="race/tour-de-luxembourg/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Luxembourg &rsaquo; Luxembourg</a>  </td><td>152.8</td><td></td><td></td><td></td></tr>
+<tr class="main"><td>13.09</td><td>88</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/paris-bourges2/2025/result"><span>Paris - Bourges</span> (NAT)</a>  </td><td>165.1</td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/paris-bourges2">more</a></td></tr>
 <tr class="main"><td>31.08</td><td>66</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/grand-prix-de-plouay/2025/result"><span>Grand Prix de Plouay</span> (1.2)</a>  </td><td>186.9</td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/grand-prix-de-plouay">more</a></td></tr>
 <tr class="main"><td>27.08</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/muur-classic-geraardsbergen/2025/result"><span>Muur Classic Geraardsbergen</span> (1.1)</a>  <div class="blue fs10">Team TotalEnergies</div></td><td>177.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/muur-classic-geraardsbergen">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">23.08 &rsaquo; 24.08</span><span class="showIfMobile fs12">23-24/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/saint-brieuc-agglo-tour/2025/gc"><span>Saint-Brieuc Agglo Tour</span> (NAT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/saint-brieuc-agglo-tour">more</a></td></tr>
@@ -269,7 +272,7 @@
 <tr class="main"><td>18.08</td><td>64</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/circuit-des-2-provinces-le-pertre32/2025/result"><span>Circuit des 2 Provinces-Le Pertre</span> (NAT)</a>  </td><td>155</td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/circuit-des-2-provinces-le-pertre32">more</a></td></tr>
 <tr class="main"><td>15.08</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/circuit-franco-belge/2025/result"><span>Circuit Franco-Belge</span> (1.Pro)</a>  <div class="blue fs10">Team TotalEnergies</div></td><td>206.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/circuit-franco-belge">more</a></td></tr>
 <tr class="main"><td>09.08</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/nc-france-u23/2025/result"><span>National Championships France MU - Road Race</span> (NC)</a>  <div class="blue fs10">Pays de la Loire</div></td><td>160.3</td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/nc-france-u23">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">30.07 &rsaquo; 03.08</span><span class="showIfMobile fs12">30-3/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-alsace/2025/stage-4-gc"><span>Tour Alsace</span> (2.2)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/tour-alsace">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">30.07 &rsaquo; 03.08</span><span class="showIfMobile fs12">30-3/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-alsace/2025/stage-2-gc"><span>Tour Alsace</span> (2.2)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/tour-alsace">more</a></td></tr>
 <tr class="stage"><td>03.08</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/tour-alsace/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Ribeauvillé &rsaquo; Champ du Feu</a>  </td><td>134.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>02.08</td><td>131</td><td>132</td><td><span class=""></span></td><td><a href="race/tour-alsace/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Ferrette &rsaquo; Altkirch</a>  </td><td>133.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>01.08</td><td>140</td><td>142</td><td><span class=""></span></td><td><a href="race/tour-alsace/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Velleminfroy &rsaquo; La Planche des Belles Filles</a>  </td><td>141.4</td><td></td><td></td><td></td></tr>
@@ -288,7 +291,7 @@
 <tr class="stage"><td>15.06</td><td>26</td><td></td><td><span class="iconv3 chrono"></span></td><td><a href="national-race/route-vendeenne/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Lucs-sur-Boulogne &rsaquo; Lucs-sur-Boulogne</a>  </td><td>15.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>14.06</td><td>1</td><td></td><td><span class=""></span></td><td><a href="national-race/route-vendeenne/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - La Châtaigneraie &rsaquo; Rives-du-Fougerais</a>  </td><td>160.2</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>09.06</td><td>93</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-troyes/2025/result"><span>Paris - Troyes</span> (1.2)</a>  </td><td>180</td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/paris-troyes">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">21.05 &rsaquo; 25.05</span><span class="showIfMobile fs12">21-25/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/ronde-de-l-isard/2025/stage-1-gc"><span>Ronde de l'Isard</span> (2.2U)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/ronde-de-l-isard">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">21.05 &rsaquo; 25.05</span><span class="showIfMobile fs12">21-25/5</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/ronde-de-l-isard/2025/stage-2-gc"><span>Ronde de l'Isard</span> (2.2U)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/ronde-de-l-isard">more</a></td></tr>
 <tr class="stage"><td></td><td>54</td><td></td><td><span class="icon shirt w14 st6"></span></td><td><a href="race/ronde-de-l-isard/2025/youth"><span class="imob">Youth classification</span><span class="idesk">Youth classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>27</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/ronde-de-l-isard/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>98</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/ronde-de-l-isard/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
@@ -313,7 +316,7 @@
 <tr class="main"><td>07.02</td><td>13</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/tour-de-basse-navarre/2025/result"><span>Tour de Basse-Navarre</span> (NAT)</a>  </td><td>109</td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/tour-de-basse-navarre">more</a></td></tr>
 <tr class="main"><td>02.02</td><td>153</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/circuit-de-l-essor/2025/result"><span>Circuit de l'Essor</span> (NAT)</a>  </td><td>110</td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/circuit-de-l-essor">more</a></td></tr>
 <tr class="main"><td>01.02</td><td>15</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="national-race/boucles-de-l-essor/2025/result"><span>Boucles de l'Essor</span> (NAT)</a>  </td><td>114.1</td><td></td><td></td><td><a class="fs10" href="rider-in-race/matheo-barusseau/boucles-de-l-essor">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>5152 km in <b>39</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>6097 km in <b>46</b> days | PCS points: <b>0</b> | UCI points: <b>0</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -388,9 +391,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0492s</span></li>
+<li><span>Pageload 0.0704s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 279060;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

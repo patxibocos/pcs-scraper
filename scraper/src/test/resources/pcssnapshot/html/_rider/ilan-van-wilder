@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=88c3b6542135b8c1549f23de8b8f833f4880573bd32d288d74b39aa6c50487bb">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/ilan-van-wilder/start">Overview</a></span>
 <span><a class="" href="rider/ilan-van-wilder/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/ilan-van-wilder/statistics/overview">Overview</a></li>
 <li><a href="rider/ilan-van-wilder/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/ilan-van-wilder/statistics/key-events">Key events</a></li>
+<li><a href="rider/ilan-van-wilder/statistics/badges">Badges</a></li>
 <li><a href="rider/ilan-van-wilder/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/ilan-van-wilder/statistics/wins">Wins</a></li>
 <li><a href="rider/ilan-van-wilder/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -180,11 +171,11 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w31 bg green left" ></div></div></div><div class="xvalue ac" >535</div><div class="xtitle" ><a  href="rider/ilan-van-wilder/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w31 bg green2 left" ></div></div></div><div class="xvalue ac" >535</div><div class="xtitle" ><a  href="rider/ilan-van-wilder/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg red left" ></div></div></div><div class="xvalue ac" >1743</div><div class="xtitle" ><a  href="rider/ilan-van-wilder/results/career-points-gc">GC</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w47 bg blue left" ></div></div></div><div class="xvalue ac" >820</div><div class="xtitle" ><a  href="rider/ilan-van-wilder/results/career-points-time-trial">TT</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w56 bg blue left" ></div></div></div><div class="xvalue ac" >980</div><div class="xtitle" ><a  href="rider/ilan-van-wilder/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w1 bg orange left" ></div></div></div><div class="xvalue ac" >26</div><div class="xtitle" ><a  href="rider/ilan-van-wilder/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w80 bg purple left" ></div></div></div><div class="xvalue ac" >1397</div><div class="xtitle" ><a  href="rider/ilan-van-wilder/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w80 bg purple1 left" ></div></div></div><div class="xvalue ac" >1397</div><div class="xtitle" ><a  href="rider/ilan-van-wilder/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w42 bg pink left" ></div></div></div><div class="xvalue ac" >730</div><div class="xtitle" ><a  href="rider/ilan-van-wilder/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -205,14 +196,14 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/all-time">All time</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1813</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >91</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >74</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >88</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/all-time">All time</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1726</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >71</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;1614</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;6</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -230,6 +221,7 @@
 <li><div class="nrs">&nbsp; <span class="shirt st4 w14"></span></div><div class="races"><span class="blue">GC</span> <a href="race/deutschland-tour/2023/gc">Deutschland Tour</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue">stage</span> <a href="race/deutschland-tour/2023/stage-1">Deutschland Tour</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/japan-cup/2024/result">Japan Cup</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
+<li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/world-championship-itt/2025/result">World Championships ME - ITT</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
 <li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/volta-ao-algarve/2023/gc">Volta ao Algarve em Bicicleta</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 <li><div class="nrs">4th&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/tour-de-romandie/2024/gc">Tour de Romandie</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">4th&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/uae-tour/2024/gc">UAE Tour</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
@@ -237,7 +229,6 @@
 <li><div class="nrs">4th&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/tour-de-luxembourg/2023/gc">Tour de Luxembourg</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 <li><div class="nrs">4th&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/vuelta-a-burgos/2022/gc">Vuelta a Burgos</a><span class="clr777 fs11">&nbsp; ('22)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/volta-ao-algarve/2023/stage-2">Volta ao Algarve em Bicicleta</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
-<li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/deia-trophy/2023/result">Trofeo Serra de Tramuntana (Lloseta - Lloseta)</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 </ul></div>
 </div>
 <div class="borderbox right w25 mb_w100" >
@@ -264,10 +255,10 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >21.09</div><div class="ellipsis" ><span class="flag rw"></span> <a  href="race/world-championship-itt/2025/startlist">World Championships ME - ITT</a></div><div class="blue fs10" ><a  href="rider-in-race/ilan-van-wilder/world-championship-itt">more</a></div></li>
-<li class=""><div class="bold mr5" >28.09</div><div class="ellipsis" ><span class="flag rw"></span> <a  href="race/world-championship/2025/startlist">World Championships ME - Road Race</a></div><div class="blue fs10" ><a  href="rider-in-race/ilan-van-wilder/world-championship">more</a></div></li>
-<li class=""><div class="bold mr5" >11.10</div><div class="ellipsis" ><span class="flag it"></span> <a  href="race/il-lombardia/2025/startlist">Il Lombardia</a></div><div class="blue fs10" ><a  href="rider-in-race/ilan-van-wilder/il-lombardia">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
@@ -278,7 +269,7 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="208539" /><input type="hidden" id="seo" value="ilan-van-wilder" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="208539" /><input type="hidden" id="seo" value="ilan-van-wilder" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -288,6 +279,8 @@
 <li class=""><a class="rdrFilterSeason" data-season="2018"  href="">2018</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2017"  href="">2017</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
+<tr class="main"><td>28.09</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag rw"></span> <a href="race/world-championship/2025/result"><span>World Championships ME - Road Race</span> (WC)</a>  </td><td>267.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/ilan-van-wilder/world-championship">more</a></td></tr>
+<tr class="main"><td>21.09</td><td>3</td><td></td><td><span class="iconv3 chrono"></span></td><td><span class="flag rw"></span> <a href="race/world-championship-itt/2025/result"><span>World Championships ME - ITT</span> (WC)</a>  </td><td>40.6</td><td>140</td><td>260</td><td><a class="fs10" href="rider-in-race/ilan-van-wilder/world-championship-itt">more</a></td></tr>
 <tr class="main"><td><span class="hideIfMobile">02.09 &rsaquo; 07.09</span><span class="showIfMobile fs12">2-7/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag gb"></span> <a href="race/tour-of-britain/2025/stage-1-gc"><span>Tour of Britain Men</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/ilan-van-wilder/tour-of-britain">more</a></td></tr>
 <tr class="stage"><td></td><td>38</td><td></td><td><span class="icon shirt w14 st7"></span></td><td><a href="race/tour-of-britain/2025/kom"><span class="imob">Mountains classification</span><span class="idesk">Mountains classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>7</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-britain/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>55</td><td>60</td><td></td></tr>
@@ -379,7 +372,7 @@
 <tr class="stage"><td>20.02</td><td>13</td><td>13</td><td><span class=""></span></td><td><a href="race/volta-ao-algarve/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Lagoa &rsaquo; Alto da Foia</a>  </td><td>177.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>19.02</td><td>NR</td><td></td><td><span class=""></span></td><td><a href="race/volta-ao-algarve/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Portimão &rsaquo; Lagos</a>  </td><td>192.2</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>16.02</td><td>27</td><td></td><td><span class=""></span></td><td><span class="flag pt"></span> <a href="race/figueira-champions-classic/2025/result"><span>Figueira Champions Classic</span> (1.Pro)</a>  </td><td>192.7</td><td></td><td>5</td><td><a class="fs10" href="rider-in-race/ilan-van-wilder/figueira-champions-classic">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>10257 km in <b>66</b> days | PCS points: <b>528</b> | UCI points: <b>687.29</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>10431 km in <b>68</b> days | PCS points: <b>668</b> | UCI points: <b>947.29</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -394,7 +387,7 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w44 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l44"  style="height: 12px; line-height: 12px; " >528</div></div></td><td class="fs11 " >81</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w55 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l55"  style="height: 12px; line-height: 12px; " >668</div></div></td><td class="fs11 " >71</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w57 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l57"  style="height: 12px; line-height: 12px; " >687</div></div></td><td class="fs11 " >70</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >968</div></div></td><td class="fs11 " >33</td></tr>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w22 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l22"  style="height: 12px; line-height: 12px; " >261</div></div></td><td class="fs11 " >237</td></tr>
@@ -477,9 +470,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.1010s</span></li>
+<li><span>Pageload 0.0846s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 208539;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

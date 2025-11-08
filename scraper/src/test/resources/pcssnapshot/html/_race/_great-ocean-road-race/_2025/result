@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="" data-url="" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,11 +100,11 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=7efc4bd9d83611db4752109371061eefdc9b1967433f83e9c46d0bb6e26d8dd7">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
-<ul></span></div></div></header><div class="content"><div class="SelectNavCont "><div class="selectNav" ><form style="display: block; float: left; "><select style="max-width: 150px;" onChange="window.location.href=this.value; "><option value="race/great-ocean-road-race/2025/result" selected>ME</option>
-<option value="race/cadel-evans-great-ocean-we/2025/result" >WE</option>
+<ul></span></div></div></header><div class="content"><div class="SelectNavCont "><div class="selectNav" ><form style="display: block; float: left; "><select style="max-width: 150px;" onChange="window.location.href=this.value; "><option value="race/great-ocean-road-race/2025/result" selected>ME </option>
+<option value="race/cadel-evans-great-ocean-we/2025/result" >WE </option>
 </select></form><div class="clear"></div></div><div class="selectNav" ><a class="desk" href="race/great-ocean-road-race/2024/result/result/result">2024</a><form style="display: block; float: left; "><select style="" onChange="window.location.href=this.value; "><option value="race/great-ocean-road-race/2026/result/result/result" >2026</option>
 <option value="race/great-ocean-road-race/2025/result/result/result" selected>2025</option>
 <option value="race/great-ocean-road-race/2024/result/result/result" >2024</option>
@@ -280,7 +270,7 @@
 <tr><td>DNF</td><td class="bibs " >47</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg orange"></div><span class="fs10 clr999">Sprint</span></td><td class="age " >26</td><td class="ridername " ><span class="flag gb"></span> <a data-ct="EU" href="rider/matthew-walls"><span class="uppercase">Walls</span> Matthew</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Groupama - FDJ</div></td><td class="cu600 " ><a data-bc="1" href="team/groupama-fdj-2025">Groupama - FDJ</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
 <tr><td>DNF</td><td class="bibs " >65</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg red"></div><span class="fs10 clr999">GC</span></td><td class="age " >26</td><td class="ridername " ><span class="flag dk"></span> <a data-ct="EU" href="rider/asbjorn-hellemose"><span class="uppercase">Hellemose</span> Asbjørn</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Team Jayco AlUla</div></td><td class="cu600 " ><a data-bc="1" href="team/team-jayco-alula-2025">Team Jayco AlUla</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
 <tr><td>DNF</td><td class="bibs " >61</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg blue"></div><span class="fs10 clr999">TT</span></td><td class="age " >33</td><td class="ridername " ><span class="flag au"></span> <a data-ct="OC" href="rider/luke-durbridge"><span class="uppercase">Durbridge</span> Luke</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Team Jayco AlUla</div></td><td class="cu600 " ><a data-bc="1" href="team/team-jayco-alula-2025">Team Jayco AlUla</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
-<tr><td>DNF</td><td class="bibs " >25</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg pink"></div><span class="fs10 clr999">Hills</span></td><td class="age " >18</td><td class="ridername " ><span class="flag dk"></span> <a data-ct="EU" href="rider/albert-withen-philipsen"><span class="uppercase">Withen Philipsen</span> Albert</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Lidl - Trek</div></td><td class="cu600 " ><a data-bc="1" href="team/lidl-trek-2025">Lidl - Trek</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
+<tr><td>DNF</td><td class="bibs " >25</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg green"></div><span class="fs10 clr999">Classic</span></td><td class="age " >18</td><td class="ridername " ><span class="flag dk"></span> <a data-ct="EU" href="rider/albert-withen-philipsen"><span class="uppercase">Withen Philipsen</span> Albert</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Lidl - Trek</div></td><td class="cu600 " ><a data-bc="1" href="team/lidl-trek-2025">Lidl - Trek</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
 <tr><td>DNF</td><td class="bibs " >101</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg green"></div><span class="fs10 clr999">Classic</span></td><td class="age " >31</td><td class="ridername " ><span class="flag it"></span> <a data-ct="EU" href="rider/alberto-bettiol"><span class="uppercase">Bettiol</span> Alberto</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >XDS Astana Team</div></td><td class="cu600 " ><a data-bc="1" href="team/xds-astana-team-2025">XDS Astana Team</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
 <tr><td>DNF</td><td class="bibs " >107</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg purple"></div><span class="fs10 clr999">Climber</span></td><td class="age " >27</td><td class="ridername " ><span class="flag co"></span> <a data-ct="SA" href="rider/sergio-higuita"><span class="uppercase">Higuita</span> Sergio</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >XDS Astana Team</div></td><td class="cu600 " ><a data-bc="1" href="team/xds-astana-team-2025">XDS Astana Team</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
 <tr><td>DNF</td><td class="bibs " >17</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg red"></div><span class="fs10 clr999">GC</span></td><td class="age " >22</td><td class="ridername " ><span class="flag be"></span> <a data-ct="EU" href="rider/junior-lecerf"><span class="uppercase">Lecerf</span> Junior</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Soudal Quick-Step</div></td><td class="cu600 " ><a data-bc="1" href="team/soudal-quick-step-2025">Soudal Quick-Step</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
@@ -296,9 +286,9 @@
 <tr><td>DNF</td><td class="bibs " >74</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg green"></div><span class="fs10 clr999">Classic</span></td><td class="age " >25</td><td class="ridername " ><span class="flag be"></span> <a data-ct="EU" href="rider/tom-paquot"><span class="uppercase">Paquot</span> Tom</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Intermarché - Wanty</div></td><td class="cu600 " ><a data-bc="1" href="team/intermarche-wanty-2025">Intermarché - Wanty</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
 <tr><td>DNF</td><td class="bibs " >132</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg orange"></div><span class="fs10 clr999">Sprint</span></td><td class="age " >21</td><td class="ridername " ><span class="flag au"></span> <a data-ct="OC" href="rider/zac-marriage"><span class="uppercase">Marriage</span> Zac</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Australia</div></td><td class="cu600 " ><a data-bc="9" href="team/australia-2025">Australia</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
 <tr><td>DNF</td><td class="bibs " >131</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg orange"></div><span class="fs10 clr999">Sprint</span></td><td class="age " >27</td><td class="ridername " ><span class="flag au"></span> <a data-ct="OC" href="rider/cameron-scott"><span class="uppercase">Scott</span> Cameron</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Australia</div></td><td class="cu600 " ><a data-bc="9" href="team/australia-2025">Australia</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
-<tr><td>DNF</td><td class="bibs " >133</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg green"></div><span class="fs10 clr999">Classic</span></td><td class="age " >21</td><td class="ridername " ><span class="flag au"></span> <a data-ct="OC" href="rider/fergus-browning"><span class="uppercase">Browning</span> Fergus</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Australia</div></td><td class="cu600 " ><a data-bc="9" href="team/australia-2025">Australia</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
+<tr><td>DNF</td><td class="bibs " >133</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg pink"></div><span class="fs10 clr999">Hills</span></td><td class="age " >21</td><td class="ridername " ><span class="flag au"></span> <a data-ct="OC" href="rider/fergus-browning"><span class="uppercase">Browning</span> Fergus</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Australia</div></td><td class="cu600 " ><a data-bc="9" href="team/australia-2025">Australia</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
 <tr><td>DNF</td><td class="bibs " >114</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg purple"></div><span class="fs10 clr999">Climber</span></td><td class="age " >30</td><td class="ridername " ><span class="flag au"></span> <a data-ct="OC" href="rider/nick-schultz"><span class="uppercase">Schultz</span> Nick</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >Israel - Premier Tech</div></td><td class="cu600 " ><a data-bc="2" href="team/israel-premier-tech-2025">Israel - Premier Tech</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
-<tr><td>DNF</td><td class="bibs " >125</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg purple"></div><span class="fs10 clr999">Climber</span></td><td class="age " >19</td><td class="ridername " ><span class="flag es"></span> <a data-ct="EU" href="rider/markel-beloki"><span class="uppercase">Beloki</span> Markel</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >EF Education - EasyPost</div></td><td class="cu600 " ><a data-bc="1" href="team/ef-education-easypost-2025">EF Education - EasyPost</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
+<tr><td>DNF</td><td class="bibs " >125</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg red"></div><span class="fs10 clr999">GC</span></td><td class="age " >19</td><td class="ridername " ><span class="flag es"></span> <a data-ct="EU" href="rider/markel-beloki"><span class="uppercase">Beloki</span> Markel</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >EF Education - EasyPost</div></td><td class="cu600 " ><a data-bc="1" href="team/ef-education-easypost-2025">EF Education - EasyPost</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
 <tr><td>DNF</td><td class="bibs " >124</td><td class="h2h " ><input type="checkbox" class="gotoH2H" /></td><td class="specialty " ><div class="resSp bg red"></div><span class="fs10 clr999">GC</span></td><td class="age " >23</td><td class="ridername " ><span class="flag nl"></span> <a data-ct="EU" href="rider/jardi-christiaan-van-der-lee"><span class="uppercase">van der Lee</span> Jardi Christiaan</a><div class="clear"></div><div class="showIfMobile fs12 clr999" >EF Education - EasyPost</div></td><td class="cu600 " ><a data-bc="1" href="team/ef-education-easypost-2025">EF Education - EasyPost</a></td><td class="uci_pnt " ></td><td class="pnt " ></td><td class="time ar " ></td></tr>
 </tbody></table><div class="showIfMobile"><a class="follow-up viewMoreResults" data-n="25" href="">View top-25</a> <a class="follow-up viewMoreResults" data-n="500" href="">View full results</a></div></div></div></div></div>
 <div class="borderbox w30 right mb_w100" >
@@ -335,6 +325,9 @@
 <h4>Race profile</h4><ul class="list" >
 <li class=""><div><a  href="race/great-ocean-road-race/2025/result/info/profiles"><img src="images/profiles/ca/bb/great-ocean-race-2025-result-profile.jpg"  style="max-height: 200px; max-width: 100%;" /></a></div></li>
 </ul>
+</div>
+<div class="">
+<h4>Story of the day</h4><div class="fs14">A lone breakaway by Raccagni was controlled by Lidl–Trek, Red Bull–BORA–Hansgrohe, and Picnic–PostNL. With 70 km to go, Raccagni was caught by the peloton. Multiple attacks reduced the front group to eight riders. With 8 km remaining, Mauro Schmid launched a decisive solo attack and rode to the finish to claim victory.</div>
 </div>
 <div class="mt10">
 <h4>Sites</h4><ul class="list horizontal" >
@@ -431,7 +424,7 @@ NR = No result<br />
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0251s</span></li>
+<li><span>Pageload 0.0247s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script>
+<script src="search_list23.js"></script>

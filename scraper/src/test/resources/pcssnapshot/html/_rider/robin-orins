@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=4df229602a8629175a18567a71c5c0610e44bda58a3aaa730d138bff9cc46f49">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/robin-orins/start">Overview</a></span>
 <span><a class="" href="rider/robin-orins/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/robin-orins/statistics/overview">Overview</a></li>
 <li><a href="rider/robin-orins/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/robin-orins/statistics/key-events">Key events</a></li>
+<li><a href="rider/robin-orins/statistics/badges">Badges</a></li>
 <li><a href="rider/robin-orins/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/robin-orins/statistics/wins">Wins</a></li>
 <li><a href="rider/robin-orins/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -143,11 +134,6 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
-<div class="">
-<ul class="list fs14" >
-<li class=""><div>GP de Fourmies / La Voix du Nord</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="race/gp-de-fourmies/2025/result/live">LiveStats</a></div><div class="blue mr10" ><a  href="rider-in-race/robin-orins/gp-de-fourmies/2025">Race stats</a></div><div class="blue" ><a  href="race/gp-de-fourmies/2025/startlist">Startlist</a></div></li>
-</ul>
-</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -185,11 +171,11 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w52 bg green left" ></div></div></div><div class="xvalue ac" >25</div><div class="xtitle" ><a  href="rider/robin-orins/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w52 bg green2 left" ></div></div></div><div class="xvalue ac" >25</div><div class="xtitle" ><a  href="rider/robin-orins/results/career-points-one-day-races">Onedayraces</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w6 bg red left" ></div></div></div><div class="xvalue ac" >3</div><div class="xtitle" ><a  href="rider/robin-orins/results/career-points-gc">GC</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w48 bg blue left" ></div></div></div><div class="xvalue ac" >23</div><div class="xtitle" ><a  href="rider/robin-orins/results/career-points-time-trial">TT</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w54 bg blue left" ></div></div></div><div class="xvalue ac" >26</div><div class="xtitle" ><a  href="rider/robin-orins/results/career-points-time-trial">TT</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >48</div><div class="xtitle" ><a  href="rider/robin-orins/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w25 bg purple left" ></div></div></div><div class="xvalue ac" >12</div><div class="xtitle" ><a  href="rider/robin-orins/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w25 bg purple1 left" ></div></div></div><div class="xvalue ac" >12</div><div class="xtitle" ><a  href="rider/robin-orins/results/career-points-climbers">Climber</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w29 bg pink left" ></div></div></div><div class="xvalue ac" >14</div><div class="xtitle" ><a  href="rider/robin-orins/results/hills">Hills</a></div></li>
 </ul>
 </div>
@@ -207,13 +193,12 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >827</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >1311</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >2683</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;300</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;3</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -228,7 +213,7 @@
 <div class="">
 <ul class="list topresults">
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/liege-bastogne-liege-u23/2024/result">Liège - Bastogne - Liège U23</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
-<li><div class="nrs"><b>2x</b>&nbsp;3rd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/paris-roubaix-u23/2024/result">Paris-Roubaix Espoirs</a><span class="clr777 fs11">&nbsp; ('24, '23)</span></div></li>
+<li><div class="nrs"><b>2x</b>&nbsp;3rd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/paris-roubaix-u23/2023/result">Paris-Roubaix Espoirs</a><span class="clr777 fs11">&nbsp; ('24, '23)</span></div></li>
 <li><div class="nrs">4th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/european-continental-championships-u23-itt/2024/result">European Continental Championships MU - ITT</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">5th&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/world-championships-itt-u23/2024/result">World Championships MU - ITT</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">8th&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/orlen-nations-grand-prix/2024/gc">Orlen Nations Grand Prix</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
@@ -248,7 +233,7 @@
 <div class="">
 <span class="table-cont">
 <ul class="rdr-teams2  "  >
-<li class="main  "><div class="season">2026</div><div class="name"><a href="team/lotto-2026">Lotto</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main  "><div class="season">2026</div><div class="name"><a href="team/lotto-intermaché-2026">Lotto-Intermarché</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2025</div><div class="name"><a href="team/lotto-2025">Lotto</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2024</div><div class="name"><a href="team/lotto-dstny-development-team-2024">Lotto Dstny Development Team</a> (CT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2023</div><div class="name"><a href="team/lotto-dstny-development-team-2023">Lotto Dstny Development Team</a> (CT)<span class="fs10 "></span></div><div class="clear"></div></li>
@@ -260,20 +245,21 @@
 </ul><a class="showAllTeams showIfMobile" href="">show all</a></span></div>
 <div class="mt20">
 <h4>Program</h4><ul class="list dashed flex  pad2" >
-<li class=""><div class="bold mr5" >14.09</div><div class="ellipsis" ><span class="flag fr"></span> <a  href="race/gp-de-fourmies/2025/startlist">GP de Fourmies / La Voix du Nord</a></div><div class="blue fs10" ><a  href="rider-in-race/robin-orins/gp-de-fourmies">more</a></div></li>
-<li class=""><div class="bold mr5" >17.09</div><div class="ellipsis" ><span class="flag be"></span> <a  href="race/gp-de-wallonie/2025/startlist">Grand Prix de Wallonie</a></div><div class="blue fs10" ><a  href="rider-in-race/robin-orins/gp-de-wallonie">more</a></div></li>
 </ul>
+</div>
+<div class="">
+<div class="fs14">No races on program.</div>
 </div>
 <div class="mt20">
 <h4>Key statistics</h4><ul class="rider-kpi" >
 <li class=""><div class="kpi" >0</div><div class="title" ><a  href="rider/robin-orins/statistics/wins">Wins</a></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div></li>
 <li class=""><div class="kpi" >0</div><div class="title" ><a  href="rider/robin-orins/statistics/grand-tour-starts">Grand tours</a></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div></li>
-<li class=""><div class="kpi" >0</div><div class="title" ><a  href="rider/robin-orins/statistics/top-classic-results">Classics</a></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div><div class="info fs11" ></div></li>
+<li class=""><div class="kpi" >1</div><div class="title" ><a  href="rider/robin-orins/statistics/top-classic-results">Classics</a></div><div class="info fs11" >RBX(0)</div><div class="info fs11" >MSR(0)</div><div class="info fs11" >RVV(0)</div><div class="info fs11" >LBL(0)</div><div class="info fs11" >LOM(1)</div></li>
 </ul>
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="238705" /><input type="hidden" id="seo" value="robin-orins" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="238705" /><input type="hidden" id="seo" value="robin-orins" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -281,7 +267,18 @@
 <li class=""><a class="rdrFilterSeason" data-season="2020"  href="">2020</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2019"  href="">2019</a></li>
 </ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
-<tr class="main"><td><span class="hideIfMobile">02.09 &rsaquo; 07.09</span><span class="showIfMobile fs12">2-7/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag gb"></span> <a href="race/tour-of-britain/2025/stage-5-gc"><span>Tour of Britain Men</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/tour-of-britain">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">14.10 &rsaquo; 19.10</span><span class="showIfMobile fs12">14-19/10</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag nl"></span> <a href="race/tour-of-holland/2025/stage-2-gc"><span>NIBC Tour of Holland</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/tour-of-holland">more</a></td></tr>
+<tr class="stage"><td>17.10</td><td>DNS</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-holland/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Sittard &rsaquo; Watersley</a>  </td><td><s>149</s> 40.3</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>16.10</td><td>23</td><td>21</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-of-holland/2025/stage-2"><span class="imob">S2 (ITT)</span><span class="idesk">Stage 2 (ITT)</span> - Etten-Leur &rsaquo; Etten-Leur</a>  </td><td>14.8</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>15.10</td><td>44</td><td>25</td><td><span class=""></span></td><td><a href="race/tour-of-holland/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Dordrecht &rsaquo; Dordrecht</a>  </td><td>118.5</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>14.10</td><td>25</td><td>25</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-of-holland/2025/prologue"><span class="imob">Prologue (ITT)</span><span class="idesk">Prologue (ITT)</span> - The Hague &rsaquo; The Hague</a>  </td><td>4</td><td></td><td></td><td></td></tr>
+<tr class="main"><td>11.10</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag it"></span> <a href="race/il-lombardia/2025/result"><span>Il Lombardia</span> (1.UWT)</a>  </td><td>241</td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/il-lombardia">more</a></td></tr>
+<tr class="main"><td>28.09</td><td>117</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-chauny-classique/2025/result"><span>Paris-Chauny</span> (1.1)</a>  </td><td>188.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/paris-chauny-classique">more</a></td></tr>
+<tr class="main"><td>23.09</td><td>102</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="national-race/textielprijs-vichte28/2025/result"><span>Textielprijs Vichte</span> (NAT)</a>  </td><td>168.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/textielprijs-vichte28">more</a></td></tr>
+<tr class="main"><td>21.09</td><td>33</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/gooikse-pijl/2025/result"><span>Gooikse Pijl</span> (1.1)</a>  </td><td>195.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/gooikse-pijl">more</a></td></tr>
+<tr class="main"><td>17.09</td><td>67</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/gp-de-wallonie/2025/result"><span>Grand Prix de Wallonie</span> (1.Pro)</a>  </td><td>187.1</td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/gp-de-wallonie">more</a></td></tr>
+<tr class="main"><td>14.09</td><td>62</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/gp-de-fourmies/2025/result"><span>GP de Fourmies / La Voix du Nord</span> (1.Pro)</a>  </td><td>193</td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/gp-de-fourmies">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">02.09 &rsaquo; 07.09</span><span class="showIfMobile fs12">2-7/9</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag gb"></span> <a href="race/tour-of-britain/2025/stage-4-gc"><span>Tour of Britain Men</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/tour-of-britain">more</a></td></tr>
 <tr class="stage"><td></td><td>29</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-britain/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td>5</td><td></td></tr>
 <tr class="stage"><td>07.09</td><td>48</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-britain/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Newport &rsaquo; Cardiff</a>  </td><td>112.2</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>06.09</td><td>32</td><td>31</td><td><span class=""></span></td><td><a href="race/tour-of-britain/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Pontypool &rsaquo; The Tumble</a>  </td><td>133.6</td><td></td><td></td><td></td></tr>
@@ -292,7 +289,7 @@
 <tr class="main"><td>27.08</td><td>52</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/muur-classic-geraardsbergen/2025/result"><span>Muur Classic Geraardsbergen</span> (1.1)</a>  </td><td>177.8</td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/muur-classic-geraardsbergen">more</a></td></tr>
 <tr class="main"><td>15.08</td><td>84</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/circuit-franco-belge/2025/result"><span>Circuit Franco-Belge</span> (1.Pro)</a>  </td><td>206.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/circuit-franco-belge">more</a></td></tr>
 <tr class="main"><td>12.08</td><td>9</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="national-race/heusden-koers/2025/result"><span>Heusden Koers</span> (NAT)</a>  </td><td>171</td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/heusden-koers">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">26.07 &rsaquo; 30.07</span><span class="showIfMobile fs12">26-30/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/tour-de-wallonie/2025/stage-4-gc"><span>Ethias-Tour de Wallonie</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/tour-de-wallonie">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">26.07 &rsaquo; 30.07</span><span class="showIfMobile fs12">26-30/7</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/tour-de-wallonie/2025/stage-1-gc"><span>Ethias-Tour de Wallonie</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/robin-orins/tour-de-wallonie">more</a></td></tr>
 <tr class="stage"><td></td><td>26</td><td></td><td><span class="icon shirt w14 st6"></span></td><td><a href="race/tour-de-wallonie/2025/youth"><span class="imob">Youth classification</span><span class="idesk">Youth classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>61</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-de-wallonie/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>30.07</td><td>62</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-wallonie/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Bertrix &rsaquo; Bertrix</a>  </td><td>183.3</td><td></td><td></td><td></td></tr>
@@ -300,7 +297,7 @@
 <tr class="stage"><td>28.07</td><td>22</td><td>81</td><td><span class=""></span></td><td><a href="race/tour-de-wallonie/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Estinnes &rsaquo; Antoing</a>  </td><td>165.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>27.07</td><td>74</td><td>88</td><td><span class=""></span></td><td><a href="race/tour-de-wallonie/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Huy &rsaquo; Sambreville</a>  </td><td>153.1</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>26.07</td><td>110</td><td>113</td><td><span class=""></span></td><td><a href="race/tour-de-wallonie/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Nassogne &rsaquo; Nassogne</a>  </td><td>182</td><td></td><td></td><td></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>2289 km in <b>14</b> days | PCS points: <b>0</b> | UCI points: <b>5</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>3480 km in <b>24</b> days | PCS points: <b>0</b> | UCI points: <b>5</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -316,7 +313,7 @@
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
 <tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >36</div></div></td><td class="fs11 " >917</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w18 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l18"  style="height: 12px; line-height: 12px; " >8</div></div></td><td class="fs11 " >1721</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w18 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l18"  style="height: 12px; line-height: 12px; " >8</div></div></td><td class="fs11 " >1722</td></tr>
 </tbody></table></div>
 </div>
 <div class="">
@@ -384,9 +381,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0810s</span></li>
+<li><span>Pageload 0.0617s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 238705;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>

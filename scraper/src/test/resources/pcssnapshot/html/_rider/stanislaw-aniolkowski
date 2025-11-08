@@ -17,8 +17,8 @@
 <meta name="facebook-domain-verification" content="tjwn3jyjupm0t1j8e0sgis3c80x88r" />
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>  
 <script src="https://ajax.googleapis.com/ajax/libs/jqueryui/1.12.1/jquery-ui.min.js"></script>
-<script src="v3_scripts_v38.js"></script> 
-<link rel="stylesheet" type="text/css" href="v3_site_v98.css" />
+<script src="v3_scripts_v39.js"></script> 
+<link rel="stylesheet" type="text/css" href="v3_site_v106.css" />
 <link rel="stylesheet" href="//code.jquery.com/ui/1.12.0/themes/base/jquery-ui.css">  
 <link rel="apple-touch-icon" sizes="180x180" href="images/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="32x32" href="images/favicon-32x32.png">
@@ -31,7 +31,7 @@
 <a class="logo" href="index.php"></a>
 <div class="search"><form action="search.php" class="msearch"><input type="hidden"  id="term" /><input type="text" name="term" id="search" data-page="rider" data-url="rider/-id-//" placeholder="search" autocomplete="off" /></form></div> 
 <div class="mob-logo"><a class="logo mobile" href="index.php"></a></div>
-<div class="nav"><span class="mob_topnav"><font class="burger_menu"></font><ul class="topnav">
+<div class="nav"><span class="mob_topnav"><span class="burger_menu_html"><span></span><span></span><span></span></span><ul class="topnav">
 <li class="" ><a class="menu" href="index.php">Home</a></li>
 <li class="" ><a class="menu" href="races.php">Races<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="race/tour-de-france">Tour de France</a></li>
@@ -80,21 +80,11 @@
 <li><a  href="statistics/grandtours">Grand tours</a></li>
 </ul></li>
 <li class="" ><a class="menu" href="game.php">Game</a></li>
-<li class="vuelta red" ><a class="menu" href="race/vuelta-a-espana/2025">Vuelta<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></li>
-<li><a  href="race/vuelta-a-espana/results/palmares">Palmares</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-competitors">Top competitors</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/top-gc-riders">Final GC favorites</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/stage-profiles">Stage profiles</a></li>
-<li><a  href="race/vuelta-a-espana/2025/teams/top-teams">Best teams</a></li>
-<li><a  href="race/vuelta-a-espana/2025/startlist/form">Riders form</a></li>
-<li><a  href="race/vuelta-a-espana/2025/route/collection-of-statistics">Route statistics</a></li>
-</ul></li>
 <li class="" ><a class="menu" href="quiz.php">Quiz</a></li>
 <li class="" ><a class="menu" href="riders.php">More<span class="more" href="">&#x25BC;</span></a>
 <ul><li><a  href="riders">Riders</a></li>
 <li><a  href="info/contact">Contact us</a></li>
-<li><a  href="info/countdown-to-4-billion-pageviews">Countdown to 4 billion pageviews</a></li>
+<li><a  href="info/countdown-to-5-billion-pageviews">Countdown to 5 billion pageviews</a></li>
 <li><a  href="favorite500.php">Favorite500</a></li>
 <li><a  href="info/about-us">About us</a></li>
 <li><a  href="info/sitemap">Sitemap</a></li>
@@ -110,13 +100,14 @@
 <li><a  href="account/follow-riders">My riders</a></li>
 </ul></li>
 <li class="small" ><a class="menu" href="">Road<span class="more" href="">&#x25BC;</span></a>
-<ul><li><a  href="https://cx.procyclingstats.com">Cross</a></li>
+<ul><li><a  href="https://cx.procyclingstats.com?ql=c427ae52cabc13abee91536fc09976c15dcbb7c5158d142ea5b43c712156cda0&r=fd2c8b2e6bdae413d4b01d46dcafa0409e76cc2581c575882f946c9becf52327">Cross</a></li>
 </ul></li>
 <li class="language small" ><a class="menu" href=""><span class="flag gb" style=""></span></a></li>
 <ul></span></div></div></header><div class="content"><div class="pagenav-cont"><span><a class="cur" href="rider/stanislaw-aniolkowski/start">Overview</a></span>
 <span><a class="" href="rider/stanislaw-aniolkowski/statistics">Statistics<span>&#x25BC;</span></a><ul><li><a href="rider/stanislaw-aniolkowski/statistics/overview">Overview</a></li>
 <li><a href="rider/stanislaw-aniolkowski/statistics/season-statistics">Statistics by season</a></li>
 <li><a href="rider/stanislaw-aniolkowski/statistics/key-events">Key events</a></li>
+<li><a href="rider/stanislaw-aniolkowski/statistics/badges">Badges</a></li>
 <li><a href="rider/stanislaw-aniolkowski/statistics/world-map-of-rider-races">World map of rider races</a></li>
 <li><a href="rider/stanislaw-aniolkowski/statistics/wins">Wins</a></li>
 <li><a href="rider/stanislaw-aniolkowski/statistics/most-starts-by-race">Most starts by race</a></li>
@@ -143,11 +134,6 @@
 <div class="desktop-ad leaderbord general"></div><div class="mob-ad leaderbord general"></div><div class="top-cont"></div><div class="top-cont-mobile top-cont-mobile-rider"></div>
 <div class="page-content noSideNav"  >
 <div class=""><div class="borderbox w100" >
-<div class="">
-<ul class="list fs14" >
-<li class=""><div>Vuelta a España</div><div class="mr10" >:</div><div class="blue mr10" ><a  href="race/vuelta-a-espana/2025/stage-21/live">LiveStats</a></div><div class="blue mr10" ><a  href="rider-in-race/stanislaw-aniolkowski/vuelta-a-espana/2025">Race stats</a></div><div class="blue" ><a  href="race/vuelta-a-espana/2025/startlist">Startlist</a></div></li>
-</ul>
-</div>
 </div>
 <div class="borderbox left w40 mb_w100" >
 <div class="borderbox w100" ><div class="idesk">
@@ -185,12 +171,12 @@
 </div>
 <div class="">
 <ul class="pps list" >
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w59 bg green left" ></div></div></div><div class="xvalue ac" >873</div><div class="xtitle" ><a  href="rider/stanislaw-aniolkowski/results/career-points-one-day-races">Onedayraces</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w18 bg red left" ></div></div></div><div class="xvalue ac" >272</div><div class="xtitle" ><a  href="rider/stanislaw-aniolkowski/results/career-points-gc">GC</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w56 bg green2 left" ></div></div></div><div class="xvalue ac" >905</div><div class="xtitle" ><a  href="rider/stanislaw-aniolkowski/results/career-points-one-day-races">Onedayraces</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w25 bg red left" ></div></div></div><div class="xvalue ac" >407</div><div class="xtitle" ><a  href="rider/stanislaw-aniolkowski/results/career-points-gc">GC</a></div></li>
 <li class=""><div class="xbar" ><div class="valuebar"><div class="w8 bg blue left" ></div></div></div><div class="xvalue ac" >123</div><div class="xtitle" ><a  href="rider/stanislaw-aniolkowski/results/career-points-time-trial">TT</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >1476</div><div class="xtitle" ><a  href="rider/stanislaw-aniolkowski/results/career-points-sprint">Sprint</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w2 bg purple left" ></div></div></div><div class="xvalue ac" >32</div><div class="xtitle" ><a  href="rider/stanislaw-aniolkowski/results/career-points-climbers">Climber</a></div></li>
-<li class=""><div class="xbar" ><div class="valuebar"><div class="w33 bg pink left" ></div></div></div><div class="xvalue ac" >484</div><div class="xtitle" ><a  href="rider/stanislaw-aniolkowski/results/hills">Hills</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w100 bg orange left" ></div></div></div><div class="xvalue ac" >1606</div><div class="xtitle" ><a  href="rider/stanislaw-aniolkowski/results/career-points-sprint">Sprint</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w2 bg purple1 left" ></div></div></div><div class="xvalue ac" >32</div><div class="xtitle" ><a  href="rider/stanislaw-aniolkowski/results/career-points-climbers">Climber</a></div></li>
+<li class=""><div class="xbar" ><div class="valuebar"><div class="w41 bg pink left" ></div></div></div><div class="xvalue ac" >666</div><div class="xtitle" ><a  href="rider/stanislaw-aniolkowski/results/hills">Hills</a></div></li>
 </ul>
 </div>
 <div class="mt5">
@@ -207,13 +193,13 @@
 </div>
 <div class="mt5">
 <ul class="list horizontal" >
-<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >203</div></li>
-<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >228</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/uci-individual">UCI World</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >149</div></li>
+<li class=""><div class="mr3" ><a  href="rankings/me/individual">PCS Ranking</a></div><div class="bg grey2 bold pad1_5 rounded2 mr5" >122</div></li>
 </ul>
 </div>
 <div class="mt5">
 <ul class="list" >
-<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-up">&#x25B2;1087</span></div><div>this week</div></li>
+<li class=""><div class="bold mr5" >Visits:</div><div class="mr5" ><span class="delta-down">&#x25BC;183</span></div><div>this week</div></li>
 </ul>
 </div>
 <div class="">
@@ -229,16 +215,16 @@
 <ul class="list topresults">
 <li><div class="nrs"><b>2x</b>&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/international-tour-of-hellas/2023/stage-4">Tour of Hellas</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
 <li><div class="nrs"><b>2x</b>&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/turul-romaniei/2019/stage-2">Turul Romaniei</a><span class="clr777 fs11">&nbsp; ('19)</span></div></li>
+<li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/tour-of-taihu-lake/2025/gc">Tour of Taihu Lake</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
 <li><div class="nrs">&nbsp; <span class="shirt st4 w14"></span></div><div class="races"><span class="blue">GC</span> <a href="race/course-cycliste-de-solidarnosc/2020/gc">Course Cycliste de Solidarnosc et des Champions Ol</a><span class="clr777 fs11">&nbsp; ('20)</span></div></li>
-<li><div class="nrs">&nbsp; <span class="shirt st4 w14"></span></div><div class="races"><span class="blue">GC</span> <a href="race/baltyk-karkonosze-tour/2020/gc">Albertina Baltyk - Karkonosze Tour</a><span class="clr777 fs11">&nbsp; ('20)</span></div></li>
 <li><div class="nrs">&nbsp; <span class="shirt st4 w14"></span></div><div class="races"><span class="blue">GC</span> <a href="race/dookola-mazowsza/2019/gc">Dookoła Mazowsza</a><span class="clr777 fs11">&nbsp; ('19)</span></div></li>
+<li><div class="nrs">&nbsp; <span class="shirt st4 w14"></span></div><div class="races"><span class="blue">GC</span> <a href="race/baltyk-karkonosze-tour/2020/gc">Albertina Baltyk - Karkonosze Tour</a><span class="clr777 fs11">&nbsp; ('20)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/giro-d-italia/2024/stage-13">Giro d'Italia</a><span class="clr777 fs11">&nbsp; ('24)</span></div></li>
 <li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue"></span> <a href="race/trofeo-palma/2025/result">Trofeo Playa de Palma - Palma</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue"></span> <a href="race/nc-poland/2020/result">National Championships Poland ME - Road Race</a><span class="clr777 fs11">&nbsp; ('20)</span></div></li>
 <li><div class="nrs">&nbsp; </div><div class="races"><span class="blue"></span> <a href="race/visegrad-4-bicycle-race-gp-slovakia/2020/result">Visegrad 4 Bicycle Race - GP Slovakia</a><span class="clr777 fs11">&nbsp; ('20)</span></div></li>
-<li><div class="nrs"><b>2x</b>&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/course-cycliste-de-solidarnosc/2019/stage-4">Course Cycliste de Solidarnosc et des Champions Ol</a><span class="clr777 fs11">&nbsp; ('20, '19)</span></div></li>
-<li><div class="nrs"><b>2x</b>&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/carpathia-couriers-paths/2019/stage-5">Carpathian Couriers Race in memory of Wacław Felcz</a><span class="clr777 fs11">&nbsp; ('19)</span></div></li>
-<li><div class="nrs">3rd&nbsp;</div><div class="races"><span class="blue">GC</span> <a href="race/international-tour-of-hellas/2023/gc">Tour of Hellas</a><span class="clr777 fs11">&nbsp; ('23)</span></div></li>
+<li><div class="nrs">2nd&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/tour-of-guangxi/2025/stage-6">Tour of Guangxi</a><span class="clr777 fs11">&nbsp; ('25)</span></div></li>
+<li><div class="nrs"><b>2x</b>&nbsp;</div><div class="races"><span class="blue">stage</span> <a href="race/course-cycliste-de-solidarnosc/2020/stage-3">Course Cycliste de Solidarnosc et des Champions Ol</a><span class="clr777 fs11">&nbsp; ('20, '19)</span></div></li>
 </ul></div>
 </div>
 <div class="borderbox right w25 mb_w100" >
@@ -248,9 +234,9 @@
 <div class="">
 <span class="table-cont">
 <ul class="rdr-teams2  "  >
-<li class="showifmob combiLine"><div class="season">2026-2027</div><div class="name2"><a class="blue" href="team/cofidis-2026">Cofidis</a> (WT)</div><div class="clear"></div></li>
-<li class="main hideifmob "><div class="season">2027</div><div class="name"><a href="team/cofidis-2027">Cofidis</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
-<li class="main hideifmob "><div class="season">2026</div><div class="name"><a href="team/cofidis-2026">Cofidis</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="showifmob combiLine"><div class="season">2026-2027</div><div class="name2"><a class="blue" href="team/cofidis-2026">Cofidis</a> (PRT)</div><div class="clear"></div></li>
+<li class="main hideifmob "><div class="season">2027</div><div class="name"><a href="team/cofidis-2027">Cofidis</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
+<li class="main hideifmob "><div class="season">2026</div><div class="name"><a href="team/cofidis-2026">Cofidis</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2025</div><div class="name"><a href="team/cofidis-2025">Cofidis</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2024</div><div class="name"><a href="team/cofidis-2024">Cofidis</a> (WT)<span class="fs10 "></span></div><div class="clear"></div></li>
 <li class="main  "><div class="season">2023</div><div class="name"><a href="team/human-powered-health-2023">Human Powered Health</a> (PRT)<span class="fs10 "></span></div><div class="clear"></div></li>
@@ -279,7 +265,7 @@
 </div>
 </div>
 <div class="borderbox left w73 mb_w100 minh400 mb_nominh" >
-<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="riderid" value="195538" /><input type="hidden" id="seo" value="stanislaw-aniolkowski" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
+<div style="height: 20px; "></div><input type="hidden" id="pageid" value="7132" /><input type="hidden" id="platform" value="7132" /><input type="hidden" id="riderid" value="195538" /><input type="hidden" id="seo" value="stanislaw-aniolkowski" /><input type="hidden" id="season" value="2025" /><input type="hidden" id="sort" value="date" /><input type="hidden" id="filter" value="all" /><input type="hidden" id="discipline" value="pcs" /><ul class="rdrSeasonNav "><li class="cur"><a class="rdrFilterSeason" data-season="2025"  href="">2025</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2024"  href="">2024</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2023"  href="">2023</a></li>
 <li class=""><a class="rdrFilterSeason" data-season="2022"  href="">2022</a></li>
@@ -292,7 +278,29 @@
 <li><a  class="rdrFilterSeason" data-season="2015" href="">2015</a></li>
 <li><a  class="rdrFilterSeason" data-season="2014" href="">2014</a></li>
 </ul></li></ul><div class="simpleDropdown" style="">SORT BY DATE<ul><li><a class="rdrFilterSort" data-sort="date" href="">DATE</a></li><li><a class="rdrFilterSort" data-sort="rnk"  href="">RESULT</a></li> <li><a class="rdrFilterSort" data-sort="pnt"  href="">PCS POINTS</a></li> </ul></div><div class="simpleDropdown" style="">NO FILTER<ul><li><a class="rdrFilterFilter" data-filter="all" href="">NO FILTER</a></li><li><a class="rdrFilterFilter" data-filter="climber" href="">CLIMBER</a></li> <li><a class="rdrFilterFilter" data-filter="hills" href="">HILLS</a></li> <li><a class="rdrFilterFilter" data-filter="sprints" href="">SPRINTS</a></li> <li><a class="rdrFilterFilter" data-filter="tts" href="">TIME TRIALS</a></li> <li><a class="rdrFilterFilter" data-filter="classics" href="">CLASSICS</a></li> </ul></div><div id="rdrResultCont"><table class="rdrResults"><thead><tr><th><br />Date</th><th><br /><span class="showIfMobile">#</span><span class="hideIfMobile">Result</span></th><th></th><th></th><th><br />Race</th><th><br />Distance</th><th>Points<br />PCS</th><th>Points<br />UCI</th><th></th></tr></thead><tbody>
-<tr class="main"><td><span class="hideIfMobile">23.08 &rsaquo; 14.09</span><span class="showIfMobile fs12">23-14/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2025/stage-20-gc"><span>La Vuelta Ciclista a España</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/vuelta-a-espana">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">14.10 &rsaquo; 19.10</span><span class="showIfMobile fs12">14-19/10</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cn"></span> <a href="race/tour-of-guangxi/2025/stage-1-gc"><span>Tour of Guangxi</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/tour-of-guangxi">more</a></td></tr>
+<tr class="stage"><td></td><td>3</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-of-guangxi/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td></td><td>78</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-guangxi/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>5</td><td></td><td></td></tr>
+<tr class="stage"><td>19.10</td><td>2</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Nanning &rsaquo; Nanning</a>  </td><td>134.3</td><td>30</td><td>25</td><td></td></tr>
+<tr class="stage"><td>18.10</td><td>106</td><td>94</td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Yizhou &rsaquo; Nongla</a>  </td><td>165.8</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>17.10</td><td>11</td><td>8</td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Bama &rsaquo; Jinchengjiang</a>  </td><td>176.8</td><td></td><td></td><td></td></tr>
+<tr class="stage"><td>16.10</td><td>4</td><td>7</td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Jingxi &rsaquo; Bama</a>  </td><td>214</td><td>13</td><td>15</td><td></td></tr>
+<tr class="stage"><td>15.10</td><td>3</td><td>6</td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Chongzuo &rsaquo; Jingxi</a>  </td><td>177.4</td><td>18</td><td>20</td><td></td></tr>
+<tr class="stage"><td>14.10</td><td>7</td><td>13</td><td><span class=""></span></td><td><a href="race/tour-of-guangxi/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Fangchenggang &rsaquo; Fangchenggang</a>  </td><td>149.4</td><td>4</td><td>6</td><td></td></tr>
+<tr class="main"><td><span class="hideIfMobile">09.10 &rsaquo; 12.10</span><span class="showIfMobile fs12">9-12/10</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag cn"></span> <a href="race/tour-of-taihu-lake/2025/stage-1-gc"><span>Tour of Taihu Lake</span> (2.Pro)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/tour-of-taihu-lake">more</a></td></tr>
+<tr class="stage"><td></td><td>2</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-of-taihu-lake/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td></td><td>2</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-of-taihu-lake/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>110</td><td>150</td><td></td></tr>
+<tr class="stage"><td>12.10</td><td>8</td><td></td><td><span class=""></span></td><td><a href="race/tour-of-taihu-lake/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Wuxi &rsaquo; Wuxi</a>  </td><td>137.5</td><td>1</td><td></td><td></td></tr>
+<tr class="stage"><td>11.10</td><td>5</td><td>2</td><td><span class=""></span></td><td><a href="race/tour-of-taihu-lake/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Huilongzhen &rsaquo; Binhan Village</a>  </td><td>79.16</td><td>4</td><td>3</td><td></td></tr>
+<tr class="stage"><td>10.10</td><td>3</td><td>2</td><td><span class=""></span></td><td><a href="race/tour-of-taihu-lake/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Suzhou Wujiang &rsaquo; Suzhou Wujiang</a>  </td><td>122</td><td>12</td><td>10</td><td></td></tr>
+<tr class="stage"><td>09.10</td><td>3</td><td>3</td><td><span class=""></span></td><td><a href="race/tour-of-taihu-lake/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Nanjing &rsaquo; Nanjing</a>  </td><td>96.5</td><td>12</td><td>10</td><td></td></tr>
+<tr class="main"><td>03.10</td><td>45</td><td></td><td><span class=""></span></td><td><span class="flag de"></span> <a href="race/munsterland-giro/2025/result"><span>Sparkassen Münsterland Giro</span> (1.Pro)</a>  </td><td>192</td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/munsterland-giro">more</a></td></tr>
+<tr class="main"><td>24.09</td><td>89</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/omloop-van-het-houtland-lichtervelde/2025/result"><span>Omloop van het Houtland</span> (1.1)</a>  </td><td>198.7</td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/omloop-van-het-houtland-lichtervelde">more</a></td></tr>
+<tr class="main"><td>21.09</td><td>4</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/gp-d-isbergues/2025/result"><span>Grand Prix d'Isbergues - Pas de Calais</span> (1.1)</a>  </td><td>201.1</td><td>32</td><td>60</td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/gp-d-isbergues">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">23.08 &rsaquo; 14.09</span><span class="showIfMobile fs12">23-14/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/vuelta-a-espana/2025/stage-1-gc"><span>La Vuelta Ciclista a España</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/vuelta-a-espana">more</a></td></tr>
+<tr class="stage"><td></td><td>93</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/vuelta-a-espana/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
+<tr class="stage"><td></td><td>152</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/vuelta-a-espana/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td>20</td><td></td><td></td></tr>
+<tr class="stage"><td>14.09</td><td>NR</td><td></td><td><span class=""></span></td><td><a href="race/vuelta-a-espana/2025/stage-21"><span class="imob">S21</span><span class="idesk">Stage 21</span> - Alalpardo &rsaquo; Madrid</a>  </td><td><s>108</s> 51</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>13.09</td><td>152</td><td>152</td><td><span class=""></span></td><td><a href="race/vuelta-a-espana/2025/stage-20"><span class="imob">S20</span><span class="idesk">Stage 20</span> - Robledo de Chavela &rsaquo; Bola del Mundo. Puerto de Navacerrada</a>  </td><td>164.8</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>12.09</td><td>15</td><td>152</td><td><span class=""></span></td><td><a href="race/vuelta-a-espana/2025/stage-19"><span class="imob">S19</span><span class="idesk">Stage 19</span> - Rueda &rsaquo; Guijuelo</a>  </td><td>161.9</td><td>1</td><td>2</td><td></td></tr>
 <tr class="stage"><td>11.09</td><td>93</td><td>152</td><td><span class="iconv3 chrono"></span></td><td><a href="race/vuelta-a-espana/2025/stage-18"><span class="imob">S18 (ITT)</span><span class="idesk">Stage 18 (ITT)</span> - Valladolid &rsaquo; Valladolid</a>  </td><td>12.2</td><td></td><td></td><td></td></tr>
@@ -313,7 +321,7 @@
 <tr class="stage"><td>25.08</td><td>174</td><td>173</td><td><span class=""></span></td><td><a href="race/vuelta-a-espana/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - San Maurizio Canavese &rsaquo; Ceres</a>  </td><td>134.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>24.08</td><td>169</td><td>161</td><td><span class=""></span></td><td><a href="race/vuelta-a-espana/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Alba &rsaquo; Limone Piemonte</a>  </td><td>159.5</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>23.08</td><td>18</td><td>21</td><td><span class=""></span></td><td><a href="race/vuelta-a-espana/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Torino-Reggia di Venaria &rsaquo; Novara</a>  </td><td>186.7</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">04.08 &rsaquo; 10.08</span><span class="showIfMobile fs12">4-10/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag pl"></span> <a href="race/tour-de-pologne/2025/stage-4-gc"><span>Tour de Pologne</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/tour-de-pologne">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">04.08 &rsaquo; 10.08</span><span class="showIfMobile fs12">4-10/8</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag pl"></span> <a href="race/tour-de-pologne/2025/stage-1-gc"><span>Tour de Pologne</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/tour-de-pologne">more</a></td></tr>
 <tr class="stage"><td>08.08</td><td>DNS</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-pologne/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Katowice &rsaquo; Zakopane</a>  </td><td>206.1</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>07.08</td><td>6</td><td>97</td><td><span class=""></span></td><td><a href="race/tour-de-pologne/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Rybnik &rsaquo; Cieszyn</a>  </td><td>201.4</td><td>7</td><td>10</td><td></td></tr>
 <tr class="stage"><td>06.08</td><td>128</td><td>120</td><td><span class=""></span></td><td><a href="race/tour-de-pologne/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Wałbrzych &rsaquo; Wałbrzych</a>  </td><td>159.3</td><td></td><td></td><td></td></tr>
@@ -326,19 +334,19 @@
 <tr class="main"><td>09.06</td><td>9</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/antwerp-port-epic/2025/result"><span>Antwerp Port Epic / Sels Trophy</span> (1.1)</a>  </td><td>182.2</td><td>16</td><td>25</td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/antwerp-port-epic">more</a></td></tr>
 <tr class="main"><td>08.06</td><td>DNF</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/brussels-cycling-classic/2025/result"><span>Brussels Cycling Classic</span> (1.Pro)</a>  </td><td>205.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/brussels-cycling-classic">more</a></td></tr>
 <tr class="main"><td>07.06</td><td>6</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/heist-op-den-berg/2025/result"><span>Heylen Vastgoed Heistse Pijl</span> (1.1)</a>  </td><td>189.5</td><td>24</td><td>40</td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/heist-op-den-berg">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">29.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">29-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag ch"></span> <a href="race/tour-de-romandie/2025/stage-1-gc"><span>Tour de Romandie</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/tour-de-romandie">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">29.04 &rsaquo; 04.05</span><span class="showIfMobile fs12">29-4/4</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag ch"></span> <a href="race/tour-de-romandie/2025/prologue-gc"><span>Tour de Romandie</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/tour-de-romandie">more</a></td></tr>
 <tr class="stage"><td>01.05</td><td>DNF</td><td></td><td><span class=""></span></td><td><a href="race/tour-de-romandie/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - La Grande Béroche &rsaquo; La Grande Béroche</a>  </td><td>157</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>30.04</td><td>17</td><td>57</td><td><span class=""></span></td><td><a href="race/tour-de-romandie/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Münchenstein &rsaquo; Fribourg</a>  </td><td>194.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>29.04</td><td>99</td><td>99</td><td><span class="iconv3 chrono"></span></td><td><a href="race/tour-de-romandie/2025/prologue"><span class="imob">Prologue</span><span class="idesk">Prologue</span> - Saint-Imier &rsaquo; Saint-Imier</a>  </td><td>3.44</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>16.04</td><td>106</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/ronde-van-limburg/2025/result"><span>Ronde van Limburg</span> (1.1)</a>  </td><td>178.6</td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/ronde-van-limburg">more</a></td></tr>
 <tr class="main"><td>13.04</td><td>45</td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-roubaix/2025/result"><span>Paris-Roubaix</span> (1.UWT)</a>  </td><td>259.2</td><td>5</td><td>15</td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/paris-roubaix">more</a></td></tr>
 <tr class="main"><td>09.04</td><td>6</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/scheldeprijs/2025/result"><span>Scheldeprijs ME</span> (1.Pro)</a>  </td><td>202.8</td><td>40</td><td>70</td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/scheldeprijs">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">24.03 &rsaquo; 30.03</span><span class="showIfMobile fs12">24-30/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/volta-a-catalunya/2025/stage-3-gc"><span>Volta Ciclista a Catalunya</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/volta-a-catalunya">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">24.03 &rsaquo; 30.03</span><span class="showIfMobile fs12">24-30/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/volta-a-catalunya/2025/stage-1-gc"><span>Volta Ciclista a Catalunya</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/volta-a-catalunya">more</a></td></tr>
 <tr class="stage"><td>27.03</td><td>DNS</td><td></td><td><span class=""></span></td><td><a href="race/volta-a-catalunya/2025/stage-4"><span class="imob">S4</span><span class="idesk">Stage 4</span> - Sant Vicenç de Castellet &rsaquo; Montserrat Mil·lenari</a>  </td><td>188.7</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>26.03</td><td>135</td><td>108</td><td><span class=""></span></td><td><a href="race/volta-a-catalunya/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Viladecans The Style Outlets &rsaquo; La Molina</a>  </td><td>218.6</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>25.03</td><td>8</td><td>50</td><td><span class=""></span></td><td><a href="race/volta-a-catalunya/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Banyoles &rsaquo; Figueres</a>  </td><td>180.5</td><td>3</td><td>6</td><td></td></tr>
 <tr class="stage"><td>24.03</td><td>60</td><td>60</td><td><span class=""></span></td><td><a href="race/volta-a-catalunya/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Sant Feliu de Guíxols &rsaquo; Sant Feliu de Guíxols</a>  </td><td>178.6</td><td></td><td></td><td></td></tr>
-<tr class="main"><td><span class="hideIfMobile">09.03 &rsaquo; 16.03</span><span class="showIfMobile fs12">9-16/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-nice/2025/stage-6-gc"><span>Paris-Nice</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/paris-nice">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">09.03 &rsaquo; 16.03</span><span class="showIfMobile fs12">9-16/3</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/paris-nice/2025/stage-1-gc"><span>Paris-Nice</span> (2.UWT)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/paris-nice">more</a></td></tr>
 <tr class="stage"><td>15.03</td><td>DNS</td><td></td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-7"><span class="imob">S7</span><span class="idesk">Stage 7</span> - Nice &rsaquo; Auron</a>  </td><td>109.3</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>14.03</td><td>100</td><td>112</td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-6"><span class="imob">S6</span><span class="idesk">Stage 6</span> - Saint-Julien-en-Saint-Alban &rsaquo; Berre l'Étang</a>  </td><td>209.8</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>13.03</td><td>107</td><td>106</td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-5"><span class="imob">S5</span><span class="idesk">Stage 5</span> - Saint-Just-en-Chevalet &rsaquo; La Côte-Saint-André (Côte de Notre-Dame-de-Sciez)</a>  </td><td>203.3</td><td></td><td></td><td></td></tr>
@@ -347,7 +355,7 @@
 <tr class="stage"><td>10.03</td><td>15</td><td>16</td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-2"><span class="imob">S2</span><span class="idesk">Stage 2</span> - Montesson &rsaquo; Bellegarde</a>  </td><td>183.9</td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>09.03</td><td>11</td><td>14</td><td><span class=""></span></td><td><a href="race/paris-nice/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Le Perray-en-Yvelines &rsaquo; Le Perray-en-Yvelines</a>  </td><td>156.1</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>02.03</td><td>46</td><td></td><td><span class=""></span></td><td><span class="flag be"></span> <a href="race/kuurne-brussel-kuurne/2025/result"><span>Kuurne - Brussel - Kuurne</span> (1.Pro)</a>  </td><td>196.9</td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/kuurne-brussel-kuurne">more</a></td></tr>
-<tr class="main"><td><span class="hideIfMobile">14.02 &rsaquo; 16.02</span><span class="showIfMobile fs12">14-16/2</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-cycliste-international-la-provence/2025/stage-2-gc"><span>Tour de la Provence</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/tour-cycliste-international-la-provence">more</a></td></tr>
+<tr class="main"><td><span class="hideIfMobile">14.02 &rsaquo; 16.02</span><span class="showIfMobile fs12">14-16/2</span></td><td></td><td></td><td><span class=""></span></td><td><span class="flag fr"></span> <a href="race/tour-cycliste-international-la-provence/2025/stage-1-gc"><span>Tour de la Provence</span> (2.1)</a>  </td><td></td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/tour-cycliste-international-la-provence">more</a></td></tr>
 <tr class="stage"><td></td><td>26</td><td></td><td><span class="icon shirt w14 st5"></span></td><td><a href="race/tour-cycliste-international-la-provence/2025/points"><span class="imob">Points classification</span><span class="idesk">Points classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td></td><td>88</td><td></td><td><span class="icon shirt w14 st4"></span></td><td><a href="race/tour-cycliste-international-la-provence/2025/gc"><span class="imob">General classification</span><span class="idesk">General classification</span></a>  </td><td></td><td></td><td></td><td></td></tr>
 <tr class="stage"><td>16.02</td><td>10</td><td></td><td><span class=""></span></td><td><a href="race/tour-cycliste-international-la-provence/2025/stage-3"><span class="imob">S3</span><span class="idesk">Stage 3</span> - Rognac &rsaquo; Arles</a>  </td><td>190.6</td><td></td><td></td><td></td></tr>
@@ -355,7 +363,7 @@
 <tr class="stage"><td>14.02</td><td>98</td><td>98</td><td><span class=""></span></td><td><a href="race/tour-cycliste-international-la-provence/2025/stage-1"><span class="imob">S1</span><span class="idesk">Stage 1</span> - Marseille &rsaquo; Saint-Victoret</a>  </td><td>169.3</td><td></td><td></td><td></td></tr>
 <tr class="main"><td>02.02</td><td>2</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/trofeo-palma/2025/result"><span>Trofeo Palma</span> (1.1)</a>  </td><td>149.9</td><td>55</td><td>85</td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/trofeo-palma">more</a></td></tr>
 <tr class="main"><td>30.01</td><td>30</td><td></td><td><span class=""></span></td><td><span class="flag es"></span> <a href="race/trofeo-ses-salines-felanitx/2025/result"><span>Trofeo Ses Salines</span> (1.1)</a>  </td><td>184.5</td><td></td><td></td><td><a class="fs10" href="rider-in-race/stanislaw-aniolkowski/trofeo-ses-salines-felanitx">more</a></td></tr>
-</tbody></table><div class="rdrSeasonSum"><div>8451 km in <b>55</b> days | PCS points: <b>211</b> | UCI points: <b>342</b></div></div></div><div class="mt10 ar">
+</tbody></table><div class="rdrSeasonSum"><div>10547 km in <b>69</b> days | PCS points: <b>472</b> | UCI points: <b>641</b></div></div></div><div class="mt10 ar">
 <div class="fs10 clr777 "><span class="svg_shield"></span> = number of kilometres in a group before the peloton</div>
 </div>
 <div class="mt10 ar">
@@ -370,13 +378,13 @@
 <th class="w67 ">Points</th>
 <th class="w17 fs11 ">#</th>
 </tr></thead><tbody>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-09-14&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w52 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l52"  style="height: 12px; line-height: 12px; " >211</div></div></td><td class="fs11 " >256</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >326</div></div></td><td class="fs11 " >209</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w55 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l55"  style="height: 12px; line-height: 12px; " >225</div></div></td><td class="fs11 " >281</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w64 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l64"  style="height: 12px; line-height: 12px; " >260</div></div></td><td class="fs11 " >239</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w69 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l69"  style="height: 12px; line-height: 12px; " >281</div></div></td><td class="fs11 " >197</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2020-12-31&filter=1&p=me&s=season-individual">2020</a></td><td><div class="valuebar"><div class="w35 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l35"  style="height: 12px; line-height: 12px; " >143</div></div></td><td class="fs11 " >240</td></tr>
-<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w47 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l47"  style="height: 12px; line-height: 12px; " >193</div></div></td><td class="fs11 " >346</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2025-11-08&filter=1&p=me&s=season-individual">2025</a></td><td><div class="valuebar"><div class="w80 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l80"  style="height: 12px; line-height: 12px; " >472</div></div></td><td class="fs11 " >122</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2024-12-31&filter=1&p=me&s=season-individual">2024</a></td><td><div class="valuebar"><div class="w55 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l55"  style="height: 12px; line-height: 12px; " >326</div></div></td><td class="fs11 " >209</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2023-12-31&filter=1&p=me&s=season-individual">2023</a></td><td><div class="valuebar"><div class="w38 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l38"  style="height: 12px; line-height: 12px; " >225</div></div></td><td class="fs11 " >281</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2022-12-31&filter=1&p=me&s=season-individual">2022</a></td><td><div class="valuebar"><div class="w44 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l44"  style="height: 12px; line-height: 12px; " >260</div></div></td><td class="fs11 " >239</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2021-12-31&filter=1&p=me&s=season-individual">2021</a></td><td><div class="valuebar"><div class="w48 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l48"  style="height: 12px; line-height: 12px; " >281</div></div></td><td class="fs11 " >197</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2020-12-31&filter=1&p=me&s=season-individual">2020</a></td><td><div class="valuebar"><div class="w24 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l24"  style="height: 12px; line-height: 12px; " >143</div></div></td><td class="fs11 " >240</td></tr>
+<tr class=""><td class="fs11 " ><a  href="rankings.php?date=2019-12-31&filter=1&p=me&s=season-individual">2019</a></td><td><div class="valuebar"><div class="w33 bg green2 left"  style="height: 12px; line-height: 12px; " ></div><div class="title l33"  style="height: 12px; line-height: 12px; " >193</div></div></td><td class="fs11 " >346</td></tr>
 </tbody></table></div>
 <div class="mt20">
 <h4>H2H Suggestions</h4><ul class="list" >
@@ -453,9 +461,9 @@
 <li><a href="info/cookie-policy">Cookie policy</a></li>
 <li><a href="info/sitemap">Sitemap</a></li>
 <li><a href="info/contributions">Contributions</a></li>
-<li><span>Pageload 0.0691s</span></li>
+<li><span>Pageload 0.0851s</span></li>
 </ul></li></ul></div></div></body>
 </html>
-<script src="search_list22.js"></script><script>
+<script src="search_list23.js"></script><script>
 var riderid = 195538;		$(document).ready(function() { 	RVC(riderid);  	  });
 </script>
