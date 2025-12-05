@@ -114,6 +114,8 @@ class PCSTeamsScraper(
         )
     }
 
-    private fun buildURL(path: String): URL =
-        URI(pcsUrl).resolve("/").resolve(path.trim()).toURL()
+    private fun buildURL(path: String): URL {
+        val uri = URI(pcsUrl).resolve("/").resolve(path)
+        return URL(uri.toASCIIString())
+    }
 }
