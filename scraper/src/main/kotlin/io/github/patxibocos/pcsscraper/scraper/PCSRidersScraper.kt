@@ -126,8 +126,10 @@ class PCSRidersScraper(
         )
     }
 
-    private fun buildURL(path: String): URL =
-        URI(pcsUrl).resolve("/").resolve(path).toURL()
+    private fun buildURL(path: String): URL {
+        val uri = URI(pcsUrl).resolve("/").resolve(path)
+        return URL(uri.toASCIIString())
+    }
 }
 
 private data class TeamRiders(val teamName: String, val riderIdsToNames: List<Pair<String, String>>)
