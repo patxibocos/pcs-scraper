@@ -35,22 +35,16 @@ class PCSTeamsScraper(
     }
 
     private suspend fun getTeam(teamUrl: String, season: Int): PCSTeam {
-        // For some reason the URL on teams page is wrong
-        val teamUrl = if (teamUrl == "team/q365-pro-cycing-team-2025") {
-            "team/q365-pro-cycling-team-2025"
-        } else {
-            teamUrl
-        }
         val teamURL = buildURL(teamUrl)
         val teamDoc = docFetcher.getDoc(teamURL) { relaxed = true }
         val status: String
         val abbreviation: String
         val bike: String
         // Workaround because currently this section is missing for this team
-        if (teamUrl == "team/q365-pro-cycling-team-2025") {
+        if (teamUrl == "team/solution-tech-nippo-rali-2026") {
             status = "PRT"
-            abbreviation = "Q36"
-            bike = "SCOTT"
+            abbreviation = "TFT"
+            bike = ""
         } else {
             val infoList = teamDoc.ul { withClass = "infolist"; this }
             status = infoList.findFirst("li").findSecond("div").ownText
@@ -61,9 +55,6 @@ class PCSTeamsScraper(
             ?.a { findFirst { attribute("href") } }
 
         fun getJerseyImageFromUci(): String {
-            if (abbreviation == "WB2") {
-                return "https://www.procyclingstats.com/images/shirts/bx/eb/wagner-bazin-wb-2025-n2.png"
-            }
             val uciCategory = when (status) {
                 "WT" -> "WTT"
                 "PRT" -> "PRT"
