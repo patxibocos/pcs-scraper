@@ -41,9 +41,9 @@ class PCSTeamsScraper(
         val abbreviation: String
         val bike: String
         // Workaround because currently this section is missing for this team
-        if (teamUrl == "team/solution-tech-nippo-rali-2026") {
-            status = "PRT"
-            abbreviation = "TFT"
+        if (teamUrl == "team/lotto-intermarche-2026") {
+            status = "WT"
+            abbreviation = "LOI"
             bike = ""
         } else {
             val infoList = teamDoc.ul { withClass = "infolist"; this }
