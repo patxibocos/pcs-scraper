@@ -422,11 +422,8 @@ class PCSRacesScraper(
                 else -> placeName.substring(placeName.indexOf(")") + 1, placeName.lastIndexOf("(") - 1).trim()
             }
             val distance = if (placeName.endsWith(")")) {
-                var index = placeName.lastIndexOf(") km)")
-                if (index == -1) {
-                    index = placeName.lastIndexOf("km)")
-                }
-                placeName.substring(placeName.lastIndexOf("(") + 1, index).trim().toFloat()
+                val distanceRegex = """(\d+\.?\d*)\s*km\)$""".toRegex()
+                distanceRegex.find(placeName)?.groupValues?.get(1)?.toFloatOrNull() ?: stageDistance
             } else {
                 stageDistance
             }
