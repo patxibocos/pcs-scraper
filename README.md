@@ -50,3 +50,7 @@ We can see there are a few arguments that can be passed in:
 - **skipCache**: Ignore cache to force the remote fetching.
 - **scrapTimeout**: Timeout before stopping the scraping (ISO-8601 format or value returned by [Duration.toString](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.time/-duration/to-string.html)).
 - **retryDelay**: Time to wait between doc fetching retry attempts (ISO-8601 format or value returned by [Duration.toString](https://kotlinlang.org/api/latest/jvm/stdlib/kotlin.time/-duration/to-string.html)).
+
+## Links
+
+[![Hypercommit](https://img.shields.io/badge/Hypercommit-DB2475)](https://hypercommit.com/pcs-scraper)
