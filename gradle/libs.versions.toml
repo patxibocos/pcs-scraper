@@ -12,7 +12,7 @@ kotlin-jvm = { id = "org.jetbrains.kotlin.jvm", version.ref = "kotlin" }
 kotlin-serialization = { id = "org.jetbrains.kotlin.plugin.serialization", version.ref = "kotlin" }
 spotless = { id = "com.diffplug.spotless", version = "8.8.0" }
 google-protobuf = { id = "com.google.protobuf", version = "0.10.0" }
-shadow = { id = "com.gradleup.shadow", version = "9.5.1" }
+shadow = { id = "com.gradleup.shadow", version = "9.6.0" }
 
 [libraries]
 aws-kotlin-s3 = "aws.sdk.kotlin:s3:1.8.7"
