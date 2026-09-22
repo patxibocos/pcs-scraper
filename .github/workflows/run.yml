@@ -35,7 +35,7 @@ jobs:
         uses: actions/setup-java@v6
         with:
           distribution: 'temurin'
-          java-version: '19'
+          java-version: '25'
 
       - name: Set GOOGLE_APPLICATION_CREDENTIALS environment variable
         run: |
